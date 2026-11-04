@@ -85,7 +85,7 @@ function compactColumn(label) {
     .replace(/Level Required/g, "lvl").replace(/ Level\b/g, " lvl")
     .replace(/^(?:Research|Build|Upgrade) Time$/, "Time").replace(/Experience Gained/g, "XP")
     .replace(/Movement Speed/g, "Move speed").replace(/Increase/gi, "+")
-    .replace(/Maximum/g, "Max").replace(/Number of /g, "");
+    .replace(/Maximum/g, "Max").replace(/Number of /g, "").replace(/Health Recovery/g, "Healing");
 }
 function columnHeader(label, resource = "") {
   const names = resource ? resource.split(" / ") : [];
@@ -382,7 +382,7 @@ function reviewUnit(cat, u) {
   const selectableRow = (t, r) => isUpgradeTable(t) && /^charge/i.test(t.columns[0]) === /^charge/i.test(table?.columns[0] || "") && levels.includes(r[0]);
   const renderTable = (t) => {
     const order = tableColumnOrder(t.columns);
-    return `<h3 class="sec">${esc(tableTitle(t, cat))}</h3><div class="tblwrap"><table><thead><tr>${order.map((i) => columnHeader(t.columns[i])).join("")}</tr></thead><tbody>${t.rows.map((r) => `<tr ${selectableRow(t, r) ? `data-review-level="${esc(r[0])}"` : ""} class="${selectableRow(t, r) && r[0] === selected ? "sel " : ""}${reviewRowHall(u, t, r) > reviewHall(cat) ? "over" : ""}">${order.map((i) => `<td${/cost/i.test(t.columns[i]) ? ' class="cost"' : ''}>${esc(r[i] ?? "")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+    return `<h3 class="sec">${esc(tableTitle(t, cat))}</h3>${t.note ? `<p class="note">${esc(t.note)}</p>` : ""}<div class="tblwrap"><table><thead><tr>${order.map((i) => columnHeader(t.columns[i])).join("")}</tr></thead><tbody>${t.rows.map((r) => `<tr ${selectableRow(t, r) ? `data-review-level="${esc(r[0])}"` : ""} class="${selectableRow(t, r) && r[0] === selected ? "sel " : ""}${reviewRowHall(u, t, r) > reviewHall(cat) ? "over" : ""}">${order.map((i) => `<td${/cost/i.test(t.columns[i]) ? ' class="cost"' : ''}>${esc(r[i] ?? "")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
   };
   if (S.tab === "images") {
     html += `<div class="imgs-list">${galleryEntries(u).map((i) => `<figure class="${i.level === +selected ? "sel" : ""}">${img(i.url, `${u.n}: ${i.label}`)}<figcaption>${esc(i.label)}</figcaption></figure>`).join("")}</div>`;

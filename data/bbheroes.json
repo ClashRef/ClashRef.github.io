@@ -941,7 +941,7 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Bomb Rush charging",
           "columns": [
             "Ability Cooldown",
             "Movement Speed during Ability"
@@ -954,142 +954,71 @@
           ]
         },
         {
-          "heading": "Charge Level 1 / Charge Level 1",
-          "columns": [
-            "Damage Type"
-          ],
-          "rows": [
-            [
-              "Splash - 0.5 tiles"
-            ]
-          ]
-        },
-        {
-          "heading": "Charge Level 1 / Charge Level 1",
+          "heading": "Bomb Rush by ability level",
+          "note": "Splash radius: charge 1 = 0.5 tiles; charge 2 = 2 tiles; charge 3 = 4 tiles. Swipe sideways to compare damage and healing.",
           "columns": [
             "Ability Level",
-            "Damage",
-            "Health Recovery"
+            "Damage (charge 1)",
+            "Damage (charge 2)",
+            "Damage (charge 3)",
+            "Health Recovery (charge 1)",
+            "Health Recovery (charge 2)",
+            "Health Recovery (charge 3)"
           ],
           "rows": [
             [
               "1",
               "179",
-              "550"
-            ],
-            [
-              "2",
-              "209",
-              "575"
-            ],
-            [
-              "3",
-              "239",
-              "600"
-            ],
-            [
-              "4",
-              "279",
-              "625"
-            ],
-            [
-              "5",
-              "319",
-              "650"
-            ]
-          ]
-        },
-        {
-          "heading": "Charge Level 2 / Charge Level 2",
-          "columns": [
-            "Damage Type"
-          ],
-          "rows": [
-            [
-              "Splash - 2 tiles"
-            ]
-          ]
-        },
-        {
-          "heading": "Charge Level 2 / Charge Level 2",
-          "columns": [
-            "Ability Level",
-            "Damage",
-            "Health Recovery"
-          ],
-          "rows": [
-            [
-              "1",
               "274",
-              "1,100"
-            ],
-            [
-              "2",
-              "320",
-              "1,150"
-            ],
-            [
-              "3",
-              "365",
-              "1,200"
-            ],
-            [
-              "4",
-              "426",
-              "1,250"
-            ],
-            [
-              "5",
-              "487",
-              "1,300"
-            ]
-          ]
-        },
-        {
-          "heading": "Charge Level 3 / Charge Level 3",
-          "columns": [
-            "Damage Type"
-          ],
-          "rows": [
-            [
-              "Splash - 4 tiles"
-            ]
-          ]
-        },
-        {
-          "heading": "Charge Level 3 / Charge Level 3",
-          "columns": [
-            "Ability Level",
-            "Damage",
-            "Health Recovery"
-          ],
-          "rows": [
-            [
-              "1",
               "368",
+              "550",
+              "1,100",
               "1,650"
             ],
             [
               "2",
+              "209",
+              "320",
               "430",
+              "575",
+              "1,150",
               "1,725"
             ],
             [
               "3",
+              "239",
+              "365",
               "491",
+              "600",
+              "1,200",
               "1,800"
             ],
             [
               "4",
+              "279",
+              "426",
               "573",
+              "625",
+              "1,250",
               "1,875"
             ],
             [
               "5",
+              "319",
+              "487",
               "655",
+              "650",
+              "1,300",
               "1,950"
             ]
-          ]
+          ],
+          "hallByLevel": {
+            "1": 8,
+            "2": 8,
+            "3": 8,
+            "4": 9,
+            "5": 10
+          }
         }
       ],
       "images": [
@@ -1100,8 +1029,7 @@
       ],
       "unverified": [
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+        "Bomb Rush movement speed is listed as 56? by the wiki and remains unverified."
       ],
       "hallByLevel": {
         "15": 8,
@@ -1125,6 +1053,12 @@
         "33": 10,
         "34": 10,
         "35": 10
+      },
+      "abilityTableVerification": {
+        "checked": "2026-11-03",
+        "source": "https://clashofclans.fandom.com/wiki/Battle_Copter",
+        "rawWikitextSha256": "c8ed003aa5e091f45460f8037f7334c14b64f50fdb710571b24db96d6b3e9bf2",
+        "method": "Joined charge 1, 2 and 3 source tables by ability level. All 30 damage/healing values preserved. Splash radii checked in each charge section; BH unlocks derived from the hero upgrade table."
       }
     }
   ],

@@ -118,6 +118,15 @@ const root = path.resolve(__dirname, '..');
     },count);
     assert.equal(await page.locator('.floating-table-header').isVisible(),count>=5,`${count} data rows at ${width}px`);
    }
+   await page.evaluate(()=>location.hash='#/c/bbheroes/Battle%20Copter');
+   await page.waitForFunction(()=>document.querySelector('#title').textContent==='Battle Copter');
+   const ability=page.locator('.tblwrap').filter({has:page.locator('th[aria-label="Damage (charge 1)"]')});
+   await ability.waitFor();
+   assert.equal(await ability.locator('thead th').count(),7);
+   assert.equal(await ability.locator('tbody tr').count(),5);
+   assert.deepEqual(await ability.locator('tbody tr').first().locator('td').allTextContents(),['1','179','274','368','550','1,100','1,650']);
+   assert((await page.locator('#app').innerText()).includes('Splash radius: charge 1 = 0.5 tiles; charge 2 = 2 tiles; charge 3 = 4 tiles.'));
+   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Combined ability table scrolls inside its wrapper');
    await page.close();
   }
   console.log('UTF-8 text, scrolled TH dropdown, sticky headers, horizontal alignment and table-end cleanup passed at 320/390/760px.');

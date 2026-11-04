@@ -304,5 +304,15 @@ function context(search, savedTH = null) {
  }
  vm.runInContext("S.tab='info'; unitView(testCat,testUnit)",ctx);
  assert(html().indexOf('Hero Banner availability')<html().indexOf('class="info-details"'),'Banner unlock progression is visible in Info');
+ ctx.testCat=JSON.parse(fs.readFileSync(path.join(root,'data/bbheroes.json')));
+ ctx.testUnit=ctx.testCat.units.find(u=>u.n==='Battle Copter');
+ const bombRush=ctx.testUnit.tables.find(t=>t.heading==='Bomb Rush by ability level');
+ assert.deepEqual(bombRush.rows,[['1','179','274','368','550','1,100','1,650'],['2','209','320','430','575','1,150','1,725'],['3','239','365','491','600','1,200','1,800'],['4','279','426','573','625','1,250','1,875'],['5','319','487','655','650','1,300','1,950']]);
+ vm.runInContext("localStorage.getItem=(key)=>key==='cr.bh'?'8':null; S.tab='stats'; unitView(testCat,testUnit)",ctx);
+ const abilitySection=html().split('Bomb Rush by ability level')[1];
+ assert(abilitySection.includes('0.5 tiles')&&abilitySection.includes('2 tiles')&&abilitySection.includes('4 tiles'));
+ assert.equal((abilitySection.match(/class="over"/g)||[]).length,2,'Ability levels 4 and 5 require later Builder Halls');
+ assert(!abilitySection.includes('data-review-level'),'Ability levels do not select hero upgrade levels');
+ assert(!html().includes('Charge Level 1 / Charge Level 1'),'Separate charge tables removed');
  console.log(`Preview access controls and all four tabs passed for ${count} entities; 16 approved categories published.`);
 })().catch(e=>{console.error(e);process.exit(1);});
