@@ -296,9 +296,9 @@ function context(search, savedTH = null) {
  for(const [th,qty] of [[1,0],[4,0],[6,0],[7,1],[8,1],[9,2],[10,2],[11,3],[12,3],[13,4],[18,4]]) {
   vm.runInContext(`S.th=${th}; catView(testCat)`,ctx);
   const card=html().split('href="#/c/army/Hero%20Banner"')[1].split('</a>')[0];
-  assert(card.includes(`Qty ${qty}`),`Hero Banner quantity at TH${th}`);
+  assert(card.includes(qty ? `Qty ${qty}` : "Unlock at TH 7"),`Hero Banner quantity at TH${th}`);
   vm.runInContext("S.tab='stats'; unitView(testCat,testUnit)",ctx);
-  assert(html().includes(`Qty ${qty}`)&&html().includes('Hero Hall Level Required')&&html().includes('Town Hall Level Required'));
+  assert((html().includes(qty ? `Qty ${qty}` : "Unlocks at TH 7"))&&html().includes('Hero Hall Level Required')&&html().includes('Town Hall Level Required'));
   assert(!html().includes('id="lvUp"'),'Banners have quantities, not upgrade levels');
   assert.equal((html().match(/class="over"/g)||[]).length,ctx.testUnit.tables[0].rows.filter(r=>+r[2]>th).length);
  }
@@ -320,9 +320,9 @@ function context(search, savedTH = null) {
   for(let bh=1;bh<=10;bh++) {
    vm.runInContext(`localStorage.getItem=key=>key==='cr.bh'?'${bh}':null; catView(testCat)`,ctx);
    const card=html().split(`href="#/c/bbbuildings/${encodeURIComponent(name)}"`)[1].split('</a>')[0];
-   assert(card.includes(`Qty ${expected[bh-1]}`),`${name} quantity at BH${bh}`);
+   assert(card.includes(expected[bh-1] ? `Qty ${expected[bh-1]}` : "Unlock at BH 6"),`${name} quantity at BH${bh}`);
    vm.runInContext("S.tab='max'; unitView(testCat,testUnit)",ctx);
-   assert(html().includes(`Qty ${expected[bh-1]}</b> at BH${bh}`));
+   assert(html().includes(expected[bh-1] ? `Qty ${expected[bh-1]}</b> at BH${bh}` : "Unlocks at BH 6"));
    assert(!html().includes('Hero Banners unlock')&&html().includes('construction costs'));
   }
  }

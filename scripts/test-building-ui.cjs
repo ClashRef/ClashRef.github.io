@@ -46,8 +46,8 @@ function expectedImage(u, level, hall) {
               const level = max || Math.min(...Object.keys(u.hallByLevel || {1: 1}).map(Number));
               assert.equal(await tile.locator('img').getAttribute('src'), expectedImage(u, level, hall), `${id}/${u.n} hall ${hall}`);
               const unlock = u.hallByLevel ? Math.min(...Object.values(u.hallByLevel)) : u.unlockHall;
-              if (unlock > hall && !u.quantityByHall) assert((await tile.innerText()).includes(`Unlock at ${id.startsWith('bb') ? 'BH' : 'TH'} ${unlock}`));
-              if (u.quantityByHall) assert((await tile.innerText()).includes(`Qty ${Math.max(0,...Object.entries(u.quantityByHall).filter(([h])=>+h<=hall).map(([,q])=>q))}`));
+              if (unlock > hall) assert((await tile.innerText()).includes(`Unlock at ${id.startsWith('bb') ? 'BH' : 'TH'} ${unlock}`));
+              if (u.quantityByHall && hall >= unlock) assert((await tile.innerText()).includes(`Qty ${Math.max(0,...Object.entries(u.quantityByHall).filter(([h])=>+h<=hall).map(([,q])=>q))}`));
               assert.equal(await tile.locator('.full-max').count(), max > 0 && max === Math.max(...Object.keys(u.hallByLevel).map(Number)) && !(u.removedAtTH && hall >= u.removedAtTH) ? 1 : 0);
             }
             const failures = await page.locator('.tile.building').evaluateAll(cards => cards.flatMap(card => {
