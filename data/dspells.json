@@ -1,0 +1,1085 @@
+{
+  "id": "dspells",
+  "label": "Dark Spells",
+  "format": "wiki-review-v1",
+  "updated": "2026-11-03",
+  "units": [
+    {
+      "n": "Poison Spell",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/4/49/Poison_Spell_info.png/revision/latest?cb=20171008204511",
+      "source": "https://clashofclans.fandom.com/wiki/Poison_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Radius",
+            "Spell Duration",
+            "Damage Type",
+            "Housing Space",
+            "Targets",
+            "Dark Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "4 tiles",
+              "16 Seconds",
+              "Area Splash",
+              "1",
+              "Ground & Air",
+              "1"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Max damage per second",
+            "Speed Decrease",
+            "Attack Rate Decrease",
+            "Research Cost (Dark Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "90",
+              "26%",
+              "35%",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "115",
+              "30%",
+              "40%",
+              "5,000",
+              "6h",
+              "6"
+            ],
+            [
+              "3",
+              "145",
+              "34%",
+              "45%",
+              "10,000",
+              "18h",
+              "7"
+            ],
+            [
+              "4",
+              "180",
+              "38%",
+              "50%",
+              "21,500",
+              "2d",
+              "8"
+            ],
+            [
+              "5",
+              "220",
+              "40%",
+              "55%",
+              "35,000",
+              "3d",
+              "9"
+            ],
+            [
+              "6",
+              "260",
+              "42%",
+              "60%",
+              "55,000",
+              "4d",
+              "10"
+            ],
+            [
+              "7",
+              "280",
+              "44%",
+              "65%",
+              "77,500",
+              "5d",
+              "11"
+            ],
+            [
+              "8",
+              "300",
+              "46%",
+              "68%",
+              "100,000",
+              "6d 12h",
+              "12"
+            ],
+            [
+              "9",
+              "320",
+              "48%",
+              "70%",
+              "135,000",
+              "7d",
+              "13"
+            ],
+            [
+              "10",
+              "340",
+              "50%",
+              "72%",
+              "175,000",
+              "8d",
+              "14"
+            ],
+            [
+              "11",
+              "360",
+              "51%",
+              "73%",
+              "230,000",
+              "9d 16h",
+              "15"
+            ],
+            [
+              "12",
+              "380",
+              "52%",
+              "74%",
+              "350,000",
+              "14d 12h",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Poison Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/49/Poison_Spell_info.png/revision/latest?cb=20171008204511"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 9,
+        "4": 10,
+        "5": 11,
+        "6": 12,
+        "7": 13,
+        "8": 14,
+        "9": 15,
+        "10": 16,
+        "11": 17,
+        "12": 18
+      },
+      "iconVerification": {
+        "file": "File:Poison Spell info.png",
+        "width": 166,
+        "height": 166,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Poison_Spell"
+      }
+    },
+    {
+      "n": "Earthquake Spell",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/3/3f/Earthquake_Spell_info.png/revision/latest?cb=20200913194420",
+      "source": "https://clashofclans.fandom.com/wiki/Earthquake_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Damage Type",
+            "Housing Space",
+            "Targets",
+            "Favorite Target",
+            "Dark Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "Area Splash",
+              "1",
+              "Buildings & Walls",
+              "Walls",
+              "2"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Building Damage %",
+            "Troop Damage %",
+            "Radius",
+            "Research Cost (Dark Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "14.5%*",
+              "N/A",
+              "3.5 tiles",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "17%",
+              "N/A",
+              "3.8 tiles",
+              "6,000",
+              "12h",
+              "6"
+            ],
+            [
+              "3",
+              "21%",
+              "N/A",
+              "4.1 tiles",
+              "12,000",
+              "1d",
+              "7"
+            ],
+            [
+              "4",
+              "25%",
+              "N/A",
+              "4.4 tiles",
+              "25,500",
+              "3d",
+              "8"
+            ],
+            [
+              "5",
+              "29%",
+              "N/A",
+              "4.7 tiles",
+              "42,000",
+              "3d 12h",
+              "9"
+            ],
+            [
+              "6",
+              "29%",
+              "5%",
+              "4.7 tiles",
+              "120,000",
+              "8d",
+              "12"
+            ],
+            [
+              "7",
+              "29%",
+              "10%",
+              "4.7 tiles",
+              "200,000",
+              "9d",
+              "14"
+            ],
+            [
+              "8",
+              "29%",
+              "14.5%*",
+              "4.7 tiles",
+              "330,000",
+              "13d 12h",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Earthquake Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3f/Earthquake_Spell_info.png/revision/latest?cb=20200913194420"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 9,
+        "4": 10,
+        "5": 11,
+        "6": 14,
+        "7": 16,
+        "8": 18
+      },
+      "iconVerification": {
+        "file": "File:Earthquake Spell info.png",
+        "width": 166,
+        "height": 166,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Earthquake_Spell"
+      }
+    },
+    {
+      "n": "Haste Spell",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/b/be/Haste_Spell_info.png/revision/latest?cb=20171008204612",
+      "source": "https://clashofclans.fandom.com/wiki/Haste_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Effect Type",
+            "Housing Space",
+            "Targets",
+            "Dark Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "Area Splash",
+              "1",
+              "Ground & Air",
+              "3"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Speed Increase",
+            "Spell Duration",
+            "Radius",
+            "Research Cost (Dark Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "28",
+              "10 seconds",
+              "4 tiles",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "34",
+              "15 seconds",
+              "4 tiles",
+              "8,000",
+              "1d",
+              "7"
+            ],
+            [
+              "3",
+              "40",
+              "20 seconds",
+              "4 tiles",
+              "17,000",
+              "2d",
+              "8"
+            ],
+            [
+              "4",
+              "46",
+              "25 seconds",
+              "4 tiles",
+              "30,000",
+              "3d",
+              "8"
+            ],
+            [
+              "5",
+              "52",
+              "30 seconds",
+              "4 tiles",
+              "38,500",
+              "4d",
+              "9"
+            ],
+            [
+              "6",
+              "56",
+              "30 seconds",
+              "4 tiles",
+              "200,000",
+              "9d",
+              "15"
+            ],
+            [
+              "7",
+              "56",
+              "30 seconds",
+              "5 tiles",
+              "320,000",
+              "12d 12h",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Haste Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/be/Haste_Spell_info.png/revision/latest?cb=20171008204612"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 9,
+        "2": 9,
+        "3": 10,
+        "4": 10,
+        "5": 11,
+        "6": 17,
+        "7": 18
+      },
+      "iconVerification": {
+        "file": "File:Haste Spell info.png",
+        "width": 166,
+        "height": 166,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Haste_Spell"
+      }
+    },
+    {
+      "n": "Skeleton Spell",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/0/0f/Skeleton_Spell_info.png/revision/latest?cb=20181211010022",
+      "source": "https://clashofclans.fandom.com/wiki/Skeleton_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Radius",
+            "Housing Space",
+            "Targets",
+            "Dark Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "3.5 tiles",
+              "1",
+              "Ground",
+              "4"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Movement Speed",
+            "Attack Speed",
+            "Range",
+            "Damage per Second",
+            "Hitpoints",
+            "Armor Hitpoints"
+          ],
+          "rows": [
+            [
+              "None",
+              "Melee (Ground Only)",
+              "24",
+              "1s",
+              "0.4 tiles",
+              "25",
+              "30",
+              "30"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Skeletons generated",
+            "Research Cost (Dark Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "12",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "13",
+              "11,000",
+              "12h",
+              "8"
+            ],
+            [
+              "3",
+              "14",
+              "17,000",
+              "1d",
+              "8"
+            ],
+            [
+              "4",
+              "15",
+              "25,000",
+              "2d",
+              "9"
+            ],
+            [
+              "5",
+              "16",
+              "40,000",
+              "2d 12h",
+              "10"
+            ],
+            [
+              "6",
+              "17",
+              "50,000",
+              "3d",
+              "10"
+            ],
+            [
+              "7",
+              "18",
+              "75,000",
+              "4d",
+              "11"
+            ],
+            [
+              "8",
+              "19",
+              "135,000",
+              "6d",
+              "13"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Skeleton Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0f/Skeleton_Spell_info.png/revision/latest?cb=20181211010022"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 9,
+        "2": 10,
+        "3": 10,
+        "4": 11,
+        "5": 12,
+        "6": 12,
+        "7": 13,
+        "8": 15
+      },
+      "iconVerification": {
+        "file": "File:Skeleton Spell info.png",
+        "width": 166,
+        "height": 166,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Skeleton_Spell"
+      }
+    },
+    {
+      "n": "Bat Spell",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/3/3d/Bat_Spell_info.png/revision/latest?cb=20181205010820",
+      "source": "https://clashofclans.fandom.com/wiki/Bat_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Radius",
+            "Housing Space",
+            "Targets",
+            "Dark Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "3.5 tiles",
+              "1",
+              "Defenses",
+              "5"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Movement Speed",
+            "Attack Speed",
+            "Range",
+            "Damage per Second",
+            "Damage vs. Rescources",
+            "Hitpoints"
+          ],
+          "rows": [
+            [
+              "Defenses",
+              "Air",
+              "56",
+              "2s",
+              "0.8 Tiles",
+              "30",
+              "x0.4",
+              "20"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Bats generated",
+            "Research Cost (Dark Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "7",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "9",
+              "13,000",
+              "18h",
+              "8"
+            ],
+            [
+              "3",
+              "11",
+              "25,500",
+              "1d 12h",
+              "8"
+            ],
+            [
+              "4",
+              "16",
+              "35,000",
+              "2d 6h",
+              "9"
+            ],
+            [
+              "5",
+              "21",
+              "47,500",
+              "4d",
+              "10"
+            ],
+            [
+              "6",
+              "22",
+              "140,000",
+              "7d",
+              "13"
+            ],
+            [
+              "7",
+              "23",
+              "220,000",
+              "8d 12h",
+              "15"
+            ],
+            [
+              "8",
+              "25",
+              "300,000",
+              "13d",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Bat Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3d/Bat_Spell_info.png/revision/latest?cb=20181205010820"
+        },
+        {
+          "file": "File:Clash-of-clans-bat-spell.jpg",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/62/Clash-of-clans-bat-spell.jpg/revision/latest?cb=20220218053314"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 10,
+        "2": 10,
+        "3": 10,
+        "4": 11,
+        "5": 12,
+        "6": 15,
+        "7": 17,
+        "8": 18
+      },
+      "iconVerification": {
+        "file": "File:Bat Spell info.png",
+        "width": 166,
+        "height": 160,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Bat_Spell"
+      }
+    },
+    {
+      "n": "Overgrowth Spell",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Overgrowth_Spell_info.png/revision/latest?cb=20260209174702",
+      "source": "https://clashofclans.fandom.com/wiki/Overgrowth_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Radius",
+            "Effect Type",
+            "Targets",
+            "Housing Space",
+            "Dark Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "6 tiles",
+              "Area Splash",
+              "Ground & Air",
+              "2",
+              "6"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Duration",
+            "Research Cost (Dark Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "22 seconds",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "23 seconds",
+              "62,500",
+              "5d",
+              "10"
+            ],
+            [
+              "3",
+              "24 seconds",
+              "125,000",
+              "8d 12h",
+              "12"
+            ],
+            [
+              "4",
+              "25 seconds",
+              "175,000",
+              "10d",
+              "14"
+            ],
+            [
+              "5",
+              "26 seconds",
+              "360,000",
+              "16d",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Overgrowth Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Overgrowth_Spell_info.png/revision/latest?cb=20260209174702"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 12,
+        "2": 12,
+        "3": 14,
+        "4": 16,
+        "5": 18
+      },
+      "iconVerification": {
+        "file": "File:Overgrowth Spell info.png",
+        "width": 4096,
+        "height": 4096,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Overgrowth_Spell"
+      }
+    },
+    {
+      "n": "Ice Block Spell",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/6/66/Ice_Block_Spell_info.png/revision/latest?cb=20250616133809",
+      "source": "https://clashofclans.fandom.com/wiki/Ice_Block_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Radius",
+            "Effect Type",
+            "Targets",
+            "Housing Space",
+            "Dark Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "5 tiles",
+              "Area Splash",
+              "Ground & Air",
+              "1",
+              "7"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Level",
+            "Incoming Damage Reduction",
+            "Duration",
+            "Research Cost (Dark Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "86%",
+              "7s",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "88%",
+              "7s",
+              "140,000",
+              "10d",
+              "12"
+            ],
+            [
+              "3",
+              "90%",
+              "7s",
+              "200,000",
+              "11d",
+              "13"
+            ],
+            [
+              "4",
+              "92%",
+              "7s",
+              "280,000",
+              "12d",
+              "14"
+            ],
+            [
+              "5",
+              "94%",
+              "7s",
+              "320,000",
+              "14d",
+              "15"
+            ],
+            [
+              "6",
+              "96%",
+              "7s",
+              "380,000",
+              "16d",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Ice Block Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/66/Ice_Block_Spell_info.png/revision/latest?cb=20250616133809"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 14,
+        "2": 14,
+        "3": 15,
+        "4": 16,
+        "5": 17,
+        "6": 18
+      },
+      "iconVerification": {
+        "file": "File:Ice Block Spell info.png",
+        "width": 1024,
+        "height": 1024,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Ice_Block_Spell"
+      }
+    },
+    {
+      "n": "Angry Spell",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/9/92/Angry_Spell_info.png/revision/latest?cb=20260614152411",
+      "source": "https://clashofclans.fandom.com/wiki/Angry_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Radius",
+            "Effect Type",
+            "Targets",
+            "Housing Space",
+            "Dark Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "6 tiles",
+              "Area Splash",
+              "Ground & Air",
+              "1",
+              "8"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Level",
+            "Anger Duration",
+            "Duration",
+            "Research Cost (Dark Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "7s",
+              "5s",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "8s",
+              "5s",
+              "150,000",
+              "9d 8h",
+              "14"
+            ],
+            [
+              "3",
+              "10s",
+              "5s",
+              "250,000",
+              "12d",
+              "15"
+            ],
+            [
+              "4",
+              "12s",
+              "5s",
+              "400,000",
+              "15d",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Angry Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/92/Angry_Spell_info.png/revision/latest?cb=20260614152411"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 15,
+        "2": 16,
+        "3": 17,
+        "4": 18
+      },
+      "iconVerification": {
+        "file": "File:Angry Spell info.png",
+        "width": 1024,
+        "height": 1024,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Angry_Spell"
+      }
+    }
+  ],
+  "unverified": [],
+  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
+}

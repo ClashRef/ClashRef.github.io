@@ -1,0 +1,3348 @@
+{
+  "id": "bbdefenses",
+  "label": "Builder Defenses",
+  "format": "wiki-review-v1",
+  "updated": "2026-11-03",
+  "units": [
+    {
+      "n": "Cannon/Builder Base",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/a/a1/Cannon1.png/revision/latest?cb=20230521100552",
+      "source": "https://clashofclans.fandom.com/wiki/Cannon/Builder_Base",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Build Cost (Builder Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "70",
+              "56",
+              "500",
+              "10,000",
+              "1m",
+              "7",
+              "1"
+            ],
+            [
+              "2",
+              "77",
+              "62",
+              "575",
+              "20,000",
+              "5m",
+              "17",
+              "3"
+            ],
+            [
+              "3",
+              "85",
+              "68",
+              "660",
+              "50,000",
+              "2h",
+              "84",
+              "3"
+            ],
+            [
+              "4",
+              "93",
+              "74",
+              "760",
+              "200,000",
+              "8h",
+              "169",
+              "4"
+            ],
+            [
+              "5",
+              "102",
+              "82",
+              "875",
+              "600,000",
+              "1d",
+              "293",
+              "5"
+            ],
+            [
+              "6",
+              "112",
+              "90",
+              "1,050",
+              "1,000,000",
+              "2d",
+              "415",
+              "6"
+            ],
+            [
+              "7",
+              "123",
+              "98",
+              "1,250",
+              "1,800,000",
+              "4d",
+              "587",
+              "7"
+            ],
+            [
+              "8",
+              "136",
+              "109",
+              "1,450",
+              "2,500,000",
+              "6d",
+              "720",
+              "8"
+            ],
+            [
+              "9",
+              "150",
+              "120",
+              "1,650",
+              "3,300,000",
+              "8d",
+              "831",
+              "9"
+            ],
+            [
+              "10",
+              "165",
+              "132",
+              "1,850",
+              "4,500,000",
+              "9d",
+              "881",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "8.5",
+              "0.8s",
+              "Single Target",
+              "Ground"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Cannon1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a1/Cannon1.png/revision/latest?cb=20230521100552"
+        },
+        {
+          "file": "File:Cannon10B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/74/Cannon10B.png/revision/latest?cb=20230521100811"
+        },
+        {
+          "file": "File:Cannon1B Ruin.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8c/Cannon1B_Ruin.png/revision/latest?cb=20250421162941"
+        },
+        {
+          "file": "File:Cannon2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dc/Cannon2.png/revision/latest?cb=20230521100606"
+        },
+        {
+          "file": "File:Cannon3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Cannon3.png/revision/latest?cb=20230521100615"
+        },
+        {
+          "file": "File:Cannon4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a5/Cannon4.png/revision/latest?cb=20230521100624"
+        },
+        {
+          "file": "File:Cannon5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ea/Cannon5.png/revision/latest?cb=20230521100633"
+        },
+        {
+          "file": "File:Cannon6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/93/Cannon6.png/revision/latest?cb=20230521100644"
+        },
+        {
+          "file": "File:Cannon7B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/16/Cannon7B.png/revision/latest?cb=20230521100706"
+        },
+        {
+          "file": "File:Cannon8B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e6/Cannon8B.png/revision/latest?cb=20230521100727"
+        },
+        {
+          "file": "File:Cannon9B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9b/Cannon9B.png/revision/latest?cb=20230521100746"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 1,
+        "2": 3,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
+    },
+    {
+      "n": "Double Cannon",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Double_Cannon1.png/revision/latest?cb=20171108155759",
+      "source": "https://clashofclans.fandom.com/wiki/Double_Cannon",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second*",
+            "Damage per Shot",
+            "Hitpoints",
+            "Build Cost (Builder Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "91",
+              "50",
+              "600",
+              "20,000",
+              "10m",
+              "24",
+              "2"
+            ],
+            [
+              "2",
+              "101",
+              "55",
+              "690",
+              "50,000",
+              "1h",
+              "60",
+              "3"
+            ],
+            [
+              "3",
+              "112",
+              "61",
+              "800",
+              "80,000",
+              "3h",
+              "103",
+              "3"
+            ],
+            [
+              "4",
+              "123",
+              "67",
+              "910",
+              "300,000",
+              "12h",
+              "207",
+              "4"
+            ],
+            [
+              "5",
+              "136",
+              "74",
+              "1,050",
+              "900,000",
+              "1d",
+              "293",
+              "5"
+            ],
+            [
+              "6",
+              "148",
+              "81",
+              "1,250",
+              "1,400,000",
+              "2d",
+              "415",
+              "6"
+            ],
+            [
+              "7",
+              "163",
+              "89",
+              "1,450",
+              "2,200,000",
+              "4d",
+              "587",
+              "7"
+            ],
+            [
+              "8",
+              "180",
+              "98",
+              "1,700",
+              "3,200,000",
+              "6d",
+              "720",
+              "8"
+            ],
+            [
+              "9",
+              "198",
+              "108",
+              "1,950",
+              "4,200,000",
+              "8d",
+              "831",
+              "9"
+            ],
+            [
+              "10",
+              "220",
+              "120",
+              "2,200",
+              "5,200,000",
+              "10d",
+              "929",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Time Between Bursts",
+            "Shots Per Burst",
+            "Damage Type",
+            "Targets"
+          ],
+          "rows": [
+            [
+              "7 tiles",
+              "0.1555s",
+              "1.333s",
+              "4 shots",
+              "Single Target",
+              "Ground"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Double Cannon1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Double_Cannon1.png/revision/latest?cb=20171108155759"
+        },
+        {
+          "file": "File:Double Cannon10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/df/Double_Cannon10.png/revision/latest?cb=20230516071432"
+        },
+        {
+          "file": "File:Double Cannon2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0c/Double_Cannon2.png/revision/latest?cb=20171108155800"
+        },
+        {
+          "file": "File:Double Cannon3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/98/Double_Cannon3.png/revision/latest?cb=20171108155801"
+        },
+        {
+          "file": "File:Double Cannon4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/63/Double_Cannon4.png/revision/latest?cb=20171108155801"
+        },
+        {
+          "file": "File:Double Cannon5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/de/Double_Cannon5.png/revision/latest?cb=20171108155801"
+        },
+        {
+          "file": "File:Double Cannon6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/75/Double_Cannon6.png/revision/latest?cb=20171108155802"
+        },
+        {
+          "file": "File:Double Cannon7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bd/Double_Cannon7.png/revision/latest?cb=20171108155802"
+        },
+        {
+          "file": "File:Double Cannon8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6c/Double_Cannon8.png/revision/latest?cb=20171108155802"
+        },
+        {
+          "file": "File:Double Cannon9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ee/Double_Cannon9.png/revision/latest?cb=20190616215121"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 2,
+        "2": 3,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
+    },
+    {
+      "n": "Archer Tower/Builder Base",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/4/4c/Archer_Tower10B.png/revision/latest?cb=20230516045047",
+      "source": "https://clashofclans.fandom.com/wiki/Archer_Tower/Builder_Base",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Build Cost (Builder Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "40",
+              "40",
+              "500",
+              "12,000",
+              "5m",
+              "17",
+              "2"
+            ],
+            [
+              "2",
+              "44",
+              "44",
+              "575",
+              "30,000",
+              "15m",
+              "30",
+              "3"
+            ],
+            [
+              "3",
+              "48",
+              "48",
+              "660",
+              "60,000",
+              "2h",
+              "84",
+              "3"
+            ],
+            [
+              "4",
+              "53",
+              "53",
+              "760",
+              "250,000",
+              "8h",
+              "169",
+              "4"
+            ],
+            [
+              "5",
+              "59",
+              "59",
+              "875",
+              "800,000",
+              "1d",
+              "293",
+              "5"
+            ],
+            [
+              "6",
+              "64",
+              "64",
+              "1,050",
+              "1,200,000",
+              "2d",
+              "415",
+              "6"
+            ],
+            [
+              "7",
+              "71",
+              "71",
+              "1,250",
+              "2,000,000",
+              "4d",
+              "587",
+              "7"
+            ],
+            [
+              "8",
+              "78",
+              "78",
+              "1,450",
+              "2,800,000",
+              "6d",
+              "720",
+              "8"
+            ],
+            [
+              "9",
+              "86",
+              "86",
+              "1,650",
+              "3,600,000",
+              "8d",
+              "831",
+              "9"
+            ],
+            [
+              "10",
+              "94",
+              "94",
+              "1,850",
+              "4,600,000",
+              "9d",
+              "881",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "10",
+              "1s",
+              "Single Target",
+              "Ground & Air"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Build Cost (Builder Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "89",
+              "40?",
+              "500",
+              "12,000",
+              "5m",
+              "17",
+              "2"
+            ],
+            [
+              "2",
+              "98",
+              "44?",
+              "575",
+              "30,000",
+              "15m",
+              "30",
+              "3"
+            ],
+            [
+              "3",
+              "107",
+              "48?",
+              "660",
+              "60,000",
+              "2h",
+              "84",
+              "3"
+            ],
+            [
+              "4",
+              "118",
+              "53?",
+              "760",
+              "250,000",
+              "8h",
+              "169",
+              "4"
+            ],
+            [
+              "5",
+              "131",
+              "59?",
+              "875",
+              "800,000",
+              "1d",
+              "293",
+              "5"
+            ],
+            [
+              "6",
+              "142",
+              "64?",
+              "1,050",
+              "1,200,000",
+              "2d",
+              "415",
+              "6"
+            ],
+            [
+              "7",
+              "158",
+              "71?",
+              "1,250",
+              "2,000,000",
+              "4d",
+              "587",
+              "7"
+            ],
+            [
+              "8",
+              "173",
+              "78?",
+              "1,450",
+              "2,800,000",
+              "6d",
+              "720",
+              "8"
+            ],
+            [
+              "9",
+              "191",
+              "86?",
+              "1,650",
+              "3,600,000",
+              "8d",
+              "831",
+              "9"
+            ],
+            [
+              "10",
+              "209",
+              "94?",
+              "1,850",
+              "4,600,000",
+              "9d",
+              "881",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "7",
+              "0.45s?",
+              "Single Target",
+              "Ground & Air"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Archer Tower10B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4c/Archer_Tower10B.png/revision/latest?cb=20230516045047"
+        },
+        {
+          "file": "File:Archer Tower10B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ea/Archer_Tower10B_Ground.png/revision/latest?cb=20230516045046"
+        },
+        {
+          "file": "File:Archer Tower1B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cd/Archer_Tower1B.png/revision/latest?cb=20171108194356"
+        },
+        {
+          "file": "File:Archer Tower1B Broken.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b2/Archer_Tower1B_Broken.png/revision/latest?cb=20171108200157"
+        },
+        {
+          "file": "File:Archer Tower1B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/60/Archer_Tower1B_Ground.png/revision/latest?cb=20171108200153"
+        },
+        {
+          "file": "File:Archer Tower2B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/Archer_Tower2B.png/revision/latest?cb=20171108194356"
+        },
+        {
+          "file": "File:Archer Tower2B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/92/Archer_Tower2B_Ground.png/revision/latest?cb=20171108200154"
+        },
+        {
+          "file": "File:Archer Tower3B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/51/Archer_Tower3B.png/revision/latest?cb=20171108194357"
+        },
+        {
+          "file": "File:Archer Tower3B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/05/Archer_Tower3B_Ground.png/revision/latest?cb=20171108200155"
+        },
+        {
+          "file": "File:Archer Tower4B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ed/Archer_Tower4B.png/revision/latest?cb=20171108194357"
+        },
+        {
+          "file": "File:Archer Tower4B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/06/Archer_Tower4B_Ground.png/revision/latest?cb=20171108200155"
+        },
+        {
+          "file": "File:Archer Tower5B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8d/Archer_Tower5B.png/revision/latest?cb=20171108194357"
+        },
+        {
+          "file": "File:Archer Tower5B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6e/Archer_Tower5B_Ground.png/revision/latest?cb=20171108200155"
+        },
+        {
+          "file": "File:Archer Tower6B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1d/Archer_Tower6B.png/revision/latest?cb=20171108194358"
+        },
+        {
+          "file": "File:Archer Tower6B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a4/Archer_Tower6B_Ground.png/revision/latest?cb=20171108200156"
+        },
+        {
+          "file": "File:Archer Tower7B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/44/Archer_Tower7B.png/revision/latest?cb=20171108194358"
+        },
+        {
+          "file": "File:Archer Tower7B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/57/Archer_Tower7B_Ground.png/revision/latest?cb=20171108200156"
+        },
+        {
+          "file": "File:Archer Tower8B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/28/Archer_Tower8B.png/revision/latest?cb=20171108194359"
+        },
+        {
+          "file": "File:Archer Tower8B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2d/Archer_Tower8B_Ground.png/revision/latest?cb=20171108200157"
+        },
+        {
+          "file": "File:Archer Tower9B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0c/Archer_Tower9B.png/revision/latest?cb=20190616220059"
+        },
+        {
+          "file": "File:Archer Tower9B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/93/Archer_Tower9B_Ground.png/revision/latest?cb=20190616220058"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 2,
+        "2": 3,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
+    },
+    {
+      "n": "Hidden Tesla/Builder Base",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/81/Hidden_Tesla1.png/revision/latest?cb=20180606190107",
+      "source": "https://clashofclans.fandom.com/wiki/Hidden_Tesla/Builder_Base",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Build Cost (Builder Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "60",
+              "36",
+              "300",
+              "50,000",
+              "30m",
+              "42",
+              "3"
+            ],
+            [
+              "2",
+              "66",
+              "40",
+              "350",
+              "100,000",
+              "3h",
+              "103",
+              "3"
+            ],
+            [
+              "3",
+              "73",
+              "44",
+              "400",
+              "150,000",
+              "5h",
+              "134",
+              "3"
+            ],
+            [
+              "4",
+              "80",
+              "48",
+              "460",
+              "280,000",
+              "10h",
+              "189",
+              "4"
+            ],
+            [
+              "5",
+              "88",
+              "53",
+              "550",
+              "700,000",
+              "1d",
+              "293",
+              "5"
+            ],
+            [
+              "6",
+              "96",
+              "58",
+              "650",
+              "1,300,000",
+              "2d",
+              "415",
+              "6"
+            ],
+            [
+              "7",
+              "106",
+              "64",
+              "750",
+              "2,100,000",
+              "4d",
+              "587",
+              "7"
+            ],
+            [
+              "8",
+              "116",
+              "70",
+              "850",
+              "3,100,000",
+              "6d",
+              "720",
+              "8"
+            ],
+            [
+              "9",
+              "128",
+              "77",
+              "1,000",
+              "4,100,000",
+              "8d",
+              "831",
+              "9"
+            ],
+            [
+              "10",
+              "141",
+              "85",
+              "1,150",
+              "5,100,000",
+              "10d",
+              "929",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Range",
+            "Trigger Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "7",
+              "6",
+              "0.6s",
+              "Single Target",
+              "Ground & Air"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Hidden Tesla1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/81/Hidden_Tesla1.png/revision/latest?cb=20180606190107"
+        },
+        {
+          "file": "File:Hidden Tesla10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/37/Hidden_Tesla10.png/revision/latest?cb=20180604161808"
+        },
+        {
+          "file": "File:Hidden Tesla2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e4/Hidden_Tesla2.png/revision/latest?cb=20180606190121"
+        },
+        {
+          "file": "File:Hidden Tesla3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fb/Hidden_Tesla3.png/revision/latest?cb=20180606190137"
+        },
+        {
+          "file": "File:Hidden Tesla4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/54/Hidden_Tesla4.png/revision/latest?cb=20180606190150"
+        },
+        {
+          "file": "File:Hidden Tesla5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/Hidden_Tesla5.png/revision/latest?cb=20180606190204"
+        },
+        {
+          "file": "File:Hidden Tesla6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d7/Hidden_Tesla6.png/revision/latest?cb=20180606190216"
+        },
+        {
+          "file": "File:Hidden Tesla7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/79/Hidden_Tesla7.png/revision/latest?cb=20180606190230"
+        },
+        {
+          "file": "File:Hidden Tesla8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4f/Hidden_Tesla8.png/revision/latest?cb=20180606190243"
+        },
+        {
+          "file": "File:Hidden Tesla9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e3/Hidden_Tesla9.png/revision/latest?cb=20180606190256"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 3,
+        "2": 3,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
+    },
+    {
+      "n": "Firecrackers",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/b/b7/Firecrackers1.png/revision/latest?cb=20230516073633",
+      "source": "https://clashofclans.fandom.com/wiki/Firecrackers",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second*",
+            "Damage per Shot",
+            "Hitpoints",
+            "Build Cost (Builder Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "59",
+              "19",
+              "400",
+              "40,000",
+              "15m",
+              "30",
+              "3"
+            ],
+            [
+              "2",
+              "65",
+              "21",
+              "460",
+              "80,000",
+              "2h",
+              "84",
+              "3"
+            ],
+            [
+              "3",
+              "71",
+              "23",
+              "530",
+              "120,000",
+              "4h",
+              "120",
+              "3"
+            ],
+            [
+              "4",
+              "78",
+              "25",
+              "610",
+              "300,000",
+              "12h",
+              "207",
+              "4"
+            ],
+            [
+              "5",
+              "84",
+              "27",
+              "700",
+              "800,000",
+              "1d",
+              "293",
+              "5"
+            ],
+            [
+              "6",
+              "93",
+              "30",
+              "850",
+              "1,200,000",
+              "2d",
+              "415",
+              "6"
+            ],
+            [
+              "7",
+              "103",
+              "33",
+              "1,000",
+              "2,000,000",
+              "4d",
+              "587",
+              "7"
+            ],
+            [
+              "8",
+              "112",
+              "36",
+              "1,150",
+              "3,000,000",
+              "6d",
+              "720",
+              "8"
+            ],
+            [
+              "9",
+              "125",
+              "40",
+              "1,300",
+              "4,000,000",
+              "8d",
+              "831",
+              "9"
+            ],
+            [
+              "10",
+              "137",
+              "44",
+              "1,500",
+              "5,000,000",
+              "9d",
+              "881",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "9 tiles",
+              "3 shots every 0.8 seconds",
+              "Single Target",
+              "Air"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Firecrackers1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b7/Firecrackers1.png/revision/latest?cb=20230516073633"
+        },
+        {
+          "file": "File:Firecrackers10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/54/Firecrackers10.png/revision/latest?cb=20230516073609"
+        },
+        {
+          "file": "File:Firecrackers2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/40/Firecrackers2.png/revision/latest?cb=20230516073642"
+        },
+        {
+          "file": "File:Firecrackers3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c3/Firecrackers3.png/revision/latest?cb=20230516073647"
+        },
+        {
+          "file": "File:Firecrackers4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/06/Firecrackers4.png/revision/latest?cb=20230516073652"
+        },
+        {
+          "file": "File:Firecrackers5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c6/Firecrackers5.png/revision/latest?cb=20230516073659"
+        },
+        {
+          "file": "File:Firecrackers6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Firecrackers6.png/revision/latest?cb=20230516073704"
+        },
+        {
+          "file": "File:Firecrackers7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fa/Firecrackers7.png/revision/latest?cb=20230516073710"
+        },
+        {
+          "file": "File:Firecrackers8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/94/Firecrackers8.png/revision/latest?cb=20230516073718"
+        },
+        {
+          "file": "File:Firecrackers9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Firecrackers9.png/revision/latest?cb=20230516073723"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 3,
+        "2": 3,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
+    },
+    {
+      "n": "Crusher",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/8d/Crusher1.png/revision/latest?cb=20221211231023",
+      "source": "https://clashofclans.fandom.com/wiki/Crusher",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics / Builder Base",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Hitpoints",
+            "Cost (Builder Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "125",
+              "438",
+              "1,000",
+              "120,000",
+              "2h",
+              "84",
+              "3"
+            ],
+            [
+              "2",
+              "138",
+              "483",
+              "1,100",
+              "180,000",
+              "5h",
+              "134",
+              "3"
+            ],
+            [
+              "3",
+              "152",
+              "532",
+              "1,250",
+              "220,000",
+              "12h",
+              "207",
+              "3"
+            ],
+            [
+              "4",
+              "167",
+              "585",
+              "1,400",
+              "350,000",
+              "1d",
+              "293",
+              "4"
+            ],
+            [
+              "5",
+              "184",
+              "644",
+              "1,600",
+              "1,200,000",
+              "2d",
+              "415",
+              "5"
+            ],
+            [
+              "6",
+              "202",
+              "707",
+              "1,850",
+              "1,500,000",
+              "4d",
+              "581",
+              "6"
+            ],
+            [
+              "7",
+              "222",
+              "777",
+              "2,100",
+              "2,400,000",
+              "6d",
+              "720",
+              "7"
+            ],
+            [
+              "8",
+              "244",
+              "854",
+              "2,350",
+              "3,400,000",
+              "8d",
+              "831",
+              "8"
+            ],
+            [
+              "9",
+              "269",
+              "942",
+              "2,600",
+              "4,400,000",
+              "10d",
+              "929",
+              "9"
+            ],
+            [
+              "10",
+              "296",
+              "1,036",
+              "2,900",
+              "5,400,000",
+              "12d",
+              "1,018",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics / Builder Base",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "2.3 tiles",
+              "3.5s",
+              "Area Splash - 2.8 tiles*",
+              "Ground"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Crusher1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8d/Crusher1.png/revision/latest?cb=20221211231023"
+        },
+        {
+          "file": "File:Crusher10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c7/Crusher10.png/revision/latest?cb=20230516085136"
+        },
+        {
+          "file": "File:Crusher1C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/82/Crusher1C.png/revision/latest?cb=20221211231052"
+        },
+        {
+          "file": "File:Crusher2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a5/Crusher2.png/revision/latest?cb=20171109174506"
+        },
+        {
+          "file": "File:Crusher2C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4e/Crusher2C.png/revision/latest?cb=20221211231112"
+        },
+        {
+          "file": "File:Crusher3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/27/Crusher3.png/revision/latest?cb=20171109174447"
+        },
+        {
+          "file": "File:Crusher3C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d3/Crusher3C.png/revision/latest?cb=20221211231127"
+        },
+        {
+          "file": "File:Crusher4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/de/Crusher4.png/revision/latest?cb=20171109174431"
+        },
+        {
+          "file": "File:Crusher4C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2f/Crusher4C.png/revision/latest?cb=20221211231141"
+        },
+        {
+          "file": "File:Crusher5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/ce/Crusher5.png/revision/latest?cb=20171109174413"
+        },
+        {
+          "file": "File:Crusher5C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e2/Crusher5C.png/revision/latest?cb=20221211231154"
+        },
+        {
+          "file": "File:Crusher6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/95/Crusher6.png/revision/latest?cb=20171109174357"
+        },
+        {
+          "file": "File:Crusher7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/48/Crusher7.png/revision/latest?cb=20171109174340"
+        },
+        {
+          "file": "File:Crusher8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e5/Crusher8.png/revision/latest?cb=20171109174325"
+        },
+        {
+          "file": "File:Crusher9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/70/Crusher9.png/revision/latest?cb=20190616222005"
+        },
+        {
+          "file": "File:Crusher Ruin.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Crusher_Ruin.png/revision/latest?cb=20221211230930"
+        },
+        {
+          "file": "File:Crusher level4 info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Crusher_level4_info.png/revision/latest?cb=20250320140936"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 3,
+        "2": 3,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
+    },
+    {
+      "n": "Guard Post",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/6/63/Guard_Post1.png/revision/latest?cb=20171109182016",
+      "source": "https://clashofclans.fandom.com/wiki/Guard_Post",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Troop Level",
+            "Hitpoints",
+            "Build Cost (Builder Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "2",
+              "300",
+              "200,000",
+              "4h",
+              "120",
+              "4"
+            ],
+            [
+              "2",
+              "4",
+              "350",
+              "240,000",
+              "8h",
+              "169",
+              "4"
+            ],
+            [
+              "3",
+              "6",
+              "400",
+              "280,000",
+              "12h",
+              "207",
+              "4"
+            ],
+            [
+              "4",
+              "8",
+              "460",
+              "320,000",
+              "1d",
+              "293",
+              "4"
+            ],
+            [
+              "5",
+              "10",
+              "550",
+              "1,000,000",
+              "2d",
+              "415",
+              "5"
+            ],
+            [
+              "6",
+              "12",
+              "650",
+              "1,400,000",
+              "4d",
+              "587",
+              "6"
+            ],
+            [
+              "7",
+              "14",
+              "750",
+              "2,300,000",
+              "6d",
+              "720",
+              "7"
+            ],
+            [
+              "8",
+              "16",
+              "850",
+              "3,200,000",
+              "8d",
+              "831",
+              "8"
+            ],
+            [
+              "9",
+              "18",
+              "1,000",
+              "4,100,000",
+              "10d",
+              "929",
+              "9"
+            ],
+            [
+              "10",
+              "20",
+              "1,150",
+              "5,100,000",
+              "12d",
+              "1,018",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Guard Post1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/63/Guard_Post1.png/revision/latest?cb=20171109182016"
+        },
+        {
+          "file": "File:Guard Post10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f7/Guard_Post10.png/revision/latest?cb=20230517041059"
+        },
+        {
+          "file": "File:Guard Post2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/ba/Guard_Post2.png/revision/latest?cb=20171109182017"
+        },
+        {
+          "file": "File:Guard Post3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cd/Guard_Post3.png/revision/latest?cb=20171109182017"
+        },
+        {
+          "file": "File:Guard Post4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c5/Guard_Post4.png/revision/latest?cb=20171109182017"
+        },
+        {
+          "file": "File:Guard Post5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4f/Guard_Post5.png/revision/latest?cb=20171109182018"
+        },
+        {
+          "file": "File:Guard Post6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/21/Guard_Post6.png/revision/latest?cb=20171109182018"
+        },
+        {
+          "file": "File:Guard Post7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/28/Guard_Post7.png/revision/latest?cb=20171109182018"
+        },
+        {
+          "file": "File:Guard Post8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/35/Guard_Post8.png/revision/latest?cb=20171109182019"
+        },
+        {
+          "file": "File:Guard Post9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/ff/Guard_Post9.png/revision/latest?cb=20190616222444"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
+    },
+    {
+      "n": "Air Bombs",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Air_Bombs1.png/revision/latest?cb=20171109192339",
+      "source": "https://clashofclans.fandom.com/wiki/Air_Bombs",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics / Builder Base",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Hitpoints",
+            "Build Cost (Builder Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "90",
+              "270",
+              "1,000",
+              "300,000",
+              "6h",
+              "146",
+              "4"
+            ],
+            [
+              "2",
+              "99",
+              "297",
+              "1,100",
+              "320,000",
+              "12h",
+              "207",
+              "4"
+            ],
+            [
+              "3",
+              "109",
+              "327",
+              "1,250",
+              "340,000",
+              "1d",
+              "293",
+              "4"
+            ],
+            [
+              "4",
+              "119",
+              "357",
+              "1,400",
+              "360,000",
+              "2d",
+              "415",
+              "4"
+            ],
+            [
+              "5",
+              "131",
+              "393",
+              "1,600",
+              "1,200,000",
+              "3d",
+              "509",
+              "5"
+            ],
+            [
+              "6",
+              "145",
+              "435",
+              "1,850",
+              "1,500,000",
+              "5d",
+              "657",
+              "6"
+            ],
+            [
+              "7",
+              "159",
+              "477",
+              "2,100",
+              "2,400,000",
+              "7d",
+              "777",
+              "7"
+            ],
+            [
+              "8",
+              "175",
+              "525",
+              "2,350",
+              "3,400,000",
+              "8d",
+              "831",
+              "8"
+            ],
+            [
+              "9",
+              "193",
+              "579",
+              "2,600",
+              "4,400,000",
+              "10d",
+              "929",
+              "9"
+            ],
+            [
+              "10",
+              "212",
+              "636",
+              "2,900",
+              "5,400,000",
+              "12d",
+              "1,018",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics / Builder Base",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "7.5",
+              "3 seconds",
+              "Area Splash - 1.5 tiles",
+              "Air"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Air Bombs1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Air_Bombs1.png/revision/latest?cb=20171109192339"
+        },
+        {
+          "file": "File:Air Bombs10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3c/Air_Bombs10.png/revision/latest?cb=20230517042314"
+        },
+        {
+          "file": "File:Air Bombs10 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Air_Bombs10_Crafted.png/revision/latest?cb=20260330142004"
+        },
+        {
+          "file": "File:Air Bombs1C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9c/Air_Bombs1C.png/revision/latest?cb=20231217073748"
+        },
+        {
+          "file": "File:Air Bombs1 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/11/Air_Bombs1_Crafted.png/revision/latest?cb=20260330141735"
+        },
+        {
+          "file": "File:Air Bombs2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f0/Air_Bombs2.png/revision/latest?cb=20171109192340"
+        },
+        {
+          "file": "File:Air Bombs2C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/21/Air_Bombs2C.png/revision/latest?cb=20231217073753"
+        },
+        {
+          "file": "File:Air Bombs2 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/38/Air_Bombs2_Crafted.png/revision/latest?cb=20260330141749"
+        },
+        {
+          "file": "File:Air Bombs3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/01/Air_Bombs3.png/revision/latest?cb=20171109192340"
+        },
+        {
+          "file": "File:Air Bombs3C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0a/Air_Bombs3C.png/revision/latest?cb=20231217073757"
+        },
+        {
+          "file": "File:Air Bombs3 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1a/Air_Bombs3_Crafted.png/revision/latest?cb=20260330141804"
+        },
+        {
+          "file": "File:Air Bombs4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/26/Air_Bombs4.png/revision/latest?cb=20171109192340"
+        },
+        {
+          "file": "File:Air Bombs4C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/70/Air_Bombs4C.png/revision/latest?cb=20231217073801"
+        },
+        {
+          "file": "File:Air Bombs4 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c9/Air_Bombs4_Crafted.png/revision/latest?cb=20260330141822"
+        },
+        {
+          "file": "File:Air Bombs5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b4/Air_Bombs5.png/revision/latest?cb=20171109192341"
+        },
+        {
+          "file": "File:Air Bombs5C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ae/Air_Bombs5C.png/revision/latest?cb=20231217073805"
+        },
+        {
+          "file": "File:Air Bombs5 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/91/Air_Bombs5_Crafted.png/revision/latest?cb=20260330141835"
+        },
+        {
+          "file": "File:Air Bombs6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/02/Air_Bombs6.png/revision/latest?cb=20171109192341"
+        },
+        {
+          "file": "File:Air Bombs6 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/22/Air_Bombs6_Crafted.png/revision/latest?cb=20260330141857"
+        },
+        {
+          "file": "File:Air Bombs7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/51/Air_Bombs7.png/revision/latest?cb=20171109192342"
+        },
+        {
+          "file": "File:Air Bombs7 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fe/Air_Bombs7_Crafted.png/revision/latest?cb=20260525163749"
+        },
+        {
+          "file": "File:Air Bombs8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ef/Air_Bombs8.png/revision/latest?cb=20171109192342"
+        },
+        {
+          "file": "File:Air Bombs8 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5e/Air_Bombs8_Crafted.png/revision/latest?cb=20260525163835"
+        },
+        {
+          "file": "File:Air Bombs9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e4/Air_Bombs9.png/revision/latest?cb=20190616223138"
+        },
+        {
+          "file": "File:Air Bombs9 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e0/Air_Bombs9_Crafted.png/revision/latest?cb=20260330141941"
+        },
+        {
+          "file": "File:Air Bombs Ruin.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cf/Air_Bombs_Ruin.png/revision/latest?cb=20231217073744"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
+    },
+    {
+      "n": "Multi Mortar",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Multi_Mortar1.png/revision/latest?cb=20171109200531",
+      "source": "https://clashofclans.fandom.com/wiki/Multi_Mortar",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics / Builder Base",
+          "columns": [
+            "Level",
+            "Damage per Second*",
+            "Burst Fire (Shots)",
+            "Damage per Hit",
+            "Time Between Bursts",
+            "Hitpoints",
+            "Build Cost (Builder Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "22",
+              "3",
+              "45",
+              "6s",
+              "500",
+              "600,000",
+              "8h",
+              "169",
+              "5"
+            ],
+            [
+              "2",
+              "27",
+              "4",
+              "45",
+              "5.5s",
+              "575",
+              "700,000",
+              "12h",
+              "207",
+              "5"
+            ],
+            [
+              "3",
+              "30",
+              "4",
+              "50",
+              "5.5s",
+              "660",
+              "800,000",
+              "1d",
+              "293",
+              "5"
+            ],
+            [
+              "4",
+              "33",
+              "4",
+              "55",
+              "5.5s",
+              "760",
+              "1,000,000",
+              "2d",
+              "415",
+              "5"
+            ],
+            [
+              "5",
+              "36",
+              "4",
+              "60",
+              "5.5s",
+              "875",
+              "1,200,000",
+              "3d",
+              "509",
+              "5"
+            ],
+            [
+              "6",
+              "40",
+              "4",
+              "66",
+              "5.5s",
+              "1,050",
+              "1,600,000",
+              "5d",
+              "657",
+              "6"
+            ],
+            [
+              "7",
+              "44",
+              "4",
+              "73",
+              "5.5s",
+              "1,250",
+              "2,500,000",
+              "7d",
+              "777",
+              "7"
+            ],
+            [
+              "8",
+              "49",
+              "4",
+              "80",
+              "5.5s",
+              "1,450",
+              "3,500,000",
+              "9d",
+              "881",
+              "8"
+            ],
+            [
+              "9",
+              "53",
+              "4",
+              "88",
+              "5.5s",
+              "1,650",
+              "4,500,000",
+              "11d",
+              "974",
+              "9"
+            ],
+            [
+              "10",
+              "62",
+              "5",
+              "88",
+              "5s",
+              "1,850",
+              "5,500,000",
+              "12d",
+              "1,018",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics / Builder Base",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "4-11",
+              "0.5s",
+              "Splash - 3 tiles",
+              "Ground"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Multi Mortar1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Multi_Mortar1.png/revision/latest?cb=20171109200531"
+        },
+        {
+          "file": "File:Multi Mortar10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1b/Multi_Mortar10.png/revision/latest?cb=20230517035445"
+        },
+        {
+          "file": "File:Multi Mortar1C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5d/Multi_Mortar1C.png/revision/latest?cb=20221128085706"
+        },
+        {
+          "file": "File:Multi Mortar2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/55/Multi_Mortar2.png/revision/latest?cb=20171109200532"
+        },
+        {
+          "file": "File:Multi Mortar2C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d5/Multi_Mortar2C.png/revision/latest?cb=20221128085714"
+        },
+        {
+          "file": "File:Multi Mortar3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/81/Multi_Mortar3.png/revision/latest?cb=20171109200532"
+        },
+        {
+          "file": "File:Multi Mortar3C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d4/Multi_Mortar3C.png/revision/latest?cb=20221128085728"
+        },
+        {
+          "file": "File:Multi Mortar4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/be/Multi_Mortar4.png/revision/latest?cb=20171109200533"
+        },
+        {
+          "file": "File:Multi Mortar4C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/36/Multi_Mortar4C.png/revision/latest?cb=20221128085739"
+        },
+        {
+          "file": "File:Multi Mortar5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/65/Multi_Mortar5.png/revision/latest?cb=20171109200533"
+        },
+        {
+          "file": "File:Multi Mortar5C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7d/Multi_Mortar5C.png/revision/latest?cb=20221128085751"
+        },
+        {
+          "file": "File:Multi Mortar6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/38/Multi_Mortar6.png/revision/latest?cb=20171109200533"
+        },
+        {
+          "file": "File:Multi Mortar7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/60/Multi_Mortar7.png/revision/latest?cb=20171109200534"
+        },
+        {
+          "file": "File:Multi Mortar8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9b/Multi_Mortar8.png/revision/latest?cb=20171109200534"
+        },
+        {
+          "file": "File:Multi Mortar9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/df/Multi_Mortar9.png/revision/latest?cb=20190616223802"
+        },
+        {
+          "file": "File:Multi Mortar Ruin.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/06/Multi_Mortar_Ruin.png/revision/latest?cb=20221128085808"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 5,
+        "2": 5,
+        "3": 5,
+        "4": 5,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
+    },
+    {
+      "n": "O.T.T.O's Outpost",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/b/b3/O.T.T.O%27s_Outpost-4.png/revision/latest?cb=20240614191212",
+      "source": "https://clashofclans.fandom.com/wiki/O.T.T.O's_Outpost",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "Spawned Zappies",
+            "Build Cost (Builder Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "650",
+              "2",
+              "N/A",
+              "N/A",
+              "N/A",
+              "6"
+            ],
+            [
+              "2",
+              "800",
+              "2",
+              "1,000,000",
+              "1d",
+              "293",
+              "6"
+            ],
+            [
+              "3",
+              "975",
+              "2",
+              "1,250,000",
+              "2d",
+              "415",
+              "6"
+            ],
+            [
+              "4",
+              "1,150",
+              "3",
+              "1,500,000",
+              "3d",
+              "509",
+              "6"
+            ],
+            [
+              "5",
+              "1,350",
+              "3",
+              "1,750,000",
+              "4d",
+              "587",
+              "6"
+            ],
+            [
+              "6",
+              "1,600",
+              "3",
+              "2,000,000",
+              "5d",
+              "657",
+              "6"
+            ],
+            [
+              "7",
+              "1,850",
+              "4",
+              "3,000,000",
+              "7d",
+              "777",
+              "7"
+            ],
+            [
+              "8",
+              "2,150",
+              "4",
+              "4,000,000",
+              "9d",
+              "881",
+              "8"
+            ],
+            [
+              "9",
+              "2,450",
+              "4",
+              "5,000,000",
+              "10d",
+              "929",
+              "9"
+            ],
+            [
+              "10",
+              "2,750",
+              "5",
+              "6,000,000",
+              "11d",
+              "974",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:O.T.T.O's Outpost-4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b3/O.T.T.O%27s_Outpost-4.png/revision/latest?cb=20240614191212"
+        },
+        {
+          "file": "File:O.T.T.O's Outpost-5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3c/O.T.T.O%27s_Outpost-5.png/revision/latest?cb=20240614191312"
+        },
+        {
+          "file": "File:O.T.T.O's Outpost1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bf/O.T.T.O%27s_Outpost1.png/revision/latest?cb=20230516082344"
+        },
+        {
+          "file": "File:O.T.T.O's Outpost10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7f/O.T.T.O%27s_Outpost10.png/revision/latest?cb=20230516082352"
+        },
+        {
+          "file": "File:O.T.T.O's Outpost2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/80/O.T.T.O%27s_Outpost2.png/revision/latest?cb=20230516082345"
+        },
+        {
+          "file": "File:O.T.T.O's Outpost3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/62/O.T.T.O%27s_Outpost3.png/revision/latest?cb=20230516082346"
+        },
+        {
+          "file": "File:O.T.T.O's Outpost4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/62/O.T.T.O%27s_Outpost4.png/revision/latest?cb=20230516082347"
+        },
+        {
+          "file": "File:O.T.T.O's Outpost5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d3/O.T.T.O%27s_Outpost5.png/revision/latest?cb=20230516082348"
+        },
+        {
+          "file": "File:O.T.T.O's Outpost6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/O.T.T.O%27s_Outpost6.png/revision/latest?cb=20230607054238"
+        },
+        {
+          "file": "File:O.T.T.O's Outpost7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/32/O.T.T.O%27s_Outpost7.png/revision/latest?cb=20230607054249"
+        },
+        {
+          "file": "File:O.T.T.O's Outpost8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/20/O.T.T.O%27s_Outpost8.png/revision/latest?cb=20230516082350"
+        },
+        {
+          "file": "File:O.T.T.O's Outpost9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2e/O.T.T.O%27s_Outpost9.png/revision/latest?cb=20230516082351"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 6,
+        "2": 6,
+        "3": 6,
+        "4": 6,
+        "5": 6,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
+    },
+    {
+      "n": "Roaster",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/3/30/Roaster1.png/revision/latest?cb=20200902074125",
+      "source": "https://clashofclans.fandom.com/wiki/Roaster",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics / Builder Base",
+          "columns": [
+            "Level",
+            "Damage per Second*",
+            "Damage per Shot",
+            "Hitpoints",
+            "Build Cost (Builder Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "59",
+              "15",
+              "800",
+              "1,000,000",
+              "1d",
+              "293",
+              "6"
+            ],
+            [
+              "2",
+              "67",
+              "17",
+              "950",
+              "1,200,000",
+              "2d",
+              "415",
+              "6"
+            ],
+            [
+              "3",
+              "75",
+              "19",
+              "1,100",
+              "1,400,000",
+              "3d",
+              "509",
+              "6"
+            ],
+            [
+              "4",
+              "83",
+              "21",
+              "1,300",
+              "1,500,000",
+              "4d",
+              "587",
+              "6"
+            ],
+            [
+              "5",
+              "91",
+              "23",
+              "1,500",
+              "1,600,000",
+              "5d",
+              "657",
+              "6"
+            ],
+            [
+              "6",
+              "99",
+              "25",
+              "1,700",
+              "1,700,000",
+              "6d",
+              "720",
+              "6"
+            ],
+            [
+              "7",
+              "107",
+              "27",
+              "1,900",
+              "2,600,000",
+              "8d",
+              "831",
+              "7"
+            ],
+            [
+              "8",
+              "119",
+              "30",
+              "2,100",
+              "3,600,000",
+              "10d",
+              "929",
+              "8"
+            ],
+            [
+              "9",
+              "131",
+              "33",
+              "2,350",
+              "4,600,000",
+              "11d",
+              "974",
+              "9"
+            ],
+            [
+              "10",
+              "143",
+              "36",
+              "2,600",
+              "5,600,000",
+              "12d",
+              "1,018",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics / Builder Base",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Time Between Bursts",
+            "Shots Per Burst",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "7 tiles",
+              "0.125?s",
+              "0.05?s",
+              "15",
+              "Area Splash - 1.2 tiles",
+              "Ground & Air"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Roaster1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/30/Roaster1.png/revision/latest?cb=20200902074125"
+        },
+        {
+          "file": "File:Roaster10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/69/Roaster10.png/revision/latest?cb=20230517044108"
+        },
+        {
+          "file": "File:Roaster10 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/98/Roaster10_Crafted.png/revision/latest?cb=20260330141652"
+        },
+        {
+          "file": "File:Roaster1 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a4/Roaster1_Crafted.png/revision/latest?cb=20260330141305"
+        },
+        {
+          "file": "File:Roaster2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f2/Roaster2.png/revision/latest?cb=20200902074057"
+        },
+        {
+          "file": "File:Roaster2 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/57/Roaster2_Crafted.png/revision/latest?cb=20260330141330"
+        },
+        {
+          "file": "File:Roaster3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/72/Roaster3.png/revision/latest?cb=20200902074023"
+        },
+        {
+          "file": "File:Roaster3 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/86/Roaster3_Crafted.png/revision/latest?cb=20260330141355"
+        },
+        {
+          "file": "File:Roaster4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4e/Roaster4.png/revision/latest?cb=20200902073956"
+        },
+        {
+          "file": "File:Roaster4 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3a/Roaster4_Crafted.png/revision/latest?cb=20260330141446"
+        },
+        {
+          "file": "File:Roaster5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/70/Roaster5.png/revision/latest?cb=20200902073859"
+        },
+        {
+          "file": "File:Roaster5 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/26/Roaster5_Crafted.png/revision/latest?cb=20260330141508"
+        },
+        {
+          "file": "File:Roaster6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c7/Roaster6.png/revision/latest?cb=20200902073836"
+        },
+        {
+          "file": "File:Roaster6 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d4/Roaster6_Crafted.png/revision/latest?cb=20260330141529"
+        },
+        {
+          "file": "File:Roaster7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Roaster7.png/revision/latest?cb=20200902073750"
+        },
+        {
+          "file": "File:Roaster7 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ab/Roaster7_Crafted.png/revision/latest?cb=20260330141550"
+        },
+        {
+          "file": "File:Roaster8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/82/Roaster8.png/revision/latest?cb=20200902073711"
+        },
+        {
+          "file": "File:Roaster8 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8c/Roaster8_Crafted.png/revision/latest?cb=20260330141615"
+        },
+        {
+          "file": "File:Roaster9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b6/Roaster9.png/revision/latest?cb=20200902073520"
+        },
+        {
+          "file": "File:Roaster9 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a9/Roaster9_Crafted.png/revision/latest?cb=20260330141632"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 6,
+        "2": 6,
+        "3": 6,
+        "4": 6,
+        "5": 6,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
+    },
+    {
+      "n": "Giant Cannon",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/2/29/Giant_Cannon1.png/revision/latest?cb=20190616233921",
+      "source": "https://clashofclans.fandom.com/wiki/Giant_Cannon",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics / Builder Base",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Build Cost (Builder Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "41",
+              "205",
+              "700",
+              "2,000,000",
+              "1d",
+              "293",
+              "7"
+            ],
+            [
+              "2",
+              "45",
+              "225",
+              "800",
+              "2,100,000",
+              "2d",
+              "415",
+              "7"
+            ],
+            [
+              "3",
+              "49",
+              "245",
+              "950",
+              "2,200,000",
+              "3d",
+              "509",
+              "7"
+            ],
+            [
+              "4",
+              "54",
+              "270",
+              "1,100",
+              "2,300,000",
+              "4d",
+              "587",
+              "7"
+            ],
+            [
+              "5",
+              "60",
+              "300",
+              "1,300",
+              "2,400,000",
+              "5d",
+              "657",
+              "7"
+            ],
+            [
+              "6",
+              "66",
+              "330",
+              "1,500",
+              "2,500,000",
+              "6d",
+              "720",
+              "7"
+            ],
+            [
+              "7",
+              "72",
+              "360",
+              "1,700",
+              "2,700,000",
+              "8d",
+              "831",
+              "7"
+            ],
+            [
+              "8",
+              "79",
+              "395",
+              "1,900",
+              "3,800,000",
+              "10d",
+              "929",
+              "8"
+            ],
+            [
+              "9",
+              "87",
+              "435",
+              "2,150",
+              "4,700,000",
+              "11d",
+              "974",
+              "9"
+            ],
+            [
+              "10",
+              "96",
+              "480",
+              "2,400",
+              "5,700,000",
+              "12d",
+              "1,018",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics / Builder Base",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted",
+            "Favorite Target"
+          ],
+          "rows": [
+            [
+              "9.5",
+              "5 seconds",
+              "Area Splash",
+              "Ground",
+              "Any"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Giant Cannon1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/29/Giant_Cannon1.png/revision/latest?cb=20190616233921"
+        },
+        {
+          "file": "File:Giant Cannon10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/65/Giant_Cannon10.png/revision/latest?cb=20230517045117"
+        },
+        {
+          "file": "File:Giant Cannon1C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d3/Giant_Cannon1C.png/revision/latest?cb=20220507083837"
+        },
+        {
+          "file": "File:Giant Cannon2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cf/Giant_Cannon2.png/revision/latest?cb=20190616233937"
+        },
+        {
+          "file": "File:Giant Cannon2C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/ce/Giant_Cannon2C.png/revision/latest?cb=20220507083838"
+        },
+        {
+          "file": "File:Giant Cannon3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/72/Giant_Cannon3.png/revision/latest?cb=20190616233954"
+        },
+        {
+          "file": "File:Giant Cannon3C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/12/Giant_Cannon3C.png/revision/latest?cb=20220507083839"
+        },
+        {
+          "file": "File:Giant Cannon4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/09/Giant_Cannon4.png/revision/latest?cb=20190616234009"
+        },
+        {
+          "file": "File:Giant Cannon4C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e5/Giant_Cannon4C.png/revision/latest?cb=20220507083840"
+        },
+        {
+          "file": "File:Giant Cannon5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8b/Giant_Cannon5.png/revision/latest?cb=20190616234026"
+        },
+        {
+          "file": "File:Giant Cannon5C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Giant_Cannon5C.png/revision/latest?cb=20220507083841"
+        },
+        {
+          "file": "File:Giant Cannon6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/77/Giant_Cannon6.png/revision/latest?cb=20190616234044"
+        },
+        {
+          "file": "File:Giant Cannon7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6a/Giant_Cannon7.png/revision/latest?cb=20190616234105"
+        },
+        {
+          "file": "File:Giant Cannon8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Giant_Cannon8.png/revision/latest?cb=20190616234124"
+        },
+        {
+          "file": "File:Giant Cannon9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/63/Giant_Cannon9.png/revision/latest?cb=20190621202618"
+        },
+        {
+          "file": "File:Giant Cannon Ruin.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Giant_Cannon_Ruin.png/revision/latest?cb=20220507083836"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 7,
+        "2": 7,
+        "3": 7,
+        "4": 7,
+        "5": 7,
+        "6": 7,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
+    },
+    {
+      "n": "Mega Tesla",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/e/ed/Mega_Tesla1.png/revision/latest?cb=20170527182000",
+      "source": "https://clashofclans.fandom.com/wiki/Mega_Tesla",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Build Cost (Builder Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "95",
+              "380",
+              "700",
+              "3,000,000",
+              "2d",
+              "415",
+              "8"
+            ],
+            [
+              "2",
+              "104",
+              "416",
+              "800",
+              "3,100,000",
+              "3d",
+              "509",
+              "8"
+            ],
+            [
+              "3",
+              "115",
+              "460",
+              "950",
+              "3,200,000",
+              "4d",
+              "587",
+              "8"
+            ],
+            [
+              "4",
+              "126",
+              "504",
+              "1,100",
+              "3,300,000",
+              "5d",
+              "657",
+              "8"
+            ],
+            [
+              "5",
+              "139",
+              "556",
+              "1,300",
+              "3,400,000",
+              "6d",
+              "720",
+              "8"
+            ],
+            [
+              "6",
+              "153",
+              "612",
+              "1,500",
+              "3,600,000",
+              "7d",
+              "777",
+              "8"
+            ],
+            [
+              "7",
+              "168",
+              "672",
+              "1,700",
+              "3,800,000",
+              "8d",
+              "831",
+              "8"
+            ],
+            [
+              "8",
+              "185",
+              "740",
+              "1,900",
+              "4,000,000",
+              "10d",
+              "929",
+              "8"
+            ],
+            [
+              "9",
+              "204",
+              "816",
+              "2,150",
+              "4,800,000",
+              "11d",
+              "974",
+              "9"
+            ],
+            [
+              "10",
+              "224",
+              "896",
+              "2,400",
+              "5,800,000",
+              "12d",
+              "1,018",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Number of Targets",
+            "Chain Damage Decay",
+            "Chain Distance",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "7.5 tiles",
+              "4s",
+              "Chain Lightning",
+              "2",
+              "-40%",
+              "3 tiles",
+              "Ground & Air"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Mega Tesla1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ed/Mega_Tesla1.png/revision/latest?cb=20170527182000"
+        },
+        {
+          "file": "File:Mega Tesla10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/42/Mega_Tesla10.png/revision/latest?cb=20230517050242"
+        },
+        {
+          "file": "File:Mega Tesla2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fd/Mega_Tesla2.png/revision/latest?cb=20180929013650"
+        },
+        {
+          "file": "File:Mega Tesla3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ed/Mega_Tesla3.png/revision/latest?cb=20170527182001"
+        },
+        {
+          "file": "File:Mega Tesla4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/43/Mega_Tesla4.png/revision/latest?cb=20170527182001"
+        },
+        {
+          "file": "File:Mega Tesla5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Mega_Tesla5.png/revision/latest?cb=20180929013702"
+        },
+        {
+          "file": "File:Mega Tesla6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/42/Mega_Tesla6.png/revision/latest?cb=20170527182002"
+        },
+        {
+          "file": "File:Mega Tesla7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c6/Mega_Tesla7.png/revision/latest?cb=20180929013713"
+        },
+        {
+          "file": "File:Mega Tesla8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/32/Mega_Tesla8.png/revision/latest?cb=20180929013724"
+        },
+        {
+          "file": "File:Mega Tesla9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/39/Mega_Tesla9.png/revision/latest?cb=20190616234612"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
+    },
+    {
+      "n": "Lava Launcher",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Lava_Launcher1.png/revision/latest?cb=20190618174155",
+      "source": "https://clashofclans.fandom.com/wiki/Lava_Launcher",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics / Builder Base",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Burn Damage per Second",
+            "Total Burn Damage",
+            "Burn Damage per Tick",
+            "Hitpoints",
+            "Build Cost (Builder Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "7.1",
+              "50",
+              "15",
+              "300",
+              "6",
+              "500",
+              "3,000,000",
+              "2d",
+              "415",
+              "9"
+            ],
+            [
+              "2",
+              "7.8",
+              "55",
+              "17.5",
+              "350",
+              "7",
+              "575",
+              "3,100,000",
+              "3d",
+              "509",
+              "9"
+            ],
+            [
+              "3",
+              "8.7",
+              "61",
+              "20",
+              "400",
+              "8",
+              "660",
+              "3,200,000",
+              "4d",
+              "587",
+              "9"
+            ],
+            [
+              "4",
+              "9.5",
+              "67",
+              "22.5",
+              "450",
+              "9",
+              "760",
+              "3,400,000",
+              "5d",
+              "657",
+              "9"
+            ],
+            [
+              "5",
+              "10.4",
+              "73",
+              "25",
+              "500",
+              "10",
+              "875",
+              "3,700,000",
+              "6d",
+              "720",
+              "9"
+            ],
+            [
+              "6",
+              "11.5",
+              "81",
+              "27.5",
+              "550",
+              "11",
+              "1,050",
+              "4,000,000",
+              "7d",
+              "777",
+              "9"
+            ],
+            [
+              "7",
+              "12.7",
+              "89",
+              "30",
+              "600",
+              "12",
+              "1,250",
+              "4,300,000",
+              "8d",
+              "831",
+              "9"
+            ],
+            [
+              "8",
+              "13.8",
+              "97",
+              "32.5",
+              "650",
+              "13",
+              "1,450",
+              "4,600,000",
+              "10d",
+              "929",
+              "9"
+            ],
+            [
+              "9",
+              "15.2",
+              "107",
+              "35",
+              "700",
+              "14",
+              "1,650",
+              "4,900,000",
+              "11d",
+              "974",
+              "9"
+            ],
+            [
+              "10",
+              "16.8",
+              "118",
+              "37.5",
+              "750",
+              "15",
+              "1,850",
+              "5,900,000",
+              "12d",
+              "1,018",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics / Builder Base",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Lava Lifetime",
+            "Burn Damage Tick Rate",
+            "Lava Radius",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "6-13 tiles",
+              "7s",
+              "20s",
+              "0.4s",
+              "2.5 tiles",
+              "Splash - 3 tiles",
+              "Ground"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Lava Launcher1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Lava_Launcher1.png/revision/latest?cb=20190618174155"
+        },
+        {
+          "file": "File:Lava Launcher10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2c/Lava_Launcher10.png/revision/latest?cb=20230517051511"
+        },
+        {
+          "file": "File:Lava Launcher1 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/54/Lava_Launcher1_Crafted.png/revision/latest?cb=20260330142044"
+        },
+        {
+          "file": "File:Lava Launcher2 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/64/Lava_Launcher2_Crafted.png/revision/latest?cb=20260330142111"
+        },
+        {
+          "file": "File:Lava Launcher3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/47/Lava_Launcher3.png/revision/latest?cb=20190618174156"
+        },
+        {
+          "file": "File:Lava Launcher3 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a2/Lava_Launcher3_Crafted.png/revision/latest?cb=20260330142141"
+        },
+        {
+          "file": "File:Lava Launcher4 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bf/Lava_Launcher4_Crafted.png/revision/latest?cb=20260330142216"
+        },
+        {
+          "file": "File:Lava Launcher5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a5/Lava_Launcher5.png/revision/latest?cb=20190618174156"
+        },
+        {
+          "file": "File:Lava Launcher5 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/30/Lava_Launcher5_Crafted.png/revision/latest?cb=20260330142237"
+        },
+        {
+          "file": "File:Lava Launcher6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/43/Lava_Launcher6.png/revision/latest?cb=20190618174157"
+        },
+        {
+          "file": "File:Lava Launcher6 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Lava_Launcher6_Crafted.png/revision/latest?cb=20260330142257"
+        },
+        {
+          "file": "File:Lava Launcher7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4b/Lava_Launcher7.png/revision/latest?cb=20190618174157"
+        },
+        {
+          "file": "File:Lava Launcher7 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/24/Lava_Launcher7_Crafted.png/revision/latest?cb=20260404102738"
+        },
+        {
+          "file": "File:Lava Launcher9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Lava_Launcher9.png/revision/latest?cb=20190618174157"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 9,
+        "2": 9,
+        "3": 9,
+        "4": 9,
+        "5": 9,
+        "6": 9,
+        "7": 9,
+        "8": 9,
+        "9": 9,
+        "10": 10
+      }
+    },
+    {
+      "n": "X-Bow/Builder Base",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/a/ad/X-Bow1B_Air.png/revision/latest?cb=20230516212125",
+      "source": "https://clashofclans.fandom.com/wiki/X-Bow/Builder_Base",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Build Cost (Builder Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "80",
+              "15.36",
+              "1,700",
+              "4,400,000",
+              "7d",
+              "777",
+              "10"
+            ],
+            [
+              "2",
+              "88",
+              "16.9",
+              "1,900",
+              "4,800,000",
+              "8d",
+              "831",
+              "10"
+            ],
+            [
+              "3",
+              "96",
+              "18.43",
+              "2,100",
+              "5,200,000",
+              "10d",
+              "929",
+              "10"
+            ],
+            [
+              "4",
+              "106",
+              "20.35",
+              "2,350",
+              "5,600,000",
+              "11d",
+              "974",
+              "10"
+            ],
+            [
+              "5",
+              "116",
+              "22.27",
+              "2,600",
+              "6,000,000",
+              "12d",
+              "1,018",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "12",
+              "0.192s",
+              "Single Target",
+              "Ground Air"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:X-Bow1B Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ad/X-Bow1B_Air.png/revision/latest?cb=20230516212125"
+        },
+        {
+          "file": "File:X-Bow1B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/X-Bow1B_Ground.png/revision/latest?cb=20230516212126"
+        },
+        {
+          "file": "File:X-Bow2B Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6c/X-Bow2B_Air.png/revision/latest?cb=20230516212126"
+        },
+        {
+          "file": "File:X-Bow2B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c7/X-Bow2B_Ground.png/revision/latest?cb=20230516212127"
+        },
+        {
+          "file": "File:X-Bow3B Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/01/X-Bow3B_Air.png/revision/latest?cb=20230516212128"
+        },
+        {
+          "file": "File:X-Bow3B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0b/X-Bow3B_Ground.png/revision/latest?cb=20230516212129"
+        },
+        {
+          "file": "File:X-Bow4B Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fe/X-Bow4B_Air.png/revision/latest?cb=20230516212130"
+        },
+        {
+          "file": "File:X-Bow4B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a9/X-Bow4B_Ground.png/revision/latest?cb=20230516212131"
+        },
+        {
+          "file": "File:X-Bow5B Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7a/X-Bow5B_Air.png/revision/latest?cb=20230516212132"
+        },
+        {
+          "file": "File:X-Bow5B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8a/X-Bow5B_Ground.png/revision/latest?cb=20230516212133"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 10,
+        "2": 10,
+        "3": 10,
+        "4": 10,
+        "5": 10
+      }
+    }
+  ],
+  "unverified": [],
+  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
+}

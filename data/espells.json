@@ -1,0 +1,1241 @@
+{
+  "id": "espells",
+  "label": "Elixir Spells",
+  "format": "wiki-review-v1",
+  "updated": "2026-11-03",
+  "units": [
+    {
+      "n": "Lightning Spell",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/c/c0/Lightning_Spell_info.png/revision/latest?cb=20210106011434",
+      "source": "https://clashofclans.fandom.com/wiki/Lightning_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics / Home Village",
+          "columns": [
+            "Damage Radius",
+            "Stun Time",
+            "Housing Space",
+            "Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "2 tiles",
+              "0.1s",
+              "1",
+              "1"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics / Home Village",
+          "columns": [
+            "Level",
+            "Damage",
+            "Research Cost (Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "150",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "180",
+              "50,000",
+              "2h",
+              "1"
+            ],
+            [
+              "3",
+              "210",
+              "100,000",
+              "4h",
+              "2"
+            ],
+            [
+              "4",
+              "240",
+              "200,000",
+              "6h",
+              "3"
+            ],
+            [
+              "5",
+              "270",
+              "600,000",
+              "1d",
+              "6"
+            ],
+            [
+              "6",
+              "320",
+              "1,500,000",
+              "1d 12h",
+              "7"
+            ],
+            [
+              "7",
+              "400",
+              "2,500,000",
+              "3d",
+              "8"
+            ],
+            [
+              "8",
+              "480",
+              "4,200,000",
+              "3d 12h",
+              "9"
+            ],
+            [
+              "9",
+              "560",
+              "6,300,000",
+              "5d",
+              "10"
+            ],
+            [
+              "10",
+              "600",
+              "10,000,000",
+              "6d",
+              "13"
+            ],
+            [
+              "11",
+              "640",
+              "13,500,000",
+              "7d",
+              "14"
+            ],
+            [
+              "12",
+              "680",
+              "18,500,000",
+              "10d",
+              "15"
+            ],
+            [
+              "13",
+              "720",
+              "27,000,000",
+              "14d",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Lightning Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c0/Lightning_Spell_info.png/revision/latest?cb=20210106011434"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 5,
+        "2": 5,
+        "3": 5,
+        "4": 5,
+        "5": 8,
+        "6": 9,
+        "7": 10,
+        "8": 11,
+        "9": 12,
+        "10": 15,
+        "11": 16,
+        "12": 17,
+        "13": 18
+      },
+      "iconVerification": {
+        "file": "File:Lightning Spell info.png",
+        "width": 165,
+        "height": 165,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Lightning_Spell"
+      }
+    },
+    {
+      "n": "Healing Spell",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/f/f2/Healing_Spell_info.png/revision/latest?cb=20171008204028",
+      "source": "https://clashofclans.fandom.com/wiki/Healing_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics / Home Village",
+          "columns": [
+            "Radius",
+            "Number of Pulses",
+            "Time Between Pulses",
+            "Housing Space",
+            "Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "5 tiles",
+              "41",
+              "0.3s",
+              "2",
+              "2"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics / Home Village",
+          "columns": [
+            "Level",
+            "Total Healing",
+            "Healing per Pulse",
+            "Total Healing on Heroes",
+            "Research Cost (Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "615",
+              "15",
+              "338.25",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "820",
+              "20",
+              "451",
+              "75,000",
+              "3h",
+              "2"
+            ],
+            [
+              "3",
+              "1,025",
+              "25",
+              "563.75",
+              "150,000",
+              "6h",
+              "4"
+            ],
+            [
+              "4",
+              "1,230",
+              "30",
+              "676.5",
+              "300,000",
+              "12h",
+              "5"
+            ],
+            [
+              "5",
+              "1,435",
+              "35",
+              "789.25",
+              "900,000",
+              "1d",
+              "6"
+            ],
+            [
+              "6",
+              "1,640",
+              "40",
+              "902",
+              "1,800,000",
+              "1d 12h",
+              "7"
+            ],
+            [
+              "7",
+              "1,845",
+              "45",
+              "1,014.75",
+              "3,000,000",
+              "3d",
+              "8"
+            ],
+            [
+              "8",
+              "2,050",
+              "50",
+              "1,127.5",
+              "6,000,000",
+              "5d",
+              "11"
+            ],
+            [
+              "9",
+              "2,255",
+              "55",
+              "1,240.25",
+              "11,000,000",
+              "6d 12h",
+              "13"
+            ],
+            [
+              "10",
+              "2,460",
+              "60",
+              "1,353",
+              "14,000,000",
+              "7d",
+              "14"
+            ],
+            [
+              "11",
+              "2,747",
+              "67",
+              "1,510.85",
+              "19,000,000",
+              "10d 12h",
+              "15"
+            ],
+            [
+              "12",
+              "3,075",
+              "75",
+              "1,691.25",
+              "29,000,000",
+              "15d",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Healing Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f2/Healing_Spell_info.png/revision/latest?cb=20171008204028"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 6,
+        "2": 6,
+        "3": 6,
+        "4": 7,
+        "5": 8,
+        "6": 9,
+        "7": 10,
+        "8": 13,
+        "9": 15,
+        "10": 16,
+        "11": 17,
+        "12": 18
+      },
+      "iconVerification": {
+        "file": "File:Healing Spell info.png",
+        "width": 166,
+        "height": 166,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Healing_Spell"
+      }
+    },
+    {
+      "n": "Rage Spell",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/8a/Rage_Spell_info.png/revision/latest?cb=20171008204108",
+      "source": "https://clashofclans.fandom.com/wiki/Rage_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics / Home Village",
+          "columns": [
+            "Radius",
+            "Number of Pulses",
+            "Time Between Pulses",
+            "Boost Time",
+            "Housing Space",
+            "Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "5 tiles",
+              "60",
+              "0.3s",
+              "1s",
+              "2",
+              "3"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics / Home Village",
+          "columns": [
+            "Level",
+            "Damage Increase",
+            "Speed Increase",
+            "Research Cost (Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "130%",
+              "20",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "140%",
+              "22",
+              "400,000",
+              "6h",
+              "3"
+            ],
+            [
+              "3",
+              "150%",
+              "24",
+              "800,000",
+              "12h",
+              "4"
+            ],
+            [
+              "4",
+              "160%",
+              "26",
+              "1,000,000",
+              "1d",
+              "5"
+            ],
+            [
+              "5",
+              "170%",
+              "28",
+              "2,000,000",
+              "2d",
+              "6"
+            ],
+            [
+              "6",
+              "180%",
+              "30",
+              "5,000,000",
+              "4d",
+              "10"
+            ],
+            [
+              "7",
+              "190%",
+              "32",
+              "26,000,000",
+              "14d",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Rage Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8a/Rage_Spell_info.png/revision/latest?cb=20171008204108"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 7,
+        "2": 7,
+        "3": 7,
+        "4": 7,
+        "5": 8,
+        "6": 12,
+        "7": 18
+      },
+      "iconVerification": {
+        "file": "File:Rage Spell info.png",
+        "width": 166,
+        "height": 166,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Rage_Spell"
+      }
+    },
+    {
+      "n": "Jump Spell",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/3/38/Jump_Spell_info.png/revision/latest?cb=20200913023217",
+      "source": "https://clashofclans.fandom.com/wiki/Jump_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics / Home Village",
+          "columns": [
+            "Radius",
+            "Boost Time",
+            "Housing Space",
+            "Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "3.5 tiles",
+              "1s",
+              "2",
+              "4"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics / Home Village",
+          "columns": [
+            "Level",
+            "Spell Duration",
+            "Research Cost (Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "20 seconds",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "40 seconds",
+              "1,000,000",
+              "1d",
+              "5"
+            ],
+            [
+              "3",
+              "60 seconds",
+              "2,000,000",
+              "2d",
+              "8"
+            ],
+            [
+              "4",
+              "80 seconds",
+              "5,000,000",
+              "4d",
+              "11"
+            ],
+            [
+              "5",
+              "100 seconds",
+              "8,000,000",
+              "5d",
+              "13"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Jump Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/38/Jump_Spell_info.png/revision/latest?cb=20200913023217"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 9,
+        "2": 9,
+        "3": 10,
+        "4": 13,
+        "5": 15
+      },
+      "iconVerification": {
+        "file": "File:Jump Spell info.png",
+        "width": 166,
+        "height": 166,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Jump_Spell"
+      }
+    },
+    {
+      "n": "Freeze Spell",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/e/ef/Freeze_Spell_info.png/revision/latest?cb=20180627210930",
+      "source": "https://clashofclans.fandom.com/wiki/Freeze_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Radius",
+            "Housing Space",
+            "Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "3.5 tiles",
+              "1",
+              "4"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Freeze Time",
+            "Research Cost (Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "2.5 seconds",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "3.0 seconds",
+              "1,200,000",
+              "1d",
+              "7"
+            ],
+            [
+              "3",
+              "3.5 seconds",
+              "1,700,000",
+              "1d 12h",
+              "8"
+            ],
+            [
+              "4",
+              "4.0 seconds",
+              "3,000,000",
+              "2d",
+              "8"
+            ],
+            [
+              "5",
+              "4.5 seconds",
+              "4,200,000",
+              "2d 12h",
+              "8"
+            ],
+            [
+              "6",
+              "5.0 seconds",
+              "6,000,000",
+              "3d 12h",
+              "9"
+            ],
+            [
+              "7",
+              "5.5 seconds",
+              "7,000,000",
+              "5d",
+              "10"
+            ],
+            [
+              "8",
+              "6.0 seconds",
+              "28,000,000",
+              "15d 12h",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Freeze Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ef/Freeze_Spell_info.png/revision/latest?cb=20180627210930"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 9,
+        "2": 9,
+        "3": 10,
+        "4": 10,
+        "5": 10,
+        "6": 11,
+        "7": 12,
+        "8": 18
+      },
+      "iconVerification": {
+        "file": "File:Freeze Spell info.png",
+        "width": 166,
+        "height": 166,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Freeze_Spell"
+      }
+    },
+    {
+      "n": "Clone Spell",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/9/91/Clone_Spell_info.png/revision/latest?cb=20200913194701",
+      "source": "https://clashofclans.fandom.com/wiki/Clone_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Radius",
+            "Spell Duration",
+            "Cloned Lifespan",
+            "Housing Space",
+            "Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "3.5 tiles",
+              "18s",
+              "30s",
+              "3",
+              "5"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Cloned Capacity",
+            "Research Cost (Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "22",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "24",
+              "1,500,000",
+              "1d",
+              "8"
+            ],
+            [
+              "3",
+              "26",
+              "2,500,000",
+              "2d",
+              "8"
+            ],
+            [
+              "4",
+              "28",
+              "3,000,000",
+              "2d 6h",
+              "9"
+            ],
+            [
+              "5",
+              "30",
+              "4,000,000",
+              "2d 12h",
+              "9"
+            ],
+            [
+              "6",
+              "34",
+              "5,000,000",
+              "4d",
+              "11"
+            ],
+            [
+              "7",
+              "38",
+              "8,000,000",
+              "5d",
+              "12"
+            ],
+            [
+              "8",
+              "42",
+              "9,000,000",
+              "7d",
+              "13"
+            ],
+            [
+              "9",
+              "48",
+              "26,000,000",
+              "13d 12h",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Clone Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/91/Clone_Spell_info.png/revision/latest?cb=20200913194701"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 10,
+        "2": 10,
+        "3": 10,
+        "4": 11,
+        "5": 11,
+        "6": 13,
+        "7": 14,
+        "8": 15,
+        "9": 18
+      },
+      "iconVerification": {
+        "file": "File:Clone Spell info.png",
+        "width": 166,
+        "height": 166,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Clone_Spell"
+      }
+    },
+    {
+      "n": "Invisibility Spell",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/a/a3/Invisibility_Spell_info.png/revision/latest?cb=20201207184352",
+      "source": "https://clashofclans.fandom.com/wiki/Invisibility_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Effect Radius",
+            "Housing Space",
+            "Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "4 tiles",
+              "1",
+              "6"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Duration",
+            "Research Cost (Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "3.5s",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "3.75s",
+              "5,000,000",
+              "3d",
+              "9"
+            ],
+            [
+              "3",
+              "4s",
+              "6,000,000",
+              "4d",
+              "10"
+            ],
+            [
+              "4",
+              "4.25s",
+              "7,000,000",
+              "5d",
+              "11"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Invisibility Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a3/Invisibility_Spell_info.png/revision/latest?cb=20201207184352"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 11,
+        "2": 11,
+        "3": 12,
+        "4": 13
+      },
+      "iconVerification": {
+        "file": "File:Invisibility Spell info.png",
+        "width": 165,
+        "height": 165,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Invisibility_Spell"
+      }
+    },
+    {
+      "n": "Recall Spell",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/7/73/Recall_Spell_info.png/revision/latest?cb=20241016125525",
+      "source": "https://clashofclans.fandom.com/wiki/Recall_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Radius",
+            "Targets",
+            "Housing Space",
+            "Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "5 tiles",
+              "Ground & Air",
+              "2",
+              "7"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Recalled Capacity",
+            "Research Cost (Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "83",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "89",
+              "7,500,000",
+              "7d",
+              "11"
+            ],
+            [
+              "3",
+              "95",
+              "8,000,000",
+              "7d 12h",
+              "12"
+            ],
+            [
+              "4",
+              "101",
+              "9,000,000",
+              "8d",
+              "13"
+            ],
+            [
+              "5",
+              "107",
+              "13,000,000",
+              "9d",
+              "14"
+            ],
+            [
+              "6",
+              "113",
+              "19,000,000",
+              "11d",
+              "15"
+            ],
+            [
+              "7",
+              "120",
+              "29,000,000",
+              "16d",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Recall Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/73/Recall_Spell_info.png/revision/latest?cb=20241016125525"
+        },
+        {
+          "file": "File:Recall Spell used info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c2/Recall_Spell_used_info.png/revision/latest?cb=20241016125553"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 13,
+        "2": 13,
+        "3": 14,
+        "4": 15,
+        "5": 16,
+        "6": 17,
+        "7": 18
+      },
+      "iconVerification": {
+        "file": "File:Recall Spell info.png",
+        "width": 166,
+        "height": 166,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Recall_Spell"
+      }
+    },
+    {
+      "n": "Revive Spell",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/e/e0/Avatar_Revive_Spell2.png/revision/latest?cb=20250702004252",
+      "source": "https://clashofclans.fandom.com/wiki/Revive_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Trigger Radius",
+            "Targets",
+            "Housing Space",
+            "Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "8 tiles",
+              "Heroes (Single Target)",
+              "2",
+              "8"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Level",
+            "Hero Heal %",
+            "Research Cost (Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "60%",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "65%",
+              "18,000,000",
+              "7d",
+              "13"
+            ],
+            [
+              "3",
+              "70%",
+              "19,000,000",
+              "8d",
+              "14"
+            ],
+            [
+              "4",
+              "75%",
+              "20,000,000",
+              "11d 12h",
+              "15"
+            ],
+            [
+              "5",
+              "80%",
+              "29,500,000",
+              "16d",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Revive Spell2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e0/Avatar_Revive_Spell2.png/revision/latest?cb=20250702004252"
+        },
+        {
+          "file": "File:Revive Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5f/Revive_Spell_info.png/revision/latest?cb=20241123132732"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 15,
+        "2": 15,
+        "3": 16,
+        "4": 17,
+        "5": 18
+      },
+      "iconVerification": {
+        "file": "File:Avatar Revive Spell2.png",
+        "width": 867,
+        "height": 868,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Revive_Spell"
+      }
+    },
+    {
+      "n": "Totem Spell",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/d/d1/Totem_Spell_info.png/revision/latest?cb=20251116131624",
+      "source": "https://clashofclans.fandom.com/wiki/Totem_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Radius",
+            "Hitpoint Decay per Second",
+            "Housing Space",
+            "Targets",
+            "Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "5 tiles",
+              "334",
+              "1",
+              "Ground & Air",
+              "9"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Level",
+            "Totem Hitpoints",
+            "Research Cost (Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "10,000",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "11,000",
+              "21,000,000",
+              "12d",
+              "14"
+            ],
+            [
+              "3",
+              "12,000",
+              "22,000,000",
+              "14d",
+              "15"
+            ],
+            [
+              "4",
+              "13,000",
+              "23,000,000",
+              "16d",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Totem Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d1/Totem_Spell_info.png/revision/latest?cb=20251116131624"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 16,
+        "2": 16,
+        "3": 17,
+        "4": 18
+      },
+      "iconVerification": {
+        "file": "File:Totem Spell info.png",
+        "width": 1024,
+        "height": 1024,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Totem_Spell"
+      }
+    }
+  ],
+  "unverified": [],
+  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
+}

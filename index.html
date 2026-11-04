@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#1b1d22">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Clash Ref">
+<title>Clash Reference</title>
+<link rel="stylesheet" href="style.css?v=20261103-image-recovery">
+</head>
+<body>
+<div class="top">
+<header class="bar">
+  <button id="back" class="back" aria-label="Back" hidden>&#8249;</button>
+  <h1 id="title">Clash Reference</h1>
+  <button id="settingsBtn" class="gear" aria-label="Settings" aria-controls="settings" aria-expanded="false">TH<span id="thBadge"></span></button>
+</header>
+<div class="hj" id="hj"><span class="hjt" id="hjt">Hammer Jam (Nov 1&#8211;15): costs &amp; times shown are normal, not the 50% discount.</span><button class="hjc" id="hjc" type="button" aria-label="Show full note" aria-expanded="false" hidden>&#9662;</button></div>
+<div id="settings" class="settings" hidden>
+  <label>My Town Hall
+    <select id="thSel"></select>
+  </label>
+  <label class="chk"><input type="checkbox" id="onlyTH"> Limit upgrade levels to my TH</label>
+</div>
+</div>
+<main id="app"><p class="loading">Loading&#8230;</p></main>
+<nav id="tabs" class="tabs" hidden>
+  <button data-tab="info"><span class="ti">&#9776;</span>Info</button>
+  <button data-tab="stats"><span class="ti">&#9650;</span>Stats</button>
+  <button data-tab="images"><span class="ti">&#9635;</span>Images</button>
+  <button data-tab="max"><span class="ti">&#8987;</span>To max</button>
+</nav>
+<script src="app.js?v=20261103-image-recovery"></script>
+</body>
+</html>

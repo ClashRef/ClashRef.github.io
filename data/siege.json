@@ -1,0 +1,1368 @@
+{
+  "id": "siege",
+  "label": "Siege Machines",
+  "format": "wiki-review-v1",
+  "updated": "2026-11-03",
+  "units": [
+    {
+      "n": "Wall Wrecker",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/f/f3/Avatar_Wall_Wrecker.png/revision/latest?cb=20200913195940",
+      "source": "https://clashofclans.fandom.com/wiki/Wall_Wrecker",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Workshop Level Required"
+          ],
+          "rows": [
+            [
+              "Walls (Damage x10)",
+              "Area Splash",
+              "1",
+              "12",
+              "1.3s",
+              "1"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Damage vs. Walls",
+            "Hitpoints",
+            "Research Cost (Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "250",
+              "325",
+              "3,250",
+              "5,500",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "300",
+              "390",
+              "3,900",
+              "6,000",
+              "2,500,000",
+              "2d",
+              "10"
+            ],
+            [
+              "3",
+              "350",
+              "455",
+              "4,550",
+              "6,500",
+              "3,500,000",
+              "3d",
+              "10"
+            ],
+            [
+              "4",
+              "400",
+              "520",
+              "5,200",
+              "7,000",
+              "6,500,000",
+              "7d",
+              "11"
+            ],
+            [
+              "5",
+              "580",
+              "754",
+              "7,540",
+              "8,500",
+              "10,000,000",
+              "9d",
+              "13"
+            ],
+            [
+              "6",
+              "670",
+              "871",
+              "8,710",
+              "10,000",
+              "26,000,000",
+              "13d 12h",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Wall Wrecker.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f3/Avatar_Wall_Wrecker.png/revision/latest?cb=20200913195940"
+        },
+        {
+          "file": "File:Wall Wrecker1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d4/Wall_Wrecker1.png/revision/latest?cb=20230616051311"
+        },
+        {
+          "file": "File:Wall Wrecker2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/99/Wall_Wrecker2.png/revision/latest?cb=20230616051323"
+        },
+        {
+          "file": "File:Wall Wrecker3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d9/Wall_Wrecker3.png/revision/latest?cb=20230616051327"
+        },
+        {
+          "file": "File:Wall Wrecker4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/25/Wall_Wrecker4.png/revision/latest?cb=20230616051331"
+        },
+        {
+          "file": "File:Wall Wrecker5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/24/Wall_Wrecker5.png/revision/latest?cb=20230616051337"
+        },
+        {
+          "file": "File:Wall Wrecker6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/21/Wall_Wrecker6.png/revision/latest?cb=20251121174105"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 12,
+        "2": 12,
+        "3": 12,
+        "4": 13,
+        "5": 15,
+        "6": 18
+      }
+    },
+    {
+      "n": "Battle Blimp",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/2/2f/Avatar_Battle_Blimp.png/revision/latest?cb=20200913200003",
+      "source": "https://clashofclans.fandom.com/wiki/Battle_Blimp",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Movement Speed",
+            "Attack Speed",
+            "Workshop Level Required"
+          ],
+          "rows": [
+            [
+              "None",
+              "Area Splash",
+              "18",
+              "1.5s",
+              "2"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "Damage when Destroyed",
+            "Hitpoints",
+            "Research Cost (Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "100",
+              "150",
+              "700",
+              "3,000",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "140",
+              "210",
+              "800",
+              "3,500",
+              "2,500,000",
+              "2d",
+              "10"
+            ],
+            [
+              "3",
+              "180",
+              "270",
+              "900",
+              "4,000",
+              "3,500,000",
+              "3d",
+              "10"
+            ],
+            [
+              "4",
+              "220",
+              "330",
+              "1,000",
+              "4,500",
+              "6,500,000",
+              "7d",
+              "11"
+            ],
+            [
+              "5",
+              "260",
+              "390",
+              "1,100",
+              "5,000",
+              "10,000,000",
+              "9d",
+              "13"
+            ],
+            [
+              "6",
+              "300",
+              "450",
+              "1,200",
+              "5,500",
+              "26,000,000",
+              "13d 12h",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Battle Blimp.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2f/Avatar_Battle_Blimp.png/revision/latest?cb=20200913200003"
+        },
+        {
+          "file": "File:Battle Blimp1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6b/Battle_Blimp1.png/revision/latest?cb=20180605200924"
+        },
+        {
+          "file": "File:Battle Blimp2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bd/Battle_Blimp2.png/revision/latest?cb=20180605201134"
+        },
+        {
+          "file": "File:Battle Blimp3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b9/Battle_Blimp3.png/revision/latest?cb=20180605201226"
+        },
+        {
+          "file": "File:Battle Blimp4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/ba/Battle_Blimp4.png/revision/latest?cb=20210227025338"
+        },
+        {
+          "file": "File:Battle Blimp5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/22/Battle_Blimp5.png/revision/latest?cb=20250625175936"
+        },
+        {
+          "file": "File:Battle Blimp6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/ba/Battle_Blimp6.png/revision/latest?cb=20260426082039"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 12,
+        "2": 12,
+        "3": 12,
+        "4": 13,
+        "5": 15,
+        "6": 18
+      }
+    },
+    {
+      "n": "Stone Slammer",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/a/ad/Avatar_Stone_Slammer.png/revision/latest?cb=20200913200030",
+      "source": "https://clashofclans.fandom.com/wiki/Stone_Slammer",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Movement Speed",
+            "Attack Speed",
+            "Workshop Level Required"
+          ],
+          "rows": [
+            [
+              "Defenses",
+              "Area Splash 1 and 3 tile Radius (Ground Only)",
+              "16",
+              "2.5s",
+              "3"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit / Hitbox 1",
+            "Damage per Hit / Hitbox 2*",
+            "Damage when Destroyed",
+            "Hitpoints",
+            "Research Cost (Elixir) / Research Cost",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "400",
+              "1,000",
+              "100-200",
+              "500",
+              "5,600",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "500",
+              "1,250",
+              "150-300",
+              "500",
+              "5,900",
+              "2,500,000",
+              "2d",
+              "10"
+            ],
+            [
+              "3",
+              "600",
+              "1,500",
+              "200-400",
+              "500",
+              "6,200",
+              "3,500,000",
+              "3d",
+              "10"
+            ],
+            [
+              "4",
+              "700",
+              "1,750",
+              "250-500",
+              "500",
+              "6,500",
+              "6,500,000",
+              "7d",
+              "11"
+            ],
+            [
+              "5",
+              "750",
+              "1,875",
+              "300-600",
+              "500",
+              "6,800",
+              "10,000,000",
+              "9d",
+              "13"
+            ],
+            [
+              "6",
+              "820",
+              "2,050",
+              "350?-700?",
+              "500",
+              "7,200",
+              "26,000,000",
+              "13d 12h",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Stone Slammer.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ad/Avatar_Stone_Slammer.png/revision/latest?cb=20200913200030"
+        },
+        {
+          "file": "File:Stone Slammer1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0b/Stone_Slammer1.png/revision/latest?cb=20230616052021"
+        },
+        {
+          "file": "File:Stone Slammer2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4e/Stone_Slammer2.png/revision/latest?cb=20230616052025"
+        },
+        {
+          "file": "File:Stone Slammer3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f5/Stone_Slammer3.png/revision/latest?cb=20230616052030"
+        },
+        {
+          "file": "File:Stone Slammer4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4b/Stone_Slammer4.png/revision/latest?cb=20230616052035"
+        },
+        {
+          "file": "File:Stone Slammer5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/62/Stone_Slammer5.png/revision/latest?cb=20230616052042"
+        },
+        {
+          "file": "File:Stone Slammer6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/db/Stone_Slammer6.png/revision/latest?cb=20260712194952"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 12,
+        "2": 12,
+        "3": 12,
+        "4": 13,
+        "5": 15,
+        "6": 18
+      }
+    },
+    {
+      "n": "Siege Barracks",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/f/fe/Avatar_Siege_Barracks.png/revision/latest?cb=20200913200141",
+      "source": "https://clashofclans.fandom.com/wiki/Siege_Barracks",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Housing Space",
+            "Movement Speed",
+            "Lifetime",
+            "Workshop Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "0 (Cannot move)",
+              "30s",
+              "4"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "Troops Spawned / P.E.K.K.As",
+            "Troops Spawned / Wizards",
+            "Research Cost (Elixir) / Research Cost",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "3,300",
+              "1",
+              "6",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "3,700",
+              "1",
+              "8",
+              "3,500,000",
+              "3d",
+              "10"
+            ],
+            [
+              "3",
+              "4,100",
+              "1",
+              "10",
+              "5,000,000",
+              "4d",
+              "10"
+            ],
+            [
+              "4",
+              "4,500",
+              "1",
+              "11",
+              "8,000,000",
+              "7d",
+              "11"
+            ],
+            [
+              "5",
+              "4,800",
+              "2",
+              "11",
+              "18,000,000",
+              "12d",
+              "14"
+            ],
+            [
+              "6",
+              "5,100",
+              "2",
+              "12",
+              "27,000,000",
+              "15d",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Siege Barracks.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fe/Avatar_Siege_Barracks.png/revision/latest?cb=20200913200141"
+        },
+        {
+          "file": "File:Parachute Barracks1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d3/Parachute_Barracks1.png/revision/latest?cb=20221124211153"
+        },
+        {
+          "file": "File:Parachute Barracks2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e0/Parachute_Barracks2.png/revision/latest?cb=20221124211142"
+        },
+        {
+          "file": "File:Parachute Barracks3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bd/Parachute_Barracks3.png/revision/latest?cb=20221124211130"
+        },
+        {
+          "file": "File:Parachute Barracks4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fc/Parachute_Barracks4.png/revision/latest?cb=20221124211121"
+        },
+        {
+          "file": "File:Parachute Barracks5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/82/Parachute_Barracks5.png/revision/latest?cb=20240227142406"
+        },
+        {
+          "file": "File:Parachute Barracks6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5d/Parachute_Barracks6.png/revision/latest?cb=20260428172636"
+        },
+        {
+          "file": "File:Siege Barracks1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a4/Siege_Barracks1.png/revision/latest?cb=20221124210925"
+        },
+        {
+          "file": "File:Siege Barracks2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1f/Siege_Barracks2.png/revision/latest?cb=20221124210935"
+        },
+        {
+          "file": "File:Siege Barracks3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3c/Siege_Barracks3.png/revision/latest?cb=20221124211013"
+        },
+        {
+          "file": "File:Siege Barracks4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/98/Siege_Barracks4.png/revision/latest?cb=20221124211021"
+        },
+        {
+          "file": "File:Siege Barracks5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/da/Siege_Barracks5.png/revision/latest?cb=20240225085808"
+        },
+        {
+          "file": "File:Siege Barracks6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/39/Siege_Barracks6.png/revision/latest?cb=20260426110249"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 13,
+        "2": 13,
+        "3": 13,
+        "4": 13,
+        "5": 16,
+        "6": 18
+      }
+    },
+    {
+      "n": "Log Launcher",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/7/73/Avatar_Log_Launcher.png/revision/latest?cb=20210106010931",
+      "source": "https://clashofclans.fandom.com/wiki/Log_Launcher",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Workshop Level Required",
+            "HP Decay per Second"
+          ],
+          "rows": [
+            [
+              "Walls (Damage x4)",
+              "Area Splash (Ground Only)",
+              "1",
+              "5",
+              "3s",
+              "5",
+              "156"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Damage per Hit vs. Walls",
+            "Point-Blank Damage*",
+            "Lifetime",
+            "Hitpoints",
+            "Research Cost (Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "140",
+              "420",
+              "1,680",
+              "2,900",
+              "25.64s",
+              "4,000",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "160",
+              "480",
+              "1,920",
+              "3,000",
+              "28.20s",
+              "4,400",
+              "3,200,000",
+              "3d",
+              "10"
+            ],
+            [
+              "3",
+              "180",
+              "540",
+              "2,160",
+              "3,100",
+              "30.76s",
+              "4,800",
+              "4,500,000",
+              "4d",
+              "10"
+            ],
+            [
+              "4",
+              "200",
+              "600",
+              "2,400",
+              "3,200",
+              "33.33s",
+              "5,200",
+              "7,500,000",
+              "7d",
+              "11"
+            ],
+            [
+              "5",
+              "220",
+              "660",
+              "2,640",
+              "3,400",
+              "35.25s",
+              "5,500",
+              "18,000,000",
+              "12d",
+              "14"
+            ],
+            [
+              "6",
+              "230",
+              "690",
+              "2,760",
+              "3,600",
+              "37.17s",
+              "5,800",
+              "27,000,000",
+              "15d",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Log Launcher.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/73/Avatar_Log_Launcher.png/revision/latest?cb=20210106010931"
+        },
+        {
+          "file": "File:Log Launcher1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/db/Log_Launcher1.png/revision/latest?cb=20201208045811"
+        },
+        {
+          "file": "File:Log Launcher2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b3/Log_Launcher2.png/revision/latest?cb=20201208045812"
+        },
+        {
+          "file": "File:Log Launcher3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3c/Log_Launcher3.png/revision/latest?cb=20201208045812"
+        },
+        {
+          "file": "File:Log Launcher4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2b/Log_Launcher4.png/revision/latest?cb=20201208045812"
+        },
+        {
+          "file": "File:Log Launcher5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/ff/Log_Launcher5.png/revision/latest?cb=20240225085906"
+        },
+        {
+          "file": "File:Log Launcher6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/58/Log_Launcher6.png/revision/latest?cb=20260426110355"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 13,
+        "2": 13,
+        "3": 13,
+        "4": 13,
+        "5": 16,
+        "6": 18
+      }
+    },
+    {
+      "n": "Flame Flinger",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/e/e4/Avatar_Flame_Flinger.png/revision/latest?cb=20211209130933",
+      "source": "https://clashofclans.fandom.com/wiki/Flame_Flinger",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Range",
+            "Housing Space",
+            "Movement Speed",
+            "Time between Bursts",
+            "Shots per Burst",
+            "HP Decay per Second",
+            "Workshop Level Required"
+          ],
+          "rows": [
+            [
+              "Defenses",
+              "Area Splash (Ground Only)",
+              "11 tiles",
+              "1",
+              "6",
+              "5s",
+              "3 shots",
+              "17",
+              "6"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Flame Maximum DPS",
+            "Lifetime",
+            "Hitpoints",
+            "Research Cost (Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "124",
+              "225",
+              "80",
+              "100.00s",
+              "1,700",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "137",
+              "250",
+              "95",
+              "105.88s",
+              "1,800",
+              "5,500,000",
+              "3d",
+              "10"
+            ],
+            [
+              "3",
+              "151",
+              "275",
+              "105",
+              "111.76s",
+              "1,900",
+              "8,000,000",
+              "4d",
+              "10"
+            ],
+            [
+              "4",
+              "165",
+              "300",
+              "120",
+              "117.64s",
+              "2,000",
+              "10,000,000",
+              "7d",
+              "11"
+            ],
+            [
+              "5",
+              "179",
+              "325",
+              "130",
+              "123.52s",
+              "2,100",
+              "18,000,000",
+              "12d",
+              "14"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Flame Flinger.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e4/Avatar_Flame_Flinger.png/revision/latest?cb=20211209130933"
+        },
+        {
+          "file": "File:Flame Flinger1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2f/Flame_Flinger1.png/revision/latest?cb=20211209201112"
+        },
+        {
+          "file": "File:Flame Flinger2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a7/Flame_Flinger2.png/revision/latest?cb=20211209201116"
+        },
+        {
+          "file": "File:Flame Flinger3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5b/Flame_Flinger3.png/revision/latest?cb=20211209201119"
+        },
+        {
+          "file": "File:Flame Flinger4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/42/Flame_Flinger4.png/revision/latest?cb=20211209201123"
+        },
+        {
+          "file": "File:Flame Flinger5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f3/Flame_Flinger5.png/revision/latest?cb=20240421093947"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 14,
+        "2": 14,
+        "3": 14,
+        "4": 14,
+        "5": 16
+      }
+    },
+    {
+      "n": "Battle Drill",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/9/99/Avatar_Battle_Drill.png/revision/latest?cb=20260122193713",
+      "source": "https://clashofclans.fandom.com/wiki/Battle_Drill",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Range",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Workshop Level Required"
+          ],
+          "rows": [
+            [
+              "Defenses",
+              "Single Target (Ground Only)",
+              "1 tile",
+              "1",
+              "24",
+              "1.7s",
+              "7"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "Hitpoints",
+            "Research Cost (Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "430",
+              "731",
+              "4,800",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "470",
+              "799",
+              "5,100",
+              "6,000,000",
+              "4d",
+              "13"
+            ],
+            [
+              "3",
+              "510",
+              "867",
+              "5,400",
+              "8,500,000",
+              "5d",
+              "13"
+            ],
+            [
+              "4",
+              "550",
+              "935",
+              "5,800",
+              "10,000,000",
+              "8d",
+              "13"
+            ],
+            [
+              "5",
+              "590",
+              "1,003",
+              "6,300",
+              "17,000,000",
+              "9d",
+              "15"
+            ],
+            [
+              "6",
+              "640",
+              "1,088",
+              "6,900",
+              "28,000,000",
+              "15d 12h",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Battle Drill.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/99/Avatar_Battle_Drill.png/revision/latest?cb=20260122193713"
+        },
+        {
+          "file": "File:Battle Drill1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/66/Battle_Drill1.png/revision/latest?cb=20221124204157"
+        },
+        {
+          "file": "File:Battle Drill2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c4/Battle_Drill2.png/revision/latest?cb=20221124204218"
+        },
+        {
+          "file": "File:Battle Drill3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ae/Battle_Drill3.png/revision/latest?cb=20221124204230"
+        },
+        {
+          "file": "File:Battle Drill4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5f/Battle_Drill4.png/revision/latest?cb=20221124204241"
+        },
+        {
+          "file": "File:Battle Drill5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/06/Battle_Drill5.png/revision/latest?cb=20241217142448"
+        },
+        {
+          "file": "File:Battle Drill6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/be/Battle_Drill6.png/revision/latest?cb=20260426085443"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 15,
+        "2": 15,
+        "3": 15,
+        "4": 15,
+        "5": 17,
+        "6": 18
+      }
+    },
+    {
+      "n": "Troop Launcher",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/0/08/Avatar_Troop_Launcher.png/revision/latest?cb=20250208163316",
+      "source": "https://clashofclans.fandom.com/wiki/Troop_Launcher",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Housing Space",
+            "Attack Type",
+            "Movement Speed",
+            "Healing per Second*",
+            "Healing per Hit*",
+            "Attack Speed",
+            "Workshop Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "Heal Splash; 1 Tiles (Ground Only)",
+              "0 (Cannot move)",
+              "1",
+              "6",
+              "6s",
+              "8"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "Lifetime",
+            "Barrel Count",
+            "Troops Spawned / Barbarians",
+            "Troops Spawned / Archers",
+            "Troops Spawned / Giants",
+            "Troops Spawned / Wall Breakers",
+            "Troop Level",
+            "Research Cost (Elixir) / Research Cost",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "2,000",
+              "80s",
+              "5",
+              "2",
+              "3",
+              "1",
+              "1",
+              "9",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "2,200",
+              "88s",
+              "5",
+              "2",
+              "3",
+              "1",
+              "2",
+              "10",
+              "8,500,000",
+              "6d",
+              "14"
+            ],
+            [
+              "3",
+              "2,400",
+              "96s",
+              "6",
+              "2",
+              "4",
+              "1",
+              "2",
+              "11",
+              "10,000,000",
+              "8d",
+              "14"
+            ],
+            [
+              "4",
+              "2,600",
+              "104s",
+              "7",
+              "2",
+              "4",
+              "1",
+              "2",
+              "12",
+              "17,000,000",
+              "9d",
+              "15"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Troop Launcher.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/08/Avatar_Troop_Launcher.png/revision/latest?cb=20250208163316"
+        },
+        {
+          "file": "File:Troop Launcher1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/79/Troop_Launcher1.png/revision/latest?cb=20260830053547"
+        },
+        {
+          "file": "File:Troop Launcher2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/40/Troop_Launcher2.png/revision/latest?cb=20260830053619"
+        },
+        {
+          "file": "File:Troop Launcher3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/75/Troop_Launcher3.png/revision/latest?cb=20260830053638"
+        },
+        {
+          "file": "File:Troop Launcher4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e2/Troop_Launcher4.png/revision/latest?cb=20260830053656"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 16,
+        "2": 16,
+        "3": 16,
+        "4": 17
+      }
+    },
+    {
+      "n": "Sky Wagon",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/2/28/Avatar_Sky_Wagon.png/revision/latest?cb=20260604144033",
+      "source": "https://clashofclans.fandom.com/wiki/Sky_Wagon",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Range",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Workshop Level Required"
+          ],
+          "rows": [
+            [
+              "5.5 tiles",
+              "1",
+              "16",
+              "8s",
+              "9"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Level",
+            "Damage per Second*",
+            "Damage per Hit*",
+            "Hitpoints",
+            "Barrel Count",
+            "Research Cost (Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "1",
+              "8",
+              "3,600",
+              "4",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "2",
+              "16",
+              "3,800",
+              "4",
+              "22,000,000",
+              "10d",
+              "15"
+            ],
+            [
+              "3",
+              "3",
+              "24",
+              "4,000",
+              "5",
+              "26,000,000",
+              "13d 12h",
+              "16"
+            ],
+            [
+              "4",
+              "4",
+              "32",
+              "4,200",
+              "5",
+              "29,000,000",
+              "16d",
+              "16"
+            ]
+          ]
+        },
+        {
+          "heading": "Troops Barrel [ ]",
+          "columns": [
+            "Level",
+            "Troops Spawned / Minions",
+            "Troops Spawned / Balloon",
+            "Troops Spawned / Baby Dragon",
+            "Troop Levels / Minions",
+            "Troop Levels / Balloon",
+            "Troop Levels / Baby Dragon"
+          ],
+          "rows": [
+            [
+              "1",
+              "2",
+              "1",
+              "1",
+              "10",
+              "9",
+              "8"
+            ],
+            [
+              "2",
+              "3",
+              "1",
+              "1",
+              "11",
+              "10",
+              "9"
+            ],
+            [
+              "3",
+              "4",
+              "1",
+              "1",
+              "12",
+              "11",
+              "10"
+            ],
+            [
+              "4",
+              "4",
+              "1",
+              "1",
+              "13",
+              "12",
+              "11"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Sky Wagon.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/28/Avatar_Sky_Wagon.png/revision/latest?cb=20260604144033"
+        },
+        {
+          "file": "File:Sky Wagon1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/60/Sky_Wagon1.png/revision/latest?cb=20260426164607"
+        },
+        {
+          "file": "File:Sky Wagon2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/14/Sky_Wagon2.png/revision/latest?cb=20260426164631"
+        },
+        {
+          "file": "File:Sky Wagon3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/de/Sky_Wagon3.png/revision/latest?cb=20260426164647"
+        },
+        {
+          "file": "File:Sky Wagon4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Sky_Wagon4.png/revision/latest?cb=20260426164704"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 17,
+        "2": 17,
+        "3": 18,
+        "4": 18
+      }
+    }
+  ],
+  "unverified": [],
+  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
+}

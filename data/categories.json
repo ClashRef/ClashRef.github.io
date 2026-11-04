@@ -1,0 +1,151 @@
+{
+ "groups": [
+  {
+   "heading": "Home Village army",
+   "cats": [
+    {
+     "id": "elixir",
+     "label": "Elixir Troops",
+     "img": "https://static.wikia.nocookie.net/clashofclans/images/8/87/Avatar_Barbarian.png/revision/latest?cb=20170525070200",
+     "data": "data/elixir.json"
+    },
+    {
+     "id": "dark",
+     "label": "Dark Troops",
+     "img": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/Avatar_Hog_Rider.png/revision/latest?cb=20200913195505",
+     "data": "data/dark.json"
+    },
+    {
+     "id": "super",
+     "label": "Super Troops",
+     "img": "https://static.wikia.nocookie.net/clashofclans/images/8/81/Avatar_Super_Barbarian.png/revision/latest?cb=20200913075458",
+     "data": "data/super.json"
+    },
+    {
+     "id": "espells",
+     "label": "Elixir Spells",
+     "img": "https://static.wikia.nocookie.net/clashofclans/images/c/c0/Lightning_Spell_info.png/revision/latest?cb=20210106011434",
+     "data": "data/espells.json"
+    },
+    {
+     "id": "dspells",
+     "label": "Dark Spells",
+     "img": "https://static.wikia.nocookie.net/clashofclans/images/4/49/Poison_Spell_info.png/revision/latest?cb=20171008204511",
+     "data": "data/dspells.json"
+    },
+    {
+     "id": "siege",
+     "label": "Siege Machines",
+     "img": "https://static.wikia.nocookie.net/clashofclans/images/f/f3/Avatar_Wall_Wrecker.png/revision/latest?cb=20200913195940",
+     "data": "data/siege.json"
+    },
+    {
+     "id": "heroes",
+     "label": "Heroes",
+     "img": "https://static.wikia.nocookie.net/clashofclans/images/2/26/Avatar_Hero_Barbarian_King.png/revision/latest?cb=20200913051657",
+     "data": "data/heroes.json"
+    },
+    {
+     "id": "equip",
+     "label": "Hero Equipment",
+     "img": "https://static.wikia.nocookie.net/clashofclans/images/2/27/Giant_Gauntlet.png/revision/latest?cb=20231218115547",
+     "data": "data/equip.json"
+    },
+    {
+     "id": "pets",
+     "label": "Pets",
+     "img": "https://static.wikia.nocookie.net/clashofclans/images/6/62/Avatar_L.A.S.S.I.png/revision/latest?cb=20210413063518",
+     "data": "data/pets.json"
+    }
+   ]
+  },
+  {
+   "heading": "Home Village buildings",
+   "cats": [
+    {
+     "id": "defenses",
+     "label": "Defenses",
+     "img": "https://static.wikia.nocookie.net/clashofclans/images/f/fa/Archer_Tower21.png/revision/latest?cb=20221223040422",
+     "data": null
+    },
+    {
+     "id": "traps",
+     "label": "Traps",
+     "img": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Bomb13.png/revision/latest?cb=20241127134105",
+     "data": null
+    },
+    {
+     "id": "army",
+     "label": "Army Buildings",
+     "img": "https://static.wikia.nocookie.net/clashofclans/images/c/c6/Army_Camp14.png/revision/latest?cb=20260425143241",
+     "data": null
+    },
+    {
+     "id": "resource",
+     "label": "Resource Buildings",
+     "img": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Gold_Mine17.png/revision/latest?cb=20251118165804",
+     "data": null
+    },
+    {
+     "id": "walls",
+     "label": "Walls",
+     "img": "https://static.wikia.nocookie.net/clashofclans/images/4/4d/Wall19.png/revision/latest?cb=20260226043604",
+     "data": null
+    },
+    {
+     "id": "townhall",
+     "label": "Town Hall",
+     "img": "https://static.wikia.nocookie.net/clashofclans/images/7/76/Town_Hall18.png/revision/latest?cb=20251117162127",
+     "data": null
+    },
+    {
+     "id": "crafted",
+     "label": "Crafted Defenses",
+     "img": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Hot_Candle4-1.png/revision/latest?cb=20260713110056",
+     "data": null
+    },
+    {
+     "id": "supercharge",
+     "label": "Supercharges",
+     "img": "https://static.wikia.nocookie.net/clashofclans/images/8/86/Icon_Supercharge.png/revision/latest?cb=20240909141818",
+     "data": null
+    }
+   ]
+  },
+  {
+   "heading": "Builder Base",
+   "cats": [
+    {
+     "id": "bbtroops",
+     "label": "Builder Troops",
+     "img": "https://static.wikia.nocookie.net/clashofclans/images/1/12/Avatar_Raged_Barbarian.png/revision/latest?cb=20170525070542",
+     "data": null
+    },
+    {
+     "id": "bbheroes",
+     "label": "Builder Heroes",
+     "img": "https://static.wikia.nocookie.net/clashofclans/images/f/f5/Avatar_Battle_Machine.png/revision/latest?cb=20230518083324",
+     "data": null
+    },
+    {
+     "id": "bbdefenses",
+     "label": "Builder Defenses",
+     "img": "https://static.wikia.nocookie.net/clashofclans/images/d/df/Double_Cannon10.png/revision/latest?cb=20230516071432",
+     "data": null
+    },
+    {
+     "id": "bbtraps",
+     "label": "Builder Traps",
+     "img": "https://static.wikia.nocookie.net/clashofclans/images/1/1e/Push_Trap10.png/revision/latest?cb=20230517082021",
+     "data": null
+    },
+    {
+     "id": "bbbuildings",
+     "label": "Builder Buildings",
+     "img": "https://static.wikia.nocookie.net/clashofclans/images/8/87/Builder_Hall10.png/revision/latest?cb=20230516070454",
+     "data": null
+    }
+   ]
+  }
+ ]
+}

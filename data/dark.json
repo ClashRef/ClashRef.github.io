@@ -1,0 +1,2508 @@
+{
+  "id": "dark",
+  "label": "Dark Troops",
+  "format": "wiki-review-v1",
+  "updated": "2026-11-03",
+  "units": [
+    {
+      "n": "Minion",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/3/3b/Avatar_Minion.png/revision/latest?cb=20170525070405",
+      "source": "https://clashofclans.fandom.com/wiki/Minion",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Dark Barracks Level Required",
+            "Range"
+          ],
+          "rows": [
+            [
+              "None",
+              "Ranged (Ground & Air)",
+              "2",
+              "32",
+              "1s",
+              "1",
+              "2.75 tiles"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Hitpoints",
+            "Research Cost (Dark Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "38",
+              "38",
+              "58",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "41",
+              "41",
+              "63",
+              "1,000",
+              "6h",
+              "5"
+            ],
+            [
+              "3",
+              "44",
+              "44",
+              "68",
+              "2,500",
+              "8h",
+              "6"
+            ],
+            [
+              "4",
+              "47",
+              "47",
+              "73",
+              "5,000",
+              "12h",
+              "6"
+            ],
+            [
+              "5",
+              "50",
+              "50",
+              "78",
+              "10,000",
+              "1d",
+              "7"
+            ],
+            [
+              "6",
+              "54",
+              "54",
+              "84",
+              "15,000",
+              "1d 12h",
+              "8"
+            ],
+            [
+              "7",
+              "58",
+              "58",
+              "90",
+              "31,500",
+              "1d 18h",
+              "9"
+            ],
+            [
+              "8",
+              "62",
+              "62",
+              "96",
+              "47,500",
+              "2d",
+              "10"
+            ],
+            [
+              "9",
+              "66",
+              "66",
+              "102",
+              "75,000",
+              "3d",
+              "11"
+            ],
+            [
+              "10",
+              "70",
+              "70",
+              "108",
+              "100,000",
+              "4d",
+              "12"
+            ],
+            [
+              "11",
+              "74",
+              "74",
+              "114",
+              "115,000",
+              "4d 12h",
+              "13"
+            ],
+            [
+              "12",
+              "78",
+              "78",
+              "120",
+              "160,000",
+              "5d",
+              "14"
+            ],
+            [
+              "13",
+              "84",
+              "84",
+              "130",
+              "220,000",
+              "9d",
+              "15"
+            ],
+            [
+              "14",
+              "92",
+              "92",
+              "140",
+              "335,000",
+              "14d",
+              "16"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Super Troop",
+            "Boost Cost (Dark Elixir)",
+            "Minion Level Required"
+          ],
+          "rows": [
+            [
+              "Super Minion",
+              "25,000",
+              "8"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Minion.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3b/Avatar_Minion.png/revision/latest?cb=20170525070405"
+        },
+        {
+          "file": "File:Minion1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/94/Minion1.png/revision/latest?cb=20171007153257"
+        },
+        {
+          "file": "File:Minion10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/11/Minion10.png/revision/latest?cb=20210413035802"
+        },
+        {
+          "file": "File:Minion11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/58/Minion11.png/revision/latest?cb=20221011041314"
+        },
+        {
+          "file": "File:Minion12.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/df/Minion12.png/revision/latest?cb=20260202201237"
+        },
+        {
+          "file": "File:Minion13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/ba/Minion13.png/revision/latest?cb=20241204084708"
+        },
+        {
+          "file": "File:Minion14.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bb/Minion14.png/revision/latest?cb=20251115173110"
+        },
+        {
+          "file": "File:Minion3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/09/Minion3.png/revision/latest?cb=20171007153312"
+        },
+        {
+          "file": "File:Minion5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/30/Minion5.png/revision/latest?cb=20171007150227"
+        },
+        {
+          "file": "File:Minion6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/11/Minion6.png/revision/latest?cb=20171007150250"
+        },
+        {
+          "file": "File:Minion7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ed/Minion7.png/revision/latest?cb=20171007150310"
+        },
+        {
+          "file": "File:Minion9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/12/Minion9.png/revision/latest?cb=20201212211934"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 7,
+        "2": 7,
+        "3": 8,
+        "4": 8,
+        "5": 9,
+        "6": 10,
+        "7": 11,
+        "8": 12,
+        "9": 13,
+        "10": 14,
+        "11": 15,
+        "12": 16,
+        "13": 17,
+        "14": 18
+      }
+    },
+    {
+      "n": "Hog Rider",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/Avatar_Hog_Rider.png/revision/latest?cb=20200913195505",
+      "source": "https://clashofclans.fandom.com/wiki/Hog_Rider",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Dark Barracks Level Required",
+            "Range"
+          ],
+          "rows": [
+            [
+              "Defenses",
+              "Melee (Ground Only)",
+              "5",
+              "24",
+              "1s",
+              "2",
+              "0.6 tiles"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Hitpoints",
+            "Research Cost (Dark Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "60",
+              "60",
+              "270",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "70",
+              "70",
+              "312",
+              "2,000",
+              "10h",
+              "5"
+            ],
+            [
+              "3",
+              "80",
+              "80",
+              "370",
+              "3,500",
+              "18h",
+              "6"
+            ],
+            [
+              "4",
+              "92",
+              "92",
+              "430",
+              "5,000",
+              "1d",
+              "6"
+            ],
+            [
+              "5",
+              "105",
+              "105",
+              "500",
+              "10,000",
+              "2d",
+              "7"
+            ],
+            [
+              "6",
+              "118",
+              "118",
+              "590",
+              "18,500",
+              "2d 6h",
+              "8"
+            ],
+            [
+              "7",
+              "140",
+              "140",
+              "700",
+              "35,000",
+              "2d 12h",
+              "9"
+            ],
+            [
+              "8",
+              "155",
+              "155",
+              "870",
+              "47,500",
+              "3d",
+              "10"
+            ],
+            [
+              "9",
+              "165",
+              "165",
+              "960",
+              "50,000",
+              "3d 12h",
+              "10"
+            ],
+            [
+              "10",
+              "176",
+              "176",
+              "1,050",
+              "85,000",
+              "4d",
+              "11"
+            ],
+            [
+              "11",
+              "187",
+              "187",
+              "1,150",
+              "107,500",
+              "5d",
+              "12"
+            ],
+            [
+              "12",
+              "200",
+              "200",
+              "1,350",
+              "125,000",
+              "5d 12h",
+              "13"
+            ],
+            [
+              "13",
+              "213",
+              "213",
+              "1,500",
+              "175,000",
+              "6d 12h",
+              "14"
+            ],
+            [
+              "14",
+              "225",
+              "225",
+              "1,600",
+              "240,000",
+              "10d",
+              "15"
+            ],
+            [
+              "15",
+              "250",
+              "250",
+              "1,950",
+              "340,000",
+              "14d 12h",
+              "16"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Super Troop",
+            "Boost Cost (Dark Elixir)",
+            "Hog Rider Level Required"
+          ],
+          "rows": [
+            [
+              "Super Hog Rider",
+              "25,000",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Hog Rider.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/Avatar_Hog_Rider.png/revision/latest?cb=20200913195505"
+        },
+        {
+          "file": "File:Hog Rider1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a5/Hog_Rider1.png/revision/latest?cb=20230613101441"
+        },
+        {
+          "file": "File:Hog Rider10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c3/Hog_Rider10.png/revision/latest?cb=20230613101526"
+        },
+        {
+          "file": "File:Hog Rider11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8a/Hog_Rider11.png/revision/latest?cb=20230613101531"
+        },
+        {
+          "file": "File:Hog Rider12.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/60/Hog_Rider12.png/revision/latest?cb=20230613101535"
+        },
+        {
+          "file": "File:Hog Rider13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c1/Hog_Rider13.png/revision/latest?cb=20240228073032"
+        },
+        {
+          "file": "File:Hog Rider14.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/51/Hog_Rider14.png/revision/latest?cb=20251205154259"
+        },
+        {
+          "file": "File:Hog Rider15.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/18/Hog_Rider15.png/revision/latest?cb=20260715062005"
+        },
+        {
+          "file": "File:Hog Rider3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d9/Hog_Rider3.png/revision/latest?cb=20230613101449"
+        },
+        {
+          "file": "File:Hog Rider5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/99/Hog_Rider5.png/revision/latest?cb=20230613101456"
+        },
+        {
+          "file": "File:Hog Rider6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/43/Hog_Rider6.png/revision/latest?cb=20230613101503"
+        },
+        {
+          "file": "File:Hog Rider7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f0/Hog_Rider7.png/revision/latest?cb=20230613101511"
+        },
+        {
+          "file": "File:Hog Rider8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9e/Hog_Rider8.png/revision/latest?cb=20230613101516"
+        },
+        {
+          "file": "File:Hog Rider9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/81/Hog_Rider9.png/revision/latest?cb=20230613101521"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 7,
+        "2": 7,
+        "3": 8,
+        "4": 8,
+        "5": 9,
+        "6": 10,
+        "7": 11,
+        "8": 12,
+        "9": 12,
+        "10": 13,
+        "11": 14,
+        "12": 15,
+        "13": 16,
+        "14": 17,
+        "15": 18
+      }
+    },
+    {
+      "n": "Valkyrie",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/3/31/Avatar_Valkyrie.png/revision/latest?cb=20170525070543",
+      "source": "https://clashofclans.fandom.com/wiki/Valkyrie",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Dark Barracks Level Required",
+            "Range"
+          ],
+          "rows": [
+            [
+              "None",
+              "Area Splash 1 Tile Radius (Ground Only)",
+              "8",
+              "24",
+              "1.8s",
+              "3",
+              "0.5 tiles"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Hitpoints",
+            "Research Cost (Dark Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "94",
+              "169.2",
+              "750",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "106",
+              "190.8",
+              "850",
+              "3,000",
+              "8h",
+              "6"
+            ],
+            [
+              "3",
+              "119",
+              "214.2",
+              "950",
+              "5,000",
+              "1d",
+              "7"
+            ],
+            [
+              "4",
+              "133",
+              "239.4",
+              "1,050",
+              "10,000",
+              "1d 12h",
+              "7"
+            ],
+            [
+              "5",
+              "148",
+              "266.4",
+              "1,300",
+              "16,000",
+              "1d 18h",
+              "8"
+            ],
+            [
+              "6",
+              "167",
+              "300.6",
+              "1,500",
+              "31,500",
+              "2d",
+              "9"
+            ],
+            [
+              "7",
+              "185",
+              "333",
+              "1,650",
+              "55,000",
+              "2d 6h",
+              "10"
+            ],
+            [
+              "8",
+              "196",
+              "352.8",
+              "1,800",
+              "77,500",
+              "3d",
+              "11"
+            ],
+            [
+              "9",
+              "208",
+              "374.4",
+              "2,000",
+              "105,000",
+              "4d 12h",
+              "12"
+            ],
+            [
+              "10",
+              "223",
+              "401.4",
+              "2,400",
+              "120,000",
+              "5d",
+              "13"
+            ],
+            [
+              "11",
+              "238",
+              "428.4",
+              "2,600",
+              "170,000",
+              "6d",
+              "14"
+            ],
+            [
+              "12",
+              "255",
+              "459",
+              "2,900",
+              "340,000",
+              "14d",
+              "15"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Super Troop",
+            "Boost Cost (Dark Elixir)",
+            "Valkyrie Level Required"
+          ],
+          "rows": [
+            [
+              "Super Valkyrie",
+              "25,000",
+              "7"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Valkyrie.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/31/Avatar_Valkyrie.png/revision/latest?cb=20170525070543"
+        },
+        {
+          "file": "File:Valkyrie1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8b/Valkyrie1.png/revision/latest?cb=20230613100850"
+        },
+        {
+          "file": "File:Valkyrie10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b9/Valkyrie10.png/revision/latest?cb=20230613100929"
+        },
+        {
+          "file": "File:Valkyrie11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c2/Valkyrie11.png/revision/latest?cb=20231213082713"
+        },
+        {
+          "file": "File:Valkyrie12.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/90/Valkyrie12.png/revision/latest?cb=20260714210640"
+        },
+        {
+          "file": "File:Valkyrie3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/79/Valkyrie3.png/revision/latest?cb=20230613100858"
+        },
+        {
+          "file": "File:Valkyrie5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/01/Valkyrie5.png/revision/latest?cb=20230613100907"
+        },
+        {
+          "file": "File:Valkyrie6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fd/Valkyrie6.png/revision/latest?cb=20230613100914"
+        },
+        {
+          "file": "File:Valkyrie8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3a/Valkyrie8.png/revision/latest?cb=20230613100920"
+        },
+        {
+          "file": "File:Valkyrie9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/30/Valkyrie9.png/revision/latest?cb=20230613100925"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 9,
+        "4": 9,
+        "5": 10,
+        "6": 11,
+        "7": 12,
+        "8": 13,
+        "9": 14,
+        "10": 15,
+        "11": 16,
+        "12": 17
+      }
+    },
+    {
+      "n": "Golem",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/4/44/Avatar_Golem.png/revision/latest?cb=20170525070403",
+      "source": "https://clashofclans.fandom.com/wiki/Golem",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Dark Barracks Level Required",
+            "Range",
+            "Death Damage Radius"
+          ],
+          "rows": [
+            [
+              "Defenses",
+              "Melee (Ground Only)",
+              "30",
+              "12",
+              "2.4s",
+              "4",
+              "1 tile",
+              "1.5 tiles"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Damage Upon Death",
+            "Golemites spawned Upon Death",
+            "Hitpoints",
+            "Research Cost (Dark Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "35",
+              "84",
+              "350",
+              "2",
+              "5,100",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "40",
+              "96",
+              "400",
+              "2",
+              "5,400",
+              "4,000",
+              "16h",
+              "6"
+            ],
+            [
+              "3",
+              "45",
+              "108",
+              "450",
+              "2",
+              "5,700",
+              "6,000",
+              "1d 12h",
+              "7"
+            ],
+            [
+              "4",
+              "50",
+              "120",
+              "500",
+              "2",
+              "6,000",
+              "10,000",
+              "2d",
+              "7"
+            ],
+            [
+              "5",
+              "55",
+              "132",
+              "550",
+              "2",
+              "6,300",
+              "18,500",
+              "2d 6h",
+              "8"
+            ],
+            [
+              "6",
+              "60",
+              "144",
+              "600",
+              "2",
+              "6,600",
+              "26,500",
+              "2d 12h",
+              "9"
+            ],
+            [
+              "7",
+              "65",
+              "156",
+              "650",
+              "2",
+              "7,000",
+              "38,500",
+              "2d 18h",
+              "9"
+            ],
+            [
+              "8",
+              "70",
+              "168",
+              "700",
+              "3",
+              "7,500",
+              "50,000",
+              "3d",
+              "10"
+            ],
+            [
+              "9",
+              "75",
+              "180",
+              "750",
+              "3",
+              "7,900",
+              "62,500",
+              "3d 12h",
+              "10"
+            ],
+            [
+              "10",
+              "80",
+              "192",
+              "800",
+              "3",
+              "8,200",
+              "80,000",
+              "4d",
+              "11"
+            ],
+            [
+              "11",
+              "85",
+              "204",
+              "850",
+              "3",
+              "8,500",
+              "105,000",
+              "5d",
+              "12"
+            ],
+            [
+              "12",
+              "90",
+              "216",
+              "900",
+              "3",
+              "8,800",
+              "122,500",
+              "5d 12h",
+              "13"
+            ],
+            [
+              "13",
+              "95",
+              "228",
+              "950",
+              "4",
+              "9,200",
+              "175,000",
+              "6d",
+              "14"
+            ],
+            [
+              "14",
+              "100",
+              "240",
+              "1,000",
+              "4",
+              "9,600",
+              "230,000",
+              "10d",
+              "15"
+            ],
+            [
+              "15",
+              "120",
+              "288",
+              "1,050",
+              "4",
+              "10,600",
+              "350,000",
+              "14d 12h",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Golem.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/44/Avatar_Golem.png/revision/latest?cb=20170525070403"
+        },
+        {
+          "file": "File:Golem1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5d/Golem1.png/revision/latest?cb=20170825104614"
+        },
+        {
+          "file": "File:Golem10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/79/Golem10.png/revision/latest?cb=20201211064035"
+        },
+        {
+          "file": "File:Golem11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fa/Golem11.png/revision/latest?cb=20211012224050"
+        },
+        {
+          "file": "File:Golem12.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4b/Golem12.png/revision/latest?cb=20221011044309"
+        },
+        {
+          "file": "File:Golem13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ef/Golem13.png/revision/latest?cb=20231211145652"
+        },
+        {
+          "file": "File:Golem14.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/56/Golem14.png/revision/latest?cb=20251228201229"
+        },
+        {
+          "file": "File:Golem15.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1f/Golem15.png/revision/latest?cb=20260427191537"
+        },
+        {
+          "file": "File:Golem3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Golem3.png/revision/latest?cb=20170825104615"
+        },
+        {
+          "file": "File:Golem5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/ff/Golem5.png/revision/latest?cb=20170825104615"
+        },
+        {
+          "file": "File:Golem6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/57/Golem6.png/revision/latest?cb=20170825104615"
+        },
+        {
+          "file": "File:Golem7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/03/Golem7.png/revision/latest?cb=20171011091945"
+        },
+        {
+          "file": "File:Golem8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4d/Golem8.png/revision/latest?cb=20180607160924"
+        },
+        {
+          "file": "File:Golem9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/69/Golem9.png/revision/latest?cb=20201211063733"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 9,
+        "4": 9,
+        "5": 10,
+        "6": 11,
+        "7": 11,
+        "8": 12,
+        "9": 12,
+        "10": 13,
+        "11": 14,
+        "12": 15,
+        "13": 16,
+        "14": 17,
+        "15": 18
+      }
+    },
+    {
+      "n": "Witch",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/9/90/Avatar_Witch.png/revision/latest?cb=20170525070544",
+      "source": "https://clashofclans.fandom.com/wiki/Witch",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Summon Cooldown",
+            "Dark Barracks Level Required",
+            "Range"
+          ],
+          "rows": [
+            [
+              "None",
+              "Area Splash 0.3 Tile Radius (Ground & Air)",
+              "12",
+              "12",
+              "0.7s",
+              "7s",
+              "5",
+              "4 tiles"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Skeletons per Summon",
+            "Maximum Skeletons Summoned",
+            "Skeleton Level",
+            "Hitpoints",
+            "Research Cost (Dark Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "100",
+              "70",
+              "4",
+              "6",
+              "1",
+              "300",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "110",
+              "77",
+              "4",
+              "8",
+              "1",
+              "320",
+              "20,000",
+              "2d",
+              "7"
+            ],
+            [
+              "3",
+              "140",
+              "98",
+              "4",
+              "10",
+              "1",
+              "400",
+              "29,000",
+              "3d",
+              "8"
+            ],
+            [
+              "4",
+              "165",
+              "115.5",
+              "4",
+              "12",
+              "1",
+              "470",
+              "45,000",
+              "3d 12h",
+              "9"
+            ],
+            [
+              "5",
+              "185",
+              "129.5",
+              "4",
+              "14",
+              "1",
+              "520",
+              "62,500",
+              "4d",
+              "10"
+            ],
+            [
+              "6",
+              "200",
+              "140",
+              "4",
+              "15",
+              "1",
+              "540",
+              "150,000",
+              "5d 12h",
+              "13"
+            ],
+            [
+              "7",
+              "220",
+              "154",
+              "5",
+              "16",
+              "1",
+              "560",
+              "180,000",
+              "7d 6h",
+              "14"
+            ],
+            [
+              "8",
+              "260",
+              "182",
+              "5",
+              "16",
+              "2",
+              "650",
+              "355,000",
+              "15d 12h",
+              "16"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Super Troop",
+            "Boost Cost (Dark Elixir)",
+            "Witch Level Required"
+          ],
+          "rows": [
+            [
+              "Super Witch",
+              "25,000",
+              "5"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Witch.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/90/Avatar_Witch.png/revision/latest?cb=20170525070544"
+        },
+        {
+          "file": "File:Witch1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c9/Witch1.png/revision/latest?cb=20221123235934"
+        },
+        {
+          "file": "File:Witch3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8a/Witch3.png/revision/latest?cb=20221123235948"
+        },
+        {
+          "file": "File:Witch5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2a/Witch5.png/revision/latest?cb=20221124000007"
+        },
+        {
+          "file": "File:Witch6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/db/Witch6.png/revision/latest?cb=20221124000020"
+        },
+        {
+          "file": "File:Witch7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/06/Witch7.png/revision/latest?cb=20231213082928"
+        },
+        {
+          "file": "File:Witch8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/ff/Witch8.png/revision/latest?cb=20260715052946"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 9,
+        "2": 9,
+        "3": 10,
+        "4": 11,
+        "5": 12,
+        "6": 15,
+        "7": 16,
+        "8": 18
+      }
+    },
+    {
+      "n": "Lava Hound",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/1/1b/Avatar_Lava_Hound.png/revision/latest?cb=20200913195616",
+      "source": "https://clashofclans.fandom.com/wiki/Lava_Hound",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Dark Barracks Level Required",
+            "Range"
+          ],
+          "rows": [
+            [
+              "Air Defense",
+              "Melee (Ground Only)",
+              "30",
+              "20",
+              "2s",
+              "6",
+              "1 tile"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Damage Upon Death",
+            "Lava Pups Spawned (After Death) / On Offense",
+            "Lava Pups Spawned (After Death) / On Defense",
+            "Hitpoints",
+            "Research Cost (Dark Elixir) / Research Cost",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "10",
+              "20",
+              "100",
+              "8",
+              "8",
+              "6,100",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "12",
+              "24",
+              "150",
+              "10",
+              "9",
+              "6,500",
+              "14,000",
+              "2d",
+              "7"
+            ],
+            [
+              "3",
+              "14",
+              "28",
+              "200",
+              "12",
+              "10",
+              "6,800",
+              "21,500",
+              "2d 12h",
+              "8"
+            ],
+            [
+              "4",
+              "16",
+              "32",
+              "250",
+              "14",
+              "11",
+              "7,200",
+              "42,500",
+              "3d",
+              "9"
+            ],
+            [
+              "5",
+              "18",
+              "36",
+              "300",
+              "16",
+              "12",
+              "7,600",
+              "60,000",
+              "4d",
+              "10"
+            ],
+            [
+              "6",
+              "20",
+              "40",
+              "350",
+              "18",
+              "13",
+              "8,000",
+              "80,000",
+              "7d",
+              "11"
+            ],
+            [
+              "7",
+              "22",
+              "44",
+              "400",
+              "20",
+              "14",
+              "8,500",
+              "200,000",
+              "8d",
+              "14"
+            ],
+            [
+              "8",
+              "24",
+              "48",
+              "450",
+              "22",
+              "15",
+              "9,500",
+              "345,000",
+              "15d 6h",
+              "16"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Super Troop",
+            "Boost Cost (Dark Elixir)",
+            "Lava Hound Level Required"
+          ],
+          "rows": [
+            [
+              "Ice Hound",
+              "25,000",
+              "5"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Lava Hound.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1b/Avatar_Lava_Hound.png/revision/latest?cb=20200913195616"
+        },
+        {
+          "file": "File:Lava Hound1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/12/Lava_Hound1.png/revision/latest?cb=20171007165452"
+        },
+        {
+          "file": "File:Lava Hound3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b0/Lava_Hound3.png/revision/latest?cb=20171007165512"
+        },
+        {
+          "file": "File:Lava Hound4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b0/Lava_Hound4.png/revision/latest?cb=20171007165541"
+        },
+        {
+          "file": "File:Lava Hound5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/01/Lava_Hound5.png/revision/latest?cb=20180607161248"
+        },
+        {
+          "file": "File:Lava Hound6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f7/Lava_Hound6.png/revision/latest?cb=20200901090417"
+        },
+        {
+          "file": "File:Lava Hound7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bb/Lava_Hound7.png/revision/latest?cb=20260117204343"
+        },
+        {
+          "file": "File:Lava Hound8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/ba/Lava_Hound8.png/revision/latest?cb=20260715072920"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 9,
+        "2": 9,
+        "3": 10,
+        "4": 11,
+        "5": 12,
+        "6": 13,
+        "7": 16,
+        "8": 18
+      }
+    },
+    {
+      "n": "Bowler",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/2/24/Avatar_Bowler.png/revision/latest?cb=20170525070202",
+      "source": "https://clashofclans.fandom.com/wiki/Bowler",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Dark Barracks Level Required",
+            "Range"
+          ],
+          "rows": [
+            [
+              "None",
+              "Area Splash",
+              "6",
+              "14",
+              "2.2s",
+              "7",
+              "3 tiles from first target - can hit more"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Hitpoints",
+            "Research Cost (Dark Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "60",
+              "132",
+              "325",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "72",
+              "158.4",
+              "375",
+              "32,500",
+              "2d",
+              "8"
+            ],
+            [
+              "3",
+              "84",
+              "184.8",
+              "420",
+              "44,000",
+              "2d 12h",
+              "9"
+            ],
+            [
+              "4",
+              "96",
+              "211.2",
+              "470",
+              "62,500",
+              "3d",
+              "10"
+            ],
+            [
+              "5",
+              "102",
+              "224.4",
+              "505",
+              "85,000",
+              "4d",
+              "11"
+            ],
+            [
+              "6",
+              "108",
+              "237.6",
+              "530",
+              "110,000",
+              "6d",
+              "12"
+            ],
+            [
+              "7",
+              "114",
+              "250.8",
+              "565",
+              "145,000",
+              "7d",
+              "13"
+            ],
+            [
+              "8",
+              "126",
+              "277.2",
+              "600",
+              "175,000",
+              "7d 12h",
+              "14"
+            ],
+            [
+              "9",
+              "140",
+              "308",
+              "700",
+              "260,000",
+              "10d",
+              "15"
+            ],
+            [
+              "10",
+              "160",
+              "352",
+              "860",
+              "360,000",
+              "15d",
+              "16"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Super Troop",
+            "Boost Cost (Dark Elixir)",
+            "Bowler Level Required"
+          ],
+          "rows": [
+            [
+              "Super Bowler",
+              "25,000",
+              "4"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Bowler.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/24/Avatar_Bowler.png/revision/latest?cb=20170525070202"
+        },
+        {
+          "file": "File:Bowler1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ab/Bowler1.png/revision/latest?cb=20240228071545"
+        },
+        {
+          "file": "File:Bowler10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b5/Bowler10.png/revision/latest?cb=20251228201130"
+        },
+        {
+          "file": "File:Bowler3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3a/Bowler3.png/revision/latest?cb=20240228071556"
+        },
+        {
+          "file": "File:Bowler4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d2/Bowler4.png/revision/latest?cb=20240228071609"
+        },
+        {
+          "file": "File:Bowler5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c5/Bowler5.png/revision/latest?cb=20240228071623"
+        },
+        {
+          "file": "File:Bowler6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/be/Bowler6.png/revision/latest?cb=20240228071634"
+        },
+        {
+          "file": "File:Bowler7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/63/Bowler7.png/revision/latest?cb=20240228071646"
+        },
+        {
+          "file": "File:Bowler8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f6/Bowler8.png/revision/latest?cb=20240228071713"
+        },
+        {
+          "file": "File:Bowler9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/49/Bowler9.png/revision/latest?cb=20251205143105"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 10,
+        "2": 10,
+        "3": 11,
+        "4": 12,
+        "5": 13,
+        "6": 14,
+        "7": 15,
+        "8": 16,
+        "9": 17,
+        "10": 18
+      }
+    },
+    {
+      "n": "Ice Golem",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/7/79/Avatar_Ice_Golem.png/revision/latest?cb=20200913014329",
+      "source": "https://clashofclans.fandom.com/wiki/Ice_Golem",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Dark Barracks Level Required",
+            "Range",
+            "Freeze Radius / On Offense",
+            "Freeze Radius / On Defense"
+          ],
+          "rows": [
+            [
+              "Defenses",
+              "Melee (Ground Only)",
+              "15",
+              "12",
+              "2s",
+              "8",
+              "1 tile",
+              "7.5 tiles",
+              "5.5 tiles"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "Freeze Time After Death / On Offense",
+            "Freeze Time After Death / On Defense",
+            "Hitpoints",
+            "Research Cost (Dark Elixir) / Research Cost",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "24",
+              "48",
+              "4.0s",
+              "2.0s",
+              "2,600",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "28",
+              "56",
+              "4.75s",
+              "2.25s",
+              "2,800",
+              "27,500",
+              "2d",
+              "9"
+            ],
+            [
+              "3",
+              "32",
+              "64",
+              "5.5s",
+              "2.5s",
+              "3,000",
+              "42,500",
+              "2d 12h",
+              "9"
+            ],
+            [
+              "4",
+              "36",
+              "72",
+              "6.25s",
+              "2.75s",
+              "3,200",
+              "50,000",
+              "3d 6h",
+              "10"
+            ],
+            [
+              "5",
+              "40",
+              "80",
+              "7.0s",
+              "3.0s",
+              "3,400",
+              "62,500",
+              "4d",
+              "10"
+            ],
+            [
+              "6",
+              "44",
+              "88",
+              "7.5s",
+              "3.25s",
+              "3,600",
+              "110,000",
+              "6d 12h",
+              "12"
+            ],
+            [
+              "7",
+              "48",
+              "96",
+              "8s",
+              "3.5s",
+              "3,900",
+              "140,000",
+              "7d 12h",
+              "13"
+            ],
+            [
+              "8",
+              "52",
+              "104",
+              "8.5s",
+              "3.5s",
+              "4,200",
+              "180,000",
+              "8d",
+              "14"
+            ],
+            [
+              "9",
+              "56",
+              "112",
+              "9s",
+              "3.5s",
+              "4,350",
+              "280,000",
+              "10d 14h",
+              "15"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Ice Golem.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/79/Avatar_Ice_Golem.png/revision/latest?cb=20200913014329"
+        },
+        {
+          "file": "File:Ice Golem1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0a/Ice_Golem1.png/revision/latest?cb=20230613100113"
+        },
+        {
+          "file": "File:Ice Golem3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/84/Ice_Golem3.png/revision/latest?cb=20230613100128"
+        },
+        {
+          "file": "File:Ice Golem5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5e/Ice_Golem5.png/revision/latest?cb=20230613100135"
+        },
+        {
+          "file": "File:Ice Golem7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/99/Ice_Golem7.png/revision/latest?cb=20230613100141"
+        },
+        {
+          "file": "File:Ice Golem8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/aa/Ice_Golem8.png/revision/latest?cb=20240414154018"
+        },
+        {
+          "file": "File:Ice Golem9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7d/Ice_Golem9.png/revision/latest?cb=20251228201208"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 11,
+        "2": 11,
+        "3": 11,
+        "4": 12,
+        "5": 12,
+        "6": 14,
+        "7": 15,
+        "8": 16,
+        "9": 17
+      }
+    },
+    {
+      "n": "Headhunter",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/80/Avatar_Headhunter.png/revision/latest?cb=20200913074511",
+      "source": "https://clashofclans.fandom.com/wiki/Headhunter",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Dark Barracks Level Required",
+            "Range"
+          ],
+          "rows": [
+            [
+              "Heroes (x4 Damage)",
+              "Single Target",
+              "6",
+              "32",
+              "0.6s",
+              "9",
+              "3 tiles"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "DPS on Heroes",
+            "Poison Max DPS",
+            "Speed Decrease",
+            "Attack Rate Decrease",
+            "Hitpoints",
+            "Research Cost (Dark Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "105",
+              "63",
+              "420",
+              "220",
+              "40%",
+              "55%",
+              "360",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "115",
+              "69",
+              "460",
+              "260",
+              "42%",
+              "60%",
+              "400",
+              "57,500",
+              "5d",
+              "10"
+            ],
+            [
+              "3",
+              "125",
+              "75",
+              "500",
+              "280",
+              "44%",
+              "65%",
+              "440",
+              "90,000",
+              "7d",
+              "11"
+            ],
+            [
+              "4",
+              "135",
+              "81",
+              "540",
+              "300",
+              "46%",
+              "68%",
+              "500",
+              "370,000",
+              "15d 12h",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Headhunter.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/80/Avatar_Headhunter.png/revision/latest?cb=20200913074511"
+        },
+        {
+          "file": "File:Headhunter1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/98/Headhunter1.png/revision/latest?cb=20201013052457"
+        },
+        {
+          "file": "File:Headhunter2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Headhunter2.png/revision/latest?cb=20201013052522"
+        },
+        {
+          "file": "File:Headhunter3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4c/Headhunter3.png/revision/latest?cb=20201013052246"
+        },
+        {
+          "file": "File:Headhunter4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d3/Headhunter4.png/revision/latest?cb=20260427191831"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 12,
+        "2": 12,
+        "3": 13,
+        "4": 18
+      }
+    },
+    {
+      "n": "Apprentice Warden",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/8b/Avatar_Apprentice_Warden.png/revision/latest?cb=20230613002759",
+      "source": "https://clashofclans.fandom.com/wiki/Apprentice_Warden",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Dark Barracks Level Required",
+            "Range",
+            "Aura Range"
+          ],
+          "rows": [
+            [
+              "Any",
+              "Single Target (Ground & Air)",
+              "20",
+              "20",
+              "0.9s",
+              "10",
+              "5 tiles",
+              "7 tiles"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Aura HP Increase",
+            "Hitpoints",
+            "Research Cost (Dark Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "170",
+              "153",
+              "20%",
+              "1,500",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "185",
+              "166.5",
+              "22%",
+              "1,650",
+              "90,000",
+              "6d",
+              "11"
+            ],
+            [
+              "3",
+              "200",
+              "180",
+              "24%",
+              "1,800",
+              "135,000",
+              "7d 12h",
+              "12"
+            ],
+            [
+              "4",
+              "215",
+              "193.5",
+              "26%",
+              "1,950",
+              "160,000",
+              "8d",
+              "13"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Apprentice Warden1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/09/Apprentice_Warden1.png/revision/latest?cb=20230613000149"
+        },
+        {
+          "file": "File:Apprentice Warden2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/38/Apprentice_Warden2.png/revision/latest?cb=20230613000149"
+        },
+        {
+          "file": "File:Apprentice Warden3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/00/Apprentice_Warden3.png/revision/latest?cb=20230613000150"
+        },
+        {
+          "file": "File:Apprentice Warden4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/39/Apprentice_Warden4.png/revision/latest?cb=20230613000151"
+        },
+        {
+          "file": "File:Avatar Apprentice Warden.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8b/Avatar_Apprentice_Warden.png/revision/latest?cb=20230613002759"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 13,
+        "2": 13,
+        "3": 14,
+        "4": 15
+      }
+    },
+    {
+      "n": "Druid",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/4/43/Avatar_Druid.png/revision/latest?cb=20241003084537",
+      "source": "https://clashofclans.fandom.com/wiki/Druid",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Effect Type",
+            "Number of Targets",
+            "Housing Space",
+            "Movement Speed",
+            "Heal Speed",
+            "Dark Barracks Level Required",
+            "Range",
+            "Evolve Time"
+          ],
+          "rows": [
+            [
+              "None",
+              "Ranged (Ground & Air) Chain Healing",
+              "4",
+              "16",
+              "24",
+              "1s",
+              "11",
+              "5 tiles",
+              "30s"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Healing per Second",
+            "Healing per Hit",
+            "Hero Healing",
+            "Hitpoints",
+            "Research Cost (Dark Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "80",
+              "80",
+              "84",
+              "1,300",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "85",
+              "85",
+              "89.25",
+              "1,400",
+              "125,000",
+              "8d",
+              "12"
+            ],
+            [
+              "3",
+              "90",
+              "90",
+              "99",
+              "1,500",
+              "175,000",
+              "9d",
+              "13"
+            ],
+            [
+              "4",
+              "95",
+              "95",
+              "104.5",
+              "1,600",
+              "187,500",
+              "11d",
+              "14"
+            ],
+            [
+              "5",
+              "105",
+              "105",
+              "120.75",
+              "1,700",
+              "300,000",
+              "12d",
+              "15"
+            ],
+            [
+              "6",
+              "115",
+              "115",
+              "132.25",
+              "1,850",
+              "380,000",
+              "15d 12h",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Druid.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/43/Avatar_Druid.png/revision/latest?cb=20241003084537"
+        },
+        {
+          "file": "File:Druid1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a5/Druid1.png/revision/latest?cb=20240726181450"
+        },
+        {
+          "file": "File:Druid3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9e/Druid3.png/revision/latest?cb=20240726181451"
+        },
+        {
+          "file": "File:Druid5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/53/Druid5.png/revision/latest?cb=20260117204418"
+        },
+        {
+          "file": "File:Druid6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7c/Druid6.png/revision/latest?cb=20260427191731"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 14,
+        "2": 14,
+        "3": 15,
+        "4": 16,
+        "5": 17,
+        "6": 18
+      }
+    },
+    {
+      "n": "Furnace",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/e/e0/Avatar_Furnace.png/revision/latest?cb=20251117221817",
+      "source": "https://clashofclans.fandom.com/wiki/Furnace",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Housing Space",
+            "Movement Speed",
+            "Lifetime",
+            "Dark Barracks Level Required"
+          ],
+          "rows": [
+            [
+              "18",
+              "0 (Cannot move)",
+              "60s",
+              "12"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Firemites Spawned",
+            "Hitpoints",
+            "Research Cost (Dark Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "19",
+              "1,530",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "20",
+              "1,620",
+              "200,000",
+              "9d",
+              "13"
+            ],
+            [
+              "3",
+              "21",
+              "1,710",
+              "260,000",
+              "11d",
+              "14"
+            ],
+            [
+              "4",
+              "22",
+              "1,800",
+              "320,000",
+              "15d",
+              "15"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Furnace.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e0/Avatar_Furnace.png/revision/latest?cb=20251117221817"
+        },
+        {
+          "file": "File:Furnace1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/57/Furnace1.png/revision/latest?cb=20250329141617"
+        },
+        {
+          "file": "File:Furnace2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cb/Furnace2.png/revision/latest?cb=20250329141631"
+        },
+        {
+          "file": "File:Furnace3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6d/Furnace3.png/revision/latest?cb=20250329141639"
+        },
+        {
+          "file": "File:Furnace4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f6/Furnace4.png/revision/latest?cb=20250329141648"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 15,
+        "2": 15,
+        "3": 16,
+        "4": 17
+      }
+    },
+    {
+      "n": "Ruin Witch",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/9/9e/Avatar_Ruin_Witch.png/revision/latest?cb=20260615222037",
+      "source": "https://clashofclans.fandom.com/wiki/Ruin_Witch",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Preferred Target",
+            "Housing Space",
+            "Movement Speed",
+            "Dark Barracks Level Required",
+            "Range"
+          ],
+          "rows": [
+            [
+              "Rubble",
+              "26",
+              "12",
+              "13",
+              "0.8 tiles"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Level",
+            "Ruin Knight Level",
+            "Maximum Ruin Knights Summoned",
+            "Hitpoints",
+            "Damage per Second*",
+            "Damage per Hit*",
+            "Research Cost (Dark Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "1",
+              "10",
+              "2,300",
+              "25",
+              "50",
+              "N/A",
+              "N/A",
+              "14"
+            ],
+            [
+              "2",
+              "2",
+              "10",
+              "2,550",
+              "26",
+              "52",
+              "220,000",
+              "11d",
+              "14"
+            ],
+            [
+              "3",
+              "3",
+              "10",
+              "2,800",
+              "27",
+              "54",
+              "300,000",
+              "12d",
+              "15"
+            ],
+            [
+              "4",
+              "4",
+              "10",
+              "3,050",
+              "28",
+              "56",
+              "380,000",
+              "15d 12h",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Ruin Witch.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9e/Avatar_Ruin_Witch.png/revision/latest?cb=20260615222037"
+        },
+        {
+          "file": "File:Ruin Witch1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/06/Ruin_Witch1.png/revision/latest?cb=20260614153028"
+        },
+        {
+          "file": "File:Ruin Witch2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b5/Ruin_Witch2.png/revision/latest?cb=20260614153042"
+        },
+        {
+          "file": "File:Ruin Witch3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/62/Ruin_Witch3.png/revision/latest?cb=20260614153059"
+        },
+        {
+          "file": "File:Ruin Witch4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ec/Ruin_Witch4.png/revision/latest?cb=20260614153114"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 16,
+        "2": 16,
+        "3": 17,
+        "4": 18
+      }
+    }
+  ],
+  "unverified": [],
+  "note": "Normal stats, costs, and times from the Clash of Clans wiki. Hall caps use Dark Barracks and Laboratory requirements; remaining verification notes are listed per item.",
+  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
+}

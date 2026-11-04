@@ -1,0 +1,2387 @@
+{
+  "id": "resource",
+  "label": "Resource Buildings",
+  "format": "wiki-review-v1",
+  "updated": "2026-11-03",
+  "units": [
+    {
+      "n": "Gold Mine",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/0/09/GoldMineAnimationTest.gif/revision/latest?cb=20170606081332",
+      "source": "https://clashofclans.fandom.com/wiki/Gold_Mine",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics / Home Village",
+          "columns": [
+            "Level",
+            "Capacity",
+            "Production Rate",
+            "Hitpoints",
+            "Boost Cost",
+            "Time to Fill",
+            "Build Cost (Elixir)",
+            "Build Time",
+            "Experience Gained",
+            "Catch-Up Point*",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,000",
+              "200/hr",
+              "75",
+              "N/A",
+              "5h",
+              "150",
+              "5s",
+              "2",
+              "N/A",
+              "1"
+            ],
+            [
+              "2",
+              "2,000",
+              "400/hr",
+              "150",
+              "N/A",
+              "5h",
+              "300",
+              "15s",
+              "3",
+              "15s",
+              "1"
+            ],
+            [
+              "3",
+              "3,000",
+              "600/hr",
+              "300",
+              "N/A",
+              "5h",
+              "700",
+              "1m",
+              "7",
+              "2m",
+              "2"
+            ],
+            [
+              "4",
+              "5,000",
+              "800/hr",
+              "400",
+              "N/A",
+              "6h 15m",
+              "1,400",
+              "2m",
+              "10",
+              "6m",
+              "2"
+            ],
+            [
+              "5",
+              "10,000",
+              "1,000/hr",
+              "500",
+              "4",
+              "10h",
+              "3,000",
+              "5m",
+              "17",
+              "20m",
+              "3"
+            ],
+            [
+              "6",
+              "20,000",
+              "1,300/hr",
+              "550",
+              "5",
+              "15h 23m 5s",
+              "7,000",
+              "15m",
+              "30",
+              "50m",
+              "3"
+            ],
+            [
+              "7",
+              "30,000",
+              "1,600/hr",
+              "600",
+              "6",
+              "18h 45m",
+              "14,000",
+              "30m",
+              "42",
+              "2h 10m",
+              "4"
+            ],
+            [
+              "8",
+              "50,000",
+              "1,900/hr",
+              "660",
+              "7",
+              "1d 2h 18m 57s",
+              "28,000",
+              "1h",
+              "60",
+              "5h 20m",
+              "4"
+            ],
+            [
+              "9",
+              "75,000",
+              "2,200/hr",
+              "720",
+              "8",
+              "1d 10h 5m 27s",
+              "56,000",
+              "1h 30m",
+              "73",
+              "9h 30m",
+              "5"
+            ],
+            [
+              "10",
+              "100,000",
+              "2,800/hr",
+              "780",
+              "9",
+              "1d 11h 42m 52s",
+              "75,000",
+              "2h",
+              "84",
+              "7h 20m",
+              "5"
+            ],
+            [
+              "11",
+              "150,000",
+              "3,500/hr",
+              "860",
+              "10",
+              "1d 18h 51m 26s",
+              "85,000",
+              "3h",
+              "103",
+              "12h",
+              "7"
+            ],
+            [
+              "12",
+              "200,000",
+              "4,200/hr",
+              "960",
+              "10",
+              "1d 23h 37m 9s",
+              "170,000",
+              "4h",
+              "120",
+              "20h",
+              "8"
+            ],
+            [
+              "13",
+              "250,000",
+              "4,900/hr",
+              "1,080",
+              "11",
+              "2d 3h 1m 14s",
+              "400,000",
+              "5h",
+              "134",
+              "1d 6h",
+              "10"
+            ],
+            [
+              "14",
+              "300,000",
+              "5,600/hr",
+              "1,180",
+              "11",
+              "2d 5h 34m 18s",
+              "800,000",
+              "6h",
+              "146",
+              "1d 18h",
+              "11"
+            ],
+            [
+              "15",
+              "350,000",
+              "6,300/hr",
+              "1,280",
+              "11",
+              "2d 7h 33m 20s",
+              "1,200,000",
+              "10h",
+              "189",
+              "3d 8h",
+              "12"
+            ],
+            [
+              "16",
+              "385,000",
+              "7,000/hr",
+              "1,350",
+              "11",
+              "2d 7h",
+              "2,000,000",
+              "1d",
+              "293",
+              "9d",
+              "14"
+            ],
+            [
+              "17",
+              "420,000",
+              "7,560/hr",
+              "1,400",
+              "11",
+              "2d 7h 33m 20s",
+              "8,000,000",
+              "2d",
+              "415",
+              "25d",
+              "16"
+            ]
+          ]
+        },
+        {
+          "heading": "Supercharges / Home Village",
+          "columns": [
+            "Charge Level",
+            "Capacity",
+            "Production Rate",
+            "Hitpoints",
+            "Boost Cost",
+            "Time to Fill",
+            "Build Cost (Elixir)",
+            "Build Time",
+            "Experience Gained",
+            "Catch-Up Point*",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "436,500",
+              "7,857/hr",
+              "1,400",
+              "11",
+              "2d 7h 33m 20s",
+              "250,000",
+              "9h 30m",
+              "184",
+              "50d 21h 49m 6s",
+              "18"
+            ],
+            [
+              "2",
+              "453,000",
+              "8,154/hr",
+              "1,400",
+              "11",
+              "2d 7h 33m 20s",
+              "250,000",
+              "14h 30m",
+              "228",
+              "79d 8h 43m 39s",
+              "18"
+            ],
+            [
+              "3",
+              "453,000",
+              "8,154/hr",
+              "1,450",
+              "11",
+              "2d 7h 33m 20s",
+              "250,000",
+              "1d",
+              "293",
+              "N/A",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:GoldMineAnimationTest.gif",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/09/GoldMineAnimationTest.gif/revision/latest?cb=20170606081332"
+        },
+        {
+          "file": "File:Gold Mine1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bf/Gold_Mine1.png/revision/latest?cb=20180110120430"
+        },
+        {
+          "file": "File:Gold Mine10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Gold_Mine10.png/revision/latest?cb=20180110120703"
+        },
+        {
+          "file": "File:Gold Mine11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0d/Gold_Mine11.png/revision/latest?cb=20180110120719"
+        },
+        {
+          "file": "File:Gold Mine12.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4d/Gold_Mine12.png/revision/latest?cb=20180110120732"
+        },
+        {
+          "file": "File:Gold Mine13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b9/Gold_Mine13.png/revision/latest?cb=20181023115050"
+        },
+        {
+          "file": "File:Gold Mine14.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bd/Gold_Mine14.png/revision/latest?cb=20200829215835"
+        },
+        {
+          "file": "File:Gold Mine15.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8c/Gold_Mine15.png/revision/latest?cb=20211209202156"
+        },
+        {
+          "file": "File:Gold Mine16.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/58/Gold_Mine16.png/revision/latest?cb=20251027021112"
+        },
+        {
+          "file": "File:Gold Mine17.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Gold_Mine17.png/revision/latest?cb=20251118165804"
+        },
+        {
+          "file": "File:Gold Mine2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/55/Gold_Mine2.png/revision/latest?cb=20180110120444"
+        },
+        {
+          "file": "File:Gold Mine3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e4/Gold_Mine3.png/revision/latest?cb=20180110120457"
+        },
+        {
+          "file": "File:Gold Mine4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Gold_Mine4.png/revision/latest?cb=20180110120510"
+        },
+        {
+          "file": "File:Gold Mine5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1a/Gold_Mine5.png/revision/latest?cb=20180110120533"
+        },
+        {
+          "file": "File:Gold Mine6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/86/Gold_Mine6.png/revision/latest?cb=20180110120552"
+        },
+        {
+          "file": "File:Gold Mine7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/11/Gold_Mine7.png/revision/latest?cb=20180110120611"
+        },
+        {
+          "file": "File:Gold Mine8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/52/Gold_Mine8.png/revision/latest?cb=20180110120627"
+        },
+        {
+          "file": "File:Gold Mine9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bf/Gold_Mine9.png/revision/latest?cb=20180110120642"
+        },
+        {
+          "file": "File:Gold Mine Ruin.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/30/Gold_Mine_Ruin.png/revision/latest?cb=20170609145915"
+        },
+        {
+          "file": "File:Gold Mine level5 info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/76/Gold_Mine_level5_info.png/revision/latest?cb=20260105014345"
+        },
+        {
+          "file": "File:Gold Mine level5 info2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a3/Gold_Mine_level5_info2.png/revision/latest?cb=20250318144559"
+        },
+        {
+          "file": "File:Gold Mine level5 info3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/81/Gold_Mine_level5_info3.png/revision/latest?cb=20250318144626"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "4": 2,
+        "5": 3,
+        "6": 3,
+        "7": 4,
+        "8": 4,
+        "9": 5,
+        "10": 5,
+        "11": 7,
+        "12": 8,
+        "13": 10,
+        "14": 11,
+        "15": 12,
+        "16": 14,
+        "17": 16
+      }
+    },
+    {
+      "n": "Elixir Collector",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/5/5e/Elixir_Collector1.png/revision/latest?cb=20180109122134",
+      "source": "https://clashofclans.fandom.com/wiki/Elixir_Collector",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics / Home Village",
+          "columns": [
+            "Level",
+            "Capacity",
+            "Production Rate",
+            "Hitpoints",
+            "Boost Cost",
+            "Time to Fill",
+            "Build Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Catch-Up Point*",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,000",
+              "200/hr",
+              "75",
+              "N/A",
+              "5h",
+              "150",
+              "5s",
+              "2",
+              "N/A",
+              "1"
+            ],
+            [
+              "2",
+              "2,000",
+              "400/hr",
+              "150",
+              "N/A",
+              "5h",
+              "300",
+              "15s",
+              "3",
+              "15s",
+              "1"
+            ],
+            [
+              "3",
+              "3,000",
+              "600/hr",
+              "300",
+              "N/A",
+              "5h",
+              "700",
+              "1m",
+              "7",
+              "2m",
+              "2"
+            ],
+            [
+              "4",
+              "5,000",
+              "800/hr",
+              "400",
+              "N/A",
+              "6h 15m",
+              "1,400",
+              "2m",
+              "10",
+              "6m",
+              "2"
+            ],
+            [
+              "5",
+              "10,000",
+              "1,000/hr",
+              "500",
+              "4",
+              "10h",
+              "3,000",
+              "5m",
+              "17",
+              "20m",
+              "3"
+            ],
+            [
+              "6",
+              "20,000",
+              "1,300/hr",
+              "550",
+              "5",
+              "15h 23m 5s",
+              "7,000",
+              "15m",
+              "30",
+              "50m",
+              "3"
+            ],
+            [
+              "7",
+              "30,000",
+              "1,600/hr",
+              "600",
+              "6",
+              "18h 45m",
+              "14,000",
+              "30m",
+              "42",
+              "2h 10m",
+              "4"
+            ],
+            [
+              "8",
+              "50,000",
+              "1,900/hr",
+              "660",
+              "7",
+              "1d 2h 18m 57s",
+              "28,000",
+              "1h",
+              "60",
+              "5h 20m",
+              "4"
+            ],
+            [
+              "9",
+              "75,000",
+              "2,200/hr",
+              "720",
+              "8",
+              "1d 10h 5m 27s",
+              "56,000",
+              "1h 30m",
+              "73",
+              "9h 30m",
+              "5"
+            ],
+            [
+              "10",
+              "100,000",
+              "2,800/hr",
+              "780",
+              "9",
+              "1d 11h 42m 52s",
+              "75,000",
+              "2h",
+              "84",
+              "7h 20m",
+              "5"
+            ],
+            [
+              "11",
+              "150,000",
+              "3,500/hr",
+              "860",
+              "10",
+              "1d 18h 51m 26s",
+              "85,000",
+              "3h",
+              "103",
+              "12h",
+              "7"
+            ],
+            [
+              "12",
+              "200,000",
+              "4,200/hr",
+              "960",
+              "10",
+              "1d 23h 37m 9s",
+              "170,000",
+              "4h",
+              "120",
+              "20h",
+              "8"
+            ],
+            [
+              "13",
+              "250,000",
+              "4,900/hr",
+              "1,080",
+              "11",
+              "2d 3h 1m 14s",
+              "400,000",
+              "5h",
+              "134",
+              "1d 6h",
+              "10"
+            ],
+            [
+              "14",
+              "300,000",
+              "5,600/hr",
+              "1,180",
+              "11",
+              "2d 5h 34m 18s",
+              "800,000",
+              "6h",
+              "146",
+              "1d 18h",
+              "11"
+            ],
+            [
+              "15",
+              "350,000",
+              "6,300/hr",
+              "1,280",
+              "11",
+              "2d 7h 33m 20s",
+              "1,200,000",
+              "10h",
+              "189",
+              "3d 8h",
+              "12"
+            ],
+            [
+              "16",
+              "385,000",
+              "7,000/hr",
+              "1,350",
+              "11",
+              "2d 7h",
+              "2,000,000",
+              "1d",
+              "293",
+              "9d",
+              "14"
+            ],
+            [
+              "17",
+              "420,000",
+              "7,560/hr",
+              "1,400",
+              "11",
+              "2d 7h 33m 20s",
+              "8,000,000",
+              "2d",
+              "415",
+              "25d",
+              "16"
+            ]
+          ]
+        },
+        {
+          "heading": "Supercharges / Home Village",
+          "columns": [
+            "Charge Level",
+            "Capacity",
+            "Production Rate",
+            "Hitpoints",
+            "Boost Cost",
+            "Time to Fill",
+            "Build Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Catch-Up Point*",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "436,500",
+              "7,857/hr",
+              "1,400",
+              "11",
+              "2d 7h 33m 20s",
+              "250,000",
+              "9h 30m",
+              "184",
+              "50d 21h 49m 6s",
+              "18"
+            ],
+            [
+              "2",
+              "453,000",
+              "8,154/hr",
+              "1,400",
+              "11",
+              "2d 7h 33m 20s",
+              "250,000",
+              "14h 30m",
+              "228",
+              "79d 8h 43m 39s",
+              "18"
+            ],
+            [
+              "3",
+              "453,000",
+              "8,154/hr",
+              "1,450",
+              "11",
+              "2d 7h 33m 20s",
+              "250,000",
+              "1d",
+              "293",
+              "N/A",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Elixir Collector1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5e/Elixir_Collector1.png/revision/latest?cb=20180109122134"
+        },
+        {
+          "file": "File:Elixir Collector10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f0/Elixir_Collector10.png/revision/latest?cb=20180109122349"
+        },
+        {
+          "file": "File:Elixir Collector10B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/32/Elixir_Collector10B.png/revision/latest?cb=20230518051323"
+        },
+        {
+          "file": "File:Elixir Collector11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9f/Elixir_Collector11.png/revision/latest?cb=20180109122406"
+        },
+        {
+          "file": "File:Elixir Collector12.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4f/Elixir_Collector12.png/revision/latest?cb=20180109122421"
+        },
+        {
+          "file": "File:Elixir Collector13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/12/Elixir_Collector13.png/revision/latest?cb=20200902075904"
+        },
+        {
+          "file": "File:Elixir Collector14.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/49/Elixir_Collector14.png/revision/latest?cb=20210113220549"
+        },
+        {
+          "file": "File:Elixir Collector15.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7f/Elixir_Collector15.png/revision/latest?cb=20211209201554"
+        },
+        {
+          "file": "File:Elixir Collector16.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b9/Elixir_Collector16.png/revision/latest?cb=20251027021007"
+        },
+        {
+          "file": "File:Elixir Collector17.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/03/Elixir_Collector17.png/revision/latest?cb=20251118165724"
+        },
+        {
+          "file": "File:Elixir Collector1B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c4/Elixir_Collector1B.png/revision/latest?cb=20180109122754"
+        },
+        {
+          "file": "File:Elixir Collector1 Animation.gif",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fe/Elixir_Collector1_Animation.gif/revision/latest?cb=20200903084630"
+        },
+        {
+          "file": "File:Elixir Collector2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/05/Elixir_Collector2.png/revision/latest?cb=20180109122118"
+        },
+        {
+          "file": "File:Elixir Collector2B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/19/Elixir_Collector2B.png/revision/latest?cb=20180109122754"
+        },
+        {
+          "file": "File:Elixir Collector3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6d/Elixir_Collector3.png/revision/latest?cb=20180109122147"
+        },
+        {
+          "file": "File:Elixir Collector3B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a7/Elixir_Collector3B.png/revision/latest?cb=20180109122755"
+        },
+        {
+          "file": "File:Elixir Collector4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/95/Elixir_Collector4.png/revision/latest?cb=20180109122200"
+        },
+        {
+          "file": "File:Elixir Collector4B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/54/Elixir_Collector4B.png/revision/latest?cb=20180109122755"
+        },
+        {
+          "file": "File:Elixir Collector5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/44/Elixir_Collector5.png/revision/latest?cb=20180109122215"
+        },
+        {
+          "file": "File:Elixir Collector5B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ef/Elixir_Collector5B.png/revision/latest?cb=20180109122756"
+        },
+        {
+          "file": "File:Elixir Collector6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Elixir_Collector6.png/revision/latest?cb=20180109122232"
+        },
+        {
+          "file": "File:Elixir Collector6B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d4/Elixir_Collector6B.png/revision/latest?cb=20180109122756"
+        },
+        {
+          "file": "File:Elixir Collector7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/35/Elixir_Collector7.png/revision/latest?cb=20180109122255"
+        },
+        {
+          "file": "File:Elixir Collector7B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8e/Elixir_Collector7B.png/revision/latest?cb=20180109122757"
+        },
+        {
+          "file": "File:Elixir Collector8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fc/Elixir_Collector8.png/revision/latest?cb=20180109122310"
+        },
+        {
+          "file": "File:Elixir Collector8B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/15/Elixir_Collector8B.png/revision/latest?cb=20180109122757"
+        },
+        {
+          "file": "File:Elixir Collector9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/79/Elixir_Collector9.png/revision/latest?cb=20180109122324"
+        },
+        {
+          "file": "File:Elixir Collector9B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3b/Elixir_Collector9B.png/revision/latest?cb=20190616211335"
+        },
+        {
+          "file": "File:Elixir Collector Ruin.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/30/Elixir_Collector_Ruin.png/revision/latest?cb=20170609150452"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "4": 2,
+        "5": 3,
+        "6": 3,
+        "7": 4,
+        "8": 4,
+        "9": 5,
+        "10": 5,
+        "11": 7,
+        "12": 8,
+        "13": 10,
+        "14": 11,
+        "15": 12,
+        "16": 14,
+        "17": 16
+      }
+    },
+    {
+      "n": "Dark Elixir Drill",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/d/d9/Dark_Elixir_Drill1.png/revision/latest?cb=20180219150352",
+      "source": "https://clashofclans.fandom.com/wiki/Dark_Elixir_Drill",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Capacity",
+            "Production Rate",
+            "Hitpoints",
+            "Boost Cost",
+            "Time to Fill",
+            "Build Cost (Elixir)",
+            "Build Time",
+            "Experience Gained",
+            "Catch-Up Point*",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "160",
+              "20/hr",
+              "800",
+              "7",
+              "8h",
+              "180,000",
+              "4h",
+              "120",
+              "N/A",
+              "7"
+            ],
+            [
+              "2",
+              "300",
+              "30/hr",
+              "860",
+              "10",
+              "10h",
+              "270,000",
+              "6h",
+              "146",
+              "12h",
+              "7"
+            ],
+            [
+              "3",
+              "540",
+              "45/hr",
+              "920",
+              "15",
+              "12h",
+              "540,000",
+              "12h",
+              "207",
+              "1d",
+              "7"
+            ],
+            [
+              "4",
+              "840",
+              "60/hr",
+              "980",
+              "20",
+              "14h",
+              "900,000",
+              "18h",
+              "254",
+              "2d 6h",
+              "9"
+            ],
+            [
+              "5",
+              "1,280",
+              "80/hr",
+              "1,060",
+              "25",
+              "16h",
+              "1,200,000",
+              "1d",
+              "293",
+              "3d",
+              "9"
+            ],
+            [
+              "6",
+              "1,800",
+              "100/hr",
+              "1,160",
+              "30",
+              "18h",
+              "1,800,000",
+              "1d 12h",
+              "360",
+              "6d",
+              "9"
+            ],
+            [
+              "7",
+              "2,400",
+              "120/hr",
+              "1,280",
+              "35",
+              "20h",
+              "2,100,000",
+              "1d 18h",
+              "388",
+              "8d 18h",
+              "10"
+            ],
+            [
+              "8",
+              "3,000",
+              "140/hr",
+              "1,380",
+              "40",
+              "21h 25m 43s",
+              "2,400,000",
+              "2d",
+              "415",
+              "12d",
+              "11"
+            ],
+            [
+              "9",
+              "3,600",
+              "160/hr",
+              "1,480",
+              "45",
+              "22h 30m",
+              "3,700,000",
+              "2d 12h",
+              "464",
+              "17d 12h",
+              "12"
+            ],
+            [
+              "10",
+              "4,200",
+              "180/hr",
+              "1,550",
+              "50",
+              "23h 20m",
+              "5,300,000",
+              "3d",
+              "509",
+              "24d",
+              "14"
+            ],
+            [
+              "11",
+              "4,600",
+              "200/hr",
+              "1,600",
+              "55",
+              "23h",
+              "12,000,000",
+              "6d",
+              "720",
+              "54d",
+              "16"
+            ]
+          ]
+        },
+        {
+          "heading": "Supercharges",
+          "columns": [
+            "Charge Level",
+            "Capacity",
+            "Production Rate",
+            "Hitpoints",
+            "Boost Cost",
+            "Time to Fill",
+            "Build Cost (Elixir)",
+            "Build Time",
+            "Experience Gained",
+            "Catch-Up Point*",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "4,807",
+              "209/hr",
+              "1,600",
+              "55",
+              "23h",
+              "750,000",
+              "14h 30m",
+              "228",
+              "66d 16h",
+              "18"
+            ],
+            [
+              "2",
+              "5,014",
+              "218/hr",
+              "1,600",
+              "55",
+              "23h",
+              "750,000",
+              "19h",
+              "261",
+              "92d 21h 20m",
+              "18"
+            ],
+            [
+              "3",
+              "5,014",
+              "218/hr",
+              "1,650",
+              "55",
+              "23h",
+              "500,000",
+              "1d",
+              "293",
+              "N/A",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Dark Elixir Drill1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d9/Dark_Elixir_Drill1.png/revision/latest?cb=20180219150352"
+        },
+        {
+          "file": "File:Dark Elixir Drill10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Dark_Elixir_Drill10.png/revision/latest?cb=20251118170248"
+        },
+        {
+          "file": "File:Dark Elixir Drill11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Dark_Elixir_Drill11.png/revision/latest?cb=20251118170058"
+        },
+        {
+          "file": "File:Dark Elixir Drill2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7f/Dark_Elixir_Drill2.png/revision/latest?cb=20180219150405"
+        },
+        {
+          "file": "File:Dark Elixir Drill3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f2/Dark_Elixir_Drill3.png/revision/latest?cb=20180219150417"
+        },
+        {
+          "file": "File:Dark Elixir Drill4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Dark_Elixir_Drill4.png/revision/latest?cb=20180219150430"
+        },
+        {
+          "file": "File:Dark Elixir Drill5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a0/Dark_Elixir_Drill5.png/revision/latest?cb=20180219150445"
+        },
+        {
+          "file": "File:Dark Elixir Drill6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d8/Dark_Elixir_Drill6.png/revision/latest?cb=20180219150459"
+        },
+        {
+          "file": "File:Dark Elixir Drill7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d7/Dark_Elixir_Drill7.png/revision/latest?cb=20181023120211"
+        },
+        {
+          "file": "File:Dark Elixir Drill8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1e/Dark_Elixir_Drill8.png/revision/latest?cb=20210113213742"
+        },
+        {
+          "file": "File:Dark Elixir Drill9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/58/Dark_Elixir_Drill9.png/revision/latest?cb=20211209102821"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 7,
+        "2": 7,
+        "3": 7,
+        "4": 9,
+        "5": 9,
+        "6": 9,
+        "7": 10,
+        "8": 11,
+        "9": 12,
+        "10": 14,
+        "11": 16
+      }
+    },
+    {
+      "n": "Gold Storage",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/4/4f/Gold_Storage1.png/revision/latest?cb=20171106180731",
+      "source": "https://clashofclans.fandom.com/wiki/Gold_Storage",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics / Home Village",
+          "columns": [
+            "Level",
+            "Storage Capacity",
+            "Hitpoints",
+            "Build Cost (Elixir)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,500",
+              "150",
+              "300",
+              "10s",
+              "3",
+              "1"
+            ],
+            [
+              "2",
+              "3,000",
+              "300",
+              "750",
+              "2m",
+              "10",
+              "2"
+            ],
+            [
+              "3",
+              "6,000",
+              "450",
+              "1,500",
+              "5m",
+              "17",
+              "2"
+            ],
+            [
+              "4",
+              "12,000",
+              "600",
+              "3,000",
+              "15m",
+              "30",
+              "3"
+            ],
+            [
+              "5",
+              "25,000",
+              "800",
+              "6,000",
+              "30m",
+              "42",
+              "3"
+            ],
+            [
+              "6",
+              "45,000",
+              "1,000",
+              "12,000",
+              "1h",
+              "60",
+              "3"
+            ],
+            [
+              "7",
+              "100,000",
+              "1,250",
+              "25,000",
+              "2h",
+              "84",
+              "4"
+            ],
+            [
+              "8",
+              "225,000",
+              "1,500",
+              "50,000",
+              "3h",
+              "103",
+              "4"
+            ],
+            [
+              "9",
+              "450,000",
+              "1,700",
+              "100,000",
+              "4h",
+              "120",
+              "5"
+            ],
+            [
+              "10",
+              "850,000",
+              "1,900",
+              "250,000",
+              "5h",
+              "134",
+              "6"
+            ],
+            [
+              "11",
+              "1,750,000",
+              "2,100",
+              "500,000",
+              "6h",
+              "146",
+              "7"
+            ],
+            [
+              "12",
+              "2,000,000",
+              "2,500",
+              "1,000,000",
+              "12h",
+              "207",
+              "11"
+            ],
+            [
+              "13",
+              "3,000,000",
+              "2,900",
+              "1,800,000",
+              "18h",
+              "254",
+              "12"
+            ],
+            [
+              "14",
+              "4,000,000",
+              "3,300",
+              "2,800,000",
+              "1d",
+              "293",
+              "13"
+            ],
+            [
+              "15",
+              "4,500,000",
+              "3,700",
+              "3,000,000",
+              "2d",
+              "415",
+              "14"
+            ],
+            [
+              "16",
+              "5,000,000",
+              "3,900",
+              "4,000,000",
+              "3d",
+              "509",
+              "15"
+            ],
+            [
+              "17",
+              "5,500,000",
+              "4,050",
+              "5,500,000",
+              "4d",
+              "587",
+              "16"
+            ],
+            [
+              "18",
+              "6,000,000",
+              "4,200",
+              "10,000,000",
+              "5d",
+              "657",
+              "17"
+            ],
+            [
+              "19",
+              "6,500,000",
+              "4,300",
+              "18,000,000",
+              "12d 12h",
+              "1,039",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics / Home Village",
+          "columns": [
+            "Town Hall Level",
+            "% Available to be Stolen",
+            "Cap",
+            "Storage Amount to Reach Cap"
+          ],
+          "rows": [
+            [
+              "1",
+              "20%",
+              "500*",
+              "2,500"
+            ],
+            [
+              "2",
+              "20%",
+              "1,700*",
+              "8,500"
+            ],
+            [
+              "3",
+              "20%",
+              "20,000*",
+              "100,000"
+            ],
+            [
+              "4",
+              "20%",
+              "100,000*",
+              "500,000"
+            ],
+            [
+              "5-6",
+              "20%",
+              "200,000",
+              "1,000,000"
+            ],
+            [
+              "7",
+              "18%",
+              "360,000",
+              "2,000,000"
+            ],
+            [
+              "8",
+              "16%",
+              "480,000",
+              "3,000,000"
+            ],
+            [
+              "9",
+              "14%",
+              "560,000",
+              "4,000,000"
+            ],
+            [
+              "10",
+              "14%",
+              "595,000",
+              "4,250,000"
+            ],
+            [
+              "11",
+              "14%",
+              "700,000",
+              "5,000,000"
+            ],
+            [
+              "12",
+              "14%",
+              "980,000",
+              "7,000,000"
+            ],
+            [
+              "13",
+              "14%",
+              "1,260,000",
+              "9,000,000"
+            ],
+            [
+              "14",
+              "14%",
+              "1,400,000",
+              "10,000,000"
+            ],
+            [
+              "15",
+              "14%",
+              "1,540,000",
+              "11,000,000"
+            ],
+            [
+              "16",
+              "14%",
+              "1,610,000",
+              "11,500,000"
+            ],
+            [
+              "17",
+              "14%",
+              "1,680,000",
+              "12,000,000"
+            ],
+            [
+              "18",
+              "14%",
+              "1,750,000",
+              "12,500,000"
+            ],
+            [
+              "*Figures in asterisks denote storage caps that are determined only by the storage capacity of the storages.",
+              "*Figures in asterisks denote storage caps that are determined only by the storage capacity of the storages.",
+              "*Figures in asterisks denote storage caps that are determined only by the storage capacity of the storages.",
+              "*Figures in asterisks denote storage caps that are determined only by the storage capacity of the storages."
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Gold Storage1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4f/Gold_Storage1.png/revision/latest?cb=20171106180731"
+        },
+        {
+          "file": "File:Gold Storage10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c2/Gold_Storage10.png/revision/latest?cb=20171106180735"
+        },
+        {
+          "file": "File:Gold Storage10B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e6/Gold_Storage10B.png/revision/latest?cb=20230518052405"
+        },
+        {
+          "file": "File:Gold Storage11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5f/Gold_Storage11.png/revision/latest?cb=20171106180751"
+        },
+        {
+          "file": "File:Gold Storage12.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8b/Gold_Storage12.png/revision/latest?cb=20171106180751"
+        },
+        {
+          "file": "File:Gold Storage13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/15/Gold_Storage13.png/revision/latest?cb=20180604172806"
+        },
+        {
+          "file": "File:Gold Storage14.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/67/Gold_Storage14.png/revision/latest?cb=20191211212341"
+        },
+        {
+          "file": "File:Gold Storage15.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ef/Gold_Storage15.png/revision/latest?cb=20210413013738"
+        },
+        {
+          "file": "File:Gold Storage16.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2f/Gold_Storage16.png/revision/latest?cb=20221011063952"
+        },
+        {
+          "file": "File:Gold Storage17.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7c/Gold_Storage17.png/revision/latest?cb=20231213084853"
+        },
+        {
+          "file": "File:Gold Storage18.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b7/Gold_Storage18.png/revision/latest?cb=20241124022808"
+        },
+        {
+          "file": "File:Gold Storage19.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/74/Gold_Storage19.png/revision/latest?cb=20251125103535"
+        },
+        {
+          "file": "File:Gold Storage1B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/16/Gold_Storage1B.png/revision/latest?cb=20171031120205"
+        },
+        {
+          "file": "File:Gold Storage2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f0/Gold_Storage2.png/revision/latest?cb=20171106180732"
+        },
+        {
+          "file": "File:Gold Storage2B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/de/Gold_Storage2B.png/revision/latest?cb=20171031120206"
+        },
+        {
+          "file": "File:Gold Storage3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/09/Gold_Storage3.png/revision/latest?cb=20171106180732"
+        },
+        {
+          "file": "File:Gold Storage3B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c8/Gold_Storage3B.png/revision/latest?cb=20171031120207"
+        },
+        {
+          "file": "File:Gold Storage4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7c/Gold_Storage4.png/revision/latest?cb=20171106180732"
+        },
+        {
+          "file": "File:Gold Storage4B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/81/Gold_Storage4B.png/revision/latest?cb=20171031120207"
+        },
+        {
+          "file": "File:Gold Storage5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/62/Gold_Storage5.png/revision/latest?cb=20171106180733"
+        },
+        {
+          "file": "File:Gold Storage5B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/27/Gold_Storage5B.png/revision/latest?cb=20171031120207"
+        },
+        {
+          "file": "File:Gold Storage6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/36/Gold_Storage6.png/revision/latest?cb=20171106180733"
+        },
+        {
+          "file": "File:Gold Storage6B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/84/Gold_Storage6B.png/revision/latest?cb=20171031120208"
+        },
+        {
+          "file": "File:Gold Storage7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bd/Gold_Storage7.png/revision/latest?cb=20171106180734"
+        },
+        {
+          "file": "File:Gold Storage7B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/31/Gold_Storage7B.png/revision/latest?cb=20171031120208"
+        },
+        {
+          "file": "File:Gold Storage8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/05/Gold_Storage8.png/revision/latest?cb=20171106180734"
+        },
+        {
+          "file": "File:Gold Storage8B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Gold_Storage8B.png/revision/latest?cb=20180307123736"
+        },
+        {
+          "file": "File:Gold Storage9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/86/Gold_Storage9.png/revision/latest?cb=20171106180734"
+        },
+        {
+          "file": "File:Gold Storage9B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/49/Gold_Storage9B.png/revision/latest?cb=20190616213038"
+        },
+        {
+          "file": "File:Gold Storage level8 info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d8/Gold_Storage_level8_info.png/revision/latest?cb=20250318144108"
+        },
+        {
+          "file": "File:Gold Storage level8 info2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a1/Gold_Storage_level8_info2.png/revision/latest?cb=20260105015122"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 1,
+        "2": 2,
+        "3": 2,
+        "4": 3,
+        "5": 3,
+        "6": 3,
+        "7": 4,
+        "8": 4,
+        "9": 5,
+        "10": 6,
+        "11": 7,
+        "12": 11,
+        "13": 12,
+        "14": 13,
+        "15": 14,
+        "16": 15,
+        "17": 16,
+        "18": 17,
+        "19": 18
+      }
+    },
+    {
+      "n": "Elixir Storage",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/f/f6/Elixir_Storage1.png/revision/latest?cb=20230515070132",
+      "source": "https://clashofclans.fandom.com/wiki/Elixir_Storage",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics / Home Village",
+          "columns": [
+            "Level",
+            "Storage Capacity",
+            "Hitpoints",
+            "Build Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,500",
+              "150",
+              "300",
+              "10s",
+              "3",
+              "1"
+            ],
+            [
+              "2",
+              "3,000",
+              "300",
+              "750",
+              "2m",
+              "10",
+              "2"
+            ],
+            [
+              "3",
+              "6,000",
+              "450",
+              "1,500",
+              "5m",
+              "17",
+              "2"
+            ],
+            [
+              "4",
+              "12,000",
+              "600",
+              "3,000",
+              "15m",
+              "30",
+              "3"
+            ],
+            [
+              "5",
+              "25,000",
+              "800",
+              "6,000",
+              "30m",
+              "42",
+              "3"
+            ],
+            [
+              "6",
+              "45,000",
+              "1,000",
+              "12,000",
+              "1h",
+              "60",
+              "3"
+            ],
+            [
+              "7",
+              "100,000",
+              "1,250",
+              "25,000",
+              "2h",
+              "84",
+              "4"
+            ],
+            [
+              "8",
+              "225,000",
+              "1,500",
+              "50,000",
+              "3h",
+              "103",
+              "4"
+            ],
+            [
+              "9",
+              "450,000",
+              "1,700",
+              "100,000",
+              "4h",
+              "120",
+              "5"
+            ],
+            [
+              "10",
+              "850,000",
+              "1,900",
+              "250,000",
+              "5h",
+              "134",
+              "6"
+            ],
+            [
+              "11",
+              "1,750,000",
+              "2,100",
+              "500,000",
+              "6h",
+              "146",
+              "7"
+            ],
+            [
+              "12",
+              "2,000,000",
+              "2,500",
+              "1,000,000",
+              "12h",
+              "207",
+              "11"
+            ],
+            [
+              "13",
+              "3,000,000",
+              "2,900",
+              "1,800,000",
+              "18h",
+              "254",
+              "12"
+            ],
+            [
+              "14",
+              "4,000,000",
+              "3,300",
+              "2,800,000",
+              "1d",
+              "293",
+              "13"
+            ],
+            [
+              "15",
+              "4,500,000",
+              "3,700",
+              "3,000,000",
+              "2d",
+              "415",
+              "14"
+            ],
+            [
+              "16",
+              "5,000,000",
+              "3,900",
+              "4,000,000",
+              "3d",
+              "509",
+              "15"
+            ],
+            [
+              "17",
+              "5,500,000",
+              "4,050",
+              "5,500,000",
+              "4d",
+              "587",
+              "16"
+            ],
+            [
+              "18",
+              "6,000,000",
+              "4,200",
+              "10,000,000",
+              "5d",
+              "657",
+              "17"
+            ],
+            [
+              "19",
+              "6,500,000",
+              "4,300",
+              "18,000,000",
+              "12d 12h",
+              "1,039",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics / Home Village",
+          "columns": [
+            "Town Hall Level",
+            "% Available to be Stolen",
+            "Cap",
+            "Storage Amount to Reach Cap"
+          ],
+          "rows": [
+            [
+              "1",
+              "20%",
+              "500*",
+              "2,500"
+            ],
+            [
+              "2",
+              "20%",
+              "1,700*",
+              "8,500"
+            ],
+            [
+              "3",
+              "20%",
+              "20,000*",
+              "100,000"
+            ],
+            [
+              "4",
+              "20%",
+              "100,000*",
+              "500,000"
+            ],
+            [
+              "5-6",
+              "20%",
+              "200,000",
+              "1,000,000"
+            ],
+            [
+              "7",
+              "18%",
+              "360,000",
+              "2,000,000"
+            ],
+            [
+              "8",
+              "16%",
+              "480,000",
+              "3,000,000"
+            ],
+            [
+              "9",
+              "14%",
+              "560,000",
+              "4,000,000"
+            ],
+            [
+              "10",
+              "14%",
+              "595,000",
+              "4,250,000"
+            ],
+            [
+              "11",
+              "14%",
+              "700,000",
+              "5,000,000"
+            ],
+            [
+              "12",
+              "14%",
+              "980,000",
+              "7,000,000"
+            ],
+            [
+              "13",
+              "14%",
+              "1,260,000",
+              "9,000,000"
+            ],
+            [
+              "14",
+              "14%",
+              "1,400,000",
+              "10,000,000"
+            ],
+            [
+              "15",
+              "14%",
+              "1,540,000",
+              "11,000,000"
+            ],
+            [
+              "16",
+              "14%",
+              "1,610,000",
+              "11,500,000"
+            ],
+            [
+              "17",
+              "14%",
+              "1,680,000",
+              "12,000,000"
+            ],
+            [
+              "18",
+              "14%",
+              "1,750,000",
+              "12,500,000"
+            ],
+            [
+              "*Figures in asterisks denote storage caps that are determined only by the storage capacity of the storages.",
+              "*Figures in asterisks denote storage caps that are determined only by the storage capacity of the storages.",
+              "*Figures in asterisks denote storage caps that are determined only by the storage capacity of the storages.",
+              "*Figures in asterisks denote storage caps that are determined only by the storage capacity of the storages."
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Elixir Storage1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f6/Elixir_Storage1.png/revision/latest?cb=20230515070132"
+        },
+        {
+          "file": "File:Elixir Storage10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2c/Elixir_Storage10.png/revision/latest?cb=20230515070347"
+        },
+        {
+          "file": "File:Elixir Storage10B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Elixir_Storage10B.png/revision/latest?cb=20230515070355"
+        },
+        {
+          "file": "File:Elixir Storage11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3b/Elixir_Storage11.png/revision/latest?cb=20230515070356"
+        },
+        {
+          "file": "File:Elixir Storage12.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2b/Elixir_Storage12.png/revision/latest?cb=20230515070411"
+        },
+        {
+          "file": "File:Elixir Storage13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cb/Elixir_Storage13.png/revision/latest?cb=20230515070420"
+        },
+        {
+          "file": "File:Elixir Storage14.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1e/Elixir_Storage14.png/revision/latest?cb=20230515070430"
+        },
+        {
+          "file": "File:Elixir Storage15.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6a/Elixir_Storage15.png/revision/latest?cb=20230515070438"
+        },
+        {
+          "file": "File:Elixir Storage16.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a0/Elixir_Storage16.png/revision/latest?cb=20230515070453"
+        },
+        {
+          "file": "File:Elixir Storage17.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/94/Elixir_Storage17.png/revision/latest?cb=20231213084959"
+        },
+        {
+          "file": "File:Elixir Storage18.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Elixir_Storage18.png/revision/latest?cb=20241124022807"
+        },
+        {
+          "file": "File:Elixir Storage19.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/08/Elixir_Storage19.png/revision/latest?cb=20251125103510"
+        },
+        {
+          "file": "File:Elixir Storage1B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/92/Elixir_Storage1B.png/revision/latest?cb=20230515070145"
+        },
+        {
+          "file": "File:Elixir Storage2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/38/Elixir_Storage2.png/revision/latest?cb=20230515070153"
+        },
+        {
+          "file": "File:Elixir Storage2B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d2/Elixir_Storage2B.png/revision/latest?cb=20230515070207"
+        },
+        {
+          "file": "File:Elixir Storage3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9c/Elixir_Storage3.png/revision/latest?cb=20230515070211"
+        },
+        {
+          "file": "File:Elixir Storage3B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/38/Elixir_Storage3B.png/revision/latest?cb=20230515070217"
+        },
+        {
+          "file": "File:Elixir Storage4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e6/Elixir_Storage4.png/revision/latest?cb=20230515070221"
+        },
+        {
+          "file": "File:Elixir Storage4B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1a/Elixir_Storage4B.png/revision/latest?cb=20230515070230"
+        },
+        {
+          "file": "File:Elixir Storage5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/ce/Elixir_Storage5.png/revision/latest?cb=20230515070234"
+        },
+        {
+          "file": "File:Elixir Storage5B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5a/Elixir_Storage5B.png/revision/latest?cb=20230515070243"
+        },
+        {
+          "file": "File:Elixir Storage6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Elixir_Storage6.png/revision/latest?cb=20230515070247"
+        },
+        {
+          "file": "File:Elixir Storage6B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c9/Elixir_Storage6B.png/revision/latest?cb=20230515070259"
+        },
+        {
+          "file": "File:Elixir Storage7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8c/Elixir_Storage7.png/revision/latest?cb=20230515070303"
+        },
+        {
+          "file": "File:Elixir Storage7B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4c/Elixir_Storage7B.png/revision/latest?cb=20230515070311"
+        },
+        {
+          "file": "File:Elixir Storage8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/74/Elixir_Storage8.png/revision/latest?cb=20230515070315"
+        },
+        {
+          "file": "File:Elixir Storage8B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bb/Elixir_Storage8B.png/revision/latest?cb=20230515070322"
+        },
+        {
+          "file": "File:Elixir Storage9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/65/Elixir_Storage9.png/revision/latest?cb=20230515070327"
+        },
+        {
+          "file": "File:Elixir Storage9B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3f/Elixir_Storage9B.png/revision/latest?cb=20230515070333"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 1,
+        "2": 2,
+        "3": 2,
+        "4": 3,
+        "5": 3,
+        "6": 3,
+        "7": 4,
+        "8": 4,
+        "9": 5,
+        "10": 6,
+        "11": 7,
+        "12": 11,
+        "13": 12,
+        "14": 13,
+        "15": 14,
+        "16": 15,
+        "17": 16,
+        "18": 17,
+        "19": 18
+      }
+    },
+    {
+      "n": "Dark Elixir Storage",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/1/1a/Dark_Elixir_Storage1.png/revision/latest?cb=20180112123343",
+      "source": "https://clashofclans.fandom.com/wiki/Dark_Elixir_Storage",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Storage Capacity",
+            "Hitpoints",
+            "Build Cost (Elixir)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "10,000",
+              "2,000",
+              "250,000",
+              "8h",
+              "169",
+              "7"
+            ],
+            [
+              "2",
+              "17,500",
+              "2,200",
+              "500,000",
+              "16h",
+              "240",
+              "7"
+            ],
+            [
+              "3",
+              "40,000",
+              "2,400",
+              "1,000,000",
+              "1d",
+              "293",
+              "8"
+            ],
+            [
+              "4",
+              "75,000",
+              "2,600",
+              "1,500,000",
+              "1d 12h",
+              "360",
+              "8"
+            ],
+            [
+              "5",
+              "140,000",
+              "2,900",
+              "2,000,000",
+              "1d 16h",
+              "379",
+              "9"
+            ],
+            [
+              "6",
+              "180,000",
+              "3,200",
+              "2,400,000",
+              "2d",
+              "415",
+              "9"
+            ],
+            [
+              "7",
+              "220,000",
+              "3,500",
+              "3,800,000",
+              "3d",
+              "509",
+              "12"
+            ],
+            [
+              "8",
+              "280,000",
+              "3,800",
+              "5,400,000",
+              "3d 12h",
+              "549",
+              "13"
+            ],
+            [
+              "9",
+              "330,000",
+              "4,100",
+              "6,600,000",
+              "4d",
+              "587",
+              "14"
+            ],
+            [
+              "10",
+              "360,000",
+              "4,300",
+              "8,000,000",
+              "4d 12h",
+              "623",
+              "15"
+            ],
+            [
+              "11",
+              "390,000",
+              "4,500",
+              "10,000,000",
+              "5d",
+              "657",
+              "16"
+            ],
+            [
+              "12",
+              "420,000",
+              "4,700",
+              "16,000,000",
+              "7d",
+              "777",
+              "17"
+            ],
+            [
+              "13",
+              "450,000",
+              "4,800",
+              "25,000,000",
+              "13d",
+              "1,059",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Town Hall Level",
+            "% Available to be Stolen",
+            "Cap",
+            "Storage Amount to Reach Cap"
+          ],
+          "rows": [
+            [
+              "7",
+              "6%",
+              "1,200*",
+              "20,000"
+            ],
+            [
+              "8",
+              "6%",
+              "2,400",
+              "40,000"
+            ],
+            [
+              "9",
+              "5%",
+              "4,750",
+              "95,000"
+            ],
+            [
+              "10",
+              "5%",
+              "5,000",
+              "100,000"
+            ],
+            [
+              "11",
+              "5%",
+              "5,500",
+              "110,000"
+            ],
+            [
+              "12",
+              "5%",
+              "6,000",
+              "120,000"
+            ],
+            [
+              "13",
+              "5%",
+              "7,500",
+              "150,000"
+            ],
+            [
+              "14",
+              "5%",
+              "8,750",
+              "175,000"
+            ],
+            [
+              "15",
+              "5%",
+              "9,250",
+              "185,000"
+            ],
+            [
+              "16",
+              "5%",
+              "9,500",
+              "190,000"
+            ],
+            [
+              "17",
+              "5%",
+              "9,750",
+              "195,000"
+            ],
+            [
+              "18",
+              "5%",
+              "10,000",
+              "200,000"
+            ],
+            [
+              "*Figures in asterisks denote storage caps that are determined only by the storage capacity of the storages.",
+              "*Figures in asterisks denote storage caps that are determined only by the storage capacity of the storages.",
+              "*Figures in asterisks denote storage caps that are determined only by the storage capacity of the storages.",
+              "*Figures in asterisks denote storage caps that are determined only by the storage capacity of the storages."
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Dark Elixir Storage1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1a/Dark_Elixir_Storage1.png/revision/latest?cb=20180112123343"
+        },
+        {
+          "file": "File:Dark Elixir Storage10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6c/Dark_Elixir_Storage10.png/revision/latest?cb=20221011063950"
+        },
+        {
+          "file": "File:Dark Elixir Storage11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e2/Dark_Elixir_Storage11.png/revision/latest?cb=20231213085310"
+        },
+        {
+          "file": "File:Dark Elixir Storage12.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/41/Dark_Elixir_Storage12.png/revision/latest?cb=20241124022806"
+        },
+        {
+          "file": "File:Dark Elixir Storage13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6c/Dark_Elixir_Storage13.png/revision/latest?cb=20251125032910"
+        },
+        {
+          "file": "File:Dark Elixir Storage2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cd/Dark_Elixir_Storage2.png/revision/latest?cb=20180112123328"
+        },
+        {
+          "file": "File:Dark Elixir Storage3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c1/Dark_Elixir_Storage3.png/revision/latest?cb=20180112123314"
+        },
+        {
+          "file": "File:Dark Elixir Storage4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b2/Dark_Elixir_Storage4.png/revision/latest?cb=20180112123301"
+        },
+        {
+          "file": "File:Dark Elixir Storage5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Dark_Elixir_Storage5.png/revision/latest?cb=20180112123244"
+        },
+        {
+          "file": "File:Dark Elixir Storage6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4b/Dark_Elixir_Storage6.png/revision/latest?cb=20180112123228"
+        },
+        {
+          "file": "File:Dark Elixir Storage7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/90/Dark_Elixir_Storage7.png/revision/latest?cb=20180604173248"
+        },
+        {
+          "file": "File:Dark Elixir Storage8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1d/Dark_Elixir_Storage8.png/revision/latest?cb=20191211221907"
+        },
+        {
+          "file": "File:Dark Elixir Storage9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Dark_Elixir_Storage9.png/revision/latest?cb=20210413012243"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 7,
+        "2": 7,
+        "3": 8,
+        "4": 8,
+        "5": 9,
+        "6": 9,
+        "7": 12,
+        "8": 13,
+        "9": 14,
+        "10": 15,
+        "11": 16,
+        "12": 17,
+        "13": 18
+      }
+    }
+  ],
+  "unverified": [],
+  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
+}

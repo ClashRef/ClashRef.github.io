@@ -1,0 +1,3245 @@
+{
+  "id": "bbtroops",
+  "label": "Builder Troops",
+  "format": "wiki-review-v1",
+  "updated": "2026-11-03",
+  "units": [
+    {
+      "n": "Raged Barbarian",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/1/12/Avatar_Raged_Barbarian.png/revision/latest?cb=20170525070542",
+      "source": "https://clashofclans.fandom.com/wiki/Raged_Barbarian",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Spring Weight",
+            "Attack Type",
+            "Movement Speed",
+            "Attack Speed",
+            "Builder Barracks Level Required",
+            "Range",
+            "Special Ability",
+            "Rage Speed Increase",
+            "Rage Damage Increase"
+          ],
+          "rows": [
+            [
+              "4",
+              "Single Target (Ground Only)",
+              "19",
+              "0.8s",
+              "1",
+              "0.4 tiles",
+              "Rage",
+              "16",
+              "70%"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "Hitpoints",
+            "Number of Units per Army Camp",
+            "Rage Duration",
+            "Research Cost (Builder Elixir)",
+            "Research Time",
+            "Star Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "45",
+              "36",
+              "500",
+              "3",
+              "N/A",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "45",
+              "36",
+              "500",
+              "3",
+              "6s",
+              "3,500",
+              "30s",
+              "1"
+            ],
+            [
+              "3",
+              "58",
+              "46.4",
+              "550",
+              "3",
+              "6s",
+              "7,000",
+              "5m",
+              "2"
+            ],
+            [
+              "4",
+              "58",
+              "46.4",
+              "550",
+              "3",
+              "8s",
+              "10,000",
+              "15m",
+              "2"
+            ],
+            [
+              "5",
+              "70",
+              "56",
+              "605",
+              "3",
+              "8s",
+              "90,000",
+              "5h",
+              "3"
+            ],
+            [
+              "6",
+              "70",
+              "56",
+              "605",
+              "4",
+              "8s",
+              "180,000",
+              "10h",
+              "3"
+            ],
+            [
+              "7",
+              "83",
+              "66.4",
+              "666",
+              "4",
+              "8s",
+              "300,000",
+              "15h",
+              "4"
+            ],
+            [
+              "8",
+              "83",
+              "66.4",
+              "666",
+              "4",
+              "10s",
+              "330,000",
+              "20h",
+              "4"
+            ],
+            [
+              "9",
+              "93",
+              "74.4",
+              "732",
+              "4",
+              "10s",
+              "700,000",
+              "1d",
+              "5"
+            ],
+            [
+              "10",
+              "93",
+              "74.4",
+              "732",
+              "4",
+              "12s",
+              "900,000",
+              "1d 12h",
+              "5"
+            ],
+            [
+              "11",
+              "103",
+              "82.4",
+              "805",
+              "4",
+              "12s",
+              "1,000,000",
+              "2d",
+              "6"
+            ],
+            [
+              "12",
+              "103",
+              "82.4",
+              "805",
+              "4",
+              "14s",
+              "1,200,000",
+              "2d 12h",
+              "6"
+            ],
+            [
+              "13",
+              "112",
+              "89.6",
+              "886",
+              "4",
+              "14s",
+              "2,000,000",
+              "3d 12h",
+              "7"
+            ],
+            [
+              "14",
+              "112",
+              "89.6",
+              "886",
+              "4",
+              "16s",
+              "2,200,000",
+              "4d 12h",
+              "7"
+            ],
+            [
+              "15",
+              "120",
+              "96",
+              "974",
+              "4",
+              "16s",
+              "3,000,000",
+              "5d 12h",
+              "8"
+            ],
+            [
+              "16",
+              "120",
+              "96",
+              "974",
+              "4",
+              "18s",
+              "3,200,000",
+              "5d 12h",
+              "8"
+            ],
+            [
+              "17",
+              "128",
+              "102.4",
+              "1,072",
+              "4",
+              "18s",
+              "3,800,000",
+              "6d",
+              "9"
+            ],
+            [
+              "18",
+              "128",
+              "102.4",
+              "1,072",
+              "4",
+              "20s",
+              "4,000,000",
+              "6d",
+              "9"
+            ],
+            [
+              "19",
+              "136",
+              "108.8",
+              "1,179",
+              "4",
+              "20s",
+              "4,600,000",
+              "6d 12h",
+              "10"
+            ],
+            [
+              "20",
+              "136",
+              "108.8",
+              "1,179",
+              "4",
+              "22s",
+              "5,200,000",
+              "6d 12h",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Raged Barbarian.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/12/Avatar_Raged_Barbarian.png/revision/latest?cb=20170525070542"
+        },
+        {
+          "file": "File:RagedBarbarian1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/98/RagedBarbarian1.png/revision/latest?cb=20170525181923"
+        },
+        {
+          "file": "File:RagedBarbarian2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0a/RagedBarbarian2.png/revision/latest?cb=20170525181924"
+        },
+        {
+          "file": "File:RagedBarbarian3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/77/RagedBarbarian3.png/revision/latest?cb=20170525181924"
+        },
+        {
+          "file": "File:RagedBarbarian4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d6/RagedBarbarian4.png/revision/latest?cb=20170525181925"
+        },
+        {
+          "file": "File:RagedBarbarian5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/de/RagedBarbarian5.png/revision/latest?cb=20190619215155"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 3,
+        "6": 3,
+        "7": 4,
+        "8": 4,
+        "9": 5,
+        "10": 5,
+        "11": 6,
+        "12": 6,
+        "13": 7,
+        "14": 7,
+        "15": 8,
+        "16": 8,
+        "17": 9,
+        "18": 9,
+        "19": 10,
+        "20": 10
+      }
+    },
+    {
+      "n": "Sneaky Archer",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/8c/Avatar_Sneaky_Archer.png/revision/latest?cb=20170525070543",
+      "source": "https://clashofclans.fandom.com/wiki/Sneaky_Archer",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics / Builder Base",
+          "columns": [
+            "Spring Weight",
+            "Preferred Target",
+            "Attack Type",
+            "Movement Speed",
+            "Attack Speed",
+            "Builder Barracks Level Required",
+            "Range",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "3",
+              "None",
+              "Ranged (Ground & Air)",
+              "29",
+              "1s",
+              "2",
+              "3.5 tiles",
+              "Cloak"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics / Builder Base",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "Hitpoints",
+            "Number of Units per Army Camp",
+            "Cloak Duration",
+            "Research Cost (Builder Elixir)",
+            "Research Time",
+            "Star Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "60",
+              "60",
+              "196",
+              "3",
+              "N/A",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "60",
+              "60",
+              "196",
+              "3",
+              "3s",
+              "5,000",
+              "3m",
+              "1"
+            ],
+            [
+              "3",
+              "66",
+              "66",
+              "216",
+              "3",
+              "3s",
+              "8,000",
+              "10m",
+              "2"
+            ],
+            [
+              "4",
+              "66",
+              "66",
+              "216",
+              "3",
+              "4s",
+              "12,000",
+              "30m",
+              "2"
+            ],
+            [
+              "5",
+              "72",
+              "72",
+              "237",
+              "3",
+              "4s",
+              "100,000",
+              "6h",
+              "3"
+            ],
+            [
+              "6",
+              "72",
+              "72",
+              "237",
+              "3",
+              "5s",
+              "200,000",
+              "11h",
+              "3"
+            ],
+            [
+              "7",
+              "79",
+              "79",
+              "261",
+              "3",
+              "5s",
+              "320,000",
+              "16h",
+              "4"
+            ],
+            [
+              "8",
+              "79",
+              "79",
+              "261",
+              "3",
+              "6s",
+              "350,000",
+              "21h",
+              "4"
+            ],
+            [
+              "9",
+              "86",
+              "86",
+              "287",
+              "3",
+              "6s",
+              "800,000",
+              "1d",
+              "5"
+            ],
+            [
+              "10",
+              "86",
+              "86",
+              "287",
+              "4",
+              "6s",
+              "1,000,000",
+              "1d 12h",
+              "5"
+            ],
+            [
+              "11",
+              "95",
+              "95",
+              "316",
+              "4",
+              "6s",
+              "1,100,000",
+              "2d",
+              "6"
+            ],
+            [
+              "12",
+              "95",
+              "95",
+              "316",
+              "4",
+              "7s",
+              "1,300,000",
+              "2d 12h",
+              "6"
+            ],
+            [
+              "13",
+              "104",
+              "104",
+              "347",
+              "4",
+              "7s",
+              "2,100,000",
+              "3d 12h",
+              "7"
+            ],
+            [
+              "14",
+              "104",
+              "104",
+              "347",
+              "4",
+              "8s",
+              "2,300,000",
+              "4d 12h",
+              "7"
+            ],
+            [
+              "15",
+              "112",
+              "112",
+              "382",
+              "4",
+              "8s",
+              "3,100,000",
+              "5d 12h",
+              "8"
+            ],
+            [
+              "16",
+              "112",
+              "112",
+              "382",
+              "4",
+              "9s",
+              "3,300,000",
+              "5d 12h",
+              "8"
+            ],
+            [
+              "17",
+              "119",
+              "119",
+              "420",
+              "4",
+              "9s",
+              "3,900,000",
+              "6d",
+              "9"
+            ],
+            [
+              "18",
+              "119",
+              "119",
+              "420",
+              "4",
+              "10s",
+              "4,100,000",
+              "6d",
+              "9"
+            ],
+            [
+              "19",
+              "125",
+              "125",
+              "462",
+              "4",
+              "10s",
+              "4,700,000",
+              "6d 12h",
+              "10"
+            ],
+            [
+              "20",
+              "125",
+              "125",
+              "462",
+              "4",
+              "11s",
+              "5,300,000",
+              "6d 12h",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Sneaky Archer.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8c/Avatar_Sneaky_Archer.png/revision/latest?cb=20170525070543"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 3,
+        "6": 3,
+        "7": 4,
+        "8": 4,
+        "9": 5,
+        "10": 5,
+        "11": 6,
+        "12": 6,
+        "13": 7,
+        "14": 7,
+        "15": 8,
+        "16": 8,
+        "17": 9,
+        "18": 9,
+        "19": 10,
+        "20": 10
+      }
+    },
+    {
+      "n": "Boxer Giant",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/80/Avatar_Boxer_Giant.png/revision/latest?cb=20170525070202",
+      "source": "https://clashofclans.fandom.com/wiki/Boxer_Giant",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Spring Weight",
+            "Preferred Target",
+            "Attack Type",
+            "Movement Speed",
+            "Attack Speed",
+            "Builder Barracks Level Required",
+            "Number of Units per Army Camp",
+            "Range"
+          ],
+          "rows": [
+            [
+              "18",
+              "Defenses",
+              "Single Target",
+              "14",
+              "2s",
+              "3",
+              "1",
+              "1 tile"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "Hitpoints",
+            "Boxer Block Duration",
+            "Power Punch Damage",
+            "Research Cost (Builder Elixir)",
+            "Research Time",
+            "Star Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "3",
+              "65",
+              "130",
+              "2,530",
+              "N/A",
+              "550",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "4",
+              "65",
+              "130",
+              "2,530",
+              "5s",
+              "550",
+              "60,000",
+              "5h",
+              "3"
+            ],
+            [
+              "5",
+              "70",
+              "140",
+              "2,783",
+              "5s",
+              "550",
+              "120,000",
+              "10h",
+              "3"
+            ],
+            [
+              "6",
+              "70",
+              "140",
+              "2,783",
+              "5s",
+              "700",
+              "240,000",
+              "16h",
+              "3"
+            ],
+            [
+              "7",
+              "76",
+              "152",
+              "3,061",
+              "5s",
+              "700",
+              "350,000",
+              "20h",
+              "4"
+            ],
+            [
+              "8",
+              "76",
+              "152",
+              "3,061",
+              "6s",
+              "700",
+              "380,000",
+              "1d",
+              "4"
+            ],
+            [
+              "9",
+              "83",
+              "166",
+              "3,367",
+              "6s",
+              "700",
+              "1,000,000",
+              "1d 12h",
+              "5"
+            ],
+            [
+              "10",
+              "83",
+              "166",
+              "3,367",
+              "6s",
+              "950",
+              "1,200,000",
+              "2d",
+              "5"
+            ],
+            [
+              "11",
+              "91",
+              "182",
+              "3,704",
+              "6s",
+              "950",
+              "1,300,000",
+              "2d",
+              "6"
+            ],
+            [
+              "12",
+              "91",
+              "182",
+              "3,704",
+              "7s",
+              "950",
+              "1,500,000",
+              "2d 12h",
+              "6"
+            ],
+            [
+              "13",
+              "100",
+              "200",
+              "4,075",
+              "7s",
+              "950",
+              "2,300,000",
+              "3d 12h",
+              "7"
+            ],
+            [
+              "14",
+              "100",
+              "200",
+              "4,075",
+              "7s",
+              "1,150",
+              "2,500,000",
+              "4d 12h",
+              "7"
+            ],
+            [
+              "15",
+              "109",
+              "218",
+              "4,482",
+              "7s",
+              "1,150",
+              "3,300,000",
+              "5d 12h",
+              "8"
+            ],
+            [
+              "16",
+              "109",
+              "218",
+              "4,482",
+              "7.5s",
+              "1,150",
+              "3,500,000",
+              "5d 12h",
+              "8"
+            ],
+            [
+              "17",
+              "119",
+              "238",
+              "4,930",
+              "7.5s",
+              "1,150",
+              "4,000,000",
+              "6d",
+              "9"
+            ],
+            [
+              "18",
+              "119",
+              "238",
+              "4,930",
+              "7.5s",
+              "1,400",
+              "4,200,000",
+              "6d",
+              "9"
+            ],
+            [
+              "19",
+              "129",
+              "258",
+              "5,423",
+              "7.5s",
+              "1,400",
+              "4,800,000",
+              "6d 12h",
+              "10"
+            ],
+            [
+              "20",
+              "129",
+              "258",
+              "5,423",
+              "8s",
+              "1,400",
+              "5,400,000",
+              "6d 12h",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Boxer Giant.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/80/Avatar_Boxer_Giant.png/revision/latest?cb=20170525070202"
+        },
+        {
+          "file": "File:Boxer Giant1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bc/Boxer_Giant1.png/revision/latest?cb=20170827123940"
+        },
+        {
+          "file": "File:Boxer Giant13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3f/Boxer_Giant13.png/revision/latest?cb=20170827124045"
+        },
+        {
+          "file": "File:Boxer Giant17.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6a/Boxer_Giant17.png/revision/latest?cb=20190619215154"
+        },
+        {
+          "file": "File:Boxer Giant5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/df/Boxer_Giant5.png/revision/latest?cb=20170827124001"
+        },
+        {
+          "file": "File:Boxer Giant9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e7/Boxer_Giant9.png/revision/latest?cb=20170827124025"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "3": 3,
+        "4": 3,
+        "5": 3,
+        "6": 3,
+        "7": 4,
+        "8": 4,
+        "9": 5,
+        "10": 5,
+        "11": 6,
+        "12": 6,
+        "13": 7,
+        "14": 7,
+        "15": 8,
+        "16": 8,
+        "17": 9,
+        "18": 9,
+        "19": 10,
+        "20": 10
+      }
+    },
+    {
+      "n": "Beta Minion",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/d/d2/Avatar_Beta_Minion.png/revision/latest?cb=20200913200500",
+      "source": "https://clashofclans.fandom.com/wiki/Beta_Minion",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Attack Type",
+            "Movement Speed",
+            "Attack Speed",
+            "Builder Barracks Level Required",
+            "Range",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "Single Target",
+              "38",
+              "1s",
+              "4",
+              "4 tiles",
+              "Power Shot"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "Hitpoints",
+            "Units per Army Camp",
+            "Power Shot Ability / # of Attacks",
+            "Power Shot Ability / Damage per Hit",
+            "Research Cost (Builder Elixir) / Research Cost",
+            "Research Time",
+            "Star Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "3",
+              "60",
+              "60",
+              "200",
+              "3",
+              "4",
+              "60",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "4",
+              "60",
+              "60",
+              "200",
+              "3",
+              "4",
+              "75",
+              "50,000",
+              "4h",
+              "3"
+            ],
+            [
+              "5",
+              "65",
+              "65",
+              "220",
+              "3",
+              "4",
+              "75",
+              "110,000",
+              "8h",
+              "3"
+            ],
+            [
+              "6",
+              "65",
+              "65",
+              "220",
+              "3",
+              "5",
+              "75",
+              "220,000",
+              "12h",
+              "3"
+            ],
+            [
+              "7",
+              "72",
+              "72",
+              "242",
+              "3",
+              "5",
+              "75",
+              "330,000",
+              "18h",
+              "4"
+            ],
+            [
+              "8",
+              "72",
+              "72",
+              "242",
+              "3",
+              "5",
+              "90",
+              "360,000",
+              "1d",
+              "4"
+            ],
+            [
+              "9",
+              "81",
+              "81",
+              "266",
+              "3",
+              "5",
+              "90",
+              "900,000",
+              "1d 12h",
+              "5"
+            ],
+            [
+              "10",
+              "81",
+              "81",
+              "266",
+              "4",
+              "5",
+              "90",
+              "1,100,000",
+              "2d",
+              "5"
+            ],
+            [
+              "11",
+              "90",
+              "90",
+              "293",
+              "4",
+              "5",
+              "90",
+              "1,300,000",
+              "2d",
+              "6"
+            ],
+            [
+              "12",
+              "90",
+              "90",
+              "293",
+              "4",
+              "5",
+              "110",
+              "1,500,000",
+              "2d 12h",
+              "6"
+            ],
+            [
+              "13",
+              "99",
+              "99",
+              "322",
+              "4",
+              "5",
+              "110",
+              "2,300,000",
+              "3d 12h",
+              "7"
+            ],
+            [
+              "14",
+              "99",
+              "99",
+              "322",
+              "4",
+              "6",
+              "110",
+              "2,500,000",
+              "4d 12h",
+              "7"
+            ],
+            [
+              "15",
+              "108",
+              "108",
+              "355",
+              "4",
+              "6",
+              "110",
+              "3,300,000",
+              "5d 12h",
+              "8"
+            ],
+            [
+              "16",
+              "108",
+              "108",
+              "355",
+              "4",
+              "6",
+              "130",
+              "3,500,000",
+              "5d 12h",
+              "8"
+            ],
+            [
+              "17",
+              "117",
+              "117",
+              "390",
+              "4",
+              "6",
+              "130",
+              "4,000,000",
+              "6d",
+              "9"
+            ],
+            [
+              "18",
+              "117",
+              "117",
+              "390",
+              "4",
+              "7",
+              "130",
+              "4,200,000",
+              "6d",
+              "9"
+            ],
+            [
+              "19",
+              "126",
+              "126",
+              "429",
+              "4",
+              "7",
+              "130",
+              "4,800,000",
+              "6d 12h",
+              "10"
+            ],
+            [
+              "20",
+              "126",
+              "126",
+              "429",
+              "4",
+              "7",
+              "150",
+              "5,400,000",
+              "6d 12h",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Beta Minion.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d2/Avatar_Beta_Minion.png/revision/latest?cb=20200913200500"
+        },
+        {
+          "file": "File:Beta Minion1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e5/Beta_Minion1.png/revision/latest?cb=20170526101501"
+        },
+        {
+          "file": "File:Beta Minion13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4b/Beta_Minion13.png/revision/latest?cb=20170526101503"
+        },
+        {
+          "file": "File:Beta Minion17.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9f/Beta_Minion17.png/revision/latest?cb=20190619215153"
+        },
+        {
+          "file": "File:Beta Minion3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ea/Beta_Minion3.png/revision/latest?cb=20170526101502"
+        },
+        {
+          "file": "File:Beta Minion5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/33/Beta_Minion5.png/revision/latest?cb=20170526101502"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "3": 3,
+        "4": 3,
+        "5": 3,
+        "6": 3,
+        "7": 4,
+        "8": 4,
+        "9": 5,
+        "10": 5,
+        "11": 6,
+        "12": 6,
+        "13": 7,
+        "14": 7,
+        "15": 8,
+        "16": 8,
+        "17": 9,
+        "18": 9,
+        "19": 10,
+        "20": 10
+      }
+    },
+    {
+      "n": "Bomber",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/f/fc/Avatar_Bomber.png/revision/latest?cb=20170525070201",
+      "source": "https://clashofclans.fandom.com/wiki/Bomber",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Spring Weight",
+            "Preferred Target",
+            "Attack Type",
+            "Movement Speed",
+            "Attack Speed",
+            "Units per Army Camp",
+            "Builder Barracks Level Required",
+            "Range",
+            "Exploding Range",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "12",
+              "Walls (Damage x15)",
+              "Area Splash (Ground only)",
+              "19",
+              "2s",
+              "1",
+              "5",
+              "3.5 tiles",
+              "1.6 tiles",
+              "Bouncing Bomb/Big Bomb"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "Damage vs. Walls",
+            "Hitpoints",
+            "Bouncing Bomb Damage / Normal",
+            "Bouncing Bomb Damage / vs. Walls",
+            "Research Cost (Builder Elixir) / Research Cost",
+            "Research Time",
+            "Star Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "5",
+              "80",
+              "160",
+              "2,400",
+              "605",
+              "80",
+              "1,200",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "6",
+              "80",
+              "160",
+              "2,400",
+              "605",
+              "100",
+              "1,500",
+              "320,000",
+              "16h",
+              "4"
+            ],
+            [
+              "7",
+              "90",
+              "180",
+              "2,700",
+              "666",
+              "100",
+              "1,500",
+              "340,000",
+              "20h",
+              "4"
+            ],
+            [
+              "8",
+              "90",
+              "180",
+              "2,700",
+              "666",
+              "120",
+              "1,800",
+              "360,000",
+              "1d",
+              "4"
+            ],
+            [
+              "9",
+              "100",
+              "200",
+              "3,000",
+              "732",
+              "120",
+              "1,800",
+              "900,000",
+              "1d 12h",
+              "5"
+            ],
+            [
+              "10",
+              "100",
+              "200",
+              "3,000",
+              "732",
+              "140",
+              "2,100",
+              "1,000,000",
+              "2d",
+              "5"
+            ],
+            [
+              "11",
+              "110",
+              "220",
+              "3,300",
+              "805",
+              "140",
+              "2,100",
+              "1,200,000",
+              "2d",
+              "6"
+            ],
+            [
+              "12",
+              "110",
+              "220",
+              "3,300",
+              "805",
+              "160",
+              "2,400",
+              "1,400,000",
+              "2d 12h",
+              "6"
+            ],
+            [
+              "13",
+              "120",
+              "240",
+              "3,600",
+              "886",
+              "160",
+              "2,400",
+              "2,200,000",
+              "3d 12h",
+              "7"
+            ],
+            [
+              "14",
+              "120",
+              "240",
+              "3,600",
+              "886",
+              "180",
+              "2,700",
+              "2,400,000",
+              "4d 12h",
+              "7"
+            ],
+            [
+              "15",
+              "130",
+              "260",
+              "3,900",
+              "974",
+              "180",
+              "2,700",
+              "3,200,000",
+              "5d 12h",
+              "8"
+            ],
+            [
+              "16",
+              "130",
+              "260",
+              "3,900",
+              "974",
+              "200",
+              "3,000",
+              "3,400,000",
+              "5d 12h",
+              "8"
+            ],
+            [
+              "17",
+              "140",
+              "280",
+              "4,200",
+              "1,072",
+              "200",
+              "3,000",
+              "3,900,000",
+              "6d",
+              "9"
+            ],
+            [
+              "18",
+              "140",
+              "280",
+              "4,200",
+              "1,072",
+              "220",
+              "3,300",
+              "4,100,000",
+              "6d",
+              "9"
+            ],
+            [
+              "19",
+              "150",
+              "300",
+              "4,500",
+              "1,179",
+              "220",
+              "3,300",
+              "4,700,000",
+              "6d 12h",
+              "10"
+            ],
+            [
+              "20",
+              "150",
+              "300",
+              "4,500",
+              "1,179",
+              "240",
+              "3,600",
+              "5,300,000",
+              "6d 12h",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Bomber.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fc/Avatar_Bomber.png/revision/latest?cb=20170525070201"
+        },
+        {
+          "file": "File:Bomber10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/24/Bomber10.png/revision/latest?cb=20230517205945"
+        },
+        {
+          "file": "File:Bomber12.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/54/Bomber12.png/revision/latest?cb=20230517205946"
+        },
+        {
+          "file": "File:Bomber14.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Bomber14.png/revision/latest?cb=20230517205947"
+        },
+        {
+          "file": "File:Bomber18.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/48/Bomber18.png/revision/latest?cb=20230517205948"
+        },
+        {
+          "file": "File:Bomber20.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/76/Bomber20.png/revision/latest?cb=20230517205747"
+        },
+        {
+          "file": "File:Bomber5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/98/Bomber5.png/revision/latest?cb=20230517210002"
+        },
+        {
+          "file": "File:Bomber8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c7/Bomber8.png/revision/latest?cb=20230517205944"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "5": 4,
+        "6": 4,
+        "7": 4,
+        "8": 4,
+        "9": 5,
+        "10": 5,
+        "11": 6,
+        "12": 6,
+        "13": 7,
+        "14": 7,
+        "15": 8,
+        "16": 8,
+        "17": 9,
+        "18": 9,
+        "19": 10,
+        "20": 10
+      }
+    },
+    {
+      "n": "Baby Dragon/Builder Base",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/7/7a/Avatar_Baby_Dragon.png/revision/latest?cb=20200913014509",
+      "source": "https://clashofclans.fandom.com/wiki/Baby_Dragon/Builder_Base",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Attack Type",
+            "Movement Speed",
+            "Attack Speed",
+            "Number of Units per Army Camp",
+            "Builder Barracks Level Required",
+            "Range"
+          ],
+          "rows": [
+            [
+              "Area Splash",
+              "24",
+              "1s",
+              "1",
+              "6",
+              "2.5 tiles"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "Hitpoints",
+            "Tantrum Damage Bonus",
+            "Fiery Sneeze Damage",
+            "Research Cost (Builder Elixir)",
+            "Research Time",
+            "Star Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "5",
+              "62",
+              "62",
+              "1,331",
+              "+60%",
+              "80-100",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "6",
+              "62",
+              "62",
+              "1,331",
+              "+70%",
+              "80-100",
+              "360,000",
+              "16h",
+              "4"
+            ],
+            [
+              "7",
+              "68",
+              "68",
+              "1,464",
+              "+70%",
+              "80-100",
+              "380,000",
+              "20h",
+              "4"
+            ],
+            [
+              "8",
+              "68",
+              "68",
+              "1,464",
+              "+70%",
+              "128-160",
+              "400,000",
+              "1d",
+              "4"
+            ],
+            [
+              "9",
+              "75",
+              "75",
+              "1,611",
+              "+70%",
+              "128-160",
+              "1,000,000",
+              "1d 12h",
+              "5"
+            ],
+            [
+              "10",
+              "75",
+              "75",
+              "1,611",
+              "+80%",
+              "128-160",
+              "1,200,000",
+              "2d",
+              "5"
+            ],
+            [
+              "11",
+              "83",
+              "83",
+              "1,772",
+              "+80%",
+              "128-160",
+              "1,400,000",
+              "2d",
+              "6"
+            ],
+            [
+              "12",
+              "83",
+              "83",
+              "1,772",
+              "+80%",
+              "220-275",
+              "1,600,000",
+              "2d 12h",
+              "6"
+            ],
+            [
+              "13",
+              "91",
+              "91",
+              "1,949",
+              "+80%",
+              "220-275",
+              "2,400,000",
+              "3d 12h",
+              "7"
+            ],
+            [
+              "14",
+              "91",
+              "91",
+              "1,949",
+              "+90%",
+              "220-275",
+              "2,600,000",
+              "4d 12h",
+              "7"
+            ],
+            [
+              "15",
+              "100",
+              "100",
+              "2,144",
+              "+90%",
+              "220-275",
+              "3,400,000",
+              "5d 12h",
+              "8"
+            ],
+            [
+              "16",
+              "100",
+              "100",
+              "2,144",
+              "+90%",
+              "320-400",
+              "3,600,000",
+              "5d 12h",
+              "8"
+            ],
+            [
+              "17",
+              "110",
+              "110",
+              "2,358",
+              "+90%",
+              "320-400",
+              "4,100,000",
+              "6d",
+              "9"
+            ],
+            [
+              "18",
+              "110",
+              "110",
+              "2,358",
+              "+100%",
+              "320-400",
+              "4,300,000",
+              "6d",
+              "9"
+            ],
+            [
+              "19",
+              "120",
+              "120",
+              "2,358",
+              "+100%",
+              "320-400",
+              "5,100,000",
+              "6d 12h",
+              "10"
+            ],
+            [
+              "20",
+              "120",
+              "120",
+              "2,358",
+              "+100%",
+              "440-550",
+              "5,500,000",
+              "6d 12h",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Baby Dragon.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7a/Avatar_Baby_Dragon.png/revision/latest?cb=20200913014509"
+        },
+        {
+          "file": "File:Baby Dragon1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/be/Baby_Dragon1.png/revision/latest?cb=20180309005942"
+        },
+        {
+          "file": "File:Baby Dragon2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b7/Baby_Dragon2.png/revision/latest?cb=20180309005958"
+        },
+        {
+          "file": "File:Baby Dragon4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e6/Baby_Dragon4.png/revision/latest?cb=20180309010030"
+        },
+        {
+          "file": "File:Baby Dragon5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/35/Baby_Dragon5.png/revision/latest?cb=20190619215152"
+        },
+        {
+          "file": "File:Baby Dragon8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5e/Baby_Dragon8.png/revision/latest?cb=20210413034459"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "5": 4,
+        "6": 4,
+        "7": 4,
+        "8": 4,
+        "9": 5,
+        "10": 5,
+        "11": 6,
+        "12": 6,
+        "13": 7,
+        "14": 7,
+        "15": 8,
+        "16": 8,
+        "17": 9,
+        "18": 9,
+        "19": 10,
+        "20": 10
+      }
+    },
+    {
+      "n": "Cannon Cart",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/2/21/Avatar_Cannon_Cart.png/revision/latest?cb=20230519102022",
+      "source": "https://clashofclans.fandom.com/wiki/Cannon_Cart",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Spring Weight",
+            "Preferred Target",
+            "Attack Type",
+            "Movement Speed",
+            "Attack Speed",
+            "Builder Barracks Level Required",
+            "Range",
+            "Number of Units per Army Camp",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "16",
+              "None",
+              "Ranged (Ground Only)",
+              "19",
+              "1.2s",
+              "7",
+              "4.5 tiles",
+              "1",
+              "Change Mode"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "Hitpoints",
+            "Research Cost (Builder Elixir)",
+            "Research Time",
+            "Star Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "7",
+              "115",
+              "138",
+              "666",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "8",
+              "115",
+              "138",
+              "666",
+              "1,000,000",
+              "1d",
+              "5"
+            ],
+            [
+              "9",
+              "130",
+              "156",
+              "732",
+              "1,100,000",
+              "1d 12h",
+              "5"
+            ],
+            [
+              "10",
+              "130",
+              "156",
+              "732",
+              "1,200,000",
+              "2d",
+              "5"
+            ],
+            [
+              "11",
+              "150",
+              "180",
+              "805",
+              "1,400,000",
+              "2d",
+              "6"
+            ],
+            [
+              "12",
+              "150",
+              "180",
+              "805",
+              "1,600,000",
+              "2d 12h",
+              "6"
+            ],
+            [
+              "13",
+              "170",
+              "204",
+              "886",
+              "2,400,000",
+              "3d 12h",
+              "7"
+            ],
+            [
+              "14",
+              "170",
+              "204",
+              "886",
+              "2,600,000",
+              "4d 12h",
+              "7"
+            ],
+            [
+              "15",
+              "190",
+              "228",
+              "974",
+              "3,400,000",
+              "5d 12h",
+              "8"
+            ],
+            [
+              "16",
+              "190",
+              "228",
+              "974",
+              "3,600,000",
+              "5d 12h",
+              "8"
+            ],
+            [
+              "17",
+              "215",
+              "258",
+              "1,072",
+              "4,100,000",
+              "6d",
+              "9"
+            ],
+            [
+              "18",
+              "215",
+              "258",
+              "1,072",
+              "4,300,000",
+              "6d",
+              "9"
+            ],
+            [
+              "19",
+              "240",
+              "288",
+              "1,179",
+              "5,300,000",
+              "6d 12h",
+              "10"
+            ],
+            [
+              "20",
+              "240",
+              "288",
+              "1,179",
+              "5,700,000",
+              "6d 12h",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Spring Weight",
+            "Preferred Target",
+            "Attack Type",
+            "Movement Speed",
+            "Attack Speed",
+            "Builder Barracks Level Required",
+            "Range",
+            "Number of Units per Army Camp",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "16",
+              "None",
+              "Ranged (Ground Only) Splash - ? tiles",
+              "0",
+              "2.5s",
+              "7",
+              "8.5 tiles",
+              "1",
+              "Change Mode"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "Hitpoints",
+            "Research Cost (Builder Elixir)",
+            "Research Time",
+            "Star Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "7",
+              "60",
+              "150",
+              "666",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "8",
+              "68",
+              "170",
+              "666",
+              "1,000,000",
+              "1d",
+              "5"
+            ],
+            [
+              "9",
+              "68",
+              "170",
+              "732",
+              "1,100,000",
+              "1d 12h",
+              "5"
+            ],
+            [
+              "10",
+              "78",
+              "195",
+              "732",
+              "1,200,000",
+              "2d",
+              "5"
+            ],
+            [
+              "11",
+              "78",
+              "195",
+              "805",
+              "1,400,000",
+              "2d",
+              "6"
+            ],
+            [
+              "12",
+              "90",
+              "225",
+              "805",
+              "1,600,000",
+              "2d 12h",
+              "6"
+            ],
+            [
+              "13",
+              "90",
+              "225",
+              "886",
+              "2,400,000",
+              "3d 12h",
+              "7"
+            ],
+            [
+              "14",
+              "102",
+              "255",
+              "886",
+              "2,600,000",
+              "4d 12h",
+              "7"
+            ],
+            [
+              "15",
+              "102",
+              "255",
+              "974",
+              "3,400,000",
+              "5d 12h",
+              "8"
+            ],
+            [
+              "16",
+              "114",
+              "285",
+              "974",
+              "3,600,000",
+              "5d 12h",
+              "8"
+            ],
+            [
+              "17",
+              "114",
+              "285",
+              "1,072",
+              "4,100,000",
+              "6d",
+              "9"
+            ],
+            [
+              "18",
+              "130",
+              "325",
+              "1,072",
+              "4,300,000",
+              "6d",
+              "9"
+            ],
+            [
+              "19",
+              "130",
+              "325",
+              "1,179",
+              "5,300,000",
+              "6d 12h",
+              "10"
+            ],
+            [
+              "20",
+              "144",
+              "360",
+              "1,179",
+              "5,700,000",
+              "6d 12h",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Cannon Cart.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/21/Avatar_Cannon_Cart.png/revision/latest?cb=20230519102022"
+        },
+        {
+          "file": "File:Cannon Cart12.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/69/Cannon_Cart12.png/revision/latest?cb=20230518095657"
+        },
+        {
+          "file": "File:Cannon Cart16.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/61/Cannon_Cart16.png/revision/latest?cb=20230518095657"
+        },
+        {
+          "file": "File:Cannon Cart18.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/29/Cannon_Cart18.png/revision/latest?cb=20230518095658"
+        },
+        {
+          "file": "File:Cannon Cart7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/78/Cannon_Cart7.png/revision/latest?cb=20230518095656"
+        },
+        {
+          "file": "File:Mortar Cart12.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/75/Mortar_Cart12.png/revision/latest?cb=20230518095700"
+        },
+        {
+          "file": "File:Mortar Cart16.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0f/Mortar_Cart16.png/revision/latest?cb=20230518095701"
+        },
+        {
+          "file": "File:Mortar Cart18.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4e/Mortar_Cart18.png/revision/latest?cb=20230518095702"
+        },
+        {
+          "file": "File:Mortar Cart7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7a/Mortar_Cart7.png/revision/latest?cb=20230518095659"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "7": 5,
+        "8": 5,
+        "9": 5,
+        "10": 5,
+        "11": 6,
+        "12": 6,
+        "13": 7,
+        "14": 7,
+        "15": 8,
+        "16": 8,
+        "17": 9,
+        "18": 9,
+        "19": 10,
+        "20": 10
+      }
+    },
+    {
+      "n": "Night Witch",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/f/f8/Avatar_Night_Witch.png/revision/latest?cb=20170525070541",
+      "source": "https://clashofclans.fandom.com/wiki/Night_Witch",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Spring Weight",
+            "Number of Units per Army Camp",
+            "Preferred Target",
+            "Attack Type",
+            "Movement Speed",
+            "Attack Speed",
+            "Builder Barracks Level Required",
+            "Range",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "14",
+              "1",
+              "Any",
+              "Area Splash",
+              "12",
+              "0.7s",
+              "8",
+              "4 tiles",
+              "Bat Swarm"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "Hitpoints",
+            "Bats Summon Cooldown",
+            "Bats Summoned",
+            "Number of Bat Swarm",
+            "Research Cost (Builder Elixir)",
+            "Research Time",
+            "Star Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "9",
+              "176",
+              "123.2",
+              "750",
+              "6.0s",
+              "3 (Max 4)",
+              "7",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "10",
+              "176",
+              "123.2",
+              "750",
+              "4.8s",
+              "3 (Max 4)",
+              "7",
+              "1,400,000",
+              "2d",
+              "6"
+            ],
+            [
+              "11",
+              "193",
+              "135.1",
+              "830",
+              "4.8s",
+              "3 (Max 4)",
+              "7",
+              "1,600,000",
+              "2d",
+              "6"
+            ],
+            [
+              "12",
+              "193",
+              "135.1",
+              "830",
+              "4.8s",
+              "3 (Max 4)",
+              "8",
+              "1,800,000",
+              "2d 12h",
+              "6"
+            ],
+            [
+              "13",
+              "216",
+              "151.2",
+              "915",
+              "4.8s",
+              "3 (Max 4)",
+              "8",
+              "2,500,000",
+              "3d 12h",
+              "7"
+            ],
+            [
+              "14",
+              "216",
+              "151.2",
+              "915",
+              "4.8s",
+              "4 (Max 5)",
+              "8",
+              "2,700,000",
+              "4d 12h",
+              "7"
+            ],
+            [
+              "15",
+              "234",
+              "163.8",
+              "1,000",
+              "4.8s",
+              "4 (Max 5)",
+              "8",
+              "3,500,000",
+              "5d 12h",
+              "8"
+            ],
+            [
+              "16",
+              "234",
+              "163.8",
+              "1,000",
+              "4.8s",
+              "4 (Max 5)",
+              "9",
+              "3,700,000",
+              "5d 12h",
+              "8"
+            ],
+            [
+              "17",
+              "257",
+              "179.9",
+              "1,100",
+              "4.8s",
+              "4 (Max 5)",
+              "9",
+              "4,200,000",
+              "6d",
+              "9"
+            ],
+            [
+              "18",
+              "257",
+              "179.9",
+              "1,100",
+              "4.8s",
+              "4 (Max 5)",
+              "10",
+              "4,400,000",
+              "6d",
+              "9"
+            ],
+            [
+              "19",
+              "278",
+              "194.6",
+              "1,220",
+              "4.8s",
+              "4 (Max 5)",
+              "10",
+              "5,200,000",
+              "6d 12h",
+              "10"
+            ],
+            [
+              "20",
+              "278",
+              "194.6",
+              "1,220",
+              "4.8s",
+              "4 (Max 5)",
+              "11",
+              "5,600,000",
+              "6d 12h",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Night Witch.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f8/Avatar_Night_Witch.png/revision/latest?cb=20170525070541"
+        },
+        {
+          "file": "File:Night Witch11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/26/Night_Witch11.png/revision/latest?cb=20230518102012"
+        },
+        {
+          "file": "File:Night Witch13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/80/Night_Witch13.png/revision/latest?cb=20230518102023"
+        },
+        {
+          "file": "File:Night Witch15.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0d/Night_Witch15.png/revision/latest?cb=20230518102031"
+        },
+        {
+          "file": "File:Night Witch17.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7d/Night_Witch17.png/revision/latest?cb=20230518102040"
+        },
+        {
+          "file": "File:Night Witch19.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/32/Night_Witch19.png/revision/latest?cb=20230518102048"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "9": 6,
+        "10": 6,
+        "11": 6,
+        "12": 6,
+        "13": 7,
+        "14": 7,
+        "15": 8,
+        "16": 8,
+        "17": 9,
+        "18": 9,
+        "19": 10,
+        "20": 10
+      }
+    },
+    {
+      "n": "Drop Ship",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/8b/Avatar_Drop_Ship.png/revision/latest?cb=20170525070401",
+      "source": "https://clashofclans.fandom.com/wiki/Drop_Ship",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Number of Units per Army Camp",
+            "Preferred Target",
+            "Attack Type",
+            "Movement Speed",
+            "Builder Barracks Level Required",
+            "Range",
+            "Skeletons Summoned",
+            "Skeletons Summon Cooldown",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "1",
+              "Defenses",
+              "Area Splash (Ground Only)",
+              "12",
+              "9",
+              "0.5 tiles",
+              "3 (max 9)",
+              "3.5s",
+              "Skeleton Bomb"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "Damage when Destroyed",
+            "Skeleton Bomb Damage",
+            "Skeleton Bomb Spawned Skeletons",
+            "Research Cost (Builder Elixir)",
+            "Research Time",
+            "Star Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "11",
+              "3,400",
+              "300",
+              "600",
+              "5",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "12",
+              "3,400",
+              "300",
+              "700",
+              "6",
+              "2,400,000",
+              "2d 12h",
+              "7"
+            ],
+            [
+              "13",
+              "3,740",
+              "300",
+              "700",
+              "6",
+              "2,600,000",
+              "3d 12h",
+              "7"
+            ],
+            [
+              "14",
+              "3,740",
+              "400",
+              "700",
+              "6",
+              "2,800,000",
+              "4d 12h",
+              "7"
+            ],
+            [
+              "15",
+              "4,114",
+              "400",
+              "700",
+              "6",
+              "3,600,000",
+              "5d 12h",
+              "8"
+            ],
+            [
+              "16",
+              "4,114",
+              "400",
+              "800",
+              "7",
+              "3,800,000",
+              "5d 12h",
+              "8"
+            ],
+            [
+              "17",
+              "4,525",
+              "400",
+              "800",
+              "7",
+              "4,300,000",
+              "6d",
+              "9"
+            ],
+            [
+              "18",
+              "4,525",
+              "500",
+              "800",
+              "7",
+              "4,500,000",
+              "6d",
+              "9"
+            ],
+            [
+              "19",
+              "4,978",
+              "500",
+              "800",
+              "7",
+              "5,500,000",
+              "6d 12h",
+              "10"
+            ],
+            [
+              "20",
+              "4,978",
+              "500",
+              "900",
+              "8",
+              "5,700,000",
+              "6d 12h",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Drop Ship.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8b/Avatar_Drop_Ship.png/revision/latest?cb=20170525070401"
+        },
+        {
+          "file": "File:Drop Ship1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3d/Drop_Ship1.png/revision/latest?cb=20170702091809"
+        },
+        {
+          "file": "File:Drop Ship13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a2/Drop_Ship13.png/revision/latest?cb=20170702091913"
+        },
+        {
+          "file": "File:Drop Ship17.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/91/Drop_Ship17.png/revision/latest?cb=20190619215150"
+        },
+        {
+          "file": "File:Drop Ship5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c8/Drop_Ship5.png/revision/latest?cb=20170702091824"
+        },
+        {
+          "file": "File:Drop Ship9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/33/Drop_Ship9.png/revision/latest?cb=20170702091841"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "11": 7,
+        "12": 7,
+        "13": 7,
+        "14": 7,
+        "15": 8,
+        "16": 8,
+        "17": 9,
+        "18": 9,
+        "19": 10,
+        "20": 10
+      }
+    },
+    {
+      "n": "Power P.E.K.K.A",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/3/3b/Avatar_Power_P.E.K.K.A.png/revision/latest?cb=20200913200749",
+      "source": "https://clashofclans.fandom.com/wiki/Power_P.E.K.K.A",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics / Builder Base",
+          "columns": [
+            "Spring Weight",
+            "Attack Type",
+            "Movement Speed",
+            "Attack Speed",
+            "Number of Units per Army Camp",
+            "Builder Barracks Level Required",
+            "Range",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "22",
+              "Single Target",
+              "16",
+              "1.8s",
+              "1",
+              "10",
+              "0.8 tiles",
+              "Overcharge"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics / Builder Base",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "Hitpoints",
+            "Overcharge Damage",
+            "Research Cost (Builder Elixir)",
+            "Research Time",
+            "Star Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "13",
+              "420",
+              "756",
+              "3,900",
+              "920",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "14",
+              "420",
+              "756",
+              "3,900",
+              "1,060",
+              "3,600,000",
+              "4d 12h",
+              "8"
+            ],
+            [
+              "15",
+              "460",
+              "828",
+              "4,290",
+              "1,060",
+              "3,800,000",
+              "5d 12h",
+              "8"
+            ],
+            [
+              "16",
+              "460",
+              "828",
+              "4,290",
+              "1,200",
+              "4,000,000",
+              "5d 12h",
+              "8"
+            ],
+            [
+              "17",
+              "500",
+              "900",
+              "4,719",
+              "1,200",
+              "4,600,000",
+              "6d",
+              "9"
+            ],
+            [
+              "18",
+              "500",
+              "900",
+              "4,719",
+              "1,350",
+              "4,800,000",
+              "6d",
+              "9"
+            ],
+            [
+              "19",
+              "560",
+              "1,008",
+              "5,191",
+              "1,350",
+              "5,600,000",
+              "6d 12h",
+              "10"
+            ],
+            [
+              "20",
+              "560",
+              "1,008",
+              "5,191",
+              "1,500",
+              "5,800,000",
+              "6d 12h",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Power P.E.K.K.A.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3b/Avatar_Power_P.E.K.K.A.png/revision/latest?cb=20200913200749"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "13": 8,
+        "14": 8,
+        "15": 8,
+        "16": 8,
+        "17": 9,
+        "18": 9,
+        "19": 10,
+        "20": 10
+      }
+    },
+    {
+      "n": "Hog Glider",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/9/99/Avatar_Hog_Glider.png/revision/latest?cb=20200913075411",
+      "source": "https://clashofclans.fandom.com/wiki/Hog_Glider",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Number of Units per Army Camp",
+            "Preferred Target",
+            "Attack Type",
+            "Movement Speed",
+            "Range",
+            "Builder Barracks Level Required",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "2",
+              "Defenses",
+              "Melee (Ground Only)",
+              "24",
+              "0.25 tiles",
+              "11",
+              "Stunning Glide"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage",
+            "Hitpoints",
+            "Stun Duration",
+            "Research Cost (Builder Elixir)",
+            "Research Time",
+            "Star Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "15",
+              "180",
+              "600",
+              "5.0s",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "16",
+              "220",
+              "650",
+              "5.0s",
+              "4,000,000",
+              "5d 12h",
+              "9"
+            ],
+            [
+              "17",
+              "220",
+              "650",
+              "5.0s",
+              "4,200,000",
+              "6d",
+              "9"
+            ],
+            [
+              "18",
+              "220",
+              "650",
+              "6.0s",
+              "4,400,000",
+              "6d",
+              "9"
+            ],
+            [
+              "19",
+              "220",
+              "650",
+              "6.0s",
+              "5,400,000",
+              "6d 12h",
+              "10"
+            ],
+            [
+              "20",
+              "260",
+              "700",
+              "6.0s",
+              "5,800,000",
+              "6d 12h",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Hog Rider",
+          "columns": [
+            "Spring Weight",
+            "Preferred Target",
+            "Attack Type",
+            "Movement Speed",
+            "Attack Speed",
+            "Range"
+          ],
+          "rows": [
+            [
+              "12",
+              "Defenses",
+              "Melee (Ground Only)",
+              "32",
+              "1s",
+              "0.75 tiles"
+            ]
+          ]
+        },
+        {
+          "heading": "Hog Rider",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "Hitpoints"
+          ],
+          "rows": [
+            [
+              "15",
+              "112",
+              "112",
+              "1,267"
+            ],
+            [
+              "16",
+              "112",
+              "112",
+              "1,267"
+            ],
+            [
+              "17",
+              "125",
+              "125",
+              "1,393"
+            ],
+            [
+              "18",
+              "125",
+              "125",
+              "1,393"
+            ],
+            [
+              "19",
+              "139",
+              "139",
+              "1,533"
+            ],
+            [
+              "20",
+              "139",
+              "139",
+              "1,533"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Hog Glider.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/99/Avatar_Hog_Glider.png/revision/latest?cb=20200913075411"
+        },
+        {
+          "file": "File:Hog Glider15.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Hog_Glider15.png/revision/latest?cb=20190615155640"
+        },
+        {
+          "file": "File:Hog Glider17.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/94/Hog_Glider17.png/revision/latest?cb=20190615155640"
+        },
+        {
+          "file": "File:Hog Glider18.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/02/Hog_Glider18.png/revision/latest?cb=20190615155641"
+        },
+        {
+          "file": "File:Hog Glider19.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8e/Hog_Glider19.png/revision/latest?cb=20230519094241"
+        },
+        {
+          "file": "File:Hog Glider20.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f9/Hog_Glider20.png/revision/latest?cb=20190615155641"
+        },
+        {
+          "file": "File:Hog Rider1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a5/Hog_Rider1.png/revision/latest?cb=20230613101441"
+        },
+        {
+          "file": "File:Hog Rider3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d9/Hog_Rider3.png/revision/latest?cb=20230613101449"
+        },
+        {
+          "file": "File:Hog Rider5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/99/Hog_Rider5.png/revision/latest?cb=20230613101456"
+        },
+        {
+          "file": "File:Hog Rider6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/43/Hog_Rider6.png/revision/latest?cb=20230613101503"
+        },
+        {
+          "file": "File:Hog Rider7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f0/Hog_Rider7.png/revision/latest?cb=20230613101511"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "15": 9,
+        "16": 9,
+        "17": 9,
+        "18": 9,
+        "19": 10,
+        "20": 10
+      }
+    },
+    {
+      "n": "Electrofire Wizard",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/6/6f/Avatar_Electrofire_Wizard.png/revision/latest?cb=20230515203151",
+      "source": "https://clashofclans.fandom.com/wiki/Electrofire_Wizard",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Number of Units per Army Camp",
+            "Spring Weight",
+            "Preferred Target",
+            "Attack Type",
+            "Movement Speed",
+            "Attack Speed",
+            "Builder Barracks Level Required",
+            "Range",
+            "Special Ability",
+            "Ability Cooldown"
+          ],
+          "rows": [
+            [
+              "1",
+              "14",
+              "None",
+              "Ranged (Ground & Air)",
+              "22",
+              "0.128s",
+              "12",
+              "3.5 tiles",
+              "Change Mode",
+              "1.5s"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Initial DPS",
+            "DPS after 1.5s",
+            "DPS after 3.0s",
+            "Hitpoints",
+            "Research Cost (Builder Elixir)",
+            "Research Time",
+            "Star Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "17",
+              "220",
+              "330",
+              "440",
+              "1,100",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "18",
+              "220",
+              "330",
+              "440",
+              "1,100",
+              "4,400,000",
+              "6d",
+              "10"
+            ],
+            [
+              "19",
+              "252",
+              "380",
+              "505",
+              "1,210",
+              "5,400,000",
+              "6d 12h",
+              "10"
+            ],
+            [
+              "20",
+              "252",
+              "380",
+              "505",
+              "1,210",
+              "5,800,000",
+              "6d 12h",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Number of Units per Army Camp",
+            "Spring Weight",
+            "Preferred Target",
+            "Attack Type",
+            "Number of Targets",
+            "Chain Damage Decay",
+            "Chain Distance",
+            "Movement Speed",
+            "Attack Speed",
+            "Builder Barracks Level Required",
+            "Range",
+            "Special Ability",
+            "Ability Cooldown"
+          ],
+          "rows": [
+            [
+              "1",
+              "14",
+              "None",
+              "Ranged (Ground & Air) Chain Lightning",
+              "4",
+              "-20%",
+              "3 tiles",
+              "22",
+              "3.5s",
+              "12",
+              "3.5 tiles",
+              "Change Mode",
+              "1.5s"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second (Primary Target)",
+            "Damage per Hit (Primary Target)",
+            "Hitpoints",
+            "Research Cost (Builder Elixir)",
+            "Research Time",
+            "Star Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "17",
+              "200",
+              "700",
+              "1,100",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "18",
+              "218",
+              "763",
+              "1,100",
+              "4,400,000",
+              "6d",
+              "10"
+            ],
+            [
+              "19",
+              "218",
+              "763",
+              "1,210",
+              "5,400,000",
+              "6d 12h",
+              "10"
+            ],
+            [
+              "20",
+              "234",
+              "819",
+              "1,210",
+              "5,800,000",
+              "6d 12h",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Electrofire Wizard.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6f/Avatar_Electrofire_Wizard.png/revision/latest?cb=20230515203151"
+        },
+        {
+          "file": "File:Electrofire Wizard17 Electro.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/42/Electrofire_Wizard17_Electro.png/revision/latest?cb=20230518091725"
+        },
+        {
+          "file": "File:Electrofire Wizard17 Fire.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Electrofire_Wizard17_Fire.png/revision/latest?cb=20230518091724"
+        },
+        {
+          "file": "File:Electrofire Wizard19 Electro.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4f/Electrofire_Wizard19_Electro.png/revision/latest?cb=20230518091723"
+        },
+        {
+          "file": "File:Electrofire Wizard19 Fire.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6c/Electrofire_Wizard19_Fire.png/revision/latest?cb=20230518091723"
+        },
+        {
+          "file": "File:Electrofire Wizard info 2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/15/Electrofire_Wizard_info_2.png/revision/latest?cb=20230515202815"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "17": 10,
+        "18": 10,
+        "19": 10,
+        "20": 10
+      }
+    }
+  ],
+  "unverified": [],
+  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
+}

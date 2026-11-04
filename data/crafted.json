@@ -1,0 +1,1297 @@
+{
+  "id": "crafted",
+  "label": "Crafted Defenses",
+  "format": "wiki-review-v1",
+  "updated": "2026-11-03",
+  "units": [
+    {
+      "n": "Crafting Station",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Air_Bombs10_Crafted.png/revision/latest?cb=20260330142004",
+      "source": "https://clashofclans.fandom.com/wiki/Crafting_Station",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Hitpoints",
+            "Build Cost (Elixir)",
+            "Build Time"
+          ],
+          "rows": [
+            [
+              "1,000*",
+              "None",
+              "None"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Air Bombs10 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Air_Bombs10_Crafted.png/revision/latest?cb=20260330142004"
+        },
+        {
+          "file": "File:Bomb Hive1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/77/Bomb_Hive1.png/revision/latest?cb=20251116140201"
+        },
+        {
+          "file": "File:Bomb Hive2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cf/Bomb_Hive2.png/revision/latest?cb=20251116140217"
+        },
+        {
+          "file": "File:Bomb Hive3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4a/Bomb_Hive3.png/revision/latest?cb=20251116140249"
+        },
+        {
+          "file": "File:Bomb Hive4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/69/Bomb_Hive4.png/revision/latest?cb=20251116140315"
+        },
+        {
+          "file": "File:Cake-A-Pult4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/ff/Cake-A-Pult4.png/revision/latest?cb=20260713110850"
+        },
+        {
+          "file": "File:Crusher Mortar1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ac/Crusher_Mortar1.png/revision/latest?cb=20250615133037"
+        },
+        {
+          "file": "File:Crusher Mortar2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d0/Crusher_Mortar2.png/revision/latest?cb=20250615133052"
+        },
+        {
+          "file": "File:Crusher Mortar3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7c/Crusher_Mortar3.png/revision/latest?cb=20250615133105"
+        },
+        {
+          "file": "File:Crusher Mortar4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/53/Crusher_Mortar4.png/revision/latest?cb=20250615133118"
+        },
+        {
+          "file": "File:Flame Spinner1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c6/Flame_Spinner1.png/revision/latest?cb=20250615132926"
+        },
+        {
+          "file": "File:Flame Spinner2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Flame_Spinner2.png/revision/latest?cb=20250615132953"
+        },
+        {
+          "file": "File:Flame Spinner3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fb/Flame_Spinner3.png/revision/latest?cb=20250615133011"
+        },
+        {
+          "file": "File:Flame Spinner4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bb/Flame_Spinner4.png/revision/latest?cb=20250615133024"
+        },
+        {
+          "file": "File:Hero Bell1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/39/Hero_Bell1.png/revision/latest?cb=20251116140409"
+        },
+        {
+          "file": "File:Hero Bell2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Hero_Bell2.png/revision/latest?cb=20251116140438"
+        },
+        {
+          "file": "File:Hero Bell3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8b/Hero_Bell3.png/revision/latest?cb=20251116140834"
+        },
+        {
+          "file": "File:Hero Bell4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c6/Hero_Bell4.png/revision/latest?cb=20251204074223"
+        },
+        {
+          "file": "File:Hero Hunter4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Hero_Hunter4.png/revision/latest?cb=20260713110656"
+        },
+        {
+          "file": "File:Hook Tower1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c8/Hook_Tower1.png/revision/latest?cb=20250629135740"
+        },
+        {
+          "file": "File:Hook Tower2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Hook_Tower2.png/revision/latest?cb=20250629135806"
+        },
+        {
+          "file": "File:Hook Tower3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3a/Hook_Tower3.png/revision/latest?cb=20250615132854"
+        },
+        {
+          "file": "File:Hook Tower4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f7/Hook_Tower4.png/revision/latest?cb=20250615132908"
+        },
+        {
+          "file": "File:Hot Candle4-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Hot_Candle4-1.png/revision/latest?cb=20260713110056"
+        },
+        {
+          "file": "File:Lava Launcher7 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/24/Lava_Launcher7_Crafted.png/revision/latest?cb=20260404102738"
+        },
+        {
+          "file": "File:Light Beam1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9c/Light_Beam1.png/revision/latest?cb=20251116140011"
+        },
+        {
+          "file": "File:Light Beam2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5d/Light_Beam2.png/revision/latest?cb=20251116140040"
+        },
+        {
+          "file": "File:Light Beam3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fe/Light_Beam3.png/revision/latest?cb=20251116140100"
+        },
+        {
+          "file": "File:Light Beam4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ad/Light_Beam4.png/revision/latest?cb=20251116140122"
+        },
+        {
+          "file": "File:Roaster10 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/98/Roaster10_Crafted.png/revision/latest?cb=20260330141652"
+        },
+        {
+          "file": "File:Roaster1 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a4/Roaster1_Crafted.png/revision/latest?cb=20260330141305"
+        },
+        {
+          "file": "File:Roaster2 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/57/Roaster2_Crafted.png/revision/latest?cb=20260330141330"
+        },
+        {
+          "file": "File:Roaster3 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/86/Roaster3_Crafted.png/revision/latest?cb=20260330141355"
+        },
+        {
+          "file": "File:Roaster4 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3a/Roaster4_Crafted.png/revision/latest?cb=20260330141446"
+        },
+        {
+          "file": "File:Roaster5 Crafted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/26/Roaster5_Crafted.png/revision/latest?cb=20260330141508"
+        }
+      ],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
+      ]
+    },
+    {
+      "n": "Hot Candle",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Hot_Candle1-1.png/revision/latest?cb=20260713105937",
+      "source": "https://clashofclans.fandom.com/wiki/Hot_Candle",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Common Statistics [ ]",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted",
+            "Number of Targets / Base Form",
+            "Number of Targets / First Decay",
+            "Number of Targets / Second Decay"
+          ],
+          "rows": [
+            [
+              "10.5 Tiles",
+              "0.5s",
+              "Single Target",
+              "Ground & Air",
+              "6",
+              "4",
+              "3"
+            ]
+          ]
+        },
+        {
+          "heading": "Module 1: Hitpoints [ ]",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "Cost (Elixir)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,600",
+              "N/A",
+              "N/A",
+              "N/A",
+              "11"
+            ],
+            [
+              "2",
+              "1,800",
+              "3,500,000",
+              "6h",
+              "146",
+              "12"
+            ],
+            [
+              "3",
+              "2,150",
+              "4,500,000",
+              "8h",
+              "169",
+              "13"
+            ],
+            [
+              "4",
+              "2,500",
+              "5,500,000",
+              "10h",
+              "189",
+              "14"
+            ],
+            [
+              "5",
+              "2,700",
+              "6,500,000",
+              "12h",
+              "207",
+              "15"
+            ],
+            [
+              "6",
+              "3,150",
+              "7,500,000",
+              "18h",
+              "254",
+              "16"
+            ],
+            [
+              "7",
+              "3,900",
+              "8,500,000",
+              "1d 19h",
+              "393",
+              "17"
+            ],
+            [
+              "8",
+              "4,500",
+              "10,000,000",
+              "3d 8h",
+              "536",
+              "18"
+            ],
+            [
+              "9",
+              "5,200",
+              "11,500,000",
+              "5d 18h",
+              "704",
+              "18"
+            ],
+            [
+              "10",
+              "6,000",
+              "13,000,000",
+              "9d 12h",
+              "905",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Module 2: Damage [ ]",
+          "columns": [
+            "Level",
+            "Damage per Second per Flame",
+            "Damage per Hit",
+            "Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "80",
+              "40",
+              "N/A",
+              "N/A",
+              "N/A",
+              "11"
+            ],
+            [
+              "2",
+              "100",
+              "50",
+              "4,000,000",
+              "8h",
+              "169",
+              "12"
+            ],
+            [
+              "3",
+              "120",
+              "60",
+              "5,000,000",
+              "10h",
+              "189",
+              "13"
+            ],
+            [
+              "4",
+              "150",
+              "75",
+              "6,000,000",
+              "11h",
+              "198",
+              "14"
+            ],
+            [
+              "5",
+              "160",
+              "80",
+              "7,500,000",
+              "13h",
+              "216",
+              "15"
+            ],
+            [
+              "6",
+              "180",
+              "90",
+              "9,000,000",
+              "19h",
+              "261",
+              "16"
+            ],
+            [
+              "7",
+              "190",
+              "95",
+              "10,500,000",
+              "1d 22h",
+              "406",
+              "17"
+            ],
+            [
+              "8",
+              "210",
+              "105",
+              "12,000,000",
+              "3d 11h",
+              "546",
+              "18"
+            ],
+            [
+              "9",
+              "230",
+              "115",
+              "13,500,000",
+              "6d 4h",
+              "729",
+              "18"
+            ],
+            [
+              "10",
+              "250",
+              "125",
+              "15,000,000",
+              "10d",
+              "929",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Module 3: Seconds Active [ ]",
+          "columns": [
+            "Level",
+            "Total Seconds Active / Base Form",
+            "Total Seconds Active / First Decay",
+            "Total Seconds Active / Second Decay",
+            "Cost (Dark Elixir) / Cost",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "59s",
+              "60s - 94s",
+              "95s+",
+              "N/A",
+              "N/A",
+              "N/A",
+              "11"
+            ],
+            [
+              "2",
+              "61s",
+              "62s - 98s",
+              "99s+",
+              "30,000",
+              "4h",
+              "120",
+              "12"
+            ],
+            [
+              "3",
+              "63s",
+              "64s - 102s",
+              "103s+",
+              "40,000",
+              "6h",
+              "146",
+              "13"
+            ],
+            [
+              "4",
+              "65s",
+              "66s - 106s",
+              "107s+",
+              "50,000",
+              "8h",
+              "169",
+              "14"
+            ],
+            [
+              "5",
+              "67s",
+              "68s - 110s",
+              "111s+",
+              "60,000",
+              "10h",
+              "189",
+              "15"
+            ],
+            [
+              "6",
+              "69s",
+              "70s - 114s",
+              "115s+",
+              "70,000",
+              "16h",
+              "240",
+              "16"
+            ],
+            [
+              "7",
+              "71s",
+              "72s - 118s",
+              "119s+",
+              "80,000",
+              "1d 16h",
+              "379",
+              "17"
+            ],
+            [
+              "8",
+              "73s",
+              "74s - 122s",
+              "123s+",
+              "90,000",
+              "3d 2h",
+              "516",
+              "18"
+            ],
+            [
+              "9",
+              "75s",
+              "76s - 126s",
+              "127s+",
+              "100,000",
+              "5d 6h",
+              "673",
+              "18"
+            ],
+            [
+              "10",
+              "77s",
+              "78s - 131s",
+              "132s+",
+              "110,000",
+              "9d",
+              "881",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Hot Candle1-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Hot_Candle1-1.png/revision/latest?cb=20260713105937"
+        },
+        {
+          "file": "File:Hot Candle1-2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/44/Hot_Candle1-2.png/revision/latest?cb=20260713110129"
+        },
+        {
+          "file": "File:Hot Candle1-3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Hot_Candle1-3.png/revision/latest?cb=20260713110320"
+        },
+        {
+          "file": "File:Hot Candle2-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/56/Hot_Candle2-1.png/revision/latest?cb=20260713110007"
+        },
+        {
+          "file": "File:Hot Candle2-2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ec/Hot_Candle2-2.png/revision/latest?cb=20260713110154"
+        },
+        {
+          "file": "File:Hot Candle2-3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/77/Hot_Candle2-3.png/revision/latest?cb=20260713110355"
+        },
+        {
+          "file": "File:Hot Candle3-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/18/Hot_Candle3-1.png/revision/latest?cb=20260713110029"
+        },
+        {
+          "file": "File:Hot Candle3-2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/90/Hot_Candle3-2.png/revision/latest?cb=20260713110215"
+        },
+        {
+          "file": "File:Hot Candle3-3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/65/Hot_Candle3-3.png/revision/latest?cb=20260713110417"
+        },
+        {
+          "file": "File:Hot Candle4-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Hot_Candle4-1.png/revision/latest?cb=20260713110056"
+        },
+        {
+          "file": "File:Hot Candle4-2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0d/Hot_Candle4-2.png/revision/latest?cb=20260713110243"
+        },
+        {
+          "file": "File:Hot Candle4-3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/05/Hot_Candle4-3.png/revision/latest?cb=20260713110446"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 11,
+        "2": 12,
+        "3": 13,
+        "4": 14,
+        "5": 15,
+        "6": 16,
+        "7": 17,
+        "8": 18,
+        "9": 18,
+        "10": 18
+      }
+    },
+    {
+      "n": "Hero Hunter",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Hero_Hunter1.png/revision/latest?cb=20260713110532",
+      "source": "https://clashofclans.fandom.com/wiki/Hero_Hunter",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Common Statistics [ ]",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted",
+            "Favorite Target",
+            "Poison Duration"
+          ],
+          "rows": [
+            [
+              "9.5 Tiles",
+              "0.6s",
+              "Single Target",
+              "Ground & Air",
+              "Heroes (2x Damage)",
+              "3s"
+            ]
+          ]
+        },
+        {
+          "heading": "Module 1: Hitpoints [ ]",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "Cost (Dark Elixir)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,600",
+              "N/A",
+              "N/A",
+              "N/A",
+              "11"
+            ],
+            [
+              "2",
+              "1,800",
+              "40,000",
+              "8h",
+              "169",
+              "12"
+            ],
+            [
+              "3",
+              "2,150",
+              "50,000",
+              "10h",
+              "189",
+              "13"
+            ],
+            [
+              "4",
+              "2,500",
+              "60,000",
+              "11h",
+              "198",
+              "14"
+            ],
+            [
+              "5",
+              "2,700",
+              "70,000",
+              "13h",
+              "216",
+              "15"
+            ],
+            [
+              "6",
+              "3,150",
+              "80,000",
+              "19h",
+              "261",
+              "16"
+            ],
+            [
+              "7",
+              "3,900",
+              "90,000",
+              "1d 22h",
+              "406",
+              "17"
+            ],
+            [
+              "8",
+              "4,400",
+              "100,000",
+              "3d 11h",
+              "546",
+              "18"
+            ],
+            [
+              "9",
+              "5,200",
+              "110,000",
+              "6d 4h",
+              "729",
+              "18"
+            ],
+            [
+              "10",
+              "6,000",
+              "120,000",
+              "10d",
+              "929",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Module 2: Damage [ ]",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "DPS on Heroes",
+            "Cost (Elixir)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "145",
+              "87",
+              "290",
+              "N/A",
+              "N/A",
+              "N/A",
+              "11"
+            ],
+            [
+              "2",
+              "155",
+              "93",
+              "310",
+              "3,000,000",
+              "4h",
+              "120",
+              "12"
+            ],
+            [
+              "3",
+              "170",
+              "102",
+              "340",
+              "4,000,000",
+              "6h",
+              "146",
+              "13"
+            ],
+            [
+              "4",
+              "185",
+              "111",
+              "370",
+              "5,000,000",
+              "8h",
+              "169",
+              "14"
+            ],
+            [
+              "5",
+              "195",
+              "117",
+              "390",
+              "6,000,000",
+              "10h",
+              "189",
+              "15"
+            ],
+            [
+              "6",
+              "210",
+              "126",
+              "420",
+              "7,000,000",
+              "16h",
+              "240",
+              "16"
+            ],
+            [
+              "7",
+              "260",
+              "156",
+              "520",
+              "8,000,000",
+              "1d 16h",
+              "379",
+              "17"
+            ],
+            [
+              "8",
+              "325",
+              "195",
+              "650",
+              "9,000,000",
+              "3d 2h",
+              "516",
+              "18"
+            ],
+            [
+              "9",
+              "350",
+              "210",
+              "700",
+              "10,000,000",
+              "5d 6h",
+              "673",
+              "18"
+            ],
+            [
+              "10",
+              "385",
+              "231",
+              "770",
+              "11,000,000",
+              "9d",
+              "881",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Module 3: Poison Level [ ]",
+          "columns": [
+            "Level",
+            "Poison Spell Level",
+            "Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "3",
+              "N/A",
+              "N/A",
+              "N/A",
+              "11"
+            ],
+            [
+              "2",
+              "4",
+              "3,500,000",
+              "6h",
+              "146",
+              "12"
+            ],
+            [
+              "3",
+              "5",
+              "4,500,000",
+              "8h",
+              "169",
+              "13"
+            ],
+            [
+              "4",
+              "6",
+              "5,500,000",
+              "10h",
+              "189",
+              "14"
+            ],
+            [
+              "5",
+              "7",
+              "6,500,000",
+              "12h",
+              "207",
+              "15"
+            ],
+            [
+              "6",
+              "8",
+              "7,500,000",
+              "18h",
+              "254",
+              "16"
+            ],
+            [
+              "7",
+              "9",
+              "8,500,000",
+              "1d 19h",
+              "393",
+              "17"
+            ],
+            [
+              "8",
+              "10",
+              "10,000,000",
+              "3d 8h",
+              "536",
+              "18"
+            ],
+            [
+              "9",
+              "11",
+              "11,500,000",
+              "5d 18h",
+              "704",
+              "18"
+            ],
+            [
+              "10",
+              "12",
+              "13,000,000",
+              "9d 12h",
+              "905",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Hero Hunter1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Hero_Hunter1.png/revision/latest?cb=20260713110532"
+        },
+        {
+          "file": "File:Hero Hunter2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Hero_Hunter2.png/revision/latest?cb=20260713110607"
+        },
+        {
+          "file": "File:Hero Hunter3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Hero_Hunter3.png/revision/latest?cb=20260713110628"
+        },
+        {
+          "file": "File:Hero Hunter4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Hero_Hunter4.png/revision/latest?cb=20260713110656"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 11,
+        "2": 12,
+        "3": 13,
+        "4": 14,
+        "5": 15,
+        "6": 16,
+        "7": 17,
+        "8": 18,
+        "9": 18,
+        "10": 18
+      }
+    },
+    {
+      "n": "Cake-A-Pult",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/Cake-A-Pult1.png/revision/latest?cb=20260713110755",
+      "source": "https://clashofclans.fandom.com/wiki/Cake-A-Pult",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Common Statistics [ ]",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted",
+            "Bomb Explosion Radius",
+            "Bomb Detonation Delay"
+          ],
+          "rows": [
+            [
+              "3-12 Tiles",
+              "3s",
+              "Area Splash - 2.5 Tiles",
+              "Ground & Air",
+              "2.5 Tiles",
+              "3s"
+            ]
+          ]
+        },
+        {
+          "heading": "Module 1: Hitpoints [ ]",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,600",
+              "N/A",
+              "N/A",
+              "N/A",
+              "11"
+            ],
+            [
+              "2",
+              "1,800",
+              "3,000,000",
+              "4h",
+              "120",
+              "12"
+            ],
+            [
+              "3",
+              "2,150",
+              "4,000,000",
+              "6h",
+              "146",
+              "13"
+            ],
+            [
+              "4",
+              "2,500",
+              "5,000,000",
+              "8h",
+              "169",
+              "14"
+            ],
+            [
+              "5",
+              "2,700",
+              "6,000,000",
+              "10h",
+              "189",
+              "15"
+            ],
+            [
+              "6",
+              "3,150",
+              "7,000,000",
+              "16h",
+              "240",
+              "16"
+            ],
+            [
+              "7",
+              "3,800",
+              "8,000,000",
+              "1d 16h",
+              "379",
+              "17"
+            ],
+            [
+              "8",
+              "4,300",
+              "9,000,000",
+              "3d 2h",
+              "516",
+              "18"
+            ],
+            [
+              "9",
+              "4,950",
+              "10,000,000",
+              "5d 6h",
+              "673",
+              "18"
+            ],
+            [
+              "10",
+              "5,800",
+              "11,000,000",
+              "9d",
+              "881",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Module 2: Damage [ ]",
+          "columns": [
+            "Level",
+            "Damage per Hit",
+            "Cost (Dark Elixir)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "195",
+              "N/A",
+              "N/A",
+              "N/A",
+              "11"
+            ],
+            [
+              "2",
+              "210",
+              "35,000",
+              "6h",
+              "146",
+              "12"
+            ],
+            [
+              "3",
+              "225",
+              "45,000",
+              "8h",
+              "169",
+              "13"
+            ],
+            [
+              "4",
+              "246",
+              "55,000",
+              "10h",
+              "189",
+              "14"
+            ],
+            [
+              "5",
+              "264",
+              "65,000",
+              "12h",
+              "207",
+              "15"
+            ],
+            [
+              "6",
+              "285",
+              "75,000",
+              "18h",
+              "254",
+              "16"
+            ],
+            [
+              "7",
+              "315",
+              "85,000",
+              "1d 19h",
+              "393",
+              "17"
+            ],
+            [
+              "8",
+              "333",
+              "95,000",
+              "3d 8h",
+              "536",
+              "18"
+            ],
+            [
+              "9",
+              "354",
+              "105,000",
+              "5d 18h",
+              "704",
+              "18"
+            ],
+            [
+              "10",
+              "375",
+              "115,000",
+              "9d 12h",
+              "905",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Module 3: Explosion Damage [ ]",
+          "columns": [
+            "Level",
+            "Explosion Damage",
+            "Cost (Elixir)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "400",
+              "N/A",
+              "N/A",
+              "N/A",
+              "11"
+            ],
+            [
+              "2",
+              "450",
+              "4,000,000",
+              "8h",
+              "169",
+              "12"
+            ],
+            [
+              "3",
+              "480",
+              "5,000,000",
+              "10h",
+              "189",
+              "13"
+            ],
+            [
+              "4",
+              "510",
+              "6,000,000",
+              "11h",
+              "198",
+              "14"
+            ],
+            [
+              "5",
+              "530",
+              "7,500,000",
+              "13h",
+              "216",
+              "15"
+            ],
+            [
+              "6",
+              "550",
+              "9,000,000",
+              "19h",
+              "261",
+              "16"
+            ],
+            [
+              "7",
+              "600",
+              "10,500,000",
+              "1d 22h",
+              "406",
+              "17"
+            ],
+            [
+              "8",
+              "750",
+              "12,000,000",
+              "3d 11h",
+              "546",
+              "18"
+            ],
+            [
+              "9",
+              "900",
+              "13,500,000",
+              "6d 4h",
+              "729",
+              "18"
+            ],
+            [
+              "10",
+              "950",
+              "15,000,000",
+              "10d",
+              "929",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Cake-A-Pult1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/Cake-A-Pult1.png/revision/latest?cb=20260713110755"
+        },
+        {
+          "file": "File:Cake-A-Pult2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7f/Cake-A-Pult2.png/revision/latest?cb=20260713110810"
+        },
+        {
+          "file": "File:Cake-A-Pult3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Cake-A-Pult3.png/revision/latest?cb=20260713110825"
+        },
+        {
+          "file": "File:Cake-A-Pult4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/ff/Cake-A-Pult4.png/revision/latest?cb=20260713110850"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 11,
+        "2": 12,
+        "3": 13,
+        "4": 14,
+        "5": 15,
+        "6": 16,
+        "7": 17,
+        "8": 18,
+        "9": 18,
+        "10": 18
+      }
+    }
+  ],
+  "unverified": [],
+  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
+}

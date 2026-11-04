@@ -1,0 +1,2381 @@
+{
+  "id": "supercharge",
+  "label": "Supercharges",
+  "format": "wiki-review-v1",
+  "updated": "2026-11-03",
+  "units": [
+    {
+      "n": "Mortar",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/7/7a/Mortar1.png/revision/latest?cb=20240718092847",
+      "source": "https://clashofclans.fandom.com/wiki/Supercharge",
+      "tables": [
+        {
+          "heading": "Defensive Buildings [ ] / Mortar",
+          "columns": [
+            "Charge Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "75",
+              "375",
+              "2,550",
+              "9,000,000",
+              "4d",
+              "509",
+              "18"
+            ],
+            [
+              "2",
+              "75",
+              "375",
+              "2,625",
+              "7,000,000",
+              "6d",
+              "720",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings [ ] / Mortar",
+          "columns": [
+            "Charge Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "91",
+              "153.08",
+              "2,550",
+              "9,000,000",
+              "4d",
+              "509",
+              "17"
+            ],
+            [
+              "2",
+              "91",
+              "153.08",
+              "2,625",
+              "7,000,000",
+              "6d",
+              "720",
+              "17"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Mortar1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7a/Mortar1.png/revision/latest?cb=20240718092847"
+        },
+        {
+          "file": "File:Mortar10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/87/Mortar10.png/revision/latest?cb=20211106234449"
+        },
+        {
+          "file": "File:Mortar10B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fe/Mortar10B.png/revision/latest?cb=20230522074246"
+        },
+        {
+          "file": "File:Mortar10G.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/42/Mortar10G.png/revision/latest?cb=20211106234459"
+        },
+        {
+          "file": "File:Mortar11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/ba/Mortar11.png/revision/latest?cb=20211106234536"
+        },
+        {
+          "file": "File:Mortar11B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f4/Mortar11B.png/revision/latest?cb=20230522074247"
+        },
+        {
+          "file": "File:Mortar11G.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4d/Mortar11G.png/revision/latest?cb=20211106234523"
+        },
+        {
+          "file": "File:Mortar12.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d5/Mortar12.png/revision/latest?cb=20211106234559"
+        },
+        {
+          "file": "File:Mortar12B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fd/Mortar12B.png/revision/latest?cb=20230522074248"
+        },
+        {
+          "file": "File:Mortar12G.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/62/Mortar12G.png/revision/latest?cb=20211106234607"
+        },
+        {
+          "file": "File:Mortar13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2a/Mortar13.png/revision/latest?cb=20211106234639"
+        },
+        {
+          "file": "File:Mortar13B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0e/Mortar13B.png/revision/latest?cb=20230522074249"
+        },
+        {
+          "file": "File:Mortar14.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f7/Mortar14.png/revision/latest?cb=20211106234713"
+        },
+        {
+          "file": "File:Mortar14B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Mortar14B.png/revision/latest?cb=20230522074250"
+        },
+        {
+          "file": "File:Mortar15.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/23/Mortar15.png/revision/latest?cb=20230522074902"
+        },
+        {
+          "file": "File:Mortar15B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/12/Mortar15B.png/revision/latest?cb=20230522074251"
+        },
+        {
+          "file": "File:Mortar16.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/04/Mortar16.png/revision/latest?cb=20231213083653"
+        },
+        {
+          "file": "File:Mortar16B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1e/Mortar16B.png/revision/latest?cb=20231213083618"
+        },
+        {
+          "file": "File:Mortar17.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/01/Mortar17.png/revision/latest?cb=20250905170313"
+        },
+        {
+          "file": "File:Mortar17B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/87/Mortar17B.png/revision/latest?cb=20250905170357"
+        },
+        {
+          "file": "File:Mortar18.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/69/Mortar18.png/revision/latest?cb=20260225092946"
+        },
+        {
+          "file": "File:Mortar18B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a5/Mortar18B.png/revision/latest?cb=20260225093011"
+        },
+        {
+          "file": "File:Mortar18G.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Mortar18G.png/revision/latest?cb=20260225093037"
+        },
+        {
+          "file": "File:Mortar2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ef/Mortar2.png/revision/latest?cb=20230522073638"
+        },
+        {
+          "file": "File:Mortar3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4f/Mortar3.png/revision/latest?cb=20230522073648"
+        },
+        {
+          "file": "File:Mortar4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4e/Mortar4.png/revision/latest?cb=20211106234145"
+        },
+        {
+          "file": "File:Mortar5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e7/Mortar5.png/revision/latest?cb=20211106234157"
+        },
+        {
+          "file": "File:Mortar6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/42/Mortar6.png/revision/latest?cb=20211106234217"
+        },
+        {
+          "file": "File:Mortar7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4b/Mortar7.png/revision/latest?cb=20211106234234"
+        },
+        {
+          "file": "File:Mortar8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0e/Mortar8.png/revision/latest?cb=20211106234245"
+        },
+        {
+          "file": "File:Mortar8B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/af/Mortar8B.png/revision/latest?cb=20230522074244"
+        },
+        {
+          "file": "File:Mortar8G.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0d/Mortar8G.png/revision/latest?cb=20211106234319"
+        },
+        {
+          "file": "File:Mortar9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/12/Mortar9.png/revision/latest?cb=20211106234359"
+        },
+        {
+          "file": "File:Mortar9B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bd/Mortar9B.png/revision/latest?cb=20230522074245"
+        },
+        {
+          "file": "File:Mortar9G.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/62/Mortar9G.png/revision/latest?cb=20211106234410"
+        }
+      ],
+      "unverified": [
+        "Supercharge prerequisite max building level and reset mechanics require manual verification."
+      ],
+      "hallByLevel": {
+        "1": 18,
+        "2": 18
+      }
+    },
+    {
+      "n": "Air Defense",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/6/6f/Air_Defense1.png/revision/latest?cb=20221222212032",
+      "source": "https://clashofclans.fandom.com/wiki/Supercharge",
+      "tables": [
+        {
+          "heading": "Defensive Buildings [ ] / Air Defense",
+          "columns": [
+            "Charge Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "720",
+              "720",
+              "2,000",
+              "2,500,000",
+              "1d 12h",
+              "360",
+              "18"
+            ],
+            [
+              "2",
+              "740",
+              "740",
+              "2,000",
+              "1,250,000",
+              "1d 17h",
+              "384",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Air Defense1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6f/Air_Defense1.png/revision/latest?cb=20221222212032"
+        },
+        {
+          "file": "File:Air Defense10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/34/Air_Defense10.png/revision/latest?cb=20221222212214"
+        },
+        {
+          "file": "File:Air Defense11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/ba/Air_Defense11.png/revision/latest?cb=20221222212227"
+        },
+        {
+          "file": "File:Air Defense12.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c3/Air_Defense12.png/revision/latest?cb=20221222212238"
+        },
+        {
+          "file": "File:Air Defense13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d9/Air_Defense13.png/revision/latest?cb=20221222212249"
+        },
+        {
+          "file": "File:Air Defense14.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cf/Air_Defense14.png/revision/latest?cb=20231213083904"
+        },
+        {
+          "file": "File:Air Defense15.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7d/Air_Defense15.png/revision/latest?cb=20241122153132"
+        },
+        {
+          "file": "File:Air Defense16.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/00/Air_Defense16.png/revision/latest?cb=20251115171820"
+        },
+        {
+          "file": "File:Air Defense1C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d7/Air_Defense1C.png/revision/latest?cb=20221225050420"
+        },
+        {
+          "file": "File:Air Defense1 pre March-21-2016.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Air_Defense1_pre_March-21-2016.png/revision/latest?cb=20221222212334"
+        },
+        {
+          "file": "File:Air Defense2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ef/Air_Defense2.png/revision/latest?cb=20221222212040"
+        },
+        {
+          "file": "File:Air Defense2012.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0c/Air_Defense2012.png/revision/latest?cb=20250414051430"
+        },
+        {
+          "file": "File:Air Defense2C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3a/Air_Defense2C.png/revision/latest?cb=20221225050427"
+        },
+        {
+          "file": "File:Air Defense2 pre March-21-2016.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1e/Air_Defense2_pre_March-21-2016.png/revision/latest?cb=20221222212335"
+        },
+        {
+          "file": "File:Air Defense3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0a/Air_Defense3.png/revision/latest?cb=20221222212048"
+        },
+        {
+          "file": "File:Air Defense3C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e4/Air_Defense3C.png/revision/latest?cb=20221225050435"
+        },
+        {
+          "file": "File:Air Defense3 pre March-21-2016.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e2/Air_Defense3_pre_March-21-2016.png/revision/latest?cb=20221222212336"
+        },
+        {
+          "file": "File:Air Defense4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/48/Air_Defense4.png/revision/latest?cb=20221222212058"
+        },
+        {
+          "file": "File:Air Defense4C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/17/Air_Defense4C.png/revision/latest?cb=20221225050442"
+        },
+        {
+          "file": "File:Air Defense4 pre March-21-2016.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b7/Air_Defense4_pre_March-21-2016.png/revision/latest?cb=20221222212337"
+        },
+        {
+          "file": "File:Air Defense4 pre March-24-2016.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/49/Air_Defense4_pre_March-24-2016.png/revision/latest?cb=20221222212347"
+        },
+        {
+          "file": "File:Air Defense5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7e/Air_Defense5.png/revision/latest?cb=20221222212110"
+        },
+        {
+          "file": "File:Air Defense5C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d8/Air_Defense5C.png/revision/latest?cb=20221225050449"
+        },
+        {
+          "file": "File:Air Defense5 pre March-21-2016.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ab/Air_Defense5_pre_March-21-2016.png/revision/latest?cb=20221222212338"
+        },
+        {
+          "file": "File:Air Defense5 pre March-24-2016.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cf/Air_Defense5_pre_March-24-2016.png/revision/latest?cb=20221222212348"
+        },
+        {
+          "file": "File:Air Defense6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/39/Air_Defense6.png/revision/latest?cb=20221222212123"
+        },
+        {
+          "file": "File:Air Defense6 pre March-21-2016.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/84/Air_Defense6_pre_March-21-2016.png/revision/latest?cb=20221222212339"
+        },
+        {
+          "file": "File:Air Defense6 pre March-24-2016.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/08/Air_Defense6_pre_March-24-2016.png/revision/latest?cb=20221222212349"
+        },
+        {
+          "file": "File:Air Defense7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/ca/Air_Defense7.png/revision/latest?cb=20221222212136"
+        },
+        {
+          "file": "File:Air Defense7 pre March-21-2016.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/45/Air_Defense7_pre_March-21-2016.png/revision/latest?cb=20221222212340"
+        },
+        {
+          "file": "File:Air Defense7 pre March-24-2016.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ea/Air_Defense7_pre_March-24-2016.png/revision/latest?cb=20221222212350"
+        },
+        {
+          "file": "File:Air Defense8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/03/Air_Defense8.png/revision/latest?cb=20221222212150"
+        },
+        {
+          "file": "File:Air Defense8 pre March-21-2016.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/76/Air_Defense8_pre_March-21-2016.png/revision/latest?cb=20221222212341"
+        },
+        {
+          "file": "File:Air Defense9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/45/Air_Defense9.png/revision/latest?cb=20221222212202"
+        },
+        {
+          "file": "File:Air Defense Ruin.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f0/Air_Defense_Ruin.png/revision/latest?cb=20221225050413"
+        }
+      ],
+      "unverified": [
+        "Supercharge prerequisite max building level and reset mechanics require manual verification."
+      ],
+      "hallByLevel": {
+        "1": 18,
+        "2": 18
+      }
+    },
+    {
+      "n": "Hidden Tesla",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/81/Hidden_Tesla1.png/revision/latest?cb=20180606190107",
+      "source": "https://clashofclans.fandom.com/wiki/Supercharge",
+      "tables": [
+        {
+          "heading": "Defensive Buildings [ ] / Hidden Tesla",
+          "columns": [
+            "Charge Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "195",
+              "117",
+              "1,750",
+              "4,750,000",
+              "1d 19h",
+              "393",
+              "18"
+            ],
+            [
+              "2",
+              "195",
+              "117",
+              "1,800",
+              "3,250,000",
+              "2d 14h",
+              "472",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Hidden Tesla1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/81/Hidden_Tesla1.png/revision/latest?cb=20180606190107"
+        },
+        {
+          "file": "File:Hidden Tesla10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/37/Hidden_Tesla10.png/revision/latest?cb=20180604161808"
+        },
+        {
+          "file": "File:Hidden Tesla11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b9/Hidden_Tesla11.png/revision/latest?cb=20191210175655"
+        },
+        {
+          "file": "File:Hidden Tesla12.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/05/Hidden_Tesla12.png/revision/latest?cb=20201013041040"
+        },
+        {
+          "file": "File:Hidden Tesla13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/78/Hidden_Tesla13.png/revision/latest?cb=20210412214948"
+        },
+        {
+          "file": "File:Hidden Tesla14.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f1/Hidden_Tesla14.png/revision/latest?cb=20230613002325"
+        },
+        {
+          "file": "File:Hidden Tesla15.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9e/Hidden_Tesla15.png/revision/latest?cb=20240303014818"
+        },
+        {
+          "file": "File:Hidden Tesla16.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/32/Hidden_Tesla16.png/revision/latest?cb=20250216090235"
+        },
+        {
+          "file": "File:Hidden Tesla17.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6c/Hidden_Tesla17.png/revision/latest?cb=20260220165129"
+        },
+        {
+          "file": "File:Hidden Tesla2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e4/Hidden_Tesla2.png/revision/latest?cb=20180606190121"
+        },
+        {
+          "file": "File:Hidden Tesla3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fb/Hidden_Tesla3.png/revision/latest?cb=20180606190137"
+        },
+        {
+          "file": "File:Hidden Tesla4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/54/Hidden_Tesla4.png/revision/latest?cb=20180606190150"
+        },
+        {
+          "file": "File:Hidden Tesla5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/Hidden_Tesla5.png/revision/latest?cb=20180606190204"
+        },
+        {
+          "file": "File:Hidden Tesla6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d7/Hidden_Tesla6.png/revision/latest?cb=20180606190216"
+        },
+        {
+          "file": "File:Hidden Tesla7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/79/Hidden_Tesla7.png/revision/latest?cb=20180606190230"
+        },
+        {
+          "file": "File:Hidden Tesla8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4f/Hidden_Tesla8.png/revision/latest?cb=20180606190243"
+        },
+        {
+          "file": "File:Hidden Tesla9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e3/Hidden_Tesla9.png/revision/latest?cb=20180606190256"
+        },
+        {
+          "file": "File:Hidden Tesla level2 info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Hidden_Tesla_level2_info.png/revision/latest?cb=20250318145406"
+        },
+        {
+          "file": "File:Hidden Tesla level2 info2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6a/Hidden_Tesla_level2_info2.png/revision/latest?cb=20250318145422"
+        },
+        {
+          "file": "File:Hidden Tesla level2 info3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c9/Hidden_Tesla_level2_info3.png/revision/latest?cb=20250318145449"
+        },
+        {
+          "file": "File:Hidden tesla detected.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9d/Hidden_tesla_detected.png/revision/latest?cb=20210526114921"
+        }
+      ],
+      "unverified": [
+        "Supercharge prerequisite max building level and reset mechanics require manual verification."
+      ],
+      "hallByLevel": {
+        "1": 18,
+        "2": 18
+      }
+    },
+    {
+      "n": "Bomb Tower",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/6/68/Bomb_Tower1.png/revision/latest?cb=20231213084104",
+      "source": "https://clashofclans.fandom.com/wiki/Supercharge",
+      "tables": [
+        {
+          "heading": "Defensive Buildings [ ] / Bomb Tower",
+          "columns": [
+            "Charge Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "127",
+              "139.7",
+              "3,050",
+              "6,000,000",
+              "2d 12h",
+              "464",
+              "18"
+            ],
+            [
+              "2",
+              "127",
+              "139.7",
+              "3,150",
+              "3,000,000",
+              "4d",
+              "587",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Bomb Tower1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/68/Bomb_Tower1.png/revision/latest?cb=20231213084104"
+        },
+        {
+          "file": "File:Bomb Tower10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Bomb_Tower10.png/revision/latest?cb=20231213084402"
+        },
+        {
+          "file": "File:Bomb Tower11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/70/Bomb_Tower11.png/revision/latest?cb=20231213084415"
+        },
+        {
+          "file": "File:Bomb Tower12.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/66/Bomb_Tower12.png/revision/latest?cb=20241122153133"
+        },
+        {
+          "file": "File:Bomb Tower13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3b/Bomb_Tower13.png/revision/latest?cb=20251115143618"
+        },
+        {
+          "file": "File:Bomb Tower1C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/86/Bomb_Tower1C.png/revision/latest?cb=20221225050400"
+        },
+        {
+          "file": "File:Bomb Tower2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c9/Bomb_Tower2.png/revision/latest?cb=20231213084115"
+        },
+        {
+          "file": "File:Bomb Tower2C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Bomb_Tower2C.png/revision/latest?cb=20221225050406"
+        },
+        {
+          "file": "File:Bomb Tower3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/46/Bomb_Tower3.png/revision/latest?cb=20231213084123"
+        },
+        {
+          "file": "File:Bomb Tower3C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/14/Bomb_Tower3C.png/revision/latest?cb=20221225050412"
+        },
+        {
+          "file": "File:Bomb Tower4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/75/Bomb_Tower4.png/revision/latest?cb=20231213084129"
+        },
+        {
+          "file": "File:Bomb Tower4C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/22/Bomb_Tower4C.png/revision/latest?cb=20221225050419"
+        },
+        {
+          "file": "File:Bomb Tower5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d2/Bomb_Tower5.png/revision/latest?cb=20231213084135"
+        },
+        {
+          "file": "File:Bomb Tower5C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4c/Bomb_Tower5C.png/revision/latest?cb=20221225050425"
+        },
+        {
+          "file": "File:Bomb Tower6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/83/Bomb_Tower6.png/revision/latest?cb=20231213084308"
+        },
+        {
+          "file": "File:Bomb Tower7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/59/Bomb_Tower7.png/revision/latest?cb=20231213084325"
+        },
+        {
+          "file": "File:Bomb Tower8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bc/Bomb_Tower8.png/revision/latest?cb=20231213084338"
+        },
+        {
+          "file": "File:Bomb Tower9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b3/Bomb_Tower9.png/revision/latest?cb=20231213084352"
+        },
+        {
+          "file": "File:Bomb Tower Ruin.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/86/Bomb_Tower_Ruin.png/revision/latest?cb=20221225050354"
+        },
+        {
+          "file": "File:Bomb tower.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a8/Bomb_tower.png/revision/latest?cb=20260209205228"
+        }
+      ],
+      "unverified": [
+        "Supercharge prerequisite max building level and reset mechanics require manual verification."
+      ],
+      "hallByLevel": {
+        "1": 18,
+        "2": 18
+      }
+    },
+    {
+      "n": "X-Bow",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/f/fb/X-Bow10_Air.png/revision/latest?cb=20221121044824",
+      "source": "https://clashofclans.fandom.com/wiki/Supercharge",
+      "tables": [
+        {
+          "heading": "Defensive Buildings [ ] / X-Bow",
+          "columns": [
+            "Charge Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "255",
+              "32.64",
+              "5,000",
+              "5,500,000",
+              "2d 5h",
+              "436",
+              "18"
+            ],
+            [
+              "2",
+              "255",
+              "32.64",
+              "5,100",
+              "3,500,000",
+              "3d",
+              "509",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:X-Bow10 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fb/X-Bow10_Air.png/revision/latest?cb=20221121044824"
+        },
+        {
+          "file": "File:X-Bow10 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/db/X-Bow10_Ground.png/revision/latest?cb=20221121044812"
+        },
+        {
+          "file": "File:X-Bow11 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/50/X-Bow11_Air.png/revision/latest?cb=20231213084623"
+        },
+        {
+          "file": "File:X-Bow11 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/88/X-Bow11_Ground.png/revision/latest?cb=20231213084548"
+        },
+        {
+          "file": "File:X-Bow12 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/18/X-Bow12_Air.png/revision/latest?cb=20250212071104"
+        },
+        {
+          "file": "File:X-Bow12 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/68/X-Bow12_Ground.png/revision/latest?cb=20260503184414"
+        },
+        {
+          "file": "File:X-Bow13 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e6/X-Bow13_Air.png/revision/latest?cb=20260503162938"
+        },
+        {
+          "file": "File:X-Bow13 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1e/X-Bow13_Ground.png/revision/latest?cb=20260503184459"
+        },
+        {
+          "file": "File:X-Bow1 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/X-Bow1_Air.png/revision/latest?cb=20200907094921"
+        },
+        {
+          "file": "File:X-Bow1 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/90/X-Bow1_Ground.png/revision/latest?cb=20200907094910"
+        },
+        {
+          "file": "File:X-Bow1 Ground Depleted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c5/X-Bow1_Ground_Depleted.png/revision/latest?cb=20200922061802"
+        },
+        {
+          "file": "File:X-Bow2 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/51/X-Bow2_Air.png/revision/latest?cb=20200907094840"
+        },
+        {
+          "file": "File:X-Bow2 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/61/X-Bow2_Ground.png/revision/latest?cb=20200907094829"
+        },
+        {
+          "file": "File:X-Bow2 Ground Depleted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/33/X-Bow2_Ground_Depleted.png/revision/latest?cb=20200922061803"
+        },
+        {
+          "file": "File:X-Bow3 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/17/X-Bow3_Air.png/revision/latest?cb=20200907094729"
+        },
+        {
+          "file": "File:X-Bow3 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fa/X-Bow3_Ground.png/revision/latest?cb=20200907094712"
+        },
+        {
+          "file": "File:X-Bow3 Ground Depleted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/52/X-Bow3_Ground_Depleted.png/revision/latest?cb=20200922061804"
+        },
+        {
+          "file": "File:X-Bow4 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7f/X-Bow4_Air.png/revision/latest?cb=20200907094647"
+        },
+        {
+          "file": "File:X-Bow4 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5c/X-Bow4_Ground.png/revision/latest?cb=20200907094634"
+        },
+        {
+          "file": "File:X-Bow4 Ground Depleted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b0/X-Bow4_Ground_Depleted.png/revision/latest?cb=20200922061806"
+        },
+        {
+          "file": "File:X-Bow5 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/87/X-Bow5_Air.png/revision/latest?cb=20200907094551"
+        },
+        {
+          "file": "File:X-Bow5 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d3/X-Bow5_Ground.png/revision/latest?cb=20200907094541"
+        },
+        {
+          "file": "File:X-Bow5 Ground Depleted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b3/X-Bow5_Ground_Depleted.png/revision/latest?cb=20200922061807"
+        },
+        {
+          "file": "File:X-Bow6 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/83/X-Bow6_Air.png/revision/latest?cb=20200907094450"
+        },
+        {
+          "file": "File:X-Bow6 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d3/X-Bow6_Ground.png/revision/latest?cb=20200907094433"
+        },
+        {
+          "file": "File:X-Bow6 Ground Depleted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/86/X-Bow6_Ground_Depleted.png/revision/latest?cb=20200922061809"
+        },
+        {
+          "file": "File:X-Bow7 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/aa/X-Bow7_Air.png/revision/latest?cb=20200907094200"
+        },
+        {
+          "file": "File:X-Bow7 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c7/X-Bow7_Ground.png/revision/latest?cb=20200907094150"
+        },
+        {
+          "file": "File:X-Bow7 Ground Depleted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/X-Bow7_Ground_Depleted.png/revision/latest?cb=20200922061810"
+        },
+        {
+          "file": "File:X-Bow8 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f7/X-Bow8_Air.png/revision/latest?cb=20201208041613"
+        },
+        {
+          "file": "File:X-Bow8 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/X-Bow8_Ground.png/revision/latest?cb=20201208041612"
+        },
+        {
+          "file": "File:X-Bow8 Ground Depleted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2f/X-Bow8_Ground_Depleted.png/revision/latest?cb=20201208041613"
+        },
+        {
+          "file": "File:X-Bow9 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/13/X-Bow9_Air.png/revision/latest?cb=20210927180650"
+        },
+        {
+          "file": "File:X-Bow9 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c1/X-Bow9_Ground.png/revision/latest?cb=20210927180637"
+        },
+        {
+          "file": "File:X-Bow9 Ground Depleted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/69/X-Bow9_Ground_Depleted.png/revision/latest?cb=20210927180805"
+        }
+      ],
+      "unverified": [
+        "Supercharge prerequisite max building level and reset mechanics require manual verification."
+      ],
+      "hallByLevel": {
+        "1": 18,
+        "2": 18
+      }
+    },
+    {
+      "n": "Inferno Tower",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/2/2b/Inferno_Tower10_Multi.png/revision/latest?cb=20250624082400",
+      "source": "https://clashofclans.fandom.com/wiki/Supercharge",
+      "tables": [
+        {
+          "heading": "Defensive Buildings [ ] / Inferno Tower",
+          "columns": [
+            "Charge",
+            "Damage per Second / Initial",
+            "Damage per Second / After 1.5s",
+            "Damage per Second / After 5.25s",
+            "Damage per Hit / Initial",
+            "Damage per Hit / After 1.5s",
+            "Damage per Hit / After 5.25s",
+            "Hitpoints",
+            "Cost (Gold) / Cost",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "165",
+              "350",
+              "3,500",
+              "21.12",
+              "44.8",
+              "448",
+              "5,100",
+              "13,000,000",
+              "5d",
+              "657",
+              "18"
+            ],
+            [
+              "2",
+              "165",
+              "350",
+              "3,500",
+              "21.12",
+              "44.8",
+              "448",
+              "5,300",
+              "8,500,000",
+              "7d",
+              "777",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings [ ] / Inferno Tower",
+          "columns": [
+            "Charge Level",
+            "Damage per Second per Target",
+            "Damage per Hit",
+            "Number of Targets",
+            "HP",
+            "Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "165",
+              "21.12",
+              "6",
+              "5,100",
+              "13,000,000",
+              "5d",
+              "657",
+              "18"
+            ],
+            [
+              "2",
+              "165",
+              "21.12",
+              "6",
+              "5,300",
+              "8,500,000",
+              "7d",
+              "777",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Inferno Tower10 Multi.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2b/Inferno_Tower10_Multi.png/revision/latest?cb=20250624082400"
+        },
+        {
+          "file": "File:Inferno Tower10 Single.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6c/Inferno_Tower10_Single.png/revision/latest?cb=20250624082246"
+        },
+        {
+          "file": "File:Inferno Tower10 Single Depleted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6a/Inferno_Tower10_Single_Depleted.png/revision/latest?cb=20241016125433"
+        },
+        {
+          "file": "File:Inferno Tower11 Multi.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/26/Inferno_Tower11_Multi.png/revision/latest?cb=20250624082517"
+        },
+        {
+          "file": "File:Inferno Tower11 Single.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/92/Inferno_Tower11_Single.png/revision/latest?cb=20250624082430"
+        },
+        {
+          "file": "File:Inferno Tower11 Single Depleted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c1/Inferno_Tower11_Single_Depleted.png/revision/latest?cb=20260521215650"
+        },
+        {
+          "file": "File:Inferno Tower12 Multi.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b5/Inferno_Tower12_Multi.png/revision/latest?cb=20260224123503"
+        },
+        {
+          "file": "File:Inferno Tower12 Single.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/56/Inferno_Tower12_Single.png/revision/latest?cb=20260224123407"
+        },
+        {
+          "file": "File:Inferno Tower1 Multi.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fa/Inferno_Tower1_Multi.png/revision/latest?cb=20221122065029"
+        },
+        {
+          "file": "File:Inferno Tower1 Single.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6d/Inferno_Tower1_Single.png/revision/latest?cb=20221122065055"
+        },
+        {
+          "file": "File:Inferno Tower1 Single Depleted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/da/Inferno_Tower1_Single_Depleted.png/revision/latest?cb=20221122065100"
+        },
+        {
+          "file": "File:Inferno Tower2 Multi.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/85/Inferno_Tower2_Multi.png/revision/latest?cb=20221122065133"
+        },
+        {
+          "file": "File:Inferno Tower2 Single.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e3/Inferno_Tower2_Single.png/revision/latest?cb=20221122065155"
+        },
+        {
+          "file": "File:Inferno Tower2 Single Depleted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/db/Inferno_Tower2_Single_Depleted.png/revision/latest?cb=20221122065205"
+        },
+        {
+          "file": "File:Inferno Tower3 Multi.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/51/Inferno_Tower3_Multi.png/revision/latest?cb=20221122065241"
+        },
+        {
+          "file": "File:Inferno Tower3 Single.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/28/Inferno_Tower3_Single.png/revision/latest?cb=20221122065310"
+        },
+        {
+          "file": "File:Inferno Tower3 Single Depleted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Inferno_Tower3_Single_Depleted.png/revision/latest?cb=20221122065318"
+        },
+        {
+          "file": "File:Inferno Tower4 Multi.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/62/Inferno_Tower4_Multi.png/revision/latest?cb=20221122065349"
+        },
+        {
+          "file": "File:Inferno Tower4 Single.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ae/Inferno_Tower4_Single.png/revision/latest?cb=20221122065414"
+        },
+        {
+          "file": "File:Inferno Tower4 Single Depleted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/08/Inferno_Tower4_Single_Depleted.png/revision/latest?cb=20221122065424"
+        },
+        {
+          "file": "File:Inferno Tower5 Multi.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d0/Inferno_Tower5_Multi.png/revision/latest?cb=20221122065451"
+        },
+        {
+          "file": "File:Inferno Tower5 Single.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/91/Inferno_Tower5_Single.png/revision/latest?cb=20221122065510"
+        },
+        {
+          "file": "File:Inferno Tower5 Single Depleted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ef/Inferno_Tower5_Single_Depleted.png/revision/latest?cb=20221122065520"
+        },
+        {
+          "file": "File:Inferno Tower6 Multi.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/43/Inferno_Tower6_Multi.png/revision/latest?cb=20221122065553"
+        },
+        {
+          "file": "File:Inferno Tower6 Single.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/90/Inferno_Tower6_Single.png/revision/latest?cb=20221223064829"
+        },
+        {
+          "file": "File:Inferno Tower6 Single Depleted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b2/Inferno_Tower6_Single_Depleted.png/revision/latest?cb=20221223071628"
+        },
+        {
+          "file": "File:Inferno Tower7 Multi.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fe/Inferno_Tower7_Multi.png/revision/latest?cb=20221122065709"
+        },
+        {
+          "file": "File:Inferno Tower7 Single.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0c/Inferno_Tower7_Single.png/revision/latest?cb=20221223064836"
+        },
+        {
+          "file": "File:Inferno Tower7 Single Depleted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f0/Inferno_Tower7_Single_Depleted.png/revision/latest?cb=20221223071642"
+        },
+        {
+          "file": "File:Inferno Tower8 Multi.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/81/Inferno_Tower8_Multi.png/revision/latest?cb=20221122065805"
+        },
+        {
+          "file": "File:Inferno Tower8 Single.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/69/Inferno_Tower8_Single.png/revision/latest?cb=20221122065826"
+        },
+        {
+          "file": "File:Inferno Tower8 Single Depleted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bc/Inferno_Tower8_Single_Depleted.png/revision/latest?cb=20221122065840"
+        },
+        {
+          "file": "File:Inferno Tower9 Multi.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/ca/Inferno_Tower9_Multi.png/revision/latest?cb=20221122065939"
+        },
+        {
+          "file": "File:Inferno Tower9 Single.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8e/Inferno_Tower9_Single.png/revision/latest?cb=20221122065931"
+        },
+        {
+          "file": "File:Inferno Tower9 Single Depleted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/78/Inferno_Tower9_Single_Depleted.png/revision/latest?cb=20221122065957"
+        }
+      ],
+      "unverified": [
+        "Supercharge prerequisite max building level and reset mechanics require manual verification."
+      ],
+      "hallByLevel": {
+        "1": 18,
+        "2": 18
+      }
+    },
+    {
+      "n": "Scattershot",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/6/67/Scattershot1.png/revision/latest?cb=20200921071952",
+      "source": "https://clashofclans.fandom.com/wiki/Supercharge",
+      "tables": [
+        {
+          "heading": "Defensive Buildings [ ] / Scattershot",
+          "columns": [
+            "Charge",
+            "Damage per Second",
+            "Damage per Shot*",
+            "Splash Damage**",
+            "Hitpoints",
+            "Build Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "193",
+              "450-617.6",
+              "160-450",
+              "5,800",
+              "14,500,000",
+              "5d",
+              "657",
+              "18"
+            ],
+            [
+              "2",
+              "193",
+              "450-617.6",
+              "160-450",
+              "5,950",
+              "9,500,000",
+              "7d",
+              "777",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Scattershot1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/67/Scattershot1.png/revision/latest?cb=20200921071952"
+        },
+        {
+          "file": "File:Scattershot1 Depleted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/ba/Scattershot1_Depleted.png/revision/latest?cb=20200921071804"
+        },
+        {
+          "file": "File:Scattershot2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/62/Scattershot2.png/revision/latest?cb=20200921072106"
+        },
+        {
+          "file": "File:Scattershot2 Depleted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Scattershot2_Depleted.png/revision/latest?cb=20200921071740"
+        },
+        {
+          "file": "File:Scattershot3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4c/Scattershot3.png/revision/latest?cb=20210412215426"
+        },
+        {
+          "file": "File:Scattershot3 Depleted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f8/Scattershot3_Depleted.png/revision/latest?cb=20210412215425"
+        },
+        {
+          "file": "File:Scattershot4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/38/Scattershot4.png/revision/latest?cb=20230613001159"
+        },
+        {
+          "file": "File:Scattershot4 Depleted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/08/Scattershot4_Depleted.png/revision/latest?cb=20230613001158"
+        },
+        {
+          "file": "File:Scattershot5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d9/Scattershot5.png/revision/latest?cb=20240303013949"
+        },
+        {
+          "file": "File:Scattershot5 Depleted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2a/Scattershot5_Depleted.png/revision/latest?cb=20240303013934"
+        },
+        {
+          "file": "File:Scattershot6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6d/Scattershot6.png/revision/latest?cb=20250208165156"
+        },
+        {
+          "file": "File:Scattershot6 Depleted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7c/Scattershot6_Depleted.png/revision/latest?cb=20250212052319"
+        },
+        {
+          "file": "File:Scattershot7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/37/Scattershot7.png/revision/latest?cb=20260709205916"
+        },
+        {
+          "file": "File:Scattershot7 Depleted.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f7/Scattershot7_Depleted.png/revision/latest?cb=20260503160928"
+        }
+      ],
+      "unverified": [
+        "Supercharge prerequisite max building level and reset mechanics require manual verification."
+      ],
+      "hallByLevel": {
+        "1": 18,
+        "2": 18
+      }
+    },
+    {
+      "n": "Builder's Hut",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/a/a0/Builders_Hut2.png/revision/latest?cb=20230613001440",
+      "source": "https://clashofclans.fandom.com/wiki/Supercharge",
+      "tables": [
+        {
+          "heading": "Defensive Buildings [ ] / Builder's Hut",
+          "columns": [
+            "Charge Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Repair per Second",
+            "Repair per Hit",
+            "Hitpoints",
+            "Build Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "187",
+              "74.8",
+              "95",
+              "71.25",
+              "2,100",
+              "4,000,000",
+              "1d 14h",
+              "369",
+              "18"
+            ],
+            [
+              "2",
+              "187",
+              "74.8",
+              "95",
+              "71.25",
+              "2,150",
+              "3,250,000",
+              "2d 10h",
+              "456",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings [ ] / Builder's Hut",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "7",
+              "0.4s",
+              "Single Target",
+              "Ground & Air"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Builders Hut2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a0/Builders_Hut2.png/revision/latest?cb=20230613001440"
+        },
+        {
+          "file": "File:Builders Hut2 Active.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e0/Builders_Hut2_Active.png/revision/latest?cb=20230613001438"
+        },
+        {
+          "file": "File:Builders Hut3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f9/Builders_Hut3.png/revision/latest?cb=20230613001445"
+        },
+        {
+          "file": "File:Builders Hut3 Active.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Builders_Hut3_Active.png/revision/latest?cb=20230613001443"
+        },
+        {
+          "file": "File:Builders Hut4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b4/Builders_Hut4.png/revision/latest?cb=20230613001500"
+        },
+        {
+          "file": "File:Builders Hut4 Active.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/31/Builders_Hut4_Active.png/revision/latest?cb=20230613001448"
+        },
+        {
+          "file": "File:Builders Hut5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e7/Builders_Hut5.png/revision/latest?cb=20230613001516"
+        },
+        {
+          "file": "File:Builders Hut5 Active.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/04/Builders_Hut5_Active.png/revision/latest?cb=20230613001515"
+        },
+        {
+          "file": "File:Builders Hut6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0b/Builders_Hut6.png/revision/latest?cb=20240418094935"
+        },
+        {
+          "file": "File:Builders Hut6 Active.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/50/Builders_Hut6_Active.png/revision/latest?cb=20240418094900"
+        },
+        {
+          "file": "File:Builders Hut7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8c/Builders_Hut7.png/revision/latest?cb=20250528163313"
+        },
+        {
+          "file": "File:Builders Hut7 Active.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8f/Builders_Hut7_Active.png/revision/latest?cb=20250325010129"
+        },
+        {
+          "file": "File:Builders Hut8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/78/Builders_Hut8.png/revision/latest?cb=20260613130250"
+        },
+        {
+          "file": "File:Builders Hut8 Active.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4b/Builders_Hut8_Active.png/revision/latest?cb=20260714124700"
+        }
+      ],
+      "unverified": [
+        "Supercharge prerequisite max building level and reset mechanics require manual verification."
+      ],
+      "hallByLevel": {
+        "1": 18,
+        "2": 18
+      }
+    },
+    {
+      "n": "Monolith",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Monolith1.png/revision/latest?cb=20221120072556",
+      "source": "https://clashofclans.fandom.com/wiki/Supercharge",
+      "tables": [
+        {
+          "heading": "Defensive Buildings [ ] / Monolith",
+          "columns": [
+            "Level",
+            "Base Damage per Second",
+            "Base Damage per Shot",
+            "Bonus Damage per Shot",
+            "Hitpoints",
+            "Build Cost (Dark Elixir)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "235",
+              "352.5",
+              "15%",
+              "5,959",
+              "220,000",
+              "5d",
+              "657",
+              "18"
+            ],
+            [
+              "2",
+              "235",
+              "352.5",
+              "15%",
+              "6,161",
+              "200,000",
+              "7d",
+              "777",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Monolith1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Monolith1.png/revision/latest?cb=20221120072556"
+        },
+        {
+          "file": "File:Monolith2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/95/Monolith2.png/revision/latest?cb=20221120072613"
+        },
+        {
+          "file": "File:Monolith3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a2/Monolith3.png/revision/latest?cb=20240414154019"
+        },
+        {
+          "file": "File:Monolith4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/62/Monolith4.png/revision/latest?cb=20260222191124"
+        },
+        {
+          "file": "File:Monolith5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Monolith5.png/revision/latest?cb=20260906195022"
+        }
+      ],
+      "unverified": [
+        "Supercharge prerequisite max building level and reset mechanics require manual verification."
+      ],
+      "hallByLevel": {
+        "1": 18,
+        "2": 18
+      }
+    },
+    {
+      "n": "Multi-Archer Tower",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/3/31/Multi-Archer_Tower1.png/revision/latest?cb=20231213213611",
+      "source": "https://clashofclans.fandom.com/wiki/Supercharge",
+      "tables": [
+        {
+          "heading": "Defensive Buildings [ ] / Multi-Archer Tower",
+          "columns": [
+            "Charge Level",
+            "Damage per Second per Archer",
+            "Damage per Shot",
+            "Hitpoints",
+            "Build Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "126",
+              "76",
+              "5,500",
+              "4,750,000",
+              "2d 10h",
+              "456",
+              "18"
+            ],
+            [
+              "2",
+              "126",
+              "76",
+              "5,600",
+              "4,000,000",
+              "2d 19h",
+              "491",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Multi-Archer Tower1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/31/Multi-Archer_Tower1.png/revision/latest?cb=20231213213611"
+        },
+        {
+          "file": "File:Multi-Archer Tower2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/29/Multi-Archer_Tower2.png/revision/latest?cb=20231213213624"
+        },
+        {
+          "file": "File:Multi-Archer Tower3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/14/Multi-Archer_Tower3.png/revision/latest?cb=20241122153139"
+        },
+        {
+          "file": "File:Multi-Archer Tower4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f7/Multi-Archer_Tower4.png/revision/latest?cb=20251123100320"
+        }
+      ],
+      "unverified": [
+        "Supercharge prerequisite max building level and reset mechanics require manual verification."
+      ],
+      "hallByLevel": {
+        "1": 18,
+        "2": 18
+      }
+    },
+    {
+      "n": "Ricochet Cannon",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/e/ef/Ricochet_Cannon1.png/revision/latest?cb=20231213205828",
+      "source": "https://clashofclans.fandom.com/wiki/Supercharge",
+      "tables": [
+        {
+          "heading": "Defensive Buildings [ ] / Ricochet Cannon",
+          "columns": [
+            "Charge Level",
+            "Damage per Second",
+            "Damage per Shot (Primary Target)",
+            "Secondary Chain Damage",
+            "Hitpoints",
+            "Build Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "420",
+              "336",
+              "235.2",
+              "6,100",
+              "4,750,000",
+              "2d 10h",
+              "456",
+              "18"
+            ],
+            [
+              "2",
+              "420",
+              "336",
+              "235.2",
+              "6,250",
+              "4,000,000",
+              "2d 19h",
+              "491",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Ricochet Cannon1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ef/Ricochet_Cannon1.png/revision/latest?cb=20231213205828"
+        },
+        {
+          "file": "File:Ricochet Cannon2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9e/Ricochet_Cannon2.png/revision/latest?cb=20231213205828"
+        },
+        {
+          "file": "File:Ricochet Cannon3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/77/Ricochet_Cannon3.png/revision/latest?cb=20241122153140"
+        },
+        {
+          "file": "File:Ricochet Cannon4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/76/Ricochet_Cannon4.png/revision/latest?cb=20251123143847"
+        }
+      ],
+      "unverified": [
+        "Supercharge prerequisite max building level and reset mechanics require manual verification."
+      ],
+      "hallByLevel": {
+        "1": 18,
+        "2": 18
+      }
+    },
+    {
+      "n": "Multi-Gear Tower",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/89/Multi-Gear_Tower1_FastAttack.png/revision/latest?cb=20250208162225",
+      "source": "https://clashofclans.fandom.com/wiki/Supercharge",
+      "tables": [
+        {
+          "heading": "Defensive Buildings [ ] / Multi-Gear Tower",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Hitpoints",
+            "Build Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "400",
+              "400",
+              "4,350",
+              "4,750,000",
+              "2d 10h",
+              "456",
+              "18"
+            ],
+            [
+              "2",
+              "400",
+              "400",
+              "4,500",
+              "4,000,000",
+              "2d 19h",
+              "491",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings [ ] / Multi-Gear Tower",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "12",
+              "1s",
+              "Single Target",
+              "Ground & Air"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings [ ] / Multi-Gear Tower",
+          "columns": [
+            "Level",
+            "Damage per Second*",
+            "Damage per Hit**",
+            "Hitpoints",
+            "Build Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "720",
+              "172.8",
+              "4,350",
+              "4,750,000",
+              "2d 10h",
+              "456",
+              "18"
+            ],
+            [
+              "2",
+              "720",
+              "172.8",
+              "4,500",
+              "4,000,000",
+              "2d 19h",
+              "491",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings [ ] / Multi-Gear Tower",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Time Between Bursts",
+            "Shots Per Burst",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "8",
+              "0.192s",
+              "0.383s",
+              "4 shots",
+              "Single Target",
+              "Ground & Air"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Multi-Gear Tower1 FastAttack.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/89/Multi-Gear_Tower1_FastAttack.png/revision/latest?cb=20250208162225"
+        },
+        {
+          "file": "File:Multi-Gear Tower1 LongRange.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/17/Multi-Gear_Tower1_LongRange.png/revision/latest?cb=20250208162221"
+        },
+        {
+          "file": "File:Multi-Gear Tower2 FastAttack.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6e/Multi-Gear_Tower2_FastAttack.png/revision/latest?cb=20250208162226"
+        },
+        {
+          "file": "File:Multi-Gear Tower2 LongRange.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/Multi-Gear_Tower2_LongRange.png/revision/latest?cb=20250208162223"
+        },
+        {
+          "file": "File:Multi-Gear Tower3 FastAttack.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/86/Multi-Gear_Tower3_FastAttack.png/revision/latest?cb=20260105012017"
+        },
+        {
+          "file": "File:Multi-Gear Tower3 LongRange.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Multi-Gear_Tower3_LongRange.png/revision/latest?cb=20251217133940"
+        }
+      ],
+      "unverified": [
+        "Supercharge prerequisite max building level and reset mechanics require manual verification."
+      ],
+      "hallByLevel": {
+        "1": 18,
+        "2": 18
+      }
+    },
+    {
+      "n": "Firespitter",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/5/59/Firespitter1.png/revision/latest?cb=20241123131419",
+      "source": "https://clashofclans.fandom.com/wiki/Supercharge",
+      "tables": [
+        {
+          "heading": "Defensive Buildings [ ] / Firespitter",
+          "columns": [
+            "Charge Level",
+            "Damage per Second*",
+            "Damage per Hit**",
+            "Hitpoints",
+            "Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "473",
+              "53.08",
+              "5,300",
+              "14,000,000",
+              "6d 12h",
+              "749",
+              "18"
+            ],
+            [
+              "2",
+              "473",
+              "53.08",
+              "5,550",
+              "12,000,000",
+              "7d 12h",
+              "804",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Firespitter1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/59/Firespitter1.png/revision/latest?cb=20241123131419"
+        },
+        {
+          "file": "File:Firespitter2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/59/Firespitter2.png/revision/latest?cb=20241123131420"
+        },
+        {
+          "file": "File:Firespitter3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Firespitter3.png/revision/latest?cb=20260224151021"
+        }
+      ],
+      "unverified": [
+        "Supercharge prerequisite max building level and reset mechanics require manual verification."
+      ],
+      "hallByLevel": {
+        "1": 18,
+        "2": 18
+      }
+    },
+    {
+      "n": "Revenge Tower",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Revenge_Tower1_Dormant.png/revision/latest?cb=20260830054005",
+      "source": "https://clashofclans.fandom.com/wiki/Supercharge",
+      "tables": [
+        {
+          "heading": "Defensive Buildings [ ] / Revenge Tower",
+          "columns": [
+            "Charge",
+            "Hitpoints",
+            "Cost (Dark Elixir)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "6,200",
+              "220,000",
+              "7d",
+              "777",
+              "18"
+            ],
+            [
+              "2",
+              "6,300",
+              "200,000",
+              "8d",
+              "831",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings [ ] / Revenge Tower",
+          "columns": [
+            "Charge",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Cost (Dark Elixir)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "425",
+              "510",
+              "6,200",
+              "220,000",
+              "7d",
+              "777",
+              "18"
+            ],
+            [
+              "2",
+              "425",
+              "510",
+              "6,300",
+              "200,000",
+              "8d",
+              "831",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings [ ] / Revenge Tower",
+          "columns": [
+            "Charge",
+            "Maximum Damage per Second",
+            "Damage per Shot (Primary)",
+            "Damage per Shot (Secondary)",
+            "Hitpoints",
+            "Cost (Dark Elixir)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "433",
+              "260",
+              "156",
+              "6,200",
+              "220,000",
+              "7d",
+              "777",
+              "18"
+            ],
+            [
+              "2",
+              "433",
+              "260",
+              "156",
+              "6,300",
+              "200,000",
+              "8d",
+              "831",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings [ ] / Revenge Tower",
+          "columns": [
+            "Charge",
+            "Maximum Damage per Second",
+            "Damage per Shot (Primary)",
+            "Damage per Shot (Secondary)",
+            "Damage per Shot (Tertiary)",
+            "Hitpoints",
+            "Cost (Dark Elixir)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "742",
+              "260",
+              "156",
+              "93.6",
+              "6,200",
+              "220,000",
+              "7d",
+              "777",
+              "18"
+            ],
+            [
+              "2",
+              "742",
+              "260",
+              "156",
+              "93.6",
+              "6,300",
+              "200,000",
+              "8d",
+              "831",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Revenge Tower1 Dormant.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Revenge_Tower1_Dormant.png/revision/latest?cb=20260830054005"
+        },
+        {
+          "file": "File:Revenge Tower1 Stage1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d1/Revenge_Tower1_Stage1.png/revision/latest?cb=20260830054104"
+        },
+        {
+          "file": "File:Revenge Tower1 Stage2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/70/Revenge_Tower1_Stage2.png/revision/latest?cb=20260830054210"
+        },
+        {
+          "file": "File:Revenge Tower1 Stage3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bf/Revenge_Tower1_Stage3.png/revision/latest?cb=20260830054256"
+        },
+        {
+          "file": "File:Revenge Tower2 Dormant.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/65/Revenge_Tower2_Dormant.png/revision/latest?cb=20260830054034"
+        },
+        {
+          "file": "File:Revenge Tower2 Stage1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/21/Revenge_Tower2_Stage1.png/revision/latest?cb=20260830054134"
+        },
+        {
+          "file": "File:Revenge Tower2 Stage2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f8/Revenge_Tower2_Stage2.png/revision/latest?cb=20260830054232"
+        },
+        {
+          "file": "File:Revenge Tower2 Stage3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b3/Revenge_Tower2_Stage3.png/revision/latest?cb=20260830054330"
+        }
+      ],
+      "unverified": [
+        "Supercharge prerequisite max building level and reset mechanics require manual verification."
+      ],
+      "hallByLevel": {
+        "1": 18,
+        "2": 18
+      }
+    },
+    {
+      "n": "Super Wizard Tower",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/d/d9/HV_Super_Wizard_Tower2_Beta.png/revision/latest?cb=20251123041902",
+      "source": "https://clashofclans.fandom.com/wiki/Supercharge",
+      "tables": [
+        {
+          "heading": "Defensive Buildings [ ] / Super Wizard Tower",
+          "columns": [
+            "Charge Level",
+            "Damage per Second",
+            "Damage per Hit (Primary)",
+            "Damage per Hit (Secondary)",
+            "Hitpoints",
+            "Build Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "327",
+              "425.1",
+              "170.04",
+              "6,300",
+              "12,000,000",
+              "6d",
+              "720",
+              "18"
+            ],
+            [
+              "2",
+              "327",
+              "425.1",
+              "170.04",
+              "6,450",
+              "14,000,000",
+              "7d",
+              "777",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:HV Super Wizard Tower2 Beta.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d9/HV_Super_Wizard_Tower2_Beta.png/revision/latest?cb=20251123041902"
+        },
+        {
+          "file": "File:Super Wizard Tower1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/68/Super_Wizard_Tower1.png/revision/latest?cb=20260108162938"
+        },
+        {
+          "file": "File:Super Wizard Tower1C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/80/Super_Wizard_Tower1C.png/revision/latest?cb=20221225050441"
+        },
+        {
+          "file": "File:Super Wizard Tower2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/98/Super_Wizard_Tower2.png/revision/latest?cb=20260108163002"
+        },
+        {
+          "file": "File:Super Wizard Tower2C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6d/Super_Wizard_Tower2C.png/revision/latest?cb=20221225050448"
+        },
+        {
+          "file": "File:Super Wizard Tower3C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/95/Super_Wizard_Tower3C.png/revision/latest?cb=20221225050455"
+        },
+        {
+          "file": "File:Super Wizard Tower4C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/81/Super_Wizard_Tower4C.png/revision/latest?cb=20221225050501"
+        },
+        {
+          "file": "File:Super Wizard Tower5C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ad/Super_Wizard_Tower5C.png/revision/latest?cb=20221225050508"
+        },
+        {
+          "file": "File:Super Wizard TowerC Ruin.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b9/Super_Wizard_TowerC_Ruin.png/revision/latest?cb=20221225050434"
+        },
+        {
+          "file": "File:Super Wizard Tower Ruin.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3e/Super_Wizard_Tower_Ruin.png/revision/latest?cb=20251122051615"
+        }
+      ],
+      "unverified": [
+        "Supercharge prerequisite max building level and reset mechanics require manual verification."
+      ],
+      "hallByLevel": {
+        "1": 18,
+        "2": 18
+      }
+    },
+    {
+      "n": "Elixir Collector",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/5/5e/Elixir_Collector1.png/revision/latest?cb=20180109122134",
+      "source": "https://clashofclans.fandom.com/wiki/Supercharge",
+      "tables": [
+        {
+          "heading": "Resource Buildings [ ] / Elixir Collector",
+          "columns": [
+            "Charge Level",
+            "Capacity",
+            "Production Rate",
+            "Hitpoints",
+            "Boost Cost",
+            "Time to Fill",
+            "Build Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Catch-Up Point*",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "436,500",
+              "7,857/hr",
+              "1,400",
+              "11",
+              "2d 7h 33m 20s",
+              "250,000",
+              "9h 30m",
+              "184",
+              "50d 21h 49m 6s",
+              "18"
+            ],
+            [
+              "2",
+              "453,000",
+              "8,154/hr",
+              "1,400",
+              "11",
+              "2d 7h 33m 20s",
+              "250,000",
+              "14h 30m",
+              "228",
+              "79d 8h 43m 39s",
+              "18"
+            ],
+            [
+              "3",
+              "453,000",
+              "8,154/hr",
+              "1,450",
+              "11",
+              "2d 7h 33m 20s",
+              "250,000",
+              "1d",
+              "293",
+              "N/A",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Elixir Collector1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5e/Elixir_Collector1.png/revision/latest?cb=20180109122134"
+        },
+        {
+          "file": "File:Elixir Collector10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f0/Elixir_Collector10.png/revision/latest?cb=20180109122349"
+        },
+        {
+          "file": "File:Elixir Collector10B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/32/Elixir_Collector10B.png/revision/latest?cb=20230518051323"
+        },
+        {
+          "file": "File:Elixir Collector11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9f/Elixir_Collector11.png/revision/latest?cb=20180109122406"
+        },
+        {
+          "file": "File:Elixir Collector12.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4f/Elixir_Collector12.png/revision/latest?cb=20180109122421"
+        },
+        {
+          "file": "File:Elixir Collector13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/12/Elixir_Collector13.png/revision/latest?cb=20200902075904"
+        },
+        {
+          "file": "File:Elixir Collector14.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/49/Elixir_Collector14.png/revision/latest?cb=20210113220549"
+        },
+        {
+          "file": "File:Elixir Collector15.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7f/Elixir_Collector15.png/revision/latest?cb=20211209201554"
+        },
+        {
+          "file": "File:Elixir Collector16.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b9/Elixir_Collector16.png/revision/latest?cb=20251027021007"
+        },
+        {
+          "file": "File:Elixir Collector17.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/03/Elixir_Collector17.png/revision/latest?cb=20251118165724"
+        },
+        {
+          "file": "File:Elixir Collector1B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c4/Elixir_Collector1B.png/revision/latest?cb=20180109122754"
+        },
+        {
+          "file": "File:Elixir Collector1 Animation.gif",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fe/Elixir_Collector1_Animation.gif/revision/latest?cb=20200903084630"
+        },
+        {
+          "file": "File:Elixir Collector2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/05/Elixir_Collector2.png/revision/latest?cb=20180109122118"
+        },
+        {
+          "file": "File:Elixir Collector2B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/19/Elixir_Collector2B.png/revision/latest?cb=20180109122754"
+        },
+        {
+          "file": "File:Elixir Collector3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6d/Elixir_Collector3.png/revision/latest?cb=20180109122147"
+        },
+        {
+          "file": "File:Elixir Collector3B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a7/Elixir_Collector3B.png/revision/latest?cb=20180109122755"
+        },
+        {
+          "file": "File:Elixir Collector4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/95/Elixir_Collector4.png/revision/latest?cb=20180109122200"
+        },
+        {
+          "file": "File:Elixir Collector4B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/54/Elixir_Collector4B.png/revision/latest?cb=20180109122755"
+        },
+        {
+          "file": "File:Elixir Collector5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/44/Elixir_Collector5.png/revision/latest?cb=20180109122215"
+        },
+        {
+          "file": "File:Elixir Collector5B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ef/Elixir_Collector5B.png/revision/latest?cb=20180109122756"
+        },
+        {
+          "file": "File:Elixir Collector6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Elixir_Collector6.png/revision/latest?cb=20180109122232"
+        },
+        {
+          "file": "File:Elixir Collector6B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d4/Elixir_Collector6B.png/revision/latest?cb=20180109122756"
+        },
+        {
+          "file": "File:Elixir Collector7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/35/Elixir_Collector7.png/revision/latest?cb=20180109122255"
+        },
+        {
+          "file": "File:Elixir Collector7B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8e/Elixir_Collector7B.png/revision/latest?cb=20180109122757"
+        },
+        {
+          "file": "File:Elixir Collector8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fc/Elixir_Collector8.png/revision/latest?cb=20180109122310"
+        },
+        {
+          "file": "File:Elixir Collector8B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/15/Elixir_Collector8B.png/revision/latest?cb=20180109122757"
+        },
+        {
+          "file": "File:Elixir Collector9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/79/Elixir_Collector9.png/revision/latest?cb=20180109122324"
+        },
+        {
+          "file": "File:Elixir Collector9B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3b/Elixir_Collector9B.png/revision/latest?cb=20190616211335"
+        },
+        {
+          "file": "File:Elixir Collector Ruin.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/30/Elixir_Collector_Ruin.png/revision/latest?cb=20170609150452"
+        }
+      ],
+      "unverified": [
+        "Supercharge prerequisite max building level and reset mechanics require manual verification."
+      ],
+      "hallByLevel": {
+        "1": 18,
+        "2": 18,
+        "3": 18
+      }
+    },
+    {
+      "n": "Dark Elixir Drill",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/d/d9/Dark_Elixir_Drill1.png/revision/latest?cb=20180219150352",
+      "source": "https://clashofclans.fandom.com/wiki/Supercharge",
+      "tables": [
+        {
+          "heading": "Resource Buildings [ ] / Dark Elixir Drill",
+          "columns": [
+            "Charge Level",
+            "Capacity",
+            "Production Rate",
+            "Hitpoints",
+            "Boost Cost",
+            "Time to Fill",
+            "Build Cost (Elixir)",
+            "Build Time",
+            "Experience Gained",
+            "Catch-Up Point*",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "4,807",
+              "209/hr",
+              "1,600",
+              "55",
+              "23h",
+              "750,000",
+              "14h 30m",
+              "228",
+              "66d 16h",
+              "18"
+            ],
+            [
+              "2",
+              "5,014",
+              "218/hr",
+              "1,600",
+              "55",
+              "23h",
+              "750,000",
+              "19h",
+              "261",
+              "92d 21h 20m",
+              "18"
+            ],
+            [
+              "3",
+              "5,014",
+              "218/hr",
+              "1,650",
+              "55",
+              "23h",
+              "500,000",
+              "1d",
+              "293",
+              "N/A",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Dark Elixir Drill1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d9/Dark_Elixir_Drill1.png/revision/latest?cb=20180219150352"
+        },
+        {
+          "file": "File:Dark Elixir Drill10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Dark_Elixir_Drill10.png/revision/latest?cb=20251118170248"
+        },
+        {
+          "file": "File:Dark Elixir Drill11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Dark_Elixir_Drill11.png/revision/latest?cb=20251118170058"
+        },
+        {
+          "file": "File:Dark Elixir Drill2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7f/Dark_Elixir_Drill2.png/revision/latest?cb=20180219150405"
+        },
+        {
+          "file": "File:Dark Elixir Drill3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f2/Dark_Elixir_Drill3.png/revision/latest?cb=20180219150417"
+        },
+        {
+          "file": "File:Dark Elixir Drill4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Dark_Elixir_Drill4.png/revision/latest?cb=20180219150430"
+        },
+        {
+          "file": "File:Dark Elixir Drill5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a0/Dark_Elixir_Drill5.png/revision/latest?cb=20180219150445"
+        },
+        {
+          "file": "File:Dark Elixir Drill6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d8/Dark_Elixir_Drill6.png/revision/latest?cb=20180219150459"
+        },
+        {
+          "file": "File:Dark Elixir Drill7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d7/Dark_Elixir_Drill7.png/revision/latest?cb=20181023120211"
+        },
+        {
+          "file": "File:Dark Elixir Drill8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1e/Dark_Elixir_Drill8.png/revision/latest?cb=20210113213742"
+        },
+        {
+          "file": "File:Dark Elixir Drill9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/58/Dark_Elixir_Drill9.png/revision/latest?cb=20211209102821"
+        }
+      ],
+      "unverified": [
+        "Supercharge prerequisite max building level and reset mechanics require manual verification."
+      ],
+      "hallByLevel": {
+        "1": 18,
+        "2": 18,
+        "3": 18
+      }
+    }
+  ],
+  "unverified": [],
+  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
+}

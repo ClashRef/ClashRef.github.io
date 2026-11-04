@@ -1,0 +1,1469 @@
+{
+  "id": "traps",
+  "label": "Traps",
+  "format": "wiki-review-v1",
+  "updated": "2026-11-03",
+  "units": [
+    {
+      "n": "Bomb",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Bomb1.png/revision/latest?cb=20210213070620",
+      "source": "https://clashofclans.fandom.com/wiki/Bomb",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage",
+            "Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "20",
+              "400",
+              "N/A",
+              "N/A",
+              "3"
+            ],
+            [
+              "2",
+              "24",
+              "1,000",
+              "1m",
+              "7",
+              "3"
+            ],
+            [
+              "3",
+              "29",
+              "10,000",
+              "5m",
+              "17",
+              "5"
+            ],
+            [
+              "4",
+              "35",
+              "40,000",
+              "40m",
+              "48",
+              "7"
+            ],
+            [
+              "5",
+              "42",
+              "100,000",
+              "1h",
+              "60",
+              "8"
+            ],
+            [
+              "6",
+              "54",
+              "230,000",
+              "2h",
+              "84",
+              "9"
+            ],
+            [
+              "7",
+              "72",
+              "330,000",
+              "3h",
+              "103",
+              "10"
+            ],
+            [
+              "8",
+              "92",
+              "500,000",
+              "4h",
+              "120",
+              "11"
+            ],
+            [
+              "9",
+              "125",
+              "750,000",
+              "6h",
+              "146",
+              "13"
+            ],
+            [
+              "10",
+              "140",
+              "1,300,000",
+              "12h",
+              "207",
+              "14"
+            ],
+            [
+              "11",
+              "155",
+              "2,500,000",
+              "18h",
+              "254",
+              "15"
+            ],
+            [
+              "12",
+              "170",
+              "4,000,000",
+              "1d",
+              "293",
+              "16"
+            ],
+            [
+              "13",
+              "185",
+              "8,500,000",
+              "2d",
+              "415",
+              "17"
+            ],
+            [
+              "14",
+              "200",
+              "14,000,000",
+              "8d",
+              "831",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Trigger Radius",
+            "Damage Radius",
+            "Damage Type",
+            "Unit Type Targeted",
+            "Favorite Target"
+          ],
+          "rows": [
+            [
+              "1.5 tiles",
+              "3 tiles",
+              "Area Splash",
+              "Ground",
+              "None"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Bomb1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Bomb1.png/revision/latest?cb=20210213070620"
+        },
+        {
+          "file": "File:Bomb11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/78/Bomb11.png/revision/latest?cb=20221012074258"
+        },
+        {
+          "file": "File:Bomb11 unarmed.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/27/Bomb11_unarmed.png/revision/latest?cb=20221012074257"
+        },
+        {
+          "file": "File:Bomb13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Bomb13.png/revision/latest?cb=20241127134105"
+        },
+        {
+          "file": "File:Bomb13 unarmed.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e2/Bomb13_unarmed.png/revision/latest?cb=20241127134121"
+        },
+        {
+          "file": "File:Bomb1 unarmed.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fe/Bomb1_unarmed.png/revision/latest?cb=20210213070818"
+        },
+        {
+          "file": "File:Bomb3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0a/Bomb3.png/revision/latest?cb=20210213070653"
+        },
+        {
+          "file": "File:Bomb3 unarmed.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/04/Bomb3_unarmed.png/revision/latest?cb=20210213070818"
+        },
+        {
+          "file": "File:Bomb5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Bomb5.png/revision/latest?cb=20210213070719"
+        },
+        {
+          "file": "File:Bomb5 unarmed.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d2/Bomb5_unarmed.png/revision/latest?cb=20210213070842"
+        },
+        {
+          "file": "File:Bomb7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/62/Bomb7.png/revision/latest?cb=20210213070737"
+        },
+        {
+          "file": "File:Bomb7 unarmed.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/09/Bomb7_unarmed.png/revision/latest?cb=20210213070820"
+        },
+        {
+          "file": "File:Bomb9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5d/Bomb9.png/revision/latest?cb=20210213070754"
+        },
+        {
+          "file": "File:Bomb9 unarmed.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1e/Bomb9_unarmed.png/revision/latest?cb=20210213070821"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 3,
+        "2": 3,
+        "3": 5,
+        "4": 7,
+        "5": 8,
+        "6": 9,
+        "7": 10,
+        "8": 11,
+        "9": 13,
+        "10": 14,
+        "11": 15,
+        "12": 16,
+        "13": 17,
+        "14": 18
+      }
+    },
+    {
+      "n": "Spring Trap",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/7/74/Spring_Trap1.png/revision/latest?cb=20221218092202",
+      "source": "https://clashofclans.fandom.com/wiki/Spring_Trap",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics / Home Village",
+          "columns": [
+            "Level",
+            "Spring Capacity",
+            "Damage",
+            "Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "10",
+              "0",
+              "2,000",
+              "N/A",
+              "N/A",
+              "4"
+            ],
+            [
+              "2",
+              "12",
+              "250",
+              "130,000",
+              "1h",
+              "60",
+              "7"
+            ],
+            [
+              "3",
+              "14",
+              "300",
+              "240,000",
+              "2h",
+              "84",
+              "8"
+            ],
+            [
+              "4",
+              "16",
+              "350",
+              "350,000",
+              "3h",
+              "103",
+              "9"
+            ],
+            [
+              "5",
+              "18",
+              "400",
+              "800,000",
+              "4h",
+              "120",
+              "10"
+            ],
+            [
+              "6",
+              "18",
+              "500",
+              "1,000,000",
+              "6h",
+              "146",
+              "11"
+            ],
+            [
+              "7",
+              "18",
+              "600",
+              "1,700,000",
+              "8h",
+              "169",
+              "12"
+            ],
+            [
+              "8",
+              "18",
+              "750",
+              "2,000,000",
+              "12h",
+              "207",
+              "13"
+            ],
+            [
+              "9",
+              "18",
+              "900",
+              "3,000,000",
+              "18h",
+              "254",
+              "14"
+            ],
+            [
+              "10",
+              "18",
+              "1,050",
+              "4,000,000",
+              "1d",
+              "293",
+              "15"
+            ],
+            [
+              "11",
+              "18",
+              "1,200",
+              "6,000,000",
+              "2d",
+              "415",
+              "16"
+            ],
+            [
+              "12",
+              "18",
+              "1,300",
+              "13,000,000",
+              "3d",
+              "509",
+              "17"
+            ],
+            [
+              "13",
+              "18",
+              "1,400",
+              "16,000,000",
+              "11d",
+              "974",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics / Home Village",
+          "columns": [
+            "Trigger Radius",
+            "Damage Type",
+            "Unit Type Targeted",
+            "Favorite Target",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "1 tile",
+              "Single Target",
+              "Ground",
+              "Highest housing space troop",
+              "Powerful Push"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Spring Trap1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/74/Spring_Trap1.png/revision/latest?cb=20221218092202"
+        },
+        {
+          "file": "File:Spring Trap11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Spring_Trap11.png/revision/latest?cb=20251008003034"
+        },
+        {
+          "file": "File:Spring Trap13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Spring_Trap13.png/revision/latest?cb=20251115151732"
+        },
+        {
+          "file": "File:Spring Trap1 unarmed.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e7/Spring_Trap1_unarmed.png/revision/latest?cb=20221218092334"
+        },
+        {
+          "file": "File:Spring Trap3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e2/Spring_Trap3.png/revision/latest?cb=20221218092328"
+        },
+        {
+          "file": "File:Spring Trap3 unarmed.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/28/Spring_Trap3_unarmed.png/revision/latest?cb=20221218092334"
+        },
+        {
+          "file": "File:Spring Trap5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d5/Spring_Trap5.png/revision/latest?cb=20221218092228"
+        },
+        {
+          "file": "File:Spring Trap7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dc/Spring_Trap7.png/revision/latest?cb=20251008002947"
+        },
+        {
+          "file": "File:Spring Trap7 unarmed.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4c/Spring_Trap7_unarmed.png/revision/latest?cb=20251008003542"
+        },
+        {
+          "file": "File:Spring Trap9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fe/Spring_Trap9.png/revision/latest?cb=20251008003009"
+        },
+        {
+          "file": "File:Spring Trap info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c2/Spring_Trap_info.png/revision/latest?cb=20171130161342"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 4,
+        "2": 7,
+        "3": 8,
+        "4": 9,
+        "5": 10,
+        "6": 11,
+        "7": 12,
+        "8": 13,
+        "9": 14,
+        "10": 15,
+        "11": 16,
+        "12": 17,
+        "13": 18
+      }
+    },
+    {
+      "n": "Air Bomb",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/b/be/Air_Bomb1.png/revision/latest?cb=20231213085607",
+      "source": "https://clashofclans.fandom.com/wiki/Air_Bomb",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage",
+            "Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "100",
+              "4,000",
+              "N/A",
+              "N/A",
+              "5"
+            ],
+            [
+              "2",
+              "120",
+              "20,000",
+              "30m",
+              "42",
+              "5"
+            ],
+            [
+              "3",
+              "144",
+              "75,000",
+              "1h",
+              "60",
+              "7"
+            ],
+            [
+              "4",
+              "173",
+              "300,000",
+              "4h",
+              "120",
+              "9"
+            ],
+            [
+              "5",
+              "208",
+              "550,000",
+              "8h",
+              "169",
+              "11"
+            ],
+            [
+              "6",
+              "232",
+              "800,000",
+              "12h",
+              "207",
+              "12"
+            ],
+            [
+              "7",
+              "252",
+              "1,000,000",
+              "14h",
+              "224",
+              "13"
+            ],
+            [
+              "8",
+              "280",
+              "1,200,000",
+              "16h",
+              "240",
+              "13"
+            ],
+            [
+              "9",
+              "325",
+              "2,000,000",
+              "1d",
+              "293",
+              "14"
+            ],
+            [
+              "10",
+              "350",
+              "3,000,000",
+              "1d 12h",
+              "360",
+              "15"
+            ],
+            [
+              "11",
+              "375",
+              "5,000,000",
+              "2d",
+              "415",
+              "16"
+            ],
+            [
+              "12",
+              "400",
+              "9,500,000",
+              "3d",
+              "509",
+              "17"
+            ],
+            [
+              "13",
+              "425",
+              "15,000,000",
+              "9d",
+              "881",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Trigger Radius",
+            "Damage Radius",
+            "Damage Type",
+            "Unit Type Targeted",
+            "Favorite Target"
+          ],
+          "rows": [
+            [
+              "4 tiles",
+              "3 tiles",
+              "Area Splash",
+              "Air",
+              "None"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Air Bomb1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/be/Air_Bomb1.png/revision/latest?cb=20231213085607"
+        },
+        {
+          "file": "File:Air Bomb11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Air_Bomb11.png/revision/latest?cb=20231213085327"
+        },
+        {
+          "file": "File:Air Bomb11 Targeting.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Air_Bomb11_Targeting.png/revision/latest?cb=20260509131703"
+        },
+        {
+          "file": "File:Air Bomb13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/91/Air_Bomb13.png/revision/latest?cb=20251120062204"
+        },
+        {
+          "file": "File:Air Bomb13 Targeting.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7c/Air_Bomb13_Targeting.png/revision/latest?cb=20260509131714"
+        },
+        {
+          "file": "File:Air Bomb1 Targeting.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d3/Air_Bomb1_Targeting.png/revision/latest?cb=20260509131552"
+        },
+        {
+          "file": "File:Air Bomb3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5c/Air_Bomb3.png/revision/latest?cb=20231213085557"
+        },
+        {
+          "file": "File:Air Bomb3 Targeting.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6a/Air_Bomb3_Targeting.png/revision/latest?cb=20260509131607"
+        },
+        {
+          "file": "File:Air Bomb5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/99/Air_Bomb5.png/revision/latest?cb=20231213085548"
+        },
+        {
+          "file": "File:Air Bomb5 Targeting.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/78/Air_Bomb5_Targeting.png/revision/latest?cb=20260509131617"
+        },
+        {
+          "file": "File:Air Bomb7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/15/Air_Bomb7.png/revision/latest?cb=20231213085536"
+        },
+        {
+          "file": "File:Air Bomb7 Targeting.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/35/Air_Bomb7_Targeting.png/revision/latest?cb=20260509131630"
+        },
+        {
+          "file": "File:Air Bomb9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Air_Bomb9.png/revision/latest?cb=20231213085519"
+        },
+        {
+          "file": "File:Air Bomb9 Targeting.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Air_Bomb9_Targeting.png/revision/latest?cb=20260509131650"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 5,
+        "2": 5,
+        "3": 7,
+        "4": 9,
+        "5": 11,
+        "6": 12,
+        "7": 13,
+        "8": 13,
+        "9": 14,
+        "10": 15,
+        "11": 16,
+        "12": 17,
+        "13": 18
+      }
+    },
+    {
+      "n": "Giant Bomb",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Giant_Bomb1.png/revision/latest?cb=20230613001712",
+      "source": "https://clashofclans.fandom.com/wiki/Giant_Bomb",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage",
+            "Damage Radius",
+            "Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "175",
+              "3 tiles",
+              "12,500",
+              "N/A",
+              "N/A",
+              "6"
+            ],
+            [
+              "2",
+              "200",
+              "3.5 tiles",
+              "75,000",
+              "1h",
+              "60",
+              "6"
+            ],
+            [
+              "3",
+              "225",
+              "3.5 tiles",
+              "220,000",
+              "3h",
+              "103",
+              "8"
+            ],
+            [
+              "4",
+              "250",
+              "4 tiles",
+              "750,000",
+              "4h",
+              "120",
+              "10"
+            ],
+            [
+              "5",
+              "275",
+              "4 tiles",
+              "900,000",
+              "10h",
+              "189",
+              "11"
+            ],
+            [
+              "6",
+              "325",
+              "4 tiles",
+              "1,300,000",
+              "11h",
+              "198",
+              "13"
+            ],
+            [
+              "7",
+              "375",
+              "4 tiles",
+              "1,500,000",
+              "12h",
+              "207",
+              "13"
+            ],
+            [
+              "8",
+              "400",
+              "4 tiles",
+              "2,000,000",
+              "1d",
+              "293",
+              "14"
+            ],
+            [
+              "9",
+              "425",
+              "4 tiles",
+              "3,200,000",
+              "2d",
+              "415",
+              "15"
+            ],
+            [
+              "10",
+              "450",
+              "4 tiles",
+              "5,500,000",
+              "2d 12h",
+              "464",
+              "16"
+            ],
+            [
+              "11",
+              "475",
+              "4 tiles",
+              "10,000,000",
+              "4d",
+              "587",
+              "17"
+            ],
+            [
+              "12",
+              "490",
+              "4.2 tiles",
+              "17,000,000",
+              "10d 12h",
+              "952",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Trigger Radius",
+            "Damage Type",
+            "Unit Type Targeted",
+            "Favorite Target"
+          ],
+          "rows": [
+            [
+              "2 tiles",
+              "Area Splash",
+              "Ground",
+              "None"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Giant Bomb1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Giant_Bomb1.png/revision/latest?cb=20230613001712"
+        },
+        {
+          "file": "File:Giant Bomb11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f3/Giant_Bomb11.png/revision/latest?cb=20241122153137"
+        },
+        {
+          "file": "File:Giant Bomb11 unarmed.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ac/Giant_Bomb11_unarmed.png/revision/latest?cb=20241126134109"
+        },
+        {
+          "file": "File:Giant Bomb1 unarmed.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bf/Giant_Bomb1_unarmed.png/revision/latest?cb=20230613001709"
+        },
+        {
+          "file": "File:Giant Bomb3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/31/Giant_Bomb3.png/revision/latest?cb=20230613001720"
+        },
+        {
+          "file": "File:Giant Bomb3 unarmed.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/49/Giant_Bomb3_unarmed.png/revision/latest?cb=20230613001718"
+        },
+        {
+          "file": "File:Giant Bomb5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a4/Giant_Bomb5.png/revision/latest?cb=20230613001727"
+        },
+        {
+          "file": "File:Giant Bomb5 unarmed.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b0/Giant_Bomb5_unarmed.png/revision/latest?cb=20230613001725"
+        },
+        {
+          "file": "File:Giant Bomb7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5e/Giant_Bomb7.png/revision/latest?cb=20230613001734"
+        },
+        {
+          "file": "File:Giant Bomb7 unarmed.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/15/Giant_Bomb7_unarmed.png/revision/latest?cb=20230613001731"
+        },
+        {
+          "file": "File:Giant Bomb9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d8/Giant_Bomb9.png/revision/latest?cb=20230613001740"
+        },
+        {
+          "file": "File:Giant Bomb9 unarmed.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ef/Giant_Bomb9_unarmed.png/revision/latest?cb=20230613001739"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 6,
+        "2": 6,
+        "3": 8,
+        "4": 10,
+        "5": 11,
+        "6": 13,
+        "7": 13,
+        "8": 14,
+        "9": 15,
+        "10": 16,
+        "11": 17,
+        "12": 18
+      }
+    },
+    {
+      "n": "Seeking Air Mine",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Seeking_Air_Mine1.png/revision/latest?cb=20230613002136",
+      "source": "https://clashofclans.fandom.com/wiki/Seeking_Air_Mine",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage",
+            "Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,500",
+              "12,000",
+              "N/A",
+              "N/A",
+              "7"
+            ],
+            [
+              "2",
+              "1,800",
+              "600,000",
+              "6h",
+              "146",
+              "9"
+            ],
+            [
+              "3",
+              "2,100",
+              "1,200,000",
+              "1d",
+              "293",
+              "10"
+            ],
+            [
+              "4",
+              "2,500",
+              "2,500,000",
+              "1d 12h",
+              "360",
+              "13"
+            ],
+            [
+              "5",
+              "2,800",
+              "5,000,000",
+              "2d",
+              "415",
+              "15"
+            ],
+            [
+              "6",
+              "3,000",
+              "6,500,000",
+              "3d",
+              "509",
+              "16"
+            ],
+            [
+              "7",
+              "3,200",
+              "12,000,000",
+              "5d",
+              "657",
+              "17"
+            ],
+            [
+              "8",
+              "3,350",
+              "19,000,000",
+              "11d 12h",
+              "996",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Trigger Radius",
+            "Damage Type",
+            "Unit Type Targeted",
+            "Favorite Target"
+          ],
+          "rows": [
+            [
+              "4 tiles",
+              "Single Target",
+              "Air",
+              "None"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Seeking Air Mine1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Seeking_Air_Mine1.png/revision/latest?cb=20230613002136"
+        },
+        {
+          "file": "File:Seeking Air Mine1 Targeting.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/36/Seeking_Air_Mine1_Targeting.png/revision/latest?cb=20260509131752"
+        },
+        {
+          "file": "File:Seeking Air Mine3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Seeking_Air_Mine3.png/revision/latest?cb=20230613002140"
+        },
+        {
+          "file": "File:Seeking Air Mine3 Targeting.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/54/Seeking_Air_Mine3_Targeting.png/revision/latest?cb=20260509131816"
+        },
+        {
+          "file": "File:Seeking Air Mine5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6b/Seeking_Air_Mine5.png/revision/latest?cb=20230613002144"
+        },
+        {
+          "file": "File:Seeking Air Mine5 Targeting.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3d/Seeking_Air_Mine5_Targeting.png/revision/latest?cb=20260509131835"
+        },
+        {
+          "file": "File:Seeking Air Mine7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/51/Seeking_Air_Mine7.png/revision/latest?cb=20241124152736"
+        },
+        {
+          "file": "File:Seeking Air Mine7 Targeting.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f1/Seeking_Air_Mine7_Targeting.png/revision/latest?cb=20260509131924"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 7,
+        "2": 9,
+        "3": 10,
+        "4": 13,
+        "5": 15,
+        "6": 16,
+        "7": 17,
+        "8": 18
+      }
+    },
+    {
+      "n": "Skeleton Trap",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/3/3c/SkeletonTrap1_Air.png/revision/latest?cb=20170828102744",
+      "source": "https://clashofclans.fandom.com/wiki/Skeleton_Trap",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Spawned Units",
+            "Skeleton Level",
+            "Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "2",
+              "1",
+              "6,000",
+              "N/A",
+              "N/A",
+              "8"
+            ],
+            [
+              "2",
+              "3",
+              "1",
+              "250,000",
+              "5h",
+              "134",
+              "8"
+            ],
+            [
+              "3",
+              "4",
+              "1",
+              "400,000",
+              "8h",
+              "169",
+              "9"
+            ],
+            [
+              "4",
+              "5",
+              "1",
+              "1,000,000",
+              "12h",
+              "207",
+              "10"
+            ],
+            [
+              "5",
+              "5",
+              "2",
+              "18,000,000",
+              "7d",
+              "777",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Favorite Target",
+            "Attack Type",
+            "Attack Speed",
+            "Range",
+            "Movement Speed"
+          ],
+          "rows": [
+            [
+              "None",
+              "Melee (Ground Only)",
+              "0.7s",
+              "0.4",
+              "24"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Hitpoints"
+          ],
+          "rows": [
+            [
+              "1",
+              "25",
+              "17.5",
+              "30"
+            ],
+            [
+              "2",
+              "30",
+              "21",
+              "45"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Favorite Target",
+            "Attack Type",
+            "Attack Speed",
+            "Range",
+            "Movement Speed"
+          ],
+          "rows": [
+            [
+              "None",
+              "Melee (Air Only)",
+              "0.7s",
+              "0.4",
+              "17.6"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Hitpoints"
+          ],
+          "rows": [
+            [
+              "1",
+              "25",
+              "17.5",
+              "30"
+            ],
+            [
+              "2",
+              "30",
+              "21",
+              "45"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:SkeletonTrap1 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3c/SkeletonTrap1_Air.png/revision/latest?cb=20170828102744"
+        },
+        {
+          "file": "File:SkeletonTrap1 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0c/SkeletonTrap1_Ground.png/revision/latest?cb=20170828102715"
+        },
+        {
+          "file": "File:SkeletonTrap1 unarmed.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/67/SkeletonTrap1_unarmed.png/revision/latest?cb=20210204080350"
+        },
+        {
+          "file": "File:SkeletonTrap3 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/52/SkeletonTrap3_Air.png/revision/latest?cb=20170828102755"
+        },
+        {
+          "file": "File:SkeletonTrap3 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4f/SkeletonTrap3_Ground.png/revision/latest?cb=20170828102728"
+        },
+        {
+          "file": "File:SkeletonTrap3 unarmed.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9f/SkeletonTrap3_unarmed.png/revision/latest?cb=20171106190515"
+        },
+        {
+          "file": "File:SkeletonTrap5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c8/SkeletonTrap5.png/revision/latest?cb=20251120011150"
+        },
+        {
+          "file": "File:SkeletonTrap5 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d1/SkeletonTrap5_Air.png/revision/latest?cb=20251120011107"
+        },
+        {
+          "file": "File:SkeletonTrap5 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c8/SkeletonTrap5.png/revision/latest?cb=20251120011150"
+        },
+        {
+          "file": "File:SkeletonTrap5 unarmed.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9d/SkeletonTrap5_unarmed.png/revision/latest?cb=20251209002210"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 9,
+        "4": 10,
+        "5": 18
+      }
+    },
+    {
+      "n": "Tornado Trap",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/5/54/Tornado_Trap1.png/revision/latest?cb=20181022220244",
+      "source": "https://clashofclans.fandom.com/wiki/Tornado_Trap",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Duration",
+            "Total Damage",
+            "Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "5 seconds",
+              "39",
+              "1,800,000",
+              "N/A",
+              "N/A",
+              "11"
+            ],
+            [
+              "2",
+              "6 seconds",
+              "47",
+              "2,000,000",
+              "1d",
+              "293",
+              "11"
+            ],
+            [
+              "3",
+              "7 seconds",
+              "55",
+              "2,500,000",
+              "2d",
+              "415",
+              "12"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Damage per Second",
+            "Trigger Radius",
+            "Damage Radius",
+            "Damage Type",
+            "Unit Type Targeted",
+            "Favorite Target"
+          ],
+          "rows": [
+            [
+              "8",
+              "3 tiles",
+              "3 tiles",
+              "Area Splash",
+              "Ground & Air",
+              "None"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Tornado Trap1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/54/Tornado_Trap1.png/revision/latest?cb=20181022220244"
+        },
+        {
+          "file": "File:Tornado Trap2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ab/Tornado_Trap2.png/revision/latest?cb=20181022220256"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 11,
+        "2": 11,
+        "3": 12
+      }
+    },
+    {
+      "n": "Giga Bomb",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/b/b7/Giga_Bomb1.png/revision/latest?cb=20241122154922",
+      "source": "https://clashofclans.fandom.com/wiki/Giga_Bomb",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Level",
+            "Damage",
+            "Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,100",
+              "4,500,000",
+              "N/A",
+              "N/A",
+              "17"
+            ],
+            [
+              "2",
+              "1,200",
+              "8,500,000",
+              "4d",
+              "587",
+              "17"
+            ],
+            [
+              "3",
+              "1,300",
+              "12,500,000",
+              "5d",
+              "657",
+              "17"
+            ],
+            [
+              "4",
+              "1,400",
+              "20,000,000",
+              "13d",
+              "1,059",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Trigger Housing Space",
+            "Trigger Radius",
+            "Damage Radius",
+            "Damage Type",
+            "Unit Type Targeted",
+            "Favorite Target"
+          ],
+          "rows": [
+            [
+              "18",
+              "3.5 tiles",
+              "4.5 tiles",
+              "Area Splash",
+              "Ground & Air",
+              "None"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Giga Bomb1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b7/Giga_Bomb1.png/revision/latest?cb=20241122154922"
+        },
+        {
+          "file": "File:Giga Bomb1 unarmed.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e4/Giga_Bomb1_unarmed.png/revision/latest?cb=20241126134110"
+        },
+        {
+          "file": "File:Giga Bomb2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7e/Giga_Bomb2.png/revision/latest?cb=20241122155021"
+        },
+        {
+          "file": "File:Giga Bomb2 unarmed.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/ff/Giga_Bomb2_unarmed.png/revision/latest?cb=20241126134111"
+        },
+        {
+          "file": "File:Giga Bomb3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/72/Giga_Bomb3.png/revision/latest?cb=20241122154958"
+        },
+        {
+          "file": "File:Giga Bomb3 unarmed.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/91/Giga_Bomb3_unarmed.png/revision/latest?cb=20241126134112"
+        },
+        {
+          "file": "File:Giga Bomb4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/aa/Giga_Bomb4.png/revision/latest?cb=20260225010120"
+        },
+        {
+          "file": "File:Giga Bomb4 unarmed.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b5/Giga_Bomb4_unarmed.png/revision/latest?cb=20260225010141"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 17,
+        "2": 17,
+        "3": 17,
+        "4": 18
+      }
+    }
+  ],
+  "unverified": [],
+  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
+}

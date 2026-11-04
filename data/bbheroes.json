@@ -1,0 +1,1134 @@
+{
+  "id": "bbheroes",
+  "label": "Builder Heroes",
+  "format": "wiki-review-v1",
+  "updated": "2026-11-03",
+  "units": [
+    {
+      "n": "Battle Machine",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/f/f5/Avatar_Battle_Machine.png/revision/latest?cb=20230518083324",
+      "source": "https://clashofclans.fandom.com/wiki/Battle_Machine",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Movement Speed",
+            "Attack Speed",
+            "Range"
+          ],
+          "rows": [
+            [
+              "None",
+              "Melee (Ground Only)",
+              "16",
+              "1.2s",
+              "1.25 tiles"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Hitpoints",
+            "Ability Level",
+            "Upgrade Cost (Builder Elixir)",
+            "Upgrade Time",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "125",
+              "150",
+              "3,000",
+              "N/A",
+              "900,000",
+              "12h",
+              "5"
+            ],
+            [
+              "2",
+              "127",
+              "152.4",
+              "3,070",
+              "N/A",
+              "1,000,000",
+              "12h",
+              "5"
+            ],
+            [
+              "3",
+              "130",
+              "156",
+              "3,140",
+              "N/A",
+              "1,100,000",
+              "12h",
+              "5"
+            ],
+            [
+              "4",
+              "132",
+              "158.4",
+              "3,210",
+              "N/A",
+              "1,200,000",
+              "1d",
+              "5"
+            ],
+            [
+              "5",
+              "135",
+              "162",
+              "3,280",
+              "1",
+              "1,300,000",
+              "1d",
+              "5"
+            ],
+            [
+              "6",
+              "137",
+              "164.4",
+              "3,350",
+              "1",
+              "1,500,000",
+              "1d 12h",
+              "6"
+            ],
+            [
+              "7",
+              "140",
+              "168",
+              "3,420",
+              "1",
+              "1,600,000",
+              "1d 12h",
+              "6"
+            ],
+            [
+              "8",
+              "142",
+              "170.4",
+              "3,490",
+              "1",
+              "1,700,000",
+              "2d",
+              "6"
+            ],
+            [
+              "9",
+              "145",
+              "174",
+              "3,560",
+              "1",
+              "1,800,000",
+              "2d",
+              "6"
+            ],
+            [
+              "10",
+              "147",
+              "176.4",
+              "3,630",
+              "2",
+              "1,900,000",
+              "2d 12h",
+              "6"
+            ],
+            [
+              "11",
+              "150",
+              "180",
+              "3,700",
+              "2",
+              "2,100,000",
+              "2d 12h",
+              "7"
+            ],
+            [
+              "12",
+              "154",
+              "184.8",
+              "3,770",
+              "2",
+              "2,200,000",
+              "3d",
+              "7"
+            ],
+            [
+              "13",
+              "157",
+              "188.4",
+              "3,840",
+              "2",
+              "2,300,000",
+              "3d",
+              "7"
+            ],
+            [
+              "14",
+              "160",
+              "192",
+              "3,910",
+              "2",
+              "2,400,000",
+              "3d 12h",
+              "7"
+            ],
+            [
+              "15",
+              "164",
+              "196.8",
+              "3,980",
+              "3",
+              "2,500,000",
+              "3d 12h",
+              "7"
+            ],
+            [
+              "16",
+              "167",
+              "200.4",
+              "4,050",
+              "3",
+              "2,600,000",
+              "4d",
+              "7"
+            ],
+            [
+              "17",
+              "170",
+              "204",
+              "4,120",
+              "3",
+              "2,700,000",
+              "4d",
+              "7"
+            ],
+            [
+              "18",
+              "174",
+              "208.8",
+              "4,190",
+              "3",
+              "2,800,000",
+              "4d",
+              "7"
+            ],
+            [
+              "19",
+              "177",
+              "212.4",
+              "4,260",
+              "3",
+              "2,900,000",
+              "4d",
+              "7"
+            ],
+            [
+              "20",
+              "180",
+              "216",
+              "4,330",
+              "4",
+              "3,000,000",
+              "4d",
+              "7"
+            ],
+            [
+              "21",
+              "186",
+              "223.2",
+              "4,400",
+              "4",
+              "3,100,000",
+              "5d",
+              "8"
+            ],
+            [
+              "22",
+              "192",
+              "230.4",
+              "4,470",
+              "4",
+              "3,200,000",
+              "5d",
+              "8"
+            ],
+            [
+              "23",
+              "198",
+              "237.6",
+              "4,540",
+              "4",
+              "3,300,000",
+              "5d",
+              "8"
+            ],
+            [
+              "24",
+              "204",
+              "244.8",
+              "4,610",
+              "4",
+              "3,400,000",
+              "5d",
+              "8"
+            ],
+            [
+              "25",
+              "210",
+              "252",
+              "4,680",
+              "5",
+              "3,500,000",
+              "5d",
+              "8"
+            ],
+            [
+              "26",
+              "218",
+              "261.6",
+              "4,750",
+              "5",
+              "3,600,000",
+              "6d",
+              "9"
+            ],
+            [
+              "27",
+              "226",
+              "271.2",
+              "4,820",
+              "5",
+              "3,700,000",
+              "6d",
+              "9"
+            ],
+            [
+              "28",
+              "234",
+              "280.8",
+              "4,890",
+              "5",
+              "3,800,000",
+              "6d",
+              "9"
+            ],
+            [
+              "29",
+              "242",
+              "290.4",
+              "4,960",
+              "5",
+              "3,900,000",
+              "6d",
+              "9"
+            ],
+            [
+              "30",
+              "250",
+              "300",
+              "5,030",
+              "6",
+              "4,000,000",
+              "6d",
+              "9"
+            ],
+            [
+              "31",
+              "258",
+              "309.6",
+              "5,100",
+              "6",
+              "4,100,000",
+              "7d",
+              "10"
+            ],
+            [
+              "32",
+              "266",
+              "319.2",
+              "5,170",
+              "6",
+              "4,200,000",
+              "7d",
+              "10"
+            ],
+            [
+              "33",
+              "274",
+              "328.8",
+              "5,240",
+              "6",
+              "4,300,000",
+              "7d",
+              "10"
+            ],
+            [
+              "34",
+              "282",
+              "338.4",
+              "5,310",
+              "6",
+              "4,400,000",
+              "7d",
+              "10"
+            ],
+            [
+              "35",
+              "290",
+              "348",
+              "5,380",
+              "7",
+              "4,500,000",
+              "7d",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Ability Cooldown",
+            "Duration"
+          ],
+          "rows": [
+            [
+              "13 seconds per charge level",
+              "3 hits"
+            ]
+          ]
+        },
+        {
+          "heading": "Charge Level 1 / Charge Level 1",
+          "columns": [
+            "Ability Level",
+            "Ability DPS",
+            "Ability DPH",
+            "Health Recovery",
+            "Number of Targets"
+          ],
+          "rows": [
+            [
+              "1",
+              "360",
+              "432",
+              "800",
+              "1"
+            ],
+            [
+              "2",
+              "400",
+              "480",
+              "850",
+              "1"
+            ],
+            [
+              "3",
+              "440",
+              "528",
+              "900",
+              "1"
+            ],
+            [
+              "4",
+              "480",
+              "576",
+              "950",
+              "1"
+            ],
+            [
+              "5",
+              "520",
+              "624",
+              "1,000",
+              "1"
+            ],
+            [
+              "6",
+              "560",
+              "672",
+              "1,050",
+              "1"
+            ],
+            [
+              "7",
+              "600",
+              "716",
+              "1,100",
+              "1"
+            ]
+          ]
+        },
+        {
+          "heading": "Charge Level 2 / Charge Level 2",
+          "columns": [
+            "Attack Type",
+            "Chain Damage Decay",
+            "Chain Distance"
+          ],
+          "rows": [
+            [
+              "Chain Lightning",
+              "-50%",
+              "3 tiles"
+            ]
+          ]
+        },
+        {
+          "heading": "Charge Level 2 / Charge Level 2",
+          "columns": [
+            "Ability Level",
+            "Ability DPS (Primary Target)",
+            "Ability DPH (Primary Target)",
+            "Health Recovery",
+            "Number of Targets"
+          ],
+          "rows": [
+            [
+              "1",
+              "585",
+              "702",
+              "1,600",
+              "1"
+            ],
+            [
+              "2",
+              "650",
+              "780",
+              "1,700",
+              "1"
+            ],
+            [
+              "3",
+              "715",
+              "858",
+              "1,800",
+              "2"
+            ],
+            [
+              "4",
+              "780",
+              "936",
+              "1,900",
+              "2"
+            ],
+            [
+              "5",
+              "845",
+              "1,014",
+              "2,000",
+              "2"
+            ],
+            [
+              "6",
+              "910",
+              "1,092",
+              "2,100",
+              "2"
+            ],
+            [
+              "7",
+              "975",
+              "1,170",
+              "2,200",
+              "2"
+            ]
+          ]
+        },
+        {
+          "heading": "Charge Level 3 / Charge Level 3",
+          "columns": [
+            "Attack Type",
+            "Chain Damage Decay",
+            "Chain Distance"
+          ],
+          "rows": [
+            [
+              "Chain Lightning",
+              "-30%",
+              "3 tiles"
+            ]
+          ]
+        },
+        {
+          "heading": "Charge Level 3 / Charge Level 3",
+          "columns": [
+            "Ability Level",
+            "Ability DPS (Primary Target)",
+            "Ability DPH (Primary Target)",
+            "Health Recovery",
+            "Number of Targets"
+          ],
+          "rows": [
+            [
+              "1",
+              "810",
+              "972",
+              "2,400",
+              "1"
+            ],
+            [
+              "2",
+              "900",
+              "1,080",
+              "2,550",
+              "1"
+            ],
+            [
+              "3",
+              "990",
+              "1,188",
+              "2,700",
+              "3"
+            ],
+            [
+              "4",
+              "1,080",
+              "1,296",
+              "2,850",
+              "3"
+            ],
+            [
+              "5",
+              "1,170",
+              "1,404",
+              "3,000",
+              "3"
+            ],
+            [
+              "6",
+              "1,260",
+              "1,512",
+              "3,150",
+              "3"
+            ],
+            [
+              "7",
+              "1,350",
+              "1,620",
+              "3,300",
+              "3"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Battle Machine.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f5/Avatar_Battle_Machine.png/revision/latest?cb=20230518083324"
+        },
+        {
+          "file": "File:Battle Machine1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/44/Battle_Machine1.png/revision/latest?cb=20170526043502"
+        },
+        {
+          "file": "File:Battle Machine10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/53/Battle_Machine10.png/revision/latest?cb=20170526043503"
+        },
+        {
+          "file": "File:Battle Machine20.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6f/Battle_Machine20.png/revision/latest?cb=20170526043503"
+        },
+        {
+          "file": "File:Battle Machine26.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cf/Battle_Machine26.png/revision/latest?cb=20170526043504"
+        },
+        {
+          "file": "File:Battle Machine30.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7c/Battle_Machine30.png/revision/latest?cb=20190621204043"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 5,
+        "2": 5,
+        "3": 5,
+        "4": 5,
+        "5": 5,
+        "6": 6,
+        "7": 6,
+        "8": 6,
+        "9": 6,
+        "10": 6,
+        "11": 7,
+        "12": 7,
+        "13": 7,
+        "14": 7,
+        "15": 7,
+        "16": 7,
+        "17": 7,
+        "18": 7,
+        "19": 7,
+        "20": 7,
+        "21": 8,
+        "22": 8,
+        "23": 8,
+        "24": 8,
+        "25": 8,
+        "26": 9,
+        "27": 9,
+        "28": 9,
+        "29": 9,
+        "30": 9,
+        "31": 10,
+        "32": 10,
+        "33": 10,
+        "34": 10,
+        "35": 10
+      }
+    },
+    {
+      "n": "Battle Copter",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/2/28/Avatar_Battle_Copter.png/revision/latest?cb=20230518083245",
+      "source": "https://clashofclans.fandom.com/wiki/Battle_Copter",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Movement Speed",
+            "Attack Speed",
+            "Range"
+          ],
+          "rows": [
+            [
+              "None",
+              "Ranged (Ground & Air)",
+              "14",
+              "0.65s",
+              "7 tiles"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Hitpoints",
+            "Ability Level",
+            "Upgrade Cost (Builder Elixir)",
+            "Upgrade Time",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "15",
+              "112",
+              "72.8",
+              "2,857",
+              "1",
+              "2,500,000",
+              "N/A",
+              "8"
+            ],
+            [
+              "16",
+              "116",
+              "75.4",
+              "2,885",
+              "1",
+              "2,600,000",
+              "5d",
+              "8"
+            ],
+            [
+              "17",
+              "119",
+              "77.35",
+              "2,915",
+              "1",
+              "2,700,000",
+              "5d",
+              "8"
+            ],
+            [
+              "18",
+              "123",
+              "79.95",
+              "2,943",
+              "1",
+              "2,800,000",
+              "5d",
+              "8"
+            ],
+            [
+              "19",
+              "126",
+              "81.9",
+              "2,972",
+              "1",
+              "2,900,000",
+              "5d",
+              "8"
+            ],
+            [
+              "20",
+              "130",
+              "84.5",
+              "3,003",
+              "2",
+              "3,000,000",
+              "5d",
+              "8"
+            ],
+            [
+              "21",
+              "134",
+              "87.1",
+              "3,032",
+              "2",
+              "3,100,000",
+              "5d",
+              "8"
+            ],
+            [
+              "22",
+              "137",
+              "89.05",
+              "3,062",
+              "2",
+              "3,200,000",
+              "5d",
+              "8"
+            ],
+            [
+              "23",
+              "141",
+              "91.65",
+              "3,094",
+              "2",
+              "3,300,000",
+              "5d",
+              "8"
+            ],
+            [
+              "24",
+              "144",
+              "93.6",
+              "3,124",
+              "2",
+              "3,400,000",
+              "5d",
+              "8"
+            ],
+            [
+              "25",
+              "148",
+              "96.2",
+              "3,155",
+              "3",
+              "3,500,000",
+              "5d",
+              "8"
+            ],
+            [
+              "26",
+              "153",
+              "99.45",
+              "3,187",
+              "3",
+              "3,600,000",
+              "6d",
+              "9"
+            ],
+            [
+              "27",
+              "157",
+              "102.05",
+              "3,220",
+              "3",
+              "3,700,000",
+              "6d",
+              "9"
+            ],
+            [
+              "28",
+              "162",
+              "105.3",
+              "3,252",
+              "3",
+              "3,800,000",
+              "6d",
+              "9"
+            ],
+            [
+              "29",
+              "166",
+              "107.9",
+              "3,285",
+              "3",
+              "3,900,000",
+              "6d",
+              "9"
+            ],
+            [
+              "30",
+              "171",
+              "111.15",
+              "3,318",
+              "4",
+              "4,000,000",
+              "6d",
+              "9"
+            ],
+            [
+              "31",
+              "175",
+              "113.75",
+              "3,348",
+              "4",
+              "4,100,000",
+              "7d",
+              "10"
+            ],
+            [
+              "32",
+              "180",
+              "117",
+              "3,375",
+              "4",
+              "4,200,000",
+              "7d",
+              "10"
+            ],
+            [
+              "33",
+              "184",
+              "119.6",
+              "3,402",
+              "4",
+              "4,300,000",
+              "7d",
+              "10"
+            ],
+            [
+              "34",
+              "189",
+              "122.85",
+              "3,429",
+              "4",
+              "4,400,000",
+              "7d",
+              "10"
+            ],
+            [
+              "35",
+              "193",
+              "125.45",
+              "3,456",
+              "5",
+              "4,500,000",
+              "7d",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Ability Cooldown",
+            "Movement Speed during Ability"
+          ],
+          "rows": [
+            [
+              "14 seconds per charge level",
+              "56?"
+            ]
+          ]
+        },
+        {
+          "heading": "Charge Level 1 / Charge Level 1",
+          "columns": [
+            "Damage Type"
+          ],
+          "rows": [
+            [
+              "Splash - 0.5 tiles"
+            ]
+          ]
+        },
+        {
+          "heading": "Charge Level 1 / Charge Level 1",
+          "columns": [
+            "Ability Level",
+            "Damage",
+            "Health Recovery"
+          ],
+          "rows": [
+            [
+              "1",
+              "179",
+              "550"
+            ],
+            [
+              "2",
+              "209",
+              "575"
+            ],
+            [
+              "3",
+              "239",
+              "600"
+            ],
+            [
+              "4",
+              "279",
+              "625"
+            ],
+            [
+              "5",
+              "319",
+              "650"
+            ]
+          ]
+        },
+        {
+          "heading": "Charge Level 2 / Charge Level 2",
+          "columns": [
+            "Damage Type"
+          ],
+          "rows": [
+            [
+              "Splash - 2 tiles"
+            ]
+          ]
+        },
+        {
+          "heading": "Charge Level 2 / Charge Level 2",
+          "columns": [
+            "Ability Level",
+            "Damage",
+            "Health Recovery"
+          ],
+          "rows": [
+            [
+              "1",
+              "274",
+              "1,100"
+            ],
+            [
+              "2",
+              "320",
+              "1,150"
+            ],
+            [
+              "3",
+              "365",
+              "1,200"
+            ],
+            [
+              "4",
+              "426",
+              "1,250"
+            ],
+            [
+              "5",
+              "487",
+              "1,300"
+            ]
+          ]
+        },
+        {
+          "heading": "Charge Level 3 / Charge Level 3",
+          "columns": [
+            "Damage Type"
+          ],
+          "rows": [
+            [
+              "Splash - 4 tiles"
+            ]
+          ]
+        },
+        {
+          "heading": "Charge Level 3 / Charge Level 3",
+          "columns": [
+            "Ability Level",
+            "Damage",
+            "Health Recovery"
+          ],
+          "rows": [
+            [
+              "1",
+              "368",
+              "1,650"
+            ],
+            [
+              "2",
+              "430",
+              "1,725"
+            ],
+            [
+              "3",
+              "491",
+              "1,800"
+            ],
+            [
+              "4",
+              "573",
+              "1,875"
+            ],
+            [
+              "5",
+              "655",
+              "1,950"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Battle Copter.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/28/Avatar_Battle_Copter.png/revision/latest?cb=20230518083245"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "15": 8,
+        "16": 8,
+        "17": 8,
+        "18": 8,
+        "19": 8,
+        "20": 8,
+        "21": 8,
+        "22": 8,
+        "23": 8,
+        "24": 8,
+        "25": 8,
+        "26": 9,
+        "27": 9,
+        "28": 9,
+        "29": 9,
+        "30": 9,
+        "31": 10,
+        "32": 10,
+        "33": 10,
+        "34": 10,
+        "35": 10
+      }
+    }
+  ],
+  "unverified": [],
+  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
+}

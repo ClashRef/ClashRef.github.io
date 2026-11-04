@@ -1,0 +1,5242 @@
+{
+  "id": "super",
+  "label": "Super Troops",
+  "format": "wiki-review-v1",
+  "updated": "2026-11-03",
+  "units": [
+    {
+      "n": "Super Barbarian",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/81/Avatar_Super_Barbarian.png/revision/latest?cb=20200913075458",
+      "source": "https://clashofclans.fandom.com/wiki/Super_Barbarian/Home_Village",
+      "revision": 622930,
+      "tables": [
+        {
+          "heading": "Unlock requirements",
+          "columns": [
+            "Base Troop",
+            "Base Troop Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "Barbarian",
+              "8",
+              "11"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Range",
+            "Special Ability",
+            "Rage Movement Speed Increase",
+            "Rage Damage Increase"
+          ],
+          "rows": [
+            [
+              "None",
+              "Melee (Ground Only)",
+              "5",
+              "20",
+              "0.8s",
+              "0.6 tiles",
+              "Rage",
+              "16",
+              "70%"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Boost Cost (Dark Elixir)",
+            "Boost Duration",
+            "Barbarian Level Required"
+          ],
+          "rows": [
+            [
+              "25,000",
+              "3d",
+              "8"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "Hitpoints",
+            "Base Research Cost (Elixir)",
+            "Base Research Time",
+            "Laboratory Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "8",
+              "180",
+              "144",
+              "1,000",
+              "1,500,000",
+              "1d",
+              "9",
+              "11"
+            ],
+            [
+              "9",
+              "200",
+              "160",
+              "1,100",
+              "2,500,000",
+              "1d 12h",
+              "10",
+              "12"
+            ],
+            [
+              "10",
+              "220",
+              "176",
+              "1,200",
+              "4,300,000",
+              "2d",
+              "12",
+              "14"
+            ],
+            [
+              "11",
+              "240",
+              "192",
+              "1,300",
+              "6,000,000",
+              "3d",
+              "13",
+              "15"
+            ],
+            [
+              "12",
+              "250",
+              "200",
+              "1,350",
+              "8,000,000",
+              "4d",
+              "14",
+              "16"
+            ],
+            [
+              "13",
+              "270",
+              "216",
+              "1,450",
+              "24,000,000",
+              "12d 12h",
+              "16",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Super Barbarian.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/81/Avatar_Super_Barbarian.png/revision/latest?cb=20200913075458"
+        }
+      ],
+      "unverified": [],
+      "specialLevelTables": [],
+      "baseTroop": "Barbarian",
+      "baseLevelRequired": 8,
+      "unlockTH": 11,
+      "hallByLevel": {
+        "8": 11,
+        "9": 12,
+        "10": 14,
+        "11": 15,
+        "12": 16,
+        "13": 18
+      },
+      "baseResearch": {
+        "1": {
+          "townHall": 1,
+          "laboratory": 0,
+          "cost": 0,
+          "resource": "Elixir",
+          "time": "0m"
+        },
+        "2": {
+          "townHall": 3,
+          "laboratory": 1,
+          "cost": 10000,
+          "resource": "Elixir",
+          "time": "30m"
+        },
+        "3": {
+          "townHall": 5,
+          "laboratory": 3,
+          "cost": 50000,
+          "resource": "Elixir",
+          "time": "1h"
+        },
+        "4": {
+          "townHall": 7,
+          "laboratory": 5,
+          "cost": 130000,
+          "resource": "Elixir",
+          "time": "2h"
+        },
+        "5": {
+          "townHall": 8,
+          "laboratory": 6,
+          "cost": 300000,
+          "resource": "Elixir",
+          "time": "4h"
+        },
+        "6": {
+          "townHall": 9,
+          "laboratory": 7,
+          "cost": 800000,
+          "resource": "Elixir",
+          "time": "8h"
+        },
+        "7": {
+          "townHall": 10,
+          "laboratory": 8,
+          "cost": 1000000,
+          "resource": "Elixir",
+          "time": "12h"
+        },
+        "8": {
+          "townHall": 11,
+          "laboratory": 9,
+          "cost": 1500000,
+          "resource": "Elixir",
+          "time": "1d"
+        },
+        "9": {
+          "townHall": 12,
+          "laboratory": 10,
+          "cost": 2500000,
+          "resource": "Elixir",
+          "time": "1d 12h"
+        },
+        "10": {
+          "townHall": 14,
+          "laboratory": 12,
+          "cost": 4300000,
+          "resource": "Elixir",
+          "time": "2d"
+        },
+        "11": {
+          "townHall": 15,
+          "laboratory": 13,
+          "cost": 6000000,
+          "resource": "Elixir",
+          "time": "3d"
+        },
+        "12": {
+          "townHall": 16,
+          "laboratory": 14,
+          "cost": 8000000,
+          "resource": "Elixir",
+          "time": "4d"
+        },
+        "13": {
+          "townHall": 18,
+          "laboratory": 16,
+          "cost": 24000000,
+          "resource": "Elixir",
+          "time": "12d 12h"
+        }
+      },
+      "boost": {
+        "cost": 25000,
+        "resource": "Dark Elixir",
+        "duration": "3d",
+        "alternative": "Super Potion"
+      },
+      "sourceCorrections": [],
+      "note": "Unlock at TH 11 with Barbarian level 8. Super Troop levels follow Barbarian levels. Research costs and times below upgrade the base troop, not the Super Troop separately. Boosting costs 25,000 Dark Elixir or one Super Potion for 3 days. Normal self-training caps exclude event-only levels, donations, and temporary boosts.",
+      "verification": {
+        "checked": "2026-11-03",
+        "superTroop": {
+          "page": "Super Barbarian/Home Village",
+          "revision": 622930,
+          "rawWikitextSHA256": "83337129ab3fca760da572d0f6fd8339175df4544ffb873f9c4fed0620ad1e42"
+        },
+        "baseTroop": {
+          "page": "Barbarian/Home Village",
+          "revision": 624623,
+          "rawWikitextSHA256": "b84cc19138a387f16afeb97d79fa6f9022361b61c136870f8c2c979b4d1bd305"
+        },
+        "laboratory": {
+          "page": "Laboratory",
+          "revision": 625132,
+          "rawWikitextSHA256": "df12db31196c94aecf18e11a85b6f6bd9171972b8c290095adb8fa417beeb0a8"
+        },
+        "unlockBuilding": {
+          "page": "Barracks",
+          "revision": 625112,
+          "rawWikitextSHA256": "6c6fbff792fb89a76d14c13db6ded1e6511db22a7d7ee420c1f9d4b9fd5b9dd5"
+        },
+        "boostRule": {
+          "page": "Template:SuperTroopBoost",
+          "revision": 598512,
+          "rawWikitextSHA256": "cff43bb11f9a31f4ad589d3993683792f1965c3a7538fdda00dc2ea40dc5dd5e"
+        },
+        "generalRule": {
+          "page": "Super Troops",
+          "revision": 613574,
+          "rawWikitextSHA256": "1ded692edbaf3f808d344763745a9ef89855feaaf14387b086d7909bbe0cf2a9"
+        }
+      }
+    },
+    {
+      "n": "Super Archer",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/3/3a/Avatar_Super_Archer.png/revision/latest?cb=20200913075643",
+      "source": "https://clashofclans.fandom.com/wiki/Super_Archer",
+      "revision": 621780,
+      "tables": [
+        {
+          "heading": "Unlock requirements",
+          "columns": [
+            "Base Troop",
+            "Base Troop Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "Archer",
+              "8",
+              "11"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Range",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "None",
+              "Ranged (Ground & Air)",
+              "12",
+              "24",
+              "1.5s",
+              "6 (Target) 12 (Projectile)",
+              "Sharp Shot"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Boost Cost (Dark Elixir)",
+            "Boost Duration",
+            "Archer Level Required"
+          ],
+          "rows": [
+            [
+              "25,000",
+              "3d",
+              "8"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Hitpoints",
+            "Base Research Cost (Elixir)",
+            "Base Research Time",
+            "Laboratory Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "8",
+              "120",
+              "180",
+              "450",
+              "2,300,000",
+              "1d 12h",
+              "9",
+              "11"
+            ],
+            [
+              "9",
+              "132",
+              "198",
+              "510",
+              "3,000,000",
+              "2d",
+              "10",
+              "12"
+            ],
+            [
+              "10",
+              "144",
+              "216",
+              "565",
+              "4,500,000",
+              "3d",
+              "12",
+              "14"
+            ],
+            [
+              "11",
+              "156",
+              "234",
+              "605",
+              "6,500,000",
+              "4d",
+              "13",
+              "15"
+            ],
+            [
+              "12",
+              "162",
+              "243",
+              "645",
+              "9,000,000",
+              "4d 12h",
+              "14",
+              "16"
+            ],
+            [
+              "13",
+              "166",
+              "249",
+              "685",
+              "14,000,000",
+              "9d",
+              "15",
+              "17"
+            ],
+            [
+              "14",
+              "170",
+              "255",
+              "725",
+              "25,000,000",
+              "13d 12h",
+              "16",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Super Archer.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3a/Avatar_Super_Archer.png/revision/latest?cb=20200913075643"
+        },
+        {
+          "file": "File:Super Archer8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/be/Super_Archer8.png/revision/latest?cb=20200901090418"
+        }
+      ],
+      "unverified": [],
+      "specialLevelTables": [],
+      "baseTroop": "Archer",
+      "baseLevelRequired": 8,
+      "unlockTH": 11,
+      "hallByLevel": {
+        "8": 11,
+        "9": 12,
+        "10": 14,
+        "11": 15,
+        "12": 16,
+        "13": 17,
+        "14": 18
+      },
+      "baseResearch": {
+        "1": {
+          "townHall": 1,
+          "laboratory": 0,
+          "cost": 0,
+          "resource": "Elixir",
+          "time": "0m"
+        },
+        "2": {
+          "townHall": 3,
+          "laboratory": 1,
+          "cost": 20000,
+          "resource": "Elixir",
+          "time": "1h"
+        },
+        "3": {
+          "townHall": 5,
+          "laboratory": 3,
+          "cost": 80000,
+          "resource": "Elixir",
+          "time": "2h"
+        },
+        "4": {
+          "townHall": 7,
+          "laboratory": 5,
+          "cost": 200000,
+          "resource": "Elixir",
+          "time": "3h"
+        },
+        "5": {
+          "townHall": 8,
+          "laboratory": 6,
+          "cost": 500000,
+          "resource": "Elixir",
+          "time": "8h"
+        },
+        "6": {
+          "townHall": 9,
+          "laboratory": 7,
+          "cost": 1000000,
+          "resource": "Elixir",
+          "time": "12h"
+        },
+        "7": {
+          "townHall": 10,
+          "laboratory": 8,
+          "cost": 1500000,
+          "resource": "Elixir",
+          "time": "1d"
+        },
+        "8": {
+          "townHall": 11,
+          "laboratory": 9,
+          "cost": 2300000,
+          "resource": "Elixir",
+          "time": "1d 12h"
+        },
+        "9": {
+          "townHall": 12,
+          "laboratory": 10,
+          "cost": 3000000,
+          "resource": "Elixir",
+          "time": "2d"
+        },
+        "10": {
+          "townHall": 14,
+          "laboratory": 12,
+          "cost": 4500000,
+          "resource": "Elixir",
+          "time": "3d"
+        },
+        "11": {
+          "townHall": 15,
+          "laboratory": 13,
+          "cost": 6500000,
+          "resource": "Elixir",
+          "time": "4d"
+        },
+        "12": {
+          "townHall": 16,
+          "laboratory": 14,
+          "cost": 9000000,
+          "resource": "Elixir",
+          "time": "4d 12h"
+        },
+        "13": {
+          "townHall": 17,
+          "laboratory": 15,
+          "cost": 14000000,
+          "resource": "Elixir",
+          "time": "9d"
+        },
+        "14": {
+          "townHall": 18,
+          "laboratory": 16,
+          "cost": 25000000,
+          "resource": "Elixir",
+          "time": "13d 12h"
+        }
+      },
+      "boost": {
+        "cost": 25000,
+        "resource": "Dark Elixir",
+        "duration": "3d",
+        "alternative": "Super Potion"
+      },
+      "sourceCorrections": [],
+      "note": "Unlock at TH 11 with Archer level 8. Super Troop levels follow Archer levels. Research costs and times below upgrade the base troop, not the Super Troop separately. Boosting costs 25,000 Dark Elixir or one Super Potion for 3 days. Normal self-training caps exclude event-only levels, donations, and temporary boosts.",
+      "verification": {
+        "checked": "2026-11-03",
+        "superTroop": {
+          "page": "Super Archer",
+          "revision": 621780,
+          "rawWikitextSHA256": "47d280ea90b340c873798aa195066fa707f247e3167c74bfd26134bf5e7885d9"
+        },
+        "baseTroop": {
+          "page": "Archer",
+          "revision": 624208,
+          "rawWikitextSHA256": "270f99ede12d70ea7f2072cb9418f0465fa0cab945f21c8488f86b420fb994aa"
+        },
+        "laboratory": {
+          "page": "Laboratory",
+          "revision": 625132,
+          "rawWikitextSHA256": "df12db31196c94aecf18e11a85b6f6bd9171972b8c290095adb8fa417beeb0a8"
+        },
+        "unlockBuilding": {
+          "page": "Barracks",
+          "revision": 625112,
+          "rawWikitextSHA256": "6c6fbff792fb89a76d14c13db6ded1e6511db22a7d7ee420c1f9d4b9fd5b9dd5"
+        },
+        "boostRule": {
+          "page": "Template:SuperTroopBoost",
+          "revision": 598512,
+          "rawWikitextSHA256": "cff43bb11f9a31f4ad589d3993683792f1965c3a7538fdda00dc2ea40dc5dd5e"
+        },
+        "generalRule": {
+          "page": "Super Troops",
+          "revision": 613574,
+          "rawWikitextSHA256": "1ded692edbaf3f808d344763745a9ef89855feaaf14387b086d7909bbe0cf2a9"
+        }
+      }
+    },
+    {
+      "n": "Super Giant",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/6/6b/Avatar_Super_Giant.png/revision/latest?cb=20200913075731",
+      "source": "https://clashofclans.fandom.com/wiki/Super_Giant/Home_Village",
+      "revision": 622246,
+      "tables": [
+        {
+          "heading": "Unlock requirements",
+          "columns": [
+            "Base Troop",
+            "Base Troop Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "Giant",
+              "9",
+              "12"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Range",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "Defenses",
+              "Melee (Ground Only)",
+              "10",
+              "12",
+              "2s",
+              "1 tile",
+              "Wall Buster"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Boost Cost (Dark Elixir)",
+            "Boost Duration",
+            "Giant Level Required"
+          ],
+          "rows": [
+            [
+              "25,000",
+              "3d",
+              "9"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "Damage vs Walls",
+            "Hitpoints",
+            "Base Research Cost (Elixir)",
+            "Base Research Time",
+            "Laboratory Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "9",
+              "130",
+              "260",
+              "1,300",
+              "4,000",
+              "3,400,000",
+              "2d 6h",
+              "10",
+              "12"
+            ],
+            [
+              "10",
+              "140",
+              "280",
+              "1,400",
+              "4,200",
+              "5,000,000",
+              "3d",
+              "11",
+              "13"
+            ],
+            [
+              "11",
+              "150",
+              "300",
+              "1,500",
+              "4,400",
+              "7,500,000",
+              "4d",
+              "13",
+              "15"
+            ],
+            [
+              "12",
+              "160",
+              "320",
+              "1,600",
+              "4,600",
+              "10,000,000",
+              "5d",
+              "14",
+              "16"
+            ],
+            [
+              "13",
+              "175",
+              "350",
+              "1,750",
+              "4,900",
+              "15,000,000",
+              "9d 12h",
+              "15",
+              "17"
+            ],
+            [
+              "14",
+              "205",
+              "410",
+              "2,050",
+              "5,600",
+              "25,000,000",
+              "13d 12h",
+              "16",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Super Giant.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6b/Avatar_Super_Giant.png/revision/latest?cb=20200913075731"
+        }
+      ],
+      "unverified": [],
+      "specialLevelTables": [],
+      "baseTroop": "Giant",
+      "baseLevelRequired": 9,
+      "unlockTH": 12,
+      "hallByLevel": {
+        "9": 12,
+        "10": 13,
+        "11": 15,
+        "12": 16,
+        "13": 17,
+        "14": 18
+      },
+      "baseResearch": {
+        "1": {
+          "townHall": 1,
+          "laboratory": 0,
+          "cost": 0,
+          "resource": "Elixir",
+          "time": "0m"
+        },
+        "2": {
+          "townHall": 4,
+          "laboratory": 2,
+          "cost": 40000,
+          "resource": "Elixir",
+          "time": "2h"
+        },
+        "3": {
+          "townHall": 6,
+          "laboratory": 4,
+          "cost": 150000,
+          "resource": "Elixir",
+          "time": "4h"
+        },
+        "4": {
+          "townHall": 7,
+          "laboratory": 5,
+          "cost": 400000,
+          "resource": "Elixir",
+          "time": "6h"
+        },
+        "5": {
+          "townHall": 8,
+          "laboratory": 6,
+          "cost": 800000,
+          "resource": "Elixir",
+          "time": "12h"
+        },
+        "6": {
+          "townHall": 9,
+          "laboratory": 7,
+          "cost": 1500000,
+          "resource": "Elixir",
+          "time": "1d"
+        },
+        "7": {
+          "townHall": 10,
+          "laboratory": 8,
+          "cost": 2300000,
+          "resource": "Elixir",
+          "time": "1d 12h"
+        },
+        "8": {
+          "townHall": 11,
+          "laboratory": 9,
+          "cost": 2600000,
+          "resource": "Elixir",
+          "time": "2d"
+        },
+        "9": {
+          "townHall": 12,
+          "laboratory": 10,
+          "cost": 3400000,
+          "resource": "Elixir",
+          "time": "2d 6h"
+        },
+        "10": {
+          "townHall": 13,
+          "laboratory": 11,
+          "cost": 5000000,
+          "resource": "Elixir",
+          "time": "3d"
+        },
+        "11": {
+          "townHall": 15,
+          "laboratory": 13,
+          "cost": 7500000,
+          "resource": "Elixir",
+          "time": "4d"
+        },
+        "12": {
+          "townHall": 16,
+          "laboratory": 14,
+          "cost": 10000000,
+          "resource": "Elixir",
+          "time": "5d"
+        },
+        "13": {
+          "townHall": 17,
+          "laboratory": 15,
+          "cost": 15000000,
+          "resource": "Elixir",
+          "time": "9d 12h"
+        },
+        "14": {
+          "townHall": 18,
+          "laboratory": 16,
+          "cost": 25000000,
+          "resource": "Elixir",
+          "time": "13d 12h"
+        }
+      },
+      "boost": {
+        "cost": 25000,
+        "resource": "Dark Elixir",
+        "duration": "3d",
+        "alternative": "Super Potion"
+      },
+      "sourceCorrections": [],
+      "note": "Unlock at TH 12 with Giant level 9. Super Troop levels follow Giant levels. Research costs and times below upgrade the base troop, not the Super Troop separately. Boosting costs 25,000 Dark Elixir or one Super Potion for 3 days. Normal self-training caps exclude event-only levels, donations, and temporary boosts.",
+      "verification": {
+        "checked": "2026-11-03",
+        "superTroop": {
+          "page": "Super Giant/Home Village",
+          "revision": 622246,
+          "rawWikitextSHA256": "3d6baf45a4704fac008d3f3869162b6fb6476c048dd6fe93aa1be6bff7fbc485"
+        },
+        "baseTroop": {
+          "page": "Giant",
+          "revision": 625274,
+          "rawWikitextSHA256": "0786b29f9262c3225fc0bff4436674c619d52a2d07d113d123201e97149f6b0e"
+        },
+        "laboratory": {
+          "page": "Laboratory",
+          "revision": 625132,
+          "rawWikitextSHA256": "df12db31196c94aecf18e11a85b6f6bd9171972b8c290095adb8fa417beeb0a8"
+        },
+        "unlockBuilding": {
+          "page": "Barracks",
+          "revision": 625112,
+          "rawWikitextSHA256": "6c6fbff792fb89a76d14c13db6ded1e6511db22a7d7ee420c1f9d4b9fd5b9dd5"
+        },
+        "boostRule": {
+          "page": "Template:SuperTroopBoost",
+          "revision": 598512,
+          "rawWikitextSHA256": "cff43bb11f9a31f4ad589d3993683792f1965c3a7538fdda00dc2ea40dc5dd5e"
+        },
+        "generalRule": {
+          "page": "Super Troops",
+          "revision": 613574,
+          "rawWikitextSHA256": "1ded692edbaf3f808d344763745a9ef89855feaaf14387b086d7909bbe0cf2a9"
+        }
+      }
+    },
+    {
+      "n": "Sneaky Goblin",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/6/6e/Avatar_Sneaky_Goblin.png/revision/latest?cb=20200913075807",
+      "source": "https://clashofclans.fandom.com/wiki/Sneaky_Goblin",
+      "revision": 622829,
+      "tables": [
+        {
+          "heading": "Unlock requirements",
+          "columns": [
+            "Base Troop",
+            "Base Troop Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "Goblin",
+              "7",
+              "11"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Range",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "Resources (Damage x2)",
+              "Melee (Ground Only)",
+              "3",
+              "32",
+              "1s",
+              "0.4 tiles",
+              "Cloak"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Boost Cost (Dark Elixir)",
+            "Boost Duration",
+            "Goblin Level Required"
+          ],
+          "rows": [
+            [
+              "25,000",
+              "3d",
+              "7"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "DPS on Resource Buildings",
+            "Hitpoints",
+            "Base Research Cost (Elixir)",
+            "Base Research Time",
+            "Laboratory Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "7",
+              "155",
+              "155",
+              "310",
+              "270",
+              "2,200,000",
+              "1d 12h",
+              "8",
+              "11"
+            ],
+            [
+              "8",
+              "170",
+              "170",
+              "340",
+              "320",
+              "3,700,000",
+              "2d 6h",
+              "10",
+              "12"
+            ],
+            [
+              "9",
+              "180",
+              "180",
+              "360",
+              "350",
+              "8,000,000",
+              "5d",
+              "13",
+              "15"
+            ],
+            [
+              "10",
+              "190",
+              "190",
+              "380",
+              "380",
+              "26,000,000",
+              "14d",
+              "16",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Sneaky Goblin.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6e/Avatar_Sneaky_Goblin.png/revision/latest?cb=20200913075807"
+        },
+        {
+          "file": "File:Sneaky Goblin7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/90/Sneaky_Goblin7.png/revision/latest?cb=20200401131102"
+        }
+      ],
+      "unverified": [],
+      "specialLevelTables": [],
+      "baseTroop": "Goblin",
+      "baseLevelRequired": 7,
+      "unlockTH": 11,
+      "hallByLevel": {
+        "7": 11,
+        "8": 12,
+        "9": 15,
+        "10": 18
+      },
+      "baseResearch": {
+        "1": {
+          "townHall": 2,
+          "laboratory": 0,
+          "cost": 0,
+          "resource": "Elixir",
+          "time": "0m"
+        },
+        "2": {
+          "townHall": 3,
+          "laboratory": 1,
+          "cost": 45000,
+          "resource": "Elixir",
+          "time": "2h"
+        },
+        "3": {
+          "townHall": 5,
+          "laboratory": 3,
+          "cost": 100000,
+          "resource": "Elixir",
+          "time": "3h"
+        },
+        "4": {
+          "townHall": 7,
+          "laboratory": 5,
+          "cost": 500000,
+          "resource": "Elixir",
+          "time": "6h"
+        },
+        "5": {
+          "townHall": 8,
+          "laboratory": 6,
+          "cost": 700000,
+          "resource": "Elixir",
+          "time": "12h"
+        },
+        "6": {
+          "townHall": 9,
+          "laboratory": 7,
+          "cost": 1600000,
+          "resource": "Elixir",
+          "time": "1d"
+        },
+        "7": {
+          "townHall": 10,
+          "laboratory": 8,
+          "cost": 2200000,
+          "resource": "Elixir",
+          "time": "1d 12h"
+        },
+        "8": {
+          "townHall": 12,
+          "laboratory": 10,
+          "cost": 3700000,
+          "resource": "Elixir",
+          "time": "2d 6h"
+        },
+        "9": {
+          "townHall": 15,
+          "laboratory": 13,
+          "cost": 8000000,
+          "resource": "Elixir",
+          "time": "5d"
+        },
+        "10": {
+          "townHall": 18,
+          "laboratory": 16,
+          "cost": 26000000,
+          "resource": "Elixir",
+          "time": "14d"
+        }
+      },
+      "boost": {
+        "cost": 25000,
+        "resource": "Dark Elixir",
+        "duration": "3d",
+        "alternative": "Super Potion"
+      },
+      "sourceCorrections": [],
+      "note": "Unlock at TH 11 with Goblin level 7. Super Troop levels follow Goblin levels. Research costs and times below upgrade the base troop, not the Super Troop separately. Boosting costs 25,000 Dark Elixir or one Super Potion for 3 days. Normal self-training caps exclude event-only levels, donations, and temporary boosts.",
+      "verification": {
+        "checked": "2026-11-03",
+        "superTroop": {
+          "page": "Sneaky Goblin",
+          "revision": 622829,
+          "rawWikitextSHA256": "609aefff761acc2389516946dd9e654ea139dfd9bc215cf766cfd9027ed33272"
+        },
+        "baseTroop": {
+          "page": "Goblin",
+          "revision": 625104,
+          "rawWikitextSHA256": "df1d680500f1f9785d1c515521555f7a8fc465e3fb607d963b0c07c0e3a4db3a"
+        },
+        "laboratory": {
+          "page": "Laboratory",
+          "revision": 625132,
+          "rawWikitextSHA256": "df12db31196c94aecf18e11a85b6f6bd9171972b8c290095adb8fa417beeb0a8"
+        },
+        "unlockBuilding": {
+          "page": "Barracks",
+          "revision": 625112,
+          "rawWikitextSHA256": "6c6fbff792fb89a76d14c13db6ded1e6511db22a7d7ee420c1f9d4b9fd5b9dd5"
+        },
+        "boostRule": {
+          "page": "Template:SuperTroopBoost",
+          "revision": 598512,
+          "rawWikitextSHA256": "cff43bb11f9a31f4ad589d3993683792f1965c3a7538fdda00dc2ea40dc5dd5e"
+        },
+        "generalRule": {
+          "page": "Super Troops",
+          "revision": 613574,
+          "rawWikitextSHA256": "1ded692edbaf3f808d344763745a9ef89855feaaf14387b086d7909bbe0cf2a9"
+        }
+      }
+    },
+    {
+      "n": "Super Wall Breaker",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/c/ca/Avatar_Super_Wall_Breaker.png/revision/latest?cb=20210101081415",
+      "source": "https://clashofclans.fandom.com/wiki/Super_Wall_Breaker",
+      "revision": 624690,
+      "tables": [
+        {
+          "heading": "Unlock requirements",
+          "columns": [
+            "Base Troop",
+            "Base Troop Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "Wall Breaker",
+              "7",
+              "11"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Range",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "Walls (Damage x40)",
+              "Melee (Ground Only) Splash (1.6 tiles)",
+              "8",
+              "28",
+              "0.6 tiles",
+              "Mega Bomb"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Boost Cost (Dark Elixir)",
+            "Boost Duration",
+            "Wall Breaker Level Required"
+          ],
+          "rows": [
+            [
+              "25,000",
+              "3d",
+              "7"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage",
+            "Damage when destroyed",
+            "Damage to Walls",
+            "Damage when destroyed to Walls",
+            "Hitpoints",
+            "Base Research Cost (Elixir)",
+            "Base Research Time",
+            "Laboratory Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "7",
+              "78",
+              "175",
+              "3,120",
+              "7,000",
+              "350",
+              "2,800,000",
+              "1d 12h",
+              "9",
+              "11"
+            ],
+            [
+              "8",
+              "100",
+              "225",
+              "4,000",
+              "9,000",
+              "400",
+              "3,800,000",
+              "2d 12h",
+              "10",
+              "12"
+            ],
+            [
+              "9",
+              "120",
+              "275",
+              "4,800",
+              "11,000",
+              "450",
+              "5,200,000",
+              "3d",
+              "11",
+              "13"
+            ],
+            [
+              "10",
+              "130",
+              "313",
+              "5,200",
+              "12,520",
+              "475",
+              "6,500,000",
+              "5d",
+              "12",
+              "14"
+            ],
+            [
+              "11",
+              "140",
+              "338",
+              "5,600",
+              "13,520",
+              "500",
+              "9,500,000",
+              "5d 12h",
+              "13",
+              "15"
+            ],
+            [
+              "12",
+              "150",
+              "363",
+              "6,000",
+              "14,520",
+              "525",
+              "11,000,000",
+              "6d",
+              "14",
+              "16"
+            ],
+            [
+              "13",
+              "160",
+              "388",
+              "6,400",
+              "15,520",
+              "550",
+              "15,500,000",
+              "10d",
+              "15",
+              "17"
+            ],
+            [
+              "14",
+              "170",
+              "413",
+              "6,800",
+              "16,520",
+              "575",
+              "26,000,000",
+              "14d",
+              "16",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Super Wall Breaker.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/ca/Avatar_Super_Wall_Breaker.png/revision/latest?cb=20210101081415"
+        },
+        {
+          "file": "File:Super Wall Breaker7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/12/Super_Wall_Breaker7.png/revision/latest?cb=20200401131313"
+        }
+      ],
+      "unverified": [],
+      "specialLevelTables": [
+        {
+          "heading": "Event-only levels (excluded from normal caps)",
+          "columns": [
+            "Level",
+            "Damage",
+            "Damage when destroyed",
+            "Damage to Walls",
+            "Damage when destroyed to Walls",
+            "Hitpoints"
+          ],
+          "rows": [
+            [
+              "5*",
+              "34",
+              "105",
+              "1,360",
+              "4,200",
+              "250"
+            ],
+            [
+              "6*",
+              "56",
+              "140",
+              "2,240",
+              "5,600",
+              "300"
+            ]
+          ]
+        }
+      ],
+      "baseTroop": "Wall Breaker",
+      "baseLevelRequired": 7,
+      "unlockTH": 11,
+      "hallByLevel": {
+        "7": 11,
+        "8": 12,
+        "9": 13,
+        "10": 14,
+        "11": 15,
+        "12": 16,
+        "13": 17,
+        "14": 18
+      },
+      "baseResearch": {
+        "1": {
+          "townHall": 3,
+          "laboratory": 0,
+          "cost": 0,
+          "resource": "Elixir",
+          "time": "0m"
+        },
+        "2": {
+          "townHall": 4,
+          "laboratory": 2,
+          "cost": 80000,
+          "resource": "Elixir",
+          "time": "3h"
+        },
+        "3": {
+          "townHall": 6,
+          "laboratory": 4,
+          "cost": 200000,
+          "resource": "Elixir",
+          "time": "4h"
+        },
+        "4": {
+          "townHall": 7,
+          "laboratory": 5,
+          "cost": 450000,
+          "resource": "Elixir",
+          "time": "12h"
+        },
+        "5": {
+          "townHall": 8,
+          "laboratory": 6,
+          "cost": 1000000,
+          "resource": "Elixir",
+          "time": "16h"
+        },
+        "6": {
+          "townHall": 10,
+          "laboratory": 8,
+          "cost": 2400000,
+          "resource": "Elixir",
+          "time": "1d"
+        },
+        "7": {
+          "townHall": 11,
+          "laboratory": 9,
+          "cost": 2800000,
+          "resource": "Elixir",
+          "time": "1d 12h"
+        },
+        "8": {
+          "townHall": 12,
+          "laboratory": 10,
+          "cost": 3800000,
+          "resource": "Elixir",
+          "time": "2d 12h"
+        },
+        "9": {
+          "townHall": 13,
+          "laboratory": 11,
+          "cost": 5200000,
+          "resource": "Elixir",
+          "time": "3d"
+        },
+        "10": {
+          "townHall": 14,
+          "laboratory": 12,
+          "cost": 6500000,
+          "resource": "Elixir",
+          "time": "5d"
+        },
+        "11": {
+          "townHall": 15,
+          "laboratory": 13,
+          "cost": 9500000,
+          "resource": "Elixir",
+          "time": "5d 12h"
+        },
+        "12": {
+          "townHall": 16,
+          "laboratory": 14,
+          "cost": 11000000,
+          "resource": "Elixir",
+          "time": "6d"
+        },
+        "13": {
+          "townHall": 17,
+          "laboratory": 15,
+          "cost": 15500000,
+          "resource": "Elixir",
+          "time": "10d"
+        },
+        "14": {
+          "townHall": 18,
+          "laboratory": 16,
+          "cost": 26000000,
+          "resource": "Elixir",
+          "time": "14d"
+        }
+      },
+      "boost": {
+        "cost": 25000,
+        "resource": "Dark Elixir",
+        "duration": "3d",
+        "alternative": "Super Potion"
+      },
+      "sourceCorrections": [],
+      "note": "Unlock at TH 11 with Wall Breaker level 7. Super Troop levels follow Wall Breaker levels. Research costs and times below upgrade the base troop, not the Super Troop separately. Boosting costs 25,000 Dark Elixir or one Super Potion for 3 days. Normal self-training caps exclude event-only levels, donations, and temporary boosts.",
+      "verification": {
+        "checked": "2026-11-03",
+        "superTroop": {
+          "page": "Super Wall Breaker",
+          "revision": 624690,
+          "rawWikitextSHA256": "bb99d79cb61ea30faebf6f05872736e27937dbe983c82729ff189b3d72ff36a0"
+        },
+        "baseTroop": {
+          "page": "Wall Breaker",
+          "revision": 624864,
+          "rawWikitextSHA256": "e1c4f549cb081589faad54aecc275f5257ae656ce779641d68ade759f0b32b2f"
+        },
+        "laboratory": {
+          "page": "Laboratory",
+          "revision": 625132,
+          "rawWikitextSHA256": "df12db31196c94aecf18e11a85b6f6bd9171972b8c290095adb8fa417beeb0a8"
+        },
+        "unlockBuilding": {
+          "page": "Barracks",
+          "revision": 625112,
+          "rawWikitextSHA256": "6c6fbff792fb89a76d14c13db6ded1e6511db22a7d7ee420c1f9d4b9fd5b9dd5"
+        },
+        "boostRule": {
+          "page": "Template:SuperTroopBoost",
+          "revision": 598512,
+          "rawWikitextSHA256": "cff43bb11f9a31f4ad589d3993683792f1965c3a7538fdda00dc2ea40dc5dd5e"
+        },
+        "generalRule": {
+          "page": "Super Troops",
+          "revision": 613574,
+          "rawWikitextSHA256": "1ded692edbaf3f808d344763745a9ef89855feaaf14387b086d7909bbe0cf2a9"
+        }
+      }
+    },
+    {
+      "n": "Rocket Balloon",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/e/ed/Avatar_Rocket_Balloon.png/revision/latest?cb=20210618061142",
+      "source": "https://clashofclans.fandom.com/wiki/Rocket_Balloon/Home_Village",
+      "revision": 622932,
+      "tables": [
+        {
+          "heading": "Unlock requirements",
+          "columns": [
+            "Base Troop",
+            "Base Troop Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "Balloon",
+              "8",
+              "12"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Range",
+            "Death Damage Radius",
+            "Special Ability",
+            "Boosters Movement Speed Increase"
+          ],
+          "rows": [
+            [
+              "Defenses",
+              "Area Splash",
+              "8",
+              "12",
+              "3s",
+              "0.5 tiles",
+              "1.2 tiles",
+              "Boosters",
+              "52"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Boost Cost (Dark Elixir)",
+            "Boost Duration",
+            "Balloon Level Required"
+          ],
+          "rows": [
+            [
+              "25,000",
+              "3d",
+              "8"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "Damage Upon Death",
+            "Hitpoints",
+            "Base Research Cost (Elixir)",
+            "Base Research Time",
+            "Laboratory Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "8",
+              "270",
+              "810",
+              "580",
+              "840",
+              "5,000,000",
+              "3d 12h",
+              "10",
+              "12"
+            ],
+            [
+              "9",
+              "280",
+              "840",
+              "620",
+              "940",
+              "7,000,000",
+              "4d 12h",
+              "11",
+              "13"
+            ],
+            [
+              "10",
+              "285",
+              "855",
+              "650",
+              "1,040",
+              "10,000,000",
+              "7d",
+              "12",
+              "14"
+            ],
+            [
+              "11",
+              "290",
+              "870",
+              "700",
+              "1,140",
+              "14,000,000",
+              "8d 12h",
+              "14",
+              "16"
+            ],
+            [
+              "12",
+              "304",
+              "912",
+              "730",
+              "1,240",
+              "17,500,000",
+              "11d",
+              "15",
+              "17"
+            ],
+            [
+              "13",
+              "326",
+              "978",
+              "760",
+              "1,360",
+              "28,000,000",
+              "14d 18h",
+              "16",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Rocket Balloon.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ed/Avatar_Rocket_Balloon.png/revision/latest?cb=20210618061142"
+        }
+      ],
+      "unverified": [],
+      "hallByLevel": {
+        "8": 12,
+        "9": 13,
+        "10": 14,
+        "11": 16,
+        "12": 17,
+        "13": 18
+      },
+      "specialLevelTables": [
+        {
+          "heading": "Event-only levels (excluded from normal caps)",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "Damage Upon Death",
+            "Hitpoints",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "5*",
+              "170",
+              "510",
+              "300",
+              "390",
+              "8"
+            ],
+            [
+              "6*",
+              "220",
+              "660",
+              "400",
+              "545",
+              "9"
+            ],
+            [
+              "7*",
+              "260",
+              "780",
+              "500",
+              "690",
+              "11"
+            ]
+          ]
+        }
+      ],
+      "baseTroop": "Balloon",
+      "baseLevelRequired": 8,
+      "unlockTH": 12,
+      "baseResearch": {
+        "1": {
+          "townHall": 4,
+          "laboratory": 0,
+          "cost": 0,
+          "resource": "Elixir",
+          "time": "0m"
+        },
+        "2": {
+          "townHall": 4,
+          "laboratory": 2,
+          "cost": 100000,
+          "resource": "Elixir",
+          "time": "4h"
+        },
+        "3": {
+          "townHall": 6,
+          "laboratory": 4,
+          "cost": 400000,
+          "resource": "Elixir",
+          "time": "6h"
+        },
+        "4": {
+          "townHall": 7,
+          "laboratory": 5,
+          "cost": 720000,
+          "resource": "Elixir",
+          "time": "18h"
+        },
+        "5": {
+          "townHall": 8,
+          "laboratory": 6,
+          "cost": 1300000,
+          "resource": "Elixir",
+          "time": "1d"
+        },
+        "6": {
+          "townHall": 9,
+          "laboratory": 7,
+          "cost": 2750000,
+          "resource": "Elixir",
+          "time": "3d"
+        },
+        "7": {
+          "townHall": 11,
+          "laboratory": 9,
+          "cost": 4400000,
+          "resource": "Elixir",
+          "time": "3d 6h"
+        },
+        "8": {
+          "townHall": 12,
+          "laboratory": 10,
+          "cost": 5000000,
+          "resource": "Elixir",
+          "time": "3d 12h"
+        },
+        "9": {
+          "townHall": 13,
+          "laboratory": 11,
+          "cost": 7000000,
+          "resource": "Elixir",
+          "time": "4d 12h"
+        },
+        "10": {
+          "townHall": 14,
+          "laboratory": 12,
+          "cost": 10000000,
+          "resource": "Elixir",
+          "time": "7d"
+        },
+        "11": {
+          "townHall": 16,
+          "laboratory": 14,
+          "cost": 14000000,
+          "resource": "Elixir",
+          "time": "8d 12h"
+        },
+        "12": {
+          "townHall": 17,
+          "laboratory": 15,
+          "cost": 17500000,
+          "resource": "Elixir",
+          "time": "11d"
+        },
+        "13": {
+          "townHall": 18,
+          "laboratory": 16,
+          "cost": 28000000,
+          "resource": "Elixir",
+          "time": "14d 18h"
+        }
+      },
+      "boost": {
+        "cost": 25000,
+        "resource": "Dark Elixir",
+        "duration": "3d",
+        "alternative": "Super Potion"
+      },
+      "sourceCorrections": [],
+      "note": "Unlock at TH 12 with Balloon level 8. Super Troop levels follow Balloon levels. Research costs and times below upgrade the base troop, not the Super Troop separately. Boosting costs 25,000 Dark Elixir or one Super Potion for 3 days. Normal self-training caps exclude event-only levels, donations, and temporary boosts.",
+      "verification": {
+        "checked": "2026-11-03",
+        "superTroop": {
+          "page": "Rocket Balloon/Home Village",
+          "revision": 622932,
+          "rawWikitextSHA256": "e9a8f62b983df0b13fb048b325248be84ead26abc9e89ab43629f599d0ee07f2"
+        },
+        "baseTroop": {
+          "page": "Balloon",
+          "revision": 624220,
+          "rawWikitextSHA256": "5a59171071b978ffbc52616d532bf41a6cce7f812085238a184361cda0c2e413"
+        },
+        "laboratory": {
+          "page": "Laboratory",
+          "revision": 625132,
+          "rawWikitextSHA256": "df12db31196c94aecf18e11a85b6f6bd9171972b8c290095adb8fa417beeb0a8"
+        },
+        "unlockBuilding": {
+          "page": "Barracks",
+          "revision": 625112,
+          "rawWikitextSHA256": "6c6fbff792fb89a76d14c13db6ded1e6511db22a7d7ee420c1f9d4b9fd5b9dd5"
+        },
+        "boostRule": {
+          "page": "Template:SuperTroopBoost",
+          "revision": 598512,
+          "rawWikitextSHA256": "cff43bb11f9a31f4ad589d3993683792f1965c3a7538fdda00dc2ea40dc5dd5e"
+        },
+        "generalRule": {
+          "page": "Super Troops",
+          "revision": 613574,
+          "rawWikitextSHA256": "1ded692edbaf3f808d344763745a9ef89855feaaf14387b086d7909bbe0cf2a9"
+        }
+      }
+    },
+    {
+      "n": "Super Wizard",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/f/f9/Avatar_Super_Wizard.png/revision/latest?cb=20201207184826",
+      "source": "https://clashofclans.fandom.com/wiki/Super_Wizard/Home_Village",
+      "revision": 624748,
+      "tables": [
+        {
+          "heading": "Unlock requirements",
+          "columns": [
+            "Base Troop",
+            "Base Troop Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "Wizard",
+              "9",
+              "12"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Chain Damage Decay",
+            "Chain Distance",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Range",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "None",
+              "Single Target",
+              "60%",
+              "3 tiles",
+              "10",
+              "20",
+              "2s",
+              "3 tiles",
+              "Chain Magic"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Boost Cost (Dark Elixir)",
+            "Boost Duration",
+            "Wizard Level Required"
+          ],
+          "rows": [
+            [
+              "25,000",
+              "3d",
+              "9"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit (Primary)",
+            "Damage per Hit (Secondary)",
+            "Hitpoints",
+            "Base Research Cost (Elixir)",
+            "Base Research Time",
+            "Laboratory Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "9",
+              "220",
+              "440",
+              "176",
+              "545",
+              "4,000,000",
+              "2d 12h",
+              "10",
+              "12"
+            ],
+            [
+              "10",
+              "240",
+              "480",
+              "192",
+              "705",
+              "5,500,000",
+              "3d 12h",
+              "11",
+              "13"
+            ],
+            [
+              "11",
+              "265",
+              "530",
+              "212",
+              "760",
+              "10,000,000",
+              "5d 12h",
+              "13",
+              "15"
+            ],
+            [
+              "12",
+              "285",
+              "570",
+              "228",
+              "815",
+              "11,500,000",
+              "7d",
+              "14",
+              "16"
+            ],
+            [
+              "13",
+              "305",
+              "610",
+              "244",
+              "870",
+              "16,000,000",
+              "10d 12h",
+              "15",
+              "17"
+            ],
+            [
+              "14",
+              "335",
+              "670",
+              "268",
+              "925",
+              "27,000,000",
+              "14d",
+              "16",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Super Wizard.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f9/Avatar_Super_Wizard.png/revision/latest?cb=20201207184826"
+        }
+      ],
+      "unverified": [],
+      "specialLevelTables": [],
+      "baseTroop": "Wizard",
+      "baseLevelRequired": 9,
+      "unlockTH": 12,
+      "hallByLevel": {
+        "9": 12,
+        "10": 13,
+        "11": 15,
+        "12": 16,
+        "13": 17,
+        "14": 18
+      },
+      "baseResearch": {
+        "1": {
+          "townHall": 5,
+          "laboratory": 0,
+          "cost": 0,
+          "resource": "Elixir",
+          "time": "0m"
+        },
+        "2": {
+          "townHall": 5,
+          "laboratory": 3,
+          "cost": 120000,
+          "resource": "Elixir",
+          "time": "4h"
+        },
+        "3": {
+          "townHall": 6,
+          "laboratory": 4,
+          "cost": 300000,
+          "resource": "Elixir",
+          "time": "5h"
+        },
+        "4": {
+          "townHall": 7,
+          "laboratory": 5,
+          "cost": 600000,
+          "resource": "Elixir",
+          "time": "12h"
+        },
+        "5": {
+          "townHall": 8,
+          "laboratory": 6,
+          "cost": 1200000,
+          "resource": "Elixir",
+          "time": "18h"
+        },
+        "6": {
+          "townHall": 9,
+          "laboratory": 7,
+          "cost": 2000000,
+          "resource": "Elixir",
+          "time": "1d 12h"
+        },
+        "7": {
+          "townHall": 10,
+          "laboratory": 8,
+          "cost": 2500000,
+          "resource": "Elixir",
+          "time": "2d"
+        },
+        "8": {
+          "townHall": 11,
+          "laboratory": 9,
+          "cost": 3100000,
+          "resource": "Elixir",
+          "time": "2d 6h"
+        },
+        "9": {
+          "townHall": 12,
+          "laboratory": 10,
+          "cost": 4000000,
+          "resource": "Elixir",
+          "time": "2d 12h"
+        },
+        "10": {
+          "townHall": 13,
+          "laboratory": 11,
+          "cost": 5500000,
+          "resource": "Elixir",
+          "time": "3d 12h"
+        },
+        "11": {
+          "townHall": 15,
+          "laboratory": 13,
+          "cost": 10000000,
+          "resource": "Elixir",
+          "time": "5d 12h"
+        },
+        "12": {
+          "townHall": 16,
+          "laboratory": 14,
+          "cost": 11500000,
+          "resource": "Elixir",
+          "time": "7d"
+        },
+        "13": {
+          "townHall": 17,
+          "laboratory": 15,
+          "cost": 16000000,
+          "resource": "Elixir",
+          "time": "10d 12h"
+        },
+        "14": {
+          "townHall": 18,
+          "laboratory": 16,
+          "cost": 27000000,
+          "resource": "Elixir",
+          "time": "14d"
+        }
+      },
+      "boost": {
+        "cost": 25000,
+        "resource": "Dark Elixir",
+        "duration": "3d",
+        "alternative": "Super Potion"
+      },
+      "sourceCorrections": [],
+      "note": "Unlock at TH 12 with Wizard level 9. Super Troop levels follow Wizard levels. Research costs and times below upgrade the base troop, not the Super Troop separately. Boosting costs 25,000 Dark Elixir or one Super Potion for 3 days. Normal self-training caps exclude event-only levels, donations, and temporary boosts.",
+      "verification": {
+        "checked": "2026-11-03",
+        "superTroop": {
+          "page": "Super Wizard/Home Village",
+          "revision": 624748,
+          "rawWikitextSHA256": "394a84764fef5633583381a1218f61c917327c58df383e64ca3ba693f3e06940"
+        },
+        "baseTroop": {
+          "page": "Wizard",
+          "revision": 625722,
+          "rawWikitextSHA256": "89ea0f716e8ba260f8a4da8129850bdc08adcd27cfb7422109ea61d9d8037d3c"
+        },
+        "laboratory": {
+          "page": "Laboratory",
+          "revision": 625132,
+          "rawWikitextSHA256": "df12db31196c94aecf18e11a85b6f6bd9171972b8c290095adb8fa417beeb0a8"
+        },
+        "unlockBuilding": {
+          "page": "Barracks",
+          "revision": 625112,
+          "rawWikitextSHA256": "6c6fbff792fb89a76d14c13db6ded1e6511db22a7d7ee420c1f9d4b9fd5b9dd5"
+        },
+        "boostRule": {
+          "page": "Template:SuperTroopBoost",
+          "revision": 598512,
+          "rawWikitextSHA256": "cff43bb11f9a31f4ad589d3993683792f1965c3a7538fdda00dc2ea40dc5dd5e"
+        },
+        "generalRule": {
+          "page": "Super Troops",
+          "revision": 613574,
+          "rawWikitextSHA256": "1ded692edbaf3f808d344763745a9ef89855feaaf14387b086d7909bbe0cf2a9"
+        }
+      }
+    },
+    {
+      "n": "Super Dragon",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/0/0f/Avatar_Super_Dragon.png/revision/latest?cb=20211209194802",
+      "source": "https://clashofclans.fandom.com/wiki/Super_Dragon/Home_Village",
+      "revision": 623387,
+      "tables": [
+        {
+          "heading": "Unlock requirements",
+          "columns": [
+            "Base Troop",
+            "Base Troop Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "Dragon",
+              "7",
+              "12"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Time Between Shots",
+            "Time Between Bursts",
+            "Shots per Burst",
+            "Range",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "Any",
+              "Area Splash",
+              "40",
+              "14",
+              "0.192s",
+              "1.8s",
+              "10",
+              "3 tiles",
+              "Roast"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Boost Cost (Dark Elixir)",
+            "Boost Duration",
+            "Dragon Level Required"
+          ],
+          "rows": [
+            [
+              "25,000",
+              "3d",
+              "7"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "Hitpoints",
+            "Base Research Cost (Elixir)",
+            "Base Research Time",
+            "Laboratory Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "7",
+              "401",
+              "144.07",
+              "6,100",
+              "5,000,000",
+              "4d 12h",
+              "10",
+              "12"
+            ],
+            [
+              "8",
+              "426",
+              "153.03",
+              "6,400",
+              "7,500,000",
+              "5d",
+              "11",
+              "13"
+            ],
+            [
+              "9",
+              "451",
+              "161.99",
+              "6,700",
+              "10,500,000",
+              "7d",
+              "12",
+              "14"
+            ],
+            [
+              "10",
+              "476",
+              "170.95",
+              "7,200",
+              "12,000,000",
+              "7d 12h",
+              "13",
+              "15"
+            ],
+            [
+              "11",
+              "496",
+              "178.12",
+              "7,600",
+              "14,000,000",
+              "8d 12h",
+              "14",
+              "16"
+            ],
+            [
+              "12",
+              "516",
+              "185.29",
+              "8,000",
+              "18,500,000",
+              "10d",
+              "15",
+              "17"
+            ],
+            [
+              "13",
+              "536",
+              "192.46",
+              "8,400",
+              "28,500,000",
+              "15d",
+              "16",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Super Dragon.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0f/Avatar_Super_Dragon.png/revision/latest?cb=20211209194802"
+        }
+      ],
+      "unverified": [],
+      "hallByLevel": {
+        "7": 12,
+        "8": 13,
+        "9": 14,
+        "10": 15,
+        "11": 16,
+        "12": 17,
+        "13": 18
+      },
+      "specialLevelTables": [
+        {
+          "heading": "Event-only levels (excluded from normal caps)",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "Hitpoints",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "3*",
+              "300",
+              "108",
+              "3,900",
+              "8"
+            ],
+            [
+              "4*",
+              "325",
+              "117",
+              "4,500",
+              "9"
+            ],
+            [
+              "5*",
+              "351",
+              "126",
+              "5,100",
+              "10"
+            ],
+            [
+              "6*",
+              "376",
+              "135",
+              "5,600",
+              "11"
+            ]
+          ]
+        }
+      ],
+      "baseTroop": "Dragon",
+      "baseLevelRequired": 7,
+      "unlockTH": 12,
+      "baseResearch": {
+        "1": {
+          "townHall": 7,
+          "laboratory": 0,
+          "cost": 0,
+          "resource": "Elixir",
+          "time": "0m"
+        },
+        "2": {
+          "townHall": 7,
+          "laboratory": 5,
+          "cost": 1000000,
+          "resource": "Elixir",
+          "time": "18h"
+        },
+        "3": {
+          "townHall": 8,
+          "laboratory": 6,
+          "cost": 2000000,
+          "resource": "Elixir",
+          "time": "1d 12h"
+        },
+        "4": {
+          "townHall": 9,
+          "laboratory": 7,
+          "cost": 3000000,
+          "resource": "Elixir",
+          "time": "2d"
+        },
+        "5": {
+          "townHall": 10,
+          "laboratory": 8,
+          "cost": 3800000,
+          "resource": "Elixir",
+          "time": "3d"
+        },
+        "6": {
+          "townHall": 11,
+          "laboratory": 9,
+          "cost": 4900000,
+          "resource": "Elixir",
+          "time": "4d"
+        },
+        "7": {
+          "townHall": 12,
+          "laboratory": 10,
+          "cost": 5000000,
+          "resource": "Elixir",
+          "time": "4d 12h"
+        },
+        "8": {
+          "townHall": 13,
+          "laboratory": 11,
+          "cost": 7500000,
+          "resource": "Elixir",
+          "time": "5d"
+        },
+        "9": {
+          "townHall": 14,
+          "laboratory": 12,
+          "cost": 10500000,
+          "resource": "Elixir",
+          "time": "7d"
+        },
+        "10": {
+          "townHall": 15,
+          "laboratory": 13,
+          "cost": 12000000,
+          "resource": "Elixir",
+          "time": "7d 12h"
+        },
+        "11": {
+          "townHall": 16,
+          "laboratory": 14,
+          "cost": 14000000,
+          "resource": "Elixir",
+          "time": "8d 12h"
+        },
+        "12": {
+          "townHall": 17,
+          "laboratory": 15,
+          "cost": 18500000,
+          "resource": "Elixir",
+          "time": "10d"
+        },
+        "13": {
+          "townHall": 18,
+          "laboratory": 16,
+          "cost": 28500000,
+          "resource": "Elixir",
+          "time": "15d"
+        }
+      },
+      "boost": {
+        "cost": 25000,
+        "resource": "Dark Elixir",
+        "duration": "3d",
+        "alternative": "Super Potion"
+      },
+      "sourceCorrections": [],
+      "note": "Unlock at TH 12 with Dragon level 7. Super Troop levels follow Dragon levels. Research costs and times below upgrade the base troop, not the Super Troop separately. Boosting costs 25,000 Dark Elixir or one Super Potion for 3 days. Normal self-training caps exclude event-only levels, donations, and temporary boosts.",
+      "verification": {
+        "checked": "2026-11-03",
+        "superTroop": {
+          "page": "Super Dragon/Home Village",
+          "revision": 623387,
+          "rawWikitextSHA256": "50d4c7d4626d2038e8a20226cafc2c4ec722daebcfa6dd1b0494f5ba5bffcb90"
+        },
+        "baseTroop": {
+          "page": "Dragon",
+          "revision": 624759,
+          "rawWikitextSHA256": "24bbd4b4f4b73fc35070c9cd5de5546bf1a4dcbe59bb116d19934dc2575ac800"
+        },
+        "laboratory": {
+          "page": "Laboratory",
+          "revision": 625132,
+          "rawWikitextSHA256": "df12db31196c94aecf18e11a85b6f6bd9171972b8c290095adb8fa417beeb0a8"
+        },
+        "unlockBuilding": {
+          "page": "Barracks",
+          "revision": 625112,
+          "rawWikitextSHA256": "6c6fbff792fb89a76d14c13db6ded1e6511db22a7d7ee420c1f9d4b9fd5b9dd5"
+        },
+        "boostRule": {
+          "page": "Template:SuperTroopBoost",
+          "revision": 598512,
+          "rawWikitextSHA256": "cff43bb11f9a31f4ad589d3993683792f1965c3a7538fdda00dc2ea40dc5dd5e"
+        },
+        "generalRule": {
+          "page": "Super Troops",
+          "revision": 613574,
+          "rawWikitextSHA256": "1ded692edbaf3f808d344763745a9ef89855feaaf14387b086d7909bbe0cf2a9"
+        }
+      }
+    },
+    {
+      "n": "Inferno Dragon",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/0/0b/Avatar_Inferno_Dragon.png/revision/latest?cb=20200913075841",
+      "source": "https://clashofclans.fandom.com/wiki/Inferno_Dragon/Home_Village",
+      "revision": 624086,
+      "tables": [
+        {
+          "heading": "Unlock requirements",
+          "columns": [
+            "Base Troop",
+            "Base Troop Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "Baby Dragon",
+              "6",
+              "12"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Range",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "None",
+              "Single Target",
+              "15",
+              "18",
+              "0.128s",
+              "4 tiles",
+              "Inferno Beam"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Boost Cost (Dark Elixir)",
+            "Boost Duration",
+            "Baby Dragon Level Required"
+          ],
+          "rows": [
+            [
+              "25,000",
+              "3d",
+              "6"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second / Initial",
+            "Damage per Second / After 1.7s",
+            "Damage per Second / After 3.2s",
+            "Hitpoints",
+            "Base Research Cost (Elixir)",
+            "Base Research Time",
+            "Laboratory Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "6",
+              "75",
+              "150",
+              "1,500",
+              "1,900",
+              "4,800,000",
+              "3d",
+              "10",
+              "12"
+            ],
+            [
+              "7",
+              "79",
+              "158",
+              "1,580",
+              "2,050",
+              "6,200,000",
+              "4d",
+              "11",
+              "13"
+            ],
+            [
+              "8",
+              "83",
+              "166",
+              "1,660",
+              "2,200",
+              "9,500,000",
+              "6d",
+              "12",
+              "14"
+            ],
+            [
+              "9",
+              "85",
+              "170",
+              "1,700",
+              "2,300",
+              "11,000,000",
+              "7d",
+              "13",
+              "15"
+            ],
+            [
+              "10",
+              "86",
+              "174",
+              "1,740",
+              "2,400",
+              "13,500,000",
+              "7d 6h",
+              "14",
+              "16"
+            ],
+            [
+              "11",
+              "88",
+              "178",
+              "1,780",
+              "2,500",
+              "16,500,000",
+              "10d",
+              "15",
+              "17"
+            ],
+            [
+              "12",
+              "90",
+              "182",
+              "1,820",
+              "2,700",
+              "29,000,000",
+              "15d 6h",
+              "16",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Inferno Dragon.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0b/Avatar_Inferno_Dragon.png/revision/latest?cb=20200913075841"
+        }
+      ],
+      "unverified": [],
+      "specialLevelTables": [],
+      "baseTroop": "Baby Dragon",
+      "baseLevelRequired": 6,
+      "unlockTH": 12,
+      "hallByLevel": {
+        "6": 12,
+        "7": 13,
+        "8": 14,
+        "9": 15,
+        "10": 16,
+        "11": 17,
+        "12": 18
+      },
+      "baseResearch": {
+        "1": {
+          "townHall": 9,
+          "laboratory": 0,
+          "cost": 0,
+          "resource": "Elixir",
+          "time": "0m"
+        },
+        "2": {
+          "townHall": 9,
+          "laboratory": 7,
+          "cost": 1500000,
+          "resource": "Elixir",
+          "time": "1d"
+        },
+        "3": {
+          "townHall": 10,
+          "laboratory": 8,
+          "cost": 2000000,
+          "resource": "Elixir",
+          "time": "1d 12h"
+        },
+        "4": {
+          "townHall": 10,
+          "laboratory": 8,
+          "cost": 2800000,
+          "resource": "Elixir",
+          "time": "2d"
+        },
+        "5": {
+          "townHall": 11,
+          "laboratory": 9,
+          "cost": 3700000,
+          "resource": "Elixir",
+          "time": "2d 18h"
+        },
+        "6": {
+          "townHall": 12,
+          "laboratory": 10,
+          "cost": 4800000,
+          "resource": "Elixir",
+          "time": "3d"
+        },
+        "7": {
+          "townHall": 13,
+          "laboratory": 11,
+          "cost": 6200000,
+          "resource": "Elixir",
+          "time": "4d"
+        },
+        "8": {
+          "townHall": 14,
+          "laboratory": 12,
+          "cost": 9500000,
+          "resource": "Elixir",
+          "time": "6d"
+        },
+        "9": {
+          "townHall": 15,
+          "laboratory": 13,
+          "cost": 11000000,
+          "resource": "Elixir",
+          "time": "7d"
+        },
+        "10": {
+          "townHall": 16,
+          "laboratory": 14,
+          "cost": 13500000,
+          "resource": "Elixir",
+          "time": "7d 6h"
+        },
+        "11": {
+          "townHall": 17,
+          "laboratory": 15,
+          "cost": 16500000,
+          "resource": "Elixir",
+          "time": "10d"
+        },
+        "12": {
+          "townHall": 18,
+          "laboratory": 16,
+          "cost": 29000000,
+          "resource": "Elixir",
+          "time": "15d 6h"
+        }
+      },
+      "boost": {
+        "cost": 25000,
+        "resource": "Dark Elixir",
+        "duration": "3d",
+        "alternative": "Super Potion"
+      },
+      "sourceCorrections": [
+        {
+          "field": "last stats row level",
+          "wikiValue": "11 (duplicate)",
+          "correctedValue": "12",
+          "evidence": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-february-update-has-escaped/",
+          "reason": "Official February 23, 2026 notes add Inferno Dragon level 12 at TH18; the wiki history identifies the last row as level 12."
+        }
+      ],
+      "note": "Unlock at TH 12 with Baby Dragon level 6. Super Troop levels follow Baby Dragon levels. Research costs and times below upgrade the base troop, not the Super Troop separately. Boosting costs 25,000 Dark Elixir or one Super Potion for 3 days. Normal self-training caps exclude event-only levels, donations, and temporary boosts.",
+      "verification": {
+        "checked": "2026-11-03",
+        "superTroop": {
+          "page": "Inferno Dragon/Home Village",
+          "revision": 624086,
+          "rawWikitextSHA256": "193a73843062ef24bc2f691f7afa9a730a7535f59b69c65e94e4e2b7a3b62c51"
+        },
+        "baseTroop": {
+          "page": "Baby Dragon/Home Village",
+          "revision": 624765,
+          "rawWikitextSHA256": "a57fc12d59e25034e2c977f07d397cd349da7881f20bc25f2b3299a7d3bdd943"
+        },
+        "laboratory": {
+          "page": "Laboratory",
+          "revision": 625132,
+          "rawWikitextSHA256": "df12db31196c94aecf18e11a85b6f6bd9171972b8c290095adb8fa417beeb0a8"
+        },
+        "unlockBuilding": {
+          "page": "Barracks",
+          "revision": 625112,
+          "rawWikitextSHA256": "6c6fbff792fb89a76d14c13db6ded1e6511db22a7d7ee420c1f9d4b9fd5b9dd5"
+        },
+        "boostRule": {
+          "page": "Template:SuperTroopBoost",
+          "revision": 598512,
+          "rawWikitextSHA256": "cff43bb11f9a31f4ad589d3993683792f1965c3a7538fdda00dc2ea40dc5dd5e"
+        },
+        "generalRule": {
+          "page": "Super Troops",
+          "revision": 613574,
+          "rawWikitextSHA256": "1ded692edbaf3f808d344763745a9ef89855feaaf14387b086d7909bbe0cf2a9"
+        }
+      }
+    },
+    {
+      "n": "Super Miner",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/b/b3/Avatar_Super_Miner.png/revision/latest?cb=20221212211242",
+      "source": "https://clashofclans.fandom.com/wiki/Super_Miner/Home_Village",
+      "revision": 625737,
+      "tables": [
+        {
+          "heading": "Unlock requirements",
+          "columns": [
+            "Base Troop",
+            "Base Troop Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "Miner",
+              "7",
+              "13"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Range",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "None",
+              "Single Target",
+              "24",
+              "32",
+              "0.25s",
+              "0.6 tiles",
+              "Last Blast"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Boost Cost (Dark Elixir)",
+            "Boost Duration",
+            "Miner Level Required"
+          ],
+          "rows": [
+            [
+              "25,000",
+              "3d",
+              "7"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second / Initial",
+            "Damage per Second / After 1.5s",
+            "Damage per Second / After 3s",
+            "Damage when Destroyed",
+            "Hitpoints",
+            "Base Research Cost (Elixir)",
+            "Base Research Time",
+            "Laboratory Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "7",
+              "170",
+              "340",
+              "520",
+              "1,400",
+              "3,000",
+              "6,000,000",
+              "4d",
+              "11",
+              "13"
+            ],
+            [
+              "8",
+              "185",
+              "370",
+              "560",
+              "1,600",
+              "3,300",
+              "8,600,000",
+              "6d",
+              "12",
+              "14"
+            ],
+            [
+              "9",
+              "205",
+              "405",
+              "605",
+              "1,800",
+              "3,600",
+              "10,500,000",
+              "6d 12h",
+              "13",
+              "15"
+            ],
+            [
+              "10",
+              "225",
+              "440",
+              "650",
+              "2,000",
+              "4,000",
+              "12,500,000",
+              "7d",
+              "14",
+              "16"
+            ],
+            [
+              "11",
+              "245",
+              "475",
+              "695",
+              "2,200",
+              "4,650",
+              "16,500,000",
+              "9d 12h",
+              "15",
+              "17"
+            ],
+            [
+              "12",
+              "265",
+              "510",
+              "740",
+              "2,400",
+              "5,150",
+              "28,000,000",
+              "14d 12h",
+              "16",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Super Miner.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b3/Avatar_Super_Miner.png/revision/latest?cb=20221212211242"
+        }
+      ],
+      "unverified": [],
+      "specialLevelTables": [],
+      "baseTroop": "Miner",
+      "baseLevelRequired": 7,
+      "unlockTH": 13,
+      "hallByLevel": {
+        "7": 13,
+        "8": 14,
+        "9": 15,
+        "10": 16,
+        "11": 17,
+        "12": 18
+      },
+      "baseResearch": {
+        "1": {
+          "townHall": 10,
+          "laboratory": 0,
+          "cost": 0,
+          "resource": "Elixir",
+          "time": "0m"
+        },
+        "2": {
+          "townHall": 10,
+          "laboratory": 8,
+          "cost": 1500000,
+          "resource": "Elixir",
+          "time": "1d"
+        },
+        "3": {
+          "townHall": 10,
+          "laboratory": 8,
+          "cost": 2600000,
+          "resource": "Elixir",
+          "time": "2d"
+        },
+        "4": {
+          "townHall": 11,
+          "laboratory": 9,
+          "cost": 3000000,
+          "resource": "Elixir",
+          "time": "2d 6h"
+        },
+        "5": {
+          "townHall": 11,
+          "laboratory": 9,
+          "cost": 4000000,
+          "resource": "Elixir",
+          "time": "2d 12h"
+        },
+        "6": {
+          "townHall": 12,
+          "laboratory": 10,
+          "cost": 4800000,
+          "resource": "Elixir",
+          "time": "3d"
+        },
+        "7": {
+          "townHall": 13,
+          "laboratory": 11,
+          "cost": 6000000,
+          "resource": "Elixir",
+          "time": "4d"
+        },
+        "8": {
+          "townHall": 14,
+          "laboratory": 12,
+          "cost": 8600000,
+          "resource": "Elixir",
+          "time": "6d"
+        },
+        "9": {
+          "townHall": 15,
+          "laboratory": 13,
+          "cost": 10500000,
+          "resource": "Elixir",
+          "time": "6d 12h"
+        },
+        "10": {
+          "townHall": 16,
+          "laboratory": 14,
+          "cost": 12500000,
+          "resource": "Elixir",
+          "time": "7d"
+        },
+        "11": {
+          "townHall": 17,
+          "laboratory": 15,
+          "cost": 16500000,
+          "resource": "Elixir",
+          "time": "9d 12h"
+        },
+        "12": {
+          "townHall": 18,
+          "laboratory": 16,
+          "cost": 28000000,
+          "resource": "Elixir",
+          "time": "14d 12h"
+        }
+      },
+      "boost": {
+        "cost": 25000,
+        "resource": "Dark Elixir",
+        "duration": "3d",
+        "alternative": "Super Potion"
+      },
+      "sourceCorrections": [],
+      "note": "Unlock at TH 13 with Miner level 7. Super Troop levels follow Miner levels. Research costs and times below upgrade the base troop, not the Super Troop separately. Boosting costs 25,000 Dark Elixir or one Super Potion for 3 days. Normal self-training caps exclude event-only levels, donations, and temporary boosts.",
+      "verification": {
+        "checked": "2026-11-03",
+        "superTroop": {
+          "page": "Super Miner/Home Village",
+          "revision": 625737,
+          "rawWikitextSHA256": "09c15cc0ac0e100a61a11dcacbf796cbed76cb4acd294c9ec8d5a6a8f0ee67cb"
+        },
+        "baseTroop": {
+          "page": "Miner",
+          "revision": 625735,
+          "rawWikitextSHA256": "1b97618ea412e26c984b8ef6b2458f87495af801b810107352655aa16339b4c7"
+        },
+        "laboratory": {
+          "page": "Laboratory",
+          "revision": 625132,
+          "rawWikitextSHA256": "df12db31196c94aecf18e11a85b6f6bd9171972b8c290095adb8fa417beeb0a8"
+        },
+        "unlockBuilding": {
+          "page": "Barracks",
+          "revision": 625112,
+          "rawWikitextSHA256": "6c6fbff792fb89a76d14c13db6ded1e6511db22a7d7ee420c1f9d4b9fd5b9dd5"
+        },
+        "boostRule": {
+          "page": "Template:SuperTroopBoost",
+          "revision": 598512,
+          "rawWikitextSHA256": "cff43bb11f9a31f4ad589d3993683792f1965c3a7538fdda00dc2ea40dc5dd5e"
+        },
+        "generalRule": {
+          "page": "Super Troops",
+          "revision": 613574,
+          "rawWikitextSHA256": "1ded692edbaf3f808d344763745a9ef89855feaaf14387b086d7909bbe0cf2a9"
+        }
+      }
+    },
+    {
+      "n": "Super Yeti",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/5/5f/Avatar_Super_Yeti.png/revision/latest?cb=20250326100831",
+      "source": "https://clashofclans.fandom.com/wiki/Super_Yeti",
+      "revision": 625764,
+      "tables": [
+        {
+          "heading": "Unlock requirements",
+          "columns": [
+            "Base Troop",
+            "Base Troop Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "Yeti",
+              "3",
+              "13"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Barracks Level Required",
+            "Range",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "Any",
+              "Melee (Ground Only)",
+              "35",
+              "12",
+              "1s",
+              "14",
+              "0.8 tiles",
+              "Shock and Awe"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Boost Cost (Dark Elixir)",
+            "Boost Duration",
+            "Yeti Level Required"
+          ],
+          "rows": [
+            [
+              "25,000",
+              "3d",
+              "3"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "Hitpoints",
+            "Electromites spawned",
+            "Base Research Cost (Elixir)",
+            "Base Research Time",
+            "Laboratory Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "3",
+              "415",
+              "415",
+              "5,400",
+              "9",
+              "6,500,000",
+              "4d 12h",
+              "11",
+              "13"
+            ],
+            [
+              "4",
+              "440",
+              "440",
+              "5,800",
+              "10",
+              "10,000,000",
+              "7d",
+              "12",
+              "14"
+            ],
+            [
+              "5",
+              "465",
+              "465",
+              "6,200",
+              "11",
+              "12,000,000",
+              "7d 12h",
+              "13",
+              "15"
+            ],
+            [
+              "6",
+              "495",
+              "495",
+              "6,600",
+              "12",
+              "14,500,000",
+              "8d 6h",
+              "14",
+              "16"
+            ],
+            [
+              "7",
+              "525",
+              "525",
+              "7,000",
+              "13",
+              "17,000,000",
+              "10d",
+              "15",
+              "17"
+            ],
+            [
+              "8",
+              "550",
+              "550",
+              "7,400",
+              "14",
+              "27,500,000",
+              "15d 12h",
+              "16",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Super Yeti.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5f/Avatar_Super_Yeti.png/revision/latest?cb=20250326100831"
+        },
+        {
+          "file": "File:Super Yeti3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/52/Super_Yeti3.png/revision/latest?cb=20250326142315"
+        }
+      ],
+      "unverified": [],
+      "specialLevelTables": [
+        {
+          "heading": "Event-only levels (excluded from normal caps)",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "Hitpoints",
+            "Electromites spawned"
+          ],
+          "rows": [
+            [
+              "1*",
+              "360",
+              "360",
+              "4,600",
+              "7"
+            ],
+            [
+              "2*",
+              "390",
+              "390",
+              "5,000",
+              "8"
+            ]
+          ]
+        }
+      ],
+      "baseTroop": "Yeti",
+      "baseLevelRequired": 3,
+      "unlockTH": 13,
+      "hallByLevel": {
+        "3": 13,
+        "4": 14,
+        "5": 15,
+        "6": 16,
+        "7": 17,
+        "8": 18
+      },
+      "baseResearch": {
+        "1": {
+          "townHall": 12,
+          "laboratory": 0,
+          "cost": 0,
+          "resource": "Elixir",
+          "time": "0m"
+        },
+        "2": {
+          "townHall": 12,
+          "laboratory": 10,
+          "cost": 5000000,
+          "resource": "Elixir",
+          "time": "3d"
+        },
+        "3": {
+          "townHall": 13,
+          "laboratory": 11,
+          "cost": 6500000,
+          "resource": "Elixir",
+          "time": "4d 12h"
+        },
+        "4": {
+          "townHall": 14,
+          "laboratory": 12,
+          "cost": 10000000,
+          "resource": "Elixir",
+          "time": "7d"
+        },
+        "5": {
+          "townHall": 15,
+          "laboratory": 13,
+          "cost": 12000000,
+          "resource": "Elixir",
+          "time": "7d 12h"
+        },
+        "6": {
+          "townHall": 16,
+          "laboratory": 14,
+          "cost": 14500000,
+          "resource": "Elixir",
+          "time": "8d 6h"
+        },
+        "7": {
+          "townHall": 17,
+          "laboratory": 15,
+          "cost": 17000000,
+          "resource": "Elixir",
+          "time": "10d"
+        },
+        "8": {
+          "townHall": 18,
+          "laboratory": 16,
+          "cost": 27500000,
+          "resource": "Elixir",
+          "time": "15d 12h"
+        }
+      },
+      "boost": {
+        "cost": 25000,
+        "resource": "Dark Elixir",
+        "duration": "3d",
+        "alternative": "Super Potion"
+      },
+      "sourceCorrections": [],
+      "note": "Unlock at TH 13 with Yeti level 3. Super Troop levels follow Yeti levels. Research costs and times below upgrade the base troop, not the Super Troop separately. Boosting costs 25,000 Dark Elixir or one Super Potion for 3 days. Normal self-training caps exclude event-only levels, donations, and temporary boosts.",
+      "verification": {
+        "checked": "2026-11-03",
+        "superTroop": {
+          "page": "Super Yeti",
+          "revision": 625764,
+          "rawWikitextSHA256": "c52dca80bed9aa8efe180cf5ec15b22dd2e49d6944a9bb67136c2b0aa6721a45"
+        },
+        "baseTroop": {
+          "page": "Yeti",
+          "revision": 624065,
+          "rawWikitextSHA256": "4710f9fd44ee38f94b623b5720318633f93887ab5717ae8ad78bee38b1fc9152"
+        },
+        "laboratory": {
+          "page": "Laboratory",
+          "revision": 625132,
+          "rawWikitextSHA256": "df12db31196c94aecf18e11a85b6f6bd9171972b8c290095adb8fa417beeb0a8"
+        },
+        "unlockBuilding": {
+          "page": "Barracks",
+          "revision": 625112,
+          "rawWikitextSHA256": "6c6fbff792fb89a76d14c13db6ded1e6511db22a7d7ee420c1f9d4b9fd5b9dd5"
+        },
+        "boostRule": {
+          "page": "Template:SuperTroopBoost",
+          "revision": 598512,
+          "rawWikitextSHA256": "cff43bb11f9a31f4ad589d3993683792f1965c3a7538fdda00dc2ea40dc5dd5e"
+        },
+        "generalRule": {
+          "page": "Super Troops",
+          "revision": 613574,
+          "rawWikitextSHA256": "1ded692edbaf3f808d344763745a9ef89855feaaf14387b086d7909bbe0cf2a9"
+        }
+      }
+    },
+    {
+      "n": "Super Minion",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/b/be/Avatar_Super_Minion.png/revision/latest?cb=20201013063740",
+      "source": "https://clashofclans.fandom.com/wiki/Super_Minion",
+      "revision": 620782,
+      "tables": [
+        {
+          "heading": "Unlock requirements",
+          "columns": [
+            "Base Troop",
+            "Base Troop Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "Minion",
+              "8",
+              "12"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Range",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "None",
+              "Single Target",
+              "12",
+              "16",
+              "1s",
+              "4 tiles (Normal) 10.25 tiles (Long Shot)",
+              "Long Shot"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Boost Cost (Dark Elixir)",
+            "Boost Duration",
+            "Minion Level Required"
+          ],
+          "rows": [
+            [
+              "25,000",
+              "3d",
+              "8"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Base Research Cost (Dark Elixir)",
+            "Base Research Time",
+            "Laboratory Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "8",
+              "300",
+              "300",
+              "1,500",
+              "47,500",
+              "2d",
+              "10",
+              "12"
+            ],
+            [
+              "9",
+              "325",
+              "325",
+              "1,600",
+              "75,000",
+              "3d",
+              "11",
+              "13"
+            ],
+            [
+              "10",
+              "350",
+              "350",
+              "1,700",
+              "100,000",
+              "4d",
+              "12",
+              "14"
+            ],
+            [
+              "11",
+              "360",
+              "360",
+              "1,800",
+              "115,000",
+              "4d 12h",
+              "13",
+              "15"
+            ],
+            [
+              "12",
+              "370",
+              "370",
+              "1,900",
+              "160,000",
+              "5d",
+              "14",
+              "16"
+            ],
+            [
+              "13",
+              "385",
+              "385",
+              "2,100",
+              "220,000",
+              "9d",
+              "15",
+              "17"
+            ],
+            [
+              "14",
+              "400",
+              "400",
+              "2,300",
+              "335,000",
+              "14d",
+              "16",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Super Minion.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/be/Avatar_Super_Minion.png/revision/latest?cb=20201013063740"
+        },
+        {
+          "file": "File:Super Minion8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3a/Super_Minion8.png/revision/latest?cb=20201012180920"
+        }
+      ],
+      "unverified": [],
+      "hallByLevel": {
+        "8": 12,
+        "9": 13,
+        "10": 14,
+        "11": 15,
+        "12": 16,
+        "13": 17,
+        "14": 18
+      },
+      "specialLevelTables": [
+        {
+          "heading": "Event-only levels (excluded from normal caps)",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "4*",
+              "200",
+              "200",
+              "1,100",
+              "7"
+            ],
+            [
+              "5*",
+              "225",
+              "225",
+              "1,200",
+              "9"
+            ],
+            [
+              "6*",
+              "250",
+              "250",
+              "1,300",
+              "10"
+            ],
+            [
+              "7*",
+              "275",
+              "275",
+              "1,400",
+              "11"
+            ]
+          ]
+        }
+      ],
+      "baseTroop": "Minion",
+      "baseLevelRequired": 8,
+      "unlockTH": 12,
+      "baseResearch": {
+        "1": {
+          "townHall": 7,
+          "laboratory": 0,
+          "cost": 0,
+          "resource": "Dark Elixir",
+          "time": "0m"
+        },
+        "2": {
+          "townHall": 7,
+          "laboratory": 5,
+          "cost": 1000,
+          "resource": "Dark Elixir",
+          "time": "6h"
+        },
+        "3": {
+          "townHall": 8,
+          "laboratory": 6,
+          "cost": 2500,
+          "resource": "Dark Elixir",
+          "time": "8h"
+        },
+        "4": {
+          "townHall": 8,
+          "laboratory": 6,
+          "cost": 5000,
+          "resource": "Dark Elixir",
+          "time": "12h"
+        },
+        "5": {
+          "townHall": 9,
+          "laboratory": 7,
+          "cost": 10000,
+          "resource": "Dark Elixir",
+          "time": "1d"
+        },
+        "6": {
+          "townHall": 10,
+          "laboratory": 8,
+          "cost": 15000,
+          "resource": "Dark Elixir",
+          "time": "1d 12h"
+        },
+        "7": {
+          "townHall": 11,
+          "laboratory": 9,
+          "cost": 31500,
+          "resource": "Dark Elixir",
+          "time": "1d 18h"
+        },
+        "8": {
+          "townHall": 12,
+          "laboratory": 10,
+          "cost": 47500,
+          "resource": "Dark Elixir",
+          "time": "2d"
+        },
+        "9": {
+          "townHall": 13,
+          "laboratory": 11,
+          "cost": 75000,
+          "resource": "Dark Elixir",
+          "time": "3d"
+        },
+        "10": {
+          "townHall": 14,
+          "laboratory": 12,
+          "cost": 100000,
+          "resource": "Dark Elixir",
+          "time": "4d"
+        },
+        "11": {
+          "townHall": 15,
+          "laboratory": 13,
+          "cost": 115000,
+          "resource": "Dark Elixir",
+          "time": "4d 12h"
+        },
+        "12": {
+          "townHall": 16,
+          "laboratory": 14,
+          "cost": 160000,
+          "resource": "Dark Elixir",
+          "time": "5d"
+        },
+        "13": {
+          "townHall": 17,
+          "laboratory": 15,
+          "cost": 220000,
+          "resource": "Dark Elixir",
+          "time": "9d"
+        },
+        "14": {
+          "townHall": 18,
+          "laboratory": 16,
+          "cost": 335000,
+          "resource": "Dark Elixir",
+          "time": "14d"
+        }
+      },
+      "boost": {
+        "cost": 25000,
+        "resource": "Dark Elixir",
+        "duration": "3d",
+        "alternative": "Super Potion"
+      },
+      "sourceCorrections": [],
+      "note": "Unlock at TH 12 with Minion level 8. Super Troop levels follow Minion levels. Research costs and times below upgrade the base troop, not the Super Troop separately. Boosting costs 25,000 Dark Elixir or one Super Potion for 3 days. Normal self-training caps exclude event-only levels, donations, and temporary boosts.",
+      "verification": {
+        "checked": "2026-11-03",
+        "superTroop": {
+          "page": "Super Minion",
+          "revision": 620782,
+          "rawWikitextSHA256": "ab5e1f37e243355323bbb323cc76cd8322b3a64810ec7caaa312dc3abcb07c44"
+        },
+        "baseTroop": {
+          "page": "Minion",
+          "revision": 625278,
+          "rawWikitextSHA256": "d9db6497465a86f489edfd6ea71e5d2a7567ed254dac4edc6615e4cb663829c1"
+        },
+        "laboratory": {
+          "page": "Laboratory",
+          "revision": 625132,
+          "rawWikitextSHA256": "df12db31196c94aecf18e11a85b6f6bd9171972b8c290095adb8fa417beeb0a8"
+        },
+        "unlockBuilding": {
+          "page": "Dark Barracks",
+          "revision": 623607,
+          "rawWikitextSHA256": "bc45e40803c8f834dcd2935941b0ed0a4d596a495c3e106367baacd767262fe0"
+        },
+        "boostRule": {
+          "page": "Template:SuperTroopBoost",
+          "revision": 598512,
+          "rawWikitextSHA256": "cff43bb11f9a31f4ad589d3993683792f1965c3a7538fdda00dc2ea40dc5dd5e"
+        },
+        "generalRule": {
+          "page": "Super Troops",
+          "revision": 613574,
+          "rawWikitextSHA256": "1ded692edbaf3f808d344763745a9ef89855feaaf14387b086d7909bbe0cf2a9"
+        }
+      }
+    },
+    {
+      "n": "Super Hog Rider",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/c/c4/Avatar_Super_Hog_Rider.png/revision/latest?cb=20230613002801",
+      "source": "https://clashofclans.fandom.com/wiki/Super_Hog_Rider",
+      "revision": 625736,
+      "tables": [
+        {
+          "heading": "Unlock requirements",
+          "columns": [
+            "Base Troop",
+            "Base Troop Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "Hog Rider",
+              "10",
+              "13"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Range",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "Defenses",
+              "Single Target (Ground Only)",
+              "12",
+              "24",
+              "1s",
+              "0.6 tiles",
+              "Divide and Conquer"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Boost Cost (Dark Elixir)",
+            "Boost Duration",
+            "Hog Rider Level Required"
+          ],
+          "rows": [
+            [
+              "25,000",
+              "3d",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Hitpoints",
+            "Base Research Cost (Dark Elixir)",
+            "Base Research Time",
+            "Laboratory Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "10",
+              "180",
+              "180",
+              "1,600",
+              "85,000",
+              "4d",
+              "11",
+              "13"
+            ],
+            [
+              "11",
+              "200",
+              "200",
+              "1,700",
+              "107,500",
+              "5d",
+              "12",
+              "14"
+            ],
+            [
+              "12",
+              "230",
+              "230",
+              "1,900",
+              "125,000",
+              "5d 12h",
+              "13",
+              "15"
+            ],
+            [
+              "13",
+              "250",
+              "250",
+              "2,050",
+              "175,000",
+              "6d 12h",
+              "14",
+              "16"
+            ],
+            [
+              "14",
+              "270",
+              "270",
+              "2,250",
+              "240,000",
+              "10d",
+              "15",
+              "17"
+            ],
+            [
+              "15",
+              "300",
+              "300",
+              "2,500",
+              "340,000",
+              "14d 12h",
+              "16",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Super Hog Rider.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c4/Avatar_Super_Hog_Rider.png/revision/latest?cb=20230613002801"
+        },
+        {
+          "file": "File:Super Hog Rider10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fc/Super_Hog_Rider10.png/revision/latest?cb=20230613000429"
+        }
+      ],
+      "unverified": [],
+      "specialLevelTables": [],
+      "baseTroop": "Hog Rider",
+      "baseLevelRequired": 10,
+      "unlockTH": 13,
+      "hallByLevel": {
+        "10": 13,
+        "11": 14,
+        "12": 15,
+        "13": 16,
+        "14": 17,
+        "15": 18
+      },
+      "baseResearch": {
+        "1": {
+          "townHall": 7,
+          "laboratory": 0,
+          "cost": 0,
+          "resource": "Dark Elixir",
+          "time": "0m"
+        },
+        "2": {
+          "townHall": 7,
+          "laboratory": 5,
+          "cost": 2000,
+          "resource": "Dark Elixir",
+          "time": "10h"
+        },
+        "3": {
+          "townHall": 8,
+          "laboratory": 6,
+          "cost": 3500,
+          "resource": "Dark Elixir",
+          "time": "18h"
+        },
+        "4": {
+          "townHall": 8,
+          "laboratory": 6,
+          "cost": 5000,
+          "resource": "Dark Elixir",
+          "time": "1d"
+        },
+        "5": {
+          "townHall": 9,
+          "laboratory": 7,
+          "cost": 10000,
+          "resource": "Dark Elixir",
+          "time": "2d"
+        },
+        "6": {
+          "townHall": 10,
+          "laboratory": 8,
+          "cost": 18500,
+          "resource": "Dark Elixir",
+          "time": "2d 6h"
+        },
+        "7": {
+          "townHall": 11,
+          "laboratory": 9,
+          "cost": 35000,
+          "resource": "Dark Elixir",
+          "time": "2d 12h"
+        },
+        "8": {
+          "townHall": 12,
+          "laboratory": 10,
+          "cost": 47500,
+          "resource": "Dark Elixir",
+          "time": "3d"
+        },
+        "9": {
+          "townHall": 12,
+          "laboratory": 10,
+          "cost": 50000,
+          "resource": "Dark Elixir",
+          "time": "3d 12h"
+        },
+        "10": {
+          "townHall": 13,
+          "laboratory": 11,
+          "cost": 85000,
+          "resource": "Dark Elixir",
+          "time": "4d"
+        },
+        "11": {
+          "townHall": 14,
+          "laboratory": 12,
+          "cost": 107500,
+          "resource": "Dark Elixir",
+          "time": "5d"
+        },
+        "12": {
+          "townHall": 15,
+          "laboratory": 13,
+          "cost": 125000,
+          "resource": "Dark Elixir",
+          "time": "5d 12h"
+        },
+        "13": {
+          "townHall": 16,
+          "laboratory": 14,
+          "cost": 175000,
+          "resource": "Dark Elixir",
+          "time": "6d 12h"
+        },
+        "14": {
+          "townHall": 17,
+          "laboratory": 15,
+          "cost": 240000,
+          "resource": "Dark Elixir",
+          "time": "10d"
+        },
+        "15": {
+          "townHall": 18,
+          "laboratory": 16,
+          "cost": 340000,
+          "resource": "Dark Elixir",
+          "time": "14d 12h"
+        }
+      },
+      "boost": {
+        "cost": 25000,
+        "resource": "Dark Elixir",
+        "duration": "3d",
+        "alternative": "Super Potion"
+      },
+      "sourceCorrections": [],
+      "note": "Unlock at TH 13 with Hog Rider level 10. Super Troop levels follow Hog Rider levels. Research costs and times below upgrade the base troop, not the Super Troop separately. Boosting costs 25,000 Dark Elixir or one Super Potion for 3 days. Normal self-training caps exclude event-only levels, donations, and temporary boosts.",
+      "verification": {
+        "checked": "2026-11-03",
+        "superTroop": {
+          "page": "Super Hog Rider",
+          "revision": 625736,
+          "rawWikitextSHA256": "212fcb14700fe9ed25178f2905dfffe4d2d66d7604d28bd78ffb000e85924323"
+        },
+        "baseTroop": {
+          "page": "Hog Rider",
+          "revision": 625734,
+          "rawWikitextSHA256": "566c56ed99e3aea6549c0762baaca8f254f8d575d9d089dbda31a2c4a51cab39"
+        },
+        "laboratory": {
+          "page": "Laboratory",
+          "revision": 625132,
+          "rawWikitextSHA256": "df12db31196c94aecf18e11a85b6f6bd9171972b8c290095adb8fa417beeb0a8"
+        },
+        "unlockBuilding": {
+          "page": "Dark Barracks",
+          "revision": 623607,
+          "rawWikitextSHA256": "bc45e40803c8f834dcd2935941b0ed0a4d596a495c3e106367baacd767262fe0"
+        },
+        "boostRule": {
+          "page": "Template:SuperTroopBoost",
+          "revision": 598512,
+          "rawWikitextSHA256": "cff43bb11f9a31f4ad589d3993683792f1965c3a7538fdda00dc2ea40dc5dd5e"
+        },
+        "generalRule": {
+          "page": "Super Troops",
+          "revision": 613574,
+          "rawWikitextSHA256": "1ded692edbaf3f808d344763745a9ef89855feaaf14387b086d7909bbe0cf2a9"
+        }
+      }
+    },
+    {
+      "n": "Super Valkyrie",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/9/9e/Avatar_Super_Valkyrie.png/revision/latest?cb=20201012035954",
+      "source": "https://clashofclans.fandom.com/wiki/Super_Valkyrie",
+      "revision": 622824,
+      "tables": [
+        {
+          "heading": "Unlock requirements",
+          "columns": [
+            "Base Troop",
+            "Base Troop Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "Valkyrie",
+              "7",
+              "12"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Range",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "None",
+              "Area Splash (Ground Only)",
+              "20",
+              "24",
+              "1.1s",
+              "0.6 tiles",
+              "Farewell Gift"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Boost Cost (Dark Elixir)",
+            "Boost Duration",
+            "Valkyrie Level Required"
+          ],
+          "rows": [
+            [
+              "25,000",
+              "3d",
+              "7"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Hitpoints",
+            "Base Research Cost (Dark Elixir)",
+            "Base Research Time",
+            "Laboratory Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "7",
+              "250",
+              "275",
+              "2,400",
+              "55,000",
+              "2d 6h",
+              "10",
+              "12"
+            ],
+            [
+              "8",
+              "300",
+              "330",
+              "2,700",
+              "77,500",
+              "3d",
+              "11",
+              "13"
+            ],
+            [
+              "9",
+              "325",
+              "357.5",
+              "2,900",
+              "105,000",
+              "4d 12h",
+              "12",
+              "14"
+            ],
+            [
+              "10",
+              "350",
+              "385",
+              "3,400",
+              "120,000",
+              "5d",
+              "13",
+              "15"
+            ],
+            [
+              "11",
+              "375",
+              "412.5",
+              "3,900",
+              "170,000",
+              "6d",
+              "14",
+              "16"
+            ],
+            [
+              "12",
+              "405",
+              "445.5",
+              "4,500",
+              "340,000",
+              "14d",
+              "15",
+              "17"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Super Valkyrie.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9e/Avatar_Super_Valkyrie.png/revision/latest?cb=20201012035954"
+        },
+        {
+          "file": "File:Super Valkyrie7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/85/Super_Valkyrie7.png/revision/latest?cb=20201012035031"
+        }
+      ],
+      "unverified": [],
+      "specialLevelTables": [],
+      "baseTroop": "Valkyrie",
+      "baseLevelRequired": 7,
+      "unlockTH": 12,
+      "hallByLevel": {
+        "7": 12,
+        "8": 13,
+        "9": 14,
+        "10": 15,
+        "11": 16,
+        "12": 17
+      },
+      "baseResearch": {
+        "1": {
+          "townHall": 8,
+          "laboratory": 0,
+          "cost": 0,
+          "resource": "Dark Elixir",
+          "time": "0m"
+        },
+        "2": {
+          "townHall": 8,
+          "laboratory": 6,
+          "cost": 3000,
+          "resource": "Dark Elixir",
+          "time": "8h"
+        },
+        "3": {
+          "townHall": 9,
+          "laboratory": 7,
+          "cost": 5000,
+          "resource": "Dark Elixir",
+          "time": "1d"
+        },
+        "4": {
+          "townHall": 9,
+          "laboratory": 7,
+          "cost": 10000,
+          "resource": "Dark Elixir",
+          "time": "1d 12h"
+        },
+        "5": {
+          "townHall": 10,
+          "laboratory": 8,
+          "cost": 16000,
+          "resource": "Dark Elixir",
+          "time": "1d 18h"
+        },
+        "6": {
+          "townHall": 11,
+          "laboratory": 9,
+          "cost": 31500,
+          "resource": "Dark Elixir",
+          "time": "2d"
+        },
+        "7": {
+          "townHall": 12,
+          "laboratory": 10,
+          "cost": 55000,
+          "resource": "Dark Elixir",
+          "time": "2d 6h"
+        },
+        "8": {
+          "townHall": 13,
+          "laboratory": 11,
+          "cost": 77500,
+          "resource": "Dark Elixir",
+          "time": "3d"
+        },
+        "9": {
+          "townHall": 14,
+          "laboratory": 12,
+          "cost": 105000,
+          "resource": "Dark Elixir",
+          "time": "4d 12h"
+        },
+        "10": {
+          "townHall": 15,
+          "laboratory": 13,
+          "cost": 120000,
+          "resource": "Dark Elixir",
+          "time": "5d"
+        },
+        "11": {
+          "townHall": 16,
+          "laboratory": 14,
+          "cost": 170000,
+          "resource": "Dark Elixir",
+          "time": "6d"
+        },
+        "12": {
+          "townHall": 17,
+          "laboratory": 15,
+          "cost": 340000,
+          "resource": "Dark Elixir",
+          "time": "14d"
+        }
+      },
+      "boost": {
+        "cost": 25000,
+        "resource": "Dark Elixir",
+        "duration": "3d",
+        "alternative": "Super Potion"
+      },
+      "sourceCorrections": [],
+      "note": "Unlock at TH 12 with Valkyrie level 7. Super Troop levels follow Valkyrie levels. Research costs and times below upgrade the base troop, not the Super Troop separately. Boosting costs 25,000 Dark Elixir or one Super Potion for 3 days. Normal self-training caps exclude event-only levels, donations, and temporary boosts.",
+      "verification": {
+        "checked": "2026-11-03",
+        "superTroop": {
+          "page": "Super Valkyrie",
+          "revision": 622824,
+          "rawWikitextSHA256": "242856b0e70c4745d81d1c790a8b85ea3b027d0e541895debc068fab50f37373"
+        },
+        "baseTroop": {
+          "page": "Valkyrie",
+          "revision": 625846,
+          "rawWikitextSHA256": "7e1923c6d6ded3fd847eee690a1dc624672436367fb752037fdb749e1bda402e"
+        },
+        "laboratory": {
+          "page": "Laboratory",
+          "revision": 625132,
+          "rawWikitextSHA256": "df12db31196c94aecf18e11a85b6f6bd9171972b8c290095adb8fa417beeb0a8"
+        },
+        "unlockBuilding": {
+          "page": "Dark Barracks",
+          "revision": 623607,
+          "rawWikitextSHA256": "bc45e40803c8f834dcd2935941b0ed0a4d596a495c3e106367baacd767262fe0"
+        },
+        "boostRule": {
+          "page": "Template:SuperTroopBoost",
+          "revision": 598512,
+          "rawWikitextSHA256": "cff43bb11f9a31f4ad589d3993683792f1965c3a7538fdda00dc2ea40dc5dd5e"
+        },
+        "generalRule": {
+          "page": "Super Troops",
+          "revision": 613574,
+          "rawWikitextSHA256": "1ded692edbaf3f808d344763745a9ef89855feaaf14387b086d7909bbe0cf2a9"
+        }
+      }
+    },
+    {
+      "n": "Super Witch",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/1/18/Avatar_Super_Witch.png/revision/latest?cb=20200913075918",
+      "source": "https://clashofclans.fandom.com/wiki/Super_Witch",
+      "revision": 623218,
+      "tables": [
+        {
+          "heading": "Unlock requirements",
+          "columns": [
+            "Base Troop",
+            "Base Troop Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "Witch",
+              "5",
+              "12"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Range",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "None",
+              "Area Splash",
+              "40",
+              "12",
+              "0.7s",
+              "4 tiles",
+              "Big Boy"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Boost Cost (Dark Elixir)",
+            "Boost Duration",
+            "Witch Level Required"
+          ],
+          "rows": [
+            [
+              "25,000",
+              "3d",
+              "5"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "Hitpoints",
+            "Base Research Cost (Dark Elixir)",
+            "Base Research Time",
+            "Laboratory Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "5",
+              "360",
+              "252",
+              "3,200",
+              "62,500",
+              "4d",
+              "10",
+              "12"
+            ],
+            [
+              "6",
+              "390",
+              "273",
+              "3,400",
+              "150,000",
+              "5d 12h",
+              "13",
+              "15"
+            ],
+            [
+              "7",
+              "430",
+              "301",
+              "3,750",
+              "180,000",
+              "7d 6h",
+              "14",
+              "16"
+            ],
+            [
+              "8",
+              "470",
+              "329",
+              "4,100",
+              "355,000",
+              "15d 12h",
+              "16",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Super Witch.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/18/Avatar_Super_Witch.png/revision/latest?cb=20200913075918"
+        },
+        {
+          "file": "File:Super Witch5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/66/Super_Witch5.png/revision/latest?cb=20200901090419"
+        }
+      ],
+      "unverified": [],
+      "specialLevelTables": [
+        {
+          "heading": "Event-only levels (excluded from normal caps)",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "Hitpoints"
+          ],
+          "rows": [
+            [
+              "1*",
+              "240",
+              "168",
+              "2,400"
+            ],
+            [
+              "2*",
+              "270",
+              "189",
+              "2,600"
+            ],
+            [
+              "3*",
+              "300",
+              "210",
+              "2,800"
+            ],
+            [
+              "4*",
+              "330",
+              "231",
+              "3,000"
+            ]
+          ]
+        }
+      ],
+      "baseTroop": "Witch",
+      "baseLevelRequired": 5,
+      "unlockTH": 12,
+      "hallByLevel": {
+        "5": 12,
+        "6": 15,
+        "7": 16,
+        "8": 18
+      },
+      "baseResearch": {
+        "1": {
+          "townHall": 9,
+          "laboratory": 0,
+          "cost": 0,
+          "resource": "Dark Elixir",
+          "time": "0m"
+        },
+        "2": {
+          "townHall": 9,
+          "laboratory": 7,
+          "cost": 20000,
+          "resource": "Dark Elixir",
+          "time": "2d"
+        },
+        "3": {
+          "townHall": 10,
+          "laboratory": 8,
+          "cost": 29000,
+          "resource": "Dark Elixir",
+          "time": "3d"
+        },
+        "4": {
+          "townHall": 11,
+          "laboratory": 9,
+          "cost": 45000,
+          "resource": "Dark Elixir",
+          "time": "3d 12h"
+        },
+        "5": {
+          "townHall": 12,
+          "laboratory": 10,
+          "cost": 62500,
+          "resource": "Dark Elixir",
+          "time": "4d"
+        },
+        "6": {
+          "townHall": 15,
+          "laboratory": 13,
+          "cost": 150000,
+          "resource": "Dark Elixir",
+          "time": "5d 12h"
+        },
+        "7": {
+          "townHall": 16,
+          "laboratory": 14,
+          "cost": 180000,
+          "resource": "Dark Elixir",
+          "time": "7d 6h"
+        },
+        "8": {
+          "townHall": 18,
+          "laboratory": 16,
+          "cost": 355000,
+          "resource": "Dark Elixir",
+          "time": "15d 12h"
+        }
+      },
+      "boost": {
+        "cost": 25000,
+        "resource": "Dark Elixir",
+        "duration": "3d",
+        "alternative": "Super Potion"
+      },
+      "sourceCorrections": [],
+      "note": "Unlock at TH 12 with Witch level 5. Super Troop levels follow Witch levels. Research costs and times below upgrade the base troop, not the Super Troop separately. Boosting costs 25,000 Dark Elixir or one Super Potion for 3 days. Normal self-training caps exclude event-only levels, donations, and temporary boosts.",
+      "verification": {
+        "checked": "2026-11-03",
+        "superTroop": {
+          "page": "Super Witch",
+          "revision": 623218,
+          "rawWikitextSHA256": "28cb65472a7ae429515329d78e66b8de9f777aa00f9223556100bd09ce8566a6"
+        },
+        "baseTroop": {
+          "page": "Witch",
+          "revision": 624601,
+          "rawWikitextSHA256": "d0153d3692ea161de78dbbbfdcbb5eb971c1ebdd7b3477cf62baf4ccf67511ce"
+        },
+        "laboratory": {
+          "page": "Laboratory",
+          "revision": 625132,
+          "rawWikitextSHA256": "df12db31196c94aecf18e11a85b6f6bd9171972b8c290095adb8fa417beeb0a8"
+        },
+        "unlockBuilding": {
+          "page": "Dark Barracks",
+          "revision": 623607,
+          "rawWikitextSHA256": "bc45e40803c8f834dcd2935941b0ed0a4d596a495c3e106367baacd767262fe0"
+        },
+        "boostRule": {
+          "page": "Template:SuperTroopBoost",
+          "revision": 598512,
+          "rawWikitextSHA256": "cff43bb11f9a31f4ad589d3993683792f1965c3a7538fdda00dc2ea40dc5dd5e"
+        },
+        "generalRule": {
+          "page": "Super Troops",
+          "revision": 613574,
+          "rawWikitextSHA256": "1ded692edbaf3f808d344763745a9ef89855feaaf14387b086d7909bbe0cf2a9"
+        }
+      }
+    },
+    {
+      "n": "Ice Hound",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/b/b0/Avatar_Ice_Hound.png/revision/latest?cb=20201207184828",
+      "source": "https://clashofclans.fandom.com/wiki/Ice_Hound",
+      "revision": 622637,
+      "tables": [
+        {
+          "heading": "Unlock requirements",
+          "columns": [
+            "Base Troop",
+            "Base Troop Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "Lava Hound",
+              "5",
+              "12"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Range",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "Air Defense",
+              "Melee (Ground Only)",
+              "40",
+              "20",
+              "2s",
+              "0.75 tiles",
+              "Dish Served Cold"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Boost Cost (Dark Elixir)",
+            "Boost Duration",
+            "Lava Hound Level Required"
+          ],
+          "rows": [
+            [
+              "25,000",
+              "3d",
+              "5"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "Freeze Time when Destroyed",
+            "Ice Pups Spawned / On Offense",
+            "Ice Pups Spawned / On Defense",
+            "Hitpoints",
+            "Base Research Cost (Dark Elixir)",
+            "Base Research Time",
+            "Laboratory Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "5",
+              "10",
+              "20",
+              "3.75s",
+              "10",
+              "10",
+              "9,500",
+              "60,000",
+              "4d",
+              "10",
+              "12"
+            ],
+            [
+              "6",
+              "15",
+              "30",
+              "4.25s",
+              "12",
+              "11",
+              "10,000",
+              "80,000",
+              "7d",
+              "11",
+              "13"
+            ],
+            [
+              "7",
+              "20",
+              "40",
+              "4.75s",
+              "14",
+              "12",
+              "10,500",
+              "200,000",
+              "8d",
+              "14",
+              "16"
+            ],
+            [
+              "8",
+              "25",
+              "50",
+              "5.25s",
+              "16",
+              "13",
+              "11,500",
+              "345,000",
+              "15d 6h",
+              "16",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Ice Hound.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b0/Avatar_Ice_Hound.png/revision/latest?cb=20201207184828"
+        },
+        {
+          "file": "File:Ice Hound5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/21/Ice_Hound5.png/revision/latest?cb=20201208034736"
+        }
+      ],
+      "unverified": [],
+      "hallByLevel": {
+        "5": 12,
+        "6": 13,
+        "7": 16,
+        "8": 18
+      },
+      "specialLevelTables": [
+        {
+          "heading": "Event-only levels (excluded from normal caps)",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "Freeze Time when Destroyed",
+            "Ice Pups Spawned / On Offense",
+            "Ice Pups Spawned / On Defense",
+            "Hitpoints",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1*",
+              "2",
+              "4",
+              "3.75s",
+              "6",
+              "6",
+              "7,500",
+              "7"
+            ],
+            [
+              "2*",
+              "4",
+              "8",
+              "3.75s",
+              "7",
+              "7",
+              "8,000",
+              "9"
+            ],
+            [
+              "3*",
+              "6",
+              "12",
+              "3.75s",
+              "8",
+              "8",
+              "8,500",
+              "10"
+            ],
+            [
+              "4*",
+              "8",
+              "16",
+              "3.75s",
+              "9",
+              "9",
+              "9,000",
+              "11"
+            ]
+          ]
+        }
+      ],
+      "baseTroop": "Lava Hound",
+      "baseLevelRequired": 5,
+      "unlockTH": 12,
+      "baseResearch": {
+        "1": {
+          "townHall": 9,
+          "laboratory": 0,
+          "cost": 0,
+          "resource": "Dark Elixir",
+          "time": "0m"
+        },
+        "2": {
+          "townHall": 9,
+          "laboratory": 7,
+          "cost": 14000,
+          "resource": "Dark Elixir",
+          "time": "2d"
+        },
+        "3": {
+          "townHall": 10,
+          "laboratory": 8,
+          "cost": 21500,
+          "resource": "Dark Elixir",
+          "time": "2d 12h"
+        },
+        "4": {
+          "townHall": 11,
+          "laboratory": 9,
+          "cost": 42500,
+          "resource": "Dark Elixir",
+          "time": "3d"
+        },
+        "5": {
+          "townHall": 12,
+          "laboratory": 10,
+          "cost": 60000,
+          "resource": "Dark Elixir",
+          "time": "4d"
+        },
+        "6": {
+          "townHall": 13,
+          "laboratory": 11,
+          "cost": 80000,
+          "resource": "Dark Elixir",
+          "time": "7d"
+        },
+        "7": {
+          "townHall": 16,
+          "laboratory": 14,
+          "cost": 200000,
+          "resource": "Dark Elixir",
+          "time": "8d"
+        },
+        "8": {
+          "townHall": 18,
+          "laboratory": 16,
+          "cost": 345000,
+          "resource": "Dark Elixir",
+          "time": "15d 6h"
+        }
+      },
+      "boost": {
+        "cost": 25000,
+        "resource": "Dark Elixir",
+        "duration": "3d",
+        "alternative": "Super Potion"
+      },
+      "sourceCorrections": [],
+      "note": "Unlock at TH 12 with Lava Hound level 5. Super Troop levels follow Lava Hound levels. Research costs and times below upgrade the base troop, not the Super Troop separately. Boosting costs 25,000 Dark Elixir or one Super Potion for 3 days. Normal self-training caps exclude event-only levels, donations, and temporary boosts.",
+      "verification": {
+        "checked": "2026-11-03",
+        "superTroop": {
+          "page": "Ice Hound",
+          "revision": 622637,
+          "rawWikitextSHA256": "0c96ab8df7db0834d800fd3e0d68054b7f6065aaf8b43629c8dbc30b9140a22c"
+        },
+        "baseTroop": {
+          "page": "Lava Hound",
+          "revision": 624357,
+          "rawWikitextSHA256": "21fa0f49f15d69ca7c0de73803c613dd3b7caabadc196a625306d6d93031dd4c"
+        },
+        "laboratory": {
+          "page": "Laboratory",
+          "revision": 625132,
+          "rawWikitextSHA256": "df12db31196c94aecf18e11a85b6f6bd9171972b8c290095adb8fa417beeb0a8"
+        },
+        "unlockBuilding": {
+          "page": "Dark Barracks",
+          "revision": 623607,
+          "rawWikitextSHA256": "bc45e40803c8f834dcd2935941b0ed0a4d596a495c3e106367baacd767262fe0"
+        },
+        "boostRule": {
+          "page": "Template:SuperTroopBoost",
+          "revision": 598512,
+          "rawWikitextSHA256": "cff43bb11f9a31f4ad589d3993683792f1965c3a7538fdda00dc2ea40dc5dd5e"
+        },
+        "generalRule": {
+          "page": "Super Troops",
+          "revision": 613574,
+          "rawWikitextSHA256": "1ded692edbaf3f808d344763745a9ef89855feaaf14387b086d7909bbe0cf2a9"
+        }
+      }
+    },
+    {
+      "n": "Super Bowler",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/3/39/Avatar_Super_Bowler.png/revision/latest?cb=20211005090727",
+      "source": "https://clashofclans.fandom.com/wiki/Super_Bowler",
+      "revision": 623122,
+      "tables": [
+        {
+          "heading": "Unlock requirements",
+          "columns": [
+            "Base Troop",
+            "Base Troop Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "Bowler",
+              "4",
+              "12"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Preferred Target",
+            "Attack Type",
+            "Housing Space",
+            "Movement Speed",
+            "Attack Speed",
+            "Range",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "None",
+              "Area Splash 0.6 Tile Radius (Ground Only)",
+              "30",
+              "14",
+              "2.2s",
+              "3 tiles from first target",
+              "Triple Strike"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Boost Cost (Dark Elixir)",
+            "Boost Duration",
+            "Bowler Level Required"
+          ],
+          "rows": [
+            [
+              "25,000",
+              "3d",
+              "4"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Attack",
+            "Hitpoints",
+            "Base Research Cost (Dark Elixir)",
+            "Base Research Time",
+            "Laboratory Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "4",
+              "170",
+              "374",
+              "1,600",
+              "62,500",
+              "3d",
+              "10",
+              "12"
+            ],
+            [
+              "5",
+              "185",
+              "407",
+              "1,800",
+              "85,000",
+              "4d",
+              "11",
+              "13"
+            ],
+            [
+              "6",
+              "200",
+              "440",
+              "2,000",
+              "110,000",
+              "6d",
+              "12",
+              "14"
+            ],
+            [
+              "7",
+              "220",
+              "484",
+              "2,300",
+              "145,000",
+              "7d",
+              "13",
+              "15"
+            ],
+            [
+              "8",
+              "240",
+              "528",
+              "2,600",
+              "175,000",
+              "7d 12h",
+              "14",
+              "16"
+            ],
+            [
+              "9",
+              "270",
+              "594",
+              "3,000",
+              "260,000",
+              "10d",
+              "15",
+              "17"
+            ],
+            [
+              "10",
+              "310",
+              "682",
+              "3,700",
+              "360,000",
+              "15d",
+              "16",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Super Bowler.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/39/Avatar_Super_Bowler.png/revision/latest?cb=20211005090727"
+        },
+        {
+          "file": "File:Super Bowler4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f7/Super_Bowler4.png/revision/latest?cb=20210928060809"
+        }
+      ],
+      "unverified": [],
+      "specialLevelTables": [],
+      "baseTroop": "Bowler",
+      "baseLevelRequired": 4,
+      "unlockTH": 12,
+      "hallByLevel": {
+        "4": 12,
+        "5": 13,
+        "6": 14,
+        "7": 15,
+        "8": 16,
+        "9": 17,
+        "10": 18
+      },
+      "baseResearch": {
+        "1": {
+          "townHall": 10,
+          "laboratory": 0,
+          "cost": 0,
+          "resource": "Dark Elixir",
+          "time": "0m"
+        },
+        "2": {
+          "townHall": 10,
+          "laboratory": 8,
+          "cost": 32500,
+          "resource": "Dark Elixir",
+          "time": "2d"
+        },
+        "3": {
+          "townHall": 11,
+          "laboratory": 9,
+          "cost": 44000,
+          "resource": "Dark Elixir",
+          "time": "2d 12h"
+        },
+        "4": {
+          "townHall": 12,
+          "laboratory": 10,
+          "cost": 62500,
+          "resource": "Dark Elixir",
+          "time": "3d"
+        },
+        "5": {
+          "townHall": 13,
+          "laboratory": 11,
+          "cost": 85000,
+          "resource": "Dark Elixir",
+          "time": "4d"
+        },
+        "6": {
+          "townHall": 14,
+          "laboratory": 12,
+          "cost": 110000,
+          "resource": "Dark Elixir",
+          "time": "6d"
+        },
+        "7": {
+          "townHall": 15,
+          "laboratory": 13,
+          "cost": 145000,
+          "resource": "Dark Elixir",
+          "time": "7d"
+        },
+        "8": {
+          "townHall": 16,
+          "laboratory": 14,
+          "cost": 175000,
+          "resource": "Dark Elixir",
+          "time": "7d 12h"
+        },
+        "9": {
+          "townHall": 17,
+          "laboratory": 15,
+          "cost": 260000,
+          "resource": "Dark Elixir",
+          "time": "10d"
+        },
+        "10": {
+          "townHall": 18,
+          "laboratory": 16,
+          "cost": 360000,
+          "resource": "Dark Elixir",
+          "time": "15d"
+        }
+      },
+      "boost": {
+        "cost": 25000,
+        "resource": "Dark Elixir",
+        "duration": "3d",
+        "alternative": "Super Potion"
+      },
+      "sourceCorrections": [],
+      "note": "Unlock at TH 12 with Bowler level 4. Super Troop levels follow Bowler levels. Research costs and times below upgrade the base troop, not the Super Troop separately. Boosting costs 25,000 Dark Elixir or one Super Potion for 3 days. Normal self-training caps exclude event-only levels, donations, and temporary boosts.",
+      "verification": {
+        "checked": "2026-11-03",
+        "superTroop": {
+          "page": "Super Bowler",
+          "revision": 623122,
+          "rawWikitextSHA256": "2c45f338f9b54280c0aed6c55d8c6ab2d68295c23f9038bd54d7e66264611516"
+        },
+        "baseTroop": {
+          "page": "Bowler",
+          "revision": 625689,
+          "rawWikitextSHA256": "59a3f5cc7cc4db37d745e01833e342eb6d49031fee60b112e77bba5f3570ac10"
+        },
+        "laboratory": {
+          "page": "Laboratory",
+          "revision": 625132,
+          "rawWikitextSHA256": "df12db31196c94aecf18e11a85b6f6bd9171972b8c290095adb8fa417beeb0a8"
+        },
+        "unlockBuilding": {
+          "page": "Dark Barracks",
+          "revision": 623607,
+          "rawWikitextSHA256": "bc45e40803c8f834dcd2935941b0ed0a4d596a495c3e106367baacd767262fe0"
+        },
+        "boostRule": {
+          "page": "Template:SuperTroopBoost",
+          "revision": 598512,
+          "rawWikitextSHA256": "cff43bb11f9a31f4ad589d3993683792f1965c3a7538fdda00dc2ea40dc5dd5e"
+        },
+        "generalRule": {
+          "page": "Super Troops",
+          "revision": 613574,
+          "rawWikitextSHA256": "1ded692edbaf3f808d344763745a9ef89855feaaf14387b086d7909bbe0cf2a9"
+        }
+      }
+    }
+  ],
+  "unverified": [],
+  "note": "All 17 normal Super Troop unlocks and hall caps cross-checked against their base troop levels, Laboratory requirements, and the TH11 boosting minimum. Research costs upgrade the base troop. Event-only levels and Clan Castle donations are excluded from normal caps.",
+  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+  "verificationSources": [
+    "https://clashofclans.fandom.com/wiki/Super_Troops",
+    "https://clashofclans.fandom.com/wiki/Laboratory",
+    "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
+  ]
+}

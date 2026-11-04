@@ -1,0 +1,392 @@
+{
+  "id": "walls",
+  "label": "Walls",
+  "format": "wiki-review-v1",
+  "updated": "2026-11-03",
+  "units": [
+    {
+      "n": "Wall",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/5/53/Old_Wall11.png/revision/latest?cb=20210527030422",
+      "source": "https://clashofclans.fandom.com/wiki/Wall",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics / Home Village",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "Cost (Gold)",
+            "Cumulative Cost (Gold)",
+            "Cost (Elixir)",
+            "Cumulative Cost (Elixir)",
+            "Cost",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "100",
+              "0",
+              "0",
+              "N/A",
+              "N/A",
+              "N/A",
+              "2"
+            ],
+            [
+              "2",
+              "200",
+              "1,000",
+              "1,000",
+              "N/A",
+              "N/A",
+              "1",
+              "2"
+            ],
+            [
+              "3",
+              "400",
+              "5,000",
+              "6,000",
+              "N/A",
+              "N/A",
+              "1",
+              "3"
+            ],
+            [
+              "4",
+              "800",
+              "10,000",
+              "16,000",
+              "N/A",
+              "N/A",
+              "1",
+              "4"
+            ],
+            [
+              "5",
+              "1,200",
+              "20,000",
+              "36,000",
+              "20,000",
+              "20,000",
+              "1",
+              "5"
+            ],
+            [
+              "6",
+              "1,800",
+              "30,000",
+              "66,000",
+              "30,000",
+              "50,000",
+              "1",
+              "6"
+            ],
+            [
+              "7",
+              "2,400",
+              "50,000",
+              "116,000",
+              "50,000",
+              "100,000",
+              "1",
+              "7"
+            ],
+            [
+              "8",
+              "3,000",
+              "75,000",
+              "191,000",
+              "75,000",
+              "175,000",
+              "1",
+              "8"
+            ],
+            [
+              "9",
+              "3,500",
+              "100,000",
+              "291,000",
+              "100,000",
+              "275,000",
+              "1",
+              "9"
+            ],
+            [
+              "10",
+              "4,000",
+              "200,000",
+              "491,000",
+              "200,000",
+              "475,000",
+              "1",
+              "9"
+            ],
+            [
+              "11",
+              "5,000",
+              "500,000",
+              "991,000",
+              "500,000",
+              "975,000",
+              "1",
+              "10"
+            ],
+            [
+              "12",
+              "7,000",
+              "1,000,000",
+              "1,991,000",
+              "1,000,000",
+              "1,975,000",
+              "1",
+              "11"
+            ],
+            [
+              "13",
+              "8,000",
+              "1,500,000",
+              "3,491,000",
+              "1,500,000",
+              "3,475,000",
+              "2",
+              "12"
+            ],
+            [
+              "14",
+              "9,000",
+              "2,000,000",
+              "5,491,000",
+              "2,000,000",
+              "5,475,000",
+              "2",
+              "13"
+            ],
+            [
+              "15",
+              "10,000",
+              "3,000,000",
+              "8,491,000",
+              "3,000,000",
+              "8,475,000",
+              "3",
+              "14"
+            ],
+            [
+              "16",
+              "11,000",
+              "4,000,000",
+              "12,491,000",
+              "4,000,000",
+              "12,475,000",
+              "4",
+              "15"
+            ],
+            [
+              "17",
+              "12,000",
+              "5,000,000",
+              "17,491,000",
+              "5,000,000",
+              "17,475,000",
+              "5",
+              "16"
+            ],
+            [
+              "18",
+              "13,000",
+              "7,000,000",
+              "24,491,000",
+              "7,000,000",
+              "24,475,000",
+              "7",
+              "17"
+            ],
+            [
+              "19",
+              "14,000",
+              "10,000,000",
+              "34,491,000",
+              "10,000,000",
+              "34,475,000",
+              "10",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Old Wall11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/53/Old_Wall11.png/revision/latest?cb=20210527030422"
+        },
+        {
+          "file": "File:Wall1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/74/Wall1.png/revision/latest?cb=20171205125404"
+        },
+        {
+          "file": "File:Wall10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8b/Wall10.png/revision/latest?cb=20171205125626"
+        },
+        {
+          "file": "File:Wall10B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Wall10B.png/revision/latest?cb=20230517053328"
+        },
+        {
+          "file": "File:Wall11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/86/Wall11.png/revision/latest?cb=20171205125639"
+        },
+        {
+          "file": "File:Wall12.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/41/Wall12.png/revision/latest?cb=20171205125655"
+        },
+        {
+          "file": "File:Wall13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/23/Wall13.png/revision/latest?cb=20180604155743"
+        },
+        {
+          "file": "File:Wall14.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/53/Wall14.png/revision/latest?cb=20201023201151"
+        },
+        {
+          "file": "File:Wall15.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/61/Wall15.png/revision/latest?cb=20210413212225"
+        },
+        {
+          "file": "File:Wall16.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/81/Wall16.png/revision/latest?cb=20221010075457"
+        },
+        {
+          "file": "File:Wall17.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6c/Wall17.png/revision/latest?cb=20251209003136"
+        },
+        {
+          "file": "File:Wall18.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/02/Wall18.png/revision/latest?cb=20251211120721"
+        },
+        {
+          "file": "File:Wall19.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4d/Wall19.png/revision/latest?cb=20260226043604"
+        },
+        {
+          "file": "File:Wall19 Old.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1a/Wall19_Old.png/revision/latest?cb=20260321212255"
+        },
+        {
+          "file": "File:Wall1B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fb/Wall1B.png/revision/latest?cb=20170927102315"
+        },
+        {
+          "file": "File:Wall2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Wall2.png/revision/latest?cb=20171205125418"
+        },
+        {
+          "file": "File:Wall2B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/99/Wall2B.png/revision/latest?cb=20170927102333"
+        },
+        {
+          "file": "File:Wall3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f5/Wall3.png/revision/latest?cb=20171205125432"
+        },
+        {
+          "file": "File:Wall3B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/91/Wall3B.png/revision/latest?cb=20170927102352"
+        },
+        {
+          "file": "File:Wall4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/62/Wall4.png/revision/latest?cb=20171205125448"
+        },
+        {
+          "file": "File:Wall4B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b6/Wall4B.png/revision/latest?cb=20170927102413"
+        },
+        {
+          "file": "File:Wall5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c4/Wall5.png/revision/latest?cb=20171205125503"
+        },
+        {
+          "file": "File:Wall5B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4f/Wall5B.png/revision/latest?cb=20170927102434"
+        },
+        {
+          "file": "File:Wall5C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f9/Wall5C.png/revision/latest?cb=20220504055858"
+        },
+        {
+          "file": "File:Wall5C Corner.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f5/Wall5C_Corner.png/revision/latest?cb=20220504055852"
+        },
+        {
+          "file": "File:Wall6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c7/Wall6.png/revision/latest?cb=20171205125519"
+        },
+        {
+          "file": "File:Wall6B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f3/Wall6B.png/revision/latest?cb=20170927102501"
+        },
+        {
+          "file": "File:Wall7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/be/Wall7.png/revision/latest?cb=20171205125539"
+        },
+        {
+          "file": "File:Wall7B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a2/Wall7B.png/revision/latest?cb=20170927102546"
+        },
+        {
+          "file": "File:Wall8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/06/Wall8.png/revision/latest?cb=20171205125553"
+        },
+        {
+          "file": "File:Wall8B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b7/Wall8B.png/revision/latest?cb=20170927102606"
+        },
+        {
+          "file": "File:Wall9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/93/Wall9.png/revision/latest?cb=20171205125607"
+        },
+        {
+          "file": "File:Wall9B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Wall9B.png/revision/latest?cb=20190616234919"
+        },
+        {
+          "file": "File:Wall Ring.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/60/Wall_Ring.png/revision/latest?cb=20180302001348"
+        },
+        {
+          "file": "File:Wall Ruin.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/64/Wall_Ruin.png/revision/latest?cb=20220504055854"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 2,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 9,
+        "11": 10,
+        "12": 11,
+        "13": 12,
+        "14": 13,
+        "15": 14,
+        "16": 15,
+        "17": 16,
+        "18": 17,
+        "19": 18
+      }
+    }
+  ],
+  "unverified": [],
+  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
+}

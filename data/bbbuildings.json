@@ -1,0 +1,2868 @@
+{
+  "id": "bbbuildings",
+  "label": "Builder Buildings",
+  "format": "wiki-review-v1",
+  "updated": "2026-11-03",
+  "units": [
+    {
+      "n": "Builder Hall",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/1/19/Builder_Hall1.png/revision/latest?cb=20260124185607",
+      "source": "https://clashofclans.fandom.com/wiki/Builder_Hall",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "BH Level",
+            "Hitpoints",
+            "Build Cost (Builder Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Maximum Number of Buildings Available"
+          ],
+          "rows": [
+            [
+              "1",
+              "650",
+              "N/A",
+              "N/A",
+              "N/A",
+              "0"
+            ],
+            [
+              "2",
+              "800",
+              "3,500",
+              "5s",
+              "2",
+              "10"
+            ],
+            [
+              "3",
+              "975",
+              "30,000",
+              "1h",
+              "60",
+              "18"
+            ],
+            [
+              "4",
+              "1,150",
+              "200,000",
+              "1d",
+              "293",
+              "23"
+            ],
+            [
+              "5",
+              "1,350",
+              "400,000",
+              "2d",
+              "415",
+              "27"
+            ],
+            [
+              "6",
+              "1,600",
+              "1,200,000",
+              "3d",
+              "509",
+              "39"
+            ],
+            [
+              "7",
+              "1,850",
+              "1,800,000",
+              "4d",
+              "587",
+              "44"
+            ],
+            [
+              "8",
+              "2,150",
+              "2,800,000",
+              "5d",
+              "657",
+              "50"
+            ],
+            [
+              "9",
+              "2,450",
+              "3,800,000",
+              "6d",
+              "720",
+              "54"
+            ],
+            [
+              "10",
+              "2,750",
+              "4,800,000",
+              "7d",
+              "777",
+              "55"
+            ]
+          ]
+        },
+        {
+          "heading": "Storage Capacity of the Builder Hall",
+          "columns": [
+            "BH Level",
+            "Gold Available",
+            "Elixir Available",
+            "Gold/Elixir Available Including Storages"
+          ],
+          "rows": [
+            [
+              "1",
+              "50,000",
+              "50,000",
+              "50,000"
+            ],
+            [
+              "2",
+              "75,000",
+              "75,000",
+              "75,000"
+            ],
+            [
+              "3",
+              "100,000",
+              "100,000",
+              "350,000"
+            ],
+            [
+              "4",
+              "150,000",
+              "150,000",
+              "500,000"
+            ],
+            [
+              "5",
+              "900,000",
+              "900,000",
+              "1,500,000"
+            ],
+            [
+              "6",
+              "900,000",
+              "900,000",
+              "2,500,000"
+            ],
+            [
+              "7",
+              "1,100,000",
+              "1,100,000",
+              "3,500,000"
+            ],
+            [
+              "8",
+              "1,300,000",
+              "1,300,000",
+              "4,500,000"
+            ],
+            [
+              "9",
+              "1,500,000",
+              "1,500,000",
+              "5,500,000"
+            ],
+            [
+              "10",
+              "1,500,000",
+              "1,500,000",
+              "6,500,000"
+            ]
+          ]
+        },
+        {
+          "heading": "Builder Base Stage Quotas",
+          "columns": [
+            "Builder Hall Level",
+            "Quota per Stage / Defenses",
+            "Quota per Stage / Traps",
+            "Quota per Stage / Walls",
+            "Maximum Available / Defenses",
+            "Maximum Available / Traps",
+            "Maximum Available / Walls"
+          ],
+          "rows": [
+            [
+              "6",
+              "13",
+              "12",
+              "100",
+              "17",
+              "14",
+              "120"
+            ],
+            [
+              "7",
+              "13",
+              "12",
+              "100",
+              "21",
+              "16",
+              "140"
+            ],
+            [
+              "8",
+              "13",
+              "12",
+              "100",
+              "24",
+              "18",
+              "160"
+            ],
+            [
+              "9",
+              "14",
+              "12",
+              "100",
+              "26",
+              "20",
+              "180"
+            ],
+            [
+              "10",
+              "14",
+              "12",
+              "100",
+              "27",
+              "21",
+              "180"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Builder Hall1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/19/Builder_Hall1.png/revision/latest?cb=20260124185607"
+        },
+        {
+          "file": "File:Builder Hall10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/87/Builder_Hall10.png/revision/latest?cb=20230516070454"
+        },
+        {
+          "file": "File:Builder Hall2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/03/Builder_Hall2.png/revision/latest?cb=20260124185646"
+        },
+        {
+          "file": "File:Builder Hall3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/38/Builder_Hall3.png/revision/latest?cb=20260124185706"
+        },
+        {
+          "file": "File:Builder Hall4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/be/Builder_Hall4.png/revision/latest?cb=20260124185726"
+        },
+        {
+          "file": "File:Builder Hall5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/22/Builder_Hall5.png/revision/latest?cb=20260124185756"
+        },
+        {
+          "file": "File:Builder Hall6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/29/Builder_Hall6.png/revision/latest?cb=20260124185815"
+        },
+        {
+          "file": "File:Builder Hall7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7f/Builder_Hall7.png/revision/latest?cb=20260124185837"
+        },
+        {
+          "file": "File:Builder Hall8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0e/Builder_Hall8.png/revision/latest?cb=20260124185902"
+        },
+        {
+          "file": "File:Builder Hall9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/43/Builder_Hall9.png/revision/latest?cb=20230516070619"
+        }
+      ],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
+      ]
+    },
+    {
+      "n": "Gold Mine/Builder Base",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/b/bf/Gold_Mine1.png/revision/latest?cb=20180110120430",
+      "source": "https://clashofclans.fandom.com/wiki/Gold_Mine/Builder_Base",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Capacity",
+            "Production Rate",
+            "Hitpoints",
+            "Time to Fill",
+            "Build Cost (Builder Elixir)",
+            "Build Time",
+            "Experience Gained",
+            "Catch-Up Point*",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "24,000",
+              "1,000/hr",
+              "300",
+              "1d",
+              "1,000",
+              "10m",
+              "24",
+              "N/A",
+              "1"
+            ],
+            [
+              "2",
+              "28,800",
+              "1,200/hr",
+              "350",
+              "1d",
+              "5,000",
+              "20m",
+              "34",
+              "1h 40m",
+              "3"
+            ],
+            [
+              "3",
+              "36,000",
+              "1,500/hr",
+              "400",
+              "1d",
+              "10,000",
+              "40m",
+              "48",
+              "2h 40m",
+              "3"
+            ],
+            [
+              "4",
+              "43,200",
+              "1,800/hr",
+              "460",
+              "1d",
+              "30,000",
+              "2h",
+              "84",
+              "10h",
+              "4"
+            ],
+            [
+              "5",
+              "50,400",
+              "2,100/hr",
+              "550",
+              "1d",
+              "60,000",
+              "6h",
+              "146",
+              "1d 12h",
+              "5"
+            ],
+            [
+              "6",
+              "60,000",
+              "2,500/hr",
+              "650",
+              "1d",
+              "100,000",
+              "1d",
+              "293",
+              "5d 6h",
+              "6"
+            ],
+            [
+              "7",
+              "72,000",
+              "3,000/hr",
+              "750",
+              "1d",
+              "200,000",
+              "1d 12h",
+              "360",
+              "7d 12h",
+              "7"
+            ],
+            [
+              "8",
+              "84,000",
+              "3,500/hr",
+              "850",
+              "1d",
+              "300,000",
+              "2d",
+              "415",
+              "12d",
+              "8"
+            ],
+            [
+              "9",
+              "96,000",
+              "4,000/hr",
+              "1,000",
+              "1d",
+              "400,000",
+              "2d 12h",
+              "464",
+              "17d 12h",
+              "9"
+            ],
+            [
+              "10",
+              "108,000",
+              "4,500/hr",
+              "1,150",
+              "1d",
+              "800,000",
+              "3d",
+              "509",
+              "24d",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Gold Mine1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bf/Gold_Mine1.png/revision/latest?cb=20180110120430"
+        },
+        {
+          "file": "File:Gold Mine10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Gold_Mine10.png/revision/latest?cb=20180110120703"
+        },
+        {
+          "file": "File:Gold Mine2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/55/Gold_Mine2.png/revision/latest?cb=20180110120444"
+        },
+        {
+          "file": "File:Gold Mine3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e4/Gold_Mine3.png/revision/latest?cb=20180110120457"
+        },
+        {
+          "file": "File:Gold Mine4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Gold_Mine4.png/revision/latest?cb=20180110120510"
+        },
+        {
+          "file": "File:Gold Mine5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1a/Gold_Mine5.png/revision/latest?cb=20180110120533"
+        },
+        {
+          "file": "File:Gold Mine6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/86/Gold_Mine6.png/revision/latest?cb=20180110120552"
+        },
+        {
+          "file": "File:Gold Mine7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/11/Gold_Mine7.png/revision/latest?cb=20180110120611"
+        },
+        {
+          "file": "File:Gold Mine8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/52/Gold_Mine8.png/revision/latest?cb=20180110120627"
+        },
+        {
+          "file": "File:Gold Mine9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bf/Gold_Mine9.png/revision/latest?cb=20180110120642"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 1,
+        "2": 3,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
+    },
+    {
+      "n": "Elixir Collector/Builder Base",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/3/32/Elixir_Collector10B.png/revision/latest?cb=20230518051323",
+      "source": "https://clashofclans.fandom.com/wiki/Elixir_Collector/Builder_Base",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Capacity",
+            "Production Per Hour",
+            "Hitpoints",
+            "Time to Fill",
+            "Build Cost (Builder Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Catch-Up Point*",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "24,000",
+              "1,000/hr",
+              "300",
+              "1d",
+              "1,000",
+              "10m",
+              "24",
+              "N/A",
+              "1"
+            ],
+            [
+              "2",
+              "28,800",
+              "1,200/hr",
+              "350",
+              "1d",
+              "5,000",
+              "20m",
+              "34",
+              "1h 40m",
+              "3"
+            ],
+            [
+              "3",
+              "36,000",
+              "1,500/hr",
+              "400",
+              "1d",
+              "10,000",
+              "40m",
+              "48",
+              "2h 40m",
+              "3"
+            ],
+            [
+              "4",
+              "43,200",
+              "1,800/hr",
+              "460",
+              "1d",
+              "30,000",
+              "2h",
+              "84",
+              "10h",
+              "4"
+            ],
+            [
+              "5",
+              "50,400",
+              "2,100/hr",
+              "550",
+              "1d",
+              "60,000",
+              "6h",
+              "146",
+              "1d 12h",
+              "5"
+            ],
+            [
+              "6",
+              "60,000",
+              "2,500/hr",
+              "650",
+              "1d",
+              "100,000",
+              "1d",
+              "293",
+              "5d 6h",
+              "6"
+            ],
+            [
+              "7",
+              "72,000",
+              "3,000/hr",
+              "750",
+              "1d",
+              "200,000",
+              "1d 12h",
+              "360",
+              "7d 12h",
+              "7"
+            ],
+            [
+              "8",
+              "84,000",
+              "3,500/hr",
+              "850",
+              "1d",
+              "300,000",
+              "2d",
+              "415",
+              "12d",
+              "8"
+            ],
+            [
+              "9",
+              "96,000",
+              "4,000/hr",
+              "1,000",
+              "1d",
+              "400,000",
+              "2d 12h",
+              "464",
+              "17d 12h",
+              "9"
+            ],
+            [
+              "10",
+              "108,000",
+              "4,500/hr",
+              "1,150",
+              "1d",
+              "800,000",
+              "3d",
+              "509",
+              "24d",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Elixir Collector10B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/32/Elixir_Collector10B.png/revision/latest?cb=20230518051323"
+        },
+        {
+          "file": "File:Elixir Collector1B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c4/Elixir_Collector1B.png/revision/latest?cb=20180109122754"
+        },
+        {
+          "file": "File:Elixir Collector2B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/19/Elixir_Collector2B.png/revision/latest?cb=20180109122754"
+        },
+        {
+          "file": "File:Elixir Collector3B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a7/Elixir_Collector3B.png/revision/latest?cb=20180109122755"
+        },
+        {
+          "file": "File:Elixir Collector4B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/54/Elixir_Collector4B.png/revision/latest?cb=20180109122755"
+        },
+        {
+          "file": "File:Elixir Collector5B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ef/Elixir_Collector5B.png/revision/latest?cb=20180109122756"
+        },
+        {
+          "file": "File:Elixir Collector6B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d4/Elixir_Collector6B.png/revision/latest?cb=20180109122756"
+        },
+        {
+          "file": "File:Elixir Collector7B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8e/Elixir_Collector7B.png/revision/latest?cb=20180109122757"
+        },
+        {
+          "file": "File:Elixir Collector8B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/15/Elixir_Collector8B.png/revision/latest?cb=20180109122757"
+        },
+        {
+          "file": "File:Elixir Collector9B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3b/Elixir_Collector9B.png/revision/latest?cb=20190616211335"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 1,
+        "2": 3,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
+    },
+    {
+      "n": "Gold Storage/Builder Base",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/e/e6/Gold_Storage10B.png/revision/latest?cb=20230518052405",
+      "source": "https://clashofclans.fandom.com/wiki/Gold_Storage/Builder_Base",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Storage Capacity",
+            "Hitpoints",
+            "Build Cost (Builder Elixir)",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "70,000",
+              "650",
+              "20,000",
+              "30m",
+              "42",
+              "3"
+            ],
+            [
+              "2",
+              "150,000",
+              "800",
+              "80,000",
+              "1h",
+              "60",
+              "3"
+            ],
+            [
+              "3",
+              "250,000",
+              "975",
+              "200,000",
+              "3h",
+              "103",
+              "3"
+            ],
+            [
+              "4",
+              "350,000",
+              "1,150",
+              "300,000",
+              "6h",
+              "146",
+              "4"
+            ],
+            [
+              "5",
+              "600,000",
+              "1,350",
+              "600,000",
+              "12h",
+              "207",
+              "5"
+            ],
+            [
+              "6",
+              "800,000",
+              "1,600",
+              "1,000,000",
+              "1d",
+              "293",
+              "6"
+            ],
+            [
+              "7",
+              "1,200,000",
+              "1,850",
+              "1,500,000",
+              "2d",
+              "415",
+              "7"
+            ],
+            [
+              "8",
+              "1,600,000",
+              "2,150",
+              "2,000,000",
+              "3d",
+              "509",
+              "8"
+            ],
+            [
+              "9",
+              "2,000,000",
+              "2,450",
+              "2,500,000",
+              "4d",
+              "587",
+              "9"
+            ],
+            [
+              "10",
+              "2,500,000",
+              "2,750",
+              "3,200,000",
+              "5d",
+              "657",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Gold Storage10B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e6/Gold_Storage10B.png/revision/latest?cb=20230518052405"
+        },
+        {
+          "file": "File:Gold Storage1B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/16/Gold_Storage1B.png/revision/latest?cb=20171031120205"
+        },
+        {
+          "file": "File:Gold Storage2B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/de/Gold_Storage2B.png/revision/latest?cb=20171031120206"
+        },
+        {
+          "file": "File:Gold Storage3B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c8/Gold_Storage3B.png/revision/latest?cb=20171031120207"
+        },
+        {
+          "file": "File:Gold Storage4B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/81/Gold_Storage4B.png/revision/latest?cb=20171031120207"
+        },
+        {
+          "file": "File:Gold Storage5B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/27/Gold_Storage5B.png/revision/latest?cb=20171031120207"
+        },
+        {
+          "file": "File:Gold Storage6B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/84/Gold_Storage6B.png/revision/latest?cb=20171031120208"
+        },
+        {
+          "file": "File:Gold Storage7B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/31/Gold_Storage7B.png/revision/latest?cb=20171031120208"
+        },
+        {
+          "file": "File:Gold Storage8B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Gold_Storage8B.png/revision/latest?cb=20180307123736"
+        },
+        {
+          "file": "File:Gold Storage9B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/49/Gold_Storage9B.png/revision/latest?cb=20190616213038"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 3,
+        "2": 3,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
+    },
+    {
+      "n": "Elixir Storage/Builder Base",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Elixir_Storage10B.png/revision/latest?cb=20230515070355",
+      "source": "https://clashofclans.fandom.com/wiki/Elixir_Storage/Builder_Base",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Storage Capacity",
+            "Hitpoints",
+            "Build Cost (Builder Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "70,000",
+              "650",
+              "20,000",
+              "30m",
+              "42",
+              "3"
+            ],
+            [
+              "2",
+              "150,000",
+              "800",
+              "80,000",
+              "1h",
+              "60",
+              "3"
+            ],
+            [
+              "3",
+              "250,000",
+              "975",
+              "200,000",
+              "3h",
+              "103",
+              "3"
+            ],
+            [
+              "4",
+              "350,000",
+              "1,150",
+              "300,000",
+              "6h",
+              "146",
+              "4"
+            ],
+            [
+              "5",
+              "600,000",
+              "1,350",
+              "600,000",
+              "12h",
+              "207",
+              "5"
+            ],
+            [
+              "6",
+              "800,000",
+              "1,600",
+              "1,000,000",
+              "1d",
+              "293",
+              "6"
+            ],
+            [
+              "7",
+              "1,200,000",
+              "1,850",
+              "1,500,000",
+              "2d",
+              "415",
+              "7"
+            ],
+            [
+              "8",
+              "1,600,000",
+              "2,150",
+              "2,000,000",
+              "3d",
+              "509",
+              "8"
+            ],
+            [
+              "9",
+              "2,000,000",
+              "2,450",
+              "2,500,000",
+              "4d",
+              "587",
+              "9"
+            ],
+            [
+              "10",
+              "2,500,000",
+              "2,750",
+              "3,200,000",
+              "5d",
+              "657",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Elixir Storage10B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Elixir_Storage10B.png/revision/latest?cb=20230515070355"
+        },
+        {
+          "file": "File:Elixir Storage1B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/92/Elixir_Storage1B.png/revision/latest?cb=20230515070145"
+        },
+        {
+          "file": "File:Elixir Storage2B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d2/Elixir_Storage2B.png/revision/latest?cb=20230515070207"
+        },
+        {
+          "file": "File:Elixir Storage3B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/38/Elixir_Storage3B.png/revision/latest?cb=20230515070217"
+        },
+        {
+          "file": "File:Elixir Storage4B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1a/Elixir_Storage4B.png/revision/latest?cb=20230515070230"
+        },
+        {
+          "file": "File:Elixir Storage5B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5a/Elixir_Storage5B.png/revision/latest?cb=20230515070243"
+        },
+        {
+          "file": "File:Elixir Storage6B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c9/Elixir_Storage6B.png/revision/latest?cb=20230515070259"
+        },
+        {
+          "file": "File:Elixir Storage7B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4c/Elixir_Storage7B.png/revision/latest?cb=20230515070311"
+        },
+        {
+          "file": "File:Elixir Storage8B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bb/Elixir_Storage8B.png/revision/latest?cb=20230515070322"
+        },
+        {
+          "file": "File:Elixir Storage9B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3f/Elixir_Storage9B.png/revision/latest?cb=20230515070333"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 3,
+        "2": 3,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
+    },
+    {
+      "n": "Gem Mine",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/a/ae/Gem_Mine1.png/revision/latest?cb=20170830100532",
+      "source": "https://clashofclans.fandom.com/wiki/Gem_Mine",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Capacity",
+            "Production Rate*",
+            "Production Time per Gem",
+            "Time to Fill",
+            "Hitpoints",
+            "Build Cost (Builder Elixir)",
+            "Build Time",
+            "Experience Gained",
+            "Catch-up Point**",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "10",
+              "2.16/d",
+              "11h 6m 40s",
+              "4d 15h 6m 40s",
+              "300",
+              "120,000",
+              "1h",
+              "60",
+              "N/A",
+              "3"
+            ],
+            [
+              "2",
+              "11",
+              "2.40/d",
+              "10h",
+              "4d 14h",
+              "350",
+              "180,000",
+              "2h",
+              "84",
+              "18h",
+              "3"
+            ],
+            [
+              "3",
+              "12",
+              "2.64/d",
+              "9h 5m 27s",
+              "4d 13h 5m 27s",
+              "400",
+              "240,000",
+              "6h",
+              "146",
+              "2d 12h",
+              "3"
+            ],
+            [
+              "4",
+              "13",
+              "2.88/d",
+              "8h 20m",
+              "4d 12h 20m",
+              "450",
+              "450,000",
+              "8h",
+              "169",
+              "3d 16h",
+              "4"
+            ],
+            [
+              "5",
+              "14",
+              "3.12/d",
+              "7h 41m 32s",
+              "4d 11h 41m 32s",
+              "550",
+              "1,000,000",
+              "12h",
+              "207",
+              "6d",
+              "5"
+            ],
+            [
+              "6",
+              "15",
+              "3.36/d",
+              "7h 8m 34s",
+              "4d 11h 8m 34s",
+              "650",
+              "1,500,000",
+              "1d",
+              "293",
+              "13d",
+              "6"
+            ],
+            [
+              "7",
+              "16",
+              "3.84/d",
+              "6h 15m",
+              "4d 4h",
+              "750",
+              "2,500,000",
+              "2d",
+              "415",
+              "14d",
+              "7"
+            ],
+            [
+              "8",
+              "17",
+              "4.32/d",
+              "5h 33m 20s",
+              "3d 22h 26m 40s",
+              "850",
+              "3,500,000",
+              "4d",
+              "587",
+              "32d",
+              "8"
+            ],
+            [
+              "9",
+              "18",
+              "4.80/d",
+              "5h",
+              "3d 18h",
+              "1,000",
+              "4,500,000",
+              "6d",
+              "720",
+              "54d",
+              "9"
+            ],
+            [
+              "10",
+              "19",
+              "5.04/d",
+              "4h 45m 43s",
+              "3d 18h 28m 34s",
+              "1,150",
+              "5,500,000",
+              "8d",
+              "831",
+              "160d",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Gem Mine1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ae/Gem_Mine1.png/revision/latest?cb=20170830100532"
+        },
+        {
+          "file": "File:Gem Mine10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0f/Gem_Mine10.png/revision/latest?cb=20230518054357"
+        },
+        {
+          "file": "File:Gem Mine2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Gem_Mine2.png/revision/latest?cb=20170830100551"
+        },
+        {
+          "file": "File:Gem Mine3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b0/Gem_Mine3.png/revision/latest?cb=20170830100614"
+        },
+        {
+          "file": "File:Gem Mine4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/25/Gem_Mine4.png/revision/latest?cb=20170830100632"
+        },
+        {
+          "file": "File:Gem Mine5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f9/Gem_Mine5.png/revision/latest?cb=20170830100652"
+        },
+        {
+          "file": "File:Gem Mine6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/ff/Gem_Mine6.png/revision/latest?cb=20170830100710"
+        },
+        {
+          "file": "File:Gem Mine7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9f/Gem_Mine7.png/revision/latest?cb=20170927112119"
+        },
+        {
+          "file": "File:Gem Mine8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a8/Gem_Mine8.png/revision/latest?cb=20170927112823"
+        },
+        {
+          "file": "File:Gem Mine9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/be/Gem_Mine9.png/revision/latest?cb=20200901052741"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 3,
+        "2": 3,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
+    },
+    {
+      "n": "B.O.B Control",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/9/95/O.T.T.O_Hut1.png/revision/latest?cb=20190621205325",
+      "source": "https://clashofclans.fandom.com/wiki/B.O.B_Control",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Hitpoints",
+            "Build Cost (Builder Gold)",
+            "Build Time",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "250",
+              "100,000",
+              "None",
+              "9"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:O.T.T.O Hut1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/95/O.T.T.O_Hut1.png/revision/latest?cb=20190621205325"
+        },
+        {
+          "file": "File:O.T.T.O Hut2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a7/O.T.T.O_Hut2.png/revision/latest?cb=20190621205325"
+        },
+        {
+          "file": "File:O.T.T.O Hut3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2e/O.T.T.O_Hut3.png/revision/latest?cb=20190621205326"
+        },
+        {
+          "file": "File:O.T.T.O Hut4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6b/O.T.T.O_Hut4.png/revision/latest?cb=20190621205326"
+        },
+        {
+          "file": "File:O.T.T.O Hut5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/80/O.T.T.O_Hut5.png/revision/latest?cb=20190621205327"
+        }
+      ],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
+      ]
+    },
+    {
+      "n": "Builder Barracks",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/c/ce/Builder_Barracks1.png/revision/latest?cb=20180501142536",
+      "source": "https://clashofclans.fandom.com/wiki/Builder_Barracks",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Unlocked Unit",
+            "Hitpoints",
+            "Build Cost (Builder Elixir)",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "Raged Barbarian",
+              "300",
+              "1,000*",
+              "N/A",
+              "N/A",
+              "2"
+            ],
+            [
+              "2",
+              "Sneaky Archer",
+              "350",
+              "4,000",
+              "1m",
+              "7",
+              "2"
+            ],
+            [
+              "3",
+              "Boxer Giant",
+              "400",
+              "10,000",
+              "10m",
+              "24",
+              "3"
+            ],
+            [
+              "4",
+              "Beta Minion",
+              "460",
+              "25,000",
+              "30m",
+              "42",
+              "3"
+            ],
+            [
+              "5",
+              "Bomber",
+              "550",
+              "100,000",
+              "3h",
+              "103",
+              "4"
+            ],
+            [
+              "6",
+              "Baby Dragon",
+              "650",
+              "150,000",
+              "6h",
+              "146",
+              "4"
+            ],
+            [
+              "7",
+              "Cannon Cart",
+              "750",
+              "300,000",
+              "9h",
+              "180",
+              "5"
+            ],
+            [
+              "8",
+              "Night Witch",
+              "850",
+              "500,000",
+              "1d",
+              "293",
+              "6"
+            ],
+            [
+              "9",
+              "Drop Ship",
+              "1,000",
+              "1,000,000",
+              "2d",
+              "415",
+              "7"
+            ],
+            [
+              "10",
+              "Power P.E.K.K.A",
+              "1,150",
+              "1,500,000",
+              "3d",
+              "509",
+              "8"
+            ],
+            [
+              "11",
+              "Hog Glider",
+              "1,300",
+              "2,000,000",
+              "4d",
+              "587",
+              "9"
+            ],
+            [
+              "12",
+              "Electrofire Wizard",
+              "1,450",
+              "3,000,000",
+              "5d",
+              "657",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Builder Barracks1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/ce/Builder_Barracks1.png/revision/latest?cb=20180501142536"
+        },
+        {
+          "file": "File:Builder Barracks10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b9/Builder_Barracks10.png/revision/latest?cb=20180501142759"
+        },
+        {
+          "file": "File:Builder Barracks11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/05/Builder_Barracks11.png/revision/latest?cb=20190617025509"
+        },
+        {
+          "file": "File:Builder Barracks12.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/94/Builder_Barracks12.png/revision/latest?cb=20230518075724"
+        },
+        {
+          "file": "File:Builder Barracks2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c2/Builder_Barracks2.png/revision/latest?cb=20180501142551"
+        },
+        {
+          "file": "File:Builder Barracks3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/74/Builder_Barracks3.png/revision/latest?cb=20180501142604"
+        },
+        {
+          "file": "File:Builder Barracks4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1e/Builder_Barracks4.png/revision/latest?cb=20180501142619"
+        },
+        {
+          "file": "File:Builder Barracks5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e3/Builder_Barracks5.png/revision/latest?cb=20180501142637"
+        },
+        {
+          "file": "File:Builder Barracks6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f4/Builder_Barracks6.png/revision/latest?cb=20180501142650"
+        },
+        {
+          "file": "File:Builder Barracks7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/91/Builder_Barracks7.png/revision/latest?cb=20180501142704"
+        },
+        {
+          "file": "File:Builder Barracks8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/03/Builder_Barracks8.png/revision/latest?cb=20180501142720"
+        },
+        {
+          "file": "File:Builder Barracks9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e2/Builder_Barracks9.png/revision/latest?cb=20180501142745"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 2,
+        "2": 2,
+        "3": 3,
+        "4": 3,
+        "5": 4,
+        "6": 4,
+        "7": 5,
+        "8": 6,
+        "9": 7,
+        "10": 8,
+        "11": 9,
+        "12": 10
+      }
+    },
+    {
+      "n": "Army Camp/Builder Base",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/87/Builder_Hall10.png/revision/latest?cb=20230516070454",
+      "source": "https://clashofclans.fandom.com/wiki/Army_Camp/Builder_Base",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Hitpoints"
+          ],
+          "rows": [
+            [
+              "300"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Number of Army Camps",
+            "Build Cost (Builder Elixir)",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1*",
+              "N/A",
+              "N/A",
+              "N/A",
+              "1"
+            ],
+            [
+              "2",
+              "12,000",
+              "5m",
+              "17",
+              "2"
+            ],
+            [
+              "3",
+              "180,000",
+              "3h",
+              "103",
+              "3"
+            ],
+            [
+              "4",
+              "350,000",
+              "8h",
+              "169",
+              "4"
+            ],
+            [
+              "5",
+              "2,000,000",
+              "3d",
+              "509",
+              "6"
+            ],
+            [
+              "6",
+              "3,000,000",
+              "6d",
+              "720",
+              "7"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Builder Hall10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/87/Builder_Hall10.png/revision/latest?cb=20230516070454"
+        }
+      ],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
+      ]
+    },
+    {
+      "n": "Star Laboratory",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/1/1c/Star_Laboratory1.png/revision/latest?cb=20180512123423",
+      "source": "https://clashofclans.fandom.com/wiki/Star_Laboratory",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "Build Cost (Builder Elixir)",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "650",
+              "1,000*",
+              "N/A",
+              "N/A",
+              "2"
+            ],
+            [
+              "2",
+              "800",
+              "15,000",
+              "10m",
+              "24",
+              "2"
+            ],
+            [
+              "3",
+              "975",
+              "50,000",
+              "30m",
+              "42",
+              "3"
+            ],
+            [
+              "4",
+              "1,150",
+              "300,000",
+              "8h",
+              "169",
+              "4"
+            ],
+            [
+              "5",
+              "1,350",
+              "700,000",
+              "12h",
+              "207",
+              "5"
+            ],
+            [
+              "6",
+              "1,600",
+              "1,000,000",
+              "2d",
+              "415",
+              "6"
+            ],
+            [
+              "7",
+              "1,850",
+              "2,000,000",
+              "4d",
+              "587",
+              "7"
+            ],
+            [
+              "8",
+              "2,150",
+              "3,000,000",
+              "6d",
+              "720",
+              "8"
+            ],
+            [
+              "9",
+              "2,450",
+              "4,000,000",
+              "8d",
+              "831",
+              "9"
+            ],
+            [
+              "10",
+              "2,750",
+              "5,000,000",
+              "10d",
+              "929",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Upgrade Chart",
+          "columns": [
+            "Upgrade Chart",
+            "Upgrade Chart",
+            "Star Laboratory Level / 1",
+            "Star Laboratory Level / 2",
+            "Star Laboratory Level / 3",
+            "Star Laboratory Level / 4",
+            "Star Laboratory Level / 5",
+            "Star Laboratory Level / 6",
+            "Star Laboratory Level / 7",
+            "Star Laboratory Level / 8",
+            "Star Laboratory Level / 9",
+            "Star Laboratory Level / 10"
+          ],
+          "rows": [
+            [
+              "Raged Barbarian",
+              "Level",
+              "2",
+              "3 / 4",
+              "5 / 6",
+              "7 / 8",
+              "9 / 10",
+              "11 / 12",
+              "13 / 14",
+              "15 / 16",
+              "17 / 18",
+              "19 / 20"
+            ],
+            [
+              "Raged Barbarian",
+              "Cost",
+              "3.5K",
+              "7K / 10K",
+              "90K / 180K",
+              "300K / 330K",
+              "700K / 900K",
+              "1M / 1.2M",
+              "2M / 2.2M",
+              "3M / 3.2M",
+              "3.8M / 4M",
+              "4.6M / 5.2M"
+            ],
+            [
+              "Raged Barbarian",
+              "Time",
+              "30s",
+              "5m / 15m",
+              "5h / 10h",
+              "15h / 20h",
+              "1d / 1d 12h",
+              "2d / 2d 12h",
+              "3d 12h / 4d 12h",
+              "5d 12h / 5d 12h",
+              "6d / 6d",
+              "6d 12h / 6d 12h"
+            ],
+            [
+              "Sneaky Archer",
+              "Level",
+              "2",
+              "3 / 4",
+              "5 / 6",
+              "7 / 8",
+              "9 / 10",
+              "11 / 12",
+              "13 / 14",
+              "15 / 16",
+              "17 / 18",
+              "19 / 20"
+            ],
+            [
+              "Sneaky Archer",
+              "Cost",
+              "5K",
+              "8K / 12K",
+              "100K / 200K",
+              "320K / 350K",
+              "800K / 1M",
+              "1.1M / 1.3M",
+              "2.1M / 2.3M",
+              "3.1M / 3.3M",
+              "3.9M / 4.1M",
+              "4.7M / 5.3M"
+            ],
+            [
+              "Sneaky Archer",
+              "Time",
+              "3m",
+              "10m / 30m",
+              "6h / 11h",
+              "16h / 21h",
+              "1d / 1d 12h",
+              "2d / 2d 12h",
+              "3d 12h / 4d 12h",
+              "5d 12h / 5d 12h",
+              "6d / 6d",
+              "6d 12h / 6d 12h"
+            ],
+            [
+              "Boxer Giant",
+              "Level",
+              "-",
+              "-",
+              "4 / 5 / 6",
+              "7 / 8",
+              "9 / 10",
+              "11 / 12",
+              "13 / 14",
+              "15 / 16",
+              "17 / 18",
+              "19 / 20"
+            ],
+            [
+              "Boxer Giant",
+              "Cost",
+              "-",
+              "-",
+              "60K / 120K / 240K",
+              "350K / 380K",
+              "1M / 1.2M",
+              "1.3M / 1.5M",
+              "2.3M / 2.5M",
+              "3.3M / 3.5M",
+              "4M / 4.2M",
+              "4.8M / 5.4M"
+            ],
+            [
+              "Boxer Giant",
+              "Time",
+              "-",
+              "-",
+              "5h / 10h / 16h",
+              "20h / 1d",
+              "1d 12h / 2d",
+              "2d / 2d 12h",
+              "3d 12h / 4d 12h",
+              "5d 12h / 5d 12h",
+              "6d / 6d",
+              "6d 12h / 6d 12h"
+            ],
+            [
+              "Beta Minion",
+              "Level",
+              "-",
+              "-",
+              "4 / 5 / 6",
+              "7 / 8",
+              "9 / 10",
+              "11 / 12",
+              "13 / 14",
+              "15 / 16",
+              "17 / 18",
+              "19 / 20"
+            ],
+            [
+              "Beta Minion",
+              "Cost",
+              "-",
+              "-",
+              "50K / 110K / 220K",
+              "330K / 360K",
+              "900K / 1.1M",
+              "1.3M / 1.5M",
+              "2.3M / 2.5M",
+              "3.3M / 3.5M",
+              "4M / 4.2M",
+              "4.8M / 5.4M"
+            ],
+            [
+              "Beta Minion",
+              "Time",
+              "-",
+              "-",
+              "4h / 8h / 12h",
+              "18h / 1d",
+              "1d 12h / 2d",
+              "2d / 2d 12h",
+              "3d 12h / 4d 12h",
+              "5d 12h / 5d 12h",
+              "6d / 6d",
+              "6d 12h / 6d 12h"
+            ],
+            [
+              "Bomber",
+              "Level",
+              "-",
+              "-",
+              "-",
+              "6 / 7 / 8",
+              "9 / 10",
+              "11 / 12",
+              "13 / 14",
+              "15 / 16",
+              "17 / 18",
+              "19 / 20"
+            ],
+            [
+              "Bomber",
+              "Cost",
+              "-",
+              "-",
+              "-",
+              "320K / 340K / 360K",
+              "900K / 1M",
+              "1.2M / 1.4M",
+              "2.2M / 2.4M",
+              "3.2M / 3.4M",
+              "3.9M / 4.1M",
+              "4.7M / 5.3M"
+            ],
+            [
+              "Bomber",
+              "Time",
+              "-",
+              "-",
+              "-",
+              "16h / 20h / 1d",
+              "1d 12h / 2d",
+              "2d / 2d 12h",
+              "3d 12h / 4d 12h",
+              "5d 12h / 5d 12h",
+              "6d / 6d",
+              "6d 12h / 6d 12h"
+            ],
+            [
+              "Baby Dragon",
+              "Level",
+              "-",
+              "-",
+              "-",
+              "6 / 7 / 8",
+              "9 / 10",
+              "11 / 12",
+              "13 / 14",
+              "15 / 16",
+              "17 / 18",
+              "19 / 20"
+            ],
+            [
+              "Baby Dragon",
+              "Cost",
+              "-",
+              "-",
+              "-",
+              "360K / 380K / 400K",
+              "1M / 1.2M",
+              "1.4M / 1.6M",
+              "2.4M / 2.6M",
+              "3.4M / 3.6M",
+              "4.1M / 4.3M",
+              "5.1M / 5.5M"
+            ],
+            [
+              "Baby Dragon",
+              "Time",
+              "-",
+              "-",
+              "-",
+              "16h / 20h / 1d",
+              "1d 12h / 2d",
+              "2d / 2d 12h",
+              "3d 12h / 4d 12h",
+              "5d 12h / 5d 12h",
+              "6d / 6d",
+              "6d 12h / 6d 12h"
+            ],
+            [
+              "Cannon Cart",
+              "Level",
+              "-",
+              "-",
+              "-",
+              "-",
+              "8 / 9 / 10",
+              "11 / 12",
+              "13 / 14",
+              "15 / 16",
+              "17 / 18",
+              "19 / 20"
+            ],
+            [
+              "Cannon Cart",
+              "Cost",
+              "-",
+              "-",
+              "-",
+              "-",
+              "1M / 1.1M / 1.2M",
+              "1.4M / 1.6M",
+              "2.4M / 2.6M",
+              "3.4M / 3.6M",
+              "4.1M / 4.3M",
+              "5.3M / 5.7M"
+            ],
+            [
+              "Cannon Cart",
+              "Time",
+              "-",
+              "-",
+              "-",
+              "-",
+              "1d / 1d 12h / 2d",
+              "2d / 2d 12h",
+              "3d 12h / 4d 12h",
+              "5d 12h / 5d 12h",
+              "6d / 6d",
+              "6d 12h / 6d 12h"
+            ],
+            [
+              "Night Witch",
+              "Level",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "10 / 11 / 12",
+              "13 / 14",
+              "15 / 16",
+              "17 / 18",
+              "19 / 20"
+            ],
+            [
+              "Night Witch",
+              "Cost",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "1.4M / 1.6M / 1.8M",
+              "2.5M / 2.7M",
+              "3.5M / 3.7M",
+              "4.2M / 4.4M",
+              "5.2M / 5.6M"
+            ],
+            [
+              "Night Witch",
+              "Time",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "2d / 2d / 2d 12h",
+              "3d 12h / 4d 12h",
+              "5d 12h / 5d 12h",
+              "6d / 6d",
+              "6d 12h / 6d 12h"
+            ],
+            [
+              "Drop Ship",
+              "Level",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "12 / 13 / 14",
+              "15 / 16",
+              "17 / 18",
+              "19 / 20"
+            ],
+            [
+              "Drop Ship",
+              "Cost",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "2.4M / 2.6M / 2.8M",
+              "3.6M / 3.8M",
+              "4.3M / 4.5M",
+              "5.5M / 5.7M"
+            ],
+            [
+              "Drop Ship",
+              "Time",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "2d 12h / 3d 12h / 4d 12h",
+              "5d 12h / 5d 12h",
+              "6d / 6d",
+              "6d 12h / 6d 12h"
+            ],
+            [
+              "Power P.E.K.K.A",
+              "Level",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "14 / 15 / 16",
+              "17 / 18",
+              "19 / 20"
+            ],
+            [
+              "Power P.E.K.K.A",
+              "Cost",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "3.6M / 3.8M / 4M",
+              "4.6M / 4.8M",
+              "5.6M / 5.8M"
+            ],
+            [
+              "Power P.E.K.K.A",
+              "Time",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "4d 12h / 5d 12h / 5d 12h",
+              "6d / 6d",
+              "6d 12h / 6d 12h"
+            ],
+            [
+              "Hog Glider",
+              "Level",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "16 / 17 / 18",
+              "19 / 20"
+            ],
+            [
+              "Hog Glider",
+              "Cost",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "4M / 4.2M / 4.4M",
+              "5.4M / 5.8M"
+            ],
+            [
+              "Hog Glider",
+              "Time",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "5d 12h / 6d / 6d",
+              "6d 12h / 6d 12h"
+            ],
+            [
+              "Electrofire Wizard",
+              "Level",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "18 / 19 / 20"
+            ],
+            [
+              "Electrofire Wizard",
+              "Cost",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "4.4M / 5.4M / 5.8M"
+            ],
+            [
+              "Electrofire Wizard",
+              "Time",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "6d / 6d 12h / 6d 12h"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Star Laboratory1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1c/Star_Laboratory1.png/revision/latest?cb=20180512123423"
+        },
+        {
+          "file": "File:Star Laboratory10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/32/Star_Laboratory10.png/revision/latest?cb=20230518080618"
+        },
+        {
+          "file": "File:Star Laboratory2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b5/Star_Laboratory2.png/revision/latest?cb=20180512123408"
+        },
+        {
+          "file": "File:Star Laboratory3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ac/Star_Laboratory3.png/revision/latest?cb=20180512123343"
+        },
+        {
+          "file": "File:Star Laboratory4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5e/Star_Laboratory4.png/revision/latest?cb=20180512123308"
+        },
+        {
+          "file": "File:Star Laboratory5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bd/Star_Laboratory5.png/revision/latest?cb=20180512123234"
+        },
+        {
+          "file": "File:Star Laboratory6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8b/Star_Laboratory6.png/revision/latest?cb=20180512123219"
+        },
+        {
+          "file": "File:Star Laboratory7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8a/Star_Laboratory7.png/revision/latest?cb=20180512123203"
+        },
+        {
+          "file": "File:Star Laboratory8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2d/Star_Laboratory8.png/revision/latest?cb=20180512123147"
+        },
+        {
+          "file": "File:Star Laboratory9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/98/Star_Laboratory9.png/revision/latest?cb=20200901052740"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 2,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
+    },
+    {
+      "n": "Battle Machine Altar",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/BattleMachineAltar1.png/revision/latest?cb=20170603193138",
+      "source": "https://clashofclans.fandom.com/wiki/Battle_Machine_Altar",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Cost (Builder Elixir)",
+            "Build Time",
+            "Hitpoints",
+            "Unlocked Unit",
+            "Size",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "900,000",
+              "12h",
+              "250",
+              "Battle Machine",
+              "3x3",
+              "5"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:BattleMachineAltar1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/BattleMachineAltar1.png/revision/latest?cb=20170603193138"
+        }
+      ],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
+      ]
+    },
+    {
+      "n": "Reinforcement Camp",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/87/Builder_Hall10.png/revision/latest?cb=20230516070454",
+      "source": "https://clashofclans.fandom.com/wiki/Reinforcement_Camp",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Hitpoints"
+          ],
+          "rows": [
+            [
+              "300"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Number of Reinforcement Camps",
+            "Build Cost (Builder Elixir)",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1*",
+              "N/A",
+              "N/A",
+              "N/A",
+              "6"
+            ],
+            [
+              "2",
+              "4,000,000",
+              "10d",
+              "929",
+              "9"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Builder Hall10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/87/Builder_Hall10.png/revision/latest?cb=20230516070454"
+        }
+      ],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
+      ]
+    },
+    {
+      "n": "Healing Hut",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/f/fd/Healing_Hut1.png/revision/latest?cb=20230517101251",
+      "source": "https://clashofclans.fandom.com/wiki/Healing_Hut",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Health Recovery",
+            "Hitpoints",
+            "Build Cost (Builder Elixir)",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "4%",
+              "600",
+              "1,500,000",
+              "1d 6h",
+              "328",
+              "6"
+            ],
+            [
+              "2",
+              "8%",
+              "690",
+              "2,000,000",
+              "2d",
+              "415",
+              "6"
+            ],
+            [
+              "3",
+              "12%",
+              "800",
+              "2,500,000",
+              "3d",
+              "509",
+              "7"
+            ],
+            [
+              "4",
+              "16%",
+              "910",
+              "3,250,000",
+              "4d",
+              "587",
+              "8"
+            ],
+            [
+              "5",
+              "20%",
+              "1,050",
+              "4,000,000",
+              "5d",
+              "657",
+              "9"
+            ],
+            [
+              "6",
+              "24%",
+              "1,250",
+              "5,000,000",
+              "6d",
+              "720",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Healing Hut1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fd/Healing_Hut1.png/revision/latest?cb=20230517101251"
+        },
+        {
+          "file": "File:Healing Hut2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2d/Healing_Hut2.png/revision/latest?cb=20230517101251"
+        },
+        {
+          "file": "File:Healing Hut3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/da/Healing_Hut3.png/revision/latest?cb=20230517101252"
+        },
+        {
+          "file": "File:Healing Hut4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Healing_Hut4.png/revision/latest?cb=20230517101253"
+        },
+        {
+          "file": "File:Healing Hut5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f8/Healing_Hut5.png/revision/latest?cb=20230517101254"
+        },
+        {
+          "file": "File:Healing Hut6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b2/Healing_Hut6.png/revision/latest?cb=20230517101255"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 6,
+        "2": 6,
+        "3": 7,
+        "4": 8,
+        "5": 9,
+        "6": 10
+      }
+    },
+    {
+      "n": "Battle Copter Altar",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Battle_Copter_Altar.png/revision/latest?cb=20230518081135",
+      "source": "https://clashofclans.fandom.com/wiki/Battle_Copter_Altar",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Cost (Builder Elixir)",
+            "Build Time",
+            "Hitpoints",
+            "Unlocked Unit",
+            "Size",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "2,500,000",
+              "None",
+              "250",
+              "Battle Copter",
+              "3x3",
+              "8"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Battle Copter Altar.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Battle_Copter_Altar.png/revision/latest?cb=20230518081135"
+        }
+      ],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
+      ]
+    },
+    {
+      "n": "Clock Tower",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/e/ee/Clock_Tower1.png/revision/latest?cb=20180512121553",
+      "source": "https://clashofclans.fandom.com/wiki/Clock_Tower",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "Boost Duration",
+            "Time Gained per Boost",
+            "Relative Boost*",
+            "Catch-Up Point of Construction**",
+            "Catch-Up Point of Boost***",
+            "Build Cost (Builder Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "650",
+              "14m",
+              "2h 6m",
+              "9.4%",
+              "1 time",
+              "N/A",
+              "150,000",
+              "2h",
+              "84",
+              "4"
+            ],
+            [
+              "2",
+              "800",
+              "16m",
+              "2h 24m",
+              "10.8%",
+              "10 times",
+              "N/A",
+              "180,000",
+              "3h",
+              "103",
+              "4"
+            ],
+            [
+              "3",
+              "975",
+              "18m",
+              "2h 42m",
+              "12.1%",
+              "14 times",
+              "N/A",
+              "220,000",
+              "4h",
+              "120",
+              "4"
+            ],
+            [
+              "4",
+              "1,150",
+              "20m",
+              "3h",
+              "13.4%",
+              "20 times",
+              "N/A",
+              "300,000",
+              "6h",
+              "146",
+              "4"
+            ],
+            [
+              "5",
+              "1,350",
+              "22m",
+              "3h 18m",
+              "14.8%",
+              "40 times",
+              "N/A",
+              "700,000",
+              "12h",
+              "207",
+              "5"
+            ],
+            [
+              "6",
+              "1,600",
+              "24m",
+              "3h 36m",
+              "16.1%",
+              "80 times",
+              "1 time",
+              "1,200,000",
+              "1d",
+              "293",
+              "6"
+            ],
+            [
+              "7",
+              "1,850",
+              "26m",
+              "3h 54m",
+              "17.4%",
+              "160 times",
+              "15 times",
+              "1,700,000",
+              "2d",
+              "415",
+              "7"
+            ],
+            [
+              "8",
+              "2,150",
+              "28m",
+              "4h 12m",
+              "18.7%",
+              "240 times",
+              "30 times",
+              "2,200,000",
+              "3d",
+              "509",
+              "8"
+            ],
+            [
+              "9",
+              "2,450",
+              "30m",
+              "4h 30m",
+              "20.0%",
+              "320 times",
+              "48 times",
+              "2,700,000",
+              "4d",
+              "587",
+              "9"
+            ],
+            [
+              "10",
+              "2,750",
+              "32m",
+              "4h 48m",
+              "21.3%",
+              "400 times",
+              "67 times",
+              "3,700,000",
+              "5d",
+              "657",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Clock Tower1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ee/Clock_Tower1.png/revision/latest?cb=20180512121553"
+        },
+        {
+          "file": "File:Clock Tower10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fd/Clock_Tower10.png/revision/latest?cb=20230518073813"
+        },
+        {
+          "file": "File:Clock Tower2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2b/Clock_Tower2.png/revision/latest?cb=20180512121605"
+        },
+        {
+          "file": "File:Clock Tower3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/81/Clock_Tower3.png/revision/latest?cb=20180512121620"
+        },
+        {
+          "file": "File:Clock Tower4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4f/Clock_Tower4.png/revision/latest?cb=20180512121635"
+        },
+        {
+          "file": "File:Clock Tower5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1f/Clock_Tower5.png/revision/latest?cb=20180512121647"
+        },
+        {
+          "file": "File:Clock Tower6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/37/Clock_Tower6.png/revision/latest?cb=20180512121704"
+        },
+        {
+          "file": "File:Clock Tower7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/92/Clock_Tower7.png/revision/latest?cb=20170927114354"
+        },
+        {
+          "file": "File:Clock Tower8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c9/Clock_Tower8.png/revision/latest?cb=20170927114413"
+        },
+        {
+          "file": "File:Clock Tower9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Clock_Tower9.png/revision/latest?cb=20190617025510"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
+    },
+    {
+      "n": "Walls/Builder Base",
+      "av": "",
+      "source": "https://clashofclans.fandom.com/wiki/Walls/Builder_Base",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "Cost (Builder Gold)",
+            "Cumulative Cost (Builder Gold)",
+            "Cost (Builder Elixir)",
+            "Cumulative Cost (Builder Elixir)",
+            "Cost",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "900",
+              "0",
+              "0",
+              "N/A",
+              "N/A",
+              "N/A",
+              "1"
+            ],
+            [
+              "2",
+              "1,100",
+              "2,000",
+              "2,000",
+              "N/A",
+              "N/A",
+              "1",
+              "3"
+            ],
+            [
+              "3",
+              "1,300",
+              "10,000",
+              "12,000",
+              "N/A",
+              "N/A",
+              "1",
+              "3"
+            ],
+            [
+              "4",
+              "1,600",
+              "50,000",
+              "62,000",
+              "N/A",
+              "N/A",
+              "1",
+              "4"
+            ],
+            [
+              "5",
+              "1,900",
+              "150,000",
+              "212,000",
+              "N/A",
+              "N/A",
+              "1",
+              "5"
+            ],
+            [
+              "6",
+              "2,200",
+              "240,000",
+              "452,000",
+              "N/A",
+              "N/A",
+              "1",
+              "6"
+            ],
+            [
+              "7",
+              "2,500",
+              "400,000",
+              "852,000",
+              "400,000",
+              "400,000",
+              "1",
+              "7"
+            ],
+            [
+              "8",
+              "2,750",
+              "600,000",
+              "1,452,000",
+              "600,000",
+              "1,000,000",
+              "2",
+              "8"
+            ],
+            [
+              "9",
+              "3,050",
+              "800,000",
+              "2,252,000",
+              "800,000",
+              "1,800,000",
+              "2",
+              "9"
+            ],
+            [
+              "10",
+              "3,350",
+              "1,000,000",
+              "3,252,000",
+              "1,000,000",
+              "2,800,000",
+              "2",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "images": [],
+      "unverified": [
+        "No image passed the no-referrer HTTP 200 check.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 1,
+        "2": 3,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
+    }
+  ],
+  "unverified": [],
+  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
+}
