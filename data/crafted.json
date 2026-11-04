@@ -6,7 +6,7 @@
   "units": [
     {
       "n": "Crafting Station",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Air_Bombs10_Crafted.png/revision/latest?cb=20260330142004",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/c/c6/Crafting_Station.png/revision/latest?cb=20250624113727",
       "source": "https://clashofclans.fandom.com/wiki/Crafting_Station",
       "revision": null,
       "tables": [
@@ -28,149 +28,24 @@
       ],
       "images": [
         {
-          "file": "File:Air Bombs10 Crafted.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Air_Bombs10_Crafted.png/revision/latest?cb=20260330142004"
-        },
-        {
-          "file": "File:Bomb Hive1.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/77/Bomb_Hive1.png/revision/latest?cb=20251116140201"
-        },
-        {
-          "file": "File:Bomb Hive2.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cf/Bomb_Hive2.png/revision/latest?cb=20251116140217"
-        },
-        {
-          "file": "File:Bomb Hive3.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4a/Bomb_Hive3.png/revision/latest?cb=20251116140249"
-        },
-        {
-          "file": "File:Bomb Hive4.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/69/Bomb_Hive4.png/revision/latest?cb=20251116140315"
-        },
-        {
-          "file": "File:Cake-A-Pult4.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/ff/Cake-A-Pult4.png/revision/latest?cb=20260713110850"
-        },
-        {
-          "file": "File:Crusher Mortar1.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ac/Crusher_Mortar1.png/revision/latest?cb=20250615133037"
-        },
-        {
-          "file": "File:Crusher Mortar2.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d0/Crusher_Mortar2.png/revision/latest?cb=20250615133052"
-        },
-        {
-          "file": "File:Crusher Mortar3.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7c/Crusher_Mortar3.png/revision/latest?cb=20250615133105"
-        },
-        {
-          "file": "File:Crusher Mortar4.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/53/Crusher_Mortar4.png/revision/latest?cb=20250615133118"
-        },
-        {
-          "file": "File:Flame Spinner1.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c6/Flame_Spinner1.png/revision/latest?cb=20250615132926"
-        },
-        {
-          "file": "File:Flame Spinner2.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Flame_Spinner2.png/revision/latest?cb=20250615132953"
-        },
-        {
-          "file": "File:Flame Spinner3.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fb/Flame_Spinner3.png/revision/latest?cb=20250615133011"
-        },
-        {
-          "file": "File:Flame Spinner4.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bb/Flame_Spinner4.png/revision/latest?cb=20250615133024"
-        },
-        {
-          "file": "File:Hero Bell1.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/39/Hero_Bell1.png/revision/latest?cb=20251116140409"
-        },
-        {
-          "file": "File:Hero Bell2.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Hero_Bell2.png/revision/latest?cb=20251116140438"
-        },
-        {
-          "file": "File:Hero Bell3.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8b/Hero_Bell3.png/revision/latest?cb=20251116140834"
-        },
-        {
-          "file": "File:Hero Bell4.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c6/Hero_Bell4.png/revision/latest?cb=20251204074223"
-        },
-        {
-          "file": "File:Hero Hunter4.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Hero_Hunter4.png/revision/latest?cb=20260713110656"
-        },
-        {
-          "file": "File:Hook Tower1.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c8/Hook_Tower1.png/revision/latest?cb=20250629135740"
-        },
-        {
-          "file": "File:Hook Tower2.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Hook_Tower2.png/revision/latest?cb=20250629135806"
-        },
-        {
-          "file": "File:Hook Tower3.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3a/Hook_Tower3.png/revision/latest?cb=20250615132854"
-        },
-        {
-          "file": "File:Hook Tower4.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f7/Hook_Tower4.png/revision/latest?cb=20250615132908"
-        },
-        {
-          "file": "File:Hot Candle4-1.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Hot_Candle4-1.png/revision/latest?cb=20260713110056"
-        },
-        {
-          "file": "File:Lava Launcher7 Crafted.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/24/Lava_Launcher7_Crafted.png/revision/latest?cb=20260404102738"
-        },
-        {
-          "file": "File:Light Beam1.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9c/Light_Beam1.png/revision/latest?cb=20251116140011"
-        },
-        {
-          "file": "File:Light Beam2.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5d/Light_Beam2.png/revision/latest?cb=20251116140040"
-        },
-        {
-          "file": "File:Light Beam3.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fe/Light_Beam3.png/revision/latest?cb=20251116140100"
-        },
-        {
-          "file": "File:Light Beam4.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ad/Light_Beam4.png/revision/latest?cb=20251116140122"
-        },
-        {
-          "file": "File:Roaster10 Crafted.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/98/Roaster10_Crafted.png/revision/latest?cb=20260330141652"
-        },
-        {
-          "file": "File:Roaster1 Crafted.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a4/Roaster1_Crafted.png/revision/latest?cb=20260330141305"
-        },
-        {
-          "file": "File:Roaster2 Crafted.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/57/Roaster2_Crafted.png/revision/latest?cb=20260330141330"
-        },
-        {
-          "file": "File:Roaster3 Crafted.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/86/Roaster3_Crafted.png/revision/latest?cb=20260330141355"
-        },
-        {
-          "file": "File:Roaster4 Crafted.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3a/Roaster4_Crafted.png/revision/latest?cb=20260330141446"
-        },
-        {
-          "file": "File:Roaster5 Crafted.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/26/Roaster5_Crafted.png/revision/latest?cb=20260330141508"
+          "file": "File:Crafting Station.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c6/Crafting_Station.png/revision/latest?cb=20250624113727"
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "unlockHall": 11,
+      "staticImage": {
+        "file": "File:Crafting Station.png",
+        "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c6/Crafting_Station.png/revision/latest?cb=20250624113727"
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Crafting Station",
+        "rawWikitextSha256": "1f178ac68135378f285a9e13ce6b3fd0abbf6e1c90d2482021aab29054049147",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+      }
     },
     {
       "n": "Hot Candle",
@@ -520,53 +395,19 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Hot_Candle1-1.png/revision/latest?cb=20260713105937"
         },
         {
-          "file": "File:Hot Candle1-2.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/44/Hot_Candle1-2.png/revision/latest?cb=20260713110129"
-        },
-        {
-          "file": "File:Hot Candle1-3.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Hot_Candle1-3.png/revision/latest?cb=20260713110320"
-        },
-        {
           "file": "File:Hot Candle2-1.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/5/56/Hot_Candle2-1.png/revision/latest?cb=20260713110007"
-        },
-        {
-          "file": "File:Hot Candle2-2.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ec/Hot_Candle2-2.png/revision/latest?cb=20260713110154"
-        },
-        {
-          "file": "File:Hot Candle2-3.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/77/Hot_Candle2-3.png/revision/latest?cb=20260713110355"
         },
         {
           "file": "File:Hot Candle3-1.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/1/18/Hot_Candle3-1.png/revision/latest?cb=20260713110029"
         },
         {
-          "file": "File:Hot Candle3-2.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/90/Hot_Candle3-2.png/revision/latest?cb=20260713110215"
-        },
-        {
-          "file": "File:Hot Candle3-3.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/65/Hot_Candle3-3.png/revision/latest?cb=20260713110417"
-        },
-        {
           "file": "File:Hot Candle4-1.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Hot_Candle4-1.png/revision/latest?cb=20260713110056"
-        },
-        {
-          "file": "File:Hot Candle4-2.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0d/Hot_Candle4-2.png/revision/latest?cb=20260713110243"
-        },
-        {
-          "file": "File:Hot Candle4-3.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/05/Hot_Candle4-3.png/revision/latest?cb=20260713110446"
         }
       ],
       "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "hallByLevel": {
@@ -580,6 +421,128 @@
         "8": 18,
         "9": 18,
         "10": 18
+      },
+      "imageLevelMultiplier": 3,
+      "imageNote": "Each level below is a module level. Artwork assumes all three modules are at that level; appearance depends on their combined level.",
+      "levelImages": {
+        "3": {
+          "file": "File:Hot Candle1-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Hot_Candle1-1.png/revision/latest?cb=20260713105937"
+        },
+        "4": {
+          "file": "File:Hot Candle1-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Hot_Candle1-1.png/revision/latest?cb=20260713105937"
+        },
+        "5": {
+          "file": "File:Hot Candle1-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Hot_Candle1-1.png/revision/latest?cb=20260713105937"
+        },
+        "6": {
+          "file": "File:Hot Candle1-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Hot_Candle1-1.png/revision/latest?cb=20260713105937"
+        },
+        "7": {
+          "file": "File:Hot Candle1-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Hot_Candle1-1.png/revision/latest?cb=20260713105937"
+        },
+        "8": {
+          "file": "File:Hot Candle1-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Hot_Candle1-1.png/revision/latest?cb=20260713105937"
+        },
+        "9": {
+          "file": "File:Hot Candle1-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Hot_Candle1-1.png/revision/latest?cb=20260713105937"
+        },
+        "10": {
+          "file": "File:Hot Candle1-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Hot_Candle1-1.png/revision/latest?cb=20260713105937"
+        },
+        "11": {
+          "file": "File:Hot Candle1-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Hot_Candle1-1.png/revision/latest?cb=20260713105937"
+        },
+        "12": {
+          "file": "File:Hot Candle2-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/56/Hot_Candle2-1.png/revision/latest?cb=20260713110007"
+        },
+        "13": {
+          "file": "File:Hot Candle2-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/56/Hot_Candle2-1.png/revision/latest?cb=20260713110007"
+        },
+        "14": {
+          "file": "File:Hot Candle2-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/56/Hot_Candle2-1.png/revision/latest?cb=20260713110007"
+        },
+        "15": {
+          "file": "File:Hot Candle2-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/56/Hot_Candle2-1.png/revision/latest?cb=20260713110007"
+        },
+        "16": {
+          "file": "File:Hot Candle2-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/56/Hot_Candle2-1.png/revision/latest?cb=20260713110007"
+        },
+        "17": {
+          "file": "File:Hot Candle2-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/56/Hot_Candle2-1.png/revision/latest?cb=20260713110007"
+        },
+        "18": {
+          "file": "File:Hot Candle2-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/56/Hot_Candle2-1.png/revision/latest?cb=20260713110007"
+        },
+        "19": {
+          "file": "File:Hot Candle2-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/56/Hot_Candle2-1.png/revision/latest?cb=20260713110007"
+        },
+        "20": {
+          "file": "File:Hot Candle2-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/56/Hot_Candle2-1.png/revision/latest?cb=20260713110007"
+        },
+        "21": {
+          "file": "File:Hot Candle3-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/18/Hot_Candle3-1.png/revision/latest?cb=20260713110029"
+        },
+        "22": {
+          "file": "File:Hot Candle3-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/18/Hot_Candle3-1.png/revision/latest?cb=20260713110029"
+        },
+        "23": {
+          "file": "File:Hot Candle3-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/18/Hot_Candle3-1.png/revision/latest?cb=20260713110029"
+        },
+        "24": {
+          "file": "File:Hot Candle3-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/18/Hot_Candle3-1.png/revision/latest?cb=20260713110029"
+        },
+        "25": {
+          "file": "File:Hot Candle3-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/18/Hot_Candle3-1.png/revision/latest?cb=20260713110029"
+        },
+        "26": {
+          "file": "File:Hot Candle3-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/18/Hot_Candle3-1.png/revision/latest?cb=20260713110029"
+        },
+        "27": {
+          "file": "File:Hot Candle3-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/18/Hot_Candle3-1.png/revision/latest?cb=20260713110029"
+        },
+        "28": {
+          "file": "File:Hot Candle3-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/18/Hot_Candle3-1.png/revision/latest?cb=20260713110029"
+        },
+        "29": {
+          "file": "File:Hot Candle3-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/18/Hot_Candle3-1.png/revision/latest?cb=20260713110029"
+        },
+        "30": {
+          "file": "File:Hot Candle4-1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Hot_Candle4-1.png/revision/latest?cb=20260713110056"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Hot Candle",
+        "rawWikitextSha256": "427841cfbca2aaf65e76f8794208279a6f552a30c606aafdffdee406799129b8",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
       }
     },
     {
@@ -930,8 +893,6 @@
         }
       ],
       "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "hallByLevel": {
@@ -945,6 +906,128 @@
         "8": 18,
         "9": 18,
         "10": 18
+      },
+      "imageLevelMultiplier": 3,
+      "imageNote": "Each level below is a module level. Artwork assumes all three modules are at that level; appearance depends on their combined level.",
+      "levelImages": {
+        "3": {
+          "file": "File:Hero Hunter1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Hero_Hunter1.png/revision/latest?cb=20260713110532"
+        },
+        "4": {
+          "file": "File:Hero Hunter1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Hero_Hunter1.png/revision/latest?cb=20260713110532"
+        },
+        "5": {
+          "file": "File:Hero Hunter1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Hero_Hunter1.png/revision/latest?cb=20260713110532"
+        },
+        "6": {
+          "file": "File:Hero Hunter1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Hero_Hunter1.png/revision/latest?cb=20260713110532"
+        },
+        "7": {
+          "file": "File:Hero Hunter1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Hero_Hunter1.png/revision/latest?cb=20260713110532"
+        },
+        "8": {
+          "file": "File:Hero Hunter1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Hero_Hunter1.png/revision/latest?cb=20260713110532"
+        },
+        "9": {
+          "file": "File:Hero Hunter1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Hero_Hunter1.png/revision/latest?cb=20260713110532"
+        },
+        "10": {
+          "file": "File:Hero Hunter1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Hero_Hunter1.png/revision/latest?cb=20260713110532"
+        },
+        "11": {
+          "file": "File:Hero Hunter1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Hero_Hunter1.png/revision/latest?cb=20260713110532"
+        },
+        "12": {
+          "file": "File:Hero Hunter2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Hero_Hunter2.png/revision/latest?cb=20260713110607"
+        },
+        "13": {
+          "file": "File:Hero Hunter2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Hero_Hunter2.png/revision/latest?cb=20260713110607"
+        },
+        "14": {
+          "file": "File:Hero Hunter2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Hero_Hunter2.png/revision/latest?cb=20260713110607"
+        },
+        "15": {
+          "file": "File:Hero Hunter2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Hero_Hunter2.png/revision/latest?cb=20260713110607"
+        },
+        "16": {
+          "file": "File:Hero Hunter2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Hero_Hunter2.png/revision/latest?cb=20260713110607"
+        },
+        "17": {
+          "file": "File:Hero Hunter2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Hero_Hunter2.png/revision/latest?cb=20260713110607"
+        },
+        "18": {
+          "file": "File:Hero Hunter2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Hero_Hunter2.png/revision/latest?cb=20260713110607"
+        },
+        "19": {
+          "file": "File:Hero Hunter2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Hero_Hunter2.png/revision/latest?cb=20260713110607"
+        },
+        "20": {
+          "file": "File:Hero Hunter2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Hero_Hunter2.png/revision/latest?cb=20260713110607"
+        },
+        "21": {
+          "file": "File:Hero Hunter3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Hero_Hunter3.png/revision/latest?cb=20260713110628"
+        },
+        "22": {
+          "file": "File:Hero Hunter3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Hero_Hunter3.png/revision/latest?cb=20260713110628"
+        },
+        "23": {
+          "file": "File:Hero Hunter3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Hero_Hunter3.png/revision/latest?cb=20260713110628"
+        },
+        "24": {
+          "file": "File:Hero Hunter3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Hero_Hunter3.png/revision/latest?cb=20260713110628"
+        },
+        "25": {
+          "file": "File:Hero Hunter3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Hero_Hunter3.png/revision/latest?cb=20260713110628"
+        },
+        "26": {
+          "file": "File:Hero Hunter3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Hero_Hunter3.png/revision/latest?cb=20260713110628"
+        },
+        "27": {
+          "file": "File:Hero Hunter3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Hero_Hunter3.png/revision/latest?cb=20260713110628"
+        },
+        "28": {
+          "file": "File:Hero Hunter3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Hero_Hunter3.png/revision/latest?cb=20260713110628"
+        },
+        "29": {
+          "file": "File:Hero Hunter3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Hero_Hunter3.png/revision/latest?cb=20260713110628"
+        },
+        "30": {
+          "file": "File:Hero Hunter4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Hero_Hunter4.png/revision/latest?cb=20260713110656"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Hero Hunter",
+        "rawWikitextSha256": "f6702b7b4e123a3b6bb385fd43c0220dd6d94164c6f2478be5ba471eae234a73",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
       }
     },
     {
@@ -1273,8 +1356,6 @@
         }
       ],
       "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "hallByLevel": {
@@ -1288,6 +1369,128 @@
         "8": 18,
         "9": 18,
         "10": 18
+      },
+      "imageLevelMultiplier": 3,
+      "imageNote": "Each level below is a module level. Artwork assumes all three modules are at that level; appearance depends on their combined level.",
+      "levelImages": {
+        "3": {
+          "file": "File:Cake-A-Pult1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/Cake-A-Pult1.png/revision/latest?cb=20260713110755"
+        },
+        "4": {
+          "file": "File:Cake-A-Pult1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/Cake-A-Pult1.png/revision/latest?cb=20260713110755"
+        },
+        "5": {
+          "file": "File:Cake-A-Pult1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/Cake-A-Pult1.png/revision/latest?cb=20260713110755"
+        },
+        "6": {
+          "file": "File:Cake-A-Pult1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/Cake-A-Pult1.png/revision/latest?cb=20260713110755"
+        },
+        "7": {
+          "file": "File:Cake-A-Pult1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/Cake-A-Pult1.png/revision/latest?cb=20260713110755"
+        },
+        "8": {
+          "file": "File:Cake-A-Pult1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/Cake-A-Pult1.png/revision/latest?cb=20260713110755"
+        },
+        "9": {
+          "file": "File:Cake-A-Pult1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/Cake-A-Pult1.png/revision/latest?cb=20260713110755"
+        },
+        "10": {
+          "file": "File:Cake-A-Pult1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/Cake-A-Pult1.png/revision/latest?cb=20260713110755"
+        },
+        "11": {
+          "file": "File:Cake-A-Pult1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/Cake-A-Pult1.png/revision/latest?cb=20260713110755"
+        },
+        "12": {
+          "file": "File:Cake-A-Pult2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7f/Cake-A-Pult2.png/revision/latest?cb=20260713110810"
+        },
+        "13": {
+          "file": "File:Cake-A-Pult2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7f/Cake-A-Pult2.png/revision/latest?cb=20260713110810"
+        },
+        "14": {
+          "file": "File:Cake-A-Pult2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7f/Cake-A-Pult2.png/revision/latest?cb=20260713110810"
+        },
+        "15": {
+          "file": "File:Cake-A-Pult2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7f/Cake-A-Pult2.png/revision/latest?cb=20260713110810"
+        },
+        "16": {
+          "file": "File:Cake-A-Pult2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7f/Cake-A-Pult2.png/revision/latest?cb=20260713110810"
+        },
+        "17": {
+          "file": "File:Cake-A-Pult2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7f/Cake-A-Pult2.png/revision/latest?cb=20260713110810"
+        },
+        "18": {
+          "file": "File:Cake-A-Pult2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7f/Cake-A-Pult2.png/revision/latest?cb=20260713110810"
+        },
+        "19": {
+          "file": "File:Cake-A-Pult2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7f/Cake-A-Pult2.png/revision/latest?cb=20260713110810"
+        },
+        "20": {
+          "file": "File:Cake-A-Pult2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7f/Cake-A-Pult2.png/revision/latest?cb=20260713110810"
+        },
+        "21": {
+          "file": "File:Cake-A-Pult3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Cake-A-Pult3.png/revision/latest?cb=20260713110825"
+        },
+        "22": {
+          "file": "File:Cake-A-Pult3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Cake-A-Pult3.png/revision/latest?cb=20260713110825"
+        },
+        "23": {
+          "file": "File:Cake-A-Pult3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Cake-A-Pult3.png/revision/latest?cb=20260713110825"
+        },
+        "24": {
+          "file": "File:Cake-A-Pult3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Cake-A-Pult3.png/revision/latest?cb=20260713110825"
+        },
+        "25": {
+          "file": "File:Cake-A-Pult3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Cake-A-Pult3.png/revision/latest?cb=20260713110825"
+        },
+        "26": {
+          "file": "File:Cake-A-Pult3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Cake-A-Pult3.png/revision/latest?cb=20260713110825"
+        },
+        "27": {
+          "file": "File:Cake-A-Pult3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Cake-A-Pult3.png/revision/latest?cb=20260713110825"
+        },
+        "28": {
+          "file": "File:Cake-A-Pult3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Cake-A-Pult3.png/revision/latest?cb=20260713110825"
+        },
+        "29": {
+          "file": "File:Cake-A-Pult3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Cake-A-Pult3.png/revision/latest?cb=20260713110825"
+        },
+        "30": {
+          "file": "File:Cake-A-Pult4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/ff/Cake-A-Pult4.png/revision/latest?cb=20260713110850"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Cake-A-Pult",
+        "rawWikitextSha256": "29bcc5085684ffda53aa7d24fcb742818c29f3e9c54b16c9761ab536d3cd748a",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
       }
     }
   ],

@@ -38,8 +38,8 @@ h2.group{margin:18px 4px 10px;font-size:14px;text-transform:uppercase;letter-spa
 .tile.unit{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:auto 1fr;justify-items:stretch;min-width:0;min-height:0;padding:0;background:#3b3a35}
 .tile.unit img{flex:none;width:100%;height:auto;aspect-ratio:1;object-fit:cover;filter:none}
 .tile.unit .lbl{display:block;align-content:center;align-self:stretch;width:100%;min-width:0;min-height:calc(2.4em + 14px);margin:0;font-size:11px;line-height:1.2;padding:7px 3px;overflow-wrap:anywhere}
-.tile.unit.defense .tile-art{display:block;position:relative;width:100%;min-width:0;aspect-ratio:1}
-.tile.unit.defense .tile-art img{display:block;position:absolute;top:26px;left:8px;width:calc(100% - 16px);height:calc(100% - 34px);aspect-ratio:auto;object-fit:contain;object-position:center}
+.tile.unit.building .tile-art{display:block;position:relative;width:100%;min-width:0;aspect-ratio:1}
+.tile.unit.building .tile-art img{display:block;position:absolute;top:26px;left:8px;width:calc(100% - 16px);height:calc(100% - 34px);aspect-ratio:auto;object-fit:contain;object-position:center}
 .tile.unit .sub{top:6px;bottom:auto;right:4px;left:auto;background:#000c;color:#fff}
 .tile.unit .sub.full-max{border:1px solid #ffd36b;color:#ffd36b;background:#342507ed;box-shadow:0 0 5px #ffd36b40}
 .tile.locked{filter:grayscale(1);opacity:.5}

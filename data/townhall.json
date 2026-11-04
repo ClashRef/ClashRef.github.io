@@ -2386,58 +2386,6 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fd/Town_Hall1.png/revision/latest?cb=20170827034930"
         },
         {
-          "file": "File:Town Hall10.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5c/Town_Hall10.png/revision/latest?cb=20170827040043"
-        },
-        {
-          "file": "File:Town Hall11.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Town_Hall11.png/revision/latest?cb=20210410001514"
-        },
-        {
-          "file": "File:Town Hall12.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b7/Town_Hall12.png/revision/latest?cb=20251008133316"
-        },
-        {
-          "file": "File:Town Hall13.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/73/Town_Hall13.png/revision/latest?cb=20251008133419"
-        },
-        {
-          "file": "File:Town Hall14.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b6/Town_Hall14.png/revision/latest?cb=20251008133902"
-        },
-        {
-          "file": "File:Town Hall15.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d4/Town_Hall15.png/revision/latest?cb=20251008075733"
-        },
-        {
-          "file": "File:Town Hall16.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/53/Town_Hall16.png/revision/latest?cb=20231211062744"
-        },
-        {
-          "file": "File:Town Hall17-1.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/24/Town_Hall17-1.png/revision/latest?cb=20241122153337"
-        },
-        {
-          "file": "File:Town Hall17-2.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Town_Hall17-2.png/revision/latest?cb=20241122153224"
-        },
-        {
-          "file": "File:Town Hall17-3.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/Town_Hall17-3.png/revision/latest?cb=20241122153225"
-        },
-        {
-          "file": "File:Town Hall17-4.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9e/Town_Hall17-4.png/revision/latest?cb=20241122153226"
-        },
-        {
-          "file": "File:Town Hall17-5.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3f/Town_Hall17-5.png/revision/latest?cb=20241122153251"
-        },
-        {
-          "file": "File:Town Hall18.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/76/Town_Hall18.png/revision/latest?cb=20251117162127"
-        },
-        {
           "file": "File:Town Hall2.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7d/Town_Hall2.png/revision/latest?cb=20170827050036"
         },
@@ -2468,15 +2416,151 @@
         {
           "file": "File:Town Hall9.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e0/Town_Hall9.png/revision/latest?cb=20170827045259"
+        },
+        {
+          "file": "File:Town Hall10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5c/Town_Hall10.png/revision/latest?cb=20170827040043"
+        },
+        {
+          "file": "File:Town Hall11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Town_Hall11.png/revision/latest?cb=20210410001514"
+        },
+        {
+          "file": "File:Town Hall12.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b7/Town_Hall12.png/revision/latest?cb=20251008133316"
+        },
+        {
+          "file": "File:Town Hall13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/73/Town_Hall13.png/revision/latest?cb=20251008133419"
+        },
+        {
+          "file": "File:Town Hall14.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b6/Town_Hall14.png/revision/latest?cb=20251008133902"
+        },
+        {
+          "file": "File:Town Hall15.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d4/Town_Hall15.png/revision/latest?cb=20251008075733"
+        },
+        {
+          "file": "File:Town Hall16.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/53/Town_Hall16.png/revision/latest?cb=20231211062744"
+        },
+        {
+          "file": "File:Town Hall17-5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3f/Town_Hall17-5.png/revision/latest?cb=20241122153251"
+        },
+        {
+          "file": "File:Town Hall18.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/76/Town_Hall18.png/revision/latest?cb=20251117162127"
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10,
+        "11": 11,
+        "12": 12,
+        "13": 13,
+        "14": 14,
+        "15": 15,
+        "16": 16,
+        "17": 17,
+        "18": 18
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Town Hall1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fd/Town_Hall1.png/revision/latest?cb=20170827034930"
+        },
+        "2": {
+          "file": "File:Town Hall2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7d/Town_Hall2.png/revision/latest?cb=20170827050036"
+        },
+        "3": {
+          "file": "File:Town Hall3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Town_Hall3.png/revision/latest?cb=20170827050050"
+        },
+        "4": {
+          "file": "File:Town Hall4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e7/Town_Hall4.png/revision/latest?cb=20170827050104"
+        },
+        "5": {
+          "file": "File:Town Hall5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a3/Town_Hall5.png/revision/latest?cb=20170827050118"
+        },
+        "6": {
+          "file": "File:Town Hall6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/52/Town_Hall6.png/revision/latest?cb=20170827050220"
+        },
+        "7": {
+          "file": "File:Town Hall7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/75/Town_Hall7.png/revision/latest?cb=20170827051024"
+        },
+        "8": {
+          "file": "File:Town Hall8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fa/Town_Hall8.png/revision/latest?cb=20170827051039"
+        },
+        "9": {
+          "file": "File:Town Hall9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e0/Town_Hall9.png/revision/latest?cb=20170827045259"
+        },
+        "10": {
+          "file": "File:Town Hall10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5c/Town_Hall10.png/revision/latest?cb=20170827040043"
+        },
+        "11": {
+          "file": "File:Town Hall11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Town_Hall11.png/revision/latest?cb=20210410001514"
+        },
+        "12": {
+          "file": "File:Town Hall12.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b7/Town_Hall12.png/revision/latest?cb=20251008133316"
+        },
+        "13": {
+          "file": "File:Town Hall13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/73/Town_Hall13.png/revision/latest?cb=20251008133419"
+        },
+        "14": {
+          "file": "File:Town Hall14.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b6/Town_Hall14.png/revision/latest?cb=20251008133902"
+        },
+        "15": {
+          "file": "File:Town Hall15.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d4/Town_Hall15.png/revision/latest?cb=20251008075733"
+        },
+        "16": {
+          "file": "File:Town Hall16.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/53/Town_Hall16.png/revision/latest?cb=20231211062744"
+        },
+        "17": {
+          "file": "File:Town Hall17-5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3f/Town_Hall17-5.png/revision/latest?cb=20241122153251"
+        },
+        "18": {
+          "file": "File:Town Hall18.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/76/Town_Hall18.png/revision/latest?cb=20251117162127"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Town Hall",
+        "rawWikitextSha256": "7391b40e86a5928c45526aa403dcc58f55df46d67e2b17cee759ac46fd347b6d",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+      }
     },
     {
       "n": "Town Hall/Giga Tesla",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/9/94/Giga_Tesla1.png/revision/latest?cb=20180606163756",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/8c/Giga_Tesla.png/revision/latest?cb=20251008133400",
       "source": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Tesla",
       "revision": null,
       "tables": [
@@ -2521,33 +2605,29 @@
       ],
       "images": [
         {
-          "file": "File:Giga Tesla1.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/94/Giga_Tesla1.png/revision/latest?cb=20180606163756"
-        },
-        {
-          "file": "File:Giga Tesla2.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/59/Giga_Tesla2.png/revision/latest?cb=20180606163808"
-        },
-        {
-          "file": "File:Giga Tesla3.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/59/Giga_Tesla3.png/revision/latest?cb=20180606163819"
-        },
-        {
-          "file": "File:Giga Tesla4.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/69/Giga_Tesla4.png/revision/latest?cb=20180606163833"
-        },
-        {
-          "file": "File:Giga Tesla5.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/06/Giga_Tesla5.png/revision/latest?cb=20180606163859"
+          "file": "File:Giga Tesla.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8c/Giga_Tesla.png/revision/latest?cb=20251008133400"
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "unlockHall": 12,
+      "removedAtTH": 13,
+      "staticImage": {
+        "file": "File:Giga Tesla.png",
+        "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8c/Giga_Tesla.png/revision/latest?cb=20251008133400"
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Town Hall/Giga Tesla",
+        "rawWikitextSha256": "d099793de649b46cb0556cfcc79587a2b864702d02f2563dd2464826245bfbc7",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+      }
     },
     {
       "n": "Town Hall/Giga Inferno (TH13)",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/0/0e/Giga_Inferno1.png/revision/latest?cb=20200831024428",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/9/90/Giga_Inferno13.png/revision/latest?cb=20251008133511",
       "source": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Inferno_(TH13)",
       "revision": null,
       "tables": [
@@ -2598,37 +2678,29 @@
       ],
       "images": [
         {
-          "file": "File:Giga Inferno1.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0e/Giga_Inferno1.png/revision/latest?cb=20200831024428"
-        },
-        {
           "file": "File:Giga Inferno13.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/9/90/Giga_Inferno13.png/revision/latest?cb=20251008133511"
-        },
-        {
-          "file": "File:Giga Inferno2.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5d/Giga_Inferno2.png/revision/latest?cb=20200831024429"
-        },
-        {
-          "file": "File:Giga Inferno3.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Giga_Inferno3.png/revision/latest?cb=20200831024429"
-        },
-        {
-          "file": "File:Giga Inferno4.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/35/Giga_Inferno4.png/revision/latest?cb=20200831024430"
-        },
-        {
-          "file": "File:Giga Inferno5.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0f/Giga_Inferno5.png/revision/latest?cb=20200831024430"
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "unlockHall": 13,
+      "removedAtTH": 14,
+      "staticImage": {
+        "file": "File:Giga Inferno13.png",
+        "url": "https://static.wikia.nocookie.net/clashofclans/images/9/90/Giga_Inferno13.png/revision/latest?cb=20251008133511"
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Town Hall/Giga Inferno (TH13)",
+        "rawWikitextSha256": "f18c77df42c18d1cd8e10ff7129cca816876238ecddbd9fb4a49a3e8bedeb8e3",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+      }
     },
     {
       "n": "Town Hall/Giga Inferno (TH14)",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/3/3b/Giga_Inferno14-1.png/revision/latest?cb=20210413000557",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/6/61/Giga_Inferno14.png/revision/latest?cb=20251008133548",
       "source": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Inferno_(TH14)",
       "revision": null,
       "tables": [
@@ -2681,37 +2753,29 @@
       ],
       "images": [
         {
-          "file": "File:Giga Inferno14-1.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3b/Giga_Inferno14-1.png/revision/latest?cb=20210413000557"
-        },
-        {
-          "file": "File:Giga Inferno14-2.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a5/Giga_Inferno14-2.png/revision/latest?cb=20210413000558"
-        },
-        {
-          "file": "File:Giga Inferno14-3.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ec/Giga_Inferno14-3.png/revision/latest?cb=20210413000559"
-        },
-        {
-          "file": "File:Giga Inferno14-4.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1f/Giga_Inferno14-4.png/revision/latest?cb=20210413000601"
-        },
-        {
-          "file": "File:Giga Inferno14-5.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/48/Giga_Inferno14-5.png/revision/latest?cb=20210413000602"
-        },
-        {
           "file": "File:Giga Inferno14.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/6/61/Giga_Inferno14.png/revision/latest?cb=20251008133548"
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "unlockHall": 14,
+      "removedAtTH": 15,
+      "staticImage": {
+        "file": "File:Giga Inferno14.png",
+        "url": "https://static.wikia.nocookie.net/clashofclans/images/6/61/Giga_Inferno14.png/revision/latest?cb=20251008133548"
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Town Hall/Giga Inferno (TH14)",
+        "rawWikitextSha256": "785ba3b4d1a482e97d9e00bf43b75ba8ff3b66e3a350c4e1686e2c122056f32c",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+      }
     },
     {
       "n": "Town Hall/Giga Inferno (TH15)",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/c/c8/Giga_Inferno15-1.png/revision/latest?cb=20221120065549",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/0/01/Giga_Inferno15.png/revision/latest?cb=20251008075751",
       "source": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Inferno_(TH15)",
       "revision": null,
       "tables": [
@@ -2764,33 +2828,25 @@
       ],
       "images": [
         {
-          "file": "File:Giga Inferno15-1.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c8/Giga_Inferno15-1.png/revision/latest?cb=20221120065549"
-        },
-        {
-          "file": "File:Giga Inferno15-2.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/85/Giga_Inferno15-2.png/revision/latest?cb=20221120065558"
-        },
-        {
-          "file": "File:Giga Inferno15-3.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e6/Giga_Inferno15-3.png/revision/latest?cb=20221120070349"
-        },
-        {
-          "file": "File:Giga Inferno15-4.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6b/Giga_Inferno15-4.png/revision/latest?cb=20221120070105"
-        },
-        {
-          "file": "File:Giga Inferno15-5.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1d/Giga_Inferno15-5.png/revision/latest?cb=20221120065633"
-        },
-        {
           "file": "File:Giga Inferno15.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/0/01/Giga_Inferno15.png/revision/latest?cb=20251008075751"
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "unlockHall": 15,
+      "removedAtTH": 16,
+      "staticImage": {
+        "file": "File:Giga Inferno15.png",
+        "url": "https://static.wikia.nocookie.net/clashofclans/images/0/01/Giga_Inferno15.png/revision/latest?cb=20251008075751"
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Town Hall/Giga Inferno (TH15)",
+        "rawWikitextSha256": "c58005e5327eea1e415e73590938d75682f430c5a1c9fb6f8b43b24b5853ac52",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+      }
     },
     {
       "n": "Town Hall/Giga Inferno (TH16)",
@@ -2852,8 +2908,20 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "unlockHall": 16,
+      "removedAtTH": 17,
+      "staticImage": {
+        "file": "File:Giga Inferno16.png",
+        "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bd/Giga_Inferno16.png/revision/latest?cb=20231213213907"
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Town Hall/Giga Inferno (TH16)",
+        "rawWikitextSha256": "1d62294c21300ae3b4b8c4dd2c5da3429881bea3a1ac004972af560a9641b0b1",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+      }
     },
     {
       "n": "Town Hall/Inferno Artillery",
@@ -2969,8 +3037,6 @@
         }
       ],
       "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "hallByLevel": {
@@ -2979,40 +3045,68 @@
         "3": 17,
         "4": 17,
         "5": 17
+      },
+      "removedAtTH": 18,
+      "levelImages": {
+        "1": {
+          "file": "File:Inferno Artillery1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bf/Inferno_Artillery1.png/revision/latest?cb=20241123024028"
+        },
+        "2": {
+          "file": "File:Inferno Artillery2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/92/Inferno_Artillery2.png/revision/latest?cb=20241123024029"
+        },
+        "3": {
+          "file": "File:Inferno Artillery3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c7/Inferno_Artillery3.png/revision/latest?cb=20241123024030"
+        },
+        "4": {
+          "file": "File:Inferno Artillery4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0a/Inferno_Artillery4.png/revision/latest?cb=20241123024031"
+        },
+        "5": {
+          "file": "File:Inferno Artillery5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Inferno_Artillery5.png/revision/latest?cb=20241123024000"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Town Hall/Inferno Artillery",
+        "rawWikitextSha256": "433ffd4f64f409e5a71dcbf8726e2ff77e936c61f439674413cbfa79438cc964",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
       }
     },
     {
       "n": "Town Hall/Guardians",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/0/03/Guardians_Logger_info2.png/revision/latest?cb=20260427145255",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/0/00/TownHall18WithLongshot.png/revision/latest?cb=20251119002419",
       "source": "https://clashofclans.fandom.com/wiki/Town_Hall/Guardians",
       "revision": null,
       "tables": [],
       "images": [
-        {
-          "file": "File:Guardians Logger info2.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/03/Guardians_Logger_info2.png/revision/latest?cb=20260427145255"
-        },
-        {
-          "file": "File:Guardians Longshot info2.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3a/Guardians_Longshot_info2.png/revision/latest?cb=20251115155927"
-        },
-        {
-          "file": "File:Guardians Smasher info2.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/db/Guardians_Smasher_info2.png/revision/latest?cb=20251115155828"
-        },
         {
           "file": "File:TownHall18WithLongshot.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/0/00/TownHall18WithLongshot.png/revision/latest?cb=20251119002419"
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
         "No structured statistics table found; requires manual review."
-      ]
+      ],
+      "unlockHall": 18,
+      "staticImage": {
+        "file": "File:TownHall18WithLongshot.png",
+        "url": "https://static.wikia.nocookie.net/clashofclans/images/0/00/TownHall18WithLongshot.png/revision/latest?cb=20251119002419"
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Town Hall/Guardians",
+        "rawWikitextSha256": "31cb02ee71a426cc2f15b227dec1c0391639f125ebf200ab075bb0f1c52d5f11",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+      }
     },
     {
       "n": "Longshot",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/9/95/Avatar_Longshot.png/revision/latest?cb=20260906180205",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Longshot1.png/revision/latest?cb=20251210013018",
       "source": "https://clashofclans.fandom.com/wiki/Longshot",
       "revision": null,
       "tables": [
@@ -3107,25 +3201,52 @@
       ],
       "images": [
         {
-          "file": "File:Avatar Longshot.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/95/Avatar_Longshot.png/revision/latest?cb=20260906180205"
-        },
-        {
-          "file": "File:Guardians Longshot info1.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e7/Guardians_Longshot_info1.png/revision/latest?cb=20251115155902"
-        },
-        {
           "file": "File:Longshot1.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Longshot1.png/revision/latest?cb=20251210013018"
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 18,
+        "2": 18,
+        "3": 18,
+        "4": 18,
+        "5": 18
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Longshot1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Longshot1.png/revision/latest?cb=20251210013018"
+        },
+        "2": {
+          "file": "File:Longshot1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Longshot1.png/revision/latest?cb=20251210013018"
+        },
+        "3": {
+          "file": "File:Longshot1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Longshot1.png/revision/latest?cb=20251210013018"
+        },
+        "4": {
+          "file": "File:Longshot1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Longshot1.png/revision/latest?cb=20251210013018"
+        },
+        "5": {
+          "file": "File:Longshot1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Longshot1.png/revision/latest?cb=20251210013018"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Longshot",
+        "rawWikitextSha256": "f6915a2dfc89dbd5f7972a5dc04a1f9d158fa971a7a3f31949bf45bed17cd915",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+      }
     },
     {
       "n": "Smasher",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/1/14/Avatar_Smasher.png/revision/latest?cb=20260906180221",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952",
       "source": "https://clashofclans.fandom.com/wiki/Smasher",
       "revision": null,
       "tables": [
@@ -3216,25 +3337,52 @@
       ],
       "images": [
         {
-          "file": "File:Avatar Smasher.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/14/Avatar_Smasher.png/revision/latest?cb=20260906180221"
-        },
-        {
-          "file": "File:Guardians Smasher info1.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9d/Guardians_Smasher_info1.png/revision/latest?cb=20251115155743"
-        },
-        {
           "file": "File:Smasher1.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 18,
+        "2": 18,
+        "3": 18,
+        "4": 18,
+        "5": 18
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Smasher1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
+        },
+        "2": {
+          "file": "File:Smasher1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
+        },
+        "3": {
+          "file": "File:Smasher1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
+        },
+        "4": {
+          "file": "File:Smasher1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
+        },
+        "5": {
+          "file": "File:Smasher1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Smasher",
+        "rawWikitextSha256": "216704971d034cbfdcc60c94debbf531237a7ad1f3b9659c062dd54de2a18ec8",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+      }
     },
     {
       "n": "Logger",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/0/0d/Avatar_Logger.png/revision/latest?cb=20260906180250",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Logger1.png/revision/latest?cb=20260426150823",
       "source": "https://clashofclans.fandom.com/wiki/Logger",
       "revision": null,
       "tables": [
@@ -3327,17 +3475,48 @@
       ],
       "images": [
         {
-          "file": "File:Avatar Logger.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0d/Avatar_Logger.png/revision/latest?cb=20260906180250"
-        },
-        {
           "file": "File:Logger1.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Logger1.png/revision/latest?cb=20260426150823"
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 18,
+        "2": 18,
+        "3": 18,
+        "4": 18,
+        "5": 18
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Logger1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Logger1.png/revision/latest?cb=20260426150823"
+        },
+        "2": {
+          "file": "File:Logger1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Logger1.png/revision/latest?cb=20260426150823"
+        },
+        "3": {
+          "file": "File:Logger1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Logger1.png/revision/latest?cb=20260426150823"
+        },
+        "4": {
+          "file": "File:Logger1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Logger1.png/revision/latest?cb=20260426150823"
+        },
+        "5": {
+          "file": "File:Logger1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Logger1.png/revision/latest?cb=20260426150823"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Logger",
+        "rawWikitextSha256": "58d42a87fa4735d97b2c7d88a7ec9e7a28eb47d3313f93a4dfd422fdfdfe87ae",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+      }
     }
   ],
   "unverified": [],

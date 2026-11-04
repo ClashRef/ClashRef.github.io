@@ -61,9 +61,9 @@ const imgFor = (u, lvl) => {
   for (const [url, range] of u.img) { const [a, b] = String(range).split("-").map(Number); if (lvl >= a && lvl <= (b || a)) return url; }
   return u.img[u.img.length - 1][0];
 };
-function levelPill(level, fullMax, fallback) {
+function levelPill(level, fullMax, fallback, kind = "Lv") {
   const full = level > 0 && level === fullMax;
-  return `<span class="sub${full ? " full-max" : ""}"${full ? ' title="Maximum level in game" aria-label="Level ' + level + ', maximum level in game"' : ''}>${level ? "Lv " + level : esc(fallback)}</span>`;
+  return `<span class="sub${full ? " full-max" : ""}"${full ? ' title="Maximum level in game" aria-label="' + kind + ' ' + level + ', maximum level in game"' : ''}>${level ? kind + " " + level : esc(fallback)}</span>`;
 }
 const img = (src, alt, cls = "") => `<img class="${cls}" src="${esc(src)}" alt="${esc(alt)}" loading="${cls === "av" || cls === "lv" ? "eager" : "lazy"}" referrerpolicy="no-referrer">`;
 // Keep source labels in tooltips/accessibility text; only compact their presentation.
@@ -112,7 +112,7 @@ function tableTitle(table, cat) {
   if (/^charge/i.test(table.columns[0]) || (superchargeSection && /^level$/i.test(table.columns[0]))) title = "Supercharge stats";
   else if (/gear up/i.test(columns)) title = "Gear-up requirements";
   else if (/boost (?:cost|duration)/i.test(columns)) title = "Boost requirements";
-  else if (/^level$/i.test(table.columns[0])) title = /cost|time/i.test(columns) ? "Upgrade stats" : "Stats by level";
+  else if (/^(?:(?:TH|BH) )?level$/i.test(table.columns[0])) title = /cost|time/i.test(columns) ? "Upgrade stats" : "Stats by level";
   else if (/rarity|unlock requirement/i.test(columns)) title = "Equipment details";
   else if (/^(?:Town|Builder) Hall Level$/i.test(table.columns[0])) title = "Hall requirements";
   else if (["espells", "dspells"].includes(cat.id)) title = "Spell details";
@@ -187,8 +187,10 @@ function troopLink(cat, u) {
   const link = troopConnection(cat, u);
   return link ? `<div class="troop-connection"><a class="related-link" href="#/c/${link.cat}/${encodeURIComponent(link.name)}">See ${esc(link.name)} &rarr;</a><p>Boost requires ${esc(link.base)} level ${link.level} \u00b7 TH${link.th}</p></div>` : "";
 }
+const isBuildingCategory = (cat) => ["defenses", "traps", "army", "resource", "walls", "townhall", "crafted", "supercharge", "bbdefenses", "bbtraps", "bbbuildings"].includes(cat.id);
+const buildingLabel = (name) => name.replace(/\/Builder Base$/, "").replace(/^Town Hall\//, "");
 function detailArtwork(cat, u, level) {
-  const single = ["heroes", "bbheroes", "defenses", "bbdefenses"].includes(cat.id);
+  const single = isBuildingCategory(cat) || ["heroes", "bbheroes"].includes(cat.id);
   const levelImage = cat.format === "wiki-review-v1" ? reviewLevelImage(u, level) : img(imgFor(u, level), `${u.n} level ${level}`, "lv");
   if (single) return `<div class="imgs single">${levelImage || img(u.av, u.n, "lv")}</div>`;
   return `<div class="imgs${levelImage ? "" : " single"}">${u.av ? img(u.av, u.n, "av") : ""}${levelImage}</div>`;
@@ -291,14 +293,15 @@ function reviewCategory(cat) {
   const renderTile = (u) => {
     const caps = u.hallByLevel;
     const max = caps ? Math.max(0, ...Object.entries(caps).filter(([, h]) => h <= hall).map(([l]) => +l)) : null;
-    const unlock = caps ? Math.min(...Object.values(caps)) : null;
+    const unlock = caps ? Math.min(...Object.values(caps)) : u.unlockHall;
     const removed = u.removedAtTH && hall >= u.removedAtTH;
-    const badge = removed ? levelPill(0, 0, `Removed at TH ${u.removedAtTH}`) : caps ? levelPill(max, Math.max(...Object.keys(caps).map(Number)), `Unlock at ${cat.id.startsWith("bb") ? "BH" : "TH"} ${unlock}`) : levelPill(0, 0, "Hall cap unverified");
-    const defense = cat.id === "defenses";
+    const locked = max === 0 || (unlock && hall < unlock);
+    const badge = removed ? levelPill(0, 0, `Removed at TH ${u.removedAtTH}`) : caps ? levelPill(max, Math.max(...Object.keys(caps).map(Number)), `Unlock at ${cat.id.startsWith("bb") ? "BH" : "TH"} ${unlock}`, cat.id === "supercharge" ? "Charge" : cat.id === "crafted" ? "Module" : "Lv") : levelPill(0, 0, unlock ? locked ? `Unlock at ${cat.id.startsWith("bb") ? "BH" : "TH"} ${unlock}` : u.n === "B.O.B Control" ? "Task upgrades" : "Available" : "Hall cap unverified");
+    const building = isBuildingCategory(cat);
     const imageLevel = max || Math.min(...Object.keys(caps || {1: 1}).map(Number));
-    const source = defense ? u.levelImages?.[imageLevel]?.url || u.av : u.av;
-    const artwork = defense ? `<span class="tile-art">${img(source, `${u.n} level ${imageLevel}`)}</span>` : source ? img(source, u.n) : "";
-    return `<a class="tile unit${defense ? " defense" : ""}${max === 0 || removed ? " locked" : ""}" href="#/c/${cat.id}/${encodeURIComponent(u.n)}${suffix}">${artwork}${badge}<span class="lbl">${esc(u.n)}</span></a>`;
+    const source = building ? buildingImage(u, imageLevel, hall)?.url || u.av : u.av;
+    const artwork = building ? `<span class="tile-art">${img(source, caps && cat.id !== "supercharge" ? `${u.n} level ${imageLevel * (u.imageLevelMultiplier || 1)}` : u.n)}</span>` : source ? img(source, u.n) : "";
+    return `<a class="tile unit${building ? " building" : ""}${cat.id === "defenses" ? " defense" : ""}${locked || removed ? " locked" : ""}" href="#/c/${cat.id}/${encodeURIComponent(u.n)}${suffix}">${artwork}${badge}<span class="lbl">${esc(building ? buildingLabel(u.n) : u.n)}</span></a>`;
   };
   const tiles = cat.id === "equip" ? heroes.map((name) => {
     const items = list.filter((u) => u.hero === name);
@@ -323,8 +326,12 @@ function galleryEntries(u) {
     return {...image, level, label};
   });
 }
+function buildingImage(u, level, hall = S.th) {
+  return (+level === 1 && u.townHallImages?.[hall]) || u.levelImages?.[+level * (u.imageLevelMultiplier || 1)] || u.staticImage;
+}
 function reviewLevelImage(u, level) {
-  if (u.levelImages?.[level]) return img(u.levelImages[level].url, `${u.n} level ${level}`, "lv");
+  const image = buildingImage(u, level);
+  if (image) return img(image.url, `${u.n} level ${level}`, "lv");
   const stem = u.n.split("/")[0].toLowerCase().replace(/[^a-z0-9]/g, "");
   const candidates = u.images.map((i) => {
     const name = i.file.replace(/^File:/, "").toLowerCase().replace(/[^a-z0-9]/g, "");
@@ -344,15 +351,22 @@ function equipmentRowAtHall(u, table, row) {
     return j < 0 ? row[i] : values[j];
   });
 }
+function reviewLevelCaption(cat, u) {
+  const hall = reviewHall(cat), kind = cat.id.startsWith("bb") ? "BH" : "TH";
+  if (u.removedAtTH && hall >= u.removedAtTH) return `Removed at TH ${u.removedAtTH}`;
+  if (!u.hallByLevel) return "Hall cap unverified";
+  const max = Math.max(0, ...Object.entries(u.hallByLevel).filter(([, h]) => h <= hall).map(([l]) => +l));
+  return `max ${max} at ${kind}${hall} \u00b7 ${Math.max(...Object.keys(u.hallByLevel).map(Number))} in game`;
+}
 function reviewUnit(cat, u) {
   setChrome(u.n, true, true);
   const key = `${cat.id}|${u.n}`;
-  const table = u.tables.find((t) => /^(?:level|charge(?: level)?)\b/i.test(t.columns[0]) && t.rows.some((r) => /^\d+$/.test(r[0])));
+  const table = u.tables.find((t) => /^(?:(?:TH|BH) level|level|charge(?: level)?)\b/i.test(t.columns[0]) && t.rows.some((r) => /^\d+$/.test(r[0])));
   const levels = table ? table.rows.map((r) => r[0]).filter((v) => /^\d+$/.test(v) && (!S.only || !u.hallByLevel || u.hallByLevel[v] <= reviewHall(cat))) : [];
   const stored = String(S.lvl[key] || "");
   const selected = levels.includes(stored) ? stored : levels[levels.length - 1] || "1";
   const index = levels.indexOf(selected);
-  let html = reviewHallControl(cat) + (S.tab === "info" ? "" : reviewNotice(cat, u)) + `<div class="hero">${detailArtwork(cat, u, selected)}${levels.length ? `<div class="lvpick"><button id="lvDown" ${index <= 0 ? "disabled" : ""} aria-label="Lower level">&minus;</button><div class="lvnum">Level ${esc(selected)}<small>${u.removedAtTH && reviewHall(cat) >= u.removedAtTH ? `Removed at TH ${u.removedAtTH}` : u.hallByLevel ? `max ${Math.max(0, ...Object.entries(u.hallByLevel).filter(([, h]) => h <= reviewHall(cat)).map(([l]) => +l))} at TH${reviewHall(cat)} \u00b7 ${Math.max(...Object.keys(u.hallByLevel).map(Number))} in game` : "Hall cap unverified"}</small></div><button id="lvUp" ${index >= levels.length - 1 ? "disabled" : ""} aria-label="Higher level">+</button></div>` : ""}${troopLink(cat, u)}</div>`;
+  let html = reviewHallControl(cat) + (S.tab === "info" ? "" : reviewNotice(cat, u)) + `<div class="hero">${detailArtwork(cat, u, selected)}${levels.length ? `<div class="lvpick"><button id="lvDown" ${index <= 0 ? "disabled" : ""} aria-label="Lower level">&minus;</button><div class="lvnum">${cat.id === "supercharge" ? "Charge" : cat.id === "crafted" ? "Module level" : "Level"} ${esc(selected)}<small>${esc(reviewLevelCaption(cat, u))}</small></div><button id="lvUp" ${index >= levels.length - 1 ? "disabled" : ""} aria-label="Higher level">+</button></div>` : ""}${troopLink(cat, u)}</div>${u.imageNote ? `<p class="note">${esc(u.imageNote)}</p>` : ""}`;
   const renderTable = (t) => {
     const order = tableColumnOrder(t.columns);
     return `<h3 class="sec">${esc(tableTitle(t, cat))}</h3><div class="tblwrap"><table><thead><tr>${order.map((i) => columnHeader(t.columns[i])).join("")}</tr></thead><tbody>${t.rows.map((r) => `<tr ${levels.includes(r[0]) ? `data-review-level="${esc(r[0])}"` : ""} class="${r[0] === selected ? "sel" : ""}">${order.map((i) => `<td${/cost/i.test(t.columns[i]) ? ' class="cost"' : ''}>${esc(r[i] ?? "")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;

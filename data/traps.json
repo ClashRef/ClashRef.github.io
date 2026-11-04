@@ -161,61 +161,31 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Bomb1.png/revision/latest?cb=20210213070620"
         },
         {
-          "file": "File:Bomb11.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/78/Bomb11.png/revision/latest?cb=20221012074258"
-        },
-        {
-          "file": "File:Bomb11 unarmed.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/27/Bomb11_unarmed.png/revision/latest?cb=20221012074257"
-        },
-        {
-          "file": "File:Bomb13.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Bomb13.png/revision/latest?cb=20241127134105"
-        },
-        {
-          "file": "File:Bomb13 unarmed.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e2/Bomb13_unarmed.png/revision/latest?cb=20241127134121"
-        },
-        {
-          "file": "File:Bomb1 unarmed.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fe/Bomb1_unarmed.png/revision/latest?cb=20210213070818"
-        },
-        {
           "file": "File:Bomb3.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0a/Bomb3.png/revision/latest?cb=20210213070653"
-        },
-        {
-          "file": "File:Bomb3 unarmed.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/04/Bomb3_unarmed.png/revision/latest?cb=20210213070818"
         },
         {
           "file": "File:Bomb5.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Bomb5.png/revision/latest?cb=20210213070719"
         },
         {
-          "file": "File:Bomb5 unarmed.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d2/Bomb5_unarmed.png/revision/latest?cb=20210213070842"
-        },
-        {
           "file": "File:Bomb7.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/6/62/Bomb7.png/revision/latest?cb=20210213070737"
-        },
-        {
-          "file": "File:Bomb7 unarmed.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/09/Bomb7_unarmed.png/revision/latest?cb=20210213070820"
         },
         {
           "file": "File:Bomb9.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5d/Bomb9.png/revision/latest?cb=20210213070754"
         },
         {
-          "file": "File:Bomb9 unarmed.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1e/Bomb9_unarmed.png/revision/latest?cb=20210213070821"
+          "file": "File:Bomb11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/78/Bomb11.png/revision/latest?cb=20221012074258"
+        },
+        {
+          "file": "File:Bomb13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Bomb13.png/revision/latest?cb=20241127134105"
         }
       ],
       "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "hallByLevel": {
@@ -233,6 +203,70 @@
         "12": 16,
         "13": 17,
         "14": 18
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Bomb1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Bomb1.png/revision/latest?cb=20210213070620"
+        },
+        "2": {
+          "file": "File:Bomb1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Bomb1.png/revision/latest?cb=20210213070620"
+        },
+        "3": {
+          "file": "File:Bomb3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0a/Bomb3.png/revision/latest?cb=20210213070653"
+        },
+        "4": {
+          "file": "File:Bomb3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0a/Bomb3.png/revision/latest?cb=20210213070653"
+        },
+        "5": {
+          "file": "File:Bomb5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Bomb5.png/revision/latest?cb=20210213070719"
+        },
+        "6": {
+          "file": "File:Bomb5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Bomb5.png/revision/latest?cb=20210213070719"
+        },
+        "7": {
+          "file": "File:Bomb7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/62/Bomb7.png/revision/latest?cb=20210213070737"
+        },
+        "8": {
+          "file": "File:Bomb7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/62/Bomb7.png/revision/latest?cb=20210213070737"
+        },
+        "9": {
+          "file": "File:Bomb9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5d/Bomb9.png/revision/latest?cb=20210213070754"
+        },
+        "10": {
+          "file": "File:Bomb9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5d/Bomb9.png/revision/latest?cb=20210213070754"
+        },
+        "11": {
+          "file": "File:Bomb11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/78/Bomb11.png/revision/latest?cb=20221012074258"
+        },
+        "12": {
+          "file": "File:Bomb11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/78/Bomb11.png/revision/latest?cb=20221012074258"
+        },
+        "13": {
+          "file": "File:Bomb13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Bomb13.png/revision/latest?cb=20241127134105"
+        },
+        "14": {
+          "file": "File:Bomb13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Bomb13.png/revision/latest?cb=20241127134105"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Bomb",
+        "rawWikitextSha256": "981505e649b9103ee79d79207c206ff7d755ed986f22e75b9275b9edf1b4876d",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
       }
     },
     {
@@ -398,24 +432,8 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/7/74/Spring_Trap1.png/revision/latest?cb=20221218092202"
         },
         {
-          "file": "File:Spring Trap11.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Spring_Trap11.png/revision/latest?cb=20251008003034"
-        },
-        {
-          "file": "File:Spring Trap13.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Spring_Trap13.png/revision/latest?cb=20251115151732"
-        },
-        {
-          "file": "File:Spring Trap1 unarmed.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e7/Spring_Trap1_unarmed.png/revision/latest?cb=20221218092334"
-        },
-        {
           "file": "File:Spring Trap3.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e2/Spring_Trap3.png/revision/latest?cb=20221218092328"
-        },
-        {
-          "file": "File:Spring Trap3 unarmed.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/28/Spring_Trap3_unarmed.png/revision/latest?cb=20221218092334"
         },
         {
           "file": "File:Spring Trap5.png",
@@ -426,21 +444,19 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dc/Spring_Trap7.png/revision/latest?cb=20251008002947"
         },
         {
-          "file": "File:Spring Trap7 unarmed.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4c/Spring_Trap7_unarmed.png/revision/latest?cb=20251008003542"
-        },
-        {
           "file": "File:Spring Trap9.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fe/Spring_Trap9.png/revision/latest?cb=20251008003009"
         },
         {
-          "file": "File:Spring Trap info.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c2/Spring_Trap_info.png/revision/latest?cb=20171130161342"
+          "file": "File:Spring Trap11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Spring_Trap11.png/revision/latest?cb=20251008003034"
+        },
+        {
+          "file": "File:Spring Trap13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Spring_Trap13.png/revision/latest?cb=20251115151732"
         }
       ],
       "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "hallByLevel": {
@@ -457,6 +473,66 @@
         "11": 16,
         "12": 17,
         "13": 18
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Spring Trap1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/74/Spring_Trap1.png/revision/latest?cb=20221218092202"
+        },
+        "2": {
+          "file": "File:Spring Trap1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/74/Spring_Trap1.png/revision/latest?cb=20221218092202"
+        },
+        "3": {
+          "file": "File:Spring Trap3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e2/Spring_Trap3.png/revision/latest?cb=20221218092328"
+        },
+        "4": {
+          "file": "File:Spring Trap3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e2/Spring_Trap3.png/revision/latest?cb=20221218092328"
+        },
+        "5": {
+          "file": "File:Spring Trap5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d5/Spring_Trap5.png/revision/latest?cb=20221218092228"
+        },
+        "6": {
+          "file": "File:Spring Trap5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d5/Spring_Trap5.png/revision/latest?cb=20221218092228"
+        },
+        "7": {
+          "file": "File:Spring Trap7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dc/Spring_Trap7.png/revision/latest?cb=20251008002947"
+        },
+        "8": {
+          "file": "File:Spring Trap7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dc/Spring_Trap7.png/revision/latest?cb=20251008002947"
+        },
+        "9": {
+          "file": "File:Spring Trap9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fe/Spring_Trap9.png/revision/latest?cb=20251008003009"
+        },
+        "10": {
+          "file": "File:Spring Trap9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fe/Spring_Trap9.png/revision/latest?cb=20251008003009"
+        },
+        "11": {
+          "file": "File:Spring Trap11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Spring_Trap11.png/revision/latest?cb=20251008003034"
+        },
+        "12": {
+          "file": "File:Spring Trap11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Spring_Trap11.png/revision/latest?cb=20251008003034"
+        },
+        "13": {
+          "file": "File:Spring Trap13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Spring_Trap13.png/revision/latest?cb=20251115151732"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Spring Trap/Home Village",
+        "rawWikitextSha256": "389af67094401b3207ac390533166f4ff91547995bc3dcb01e430016c55f4c34",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
       }
     },
     {
@@ -608,61 +684,31 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/b/be/Air_Bomb1.png/revision/latest?cb=20231213085607"
         },
         {
-          "file": "File:Air Bomb11.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Air_Bomb11.png/revision/latest?cb=20231213085327"
-        },
-        {
-          "file": "File:Air Bomb11 Targeting.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Air_Bomb11_Targeting.png/revision/latest?cb=20260509131703"
-        },
-        {
-          "file": "File:Air Bomb13.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/91/Air_Bomb13.png/revision/latest?cb=20251120062204"
-        },
-        {
-          "file": "File:Air Bomb13 Targeting.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7c/Air_Bomb13_Targeting.png/revision/latest?cb=20260509131714"
-        },
-        {
-          "file": "File:Air Bomb1 Targeting.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d3/Air_Bomb1_Targeting.png/revision/latest?cb=20260509131552"
-        },
-        {
           "file": "File:Air Bomb3.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5c/Air_Bomb3.png/revision/latest?cb=20231213085557"
-        },
-        {
-          "file": "File:Air Bomb3 Targeting.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6a/Air_Bomb3_Targeting.png/revision/latest?cb=20260509131607"
         },
         {
           "file": "File:Air Bomb5.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/9/99/Air_Bomb5.png/revision/latest?cb=20231213085548"
         },
         {
-          "file": "File:Air Bomb5 Targeting.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/78/Air_Bomb5_Targeting.png/revision/latest?cb=20260509131617"
-        },
-        {
           "file": "File:Air Bomb7.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/1/15/Air_Bomb7.png/revision/latest?cb=20231213085536"
-        },
-        {
-          "file": "File:Air Bomb7 Targeting.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/35/Air_Bomb7_Targeting.png/revision/latest?cb=20260509131630"
         },
         {
           "file": "File:Air Bomb9.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Air_Bomb9.png/revision/latest?cb=20231213085519"
         },
         {
-          "file": "File:Air Bomb9 Targeting.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Air_Bomb9_Targeting.png/revision/latest?cb=20260509131650"
+          "file": "File:Air Bomb11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Air_Bomb11.png/revision/latest?cb=20231213085327"
+        },
+        {
+          "file": "File:Air Bomb13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/91/Air_Bomb13.png/revision/latest?cb=20251120062204"
         }
       ],
       "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "hallByLevel": {
@@ -679,6 +725,66 @@
         "11": 16,
         "12": 17,
         "13": 18
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Air Bomb1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/be/Air_Bomb1.png/revision/latest?cb=20231213085607"
+        },
+        "2": {
+          "file": "File:Air Bomb1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/be/Air_Bomb1.png/revision/latest?cb=20231213085607"
+        },
+        "3": {
+          "file": "File:Air Bomb3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5c/Air_Bomb3.png/revision/latest?cb=20231213085557"
+        },
+        "4": {
+          "file": "File:Air Bomb3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5c/Air_Bomb3.png/revision/latest?cb=20231213085557"
+        },
+        "5": {
+          "file": "File:Air Bomb5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/99/Air_Bomb5.png/revision/latest?cb=20231213085548"
+        },
+        "6": {
+          "file": "File:Air Bomb5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/99/Air_Bomb5.png/revision/latest?cb=20231213085548"
+        },
+        "7": {
+          "file": "File:Air Bomb7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/15/Air_Bomb7.png/revision/latest?cb=20231213085536"
+        },
+        "8": {
+          "file": "File:Air Bomb7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/15/Air_Bomb7.png/revision/latest?cb=20231213085536"
+        },
+        "9": {
+          "file": "File:Air Bomb9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Air_Bomb9.png/revision/latest?cb=20231213085519"
+        },
+        "10": {
+          "file": "File:Air Bomb9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Air_Bomb9.png/revision/latest?cb=20231213085519"
+        },
+        "11": {
+          "file": "File:Air Bomb11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Air_Bomb11.png/revision/latest?cb=20231213085327"
+        },
+        "12": {
+          "file": "File:Air Bomb11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Air_Bomb11.png/revision/latest?cb=20231213085327"
+        },
+        "13": {
+          "file": "File:Air Bomb13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/91/Air_Bomb13.png/revision/latest?cb=20251120062204"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Air Bomb",
+        "rawWikitextSha256": "3eb4f6547704fe96874b91574efea8daf4419ca7d31baccbcb8f458ece80d6a4",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
       }
     },
     {
@@ -833,53 +939,27 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Giant_Bomb1.png/revision/latest?cb=20230613001712"
         },
         {
-          "file": "File:Giant Bomb11.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f3/Giant_Bomb11.png/revision/latest?cb=20241122153137"
-        },
-        {
-          "file": "File:Giant Bomb11 unarmed.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ac/Giant_Bomb11_unarmed.png/revision/latest?cb=20241126134109"
-        },
-        {
-          "file": "File:Giant Bomb1 unarmed.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bf/Giant_Bomb1_unarmed.png/revision/latest?cb=20230613001709"
-        },
-        {
           "file": "File:Giant Bomb3.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/3/31/Giant_Bomb3.png/revision/latest?cb=20230613001720"
-        },
-        {
-          "file": "File:Giant Bomb3 unarmed.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/49/Giant_Bomb3_unarmed.png/revision/latest?cb=20230613001718"
         },
         {
           "file": "File:Giant Bomb5.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a4/Giant_Bomb5.png/revision/latest?cb=20230613001727"
         },
         {
-          "file": "File:Giant Bomb5 unarmed.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b0/Giant_Bomb5_unarmed.png/revision/latest?cb=20230613001725"
-        },
-        {
           "file": "File:Giant Bomb7.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5e/Giant_Bomb7.png/revision/latest?cb=20230613001734"
-        },
-        {
-          "file": "File:Giant Bomb7 unarmed.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/15/Giant_Bomb7_unarmed.png/revision/latest?cb=20230613001731"
         },
         {
           "file": "File:Giant Bomb9.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d8/Giant_Bomb9.png/revision/latest?cb=20230613001740"
         },
         {
-          "file": "File:Giant Bomb9 unarmed.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ef/Giant_Bomb9_unarmed.png/revision/latest?cb=20230613001739"
+          "file": "File:Giant Bomb11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f3/Giant_Bomb11.png/revision/latest?cb=20241122153137"
         }
       ],
       "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "hallByLevel": {
@@ -895,6 +975,62 @@
         "10": 16,
         "11": 17,
         "12": 18
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Giant Bomb1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Giant_Bomb1.png/revision/latest?cb=20230613001712"
+        },
+        "2": {
+          "file": "File:Giant Bomb1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Giant_Bomb1.png/revision/latest?cb=20230613001712"
+        },
+        "3": {
+          "file": "File:Giant Bomb3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/31/Giant_Bomb3.png/revision/latest?cb=20230613001720"
+        },
+        "4": {
+          "file": "File:Giant Bomb3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/31/Giant_Bomb3.png/revision/latest?cb=20230613001720"
+        },
+        "5": {
+          "file": "File:Giant Bomb5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a4/Giant_Bomb5.png/revision/latest?cb=20230613001727"
+        },
+        "6": {
+          "file": "File:Giant Bomb5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a4/Giant_Bomb5.png/revision/latest?cb=20230613001727"
+        },
+        "7": {
+          "file": "File:Giant Bomb7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5e/Giant_Bomb7.png/revision/latest?cb=20230613001734"
+        },
+        "8": {
+          "file": "File:Giant Bomb7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5e/Giant_Bomb7.png/revision/latest?cb=20230613001734"
+        },
+        "9": {
+          "file": "File:Giant Bomb9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d8/Giant_Bomb9.png/revision/latest?cb=20230613001740"
+        },
+        "10": {
+          "file": "File:Giant Bomb9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d8/Giant_Bomb9.png/revision/latest?cb=20230613001740"
+        },
+        "11": {
+          "file": "File:Giant Bomb11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f3/Giant_Bomb11.png/revision/latest?cb=20241122153137"
+        },
+        "12": {
+          "file": "File:Giant Bomb11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f3/Giant_Bomb11.png/revision/latest?cb=20241122153137"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Giant Bomb",
+        "rawWikitextSha256": "9b7bcadfd52079eefb427dbce9a811b47c3938cd002afdd5e6d3b2470d0addf2",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
       }
     },
     {
@@ -1004,37 +1140,19 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Seeking_Air_Mine1.png/revision/latest?cb=20230613002136"
         },
         {
-          "file": "File:Seeking Air Mine1 Targeting.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/36/Seeking_Air_Mine1_Targeting.png/revision/latest?cb=20260509131752"
-        },
-        {
           "file": "File:Seeking Air Mine3.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Seeking_Air_Mine3.png/revision/latest?cb=20230613002140"
-        },
-        {
-          "file": "File:Seeking Air Mine3 Targeting.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/54/Seeking_Air_Mine3_Targeting.png/revision/latest?cb=20260509131816"
         },
         {
           "file": "File:Seeking Air Mine5.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6b/Seeking_Air_Mine5.png/revision/latest?cb=20230613002144"
         },
         {
-          "file": "File:Seeking Air Mine5 Targeting.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3d/Seeking_Air_Mine5_Targeting.png/revision/latest?cb=20260509131835"
-        },
-        {
           "file": "File:Seeking Air Mine7.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/5/51/Seeking_Air_Mine7.png/revision/latest?cb=20241124152736"
-        },
-        {
-          "file": "File:Seeking Air Mine7 Targeting.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f1/Seeking_Air_Mine7_Targeting.png/revision/latest?cb=20260509131924"
         }
       ],
       "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "hallByLevel": {
@@ -1046,11 +1164,51 @@
         "6": 16,
         "7": 17,
         "8": 18
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Seeking Air Mine1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Seeking_Air_Mine1.png/revision/latest?cb=20230613002136"
+        },
+        "2": {
+          "file": "File:Seeking Air Mine1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Seeking_Air_Mine1.png/revision/latest?cb=20230613002136"
+        },
+        "3": {
+          "file": "File:Seeking Air Mine3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Seeking_Air_Mine3.png/revision/latest?cb=20230613002140"
+        },
+        "4": {
+          "file": "File:Seeking Air Mine3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Seeking_Air_Mine3.png/revision/latest?cb=20230613002140"
+        },
+        "5": {
+          "file": "File:Seeking Air Mine5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6b/Seeking_Air_Mine5.png/revision/latest?cb=20230613002144"
+        },
+        "6": {
+          "file": "File:Seeking Air Mine5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6b/Seeking_Air_Mine5.png/revision/latest?cb=20230613002144"
+        },
+        "7": {
+          "file": "File:Seeking Air Mine7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/51/Seeking_Air_Mine7.png/revision/latest?cb=20241124152736"
+        },
+        "8": {
+          "file": "File:Seeking Air Mine7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/51/Seeking_Air_Mine7.png/revision/latest?cb=20241124152736"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Seeking Air Mine",
+        "rawWikitextSha256": "4fd31263cfc52d0f9addd2ac202efc87f6e399a9bfff41202c1735b160718d5e",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
       }
     },
     {
       "n": "Skeleton Trap",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/3/3c/SkeletonTrap1_Air.png/revision/latest?cb=20170828102744",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/0/0c/SkeletonTrap1_Ground.png/revision/latest?cb=20170828102715",
       "source": "https://clashofclans.fandom.com/wiki/Skeleton_Trap",
       "revision": null,
       "tables": [
@@ -1200,49 +1358,19 @@
       ],
       "images": [
         {
-          "file": "File:SkeletonTrap1 Air.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3c/SkeletonTrap1_Air.png/revision/latest?cb=20170828102744"
-        },
-        {
           "file": "File:SkeletonTrap1 Ground.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0c/SkeletonTrap1_Ground.png/revision/latest?cb=20170828102715"
-        },
-        {
-          "file": "File:SkeletonTrap1 unarmed.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/67/SkeletonTrap1_unarmed.png/revision/latest?cb=20210204080350"
-        },
-        {
-          "file": "File:SkeletonTrap3 Air.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/52/SkeletonTrap3_Air.png/revision/latest?cb=20170828102755"
         },
         {
           "file": "File:SkeletonTrap3 Ground.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4f/SkeletonTrap3_Ground.png/revision/latest?cb=20170828102728"
         },
         {
-          "file": "File:SkeletonTrap3 unarmed.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9f/SkeletonTrap3_unarmed.png/revision/latest?cb=20171106190515"
-        },
-        {
           "file": "File:SkeletonTrap5.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c8/SkeletonTrap5.png/revision/latest?cb=20251120011150"
-        },
-        {
-          "file": "File:SkeletonTrap5 Air.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d1/SkeletonTrap5_Air.png/revision/latest?cb=20251120011107"
-        },
-        {
-          "file": "File:SkeletonTrap5 Ground.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c8/SkeletonTrap5.png/revision/latest?cb=20251120011150"
-        },
-        {
-          "file": "File:SkeletonTrap5 unarmed.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9d/SkeletonTrap5_unarmed.png/revision/latest?cb=20251209002210"
         }
       ],
       "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "hallByLevel": {
@@ -1251,6 +1379,34 @@
         "3": 9,
         "4": 10,
         "5": 18
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:SkeletonTrap1 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0c/SkeletonTrap1_Ground.png/revision/latest?cb=20170828102715"
+        },
+        "2": {
+          "file": "File:SkeletonTrap1 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0c/SkeletonTrap1_Ground.png/revision/latest?cb=20170828102715"
+        },
+        "3": {
+          "file": "File:SkeletonTrap3 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4f/SkeletonTrap3_Ground.png/revision/latest?cb=20170828102728"
+        },
+        "4": {
+          "file": "File:SkeletonTrap3 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4f/SkeletonTrap3_Ground.png/revision/latest?cb=20170828102728"
+        },
+        "5": {
+          "file": "File:SkeletonTrap5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c8/SkeletonTrap5.png/revision/latest?cb=20251120011150"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Skeleton Trap",
+        "rawWikitextSha256": "d380dac0c52f7668d2319f61722a20b4ebece997ebcad32442438658d1d3b324",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
       }
     },
     {
@@ -1333,14 +1489,32 @@
         }
       ],
       "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "hallByLevel": {
         "1": 11,
         "2": 11,
         "3": 12
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Tornado Trap1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/54/Tornado_Trap1.png/revision/latest?cb=20181022220244"
+        },
+        "2": {
+          "file": "File:Tornado Trap2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ab/Tornado_Trap2.png/revision/latest?cb=20181022220256"
+        },
+        "3": {
+          "file": "File:Tornado Trap2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ab/Tornado_Trap2.png/revision/latest?cb=20181022220256"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Tornado Trap",
+        "rawWikitextSha256": "f1a02fa91623d02ca4a2e9227644ec899f3c54f31c691eb6142fb18cefc51625",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
       }
     },
     {
@@ -1422,37 +1596,19 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b7/Giga_Bomb1.png/revision/latest?cb=20241122154922"
         },
         {
-          "file": "File:Giga Bomb1 unarmed.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e4/Giga_Bomb1_unarmed.png/revision/latest?cb=20241126134110"
-        },
-        {
           "file": "File:Giga Bomb2.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7e/Giga_Bomb2.png/revision/latest?cb=20241122155021"
-        },
-        {
-          "file": "File:Giga Bomb2 unarmed.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/ff/Giga_Bomb2_unarmed.png/revision/latest?cb=20241126134111"
         },
         {
           "file": "File:Giga Bomb3.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/7/72/Giga_Bomb3.png/revision/latest?cb=20241122154958"
         },
         {
-          "file": "File:Giga Bomb3 unarmed.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/91/Giga_Bomb3_unarmed.png/revision/latest?cb=20241126134112"
-        },
-        {
           "file": "File:Giga Bomb4.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/a/aa/Giga_Bomb4.png/revision/latest?cb=20260225010120"
-        },
-        {
-          "file": "File:Giga Bomb4 unarmed.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b5/Giga_Bomb4_unarmed.png/revision/latest?cb=20260225010141"
         }
       ],
       "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "hallByLevel": {
@@ -1460,6 +1616,30 @@
         "2": 17,
         "3": 17,
         "4": 18
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Giga Bomb1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b7/Giga_Bomb1.png/revision/latest?cb=20241122154922"
+        },
+        "2": {
+          "file": "File:Giga Bomb2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7e/Giga_Bomb2.png/revision/latest?cb=20241122155021"
+        },
+        "3": {
+          "file": "File:Giga Bomb3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/72/Giga_Bomb3.png/revision/latest?cb=20241122154958"
+        },
+        "4": {
+          "file": "File:Giga Bomb4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/aa/Giga_Bomb4.png/revision/latest?cb=20260225010120"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Giga Bomb",
+        "rawWikitextSha256": "2e0ee1290df99e535e088252318ea78ca7b67399c28e1ee45408f4fa1afb8539",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
       }
     }
   ],

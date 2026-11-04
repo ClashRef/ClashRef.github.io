@@ -110,10 +110,6 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/7/77/Push_Trap1.png/revision/latest?cb=20171130154513"
         },
         {
-          "file": "File:Push Trap10.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1e/Push_Trap10.png/revision/latest?cb=20230517082021"
-        },
-        {
           "file": "File:Push Trap2.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/2/25/Push_Trap2.png/revision/latest?cb=20171130154513"
         },
@@ -144,11 +140,13 @@
         {
           "file": "File:Push Trap9.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/6/67/Push_Trap9.png/revision/latest?cb=20190617033045"
+        },
+        {
+          "file": "File:Push Trap10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1e/Push_Trap10.png/revision/latest?cb=20230517082021"
         }
       ],
       "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "hallByLevel": {
@@ -162,6 +160,54 @@
         "8": 8,
         "9": 9,
         "10": 10
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Push Trap1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/77/Push_Trap1.png/revision/latest?cb=20171130154513"
+        },
+        "2": {
+          "file": "File:Push Trap2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/25/Push_Trap2.png/revision/latest?cb=20171130154513"
+        },
+        "3": {
+          "file": "File:Push Trap3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1a/Push_Trap3.png/revision/latest?cb=20171130154514"
+        },
+        "4": {
+          "file": "File:Push Trap4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/33/Push_Trap4.png/revision/latest?cb=20171130154514"
+        },
+        "5": {
+          "file": "File:Push Trap5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cb/Push_Trap5.png/revision/latest?cb=20171130154515"
+        },
+        "6": {
+          "file": "File:Push Trap6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8c/Push_Trap6.png/revision/latest?cb=20171130154515"
+        },
+        "7": {
+          "file": "File:Push Trap7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/29/Push_Trap7.png/revision/latest?cb=20171130154515"
+        },
+        "8": {
+          "file": "File:Push Trap8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a1/Push_Trap8.png/revision/latest?cb=20171130154516"
+        },
+        "9": {
+          "file": "File:Push Trap9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/67/Push_Trap9.png/revision/latest?cb=20190617033045"
+        },
+        "10": {
+          "file": "File:Push Trap10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1e/Push_Trap10.png/revision/latest?cb=20230517082021"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Push Trap",
+        "rawWikitextSha256": "7b91ad5a459aa2f0457c1fdf548cd51da0c56fbfbc8ec95666efe1a19b73a497",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
       }
     },
     {
@@ -264,8 +310,6 @@
         }
       ],
       "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "hallByLevel": {
@@ -274,11 +318,39 @@
         "3": 6,
         "4": 8,
         "5": 10
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Spring Trap1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/74/Spring_Trap1.png/revision/latest?cb=20221218092202"
+        },
+        "2": {
+          "file": "File:Spring Trap3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e2/Spring_Trap3.png/revision/latest?cb=20221218092328"
+        },
+        "3": {
+          "file": "File:Spring Trap3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e2/Spring_Trap3.png/revision/latest?cb=20221218092328"
+        },
+        "4": {
+          "file": "File:Spring Trap5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d5/Spring_Trap5.png/revision/latest?cb=20221218092228"
+        },
+        "5": {
+          "file": "File:Spring Trap5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d5/Spring_Trap5.png/revision/latest?cb=20221218092228"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Spring Trap/Builder Base",
+        "rawWikitextSha256": "182e6716b99839a41828d478056afbd955c072ebf55d9e7fda729bea35511e27",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
       }
     },
     {
       "n": "Mine",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/0/04/Mine10_Air.png/revision/latest?cb=20230520053508",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/6/69/Mine1_Ground.png/revision/latest?cb=20171130165533",
       "source": "https://clashofclans.fandom.com/wiki/Mine",
       "revision": null,
       "tables": [
@@ -395,89 +467,47 @@
       ],
       "images": [
         {
-          "file": "File:Mine10 Air.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/04/Mine10_Air.png/revision/latest?cb=20230520053508"
-        },
-        {
-          "file": "File:Mine10 Ground.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cd/Mine10_Ground.png/revision/latest?cb=20230520053507"
-        },
-        {
-          "file": "File:Mine1 Air.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a4/Mine1_Air.png/revision/latest?cb=20171130171508"
-        },
-        {
           "file": "File:Mine1 Ground.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/6/69/Mine1_Ground.png/revision/latest?cb=20171130165533"
-        },
-        {
-          "file": "File:Mine2 Air.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bf/Mine2_Air.png/revision/latest?cb=20171130171508"
         },
         {
           "file": "File:Mine2 Ground.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9c/Mine2_Ground.png/revision/latest?cb=20171130165533"
         },
         {
-          "file": "File:Mine3 Air.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/30/Mine3_Air.png/revision/latest?cb=20171130171509"
-        },
-        {
           "file": "File:Mine3 Ground.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/8/85/Mine3_Ground.png/revision/latest?cb=20171130165533"
-        },
-        {
-          "file": "File:Mine4 Air.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/28/Mine4_Air.png/revision/latest?cb=20171130171509"
         },
         {
           "file": "File:Mine4 Ground.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Mine4_Ground.png/revision/latest?cb=20171130165532"
         },
         {
-          "file": "File:Mine5 Air.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/26/Mine5_Air.png/revision/latest?cb=20171130171510"
-        },
-        {
           "file": "File:Mine5 Ground.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b5/Mine5_Ground.png/revision/latest?cb=20171130165532"
-        },
-        {
-          "file": "File:Mine6 Air.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/ca/Mine6_Air.png/revision/latest?cb=20171130171510"
         },
         {
           "file": "File:Mine6 Ground.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c6/Mine6_Ground.png/revision/latest?cb=20171130165532"
         },
         {
-          "file": "File:Mine7 Air.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/24/Mine7_Air.png/revision/latest?cb=20171130171510"
-        },
-        {
           "file": "File:Mine7 Ground.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/3/36/Mine7_Ground.png/revision/latest?cb=20171130165531"
-        },
-        {
-          "file": "File:Mine8 Air.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ac/Mine8_Air.png/revision/latest?cb=20171130171511"
         },
         {
           "file": "File:Mine8 Ground.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/5/55/Mine8_Ground.png/revision/latest?cb=20171130165531"
         },
         {
-          "file": "File:Mine9 Air.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8d/Mine9_Air.png/revision/latest?cb=20190617033509"
-        },
-        {
           "file": "File:Mine9 Ground.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c8/Mine9_Ground.png/revision/latest?cb=20190617033508"
+        },
+        {
+          "file": "File:Mine10 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cd/Mine10_Ground.png/revision/latest?cb=20230520053507"
         }
       ],
       "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "hallByLevel": {
@@ -491,11 +521,59 @@
         "8": 8,
         "9": 9,
         "10": 10
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Mine1 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/69/Mine1_Ground.png/revision/latest?cb=20171130165533"
+        },
+        "2": {
+          "file": "File:Mine2 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9c/Mine2_Ground.png/revision/latest?cb=20171130165533"
+        },
+        "3": {
+          "file": "File:Mine3 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/85/Mine3_Ground.png/revision/latest?cb=20171130165533"
+        },
+        "4": {
+          "file": "File:Mine4 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Mine4_Ground.png/revision/latest?cb=20171130165532"
+        },
+        "5": {
+          "file": "File:Mine5 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b5/Mine5_Ground.png/revision/latest?cb=20171130165532"
+        },
+        "6": {
+          "file": "File:Mine6 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c6/Mine6_Ground.png/revision/latest?cb=20171130165532"
+        },
+        "7": {
+          "file": "File:Mine7 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/36/Mine7_Ground.png/revision/latest?cb=20171130165531"
+        },
+        "8": {
+          "file": "File:Mine8 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/55/Mine8_Ground.png/revision/latest?cb=20171130165531"
+        },
+        "9": {
+          "file": "File:Mine9 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c8/Mine9_Ground.png/revision/latest?cb=20190617033508"
+        },
+        "10": {
+          "file": "File:Mine10 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cd/Mine10_Ground.png/revision/latest?cb=20230520053507"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Mine/Builder Base",
+        "rawWikitextSha256": "32aa86ecc8253a589f4f19239f1f9f519df6bda148543dd2c9d5d2642daa3cc0",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
       }
     },
     {
       "n": "Mega Mine",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/81/Mega_Mine10_Air.png/revision/latest?cb=20230520053506",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/5/51/Mega_Mine1_Ground.png/revision/latest?cb=20171130180338",
       "source": "https://clashofclans.fandom.com/wiki/Mega_Mine",
       "revision": null,
       "tables": [
@@ -610,93 +688,47 @@
       ],
       "images": [
         {
-          "file": "File:Mega Mine10 Air.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/81/Mega_Mine10_Air.png/revision/latest?cb=20230520053506"
-        },
-        {
-          "file": "File:Mega Mine10 Ground.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/70/Mega_Mine10_Ground.png/revision/latest?cb=20230520053506"
-        },
-        {
-          "file": "File:Mega Mine1 Air.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/64/Mega_Mine1_Air.png/revision/latest?cb=20171130180410"
-        },
-        {
           "file": "File:Mega Mine1 Ground.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/5/51/Mega_Mine1_Ground.png/revision/latest?cb=20171130180338"
-        },
-        {
-          "file": "File:Mega Mine2 Air.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/29/Mega_Mine2_Air.png/revision/latest?cb=20171130180410"
         },
         {
           "file": "File:Mega Mine2 Ground.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/2/29/Mega_Mine2_Ground.png/revision/latest?cb=20171130180339"
         },
         {
-          "file": "File:Mega Mine3 Air.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2e/Mega_Mine3_Air.png/revision/latest?cb=20171130180411"
-        },
-        {
           "file": "File:Mega Mine3 Ground.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b9/Mega_Mine3_Ground.png/revision/latest?cb=20171130180339"
-        },
-        {
-          "file": "File:Mega Mine4 Air.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d6/Mega_Mine4_Air.png/revision/latest?cb=20171130180411"
         },
         {
           "file": "File:Mega Mine4 Ground.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c4/Mega_Mine4_Ground.png/revision/latest?cb=20171130180339"
         },
         {
-          "file": "File:Mega Mine5 Air.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cf/Mega_Mine5_Air.png/revision/latest?cb=20171130180411"
-        },
-        {
           "file": "File:Mega Mine5 Ground.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/7/76/Mega_Mine5_Ground.png/revision/latest?cb=20171130180340"
-        },
-        {
-          "file": "File:Mega Mine6 Air.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Mega_Mine6_Air.png/revision/latest?cb=20171130180412"
         },
         {
           "file": "File:Mega Mine6 Ground.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1d/Mega_Mine6_Ground.png/revision/latest?cb=20171130180340"
         },
         {
-          "file": "File:Mega Mine7 Air.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/13/Mega_Mine7_Air.png/revision/latest?cb=20171130180412"
-        },
-        {
           "file": "File:Mega Mine7 Ground.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/7/74/Mega_Mine7_Ground.png/revision/latest?cb=20171130180341"
-        },
-        {
-          "file": "File:Mega Mine8 Air.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a4/Mega_Mine8_Air.png/revision/latest?cb=20171130180412"
         },
         {
           "file": "File:Mega Mine8 Ground.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/4/43/Mega_Mine8_Ground.png/revision/latest?cb=20171130180341"
         },
         {
-          "file": "File:Mega Mine9 Air.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e6/Mega_Mine9_Air.png/revision/latest?cb=20190617034052"
-        },
-        {
           "file": "File:Mega Mine9 Ground.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/4/45/Mega_Mine9_Ground.png/revision/latest?cb=20200905044808"
         },
         {
-          "file": "File:Mega Mine Ruin.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1e/Mega_Mine_Ruin.png/revision/latest?cb=20220510204335"
+          "file": "File:Mega Mine10 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/70/Mega_Mine10_Ground.png/revision/latest?cb=20230520053506"
         }
       ],
       "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "hallByLevel": {
@@ -710,6 +742,54 @@
         "8": 8,
         "9": 9,
         "10": 10
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Mega Mine1 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/51/Mega_Mine1_Ground.png/revision/latest?cb=20171130180338"
+        },
+        "2": {
+          "file": "File:Mega Mine2 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/29/Mega_Mine2_Ground.png/revision/latest?cb=20171130180339"
+        },
+        "3": {
+          "file": "File:Mega Mine3 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b9/Mega_Mine3_Ground.png/revision/latest?cb=20171130180339"
+        },
+        "4": {
+          "file": "File:Mega Mine4 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c4/Mega_Mine4_Ground.png/revision/latest?cb=20171130180339"
+        },
+        "5": {
+          "file": "File:Mega Mine5 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/76/Mega_Mine5_Ground.png/revision/latest?cb=20171130180340"
+        },
+        "6": {
+          "file": "File:Mega Mine6 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1d/Mega_Mine6_Ground.png/revision/latest?cb=20171130180340"
+        },
+        "7": {
+          "file": "File:Mega Mine7 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/74/Mega_Mine7_Ground.png/revision/latest?cb=20171130180341"
+        },
+        "8": {
+          "file": "File:Mega Mine8 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/43/Mega_Mine8_Ground.png/revision/latest?cb=20171130180341"
+        },
+        "9": {
+          "file": "File:Mega Mine9 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/45/Mega_Mine9_Ground.png/revision/latest?cb=20200905044808"
+        },
+        "10": {
+          "file": "File:Mega Mine10 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/70/Mega_Mine10_Ground.png/revision/latest?cb=20230520053506"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Mega Mine/Builder Base",
+        "rawWikitextSha256": "8ab54cf6b531c782629d96628fbaaa6be6e97e2a73e9de2c6199067f30872887",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
       }
     }
   ],

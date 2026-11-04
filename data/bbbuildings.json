@@ -240,10 +240,6 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/1/19/Builder_Hall1.png/revision/latest?cb=20260124185607"
         },
         {
-          "file": "File:Builder Hall10.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/87/Builder_Hall10.png/revision/latest?cb=20230516070454"
-        },
-        {
           "file": "File:Builder Hall2.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/0/03/Builder_Hall2.png/revision/latest?cb=20260124185646"
         },
@@ -274,11 +270,75 @@
         {
           "file": "File:Builder Hall9.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/4/43/Builder_Hall9.png/revision/latest?cb=20230516070619"
+        },
+        {
+          "file": "File:Builder Hall10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/87/Builder_Hall10.png/revision/latest?cb=20230516070454"
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Builder Hall1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/19/Builder_Hall1.png/revision/latest?cb=20260124185607"
+        },
+        "2": {
+          "file": "File:Builder Hall2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/03/Builder_Hall2.png/revision/latest?cb=20260124185646"
+        },
+        "3": {
+          "file": "File:Builder Hall3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/38/Builder_Hall3.png/revision/latest?cb=20260124185706"
+        },
+        "4": {
+          "file": "File:Builder Hall4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/be/Builder_Hall4.png/revision/latest?cb=20260124185726"
+        },
+        "5": {
+          "file": "File:Builder Hall5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/22/Builder_Hall5.png/revision/latest?cb=20260124185756"
+        },
+        "6": {
+          "file": "File:Builder Hall6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/29/Builder_Hall6.png/revision/latest?cb=20260124185815"
+        },
+        "7": {
+          "file": "File:Builder Hall7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7f/Builder_Hall7.png/revision/latest?cb=20260124185837"
+        },
+        "8": {
+          "file": "File:Builder Hall8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0e/Builder_Hall8.png/revision/latest?cb=20260124185902"
+        },
+        "9": {
+          "file": "File:Builder Hall9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/43/Builder_Hall9.png/revision/latest?cb=20230516070619"
+        },
+        "10": {
+          "file": "File:Builder Hall10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/87/Builder_Hall10.png/revision/latest?cb=20230516070454"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Builder Hall",
+        "rawWikitextSha256": "a503c90a714390afe332d2a87093161de5c603303517b815f2d44d4c48324f39",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+      }
     },
     {
       "n": "Gold Mine/Builder Base",
@@ -430,10 +490,6 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bf/Gold_Mine1.png/revision/latest?cb=20180110120430"
         },
         {
-          "file": "File:Gold Mine10.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Gold_Mine10.png/revision/latest?cb=20180110120703"
-        },
-        {
           "file": "File:Gold Mine2.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/5/55/Gold_Mine2.png/revision/latest?cb=20180110120444"
         },
@@ -464,11 +520,13 @@
         {
           "file": "File:Gold Mine9.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bf/Gold_Mine9.png/revision/latest?cb=20180110120642"
+        },
+        {
+          "file": "File:Gold Mine10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Gold_Mine10.png/revision/latest?cb=20180110120703"
         }
       ],
       "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "hallByLevel": {
@@ -482,11 +540,59 @@
         "8": 8,
         "9": 9,
         "10": 10
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Gold Mine1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bf/Gold_Mine1.png/revision/latest?cb=20180110120430"
+        },
+        "2": {
+          "file": "File:Gold Mine2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/55/Gold_Mine2.png/revision/latest?cb=20180110120444"
+        },
+        "3": {
+          "file": "File:Gold Mine3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e4/Gold_Mine3.png/revision/latest?cb=20180110120457"
+        },
+        "4": {
+          "file": "File:Gold Mine4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Gold_Mine4.png/revision/latest?cb=20180110120510"
+        },
+        "5": {
+          "file": "File:Gold Mine5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1a/Gold_Mine5.png/revision/latest?cb=20180110120533"
+        },
+        "6": {
+          "file": "File:Gold Mine6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/86/Gold_Mine6.png/revision/latest?cb=20180110120552"
+        },
+        "7": {
+          "file": "File:Gold Mine7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/11/Gold_Mine7.png/revision/latest?cb=20180110120611"
+        },
+        "8": {
+          "file": "File:Gold Mine8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/52/Gold_Mine8.png/revision/latest?cb=20180110120627"
+        },
+        "9": {
+          "file": "File:Gold Mine9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bf/Gold_Mine9.png/revision/latest?cb=20180110120642"
+        },
+        "10": {
+          "file": "File:Gold Mine10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Gold_Mine10.png/revision/latest?cb=20180110120703"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Gold Mine/Builder Base",
+        "rawWikitextSha256": "4a73c617d6e1eb75a050df8946cb7e4762af2a64f4b97d87c76100ec946dfea2",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
       }
     },
     {
       "n": "Elixir Collector/Builder Base",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/3/32/Elixir_Collector10B.png/revision/latest?cb=20230518051323",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/c/c4/Elixir_Collector1B.png/revision/latest?cb=20180109122754",
       "source": "https://clashofclans.fandom.com/wiki/Elixir_Collector/Builder_Base",
       "revision": null,
       "tables": [
@@ -630,10 +736,6 @@
       ],
       "images": [
         {
-          "file": "File:Elixir Collector10B.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/32/Elixir_Collector10B.png/revision/latest?cb=20230518051323"
-        },
-        {
           "file": "File:Elixir Collector1B.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c4/Elixir_Collector1B.png/revision/latest?cb=20180109122754"
         },
@@ -668,11 +770,13 @@
         {
           "file": "File:Elixir Collector9B.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3b/Elixir_Collector9B.png/revision/latest?cb=20190616211335"
+        },
+        {
+          "file": "File:Elixir Collector10B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/32/Elixir_Collector10B.png/revision/latest?cb=20230518051323"
         }
       ],
       "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "hallByLevel": {
@@ -686,11 +790,59 @@
         "8": 8,
         "9": 9,
         "10": 10
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Elixir Collector1B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c4/Elixir_Collector1B.png/revision/latest?cb=20180109122754"
+        },
+        "2": {
+          "file": "File:Elixir Collector2B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/19/Elixir_Collector2B.png/revision/latest?cb=20180109122754"
+        },
+        "3": {
+          "file": "File:Elixir Collector3B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a7/Elixir_Collector3B.png/revision/latest?cb=20180109122755"
+        },
+        "4": {
+          "file": "File:Elixir Collector4B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/54/Elixir_Collector4B.png/revision/latest?cb=20180109122755"
+        },
+        "5": {
+          "file": "File:Elixir Collector5B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ef/Elixir_Collector5B.png/revision/latest?cb=20180109122756"
+        },
+        "6": {
+          "file": "File:Elixir Collector6B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d4/Elixir_Collector6B.png/revision/latest?cb=20180109122756"
+        },
+        "7": {
+          "file": "File:Elixir Collector7B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8e/Elixir_Collector7B.png/revision/latest?cb=20180109122757"
+        },
+        "8": {
+          "file": "File:Elixir Collector8B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/15/Elixir_Collector8B.png/revision/latest?cb=20180109122757"
+        },
+        "9": {
+          "file": "File:Elixir Collector9B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3b/Elixir_Collector9B.png/revision/latest?cb=20190616211335"
+        },
+        "10": {
+          "file": "File:Elixir Collector10B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/32/Elixir_Collector10B.png/revision/latest?cb=20230518051323"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Elixir Collector/Builder Base",
+        "rawWikitextSha256": "f9a0870df3cc7d272666cc38b2417ec605321f9529999091ec20991ad4bac049",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
       }
     },
     {
       "n": "Gold Storage/Builder Base",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/e/e6/Gold_Storage10B.png/revision/latest?cb=20230518052405",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/1/16/Gold_Storage1B.png/revision/latest?cb=20171031120205",
       "source": "https://clashofclans.fandom.com/wiki/Gold_Storage/Builder_Base",
       "revision": null,
       "tables": [
@@ -801,10 +953,6 @@
       ],
       "images": [
         {
-          "file": "File:Gold Storage10B.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e6/Gold_Storage10B.png/revision/latest?cb=20230518052405"
-        },
-        {
           "file": "File:Gold Storage1B.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/1/16/Gold_Storage1B.png/revision/latest?cb=20171031120205"
         },
@@ -839,11 +987,13 @@
         {
           "file": "File:Gold Storage9B.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/4/49/Gold_Storage9B.png/revision/latest?cb=20190616213038"
+        },
+        {
+          "file": "File:Gold Storage10B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e6/Gold_Storage10B.png/revision/latest?cb=20230518052405"
         }
       ],
       "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "hallByLevel": {
@@ -857,11 +1007,59 @@
         "8": 8,
         "9": 9,
         "10": 10
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Gold Storage1B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/16/Gold_Storage1B.png/revision/latest?cb=20171031120205"
+        },
+        "2": {
+          "file": "File:Gold Storage2B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/de/Gold_Storage2B.png/revision/latest?cb=20171031120206"
+        },
+        "3": {
+          "file": "File:Gold Storage3B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c8/Gold_Storage3B.png/revision/latest?cb=20171031120207"
+        },
+        "4": {
+          "file": "File:Gold Storage4B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/81/Gold_Storage4B.png/revision/latest?cb=20171031120207"
+        },
+        "5": {
+          "file": "File:Gold Storage5B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/27/Gold_Storage5B.png/revision/latest?cb=20171031120207"
+        },
+        "6": {
+          "file": "File:Gold Storage6B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/84/Gold_Storage6B.png/revision/latest?cb=20171031120208"
+        },
+        "7": {
+          "file": "File:Gold Storage7B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/31/Gold_Storage7B.png/revision/latest?cb=20171031120208"
+        },
+        "8": {
+          "file": "File:Gold Storage8B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Gold_Storage8B.png/revision/latest?cb=20180307123736"
+        },
+        "9": {
+          "file": "File:Gold Storage9B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/49/Gold_Storage9B.png/revision/latest?cb=20190616213038"
+        },
+        "10": {
+          "file": "File:Gold Storage10B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e6/Gold_Storage10B.png/revision/latest?cb=20230518052405"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Gold Storage/Builder Base",
+        "rawWikitextSha256": "03d5bbfda814f54a3a926dab84626117479f51221a85dabde584252ee6f9020c",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
       }
     },
     {
       "n": "Elixir Storage/Builder Base",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Elixir_Storage10B.png/revision/latest?cb=20230515070355",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/9/92/Elixir_Storage1B.png/revision/latest?cb=20230515070145",
       "source": "https://clashofclans.fandom.com/wiki/Elixir_Storage/Builder_Base",
       "revision": null,
       "tables": [
@@ -972,10 +1170,6 @@
       ],
       "images": [
         {
-          "file": "File:Elixir Storage10B.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Elixir_Storage10B.png/revision/latest?cb=20230515070355"
-        },
-        {
           "file": "File:Elixir Storage1B.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/9/92/Elixir_Storage1B.png/revision/latest?cb=20230515070145"
         },
@@ -1010,11 +1204,13 @@
         {
           "file": "File:Elixir Storage9B.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3f/Elixir_Storage9B.png/revision/latest?cb=20230515070333"
+        },
+        {
+          "file": "File:Elixir Storage10B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Elixir_Storage10B.png/revision/latest?cb=20230515070355"
         }
       ],
       "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "hallByLevel": {
@@ -1028,6 +1224,54 @@
         "8": 8,
         "9": 9,
         "10": 10
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Elixir Storage1B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/92/Elixir_Storage1B.png/revision/latest?cb=20230515070145"
+        },
+        "2": {
+          "file": "File:Elixir Storage2B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d2/Elixir_Storage2B.png/revision/latest?cb=20230515070207"
+        },
+        "3": {
+          "file": "File:Elixir Storage3B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/38/Elixir_Storage3B.png/revision/latest?cb=20230515070217"
+        },
+        "4": {
+          "file": "File:Elixir Storage4B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1a/Elixir_Storage4B.png/revision/latest?cb=20230515070230"
+        },
+        "5": {
+          "file": "File:Elixir Storage5B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5a/Elixir_Storage5B.png/revision/latest?cb=20230515070243"
+        },
+        "6": {
+          "file": "File:Elixir Storage6B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c9/Elixir_Storage6B.png/revision/latest?cb=20230515070259"
+        },
+        "7": {
+          "file": "File:Elixir Storage7B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4c/Elixir_Storage7B.png/revision/latest?cb=20230515070311"
+        },
+        "8": {
+          "file": "File:Elixir Storage8B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bb/Elixir_Storage8B.png/revision/latest?cb=20230515070322"
+        },
+        "9": {
+          "file": "File:Elixir Storage9B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3f/Elixir_Storage9B.png/revision/latest?cb=20230515070333"
+        },
+        "10": {
+          "file": "File:Elixir Storage10B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Elixir_Storage10B.png/revision/latest?cb=20230515070355"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Elixir Storage/Builder Base",
+        "rawWikitextSha256": "605a5b7985925b7d66939606979779f4da20ed2662ed88708bdabb1e4095927d",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
       }
     },
     {
@@ -1191,10 +1435,6 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ae/Gem_Mine1.png/revision/latest?cb=20170830100532"
         },
         {
-          "file": "File:Gem Mine10.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0f/Gem_Mine10.png/revision/latest?cb=20230518054357"
-        },
-        {
           "file": "File:Gem Mine2.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Gem_Mine2.png/revision/latest?cb=20170830100551"
         },
@@ -1225,11 +1465,13 @@
         {
           "file": "File:Gem Mine9.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/b/be/Gem_Mine9.png/revision/latest?cb=20200901052741"
+        },
+        {
+          "file": "File:Gem Mine10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0f/Gem_Mine10.png/revision/latest?cb=20230518054357"
         }
       ],
       "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "hallByLevel": {
@@ -1243,6 +1485,54 @@
         "8": 8,
         "9": 9,
         "10": 10
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Gem Mine1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ae/Gem_Mine1.png/revision/latest?cb=20170830100532"
+        },
+        "2": {
+          "file": "File:Gem Mine2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Gem_Mine2.png/revision/latest?cb=20170830100551"
+        },
+        "3": {
+          "file": "File:Gem Mine3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b0/Gem_Mine3.png/revision/latest?cb=20170830100614"
+        },
+        "4": {
+          "file": "File:Gem Mine4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/25/Gem_Mine4.png/revision/latest?cb=20170830100632"
+        },
+        "5": {
+          "file": "File:Gem Mine5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f9/Gem_Mine5.png/revision/latest?cb=20170830100652"
+        },
+        "6": {
+          "file": "File:Gem Mine6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/ff/Gem_Mine6.png/revision/latest?cb=20170830100710"
+        },
+        "7": {
+          "file": "File:Gem Mine7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9f/Gem_Mine7.png/revision/latest?cb=20170927112119"
+        },
+        "8": {
+          "file": "File:Gem Mine8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a8/Gem_Mine8.png/revision/latest?cb=20170927112823"
+        },
+        "9": {
+          "file": "File:Gem Mine9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/be/Gem_Mine9.png/revision/latest?cb=20200901052741"
+        },
+        "10": {
+          "file": "File:Gem Mine10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0f/Gem_Mine10.png/revision/latest?cb=20230518054357"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Gem Mine",
+        "rawWikitextSha256": "a25a3f7f6a7974bf30edca353162b9510c64af9d079d5a86beb9db93d622f6d7",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
       }
     },
     {
@@ -1292,8 +1582,42 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "unlockHall": 9,
+      "staticImage": {
+        "file": "File:O.T.T.O Hut1.png",
+        "url": "https://static.wikia.nocookie.net/clashofclans/images/9/95/O.T.T.O_Hut1.png/revision/latest?cb=20190621205325"
+      },
+      "imageNote": "B.O.B Control appearance depends on completed tasks. The card shows its initial form; Images shows all five task stages.",
+      "levelImages": {
+        "1": {
+          "file": "File:O.T.T.O Hut1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/95/O.T.T.O_Hut1.png/revision/latest?cb=20190621205325"
+        },
+        "2": {
+          "file": "File:O.T.T.O Hut2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a7/O.T.T.O_Hut2.png/revision/latest?cb=20190621205325"
+        },
+        "3": {
+          "file": "File:O.T.T.O Hut3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2e/O.T.T.O_Hut3.png/revision/latest?cb=20190621205326"
+        },
+        "4": {
+          "file": "File:O.T.T.O Hut4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6b/O.T.T.O_Hut4.png/revision/latest?cb=20190621205326"
+        },
+        "5": {
+          "file": "File:O.T.T.O Hut5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/80/O.T.T.O_Hut5.png/revision/latest?cb=20190621205327"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "B.O.B Control",
+        "rawWikitextSha256": "e1a79d3c11f4e269115b9617550aa1848d3b55f1cfeed24d59fc64f7106316c5",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+      }
     },
     {
       "n": "Builder Barracks",
@@ -1430,18 +1754,6 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/c/ce/Builder_Barracks1.png/revision/latest?cb=20180501142536"
         },
         {
-          "file": "File:Builder Barracks10.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b9/Builder_Barracks10.png/revision/latest?cb=20180501142759"
-        },
-        {
-          "file": "File:Builder Barracks11.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/05/Builder_Barracks11.png/revision/latest?cb=20190617025509"
-        },
-        {
-          "file": "File:Builder Barracks12.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/94/Builder_Barracks12.png/revision/latest?cb=20230518075724"
-        },
-        {
           "file": "File:Builder Barracks2.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c2/Builder_Barracks2.png/revision/latest?cb=20180501142551"
         },
@@ -1472,11 +1784,21 @@
         {
           "file": "File:Builder Barracks9.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e2/Builder_Barracks9.png/revision/latest?cb=20180501142745"
+        },
+        {
+          "file": "File:Builder Barracks10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b9/Builder_Barracks10.png/revision/latest?cb=20180501142759"
+        },
+        {
+          "file": "File:Builder Barracks11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/05/Builder_Barracks11.png/revision/latest?cb=20190617025509"
+        },
+        {
+          "file": "File:Builder Barracks12.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/94/Builder_Barracks12.png/revision/latest?cb=20230518075724"
         }
       ],
       "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "hallByLevel": {
@@ -1492,11 +1814,67 @@
         "10": 8,
         "11": 9,
         "12": 10
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Builder Barracks1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/ce/Builder_Barracks1.png/revision/latest?cb=20180501142536"
+        },
+        "2": {
+          "file": "File:Builder Barracks2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c2/Builder_Barracks2.png/revision/latest?cb=20180501142551"
+        },
+        "3": {
+          "file": "File:Builder Barracks3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/74/Builder_Barracks3.png/revision/latest?cb=20180501142604"
+        },
+        "4": {
+          "file": "File:Builder Barracks4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1e/Builder_Barracks4.png/revision/latest?cb=20180501142619"
+        },
+        "5": {
+          "file": "File:Builder Barracks5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e3/Builder_Barracks5.png/revision/latest?cb=20180501142637"
+        },
+        "6": {
+          "file": "File:Builder Barracks6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f4/Builder_Barracks6.png/revision/latest?cb=20180501142650"
+        },
+        "7": {
+          "file": "File:Builder Barracks7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/91/Builder_Barracks7.png/revision/latest?cb=20180501142704"
+        },
+        "8": {
+          "file": "File:Builder Barracks8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/03/Builder_Barracks8.png/revision/latest?cb=20180501142720"
+        },
+        "9": {
+          "file": "File:Builder Barracks9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e2/Builder_Barracks9.png/revision/latest?cb=20180501142745"
+        },
+        "10": {
+          "file": "File:Builder Barracks10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b9/Builder_Barracks10.png/revision/latest?cb=20180501142759"
+        },
+        "11": {
+          "file": "File:Builder Barracks11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/05/Builder_Barracks11.png/revision/latest?cb=20190617025509"
+        },
+        "12": {
+          "file": "File:Builder Barracks12.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/94/Builder_Barracks12.png/revision/latest?cb=20230518075724"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Builder Barracks",
+        "rawWikitextSha256": "16999c5cf8eb49b9403b5b3bd0d090ca900d1d8b7b06c4cb20c867012852a9be",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
       }
     },
     {
       "n": "Army Camp/Builder Base",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/87/Builder_Hall10.png/revision/latest?cb=20230516070454",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/e/e4/Army_CampB.png/revision/latest?cb=20170726151144",
       "source": "https://clashofclans.fandom.com/wiki/Army_Camp/Builder_Base",
       "revision": null,
       "tables": [
@@ -1568,13 +1946,24 @@
       ],
       "images": [
         {
-          "file": "File:Builder Hall10.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/87/Builder_Hall10.png/revision/latest?cb=20230516070454"
+          "file": "File:Army CampB.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e4/Army_CampB.png/revision/latest?cb=20170726151144"
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "unlockHall": 1,
+      "staticImage": {
+        "file": "File:Army CampB.png",
+        "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e4/Army_CampB.png/revision/latest?cb=20170726151144"
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Army Camp/Builder Base",
+        "rawWikitextSha256": "3174f8aad170c8782df319b3b6c183499fe088a2853a093b9b8e74c771ed7bfe",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+      }
     },
     {
       "n": "Star Laboratory",
@@ -2205,10 +2594,6 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1c/Star_Laboratory1.png/revision/latest?cb=20180512123423"
         },
         {
-          "file": "File:Star Laboratory10.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/32/Star_Laboratory10.png/revision/latest?cb=20230518080618"
-        },
-        {
           "file": "File:Star Laboratory2.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b5/Star_Laboratory2.png/revision/latest?cb=20180512123408"
         },
@@ -2239,11 +2624,13 @@
         {
           "file": "File:Star Laboratory9.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/9/98/Star_Laboratory9.png/revision/latest?cb=20200901052740"
+        },
+        {
+          "file": "File:Star Laboratory10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/32/Star_Laboratory10.png/revision/latest?cb=20230518080618"
         }
       ],
       "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "hallByLevel": {
@@ -2257,6 +2644,54 @@
         "8": 8,
         "9": 9,
         "10": 10
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Star Laboratory1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1c/Star_Laboratory1.png/revision/latest?cb=20180512123423"
+        },
+        "2": {
+          "file": "File:Star Laboratory2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b5/Star_Laboratory2.png/revision/latest?cb=20180512123408"
+        },
+        "3": {
+          "file": "File:Star Laboratory3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ac/Star_Laboratory3.png/revision/latest?cb=20180512123343"
+        },
+        "4": {
+          "file": "File:Star Laboratory4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5e/Star_Laboratory4.png/revision/latest?cb=20180512123308"
+        },
+        "5": {
+          "file": "File:Star Laboratory5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bd/Star_Laboratory5.png/revision/latest?cb=20180512123234"
+        },
+        "6": {
+          "file": "File:Star Laboratory6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8b/Star_Laboratory6.png/revision/latest?cb=20180512123219"
+        },
+        "7": {
+          "file": "File:Star Laboratory7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8a/Star_Laboratory7.png/revision/latest?cb=20180512123203"
+        },
+        "8": {
+          "file": "File:Star Laboratory8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2d/Star_Laboratory8.png/revision/latest?cb=20180512123147"
+        },
+        "9": {
+          "file": "File:Star Laboratory9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/98/Star_Laboratory9.png/revision/latest?cb=20200901052740"
+        },
+        "10": {
+          "file": "File:Star Laboratory10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/32/Star_Laboratory10.png/revision/latest?cb=20230518080618"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Star Laboratory",
+        "rawWikitextSha256": "139925f6ed43a658bef46a9fd05570e41e1dd7147d108edcedbb2a0b66e3ab0e",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
       }
     },
     {
@@ -2294,12 +2729,23 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "unlockHall": 5,
+      "staticImage": {
+        "file": "File:BattleMachineAltar1.png",
+        "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/BattleMachineAltar1.png/revision/latest?cb=20170603193138"
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Battle Machine Altar",
+        "rawWikitextSha256": "fcea9fb3fbfa122c6e1084c06f78a02270649ce60530d9a7a09c5a1e19a64c7f",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+      }
     },
     {
       "n": "Reinforcement Camp",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/87/Builder_Hall10.png/revision/latest?cb=20230516070454",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/7/7c/Reinforcement_Camp.png/revision/latest?cb=20230518074638",
       "source": "https://clashofclans.fandom.com/wiki/Reinforcement_Camp",
       "revision": null,
       "tables": [
@@ -2343,13 +2789,24 @@
       ],
       "images": [
         {
-          "file": "File:Builder Hall10.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/87/Builder_Hall10.png/revision/latest?cb=20230516070454"
+          "file": "File:Reinforcement Camp.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7c/Reinforcement_Camp.png/revision/latest?cb=20230518074638"
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "unlockHall": 6,
+      "staticImage": {
+        "file": "File:Reinforcement Camp.png",
+        "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7c/Reinforcement_Camp.png/revision/latest?cb=20230518074638"
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Reinforcement Camp",
+        "rawWikitextSha256": "d07713a13de8010b5b8665646e8c8c263a82a69a5bae2ca22148110b5ccc0767",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+      }
     },
     {
       "n": "Healing Hut",
@@ -2453,8 +2910,6 @@
         }
       ],
       "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "hallByLevel": {
@@ -2464,6 +2919,38 @@
         "4": 8,
         "5": 9,
         "6": 10
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Healing Hut1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fd/Healing_Hut1.png/revision/latest?cb=20230517101251"
+        },
+        "2": {
+          "file": "File:Healing Hut2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2d/Healing_Hut2.png/revision/latest?cb=20230517101251"
+        },
+        "3": {
+          "file": "File:Healing Hut3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/da/Healing_Hut3.png/revision/latest?cb=20230517101252"
+        },
+        "4": {
+          "file": "File:Healing Hut4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Healing_Hut4.png/revision/latest?cb=20230517101253"
+        },
+        "5": {
+          "file": "File:Healing Hut5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f8/Healing_Hut5.png/revision/latest?cb=20230517101254"
+        },
+        "6": {
+          "file": "File:Healing Hut6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b2/Healing_Hut6.png/revision/latest?cb=20230517101255"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Healing Hut",
+        "rawWikitextSha256": "2c50a406a35443b0de986e2a0485b840b3389d0ef9ffe09f30d0e998b880411d",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
       }
     },
     {
@@ -2501,8 +2988,19 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "unlockHall": 8,
+      "staticImage": {
+        "file": "File:Battle Copter Altar.png",
+        "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Battle_Copter_Altar.png/revision/latest?cb=20230518081135"
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Battle Copter Altar",
+        "rawWikitextSha256": "5c9496f48cfc1183043edf44067e0ba15c8fd3b46035c7dbdb3d632a9a93110a",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+      }
     },
     {
       "n": "Clock Tower",
@@ -2665,10 +3163,6 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ee/Clock_Tower1.png/revision/latest?cb=20180512121553"
         },
         {
-          "file": "File:Clock Tower10.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fd/Clock_Tower10.png/revision/latest?cb=20230518073813"
-        },
-        {
           "file": "File:Clock Tower2.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2b/Clock_Tower2.png/revision/latest?cb=20180512121605"
         },
@@ -2699,11 +3193,13 @@
         {
           "file": "File:Clock Tower9.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Clock_Tower9.png/revision/latest?cb=20190617025510"
+        },
+        {
+          "file": "File:Clock Tower10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fd/Clock_Tower10.png/revision/latest?cb=20230518073813"
         }
       ],
       "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "hallByLevel": {
@@ -2717,11 +3213,59 @@
         "8": 8,
         "9": 9,
         "10": 10
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Clock Tower1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ee/Clock_Tower1.png/revision/latest?cb=20180512121553"
+        },
+        "2": {
+          "file": "File:Clock Tower2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2b/Clock_Tower2.png/revision/latest?cb=20180512121605"
+        },
+        "3": {
+          "file": "File:Clock Tower3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/81/Clock_Tower3.png/revision/latest?cb=20180512121620"
+        },
+        "4": {
+          "file": "File:Clock Tower4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4f/Clock_Tower4.png/revision/latest?cb=20180512121635"
+        },
+        "5": {
+          "file": "File:Clock Tower5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1f/Clock_Tower5.png/revision/latest?cb=20180512121647"
+        },
+        "6": {
+          "file": "File:Clock Tower6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/37/Clock_Tower6.png/revision/latest?cb=20180512121704"
+        },
+        "7": {
+          "file": "File:Clock Tower7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/92/Clock_Tower7.png/revision/latest?cb=20170927114354"
+        },
+        "8": {
+          "file": "File:Clock Tower8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c9/Clock_Tower8.png/revision/latest?cb=20170927114413"
+        },
+        "9": {
+          "file": "File:Clock Tower9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Clock_Tower9.png/revision/latest?cb=20190617025510"
+        },
+        "10": {
+          "file": "File:Clock Tower10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fd/Clock_Tower10.png/revision/latest?cb=20230518073813"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Clock Tower",
+        "rawWikitextSha256": "72ed4cc5ae6e69a8d45e965da2b386e70881126a729b00b2c0c83b95bc97e888",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
       }
     },
     {
       "n": "Walls/Builder Base",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/f/fb/Wall1B.png/revision/latest?cb=20170927102315",
       "source": "https://clashofclans.fandom.com/wiki/Walls/Builder_Base",
       "revision": null,
       "tables": [
@@ -2841,11 +3385,50 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Wall1B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fb/Wall1B.png/revision/latest?cb=20170927102315"
+        },
+        {
+          "file": "File:Wall2B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/99/Wall2B.png/revision/latest?cb=20170927102333"
+        },
+        {
+          "file": "File:Wall3B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/91/Wall3B.png/revision/latest?cb=20170927102352"
+        },
+        {
+          "file": "File:Wall4B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b6/Wall4B.png/revision/latest?cb=20170927102413"
+        },
+        {
+          "file": "File:Wall5B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4f/Wall5B.png/revision/latest?cb=20170927102434"
+        },
+        {
+          "file": "File:Wall6B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f3/Wall6B.png/revision/latest?cb=20170927102501"
+        },
+        {
+          "file": "File:Wall7B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a2/Wall7B.png/revision/latest?cb=20170927102546"
+        },
+        {
+          "file": "File:Wall8B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b7/Wall8B.png/revision/latest?cb=20170927102606"
+        },
+        {
+          "file": "File:Wall9B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Wall9B.png/revision/latest?cb=20190616234919"
+        },
+        {
+          "file": "File:Wall10B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Wall10B.png/revision/latest?cb=20230517053328"
+        }
+      ],
       "unverified": [
         "No image passed the no-referrer HTTP 200 check.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "hallByLevel": {
@@ -2859,6 +3442,54 @@
         "8": 8,
         "9": 9,
         "10": 10
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Wall1B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fb/Wall1B.png/revision/latest?cb=20170927102315"
+        },
+        "2": {
+          "file": "File:Wall2B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/99/Wall2B.png/revision/latest?cb=20170927102333"
+        },
+        "3": {
+          "file": "File:Wall3B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/91/Wall3B.png/revision/latest?cb=20170927102352"
+        },
+        "4": {
+          "file": "File:Wall4B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b6/Wall4B.png/revision/latest?cb=20170927102413"
+        },
+        "5": {
+          "file": "File:Wall5B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4f/Wall5B.png/revision/latest?cb=20170927102434"
+        },
+        "6": {
+          "file": "File:Wall6B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f3/Wall6B.png/revision/latest?cb=20170927102501"
+        },
+        "7": {
+          "file": "File:Wall7B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a2/Wall7B.png/revision/latest?cb=20170927102546"
+        },
+        "8": {
+          "file": "File:Wall8B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b7/Wall8B.png/revision/latest?cb=20170927102606"
+        },
+        "9": {
+          "file": "File:Wall9B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Wall9B.png/revision/latest?cb=20190616234919"
+        },
+        "10": {
+          "file": "File:Wall10B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Wall10B.png/revision/latest?cb=20230517053328"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Wall/Builder Base",
+        "rawWikitextSha256": "ce4ffc161d8ea87b03214af3abfb50e0d1f1673e47587b76d41daaf9b141a9ba",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
       }
     }
   ],
