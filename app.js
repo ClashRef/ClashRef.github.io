@@ -5,8 +5,10 @@ const $ = (s, el = document) => el.querySelector(s);
 const app = $("#app"), titleEl = $("#title"), backBtn = $("#back"), tabsEl = $("#tabs");
 // Highest supported TH; update here when new Town Hall data is added.
 const MAX_TH = 18;
+const savedTH = Number(localStorage.getItem("cr.th"));
+const hasSavedTH = Number.isInteger(savedTH) && savedTH >= 1 && savedTH <= MAX_TH;
 const S = {
-  th: Number(localStorage.getItem("cr.th") || MAX_TH),
+  th: hasSavedTH ? savedTH : MAX_TH,
   only: localStorage.getItem("cr.only") !== "0",
   tab: localStorage.getItem("cr.tab") || "stats",
   lvl: {}, cur: {},
@@ -25,7 +27,22 @@ const short = (n) => n >= 1e6 ? (n / 1e6).toFixed(n % 1e6 ? 1 : 0).replace(/\.0$
 const thSel = $("#thSel");
 for (let i = 1; i <= MAX_TH; i++) thSel.insertAdjacentHTML("beforeend", `<option value="${i}">Town Hall ${i}</option>`);
 function syncSettings() { thSel.value = S.th; $("#onlyTH").checked = S.only; $("#thBadge").textContent = S.th; }
-thSel.onchange = () => { S.th = +thSel.value; localStorage.setItem("cr.th", S.th); syncSettings(); render(); };
+function selectTownHall(level) { S.th = level; localStorage.setItem("cr.th", S.th); syncSettings(); render(); }
+thSel.onchange = () => selectTownHall(+thSel.value);
+function welcomeTownHall() {
+  const dialog = $("#welcomeTH"), select = $("#welcomeTHSelect");
+  if (hasSavedTH || typeof dialog.showModal !== "function") return;
+  select.innerHTML = thSel.innerHTML;
+  select.value = S.th;
+  $("#welcomeTHForm").onsubmit = (event) => {
+    event.preventDefault();
+    selectTownHall(+select.value);
+    dialog.close();
+    $("#settingsBtn").focus();
+  };
+  dialog.addEventListener("cancel", (event) => event.preventDefault());
+  dialog.showModal();
+}
 $("#onlyTH").onchange = (e) => { S.only = e.target.checked; localStorage.setItem("cr.only", S.only ? "1" : "0"); render(); };
 $("#settingsBtn").onclick = () => { const p = $("#settings"); p.hidden = !p.hidden; $("#settingsBtn").setAttribute("aria-expanded", String(!p.hidden)); };
 backBtn.onclick = () => {
@@ -456,4 +473,5 @@ function installTableHeaders() {
   window.addEventListener("resize", schedule);
 }
 if (typeof MutationObserver !== "undefined") installTableHeaders();
+welcomeTownHall();
 render();

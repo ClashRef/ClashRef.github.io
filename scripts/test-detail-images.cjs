@@ -7,6 +7,7 @@ const delayed=hog.images.find(i=>i.file==='File:Hog Rider14.png').url;
  try {
   for(const width of [320,390,760]) {
    const page=await browser.newPage({viewport:{width,height:900}});
+   await page.addInitScript(()=>localStorage.setItem('cr.th','18'));
    let release;const gate=new Promise(resolve=>release=resolve);
    await page.route('**/*',async route=>{
     const url=new URL(route.request().url());

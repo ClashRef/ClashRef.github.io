@@ -6,6 +6,7 @@ const root=path.resolve(__dirname,'..');
  try {
   for(const width of [320,390,760]) {
    const page=await browser.newPage({viewport:{width,height:850}});let infoRequests=0;
+   await page.addInitScript(()=>localStorage.setItem('cr.th','18'));
    await page.route('**/*',async route=>{
     const url=new URL(route.request().url());
     if(url.hostname==='static.wikia.nocookie.net') {

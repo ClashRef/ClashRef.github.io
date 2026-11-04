@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Clash Ref">
 <title>Clash Reference</title>
-<link rel="stylesheet" href="style.css?v=20261103-image-recovery">
+<link rel="stylesheet" href="style.css?v=20261103-welcome-th">
 </head>
 <body>
 <div class="top">
@@ -33,6 +33,15 @@
   <button data-tab="images"><span class="ti">&#9635;</span>Images</button>
   <button data-tab="max"><span class="ti">&#8987;</span>To max</button>
 </nav>
-<script src="app.js?v=20261103-image-recovery"></script>
+<dialog id="welcomeTH" class="welcome-th" aria-labelledby="welcomeTHTitle" aria-describedby="welcomeTHHint">
+  <form id="welcomeTHForm">
+    <h2 id="welcomeTHTitle">What Town Hall level are you?</h2>
+    <p id="welcomeTHHint">You can change this any time in the menu in the top right.</p>
+    <label for="welcomeTHSelect">Your Town Hall level</label>
+    <select id="welcomeTHSelect" autofocus></select>
+    <button type="submit">Continue</button>
+  </form>
+</dialog>
+<script src="app.js?v=20261103-welcome-th"></script>
 </body>
 </html>
