@@ -6,7 +6,7 @@ def refine(args):
  id,u=args
  page=u['source'].split('/wiki/')[1].replace('_',' ')
  if id=='walls': page='Wall'
- if id=='bbbuildings' and page=='Walls/Builder Base': page='Wall/Builder Base'
+ if id in ['bbbuildings','bbwalls'] and page=='Walls/Builder Base': page='Wall/Builder Base'
  p=w.source(page); soup=BeautifulSoup(p['text']['*'],'html.parser'); tables=[]
  for t in soup.select('table.wikitable'):
   village=[]

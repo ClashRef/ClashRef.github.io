@@ -3,7 +3,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const assert = require('node:assert/strict');
 const root = path.resolve(__dirname, '..');
-const ids = ['defenses', 'traps', 'army', 'resource', 'walls', 'townhall', 'crafted', 'supercharge', 'bbdefenses', 'bbtraps', 'bbbuildings'];
+const ids = ['defenses', 'traps', 'army', 'resource', 'walls', 'townhall', 'crafted', 'supercharge', 'bbdefenses', 'bbtraps', 'bbbuildings', 'bbwalls'];
 const cats = Object.fromEntries(ids.map(id => [id, JSON.parse(fs.readFileSync(path.join(root, `data/${id}.json`)))]));
 function expectedImage(u, level, hall) {
   return (level === 1 && u.townHallImages?.[hall]?.url) || u.levelImages?.[level * (u.imageLevelMultiplier || 1)]?.url || u.staticImage?.url || u.av;
@@ -76,7 +76,7 @@ function expectedImage(u, level, hall) {
         assert.deepEqual(errors, []);
         await page.close();
       }
-      console.log(`${engine.name()}: all 11 building sections at 320/390/760px, low/max halls, single detail images, captions, and gold max badges passed`);
+      console.log(`${engine.name()}: all 12 building sections at 320/390/760px, low/max halls, single detail images, captions, and gold max badges passed`);
     } finally {await browser.close();}
   }
 })().catch(error => {console.error(error); process.exitCode = 1;});

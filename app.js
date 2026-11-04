@@ -187,7 +187,7 @@ function troopLink(cat, u) {
   const link = troopConnection(cat, u);
   return link ? `<div class="troop-connection"><a class="related-link" href="#/c/${link.cat}/${encodeURIComponent(link.name)}">See ${esc(link.name)} &rarr;</a><p>Boost requires ${esc(link.base)} level ${link.level} \u00b7 TH${link.th}</p></div>` : "";
 }
-const isBuildingCategory = (cat) => ["defenses", "traps", "army", "resource", "walls", "townhall", "crafted", "supercharge", "bbdefenses", "bbtraps", "bbbuildings"].includes(cat.id);
+const isBuildingCategory = (cat) => ["defenses", "traps", "army", "resource", "walls", "townhall", "crafted", "supercharge", "bbdefenses", "bbtraps", "bbbuildings", "bbwalls"].includes(cat.id);
 const buildingLabel = (name) => name.replace(/\/Builder Base$/, "").replace(/^Town Hall\//, "");
 function levelUnlockNotice(required, current, kind = "TH") {
   return required > current ? `<p class="level-unlock" role="status">Unlocks at ${kind} ${required}</p>` : "";
@@ -422,6 +422,11 @@ async function render() {
     if (searchScope !== lastSearchScope) { q = ""; lastSearchScope = searchScope; }
     if (location.hash !== lastRoute) { if (r.unit) delete S.lvl[`${r.cat}|${r.unit}`]; window.scrollTo(0, 0); lastRoute = location.hash; }
     if (!r.cat) return home();
+    // Preserve older links after giving Builder Walls its own home tile.
+    if (r.cat === "bbbuildings" && r.unit === "Walls/Builder Base") {
+      const walls = CATS.groups.flatMap((g) => g.cats).find((c) => c.id === "bbwalls");
+      if (walls && categoryPath(walls)) { location.hash = "#/c/bbwalls/" + encodeURIComponent(r.unit); return; }
+    }
     const cat = await loadCat(r.cat);
     if (!cat) { location.hash = "#/"; return; }
     if (!r.unit) return catView(cat);

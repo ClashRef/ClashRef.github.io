@@ -144,6 +144,12 @@
      "label": "Builder Buildings",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/8/87/Builder_Hall10.png/revision/latest?cb=20230516070454",
      "data": null
+    },
+    {
+     "id": "bbwalls",
+     "label": "Builder Walls",
+     "img": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Wall10B.png/revision/latest?cb=20230517053328",
+     "data": null
     }
    ]
   }

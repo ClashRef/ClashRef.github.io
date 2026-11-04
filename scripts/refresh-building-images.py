@@ -17,7 +17,7 @@ spec = importlib.util.spec_from_file_location('wiki', ROOT / 'scripts/import-cla
 w = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(w)
 IDS = ['traps', 'army', 'resource', 'walls', 'townhall', 'crafted',
-       'bbdefenses', 'bbtraps', 'bbbuildings']
+       'bbdefenses', 'bbtraps', 'bbbuildings', 'bbwalls']
 data = {id: json.loads((ROOT / 'data' / (id + '.json')).read_text(encoding='utf-8')) for id in IDS}
 
 

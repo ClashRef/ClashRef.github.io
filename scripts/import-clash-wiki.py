@@ -61,7 +61,7 @@ PAGES.update({
  'bbheroes':['Battle Machine','Battle Copter'],
  'bbdefenses':['Cannon/Builder Base','Double Cannon','Archer Tower/Builder Base','Hidden Tesla/Builder Base','Firecrackers','Crusher','Guard Post','Air Bombs','Multi Mortar',"O.T.T.O's Outpost",'Roaster','Giant Cannon','Mega Tesla','Lava Launcher','X-Bow/Builder Base'],
  'bbtraps':['Push Trap','Spring Trap/Builder Base','Mine','Mega Mine'],
- 'bbbuildings':['Builder Hall','Gold Mine/Builder Base','Elixir Collector/Builder Base','Gold Storage/Builder Base','Elixir Storage/Builder Base','Gem Mine','B.O.B Control','Builder Barracks','Army Camp/Builder Base','Star Laboratory','Battle Machine Altar','Reinforcement Camp','Healing Hut','Battle Copter Altar','Clock Tower','Walls/Builder Base']})
+ 'bbbuildings':['Builder Hall','Gold Mine/Builder Base','Elixir Collector/Builder Base','Gold Storage/Builder Base','Elixir Storage/Builder Base','Gem Mine','B.O.B Control','Builder Barracks','Army Camp/Builder Base','Star Laboratory','Battle Machine Altar','Reinforcement Camp','Healing Hut','Battle Copter Altar','Clock Tower'], 'bbwalls':['Walls/Builder Base']})
 
 def table_data(table):
     grid=[]; spans={}
@@ -124,7 +124,7 @@ def unit(page):
 def main():
     manifest=json.loads((ROOT/'data/categories.json').read_text())
     metas={c['id']:c for g in manifest['groups'] for c in g['cats']}
-    for id in ['dark','super','espells','dspells','siege','equip','pets','defenses','traps','army','resource','walls','townhall','crafted','supercharge','bbtroops','bbheroes','bbdefenses','bbtraps','bbbuildings']:
+    for id in ['dark','super','espells','dspells','siege','equip','pets','defenses','traps','army','resource','walls','townhall','crafted','supercharge','bbtroops','bbheroes','bbdefenses','bbtraps','bbbuildings','bbwalls']:
         output=ROOT/'data'/f'{id}.json'
         if output.exists(): continue
         units=[]; gaps=[]

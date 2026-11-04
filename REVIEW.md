@@ -2,7 +2,7 @@
 
 Elixir Troops, Dark Troops, Super Troops, Elixir Spells, Dark Spells, Siege Machines, Heroes, Hero Equipment, and Pets are live. The remaining categories are hidden source-table drafts.
 
-The query-only preview enables a category for the current URL. No preview state is persisted. `?preview=all` enables all drafts.
+The query-only preview enables a category for the current URL. No preview state is persisted. `?preview=true` enables all drafts (`?preview=all` also works).
 
 Raw wikitext and expanded tables were fetched from the Fandom API on 2026-11-03. Image URLs were resolved through imageinfo and checked with curl without a Referer header. The importer caches responses in the system temporary directory.
 
@@ -31,7 +31,8 @@ Known limitations: hall mappings are only used where the required building progr
 | Builder Heroes | [?preview=bbheroes](https://clashref.github.io/?preview=bbheroes) | 2 | 2 |
 | Builder Defenses | [?preview=bbdefenses](https://clashref.github.io/?preview=bbdefenses) | 15 | 15 |
 | Builder Traps | [?preview=bbtraps](https://clashref.github.io/?preview=bbtraps) | 4 | 4 |
-| Builder Buildings | [?preview=bbbuildings](https://clashref.github.io/?preview=bbbuildings) | 16 | 10 |
+| Builder Buildings | [?preview=bbbuildings](https://clashref.github.io/?preview=bbbuildings) | 15 | 10 |
+| Builder Walls | [?preview=bbwalls](https://clashref.github.io/?preview=bbwalls) | 1 | 1 |
 
 ## Dark Troops
 
@@ -308,4 +309,4 @@ Defense cards now use the exact normal appearance for the maximum level at the s
 
 ## Info-tab content
 
-All 266 items across the 22 categories now have original plain-language overviews and practical role-based tips in data/info.json. Copy is maintained separately in scripts/info-copy.txt so refreshing numeric datasets does not erase it. Technical tables remain available behind a disclosure. Ricochet Cannon, Multi-Archer Tower, Multi-Gear Tower, and Super Wizard Tower include inline merge diagrams assembled from the verified building images. Source revisions and raw-wikitext hashes accompany the mechanics references. Strategy blurbs are editorial guidance rather than claims about the strongest current meta.
+All 266 items across the 23 categories now have original plain-language overviews and practical role-based tips in data/info.json. Copy is maintained separately in scripts/info-copy.txt so refreshing numeric datasets does not erase it. Technical tables remain available behind a disclosure. Ricochet Cannon, Multi-Archer Tower, Multi-Gear Tower, and Super Wizard Tower include inline merge diagrams assembled from the verified building images. Source revisions and raw-wikitext hashes accompany the mechanics references. Strategy blurbs are editorial guidance rather than claims about the strongest current meta.

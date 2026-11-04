@@ -1,7 +1,7 @@
 const {chromium, webkit} = require('playwright');
 const fs = require('node:fs'), path = require('node:path'), assert = require('node:assert/strict');
 const root = path.resolve(__dirname, '..');
-const cases = [['elixir','Barbarian',10], ['heroes','Archer Queen',10], ['dark','Hog Rider',10], ['super','Inferno Dragon',12], ['equip','Giant Gauntlet',10], ['pets','L.A.S.S.I',14], ['defenses','Cannon',10], ['traps','Bomb',10], ['army','Laboratory',10], ['crafted','Hot Candle',11], ['bbtroops','Raged Barbarian',5], ['bbdefenses','Double Cannon',5]];
+const cases = [['elixir','Barbarian',10], ['heroes','Archer Queen',10], ['dark','Hog Rider',10], ['super','Inferno Dragon',12], ['equip','Giant Gauntlet',10], ['pets','L.A.S.S.I',14], ['defenses','Cannon',10], ['traps','Bomb',10], ['army','Laboratory',10], ['crafted','Hot Candle',11], ['bbtroops','Raged Barbarian',5], ['bbdefenses','Double Cannon',5], ['bbwalls','Walls/Builder Base',5]];
 const upgradeTable = t => /^(?:(?:TH|BH) level|level|charge(?: level)?)$/i.test(t.columns[0]);
 (async () => {
   for (const engine of [chromium, webkit]) {
@@ -66,7 +66,7 @@ const upgradeTable = t => /^(?:(?:TH|BH) level|level|charge(?: level)?)$/i.test(
         }
       }
       await page.close();
-      console.log(`${engine.name()}: all levels, dimmed future rows, plus/row navigation, unlock warnings, tab continuity and entry/reload defaults passed across 12 categories`);
+      console.log(`${engine.name()}: all levels, dimmed future rows, plus/row navigation, unlock warnings, tab continuity and entry/reload defaults passed across 13 categories`);
     } finally {await browser.close();}
   }
 })().catch(error=>{console.error(error);process.exitCode=1;});

@@ -2430,15 +2430,6 @@
           "revision": 622494,
           "rawWikitextSHA256": "72ed4cc5ae6e69a8d45e965da2b386e70881126a729b00b2c0c83b95bc97e888"
         }
-      },
-      "Walls/Builder Base": {
-        "overview": "Creates compartments that redirect ordinary ground troops in the Builder Base.",
-        "strategy": "Use wall routes to support Crushers, traps, and ranged defenses. Flying units and troops with wall-bypassing abilities need separate coverage.",
-        "source": {
-          "url": "https://clashofclans.fandom.com/wiki/Walls/Builder_Base",
-          "revision": 589052,
-          "rawWikitextSHA256": "33c87d2603839930ed8e7ed68975c489adaab5b0e84f06650792b1f0cdcc90c7"
-        }
       }
     },
     "supercharge": {
@@ -2593,6 +2584,17 @@
           "url": "https://clashofclans.fandom.com/wiki/Supercharge",
           "revision": 625754,
           "rawWikitextSHA256": "0b749e61b6d0a8e42057f963821d890d15ce60c6fffcc130ba303165badedfb4"
+        }
+      }
+    },
+    "bbwalls": {
+      "Walls/Builder Base": {
+        "overview": "Creates compartments that redirect ordinary ground troops in the Builder Base.",
+        "strategy": "Use wall routes to support Crushers, traps, and ranged defenses. Flying units and troops with wall-bypassing abilities need separate coverage.",
+        "source": {
+          "url": "https://clashofclans.fandom.com/wiki/Wall/Builder_Base",
+          "revision": 589052,
+          "rawWikitextSHA256": "33c87d2603839930ed8e7ed68975c489adaab5b0e84f06650792b1f0cdcc90c7"
         }
       }
     }

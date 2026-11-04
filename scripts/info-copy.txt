@@ -267,4 +267,5 @@ Reinforcement Camp|Adds reinforcement options for the second stage of Builder Ba
 Healing Hut|Restores some surviving army health between the first and second Builder Base stages.|Protect valuable troops through the end of the first stage so they can benefit. It cannot bring back units already defeated.
 Battle Copter Altar|The home of the Battle Copter and the building associated with unlocking the flying Builder Base hero.|Choose the hero around the attack's route and defensive threats. A flying hero and ground hero solve different entry problems.
 Clock Tower|Provides a timed boost to Builder Base work such as construction, research, and resource production.|Activate it while useful tasks are running. A boost spent with idle builders or no research in progress loses part of its value.
+[bbwalls]
 Walls/Builder Base|Creates compartments that redirect ordinary ground troops in the Builder Base.|Use wall routes to support Crushers, traps, and ranged defenses. Flying units and troops with wall-bypassing abilities need separate coverage.
