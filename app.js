@@ -412,15 +412,50 @@ function reviewUnit(cat, u) {
   tabsEl.querySelectorAll("button").forEach((b) => b.classList.toggle("on", S.tab === b.dataset.tab));
 }
 
+const scrollPositions = (() => {
+  try {
+    const saved = JSON.parse(sessionStorage.getItem("cr.scroll") || "{}");
+    return saved && typeof saved === "object" && !Array.isArray(saved) ? saved : {};
+  } catch { return {}; }
+})();
+let activeScrollKey = "", scrollRestoring = false, scrollVersion = 0;
+const pageScrollKey = (r) => (location.hash || "#/") + (r.unit ? "|" + S.tab : "");
+function savePageScroll(persist = false) {
+  if (activeScrollKey && !scrollRestoring) scrollPositions[activeScrollKey] = window.scrollY || 0;
+  if (persist) { try { sessionStorage.setItem("cr.scroll", JSON.stringify(scrollPositions)); } catch {} }
+}
+function restorePageScroll(key, version) {
+  const saved = scrollPositions[key];
+  const top = Number.isFinite(saved) && saved >= 0 ? saved : 0;
+  requestAnimationFrame(() => {
+    if (version !== scrollVersion) return;
+    window.scrollTo(0, top);
+    requestAnimationFrame(() => {
+      if (version !== scrollVersion) return;
+      scrollRestoring = false;
+      savePageScroll();
+    });
+  });
+}
+if (typeof history !== "undefined") history.scrollRestoration = "manual";
+window.addEventListener("scroll", () => savePageScroll(), {passive: true});
+window.addEventListener("pagehide", () => savePageScroll(true));
+if (typeof document.addEventListener === "function") document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "hidden") savePageScroll(true);
+});
 let lastRoute = "", lastSearchScope = "";
 async function render() {
   syncSettings();
+  const r = route(), scrollKey = pageScrollKey(r);
+  const changedPage = scrollKey !== activeScrollKey;
+  if (changedPage) { savePageScroll(); activeScrollKey = scrollKey; scrollRestoring = true; scrollVersion++; }
+  const version = scrollVersion;
   try {
     if (!CATS) CATS = await fetch("data/categories.json", { cache: "no-cache" }).then((r) => r.json());
-    const r = route();
+    if (version !== scrollVersion) return;
     const searchScope = `${r.cat || ""}|${r.hero || ""}`;
     if (searchScope !== lastSearchScope) { q = ""; lastSearchScope = searchScope; }
-    if (location.hash !== lastRoute) { if (r.unit) delete S.lvl[`${r.cat}|${r.unit}`]; window.scrollTo(0, 0); lastRoute = location.hash; }
+    if (location.hash !== lastRoute) { if (r.unit) delete S.lvl[`${r.cat}|${r.unit}`]; lastRoute = location.hash; }
     if (!r.cat) return home();
     // Preserve older links after giving Builder Walls its own home tile.
     if (r.cat === "bbbuildings" && r.unit === "Walls/Builder Base") {
@@ -428,6 +463,7 @@ async function render() {
       if (walls && categoryPath(walls)) { location.hash = "#/c/bbwalls/" + encodeURIComponent(r.unit); return; }
     }
     const cat = await loadCat(r.cat);
+    if (version !== scrollVersion) return;
     if (!cat) { location.hash = "#/"; return; }
     if (!r.unit) return catView(cat);
     const u = cat.units.find((x) => x.n === r.unit);
@@ -438,8 +474,10 @@ async function render() {
       if (!response.ok) throw new Error("Info descriptions unavailable");
       INFO = await response.json();
     }
+    if (version !== scrollVersion) return;
     unitView(cat, u);
   } catch (e) { app.innerHTML = `<p class="loading">Couldn't load data (${esc(e.message)}). Pull to refresh.</p>`; }
+  finally { if (changedPage) restorePageScroll(scrollKey, version); }
 }
 // Hammer Jam banner: clamp to 2 lines; chevron only when the text overflows.
 const hj = $("#hj"), hjt = $("#hjt"), hjc = $("#hjc");

@@ -8,4 +8,6 @@ Review all hidden sections at https://clashref.github.io/?preview=true. Their ho
 
 Upgrade tables and level pickers always include all normal game levels. Rows above the selected TH/BH are muted, and selecting those levels shows an unlock notice. Opening an item or changing hall starts the picker at that hall's max; browsing levels is never persisted. The hall-limit checkbox affects only **To max** totals.
 
+Scroll positions are remembered per page and detail tab for the current browser tab, including across refreshes. Returning to a category restores its previous position; this is independent of the level picker default.
+
 Site data lives in `data/`; maintenance and verification scripts live in `scripts/`. Run `node scripts/test-clash.cjs` and `node scripts/test-tile-layout.cjs` for core checks. Browser checks require Playwright.
