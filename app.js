@@ -27,7 +27,7 @@ const short = (n) => n >= 1e6 ? (n / 1e6).toFixed(n % 1e6 ? 1 : 0).replace(/\.0$
 const thSel = $("#thSel");
 for (let i = 1; i <= MAX_TH; i++) thSel.insertAdjacentHTML("beforeend", `<option value="${i}">Town Hall ${i}</option>`);
 function syncSettings() { thSel.value = S.th; $("#onlyTH").checked = S.only; $("#thBadge").textContent = S.th; }
-function selectTownHall(level) { S.th = level; localStorage.setItem("cr.th", S.th); syncSettings(); render(); }
+function selectTownHall(level) { S.th = level; S.lvl = {}; localStorage.setItem("cr.th", S.th); syncSettings(); render(); }
 thSel.onchange = () => selectTownHall(+thSel.value);
 function welcomeTownHall() {
   const dialog = $("#welcomeTH"), select = $("#welcomeTHSelect");
@@ -189,6 +189,9 @@ function troopLink(cat, u) {
 }
 const isBuildingCategory = (cat) => ["defenses", "traps", "army", "resource", "walls", "townhall", "crafted", "supercharge", "bbdefenses", "bbtraps", "bbbuildings"].includes(cat.id);
 const buildingLabel = (name) => name.replace(/\/Builder Base$/, "").replace(/^Town Hall\//, "");
+function levelUnlockNotice(required, current, kind = "TH") {
+  return required > current ? `<p class="level-unlock" role="status">Unlocks at ${kind} ${required}</p>` : "";
+}
 function detailArtwork(cat, u, level) {
   const single = isBuildingCategory(cat) || ["heroes", "bbheroes"].includes(cat.id);
   const levelImage = cat.format === "wiki-review-v1" ? reviewLevelImage(u, level) : img(imgFor(u, level), `${u.n} level ${level}`, "lv");
@@ -199,25 +202,25 @@ function unitView(cat, u) {
   if (cat.format === "wiki-review-v1") return reviewUnit(cat, u);
   setChrome(u.n, true, true);
   const k = u.c.length, maxAll = +u.l[u.l.length - 1][0], mTH = maxAt(cat, u);
-  const levels = u.l.filter((r) => !S.only || reqTH(cat, u, r) <= S.th).map((r) => +r[0]);
+  const levels = u.l.map((r) => +r[0]);
   const key = cat.id + "|" + u.n;
-  let lvl = S.lvl[key] || mTH || 1; if (S.only && levels.length && !levels.includes(lvl)) lvl = levels[levels.length - 1];
+  let lvl = S.lvl[key] || mTH || levels[0]; if (!levels.includes(lvl)) lvl = mTH || levels[0];
   const row = u.l.find((r) => +r[0] === lvl) || u.l[0];
   const idx = levels.indexOf(lvl);
   const R = resOf(cat, u);
   const needs = +row[3 + k] ? `${cat.reqName} ${row[3 + k]} (TH${reqTH(cat, u, row)})` : unlockText(cat, u);
   let html = `<div class="hero">${detailArtwork(cat, u, lvl)}
     <div class="lvpick"><button id="lvDown" ${idx <= 0 ? "disabled" : ""} aria-label="Lower level">&minus;</button><div class="lvnum">Level ${lvl}<small>${mTH ? "max " + mTH + " at TH" + S.th : "Unlock at TH " + u.u} \u00b7 ${maxAll} in game</small></div><button id="lvUp" ${idx < 0 || idx >= levels.length - 1 ? "disabled" : ""} aria-label="Higher level">+</button></div>
-    <div class="cap">${u.hs ? "Housing " + u.hs + " \u00b7 " : ""}Unlocks: ${esc(unlockText(cat, u))} \u00b7 Upgrades with ${R}</div>${cat.id === "heroes" ? `<a class="related-link" href="#/c/equip?hero=${encodeURIComponent(u.n)}" aria-label="See ${esc(u.n)} equipment">See equipment &rarr;</a>` : ""}${troopLink(cat, u)}</div>
+    ${levelUnlockNotice(reqTH(cat, u, row), S.th)}<div class="cap">${u.hs ? "Housing " + u.hs + " \u00b7 " : ""}Unlocks: ${esc(unlockText(cat, u))} \u00b7 Upgrades with ${R}</div>${cat.id === "heroes" ? `<a class="related-link" href="#/c/equip?hero=${encodeURIComponent(u.n)}" aria-label="See ${esc(u.n)} equipment">See equipment &rarr;</a>` : ""}${troopLink(cat, u)}</div>
     `;
   if (S.tab !== "info") html += `<div class="props">${u.c.map((c, i) => `<div><span>${esc(c)}</span><span>${fmt(row[1 + i])}</span></div>`).join("")}
     <div><span>Upgrade cost</span><span>${+row[1 + k] ? fmt(+row[1 + k]) + " " + R : "Unlocked with the " + cat.noun}</span></div>
     <div><span>Upgrade time</span><span>${row[2 + k] || "\u2013"}</span></div><div><span>Needs</span><span>${needs}</span></div></div>`;
   const tab = S.tab;
   if (tab === "stats") {
-    const rows = u.l.filter((r) => !S.only || reqTH(cat, u, r) <= S.th);
+    const rows = u.l;
     html += `<h3 class="sec">Upgrade stats</h3><div class="tblwrap"><table><thead><tr>${columnHeader("Level")}${columnHeader("Upgrade cost", R)}${columnHeader("Time")}${u.c.map((c) => columnHeader(c)).join("")}${columnHeader(cat.req)}${columnHeader("TH")}</tr></thead><tbody>
-    ${rows.map((r) => `<tr class="${+r[0] === lvl ? "sel" : ""}" data-l="${r[0]}"><td><b>${r[0]}</b></td><td class="cost">${+r[1 + k] ? fmt(+r[1 + k]) : "\u2013"}</td><td>${r[2 + k] || "\u2013"}</td>${u.c.map((c, i) => `<td>${fmt(r[1 + i])}</td>`).join("")}<td>${+r[3 + k] || "\u2013"}</td><td>${reqTH(cat, u, r)}</td></tr>`).join("")}</tbody></table></div>
+    ${rows.map((r) => `<tr class="${+r[0] === lvl ? "sel " : ""}${reqTH(cat, u, r) > S.th ? "over" : ""}" data-l="${r[0]}"><td><b>${r[0]}</b></td><td class="cost">${+r[1 + k] ? fmt(+r[1 + k]) : "\u2013"}</td><td>${r[2 + k] || "\u2013"}</td>${u.c.map((c, i) => `<td>${fmt(r[1 + i])}</td>`).join("")}<td>${+r[3 + k] || "\u2013"}</td><td>${reqTH(cat, u, r)}</td></tr>`).join("")}</tbody></table></div>
     <p class="note">Cost (${R}) and time are to reach that level. ${cat.req} = ${cat.reqName} level required. Tap a row to select it. Swipe the table sideways for more columns.</p>`;
   } else if (tab === "info") {
     const P = [...(u.hs ? [["Housing space", u.hs]] : []), ["Preferred target", u.tg], ["Attack type", u.at], ["Movement speed", u.ms], ["Attack speed", u.sp], ["Range", u.rg], ...u.ex,
@@ -256,7 +259,7 @@ function reviewHallControl(cat) {
   return cat.id.startsWith("bb") ? `<p class="note"><label>Builder Hall <select id="reviewHall">${Array.from({length: 10}, (_, i) => `<option value="${i + 1}" ${reviewHall(cat) === i + 1 ? "selected" : ""}>${i + 1}</option>`).join("")}</select></label></p>` : "";
 }
 function bindReviewHall(cat, rerender) {
-  if ($("#reviewHall")) $("#reviewHall").onchange = (e) => { localStorage.setItem("cr.bh", e.target.value); rerender(); };
+  if ($("#reviewHall")) $("#reviewHall").onchange = (e) => { localStorage.setItem("cr.bh", e.target.value); S.lvl = {}; rerender(); };
 }
 function reviewTotals(cat, u, table, levels, key) {
   if (u.removedAtTH && reviewHall(cat) >= u.removedAtTH) return `<p class="note">Removed at TH ${u.removedAtTH}. Historical upgrade stats remain available in Stats.</p>`;
@@ -358,23 +361,31 @@ function reviewLevelCaption(cat, u) {
   const max = Math.max(0, ...Object.entries(u.hallByLevel).filter(([, h]) => h <= hall).map(([l]) => +l));
   return `max ${max} at ${kind}${hall} \u00b7 ${Math.max(...Object.keys(u.hallByLevel).map(Number))} in game`;
 }
+const isUpgradeTable = (table) => /^(?:(?:TH|BH) level|level|charge(?: level)?)$/i.test(table.columns[0]);
+function reviewRowHall(u, table, row) {
+  if (!isUpgradeTable(table) || !/^\d+$/.test(row[0])) return null;
+  const index = table.columns.findIndex((c) => /^(?:Town|Builder) Hall Level Required$/i.test(c));
+  return index >= 0 ? parseInt(row[index], 10) || u.hallByLevel?.[row[0]] : u.hallByLevel?.[row[0]];
+}
 function reviewUnit(cat, u) {
   setChrome(u.n, true, true);
   const key = `${cat.id}|${u.n}`;
-  const table = u.tables.find((t) => /^(?:(?:TH|BH) level|level|charge(?: level)?)\b/i.test(t.columns[0]) && t.rows.some((r) => /^\d+$/.test(r[0])));
-  const levels = table ? table.rows.map((r) => r[0]).filter((v) => /^\d+$/.test(v) && (!S.only || !u.hallByLevel || u.hallByLevel[v] <= reviewHall(cat))) : [];
+  const table = u.tables.find((t) => isUpgradeTable(t) && t.rows.some((r) => /^\d+$/.test(r[0])));
+  const levels = table ? table.rows.map((r) => r[0]).filter((v) => /^\d+$/.test(v)) : [];
+  const hallLevels = levels.filter((v) => !u.hallByLevel || u.hallByLevel[v] <= reviewHall(cat));
   const stored = String(S.lvl[key] || "");
-  const selected = levels.includes(stored) ? stored : levels[levels.length - 1] || "1";
+  const selected = levels.includes(stored) ? stored : hallLevels[hallLevels.length - 1] || levels[0] || "1";
   const index = levels.indexOf(selected);
-  let html = reviewHallControl(cat) + (S.tab === "info" ? "" : reviewNotice(cat, u)) + `<div class="hero">${detailArtwork(cat, u, selected)}${levels.length ? `<div class="lvpick"><button id="lvDown" ${index <= 0 ? "disabled" : ""} aria-label="Lower level">&minus;</button><div class="lvnum">${cat.id === "supercharge" ? "Charge" : cat.id === "crafted" ? "Module level" : "Level"} ${esc(selected)}<small>${esc(reviewLevelCaption(cat, u))}</small></div><button id="lvUp" ${index >= levels.length - 1 ? "disabled" : ""} aria-label="Higher level">+</button></div>` : ""}${troopLink(cat, u)}</div>${u.imageNote ? `<p class="note">${esc(u.imageNote)}</p>` : ""}`;
+  let html = reviewHallControl(cat) + (S.tab === "info" ? "" : reviewNotice(cat, u)) + `<div class="hero">${detailArtwork(cat, u, selected)}${levels.length ? `<div class="lvpick"><button id="lvDown" ${index <= 0 ? "disabled" : ""} aria-label="Lower level">&minus;</button><div class="lvnum">${cat.id === "supercharge" ? "Charge" : cat.id === "crafted" ? "Module level" : "Level"} ${esc(selected)}<small>${esc(reviewLevelCaption(cat, u))}</small></div><button id="lvUp" ${index >= levels.length - 1 ? "disabled" : ""} aria-label="Higher level">+</button></div>` : ""}${levelUnlockNotice(u.hallByLevel?.[selected], reviewHall(cat), cat.id.startsWith("bb") ? "BH" : "TH")}${troopLink(cat, u)}</div>${u.imageNote ? `<p class="note">${esc(u.imageNote)}</p>` : ""}`;
+  const selectableRow = (t, r) => isUpgradeTable(t) && /^charge/i.test(t.columns[0]) === /^charge/i.test(table?.columns[0] || "") && levels.includes(r[0]);
   const renderTable = (t) => {
     const order = tableColumnOrder(t.columns);
-    return `<h3 class="sec">${esc(tableTitle(t, cat))}</h3><div class="tblwrap"><table><thead><tr>${order.map((i) => columnHeader(t.columns[i])).join("")}</tr></thead><tbody>${t.rows.map((r) => `<tr ${levels.includes(r[0]) ? `data-review-level="${esc(r[0])}"` : ""} class="${r[0] === selected ? "sel" : ""}">${order.map((i) => `<td${/cost/i.test(t.columns[i]) ? ' class="cost"' : ''}>${esc(r[i] ?? "")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+    return `<h3 class="sec">${esc(tableTitle(t, cat))}</h3><div class="tblwrap"><table><thead><tr>${order.map((i) => columnHeader(t.columns[i])).join("")}</tr></thead><tbody>${t.rows.map((r) => `<tr ${selectableRow(t, r) ? `data-review-level="${esc(r[0])}"` : ""} class="${selectableRow(t, r) && r[0] === selected ? "sel " : ""}${reviewRowHall(u, t, r) > reviewHall(cat) ? "over" : ""}">${order.map((i) => `<td${/cost/i.test(t.columns[i]) ? ' class="cost"' : ''}>${esc(r[i] ?? "")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
   };
   if (S.tab === "images") {
     html += `<div class="imgs-list">${galleryEntries(u).map((i) => `<figure class="${i.level === +selected ? "sel" : ""}">${img(i.url, `${u.n}: ${i.label}`)}<figcaption>${esc(i.label)}</figcaption></figure>`).join("")}</div>`;
   } else if (S.tab === "max") {
-    html += reviewTotals(cat, u, table, levels, key);
+    html += reviewTotals(cat, u, table, S.only ? hallLevels : levels, key);
   } else if (S.tab === "info") {
     html += infoCopy(cat, u) + `<details class="info-details"><summary>Technical details &amp; hall caps</summary>${reviewNotice(cat, u)}`;
     html += [...u.tables, ...(u.lowerTownHallStats || [])].filter((t) => !/^(?:level|charge(?: level)?)\b/i.test(t.columns[0])).map(renderTable).join("");
@@ -387,7 +398,7 @@ function reviewUnit(cat, u) {
       const row = rawRow && equipmentRowAtHall(u, table, rawRow);
       if (row) html += `<div class="props">${table.columns.map((c, i) => `<div><span>${esc(c)}</span><span>${esc(row[i] || "\u2013")}</span></div>`).join("")}</div>`;
     }
-    html += u.tables.map((t) => renderTable(t === table && S.only && u.hallByLevel ? {...t, rows: t.rows.filter((r) => u.hallByLevel[r[0]] <= reviewHall(cat))} : t)).join("");
+    html += u.tables.map(renderTable).join("");
   }
   html += `<p class="note">Source: <a href="${esc(u.source)}" target="_blank" rel="noopener">${esc(u.n)} on Fandom</a> \u00b7 fetched ${esc(cat.updated)}. Normal values; no Hammer Jam discount applied.</p>`;
   app.innerHTML = html;
@@ -407,7 +418,7 @@ async function render() {
     const r = route();
     const searchScope = `${r.cat || ""}|${r.hero || ""}`;
     if (searchScope !== lastSearchScope) { q = ""; lastSearchScope = searchScope; }
-    if (location.hash !== lastRoute) { window.scrollTo(0, 0); lastRoute = location.hash; }
+    if (location.hash !== lastRoute) { if (r.unit) delete S.lvl[`${r.cat}|${r.unit}`]; window.scrollTo(0, 0); lastRoute = location.hash; }
     if (!r.cat) return home();
     const cat = await loadCat(r.cat);
     if (!cat) { location.hash = "#/"; return; }

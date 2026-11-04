@@ -85,7 +85,8 @@ thead th:first-child{background:var(--panel2);z-index:2}
 .floating-table-header table{table-layout:fixed}
 tbody tr{background:var(--panel)}
 tbody tr.sel{background:#4a2a1c}
-tbody tr.over td{color:#777}
+tbody tr.over td{color:#89909d}
+.level-unlock{margin:8px 0 0;padding:8px 12px;border:1px solid var(--acc2);border-radius:8px;background:#ffb02015;color:var(--acc2);font-size:14px;font-weight:700;text-align:center}
 td.cost{color:var(--elix)}
 .note{color:var(--mut);font-size:12px;margin:10px 4px}
 .info-copy{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;line-height:1.6;margin:12px 0}
