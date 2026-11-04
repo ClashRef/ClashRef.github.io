@@ -280,5 +280,15 @@ function context(search, savedTH = null) {
  assert(html().includes('340,000'), 'Hog Rider level 15 normal cost');
  assert(html().includes('14d 12h'), 'Hog Rider level 15 normal time');
  assert.deepEqual(manifest.groups.flatMap(g=>g.cats).filter(c=>c.data).map(c=>c.id).sort(),['dark','dspells','elixir','equip','espells','heroes','pets','siege','super']);
+ ctx.testCat=JSON.parse(fs.readFileSync(path.join(root,'data/traps.json')));
+ ctx.testUnit=ctx.testCat.units.find(u=>u.n==='Skeleton Trap');
+ vm.runInContext("S.th=15; S.tab='stats'; S.lvl['traps|Skeleton Trap']='4'; unitView(testCat,testUnit)",ctx);
+ assert.equal(ctx.testUnit.tables.length,3,'Skeleton Trap has upgrades, mode differences, and one shared skeleton stats table');
+ assert(html().includes('Summoned skeleton attack modes')&&html().includes('Summoned skeleton stats (both modes)'));
+ assert(html().includes('Ground')&&html().includes('Air')&&html().includes('17.6')&&html().includes('24'),'Mode differences preserved');
+ assert.equal((html().match(/data-review-level="2"/g)||[]).length,1,'Skeleton level 2 must not select trap level 2');
+ const skeletonSection=html().split('Summoned skeleton stats (both modes)')[1];
+ assert(skeletonSection.includes('class="over"'),'Future summoned skeleton level is dimmed by its own unlock hall');
+ assert(!skeletonSection.includes('data-review-level')&&!skeletonSection.includes('class="sel '),'Skeleton stats do not reuse trap picker selection');
  console.log(`Preview access controls and all four tabs passed for ${count} entities; nine approved categories published.`);
 })().catch(e=>{console.error(e);process.exit(1);});

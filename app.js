@@ -363,6 +363,7 @@ function reviewLevelCaption(cat, u) {
 }
 const isUpgradeTable = (table) => /^(?:(?:TH|BH) level|level|charge(?: level)?)$/i.test(table.columns[0]);
 function reviewRowHall(u, table, row) {
+  if (table.hallByLevel) return table.hallByLevel[row[0]];
   if (!isUpgradeTable(table) || !/^\d+$/.test(row[0])) return null;
   const index = table.columns.findIndex((c) => /^(?:Town|Builder) Hall Level Required$/i.test(c));
   return index >= 0 ? parseInt(row[index], 10) || u.hallByLevel?.[row[0]] : u.hallByLevel?.[row[0]];

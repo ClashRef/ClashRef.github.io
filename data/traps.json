@@ -1213,7 +1213,7 @@
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Trap upgrade stats",
           "columns": [
             "Level",
             "Spawned Units",
@@ -1272,8 +1272,10 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Summoned skeleton attack modes",
           "columns": [
+            "Mode",
+            "Trigger Radius",
             "Favorite Target",
             "Attack Type",
             "Attack Speed",
@@ -1282,48 +1284,17 @@
           ],
           "rows": [
             [
+              "Ground",
+              "5 tiles",
               "None",
               "Melee (Ground Only)",
               "0.7s",
               "0.4",
               "24"
-            ]
-          ]
-        },
-        {
-          "heading": "Statistics",
-          "columns": [
-            "Level",
-            "Damage per Second",
-            "Damage per Hit",
-            "Hitpoints"
-          ],
-          "rows": [
-            [
-              "1",
-              "25",
-              "17.5",
-              "30"
             ],
             [
-              "2",
-              "30",
-              "21",
-              "45"
-            ]
-          ]
-        },
-        {
-          "heading": "Statistics",
-          "columns": [
-            "Favorite Target",
-            "Attack Type",
-            "Attack Speed",
-            "Range",
-            "Movement Speed"
-          ],
-          "rows": [
-            [
+              "Air",
+              "5 tiles",
               "None",
               "Melee (Air Only)",
               "0.7s",
@@ -1333,9 +1304,9 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Summoned skeleton stats (both modes)",
           "columns": [
-            "Level",
+            "Skeleton Level",
             "Damage per Second",
             "Damage per Hit",
             "Hitpoints"
@@ -1353,7 +1324,11 @@
               "21",
               "45"
             ]
-          ]
+          ],
+          "hallByLevel": {
+            "1": 8,
+            "2": 18
+          }
         }
       ],
       "images": [
@@ -1407,6 +1382,12 @@
         "page": "Skeleton Trap",
         "rawWikitextSha256": "d380dac0c52f7668d2319f61722a20b4ebece997ebcad32442438658d1d3b324",
         "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+      },
+      "tableVerification": {
+        "checked": "2026-11-03",
+        "source": "https://clashofclans.fandom.com/wiki/Skeleton_Trap",
+        "rawWikitextSha256": "d380dac0c52f7668d2319f61722a20b4ebece997ebcad32442438658d1d3b324",
+        "notes": "Ground and Air Mode skeleton DPS, damage per hit and HP are identical and are shown once. Mode-specific movement speed and attack type are preserved; both trigger at 5 tiles. Skeleton levels are separate from trap upgrade levels."
       }
     },
     {
