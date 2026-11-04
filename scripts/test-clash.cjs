@@ -314,5 +314,17 @@ function context(search, savedTH = null) {
  assert.equal((abilitySection.match(/class="over"/g)||[]).length,2,'Ability levels 4 and 5 require later Builder Halls');
  assert(!abilitySection.includes('data-review-level'),'Ability levels do not select hero upgrade levels');
  assert(!html().includes('Charge Level 1 / Charge Level 1'),'Separate charge tables removed');
+ ctx.testCat=JSON.parse(fs.readFileSync(path.join(root,'data/bbbuildings.json')));
+ for(const [name,expected] of [['Army Camp/Builder Base',[1,2,3,4,4,5,6,6,6,6]],['Reinforcement Camp',[0,0,0,0,0,1,1,1,2,2]]]) {
+  ctx.testUnit=ctx.testCat.units.find(u=>u.n===name);
+  for(let bh=1;bh<=10;bh++) {
+   vm.runInContext(`localStorage.getItem=key=>key==='cr.bh'?'${bh}':null; catView(testCat)`,ctx);
+   const card=html().split(`href="#/c/bbbuildings/${encodeURIComponent(name)}"`)[1].split('</a>')[0];
+   assert(card.includes(`Qty ${expected[bh-1]}`),`${name} quantity at BH${bh}`);
+   vm.runInContext("S.tab='max'; unitView(testCat,testUnit)",ctx);
+   assert(html().includes(`Qty ${expected[bh-1]}</b> at BH${bh}`));
+   assert(!html().includes('Hero Banners unlock')&&html().includes('construction costs'));
+  }
+ }
  console.log(`Preview access controls and all four tabs passed for ${count} entities; 16 approved categories published.`);
 })().catch(e=>{console.error(e);process.exit(1);});

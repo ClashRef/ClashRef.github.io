@@ -1890,7 +1890,7 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Camp availability and construction",
           "columns": [
             "Number of Army Camps",
             "Build Cost (Builder Elixir)",
@@ -1963,7 +1963,16 @@
         "page": "Army Camp/Builder Base",
         "rawWikitextSha256": "3174f8aad170c8782df319b3b6c183499fe088a2853a093b9b8e74c771ed7bfe",
         "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
-      }
+      },
+      "quantityByHall": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "6": 5,
+        "7": 6
+      },
+      "quantityNote": "Each camp has one level. Additional camps have separate construction costs and Builder Hall requirements, shown below."
     },
     {
       "n": "Star Laboratory",
@@ -2761,7 +2770,7 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Camp availability and construction",
           "columns": [
             "Number of Reinforcement Camps",
             "Build Cost (Builder Elixir)",
@@ -2806,7 +2815,12 @@
         "page": "Reinforcement Camp",
         "rawWikitextSha256": "d07713a13de8010b5b8665646e8c8c263a82a69a5bae2ca22148110b5ccc0767",
         "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
-      }
+      },
+      "quantityByHall": {
+        "6": 1,
+        "9": 2
+      },
+      "quantityNote": "Each camp has one level. Additional camps have separate construction costs and Builder Hall requirements, shown below."
     },
     {
       "n": "Healing Hut",

@@ -365,7 +365,7 @@ function reviewLevelCaption(cat, u) {
 const isUpgradeTable = (table) => /^(?:(?:TH|BH) level|level|charge(?: level)?)$/i.test(table.columns[0]);
 function reviewRowHall(u, table, row) {
   if (table.hallByLevel) return table.hallByLevel[row[0]];
-  if (!/^\d+$/.test(row[0])) return null;
+  if (!/^\d+\*?$/.test(row[0])) return null;
   const index = table.columns.findIndex((c) => /^(?:Town|Builder) Hall Level Required$/i.test(c));
   return index >= 0 ? parseInt(row[index], 10) || u.hallByLevel?.[row[0]] : isUpgradeTable(table) ? u.hallByLevel?.[row[0]] : null;
 }
@@ -378,7 +378,7 @@ function reviewUnit(cat, u) {
   const stored = String(S.lvl[key] || "");
   const selected = levels.includes(stored) ? stored : hallLevels[hallLevels.length - 1] || levels[0] || "1";
   const index = levels.indexOf(selected);
-  let html = reviewHallControl(cat) + (S.tab === "info" ? "" : reviewNotice(cat, u)) + `<div class="hero">${detailArtwork(cat, u, selected)}${u.quantityByHall ? `<p class="cap"><b>Qty ${quantityAtHall(u, reviewHall(cat))}</b> at TH${reviewHall(cat)}</p>` : ""}${levels.length ? `<div class="lvpick"><button id="lvDown" ${index <= 0 ? "disabled" : ""} aria-label="Lower level">&minus;</button><div class="lvnum">${cat.id === "supercharge" ? "Charge" : cat.id === "crafted" ? "Module level" : "Level"} ${esc(selected)}<small>${esc(reviewLevelCaption(cat, u))}</small></div><button id="lvUp" ${index >= levels.length - 1 ? "disabled" : ""} aria-label="Higher level">+</button></div>` : ""}${levelUnlockNotice(u.hallByLevel?.[selected], reviewHall(cat), cat.id.startsWith("bb") ? "BH" : "TH")}${troopLink(cat, u)}</div>${u.imageNote ? `<p class="note">${esc(u.imageNote)}</p>` : ""}`;
+  let html = reviewHallControl(cat) + (S.tab === "info" ? "" : reviewNotice(cat, u)) + `<div class="hero">${detailArtwork(cat, u, selected)}${u.quantityByHall ? `<p class="cap"><b>Qty ${quantityAtHall(u, reviewHall(cat))}</b> at ${cat.id.startsWith("bb") ? "BH" : "TH"}${reviewHall(cat)}</p>` : ""}${levels.length ? `<div class="lvpick"><button id="lvDown" ${index <= 0 ? "disabled" : ""} aria-label="Lower level">&minus;</button><div class="lvnum">${cat.id === "supercharge" ? "Charge" : cat.id === "crafted" ? "Module level" : "Level"} ${esc(selected)}<small>${esc(reviewLevelCaption(cat, u))}</small></div><button id="lvUp" ${index >= levels.length - 1 ? "disabled" : ""} aria-label="Higher level">+</button></div>` : ""}${levelUnlockNotice(u.hallByLevel?.[selected], reviewHall(cat), cat.id.startsWith("bb") ? "BH" : "TH")}${troopLink(cat, u)}</div>${u.imageNote ? `<p class="note">${esc(u.imageNote)}</p>` : ""}`;
   const selectableRow = (t, r) => isUpgradeTable(t) && /^charge/i.test(t.columns[0]) === /^charge/i.test(table?.columns[0] || "") && levels.includes(r[0]);
   const renderTable = (t) => {
     const order = tableColumnOrder(t.columns);
@@ -387,7 +387,7 @@ function reviewUnit(cat, u) {
   if (S.tab === "images") {
     html += `<div class="imgs-list">${galleryEntries(u).map((i) => `<figure class="${i.level === +selected ? "sel" : ""}">${img(i.url, `${u.n}: ${i.label}`)}<figcaption>${esc(i.label)}</figcaption></figure>`).join("")}</div>`;
   } else if (S.tab === "max") {
-    html += u.quantityByHall ? `<p class="note">Hero Banners unlock through Hero Hall progression and have no upgrade levels or costs.</p>${u.tables.map(renderTable).join("")}` : reviewTotals(cat, u, table, S.only ? hallLevels : levels, key);
+    html += u.quantityByHall ? `<p class="note">${esc(u.quantityNote || "Hero Banners unlock through Hero Hall progression and have no upgrade levels or costs.")}</p>${u.tables.map(renderTable).join("")}` : reviewTotals(cat, u, table, S.only ? hallLevels : levels, key);
   } else if (S.tab === "info") {
     html += infoCopy(cat, u) + (u.quantityByHall ? u.tables.map(renderTable).join("") : "") + `<details class="info-details"><summary>Technical details &amp; hall caps</summary>${reviewNotice(cat, u)}`;
     html += [...(u.quantityByHall ? [] : u.tables), ...(u.lowerTownHallStats || [])].filter((t) => !/^(?:level|charge(?: level)?)\b/i.test(t.columns[0])).map(renderTable).join("");
