@@ -20,7 +20,7 @@ const root=path.resolve(__dirname,'..');
      return route.fulfill({body:fs.readFileSync(file),contentType:type+'; charset=utf-8'});
     });
     await page.goto('https://clash.test/?preview=defenses#/c/defenses',{waitUntil:'domcontentloaded'});
-    await page.waitForFunction(()=>document.querySelectorAll('.tile.defense').length===21);
+    await page.waitForFunction(()=>document.querySelectorAll('.tile.defense').length===22);
     const check=async phase=>{
      const failures=await page.locator('.tile.defense').evaluateAll(cards=>cards.flatMap(card=>{
       const box=card.getBoundingClientRect(),label=card.querySelector('.lbl').getBoundingClientRect(),art=card.querySelector('.tile-art').getBoundingClientRect();

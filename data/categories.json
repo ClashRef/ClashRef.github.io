@@ -66,7 +66,10 @@
      "id": "defenses",
      "label": "Defenses",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/f/fa/Archer_Tower21.png/revision/latest?cb=20221223040422",
-     "data": "data/defenses.json"
+     "data": "data/defenses.json",
+     "leadingCategories": [
+      "walls"
+     ]
     },
     {
      "id": "traps",
@@ -90,7 +93,8 @@
      "id": "walls",
      "label": "Walls",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/4/4d/Wall19.png/revision/latest?cb=20260226043604",
-     "data": "data/walls.json"
+     "data": "data/walls.json",
+     "hiddenFromHome": true
     },
     {
      "id": "townhall",
@@ -119,37 +123,41 @@
      "id": "bbtroops",
      "label": "Builder Troops",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/1/12/Avatar_Raged_Barbarian.png/revision/latest?cb=20170525070542",
-     "data": null
+     "data": "data/bbtroops.json"
     },
     {
      "id": "bbheroes",
      "label": "Builder Heroes",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/f/f5/Avatar_Battle_Machine.png/revision/latest?cb=20230518083324",
-     "data": null
+     "data": "data/bbheroes.json"
     },
     {
      "id": "bbdefenses",
      "label": "Builder Defenses",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/d/df/Double_Cannon10.png/revision/latest?cb=20230516071432",
-     "data": null
+     "data": "data/bbdefenses.json",
+     "leadingCategories": [
+      "bbwalls"
+     ]
     },
     {
      "id": "bbtraps",
      "label": "Builder Traps",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/1/1e/Push_Trap10.png/revision/latest?cb=20230517082021",
-     "data": null
+     "data": "data/bbtraps.json"
     },
     {
      "id": "bbbuildings",
      "label": "Builder Buildings",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/8/87/Builder_Hall10.png/revision/latest?cb=20230516070454",
-     "data": null
+     "data": "data/bbbuildings.json"
     },
     {
      "id": "bbwalls",
      "label": "Builder Walls",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Wall10B.png/revision/latest?cb=20230517053328",
-     "data": null
+     "data": "data/bbwalls.json",
+     "hiddenFromHome": true
     }
    ]
   }

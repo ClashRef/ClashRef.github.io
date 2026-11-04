@@ -151,7 +151,7 @@ function footer() {
 }
 function home() {
   setChrome("Clash Reference", false, false);
-  app.innerHTML = CATS.groups.map((g) => `<h2 class="group">${esc(g.heading)}</h2><div class="grid">${g.cats.map((c) => categoryPath(c)
+  app.innerHTML = CATS.groups.map((g) => `<h2 class="group">${esc(g.heading)}</h2><div class="grid">${g.cats.filter((c) => !c.hiddenFromHome).map((c) => categoryPath(c)
     ? `<a class="tile" href="#/c/${c.id}">${img(c.img, c.label)}${!c.data ? '<span class="sub">Preview</span>' : ""}<span class="lbl">${esc(c.label)}</span></a>`
     : `<div class="tile off" aria-disabled="true">${img(c.img, c.label)}<span class="sub">Coming soon</span><span class="lbl">${esc(c.label)}</span></div>`).join("")}</div>`).join("") + footer();
 }
@@ -293,8 +293,11 @@ function reviewCategory(cat) {
   const hero = cat.id === "equip" ? route().hero || "" : "";
   const heroes = cat.id === "equip" ? [...new Set(cat.units.map((u) => u.hero))] : [];
   const suffix = hero ? "?hero=" + encodeURIComponent(hero) : "";
-  const list = cat.units.filter((u) => (!hero || u.hero === hero) && u.n.toLowerCase().includes(q.toLowerCase()));
+  const meta = CATS.groups.flatMap((g) => g.cats).find((c) => c.id === cat.id);
+  const linked = (meta?.leadingCategories || []).flatMap((id) => (CACHE[id]?.units || []).map((u) => ({u, id})));
+  const list = [...linked.map((item) => item.u), ...cat.units].filter((u) => (!hero || u.hero === hero) && u.n.toLowerCase().includes(q.toLowerCase()));
   const renderTile = (u) => {
+    const targetCat = linked.find((item) => item.u === u)?.id || cat.id;
     const caps = u.hallByLevel;
     const max = caps ? Math.max(0, ...Object.entries(caps).filter(([, h]) => h <= hall).map(([l]) => +l)) : null;
     const unlock = caps ? Math.min(...Object.values(caps)) : u.unlockHall;
@@ -305,7 +308,7 @@ function reviewCategory(cat) {
     const imageLevel = max || Math.min(...Object.keys(caps || {1: 1}).map(Number));
     const source = building ? buildingImage(u, imageLevel, hall)?.url || u.av : u.av;
     const artwork = building ? `<span class="tile-art">${img(source, caps && cat.id !== "supercharge" ? `${u.n} level ${imageLevel * (u.imageLevelMultiplier || 1)}` : u.n)}</span>` : source ? img(source, u.n) : "";
-    return `<a class="tile unit${building ? " building" : ""}${cat.id === "defenses" ? " defense" : ""}${locked || removed ? " locked" : ""}" href="#/c/${cat.id}/${encodeURIComponent(u.n)}${suffix}">${artwork}${badge}<span class="lbl">${esc(building ? buildingLabel(u.n) : u.n)}</span></a>`;
+    return `<a class="tile unit${building ? " building" : ""}${cat.id === "defenses" ? " defense" : ""}${locked || removed ? " locked" : ""}" href="#/c/${targetCat}/${encodeURIComponent(u.n)}${suffix}">${artwork}${badge}<span class="lbl">${esc(building ? buildingLabel(u.n) : u.n)}</span></a>`;
   };
   const tiles = cat.id === "equip" ? heroes.map((name) => {
     const items = list.filter((u) => u.hero === name);
@@ -382,7 +385,7 @@ function reviewUnit(cat, u) {
   const selectableRow = (t, r) => isUpgradeTable(t) && /^charge/i.test(t.columns[0]) === /^charge/i.test(table?.columns[0] || "") && levels.includes(r[0]);
   const renderTable = (t) => {
     const order = tableColumnOrder(t.columns);
-    return `<h3 class="sec">${esc(tableTitle(t, cat))}</h3>${t.note ? `<p class="note">${esc(t.note)}</p>` : ""}<div class="tblwrap"><table><thead><tr>${order.map((i) => columnHeader(t.columns[i])).join("")}</tr></thead><tbody>${t.rows.map((r) => `<tr ${selectableRow(t, r) ? `data-review-level="${esc(r[0])}"` : ""} class="${selectableRow(t, r) && r[0] === selected ? "sel " : ""}${reviewRowHall(u, t, r) > reviewHall(cat) ? "over" : ""}">${order.map((i) => `<td${/cost/i.test(t.columns[i]) ? ' class="cost"' : ''}>${esc(r[i] ?? "")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+    return `<h3 class="sec">${esc(tableTitle(t, cat))}</h3>${t.note ? `<p class="note">${esc(t.note)}</p>` : ""}<div class="tblwrap"><table><thead><tr>${order.map((i) => columnHeader(t.columns[i])).join("")}</tr></thead><tbody>${t.rows.map((r) => `<tr ${selectableRow(t, r) ? `data-review-level="${esc(r[0])}"` : ""} class="${selectableRow(t, r) && r[0] === selected ? "sel " : ""}${reviewRowHall(u, t, r) > reviewHall(cat) ? "over" : ""}">${order.map((i) => `<td${/cost/i.test(t.columns[i]) ? ' class="cost"' : ''}>${i === 0 && t.markedLevels?.[r[0]] ? `<abbr title="${esc(t.markedLevels[r[0]])}">${esc(r[i])}*</abbr>` : esc(r[i] ?? "")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
   };
   if (S.tab === "images") {
     html += `<div class="imgs-list">${galleryEntries(u).map((i) => `<figure class="${i.level === +selected ? "sel" : ""}">${img(i.url, `${u.n}: ${i.label}`)}<figcaption>${esc(i.label)}</figcaption></figure>`).join("")}</div>`;
@@ -465,7 +468,12 @@ async function render() {
     const cat = await loadCat(r.cat);
     if (version !== scrollVersion) return;
     if (!cat) { location.hash = "#/"; return; }
-    if (!r.unit) return catView(cat);
+    if (!r.unit) {
+      const meta = CATS.groups.flatMap((g) => g.cats).find((c) => c.id === cat.id);
+      await Promise.all((meta?.leadingCategories || []).map(loadCat));
+      if (version !== scrollVersion) return;
+      return catView(cat);
+    }
     const u = cat.units.find((x) => x.n === r.unit);
     if (!u) { location.hash = "#/c/" + cat.id; return; }
     if (["elixir", "dark"].includes(cat.id)) await loadCat("super");

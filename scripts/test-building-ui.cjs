@@ -28,6 +28,7 @@ function expectedImage(u, level, hall) {
         await page.goto('https://clash.test/?preview=all');
         for (const id of ids) {
           const cat = cats[id];
+          const displayed = [...(id === "defenses" ? cats.walls.units : id === "bbdefenses" ? cats.bbwalls.units : []), ...cat.units];
           await page.evaluate(id => {location.hash = `#/c/${id}`;}, id);
           await page.waitForFunction(label => document.querySelector('#title').textContent === label, cat.label);
           for (const hall of id.startsWith('bb') ? [3, 10] : [3, 18]) {
@@ -38,9 +39,9 @@ function expectedImage(u, level, hall) {
                 const select = document.querySelector('#thSel'); select.value = hall; select.dispatchEvent(new Event('change'));
               }
             }, {id, hall});
-            await page.waitForFunction(count => document.querySelectorAll('.tile.building').length === count, cat.units.length);
-            for (const u of cat.units) {
-              const index = cat.units.indexOf(u);
+            await page.waitForFunction(count => document.querySelectorAll('.tile.building').length === count, displayed.length);
+            for (const u of displayed) {
+              const index = displayed.indexOf(u);
               const tile = page.locator('.tile.building').nth(index);
               const max = u.hallByLevel ? Math.max(0, ...Object.entries(u.hallByLevel).filter(([, h]) => h <= hall).map(([l]) => +l)) : null;
               const level = max || Math.min(...Object.keys(u.hallByLevel || {1: 1}).map(Number));

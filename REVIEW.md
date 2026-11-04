@@ -1,6 +1,6 @@
 # Hidden category review status
 
-All Home Village army categories are live. Defenses, Traps, Army Buildings, Resource Buildings, Walls, Crafted Defenses, and Supercharges are also live following review. Town Hall and all Builder Base categories remain hidden and available in preview.
+All Home Village army categories are live. Defenses, Traps, Army Buildings, Resource Buildings, Walls, Crafted Defenses, and Supercharges are also live following review. All Builder Base categories are also live following review. Only Town Hall remains hidden and available in preview. Walls are the first card in each village?s Defenses section.
 
 The query-only preview enables a category for the current URL. No preview state is persisted. `?preview=true` enables all drafts (`?preview=all` also works).
 
