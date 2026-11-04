@@ -1880,18 +1880,46 @@
       "av": "https://static.wikia.nocookie.net/clashofclans/images/d/df/Hero_Banner_Empty.png/revision/latest?cb=20241124131342",
       "source": "https://clashofclans.fandom.com/wiki/Hero_Banner",
       "revision": null,
-      "tables": [],
+      "tables": [
+        {
+          "heading": "Hero Banner availability",
+          "columns": [
+            "Quantity",
+            "Hero Hall Level Required",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "1",
+              "7"
+            ],
+            [
+              "2",
+              "3",
+              "9"
+            ],
+            [
+              "3",
+              "5",
+              "11"
+            ],
+            [
+              "4",
+              "7",
+              "13"
+            ]
+          ]
+        }
+      ],
       "images": [
         {
           "file": "File:Hero Banner Empty.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/d/df/Hero_Banner_Empty.png/revision/latest?cb=20241124131342"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "No structured statistics table found; requires manual review."
-      ],
-      "unlockHall": 4,
+      "unverified": [],
+      "unlockHall": 7,
       "staticImage": {
         "file": "File:Hero Banner Empty.png",
         "url": "https://static.wikia.nocookie.net/clashofclans/images/d/df/Hero_Banner_Empty.png/revision/latest?cb=20241124131342"
@@ -1901,6 +1929,27 @@
         "page": "Hero Banner",
         "rawWikitextSha256": "a2e47605702a7db6f650e39c382f0b9a60bab952d4e2d059e1fd1f8dfb596e70",
         "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+      },
+      "quantityByHall": {
+        "7": 1,
+        "9": 2,
+        "11": 3,
+        "13": 4
+      },
+      "note": "Hero Banners have no upgrade levels. TH4-6 has an attack-only hero slot and no defensive banner; the first banner becomes available at TH7 with Hero Hall level 1.",
+      "quantityVerification": {
+        "checked": "2026-11-03",
+        "sources": [
+          {
+            "page": "Hero Banner",
+            "rawWikitextSha256": "a2e47605702a7db6f650e39c382f0b9a60bab952d4e2d059e1fd1f8dfb596e70"
+          },
+          {
+            "page": "Hero Hall",
+            "rawWikitextSha256": "ac1d8ad5c1c728a44462b267ec590f767fde5c5fc63f8e75713f91226a71caa1"
+          }
+        ],
+        "method": "Hero Banner NumberAvailable template, Hero Hall slot progression and TH requirements; TH4-6 attack-only exception checked explicitly."
       }
     },
     {

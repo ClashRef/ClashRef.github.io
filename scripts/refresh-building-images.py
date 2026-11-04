@@ -56,7 +56,7 @@ def appearance_gallery(soup):
 
 
 STATIC = {
-    'Hero Banner': ('Hero Banner Empty.png', 4),
+    'Hero Banner': ('Hero Banner Empty.png', 7),
     'Crafting Station': ('Crafting Station.png', 11),
     'Army Camp/Builder Base': ('Army CampB.png', 1),
     'Reinforcement Camp': ('Reinforcement Camp.png', 6),

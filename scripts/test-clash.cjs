@@ -290,5 +290,19 @@ function context(search, savedTH = null) {
  const skeletonSection=html().split('Summoned skeleton stats (both modes)')[1];
  assert(skeletonSection.includes('class="over"'),'Future summoned skeleton level is dimmed by its own unlock hall');
  assert(!skeletonSection.includes('data-review-level')&&!skeletonSection.includes('class="sel '),'Skeleton stats do not reuse trap picker selection');
+ ctx.testCat=JSON.parse(fs.readFileSync(path.join(root,'data/army.json')));
+ ctx.testUnit=ctx.testCat.units.find(u=>u.n==='Hero Banner');
+ assert.deepEqual(ctx.testUnit.tables[0].rows,[['1','1','7'],['2','3','9'],['3','5','11'],['4','7','13']]);
+ for(const [th,qty] of [[1,0],[4,0],[6,0],[7,1],[8,1],[9,2],[10,2],[11,3],[12,3],[13,4],[18,4]]) {
+  vm.runInContext(`S.th=${th}; catView(testCat)`,ctx);
+  const card=html().split('href="#/c/army/Hero%20Banner"')[1].split('</a>')[0];
+  assert(card.includes(`Qty ${qty}`),`Hero Banner quantity at TH${th}`);
+  vm.runInContext("S.tab='stats'; unitView(testCat,testUnit)",ctx);
+  assert(html().includes(`Qty ${qty}`)&&html().includes('Hero Hall Level Required')&&html().includes('Town Hall Level Required'));
+  assert(!html().includes('id="lvUp"'),'Banners have quantities, not upgrade levels');
+  assert.equal((html().match(/class="over"/g)||[]).length,ctx.testUnit.tables[0].rows.filter(r=>+r[2]>th).length);
+ }
+ vm.runInContext("S.tab='info'; unitView(testCat,testUnit)",ctx);
+ assert(html().indexOf('Hero Banner availability')<html().indexOf('class="info-details"'),'Banner unlock progression is visible in Info');
  console.log(`Preview access controls and all four tabs passed for ${count} entities; nine approved categories published.`);
 })().catch(e=>{console.error(e);process.exit(1);});
