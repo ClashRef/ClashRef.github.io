@@ -1,6 +1,6 @@
 # Hidden category review status
 
-Elixir Troops, Dark Troops, Super Troops, Elixir Spells, Dark Spells, Siege Machines, Heroes, Hero Equipment, and Pets are live. The remaining categories are hidden source-table drafts.
+All Home Village army categories are live. Defenses, Traps, Army Buildings, Resource Buildings, Walls, Crafted Defenses, and Supercharges are also live following review. Town Hall and all Builder Base categories remain hidden and available in preview.
 
 The query-only preview enables a category for the current URL. No preview state is persisted. `?preview=true` enables all drafts (`?preview=all` also works).
 

@@ -279,7 +279,7 @@ function context(search, savedTH = null) {
  vm.runInContext("S.th=18; S.tab='max'; S.cur['dark|Hog Rider']='14'; unitView(testCat,testUnit)",ctx);
  assert(html().includes('340,000'), 'Hog Rider level 15 normal cost');
  assert(html().includes('14d 12h'), 'Hog Rider level 15 normal time');
- assert.deepEqual(manifest.groups.flatMap(g=>g.cats).filter(c=>c.data).map(c=>c.id).sort(),['dark','dspells','elixir','equip','espells','heroes','pets','siege','super']);
+ assert.deepEqual(manifest.groups.flatMap(g=>g.cats).filter(c=>c.data).map(c=>c.id).sort(),['army','crafted','dark','defenses','dspells','elixir','equip','espells','heroes','pets','resource','siege','super','supercharge','traps','walls']);
  ctx.testCat=JSON.parse(fs.readFileSync(path.join(root,'data/traps.json')));
  ctx.testUnit=ctx.testCat.units.find(u=>u.n==='Skeleton Trap');
  vm.runInContext("S.th=15; S.tab='stats'; S.lvl['traps|Skeleton Trap']='4'; unitView(testCat,testUnit)",ctx);
@@ -304,5 +304,5 @@ function context(search, savedTH = null) {
  }
  vm.runInContext("S.tab='info'; unitView(testCat,testUnit)",ctx);
  assert(html().indexOf('Hero Banner availability')<html().indexOf('class="info-details"'),'Banner unlock progression is visible in Info');
- console.log(`Preview access controls and all four tabs passed for ${count} entities; nine approved categories published.`);
+ console.log(`Preview access controls and all four tabs passed for ${count} entities; 16 approved categories published.`);
 })().catch(e=>{console.error(e);process.exit(1);});

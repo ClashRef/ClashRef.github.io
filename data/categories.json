@@ -66,31 +66,31 @@
      "id": "defenses",
      "label": "Defenses",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/f/fa/Archer_Tower21.png/revision/latest?cb=20221223040422",
-     "data": null
+     "data": "data/defenses.json"
     },
     {
      "id": "traps",
      "label": "Traps",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Bomb13.png/revision/latest?cb=20241127134105",
-     "data": null
+     "data": "data/traps.json"
     },
     {
      "id": "army",
      "label": "Army Buildings",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/c/c6/Army_Camp14.png/revision/latest?cb=20260425143241",
-     "data": null
+     "data": "data/army.json"
     },
     {
      "id": "resource",
      "label": "Resource Buildings",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Gold_Mine17.png/revision/latest?cb=20251118165804",
-     "data": null
+     "data": "data/resource.json"
     },
     {
      "id": "walls",
      "label": "Walls",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/4/4d/Wall19.png/revision/latest?cb=20260226043604",
-     "data": null
+     "data": "data/walls.json"
     },
     {
      "id": "townhall",
@@ -102,13 +102,13 @@
      "id": "crafted",
      "label": "Crafted Defenses",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Hot_Candle4-1.png/revision/latest?cb=20260713110056",
-     "data": null
+     "data": "data/crafted.json"
     },
     {
      "id": "supercharge",
      "label": "Supercharges",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/8/86/Icon_Supercharge.png/revision/latest?cb=20240909141818",
-     "data": null
+     "data": "data/supercharge.json"
     }
    ]
   },
