@@ -16,7 +16,7 @@ const S = {
 let CATS = null, INFO = null; const CACHE = {};
 // Query-only preview: never persists or changes the published category manifest.
 const preview = new URLSearchParams(location.search).get("preview");
-const categoryPath = (c) => c.data || ((preview === "all" || preview === c.id) ? `data/${c.id}.json` : null);
+const categoryPath = (c) => c.data || ((preview === "true" || preview === "all" || preview === c.id) ? `data/${c.id}.json` : null);
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const fmt = (v) => (typeof v === "number" ? v.toLocaleString("en-US") : v);
 const mins = (t) => { const g = (re) => { const m = String(t).match(re); return m ? +m[1] : 0; }; return g(/(\d+)d/) * 1440 + g(/(\d+)h/) * 60 + g(/(\d+)m/); };
@@ -152,7 +152,7 @@ function footer() {
 function home() {
   setChrome("Clash Reference", false, false);
   app.innerHTML = CATS.groups.map((g) => `<h2 class="group">${esc(g.heading)}</h2><div class="grid">${g.cats.map((c) => categoryPath(c)
-    ? `<a class="tile" href="#/c/${c.id}">${img(c.img, c.label)}<span class="lbl">${esc(c.label)}</span></a>`
+    ? `<a class="tile" href="#/c/${c.id}">${img(c.img, c.label)}${!c.data ? '<span class="sub">Preview</span>' : ""}<span class="lbl">${esc(c.label)}</span></a>`
     : `<div class="tile off" aria-disabled="true">${img(c.img, c.label)}<span class="sub">Coming soon</span><span class="lbl">${esc(c.label)}</span></div>`).join("")}</div>`).join("") + footer();
 }
 let q = "";
