@@ -108,7 +108,7 @@ td.cost{color:var(--elix)}
 .callout{background:#2b2412;border:1px solid #6b5520;color:#f1dca6;border-radius:12px;padding:10px 12px;font-size:13px;margin:16px 0}
 .imgs-list{display:flex;flex-direction:column;align-items:center;gap:6px}
 .imgs-list figure{margin:6px 0 14px;text-align:center}
-.imgs-list img{max-width:160px;max-height:170px;object-fit:contain;filter:drop-shadow(0 4px 4px #000a)}
+.imgs-list img{display:block;width:160px;height:170px;margin:0 auto;object-fit:contain;filter:drop-shadow(0 4px 4px #000a)}
 .imgs-list figcaption{font-weight:800;font-size:18px;text-transform:uppercase;margin-top:4px}
 .imgs-list figure.sel figcaption{color:var(--acc)}
 .maxbox select{background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:8px;font-size:16px}
