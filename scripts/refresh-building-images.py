@@ -69,7 +69,7 @@ pending = []
 
 def prepare(args):
     id, u = args
-    if u['n'] == 'Town Hall/Giga Inferno':
+    if u['n'] == 'Town Hall/Giga Weapon':
         # The consolidated weapon retains four explicitly sourced TH stages.
         return u
     page, raw, soup = source(id, u)

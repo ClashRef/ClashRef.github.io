@@ -81,7 +81,7 @@ function expectedImage(u, level, hall) {
         assert.equal(await page.locator('.wrap-table tbody tr').count(),5);
         assert((await page.locator('.wrap-table').innerText()).includes('combined level of 45'));
         assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
-        for(const [id,name,display] of [['bbbuildings','Gold Mine/Builder Base','Gold Mine'],['townhall','Town Hall/Giga Inferno','Giga Inferno']]) {
+        for(const [id,name,display] of [['bbbuildings','Gold Mine/Builder Base','Gold Mine'],['townhall','Town Hall/Giga Weapon','Giga Weapon']]) {
           await page.evaluate(({id,name})=>location.hash=`#/c/${id}/${encodeURIComponent(name)}`,{id,name});
           await page.waitForFunction(display=>document.querySelector('#title').textContent===display,display);
           assert(await page.locator('#title').evaluate(el=>el.scrollWidth<=el.clientWidth+1&&el.scrollHeight<=el.clientHeight+1),`Entire title fits without clipping: ${engine.name()} ${width}px ${display} ${JSON.stringify(await page.locator('#title').evaluate(el=>({sw:el.scrollWidth,cw:el.clientWidth,sh:el.scrollHeight,ch:el.clientHeight,css:getComputedStyle(el).cssText})))}`);
@@ -100,14 +100,21 @@ function expectedImage(u, level, hall) {
         assert.equal(await page.locator('.tile.unit').count(),3);
         await page.locator('#back').click();
         await page.waitForFunction(()=>document.querySelector('#title').textContent==='Town Hall');
-        await page.locator('a[href="#/c/townhall/Town%20Hall%2FGiga%20Inferno"]').click();
+        await page.locator('a[href="#/c/townhall/Town%20Hall%2FGiga%20Weapon"]').click();
         await page.locator('.hero').waitFor();
         await page.evaluate(()=>{const select=document.querySelector('#thSel');select.value='15';select.dispatchEvent(new Event('change'));});
-        await page.waitForFunction(()=>document.querySelector('.lvnum').firstChild.textContent.trim()==='Level 3');
+        await page.waitForFunction(()=>document.querySelector('.lvnum').firstChild.textContent.trim()==='TH15 - Giga Inferno');
         assert((await page.locator('.hero .lv').getAttribute('src')).includes('Giga_Inferno15.png'));
         await page.locator('#lvUp').click();
         assert.equal(await page.locator('.level-unlock').textContent(),'Unlocks at TH 16');
         assert((await page.locator('.hero .lv').getAttribute('src')).includes('Giga_Inferno16.png'));
+        await page.evaluate(()=>{const select=document.querySelector('#thSel');select.value='12';select.dispatchEvent(new Event('change'));});
+        await page.waitForFunction(()=>document.querySelector('.lvnum').firstChild.textContent.trim()==='TH12 - Giga Tesla');
+        const giga=cats.townhall.units.find(u=>u.n==='Town Hall/Giga Weapon');
+        assert.equal(await page.locator('.hero .lv').getAttribute('src'),giga.levelImages['12'].url);
+        assert.deepEqual((await page.locator('.tblwrap').first().locator('tbody tr').first().locator('td').allTextContents()).slice(0,5),['12','Giga Tesla','140','70','0.5s']);
+        await page.locator('#lvUp').click();
+        assert.equal(await page.locator('.level-unlock').textContent(),'Unlocks at TH 13');
         await page.locator('#back').click();
         await page.locator('.grid.units').waitFor();
         await page.locator('.grid.units > a').first().click();

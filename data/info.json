@@ -1861,15 +1861,6 @@
           "rawWikitextSHA256": "7391b40e86a5928c45526aa403dcc58f55df46d67e2b17cee759ac46fd347b6d"
         }
       },
-      "Town Hall/Giga Tesla": {
-        "overview": "An integrated Town Hall weapon that activates under its battle conditions and fires at multiple attackers.",
-        "strategy": "Account for its activation when planning a snipe or entry. An attack that wakes it early may expose troops to extra defensive fire.",
-        "source": {
-          "url": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Tesla",
-          "revision": 620077,
-          "rawWikitextSHA256": "d099793de649b46cb0556cfcc79587a2b864702d02f2563dd2464826245bfbc7"
-        }
-      },
       "Town Hall/Inferno Artillery": {
         "overview": "The TH17 Town Hall weapon is created by merging the Town Hall with the Eagle Artillery.",
         "strategy": "Treat it as part of the Town Hall defense rather than a separate Eagle building. Plan the attack around its current targeting and surrounding defenses.",
@@ -1915,8 +1906,8 @@
           "rawWikitextSHA256": "58d42a87fa4735d97b2c7d88a7ec9e7a28eb47d3313f93a4dfd422fdfdfe87ae"
         }
       },
-      "Town Hall/Giga Inferno": {
-        "overview": "The integrated Town Hall weapon for TH13-16 attacks multiple enemies and triggers a destruction effect when the Town Hall falls. Its appearance and stats change with each Town Hall stage.",
+      "Town Hall/Giga Weapon": {
+        "overview": "The Giga Weapon is built into TH12-16. It starts as Giga Tesla at TH12, then becomes Giga Inferno at TH13-16, with changing damage and destruction effects.",
         "strategy": "Plan protection and troop spacing around the destruction. Reaching the Town Hall is only part of surviving the compartment.",
         "source": {
           "url": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Inferno_(TH13)",
@@ -1924,8 +1915,8 @@
           "rawWikitextSHA256": "f18c77df42c18d1cd8e10ff7129cca816876238ecddbd9fb4a49a3e8bedeb8e3"
         },
         "mechanics": [
-          "The four stages here represent TH13, TH14, TH15 and TH16; they are not separate buildings or independent upgrades.",
-          "TH13 adds a slowing destruction effect. TH14-16 add a poison aftermath. At TH17, Inferno Artillery replaces Giga Inferno."
+          "The rows represent Town Hall stages, not independent weapon upgrade levels.",
+          "TH13 adds a slowing destruction effect; TH14-16 have a poison aftermath. Inferno Artillery replaces the weapon at TH17."
         ]
       }
     },

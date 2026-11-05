@@ -2479,44 +2479,118 @@
       }
     },
     {
-      "n": "Town Hall/Giga Tesla",
+      "n": "Town Hall/Giga Weapon",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/8/8c/Giga_Tesla.png/revision/latest?cb=20251008133400",
-      "source": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Tesla",
+      "source": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Weapons",
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Giga Weapon by Town Hall",
           "columns": [
+            "TH Level",
+            "Weapon",
             "Damage per Second per Target",
             "Damage per Hit",
-            "Number of Targets",
+            "Attack Speed",
+            "Hitpoints",
             "Damage when Destroyed",
             "Death Damage Radius",
-            "Hitpoints"
+            "Speed Decrease",
+            "Attack Rate Decrease",
+            "Slowdown Time when Destroyed",
+            "Poison Max DPS",
+            "Poison duration when Destroyed"
           ],
           "rows": [
             [
+              "12",
+              "Giga Tesla",
               "140",
               "70",
-              "4",
+              "0.5s",
+              "7,500",
               "500",
               "4 tiles",
-              "7,500"
+              "-",
+              "-",
+              "-",
+              "-",
+              "-"
+            ],
+            [
+              "13",
+              "Giga Inferno",
+              "220",
+              "28.16",
+              "0.128s",
+              "8,200",
+              "700",
+              "4 tiles",
+              "50%",
+              "50%",
+              "8s",
+              "-",
+              "-"
+            ],
+            [
+              "14",
+              "Giga Inferno",
+              "280",
+              "35.84",
+              "0.128s",
+              "8,900",
+              "900",
+              "4 tiles",
+              "50%",
+              "50%",
+              "-",
+              "180",
+              "12s"
+            ],
+            [
+              "15",
+              "Giga Inferno",
+              "300",
+              "38.4",
+              "0.128s",
+              "9,600",
+              "1,000",
+              "4.5 tiles",
+              "50%",
+              "50%",
+              "-",
+              "180",
+              "12s"
+            ],
+            [
+              "16",
+              "Giga Inferno",
+              "300",
+              "38.4",
+              "0.128s",
+              "10,000",
+              "1,100",
+              "4.5 tiles",
+              "50%",
+              "50%",
+              "-",
+              "180",
+              "12s"
             ]
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Shared attack details",
           "columns": [
             "Range",
-            "Attack Speed",
+            "Number of Targets",
             "Damage Type",
             "Unit Type Targeted"
           ],
           "rows": [
             [
               "10",
-              "0.5s",
+              "4",
               "Multiple Targets",
               "Ground & Air"
             ]
@@ -2527,129 +2601,7 @@
         {
           "file": "File:Giga Tesla.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8c/Giga_Tesla.png/revision/latest?cb=20251008133400"
-        }
-      ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
-      "unlockHall": 12,
-      "removedAtTH": 13,
-      "staticImage": {
-        "file": "File:Giga Tesla.png",
-        "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8c/Giga_Tesla.png/revision/latest?cb=20251008133400"
-      },
-      "imageVerification": {
-        "checked": "2026-11-03",
-        "page": "Town Hall/Giga Tesla",
-        "rawWikitextSha256": "d099793de649b46cb0556cfcc79587a2b864702d02f2563dd2464826245bfbc7",
-        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
-      }
-    },
-    {
-      "n": "Town Hall/Giga Inferno",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/9/90/Giga_Inferno13.png/revision/latest?cb=20251008133511",
-      "source": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Inferno",
-      "revision": null,
-      "tables": [
-        {
-          "heading": "Giga Inferno stages",
-          "columns": [
-            "Level",
-            "Town Hall Level Required",
-            "Damage per Second per Target",
-            "Damage per Hit",
-            "Number of Targets",
-            "Damage when Destroyed",
-            "Death Damage Radius",
-            "Speed Decrease",
-            "Attack Rate Decrease",
-            "Slowdown Time when Destroyed",
-            "Hitpoints",
-            "Poison Max DPS",
-            "Poison duration when Destroyed"
-          ],
-          "rows": [
-            [
-              "1",
-              "13",
-              "220",
-              "28.16",
-              "4",
-              "700",
-              "4 tiles",
-              "50%",
-              "50%",
-              "8s",
-              "8,200",
-              "-",
-              "-"
-            ],
-            [
-              "2",
-              "14",
-              "280",
-              "35.84",
-              "4",
-              "900",
-              "4 tiles",
-              "50%",
-              "50%",
-              "-",
-              "8,900",
-              "180",
-              "12s"
-            ],
-            [
-              "3",
-              "15",
-              "300",
-              "38.4",
-              "4",
-              "1,000",
-              "4.5 tiles",
-              "50%",
-              "50%",
-              "-",
-              "9,600",
-              "180",
-              "12s"
-            ],
-            [
-              "4",
-              "16",
-              "300",
-              "38.4",
-              "4",
-              "1,100",
-              "4.5 tiles",
-              "50%",
-              "50%",
-              "-",
-              "10,000",
-              "180",
-              "12s"
-            ]
-          ]
         },
-        {
-          "heading": "Attack details",
-          "columns": [
-            "Range",
-            "Attack Speed",
-            "Damage Type",
-            "Unit Type Targeted"
-          ],
-          "rows": [
-            [
-              "10",
-              "0.128s",
-              "Multiple Targets",
-              "Ground & Air"
-            ]
-          ]
-        }
-      ],
-      "images": [
         {
           "file": "File:Giga Inferno13.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/9/90/Giga_Inferno13.png/revision/latest?cb=20251008133511"
@@ -2668,42 +2620,58 @@
         }
       ],
       "levelImages": {
-        "1": {
+        "12": {
+          "file": "File:Giga Tesla.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8c/Giga_Tesla.png/revision/latest?cb=20251008133400"
+        },
+        "13": {
           "file": "File:Giga Inferno13.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/9/90/Giga_Inferno13.png/revision/latest?cb=20251008133511"
         },
-        "2": {
+        "14": {
           "file": "File:Giga Inferno14.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/6/61/Giga_Inferno14.png/revision/latest?cb=20251008133548"
         },
-        "3": {
+        "15": {
           "file": "File:Giga Inferno15.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/0/01/Giga_Inferno15.png/revision/latest?cb=20251008075751"
         },
-        "4": {
+        "16": {
           "file": "File:Giga Inferno16.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bd/Giga_Inferno16.png/revision/latest?cb=20231213213907"
         }
       },
       "levelLabels": {
-        "1": "Level 1 (TH13)",
-        "2": "Level 2 (TH14)",
-        "3": "Level 3 (TH15)",
-        "4": "Level 4 (TH16)"
+        "12": "TH12 - Giga Tesla",
+        "13": "TH13 - Giga Inferno",
+        "14": "TH14 - Giga Inferno",
+        "15": "TH15 - Giga Inferno",
+        "16": "TH16 - Giga Inferno"
       },
       "hallByLevel": {
-        "1": 13,
-        "2": 14,
-        "3": 15,
-        "4": 16
+        "12": 12,
+        "13": 13,
+        "14": 14,
+        "15": 15,
+        "16": 16
       },
-      "unlockHall": 13,
+      "unlockHall": 12,
       "removedAtTH": 17,
-      "note": "Stages 1-4 correspond to TH13-16. This weapon changes with the Town Hall rather than having separate paid upgrades. Inferno Artillery replaces it at TH17.",
+      "note": "Giga Tesla at TH12 becomes Giga Inferno at TH13-16. These stages come with the Town Hall, not independent upgrades. Inferno Artillery replaces the Giga Weapon at TH17.",
       "unverified": [
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "stageSources": [
+        {
+          "townHall": 12,
+          "source": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Tesla",
+          "imageVerification": {
+            "checked": "2026-11-03",
+            "page": "Town Hall/Giga Tesla",
+            "rawWikitextSha256": "d099793de649b46cb0556cfcc79587a2b864702d02f2563dd2464826245bfbc7",
+            "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+          }
+        },
         {
           "townHall": 13,
           "source": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Inferno_(TH13)",
@@ -2744,7 +2712,9 @@
             "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
           }
         }
-      ]
+      ],
+      "levelKind": "TH",
+      "progressionNote": "The Giga Weapon has no separate upgrade costs. Its TH12-16 stages come with Town Hall progression. See Town Hall for the building upgrade costs and times."
     },
     {
       "n": "Town Hall/Inferno Artillery",
@@ -3349,8 +3319,7 @@
     {
       "heading": "Town Hall weapons",
       "units": [
-        "Town Hall/Giga Tesla",
-        "Town Hall/Giga Inferno",
+        "Town Hall/Giga Weapon",
         "Town Hall/Inferno Artillery",
         "Town Hall/Guardians"
       ]

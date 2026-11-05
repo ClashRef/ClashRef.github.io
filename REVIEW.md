@@ -24,7 +24,7 @@ Known limitations: hall mappings are only used where the required building progr
 | Army Buildings | [?preview=army](https://clashref.github.io/?preview=army) | 12 | 11 |
 | Resource Buildings | [?preview=resource](https://clashref.github.io/?preview=resource) | 6 | 6 |
 | Walls | [?preview=walls](https://clashref.github.io/?preview=walls) | 1 | 1 |
-| Town Hall | [?preview=townhall](https://clashref.github.io/?preview=townhall) | 8 | 6 |
+| Town Hall | [?preview=townhall](https://clashref.github.io/?preview=townhall) | 7 | 6 |
 | Crafted Defenses | [?preview=crafted](https://clashref.github.io/?preview=crafted) | 4 | 3 |
 | Supercharges | [?preview=supercharge](https://clashref.github.io/?preview=supercharge) | 17 | 17 |
 | Builder Troops | [?preview=bbtroops](https://clashref.github.io/?preview=bbtroops) | 12 | 12 |
@@ -309,4 +309,4 @@ Defense cards now use the exact normal appearance for the maximum level at the s
 
 ## Info-tab content
 
-All 263 items across the 23 categories now have original plain-language overviews and practical role-based tips in data/info.json. Copy is maintained separately in scripts/info-copy.txt so refreshing numeric datasets does not erase it. Technical tables remain available behind a disclosure. Ricochet Cannon, Multi-Archer Tower, Multi-Gear Tower, and Super Wizard Tower include inline merge diagrams assembled from the verified building images. Source revisions and raw-wikitext hashes accompany the mechanics references. Strategy blurbs are editorial guidance rather than claims about the strongest current meta.
+All 262 items across the 23 categories now have original plain-language overviews and practical role-based tips in data/info.json. Copy is maintained separately in scripts/info-copy.txt so refreshing numeric datasets does not erase it. Technical tables remain available behind a disclosure. Ricochet Cannon, Multi-Archer Tower, Multi-Gear Tower, and Super Wizard Tower include inline merge diagrams assembled from the verified building images. Source revisions and raw-wikitext hashes accompany the mechanics references. Strategy blurbs are editorial guidance rather than claims about the strongest current meta.

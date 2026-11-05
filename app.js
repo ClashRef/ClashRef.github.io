@@ -267,6 +267,7 @@ function bindReviewHall(cat, rerender) {
   if ($("#reviewHall")) $("#reviewHall").onchange = (e) => { localStorage.setItem("cr.bh", e.target.value); S.lvl = {}; rerender(); };
 }
 function reviewTotals(cat, u, table, levels, key) {
+  if (u.progressionNote) return `<p class="note">${esc(u.progressionNote)}</p>`;
   if (u.removedAtTH && reviewHall(cat) >= u.removedAtTH) return `<p class="note">Removed at TH ${u.removedAtTH}. Historical upgrade stats remain available in Stats.</p>`;
   if (!table || !u.hallByLevel) return `<p class="note">Totals need a verified hall mapping. See Stats for individual costs and times.</p>`;
   if (!levels.length) return `<p class="note">Unlock at ${cat.id.startsWith("bb") ? "BH" : "TH"} ${Math.min(...Object.values(u.hallByLevel))}. Select a higher hall to calculate upgrades.</p>`;
@@ -309,7 +310,7 @@ function reviewCategory(cat) {
     const unlock = caps ? Math.min(...Object.values(caps)) : u.unlockHall;
     const removed = u.removedAtTH && hall >= u.removedAtTH;
     const locked = max === 0 || (unlock && hall < unlock);
-    const badge = u.quantityByHall && quantityAtHall(u, hall) > 0 ? levelPill(quantityAtHall(u, hall), Math.max(...Object.values(u.quantityByHall)), "", "Qty") : removed ? levelPill(0, 0, `Removed at TH ${u.removedAtTH}`) : caps ? levelPill(max, Math.max(...Object.keys(caps).map(Number)), `Unlock at ${cat.id.startsWith("bb") ? "BH" : "TH"} ${unlock}`, cat.id === "supercharge" ? "Charge" : cat.id === "crafted" ? "Module" : "Lv") : levelPill(0, 0, unlock ? locked ? `Unlock at ${cat.id.startsWith("bb") ? "BH" : "TH"} ${unlock}` : u.n === "B.O.B Control" ? "Task upgrades" : "Available" : "Hall cap unverified");
+    const badge = u.quantityByHall && quantityAtHall(u, hall) > 0 ? levelPill(quantityAtHall(u, hall), Math.max(...Object.values(u.quantityByHall)), "", "Qty") : removed ? levelPill(0, 0, `Removed at TH ${u.removedAtTH}`) : caps ? levelPill(max, Math.max(...Object.keys(caps).map(Number)), `Unlock at ${cat.id.startsWith("bb") ? "BH" : "TH"} ${unlock}`, cat.id === "supercharge" ? "Charge" : cat.id === "crafted" ? "Module" : u.levelKind || "Lv") : levelPill(0, 0, unlock ? locked ? `Unlock at ${cat.id.startsWith("bb") ? "BH" : "TH"} ${unlock}` : u.n === "B.O.B Control" ? "Task upgrades" : "Available" : "Hall cap unverified");
     const building = isBuildingCategory(cat);
     const imageLevel = max || Math.min(...Object.keys(caps || {1: 1}).map(Number));
     const source = building ? buildingImage(u, imageLevel, hall)?.url || u.av : u.av;
@@ -373,6 +374,7 @@ function equipmentRowAtHall(u, table, row) {
 function reviewLevelCaption(cat, u) {
   const hall = reviewHall(cat), kind = cat.id.startsWith("bb") ? "BH" : "TH";
   if (u.removedAtTH && hall >= u.removedAtTH) return `Removed at TH ${u.removedAtTH}`;
+  if (u.levelKind === "TH") return "Built into TH12-16";
   if (!u.hallByLevel) return "Hall cap unverified";
   const max = Math.max(0, ...Object.entries(u.hallByLevel).filter(([, h]) => h <= hall).map(([l]) => +l));
   return `max ${max} at ${kind}${hall} \u00b7 ${Math.max(...Object.keys(u.hallByLevel).map(Number))} in game`;
@@ -393,7 +395,7 @@ function reviewUnit(cat, u) {
   const stored = String(S.lvl[key] || "");
   const selected = levels.includes(stored) ? stored : hallLevels[hallLevels.length - 1] || levels[0] || "1";
   const index = levels.indexOf(selected);
-  let html = reviewHallControl(cat) + (S.tab === "info" ? "" : reviewNotice(cat, u)) + `<div class="hero">${detailArtwork(cat, u, selected)}${u.quantityByHall ? quantityAtHall(u, reviewHall(cat)) > 0 ? `<p class="cap"><b>Qty ${quantityAtHall(u, reviewHall(cat))}</b> at ${cat.id.startsWith("bb") ? "BH" : "TH"}${reviewHall(cat)}</p>` : levelUnlockNotice(u.unlockHall, reviewHall(cat), cat.id.startsWith("bb") ? "BH" : "TH") : ""}${levels.length ? `<div class="lvpick"><button id="lvDown" ${index <= 0 ? "disabled" : ""} aria-label="Lower level">&minus;</button><div class="lvnum">${cat.id === "supercharge" ? "Charge" : cat.id === "crafted" ? "Module level" : "Level"} ${esc(selected)}<small>${esc(reviewLevelCaption(cat, u))}</small></div><button id="lvUp" ${index >= levels.length - 1 ? "disabled" : ""} aria-label="Higher level">+</button></div>` : ""}${levelUnlockNotice(u.hallByLevel?.[selected], reviewHall(cat), cat.id.startsWith("bb") ? "BH" : "TH")}${troopLink(cat, u)}</div>${u.imageNote ? `<p class="note">${esc(u.imageNote)}</p>` : ""}`;
+  let html = reviewHallControl(cat) + (S.tab === "info" ? "" : reviewNotice(cat, u)) + `<div class="hero">${detailArtwork(cat, u, selected)}${u.quantityByHall ? quantityAtHall(u, reviewHall(cat)) > 0 ? `<p class="cap"><b>Qty ${quantityAtHall(u, reviewHall(cat))}</b> at ${cat.id.startsWith("bb") ? "BH" : "TH"}${reviewHall(cat)}</p>` : levelUnlockNotice(u.unlockHall, reviewHall(cat), cat.id.startsWith("bb") ? "BH" : "TH") : ""}${levels.length ? `<div class="lvpick"><button id="lvDown" ${index <= 0 ? "disabled" : ""} aria-label="Lower level">&minus;</button><div class="lvnum">${u.levelKind === "TH" ? esc(u.levelLabels[selected]) : `${cat.id === "supercharge" ? "Charge" : cat.id === "crafted" ? "Module level" : "Level"} ${esc(selected)}`}<small>${esc(reviewLevelCaption(cat, u))}</small></div><button id="lvUp" ${index >= levels.length - 1 ? "disabled" : ""} aria-label="Higher level">+</button></div>` : ""}${levelUnlockNotice(u.hallByLevel?.[selected], reviewHall(cat), cat.id.startsWith("bb") ? "BH" : "TH")}${troopLink(cat, u)}</div>${u.imageNote ? `<p class="note">${esc(u.imageNote)}</p>` : ""}`;
   const selectableRow = (t, r) => isUpgradeTable(t) && /^charge/i.test(t.columns[0]) === /^charge/i.test(table?.columns[0] || "") && levels.includes(r[0]);
   const renderTable = (t) => {
     const order = tableColumnOrder(t.columns);
@@ -473,8 +475,8 @@ async function render() {
     if (location.hash !== lastRoute) { if (r.unit) delete S.lvl[`${r.cat}|${r.unit}`]; lastRoute = location.hash; }
     if (!r.cat) return home();
     if (r.cat === "townhall" && r.unit === "Town Hall/Guardians") { location.hash = "#/c/townhall?group=guardians"; return; }
-    if (r.cat === "townhall" && /^Town Hall\/Giga Inferno \(TH1[3-6]\)$/.test(r.unit || "")) {
-      location.hash = "#/c/townhall/" + encodeURIComponent("Town Hall/Giga Inferno"); return;
+    if (r.cat === "townhall" && /^Town Hall\/Giga (?:Tesla|Inferno)(?: \(TH1[3-6]\))?$/.test(r.unit || "")) {
+      location.hash = "#/c/townhall/" + encodeURIComponent("Town Hall/Giga Weapon"); return;
     }
     // Preserve older links after giving Builder Walls its own home tile.
     if (r.cat === "bbbuildings" && r.unit === "Walls/Builder Base") {
