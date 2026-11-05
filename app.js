@@ -256,7 +256,15 @@ function unitView(cat, u) {
   const cs = $("#curSel"); if (cs) cs.onchange = () => { S.cur[key] = +cs.value; unitView(cat, u); };
   tabsEl.querySelectorAll("button").forEach((b) => b.classList.toggle("on", b.dataset.tab === tab));
 }
-function setChrome(t, back, tabs) { titleEl.textContent = t; document.title = t === "Clash Reference" ? t : t + " \u00b7 Clash Reference"; backBtn.hidden = !back; tabsEl.hidden = !tabs; }
+function setChrome(t, back, tabs) { titleEl.textContent = t; document.title = t === "Clash Reference" ? t : t + " \u00b7 Clash Reference"; backBtn.hidden = !back; tabsEl.hidden = !tabs;
+  const r = route();
+  let path = r.cat ? "/c/" + encodeURIComponent(r.cat) + (r.unit ? "/" + encodeURIComponent(r.unit) : "") : "/";
+  const filters = new URLSearchParams();
+  if (r.cat === "equip" && r.hero && CACHE.equip?.units.some((u) => u.hero === r.hero)) filters.set("hero", r.hero);
+  if (r.cat === "townhall" && r.group === "guardians") filters.set("group", r.group);
+  if (filters.size) path += "?" + filters;
+  window.ClashAnalytics?.page({path, title: document.title});
+}
 
 const reviewHall = (cat) => cat.id.startsWith("bb") ? Number(localStorage.getItem("cr.bh") || 10) : S.th;
 const quantityAtHall = (u, hall) => Math.max(0, ...Object.entries(u.quantityByHall || {}).filter(([h]) => +h <= hall).map(([, qty]) => qty));

@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Clash Ref">
 <title>Clash Reference</title>
-<link rel="stylesheet" href="style.css?v=20261104-townhall-live">
+<link rel="stylesheet" href="style.css?v=20261104-ga4">
 </head>
 <body>
 <div class="top">
@@ -24,6 +24,8 @@
     <select id="thSel"></select>
   </label>
   <label class="chk"><input type="checkbox" id="onlyTH"> Limit “To max” totals to my hall</label>
+  <label>Usage analytics <select id="analyticsChoice"><option value="" disabled>Not chosen</option><option value="allow">Allow</option><option value="deny">No thanks</option></select></label>
+  <details class="analytics-details"><summary>About usage analytics</summary><p>Optional Google Analytics measures visits, return visits and pages viewed using first-party cookies. Google receives usage and browser/device information. Advertising personalization is disabled. Choosing No thanks stops collection and removes this site's Google Analytics cookies.</p><p>Your Town Hall choice is saved separately and works without analytics. Analytics reports estimate browsers/devices, not uniquely identified people. <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses this information</a></p></details>
 </div>
 </div>
 <main id="app"><p class="loading">Loading&#8230;</p></main>
@@ -42,6 +44,11 @@
     <button type="submit">Continue</button>
   </form>
 </dialog>
-<script src="app.js?v=20261104-townhall-live"></script>
+<aside id="analyticsNotice" class="analytics-notice" aria-label="Optional usage analytics" hidden>
+  <p>Help improve Clash Ref? Optional Google Analytics uses cookies to measure visits and return visits. You can change this any time in the top-right menu.</p>
+  <div><button id="allowAnalytics" type="button">Allow analytics</button><button id="denyAnalytics" type="button">No thanks</button></div>
+</aside>
+<script src="analytics.js?v=20261104-ga4"></script>
+<script src="app.js?v=20261104-ga4"></script>
 </body>
 </html>

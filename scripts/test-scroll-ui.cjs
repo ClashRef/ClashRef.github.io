@@ -20,6 +20,7 @@ const root = path.resolve(__dirname, '..');
    await page.locator('.tblwrap').waitFor();
    assert(!(await page.locator('body').innerText()).match(/[\u00c2\u00c3]|\u00e2\u20ac/),'Garbled text');
    assert((await page.locator('.lvnum small').innerText()).includes(' · '),'Correct middle dot');
+   await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));
    await page.evaluate(()=>window.scrollTo(0,document.querySelector('.tblwrap').getBoundingClientRect().top+window.scrollY+300));
    await page.locator('.floating-table-header').waitFor({state:'visible'});
    await page.locator('#settingsBtn').click();

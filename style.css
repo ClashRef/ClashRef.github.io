@@ -134,3 +134,11 @@ footer.src a{color:var(--acc2)}
 .hj.open .hjt{display:block;-webkit-line-clamp:unset;overflow:visible}
 .hjc{flex:none;background:none;border:0;color:#ffd27a;font-size:14px;line-height:1;padding:0 2px;cursor:pointer;transition:transform .15s}
 .hj.open .hjc{transform:rotate(180deg)}
+
+.analytics-details{font-size:12px;color:var(--mut)}
+.analytics-details a{color:var(--acc2)}
+.analytics-notice{position:fixed;z-index:8;left:12px;right:12px;bottom:calc(86px + env(safe-area-inset-bottom));max-width:480px;margin:auto;padding:14px;border:1px solid var(--line);border-radius:12px;background:var(--panel);box-shadow:0 4px 24px #000a}
+.analytics-notice p{margin:0 0 12px;font-size:13px}
+.analytics-notice div{display:flex;gap:10px}
+.analytics-notice button{flex:1;min-height:44px;border:1px solid var(--line);border-radius:8px;background:var(--panel2);color:var(--text);font:inherit;cursor:pointer}
+.analytics-notice #allowAnalytics{background:var(--acc);color:white}

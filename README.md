@@ -11,3 +11,23 @@ Upgrade tables and level pickers always include all normal game levels. Rows abo
 Scroll positions are remembered per page and detail tab for the current browser tab, including across refreshes. Returning to a category restores its previous position; this is independent of the level picker default.
 
 Site data lives in `data/`; maintenance and verification scripts live in `scripts/`. Run `node scripts/test-clash.cjs` and `node scripts/test-tile-layout.cjs` for core checks. Browser checks require Playwright.
+
+GA4 uses measurement ID `G-RHQQKT6J0E` in `analytics.js`. Keep the web stream's
+**Enhanced measurement off**: the app sends explicit, deduplicated page views for
+home, categories, items and filtered lists. Level changes, TH/BH changes, searches
+and detail tabs do not generate extra page views. Reports use virtual `/c/...`
+paths for the hash router, not separate server-hosted pages. Only the three
+campaign parameters `utm_source`, `utm_medium` and `utm_campaign` are forwarded;
+search text, arbitrary query parameters and saved hall choices are not sent.
+
+Google loads only on `clashref.github.io`, after an explicit analytics opt-in.
+The saved consent choice is independent of Town Hall settings. Visitors can
+withdraw consent from Usage analytics in the top-right menu; this disables
+collection and clears this site's GA cookies. Advertising storage/personalization
+and Google Signals are disabled. Basic consent mode means opted-out visitors
+are absent from analytics counts, including retention reports.
+
+Run `node scripts/test-analytics.cjs` with Playwright to verify consent gating,
+repeat visits, opt-out, campaign attribution and routing without sending real
+analytics events. Test installation/Realtime on the live site after choosing
+**Allow analytics**. Reports identify browser/device instances, not exact people.
