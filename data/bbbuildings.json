@@ -1435,7 +1435,7 @@
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Construction",
           "columns": [
             "Hitpoints",
             "Build Cost (Builder Gold)",
@@ -1450,6 +1450,37 @@
               "9"
             ]
           ]
+        },
+        {
+          "heading": "Upgrade stats",
+          "note": "These are task-based stages, not paid upgrades. Complete the four tasks to reach stage 5 and unlock B.O.B as an additional Home Village builder.",
+          "columns": [
+            "Control stage",
+            "Task required"
+          ],
+          "rows": [
+            [
+              "1",
+              "Build B.O.B Control at Builder Hall 9 for 100,000 Builder Gold."
+            ],
+            [
+              "2",
+              "Gear up all three Home Village buildings: Cannon, Archer Tower and Mortar."
+            ],
+            [
+              "3",
+              "Upgrade any Builder Base troop to level 18."
+            ],
+            [
+              "4",
+              "Upgrade any Builder Base defense to level 9."
+            ],
+            [
+              "5",
+              "Reach a combined level of 45 with Battle Machine and Battle Copter."
+            ]
+          ],
+          "wrap": true
         }
       ],
       "images": [
@@ -1510,6 +1541,11 @@
         "page": "B.O.B Control",
         "rawWikitextSha256": "e1a79d3c11f4e269115b9617550aa1848d3b55f1cfeed24d59fc64f7106316c5",
         "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+      },
+      "taskVerification": {
+        "checked": "2026-11-04",
+        "source": "https://clashofclans.fandom.com/wiki/B.O.B_Control",
+        "rawWikitextSha256": "e1a79d3c11f4e269115b9617550aa1848d3b55f1cfeed24d59fc64f7106316c5"
       }
     },
     {

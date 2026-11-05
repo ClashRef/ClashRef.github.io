@@ -5,7 +5,8 @@ html,body{margin:0;background:var(--bg);color:var(--text);font:15px/1.4 -apple-s
 body{padding-bottom:calc(76px + env(safe-area-inset-bottom))}
 .top{position:sticky;top:0;z-index:5}
 .bar{display:flex;align-items:center;gap:8px;padding:calc(10px + env(safe-area-inset-top)) 12px 10px;background:#1b1d22;border-bottom:1px solid #000;box-shadow:0 2px 8px #0008}
-.bar h1{flex:1;margin:0;text-align:center;font-size:22px;letter-spacing:.5px;text-transform:uppercase;color:var(--acc);font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar h1{flex:1;min-width:0;margin:0;padding:2px 0;text-align:center;font-size:clamp(16px,5vw,22px);line-height:1.2;letter-spacing:.5px;text-transform:uppercase;color:var(--acc);font-weight:800;white-space:normal;overflow-wrap:normal}
+.bar .back,.bar .gear{flex-shrink:0}
 .back,.gear{background:none;border:0;color:var(--acc);font-size:34px;line-height:1;width:44px;height:36px;padding:0;cursor:pointer}
 .gear{font-size:12px;font-weight:800;border:2px solid var(--acc);border-radius:10px;width:auto;padding:0 8px;height:30px}
 .gear span{font-size:14px;margin-left:2px}
@@ -86,6 +87,9 @@ thead th:first-child{background:var(--panel2);z-index:2}
 tbody tr{background:var(--panel)}
 tbody tr.sel{background:#4a2a1c}
 tbody tr.over td{color:#89909d}
+.wrap-table{white-space:normal}
+.wrap-table td{white-space:normal;text-align:left;line-height:1.5}
+.wrap-table td:first-child{width:4rem;text-align:center}
 .level-unlock{margin:8px 0 0;padding:8px 12px;border:1px solid var(--acc2);border-radius:8px;background:#ffb02015;color:var(--acc2);font-size:14px;font-weight:700;text-align:center}
 td.cost{color:var(--elix)}
 .note{color:var(--mut);font-size:12px;margin:10px 4px}

@@ -11,7 +11,7 @@
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Upgrade stats",
           "columns": [
             "TH Level",
             "Hitpoints",
@@ -19,7 +19,12 @@
             "Build Time",
             "Experience Gained",
             "Maximum Number of Buildings Available*",
-            "Maximum Number of Traps Available"
+            "Maximum Number of Traps Available",
+            "Gold capacity",
+            "Elixir capacity",
+            "Dark Elixir capacity",
+            "Total Gold/Elixir storage (each)",
+            "Total Dark Elixir storage"
           ],
           "rows": [
             [
@@ -29,7 +34,12 @@
               "N/A",
               "N/A",
               "13",
-              "N/A"
+              "N/A",
+              "1,000",
+              "1,000",
+              "-",
+              "2,500",
+              "-"
             ],
             [
               "2",
@@ -38,175 +48,7 @@
               "10s",
               "3",
               "17",
-              "N/A"
-            ],
-            [
-              "3",
-              "1,600",
-              "4,000",
-              "30m",
-              "42",
-              "25",
-              "2"
-            ],
-            [
-              "4",
-              "2,000",
-              "25,000",
-              "3h",
-              "103",
-              "29",
-              "4"
-            ],
-            [
-              "5",
-              "2,400",
-              "150,000",
-              "6h",
-              "146",
-              "36",
-              "8"
-            ],
-            [
-              "6",
-              "2,800",
-              "500,000",
-              "12h",
-              "207",
-              "42",
-              "11"
-            ],
-            [
-              "7",
-              "3,300",
-              "1,000,000",
-              "18h",
-              "254",
-              "54",
-              "15"
-            ],
-            [
-              "8",
-              "3,900",
-              "2,000,000",
-              "1d",
-              "293",
-              "64",
-              "23"
-            ],
-            [
-              "9",
-              "4,600",
-              "2,500,000",
-              "2d",
-              "415",
-              "77",
-              "26"
-            ],
-            [
-              "10",
-              "5,500",
-              "3,500,000",
-              "3d",
-              "509",
-              "84",
-              "30"
-            ],
-            [
-              "11",
-              "6,800",
-              "4,000,000",
-              "5d",
-              "657",
-              "89",
-              "31"
-            ],
-            [
-              "12",
-              "7,500",
-              "6,000,000",
-              "6d",
-              "720",
-              "92",
-              "36"
-            ],
-            [
-              "13",
-              "8,200",
-              "9,000,000",
-              "7d",
-              "777",
-              "94",
-              "39"
-            ],
-            [
-              "14",
-              "8,900",
-              "12,000,000",
-              "7d 12h",
-              "804",
-              "95",
-              "44"
-            ],
-            [
-              "15",
-              "9,600",
-              "13,000,000",
-              "8d",
-              "831",
-              "98",
-              "44"
-            ],
-            [
-              "16",
-              "10,000",
-              "15,000,000",
-              "9d",
-              "881",
-              "94",
-              "44"
-            ],
-            [
-              "17",
-              "10,400",
-              "16,000,000",
-              "10d",
-              "929",
-              "93",
-              "47"
-            ],
-            [
-              "18",
-              "10,800",
-              "25,000,000",
-              "12d",
-              "1,018",
-              "94",
-              "47"
-            ]
-          ]
-        },
-        {
-          "heading": "Storage Capacity of the Town Hall",
-          "columns": [
-            "TH Level",
-            "Gold Available",
-            "Elixir Available",
-            "Dark Elixir Available",
-            "Gold/Elixir Available Including Storages",
-            "Dark Elixir Available Including Storages"
-          ],
-          "rows": [
-            [
-              "1",
-              "1,000",
-              "1,000",
-              "-",
-              "2,500",
-              "-"
-            ],
-            [
-              "2",
+              "N/A",
               "2,500",
               "2,500",
               "-",
@@ -215,6 +57,12 @@
             ],
             [
               "3",
+              "1,600",
+              "4,000",
+              "30m",
+              "42",
+              "25",
+              "2",
               "10,000",
               "10,000",
               "-",
@@ -222,6 +70,12 @@
               "-"
             ],
             [
+              "4",
+              "2,000",
+              "25,000",
+              "3h",
+              "103",
+              "29",
               "4",
               "50,000",
               "50,000",
@@ -231,6 +85,12 @@
             ],
             [
               "5",
+              "2,400",
+              "150,000",
+              "6h",
+              "146",
+              "36",
+              "8",
               "100,000",
               "100,000",
               "-",
@@ -239,6 +99,12 @@
             ],
             [
               "6",
+              "2,800",
+              "500,000",
+              "12h",
+              "207",
+              "42",
+              "11",
               "300,000",
               "300,000",
               "-",
@@ -247,6 +113,12 @@
             ],
             [
               "7",
+              "3,300",
+              "1,000,000",
+              "18h",
+              "254",
+              "54",
+              "15",
               "500,000",
               "500,000",
               "2,500",
@@ -255,6 +127,12 @@
             ],
             [
               "8",
+              "3,900",
+              "2,000,000",
+              "1d",
+              "293",
+              "64",
+              "23",
               "750,000",
               "750,000",
               "5,000",
@@ -263,6 +141,12 @@
             ],
             [
               "9",
+              "4,600",
+              "2,500,000",
+              "2d",
+              "415",
+              "77",
+              "26",
               "1,000,000",
               "1,000,000",
               "10,000",
@@ -271,6 +155,12 @@
             ],
             [
               "10",
+              "5,500",
+              "3,500,000",
+              "3d",
+              "509",
+              "84",
+              "30",
               "1,500,000",
               "1,500,000",
               "20,000",
@@ -279,6 +169,12 @@
             ],
             [
               "11",
+              "6,800",
+              "4,000,000",
+              "5d",
+              "657",
+              "89",
+              "31",
               "2,000,000",
               "2,000,000",
               "20,000",
@@ -287,6 +183,12 @@
             ],
             [
               "12",
+              "7,500",
+              "6,000,000",
+              "6d",
+              "720",
+              "92",
+              "36",
               "2,000,000",
               "2,000,000",
               "20,000",
@@ -295,6 +197,12 @@
             ],
             [
               "13",
+              "8,200",
+              "9,000,000",
+              "7d",
+              "777",
+              "94",
+              "39",
               "2,000,000",
               "2,000,000",
               "20,000",
@@ -303,6 +211,12 @@
             ],
             [
               "14",
+              "8,900",
+              "12,000,000",
+              "7d 12h",
+              "804",
+              "95",
+              "44",
               "3,000,000",
               "3,000,000",
               "30,000",
@@ -311,6 +225,12 @@
             ],
             [
               "15",
+              "9,600",
+              "13,000,000",
+              "8d",
+              "831",
+              "98",
+              "44",
               "3,000,000",
               "3,000,000",
               "30,000",
@@ -319,6 +239,12 @@
             ],
             [
               "16",
+              "10,000",
+              "15,000,000",
+              "9d",
+              "881",
+              "94",
+              "44",
               "4,000,000",
               "4,000,000",
               "40,000",
@@ -327,6 +253,12 @@
             ],
             [
               "17",
+              "10,400",
+              "16,000,000",
+              "10d",
+              "929",
+              "93",
+              "47",
               "4,000,000",
               "4,000,000",
               "40,000",
@@ -335,11 +267,124 @@
             ],
             [
               "18",
+              "10,800",
+              "25,000,000",
+              "12d",
+              "1,018",
+              "94",
+              "47",
               "5,000,000",
               "5,000,000",
               "50,000",
               "31,000,000",
               "500,000"
+            ]
+          ],
+          "note": "Capacity is held by the Town Hall itself; total storage includes the separate resource storages."
+        },
+        {
+          "heading": "Loot Modifications",
+          "columns": [
+            "Town Hall Level Difference",
+            "Percentage of Loot Available"
+          ],
+          "rows": [
+            [
+              "4 or more levels higher",
+              "200%"
+            ],
+            [
+              "3 levels higher",
+              "175%"
+            ],
+            [
+              "2 levels higher",
+              "150%"
+            ],
+            [
+              "1 level higher",
+              "120%"
+            ],
+            [
+              "Same level",
+              "100%"
+            ],
+            [
+              "1 level lower",
+              "80%"
+            ],
+            [
+              "2 levels lower",
+              "50%"
+            ],
+            [
+              "3 levels lower",
+              "25%"
+            ],
+            [
+              "4 or more levels lower",
+              "5%"
+            ]
+          ]
+        },
+        {
+          "heading": "Town Hall and Event Loot",
+          "columns": [
+            "Town Hall Level",
+            "Percentage of Event Loot Available"
+          ],
+          "rows": [
+            [
+              "1",
+              "1%"
+            ],
+            [
+              "2",
+              "2%"
+            ],
+            [
+              "3",
+              "3%"
+            ],
+            [
+              "4",
+              "5%"
+            ],
+            [
+              "5",
+              "8%"
+            ],
+            [
+              "6",
+              "16%"
+            ],
+            [
+              "7",
+              "30%"
+            ],
+            [
+              "8",
+              "50%"
+            ],
+            [
+              "9",
+              "65%"
+            ],
+            [
+              "10",
+              "80%"
+            ],
+            [
+              "11",
+              "90%"
+            ],
+            [
+              "12",
+              "95%"
+            ],
+            [
+              "13 or higher",
+              "100%"
             ]
           ]
         },
@@ -1324,7 +1369,7 @@
             ],
             [
               "TH Level",
-              "Giga Inferno †",
+              "Giga Inferno â€ ",
               "Scattershot",
               "Builder's Hut #",
               "Spell Tower",
@@ -2270,112 +2315,6 @@
               "5",
               "3",
               "3"
-            ]
-          ]
-        },
-        {
-          "heading": "Loot Modifications",
-          "columns": [
-            "Town Hall Level Difference",
-            "Percentage of Loot Available"
-          ],
-          "rows": [
-            [
-              "4 or more levels higher",
-              "200%"
-            ],
-            [
-              "3 levels higher",
-              "175%"
-            ],
-            [
-              "2 levels higher",
-              "150%"
-            ],
-            [
-              "1 level higher",
-              "120%"
-            ],
-            [
-              "Same level",
-              "100%"
-            ],
-            [
-              "1 level lower",
-              "80%"
-            ],
-            [
-              "2 levels lower",
-              "50%"
-            ],
-            [
-              "3 levels lower",
-              "25%"
-            ],
-            [
-              "4 or more levels lower",
-              "5%"
-            ]
-          ]
-        },
-        {
-          "heading": "Town Hall and Event Loot",
-          "columns": [
-            "Town Hall Level",
-            "Percentage of Event Loot Available"
-          ],
-          "rows": [
-            [
-              "1",
-              "1%"
-            ],
-            [
-              "2",
-              "2%"
-            ],
-            [
-              "3",
-              "3%"
-            ],
-            [
-              "4",
-              "5%"
-            ],
-            [
-              "5",
-              "8%"
-            ],
-            [
-              "6",
-              "16%"
-            ],
-            [
-              "7",
-              "30%"
-            ],
-            [
-              "8",
-              "50%"
-            ],
-            [
-              "9",
-              "65%"
-            ],
-            [
-              "10",
-              "80%"
-            ],
-            [
-              "11",
-              "90%"
-            ],
-            [
-              "12",
-              "95%"
-            ],
-            [
-              "13 or higher",
-              "100%"
             ]
           ]
         }
@@ -3521,5 +3460,27 @@
   ],
   "unverified": [],
   "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
-  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
+  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+  "sections": [
+    {
+      "heading": "Town Hall weapons",
+      "units": [
+        "Town Hall/Giga Tesla",
+        "Town Hall/Giga Inferno (TH13)",
+        "Town Hall/Giga Inferno (TH14)",
+        "Town Hall/Giga Inferno (TH15)",
+        "Town Hall/Giga Inferno (TH16)",
+        "Town Hall/Inferno Artillery"
+      ]
+    },
+    {
+      "heading": "Guardians",
+      "units": [
+        "Town Hall/Guardians",
+        "Longshot",
+        "Smasher",
+        "Logger"
+      ]
+    }
+  ]
 }

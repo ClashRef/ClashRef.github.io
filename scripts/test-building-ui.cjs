@@ -49,7 +49,9 @@ function expectedImage(u, level, hall) {
               const unlock = u.hallByLevel ? Math.min(...Object.values(u.hallByLevel)) : u.unlockHall;
               if (unlock > hall) assert((await tile.innerText()).includes(`Unlock at ${id.startsWith('bb') ? 'BH' : 'TH'} ${unlock}`));
               if (u.quantityByHall && hall >= unlock) assert((await tile.innerText()).includes(`Qty ${Math.max(0,...Object.entries(u.quantityByHall).filter(([h])=>+h<=hall).map(([,q])=>q))}`));
-              assert.equal(await tile.locator('.full-max').count(), max > 0 && max === Math.max(...Object.keys(u.hallByLevel).map(Number)) && !(u.removedAtTH && hall >= u.removedAtTH) ? 1 : 0);
+              const quantity = u.quantityByHall ? Math.max(0,...Object.entries(u.quantityByHall).filter(([h])=>+h<=hall).map(([,q])=>q)) : null;
+              const full = quantity !== null ? quantity > 0 && quantity === Math.max(...Object.values(u.quantityByHall)) : max > 0 && max === Math.max(...Object.keys(u.hallByLevel).map(Number)) && !(u.removedAtTH && hall >= u.removedAtTH);
+              assert.equal(await tile.locator('.full-max').count(), full ? 1 : 0);
             }
             const failures = await page.locator('.tile.building').evaluateAll(cards => cards.flatMap(card => {
               const b = card.getBoundingClientRect(), label = card.querySelector('.lbl').getBoundingClientRect(), art = card.querySelector('.tile-art').getBoundingClientRect();
@@ -74,6 +76,24 @@ function expectedImage(u, level, hall) {
           assert(captions.every(text => !/\.(?:png|webp|jpg)/i.test(text)));
           assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
         }
+        await page.evaluate(()=>{S.tab='stats';location.hash='#/c/bbbuildings/B.O.B%20Control';});
+        await page.locator('.wrap-table').waitFor();
+        assert.equal(await page.locator('.wrap-table tbody tr').count(),5);
+        assert((await page.locator('.wrap-table').innerText()).includes('combined level of 45'));
+        assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+        for(const [id,name,display] of [['bbbuildings','Gold Mine/Builder Base','Gold Mine'],['townhall','Town Hall/Giga Inferno (TH14)','Giga Inferno (TH14)']]) {
+          await page.evaluate(({id,name})=>location.hash=`#/c/${id}/${encodeURIComponent(name)}`,{id,name});
+          await page.waitForFunction(display=>document.querySelector('#title').textContent===display,display);
+          assert(await page.locator('#title').evaluate(el=>el.scrollWidth<=el.clientWidth+1&&el.scrollHeight<=el.clientHeight+1),`Entire title fits without clipping: ${engine.name()} ${width}px ${display} ${JSON.stringify(await page.locator('#title').evaluate(el=>({sw:el.scrollWidth,cw:el.clientWidth,sh:el.scrollHeight,ch:el.clientHeight,css:getComputedStyle(el).cssText})))}`);
+        }
+        await page.evaluate(()=>location.hash='#/c/townhall');
+        await page.waitForFunction(()=>document.querySelectorAll('.equipment-group').length===2);
+        assert.deepEqual(await page.locator('.equipment-group').allTextContents(),['Town Hall weapons','Guardians']);
+        assert((await page.locator('.grid.units > a').first().getAttribute('href')).endsWith('/Town%20Hall'));
+        await page.locator('.grid.units > a').first().click();
+        await page.locator('.hero').waitFor();
+        assert.deepEqual((await page.locator('h3.sec').allTextContents()).slice(0,3),['Upgrade stats','Loot Modifications','Town Hall and Event Loot']);
+        assert((await page.locator('.tblwrap').first().innerText()).includes('Gold capacity'));
         assert.deepEqual(errors, []);
         await page.close();
       }

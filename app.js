@@ -63,7 +63,8 @@ const imgFor = (u, lvl) => {
 };
 function levelPill(level, fullMax, fallback, kind = "Lv") {
   const full = level > 0 && level === fullMax;
-  return `<span class="sub${full ? " full-max" : ""}"${full ? ' title="Maximum level in game" aria-label="' + kind + ' ' + level + ', maximum level in game"' : ''}>${level ? kind + " " + level : esc(fallback)}</span>`;
+  const maximum = kind === "Qty" ? "Maximum quantity in game" : "Maximum level in game";
+  return `<span class="sub${full ? " full-max" : ""}"${full ? ` title="${maximum}" aria-label="${kind} ${level}, ${maximum.toLowerCase()}"` : ''}>${level ? kind + " " + level : esc(fallback)}</span>`;
 }
 const img = (src, alt, cls = "") => `<img class="${cls}" src="${esc(src)}" alt="${esc(alt)}" loading="${cls === "av" || cls === "lv" ? "eager" : "lazy"}" referrerpolicy="no-referrer">`;
 // Keep source labels in tooltips/accessibility text; only compact their presentation.
@@ -200,7 +201,7 @@ function detailArtwork(cat, u, level) {
 }
 function unitView(cat, u) {
   if (cat.format === "wiki-review-v1") return reviewUnit(cat, u);
-  setChrome(u.n, true, true);
+  setChrome(isBuildingCategory(cat) ? buildingLabel(u.n) : u.n, true, true);
   const k = u.c.length, maxAll = +u.l[u.l.length - 1][0], mTH = maxAt(cat, u);
   const levels = u.l.map((r) => +r[0]);
   const key = cat.id + "|" + u.n;
@@ -303,7 +304,7 @@ function reviewCategory(cat) {
     const unlock = caps ? Math.min(...Object.values(caps)) : u.unlockHall;
     const removed = u.removedAtTH && hall >= u.removedAtTH;
     const locked = max === 0 || (unlock && hall < unlock);
-    const badge = u.quantityByHall && quantityAtHall(u, hall) > 0 ? levelPill(0, 0, `Qty ${quantityAtHall(u, hall)}`) : removed ? levelPill(0, 0, `Removed at TH ${u.removedAtTH}`) : caps ? levelPill(max, Math.max(...Object.keys(caps).map(Number)), `Unlock at ${cat.id.startsWith("bb") ? "BH" : "TH"} ${unlock}`, cat.id === "supercharge" ? "Charge" : cat.id === "crafted" ? "Module" : "Lv") : levelPill(0, 0, unlock ? locked ? `Unlock at ${cat.id.startsWith("bb") ? "BH" : "TH"} ${unlock}` : u.n === "B.O.B Control" ? "Task upgrades" : "Available" : "Hall cap unverified");
+    const badge = u.quantityByHall && quantityAtHall(u, hall) > 0 ? levelPill(quantityAtHall(u, hall), Math.max(...Object.values(u.quantityByHall)), "", "Qty") : removed ? levelPill(0, 0, `Removed at TH ${u.removedAtTH}`) : caps ? levelPill(max, Math.max(...Object.keys(caps).map(Number)), `Unlock at ${cat.id.startsWith("bb") ? "BH" : "TH"} ${unlock}`, cat.id === "supercharge" ? "Charge" : cat.id === "crafted" ? "Module" : "Lv") : levelPill(0, 0, unlock ? locked ? `Unlock at ${cat.id.startsWith("bb") ? "BH" : "TH"} ${unlock}` : u.n === "B.O.B Control" ? "Task upgrades" : "Available" : "Hall cap unverified");
     const building = isBuildingCategory(cat);
     const imageLevel = max || Math.min(...Object.keys(caps || {1: 1}).map(Number));
     const source = building ? buildingImage(u, imageLevel, hall)?.url || u.av : u.av;
@@ -313,7 +314,13 @@ function reviewCategory(cat) {
   const tiles = cat.id === "equip" ? heroes.map((name) => {
     const items = list.filter((u) => u.hero === name);
     return items.length ? `<h2 class="equipment-group">${esc(name)}</h2>${items.map(renderTile).join("")}` : "";
-  }).join("") : list.map(renderTile).join("");
+  }).join("") : cat.sections ? (() => {
+    const grouped = new Set(cat.sections.flatMap((section) => section.units));
+    return list.filter((u) => !grouped.has(u.n)).map(renderTile).join("") + cat.sections.map((section) => {
+      const items = list.filter((u) => section.units.includes(u.n));
+      return items.length ? `<h2 class="equipment-group">${esc(section.heading)}</h2>${items.map(renderTile).join("")}` : "";
+    }).join("");
+  })() : list.map(renderTile).join("");
   const filter = cat.id === "equip" ? `<div class="equipment-filter"><label for="heroFilter">Hero</label><select id="heroFilter"><option value="">All heroes</option>${heroes.map((name) => `<option value="${esc(name)}" ${name === hero ? "selected" : ""}>${esc(name)}</option>`).join("")}</select>${hero ? `<a href="#/c/equip">All equipment</a>` : ""}</div>` : "";
   app.innerHTML = reviewHallControl(cat) + filter + reviewNotice(cat) + `<input class="search" id="q" type="search" placeholder="Search ${esc(cat.label)}" value="${esc(q)}"><div class="grid units">${tiles}</div>${!list.length ? `<p class="note">No matching equipment or items.</p>` : ""}`;
   bindReviewHall(cat, () => reviewCategory(cat));
@@ -373,7 +380,7 @@ function reviewRowHall(u, table, row) {
   return index >= 0 ? parseInt(row[index], 10) || u.hallByLevel?.[row[0]] : isUpgradeTable(table) ? u.hallByLevel?.[row[0]] : null;
 }
 function reviewUnit(cat, u) {
-  setChrome(u.n, true, true);
+  setChrome(isBuildingCategory(cat) ? buildingLabel(u.n) : u.n, true, true);
   const key = `${cat.id}|${u.n}`;
   const table = u.tables.find((t) => isUpgradeTable(t) && t.rows.some((r) => /^\d+$/.test(r[0])));
   const levels = table ? table.rows.map((r) => r[0]).filter((v) => /^\d+$/.test(v)) : [];
@@ -385,7 +392,7 @@ function reviewUnit(cat, u) {
   const selectableRow = (t, r) => isUpgradeTable(t) && /^charge/i.test(t.columns[0]) === /^charge/i.test(table?.columns[0] || "") && levels.includes(r[0]);
   const renderTable = (t) => {
     const order = tableColumnOrder(t.columns);
-    return `<h3 class="sec">${esc(tableTitle(t, cat))}</h3>${t.note ? `<p class="note">${esc(t.note)}</p>` : ""}<div class="tblwrap"><table><thead><tr>${order.map((i) => columnHeader(t.columns[i])).join("")}</tr></thead><tbody>${t.rows.map((r) => `<tr ${selectableRow(t, r) ? `data-review-level="${esc(r[0])}"` : ""} class="${selectableRow(t, r) && r[0] === selected ? "sel " : ""}${reviewRowHall(u, t, r) > reviewHall(cat) ? "over" : ""}">${order.map((i) => `<td${/cost/i.test(t.columns[i]) ? ' class="cost"' : ''}>${i === 0 && t.markedLevels?.[r[0]] ? `<abbr title="${esc(t.markedLevels[r[0]])}">${esc(r[i])}*</abbr>` : esc(r[i] ?? "")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+    return `<h3 class="sec">${esc(tableTitle(t, cat))}</h3>${t.note ? `<p class="note">${esc(t.note)}</p>` : ""}<div class="tblwrap"><table${t.wrap ? ' class="wrap-table"' : ""}><thead><tr>${order.map((i) => columnHeader(t.columns[i])).join("")}</tr></thead><tbody>${t.rows.map((r) => `<tr ${selectableRow(t, r) ? `data-review-level="${esc(r[0])}"` : ""} class="${selectableRow(t, r) && r[0] === selected ? "sel " : ""}${reviewRowHall(u, t, r) > reviewHall(cat) ? "over" : ""}">${order.map((i) => `<td${/cost/i.test(t.columns[i]) ? ' class="cost"' : ''}>${i === 0 && t.markedLevels?.[r[0]] ? `<abbr title="${esc(t.markedLevels[r[0]])}">${esc(r[i])}*</abbr>` : esc(r[i] ?? "")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
   };
   if (S.tab === "images") {
     html += `<div class="imgs-list">${galleryEntries(u).map((i) => `<figure class="${i.level === +selected ? "sel" : ""}">${img(i.url, `${u.n}: ${i.label}`)}<figcaption>${esc(i.label)}</figcaption></figure>`).join("")}</div>`;
