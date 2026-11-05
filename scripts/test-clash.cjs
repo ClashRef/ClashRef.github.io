@@ -33,7 +33,7 @@ function context(search, savedTH = null) {
  }
  const {ctx,html}=context('?preview=all');
  let count=0;
- for(const file of fs.readdirSync(path.join(root,'data')).filter(f=>f.endsWith('.json')&&!['categories.json','info.json'].includes(f))) {
+ for(const file of fs.readdirSync(path.join(root,'data')).filter(f=>f.endsWith('.json')&&!['categories.json','info.json','levels.json'].includes(f))) {
   const cat=JSON.parse(fs.readFileSync(path.join(root,'data',file)));
   ctx.testCat=cat;
   vm.runInContext('catView(testCat)',ctx);

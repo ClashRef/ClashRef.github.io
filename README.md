@@ -31,3 +31,17 @@ Run `node scripts/test-analytics.cjs` with Playwright to verify consent gating,
 repeat visits, opt-out, campaign attribution and routing without sending real
 analytics events. Test installation/Realtime on the live site after choosing
 **Allow analytics**. Reports identify browser/device instances, not exact people.
+
+Agent summary: fetch https://clashref.github.io/data/levels.json once for every category,
+including locked sections. Rebuild with `python scripts/build-levels.py`; verify with
+`python scripts/test-levels.py`. The top-level `keys` legend documents the schema.
+`level`, `cost`, `resource`, `time`, `seconds`, `th`/`bh`, `lab`, `starLab`, `hh`,
+`ph`, and `bs` use consistent names. Multiple costs/resources are aligned arrays;
+`payment: "all"` means simultaneous payments and `"any"` means alternatives.
+`table`, `row`, and `levelKind` preserve modules, modes, charges, stages and camp
+quantities; do not add duplicate mode tables together. Item prerequisites, source
+notes, acquisition conditions, removals and Super Troop boost costs are retained.
+Costs are incremental, not cumulative; sum only upgrades above the current level.
+Null means unavailable in the source, not free. Explicit untimed upgrades use zero
+seconds. Static items with no source levels remain present with an empty levels
+array. The summary reflects source caveats and does not independently verify game data.
