@@ -100,7 +100,7 @@
      "id": "townhall",
      "label": "Town Hall",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/7/76/Town_Hall18.png/revision/latest?cb=20251117162127",
-     "data": null
+     "data": "data/townhall.json"
     },
     {
      "id": "crafted",

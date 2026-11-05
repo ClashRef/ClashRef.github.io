@@ -1408,8 +1408,9 @@
           "rawWikitextSHA256": "eb172a2d440126505bd830a022993f15d0bbaefc263c3fee9dc68bc2d3810d35"
         },
         "mechanics": [
-          "The TH16-to-TH17 upgrade merges the level 7 Eagle Artillery with the Town Hall to create the Inferno Artillery.",
-          "There is no separate Eagle Artillery at TH17 or above. Its lower-TH stats remain available for reference."
+          "Before upgrading TH16 to TH17, the Eagle Artillery must be level 7, its maximum level. A lower-level Eagle cannot be merged.",
+          "The TH17 upgrade permanently merges the Eagle Artillery into the Town Hall to create a level 1 Inferno Artillery. The Eagle is removed as a separate defense; its seven levels do not transfer into seven weapon levels.",
+          "Inferno Artillery has its own upgrade progression after the merge."
         ]
       },
       "Scattershot": {
@@ -1859,7 +1860,11 @@
           "url": "https://clashofclans.fandom.com/wiki/Town_Hall",
           "revision": 625396,
           "rawWikitextSHA256": "7391b40e86a5928c45526aa403dcc58f55df46d67e2b17cee759ac46fd347b6d"
-        }
+        },
+        "mechanics": [
+          "Upgrading TH16 to TH17 requires a max-level (level 7) Eagle Artillery and the required TH16 merged defenses.",
+          "The upgrade permanently consumes the Eagle Artillery and creates a level 1 Inferno Artillery in the Town Hall. Eagle levels do not become weapon levels; the new weapon is upgraded separately."
+        ]
       },
       "Town Hall/Inferno Artillery": {
         "overview": "The TH17 Town Hall weapon is created by merging the Town Hall with the Eagle Artillery.",
@@ -1868,7 +1873,11 @@
           "url": "https://clashofclans.fandom.com/wiki/Town_Hall/Inferno_Artillery",
           "revision": 622642,
           "rawWikitextSHA256": "433ffd4f64f409e5a71dcbf8726e2ff77e936c61f439674413cbfa79438cc964"
-        }
+        },
+        "mechanics": [
+          "The TH17 merge requires TH16 and a level 7 Eagle Artillery, the maximum Eagle level. Lower-level Eagles cannot be merged.",
+          "The Eagle Artillery permanently disappears as a separate building. The new Inferno Artillery starts at level 1 and has its own upgrades; Eagle levels are not transferred as weapon levels."
+        ]
       },
       "Town Hall/Guardians": {
         "overview": "At TH18, a selected Guardian defends the Town Hall in place of an integrated weapon. Only one Guardian is assigned at a time.",

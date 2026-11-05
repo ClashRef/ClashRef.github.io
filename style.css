@@ -4,7 +4,10 @@
 html,body{margin:0;background:var(--bg);color:var(--text);font:15px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
 body{padding-bottom:calc(76px + env(safe-area-inset-bottom))}
 .top{position:sticky;top:0;z-index:5}
-.bar{display:flex;align-items:center;gap:8px;padding:calc(10px + env(safe-area-inset-top)) 12px 10px;background:#1b1d22;border-bottom:1px solid #000;box-shadow:0 2px 8px #0008}
+.bar{display:grid;grid-template-columns:minmax(64px,1fr) minmax(0,auto) minmax(64px,1fr);align-items:center;gap:8px;padding:calc(10px + env(safe-area-inset-top)) 12px 10px;background:#1b1d22;border-bottom:1px solid #000;box-shadow:0 2px 8px #0008}
+.bar .back{grid-column:1;grid-row:1;justify-self:start}
+.bar h1{grid-column:2;grid-row:1}
+.bar .gear{grid-column:3;grid-row:1;justify-self:end}
 .bar h1{flex:1;min-width:0;margin:0;padding:2px 0;text-align:center;font-size:clamp(16px,5vw,22px);line-height:1.2;letter-spacing:.5px;text-transform:uppercase;color:var(--acc);font-weight:800;white-space:normal;overflow-wrap:normal}
 .bar .back,.bar .gear{flex-shrink:0}
 .back,.gear{background:none;border:0;color:var(--acc);font-size:34px;line-height:1;width:44px;height:36px;padding:0;cursor:pointer}
