@@ -1350,7 +1350,7 @@
             ],
             [
               "TH Level",
-              "Giga Inferno â€ ",
+              "Giga Inferno Ã¢â‚¬Â ",
               "Scattershot",
               "Builder's Hut #",
               "Spell Tower",
@@ -2546,14 +2546,16 @@
       }
     },
     {
-      "n": "Town Hall/Giga Inferno (TH13)",
+      "n": "Town Hall/Giga Inferno",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/9/90/Giga_Inferno13.png/revision/latest?cb=20251008133511",
-      "source": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Inferno_(TH13)",
+      "source": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Inferno",
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Giga Inferno stages",
           "columns": [
+            "Level",
+            "Town Hall Level Required",
             "Damage per Second per Target",
             "Damage per Hit",
             "Number of Targets",
@@ -2562,10 +2564,14 @@
             "Speed Decrease",
             "Attack Rate Decrease",
             "Slowdown Time when Destroyed",
-            "Hitpoints"
+            "Hitpoints",
+            "Poison Max DPS",
+            "Poison duration when Destroyed"
           ],
           "rows": [
             [
+              "1",
+              "13",
               "220",
               "28.16",
               "4",
@@ -2574,12 +2580,59 @@
               "50%",
               "50%",
               "8s",
-              "8,200"
+              "8,200",
+              "-",
+              "-"
+            ],
+            [
+              "2",
+              "14",
+              "280",
+              "35.84",
+              "4",
+              "900",
+              "4 tiles",
+              "50%",
+              "50%",
+              "-",
+              "8,900",
+              "180",
+              "12s"
+            ],
+            [
+              "3",
+              "15",
+              "300",
+              "38.4",
+              "4",
+              "1,000",
+              "4.5 tiles",
+              "50%",
+              "50%",
+              "-",
+              "9,600",
+              "180",
+              "12s"
+            ],
+            [
+              "4",
+              "16",
+              "300",
+              "38.4",
+              "4",
+              "1,100",
+              "4.5 tiles",
+              "50%",
+              "50%",
+              "-",
+              "10,000",
+              "180",
+              "12s"
             ]
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Attack details",
           "columns": [
             "Range",
             "Attack Speed",
@@ -2600,248 +2653,98 @@
         {
           "file": "File:Giga Inferno13.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/9/90/Giga_Inferno13.png/revision/latest?cb=20251008133511"
-        }
-      ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
-      "unlockHall": 13,
-      "removedAtTH": 14,
-      "staticImage": {
-        "file": "File:Giga Inferno13.png",
-        "url": "https://static.wikia.nocookie.net/clashofclans/images/9/90/Giga_Inferno13.png/revision/latest?cb=20251008133511"
-      },
-      "imageVerification": {
-        "checked": "2026-11-03",
-        "page": "Town Hall/Giga Inferno (TH13)",
-        "rawWikitextSha256": "f18c77df42c18d1cd8e10ff7129cca816876238ecddbd9fb4a49a3e8bedeb8e3",
-        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
-      }
-    },
-    {
-      "n": "Town Hall/Giga Inferno (TH14)",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/6/61/Giga_Inferno14.png/revision/latest?cb=20251008133548",
-      "source": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Inferno_(TH14)",
-      "revision": null,
-      "tables": [
-        {
-          "heading": "Statistics",
-          "columns": [
-            "Damage per Second per Target",
-            "Damage per Hit",
-            "Number of targets",
-            "Damage when destroyed",
-            "Death Damage Radius",
-            "Poison Max DPS",
-            "Speed decrease",
-            "Attack Rate decrease",
-            "Poison duration when Destroyed",
-            "Hitpoints"
-          ],
-          "rows": [
-            [
-              "280",
-              "35.84",
-              "4",
-              "900",
-              "4 tiles",
-              "180",
-              "50%",
-              "50%",
-              "12s",
-              "8,900"
-            ]
-          ]
         },
-        {
-          "heading": "Statistics",
-          "columns": [
-            "Range",
-            "Attack Speed",
-            "Damage Type",
-            "Unit Type Targeted"
-          ],
-          "rows": [
-            [
-              "10",
-              "0.128s",
-              "Multiple Targets",
-              "Ground & Air"
-            ]
-          ]
-        }
-      ],
-      "images": [
         {
           "file": "File:Giga Inferno14.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/6/61/Giga_Inferno14.png/revision/latest?cb=20251008133548"
-        }
-      ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
-      "unlockHall": 14,
-      "removedAtTH": 15,
-      "staticImage": {
-        "file": "File:Giga Inferno14.png",
-        "url": "https://static.wikia.nocookie.net/clashofclans/images/6/61/Giga_Inferno14.png/revision/latest?cb=20251008133548"
-      },
-      "imageVerification": {
-        "checked": "2026-11-03",
-        "page": "Town Hall/Giga Inferno (TH14)",
-        "rawWikitextSha256": "785ba3b4d1a482e97d9e00bf43b75ba8ff3b66e3a350c4e1686e2c122056f32c",
-        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
-      }
-    },
-    {
-      "n": "Town Hall/Giga Inferno (TH15)",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/0/01/Giga_Inferno15.png/revision/latest?cb=20251008075751",
-      "source": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Inferno_(TH15)",
-      "revision": null,
-      "tables": [
-        {
-          "heading": "Statistics",
-          "columns": [
-            "Damage per Second per Target",
-            "Damage per Hit",
-            "Number of Targets",
-            "Damage when Destroyed",
-            "Death Damage Radius",
-            "Poison Max DPS",
-            "Speed Decrease",
-            "Attack Rate Decrease",
-            "Poison duration when Destroyed",
-            "Hitpoints"
-          ],
-          "rows": [
-            [
-              "300",
-              "38.4",
-              "4",
-              "1,000",
-              "4.5 tiles",
-              "180",
-              "50%",
-              "50%",
-              "12s",
-              "9,600"
-            ]
-          ]
         },
-        {
-          "heading": "Statistics",
-          "columns": [
-            "Range",
-            "Attack Speed",
-            "Damage Type",
-            "Unit Type Targeted"
-          ],
-          "rows": [
-            [
-              "10",
-              "0.128s",
-              "Multiple Targets",
-              "Ground & Air"
-            ]
-          ]
-        }
-      ],
-      "images": [
         {
           "file": "File:Giga Inferno15.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/0/01/Giga_Inferno15.png/revision/latest?cb=20251008075751"
-        }
-      ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
-      "unlockHall": 15,
-      "removedAtTH": 16,
-      "staticImage": {
-        "file": "File:Giga Inferno15.png",
-        "url": "https://static.wikia.nocookie.net/clashofclans/images/0/01/Giga_Inferno15.png/revision/latest?cb=20251008075751"
-      },
-      "imageVerification": {
-        "checked": "2026-11-03",
-        "page": "Town Hall/Giga Inferno (TH15)",
-        "rawWikitextSha256": "c58005e5327eea1e415e73590938d75682f430c5a1c9fb6f8b43b24b5853ac52",
-        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
-      }
-    },
-    {
-      "n": "Town Hall/Giga Inferno (TH16)",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/b/bd/Giga_Inferno16.png/revision/latest?cb=20231213213907",
-      "source": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Inferno_(TH16)",
-      "revision": null,
-      "tables": [
-        {
-          "heading": "Statistics",
-          "columns": [
-            "Damage per Second per Target",
-            "Damage per Hit",
-            "Number of Targets",
-            "Damage when Destroyed",
-            "Death Damage Radius",
-            "Poison Max DPS",
-            "Speed Decrease",
-            "Attack Rate Decrease",
-            "Poison duration when Destroyed",
-            "Hitpoints"
-          ],
-          "rows": [
-            [
-              "300",
-              "38.4",
-              "4",
-              "1,100",
-              "4.5 tiles",
-              "180",
-              "50%",
-              "50%",
-              "12s",
-              "10,000"
-            ]
-          ]
         },
-        {
-          "heading": "Statistics",
-          "columns": [
-            "Range",
-            "Attack Speed",
-            "Damage Type",
-            "Unit Type Targeted"
-          ],
-          "rows": [
-            [
-              "10",
-              "0.128s",
-              "Multiple Targets",
-              "Ground & Air"
-            ]
-          ]
-        }
-      ],
-      "images": [
         {
           "file": "File:Giga Inferno16.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bd/Giga_Inferno16.png/revision/latest?cb=20231213213907"
         }
       ],
+      "levelImages": {
+        "1": {
+          "file": "File:Giga Inferno13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/90/Giga_Inferno13.png/revision/latest?cb=20251008133511"
+        },
+        "2": {
+          "file": "File:Giga Inferno14.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/61/Giga_Inferno14.png/revision/latest?cb=20251008133548"
+        },
+        "3": {
+          "file": "File:Giga Inferno15.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/01/Giga_Inferno15.png/revision/latest?cb=20251008075751"
+        },
+        "4": {
+          "file": "File:Giga Inferno16.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bd/Giga_Inferno16.png/revision/latest?cb=20231213213907"
+        }
+      },
+      "levelLabels": {
+        "1": "Level 1 (TH13)",
+        "2": "Level 2 (TH14)",
+        "3": "Level 3 (TH15)",
+        "4": "Level 4 (TH16)"
+      },
+      "hallByLevel": {
+        "1": 13,
+        "2": 14,
+        "3": 15,
+        "4": 16
+      },
+      "unlockHall": 13,
+      "removedAtTH": 17,
+      "note": "Stages 1-4 correspond to TH13-16. This weapon changes with the Town Hall rather than having separate paid upgrades. Inferno Artillery replaces it at TH17.",
       "unverified": [
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
-      "unlockHall": 16,
-      "removedAtTH": 17,
-      "staticImage": {
-        "file": "File:Giga Inferno16.png",
-        "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bd/Giga_Inferno16.png/revision/latest?cb=20231213213907"
-      },
-      "imageVerification": {
-        "checked": "2026-11-03",
-        "page": "Town Hall/Giga Inferno (TH16)",
-        "rawWikitextSha256": "1d62294c21300ae3b4b8c4dd2c5da3429881bea3a1ac004972af560a9641b0b1",
-        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
-      }
+      "stageSources": [
+        {
+          "townHall": 13,
+          "source": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Inferno_(TH13)",
+          "imageVerification": {
+            "checked": "2026-11-03",
+            "page": "Town Hall/Giga Inferno (TH13)",
+            "rawWikitextSha256": "f18c77df42c18d1cd8e10ff7129cca816876238ecddbd9fb4a49a3e8bedeb8e3",
+            "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+          }
+        },
+        {
+          "townHall": 14,
+          "source": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Inferno_(TH14)",
+          "imageVerification": {
+            "checked": "2026-11-03",
+            "page": "Town Hall/Giga Inferno (TH14)",
+            "rawWikitextSha256": "785ba3b4d1a482e97d9e00bf43b75ba8ff3b66e3a350c4e1686e2c122056f32c",
+            "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+          }
+        },
+        {
+          "townHall": 15,
+          "source": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Inferno_(TH15)",
+          "imageVerification": {
+            "checked": "2026-11-03",
+            "page": "Town Hall/Giga Inferno (TH15)",
+            "rawWikitextSha256": "c58005e5327eea1e415e73590938d75682f430c5a1c9fb6f8b43b24b5853ac52",
+            "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+          }
+        },
+        {
+          "townHall": 16,
+          "source": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Inferno_(TH16)",
+          "imageVerification": {
+            "checked": "2026-11-03",
+            "page": "Town Hall/Giga Inferno (TH16)",
+            "rawWikitextSha256": "1d62294c21300ae3b4b8c4dd2c5da3429881bea3a1ac004972af560a9641b0b1",
+            "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+          }
+        }
+      ]
     },
     {
       "n": "Town Hall/Inferno Artillery",
@@ -3447,20 +3350,14 @@
       "heading": "Town Hall weapons",
       "units": [
         "Town Hall/Giga Tesla",
-        "Town Hall/Giga Inferno (TH13)",
-        "Town Hall/Giga Inferno (TH14)",
-        "Town Hall/Giga Inferno (TH15)",
-        "Town Hall/Giga Inferno (TH16)",
+        "Town Hall/Giga Inferno",
         "Town Hall/Inferno Artillery"
       ]
     },
     {
       "heading": "Guardians",
       "units": [
-        "Town Hall/Guardians",
-        "Longshot",
-        "Smasher",
-        "Logger"
+        "Town Hall/Guardians"
       ]
     }
   ]

@@ -54,7 +54,7 @@ PAGES.update({
  'traps':['Bomb','Spring Trap','Air Bomb','Giant Bomb','Seeking Air Mine','Skeleton Trap','Tornado Trap','Giga Bomb'],
  'army':['Army Camp','Barracks','Dark Barracks','Laboratory','Spell Factory','Hero Hall','Hero Banner','Dark Spell Factory','Blacksmith','Workshop','Pet House','Clan Castle'],
  'resource':['Gold Mine','Elixir Collector','Dark Elixir Drill','Gold Storage','Elixir Storage','Dark Elixir Storage'],
- 'walls':['Walls'], 'townhall':['Town Hall','Town Hall/Giga Tesla','Town Hall/Giga Inferno (TH13)','Town Hall/Giga Inferno (TH14)','Town Hall/Giga Inferno (TH15)','Town Hall/Giga Inferno (TH16)','Town Hall/Inferno Artillery','Town Hall/Guardians','Longshot','Smasher','Logger'],
+ 'walls':['Walls'], 'townhall':['Town Hall','Town Hall/Giga Tesla','Town Hall/Giga Inferno','Town Hall/Inferno Artillery','Town Hall/Guardians','Longshot','Smasher','Logger'],
  'crafted':['Crafting Station','Hot Candle','Hero Hunter','Cake-A-Pult'],
  'supercharge':['Supercharge'],
  'bbtroops':['Raged Barbarian','Sneaky Archer','Boxer Giant','Beta Minion','Bomber','Baby Dragon/Builder Base','Cannon Cart','Night Witch','Drop Ship','Power P.E.K.K.A','Hog Glider','Electrofire Wizard'],

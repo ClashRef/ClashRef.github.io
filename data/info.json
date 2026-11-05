@@ -1870,42 +1870,6 @@
           "rawWikitextSHA256": "d099793de649b46cb0556cfcc79587a2b864702d02f2563dd2464826245bfbc7"
         }
       },
-      "Town Hall/Giga Inferno (TH13)": {
-        "overview": "The TH13 integrated weapon attacks multiple enemies and adds a destruction effect when the Town Hall falls.",
-        "strategy": "Plan protection and troop spacing around the destruction. Reaching the Town Hall is only part of surviving the compartment.",
-        "source": {
-          "url": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Inferno_(TH13)",
-          "revision": 620072,
-          "rawWikitextSHA256": "f18c77df42c18d1cd8e10ff7129cca816876238ecddbd9fb4a49a3e8bedeb8e3"
-        }
-      },
-      "Town Hall/Giga Inferno (TH14)": {
-        "overview": "The TH14 weapon combines defensive fire with a dangerous aftermath when the Town Hall is destroyed.",
-        "strategy": "Avoid keeping the main army in the aftermath longer than necessary. Protection timing and exit routes can be as important as the initial entry.",
-        "source": {
-          "url": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Inferno_(TH14)",
-          "revision": 620073,
-          "rawWikitextSHA256": "785ba3b4d1a482e97d9e00bf43b75ba8ff3b66e3a350c4e1686e2c122056f32c"
-        }
-      },
-      "Town Hall/Giga Inferno (TH15)": {
-        "overview": "The TH15 integrated defense threatens attackers before and after the building is destroyed.",
-        "strategy": "Plan a route through the Town Hall area that does not leave the army stalled in the destruction effect. Use support according to the actual timing of the fight.",
-        "source": {
-          "url": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Inferno_(TH15)",
-          "revision": 620074,
-          "rawWikitextSHA256": "c58005e5327eea1e415e73590938d75682f430c5a1c9fb6f8b43b24b5853ac52"
-        }
-      },
-      "Town Hall/Giga Inferno (TH16)": {
-        "overview": "The TH16 weapon makes the Town Hall a defended compartment and leaves a dangerous effect when destroyed.",
-        "strategy": "Consider whether the attack will remove it with a payload or send the main army through it. The support needed for those approaches differs.",
-        "source": {
-          "url": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Inferno_(TH16)",
-          "revision": 620864,
-          "rawWikitextSHA256": "1d62294c21300ae3b4b8c4dd2c5da3429881bea3a1ac004972af560a9641b0b1"
-        }
-      },
       "Town Hall/Inferno Artillery": {
         "overview": "The TH17 Town Hall weapon is created by merging the Town Hall with the Eagle Artillery.",
         "strategy": "Treat it as part of the Town Hall defense rather than a separate Eagle building. Plan the attack around its current targeting and surrounding defenses.",
@@ -1950,6 +1914,19 @@
           "revision": 625760,
           "rawWikitextSHA256": "58d42a87fa4735d97b2c7d88a7ec9e7a28eb47d3313f93a4dfd422fdfdfe87ae"
         }
+      },
+      "Town Hall/Giga Inferno": {
+        "overview": "The integrated Town Hall weapon for TH13-16 attacks multiple enemies and triggers a destruction effect when the Town Hall falls. Its appearance and stats change with each Town Hall stage.",
+        "strategy": "Plan protection and troop spacing around the destruction. Reaching the Town Hall is only part of surviving the compartment.",
+        "source": {
+          "url": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Inferno_(TH13)",
+          "revision": 620072,
+          "rawWikitextSHA256": "f18c77df42c18d1cd8e10ff7129cca816876238ecddbd9fb4a49a3e8bedeb8e3"
+        },
+        "mechanics": [
+          "The four stages here represent TH13, TH14, TH15 and TH16; they are not separate buildings or independent upgrades.",
+          "TH13 adds a slowing destruction effect. TH14-16 add a poison aftermath. At TH17, Inferno Artillery replaces Giga Inferno."
+        ]
       }
     },
     "crafted": {

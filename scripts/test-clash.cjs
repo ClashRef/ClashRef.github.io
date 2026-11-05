@@ -65,7 +65,7 @@ function context(search, savedTH = null) {
    assert.equal(manifest.groups.flatMap(g=>g.cats).find(c=>c.id===id).img,spells.units[0].av);
  }
  const copy=JSON.parse(fs.readFileSync(path.join(root,'data/info.json')));
- assert.equal(Object.values(copy.entries).reduce((n,items)=>n+Object.keys(items).length,0),266);
+ assert.equal(Object.values(copy.entries).reduce((n,items)=>n+Object.keys(items).length,0),263);
  for(const items of Object.values(copy.entries)) for(const entry of Object.values(items)) {
    assert(entry.overview.length>30 && entry.strategy.length>30);
    assert(entry.source.revision>0 && entry.source.rawWikitextSHA256.length===64);

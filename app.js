@@ -47,6 +47,7 @@ $("#onlyTH").onchange = (e) => { S.only = e.target.checked; localStorage.setItem
 $("#settingsBtn").onclick = () => { const p = $("#settings"); p.hidden = !p.hidden; $("#settingsBtn").setAttribute("aria-expanded", String(!p.hidden)); };
 backBtn.onclick = () => {
   const r = route();
+  if (r.cat === "townhall" && r.group === "guardians") { location.hash = r.unit ? "#/c/townhall?group=guardians" : "#/c/townhall"; return; }
   location.hash = r.unit ? `#/c/${r.cat}${r.cat === "equip" && r.hero ? "?hero=" + encodeURIComponent(r.hero) : ""}` : r.cat === "equip" && r.hero ? `#/c/heroes/${encodeURIComponent(r.hero)}` : "#/";
 };
 tabsEl.querySelectorAll("button").forEach((b) => (b.onclick = () => { S.tab = b.dataset.tab; localStorage.setItem("cr.tab", S.tab); render(); }));
@@ -144,7 +145,7 @@ async function loadCat(id) {
 function route() {
   const [path, query = ""] = location.hash.replace(/^#\/?/, "").split("?");
   const p = path.split("/").map(decodeURIComponent);
-  return p[0] === "c" ? {cat: p[1], unit: p[2], hero: new URLSearchParams(query).get("hero") || ""} : {};
+  return p[0] === "c" ? {cat: p[1], unit: p[2], hero: new URLSearchParams(query).get("hero") || "", group: new URLSearchParams(query).get("group") || ""} : {};
 }
 
 // ---- views ----
@@ -291,14 +292,16 @@ function reviewNotice(cat, u) {
   return `<p class="note">${esc(cat.note)}</p>${u?.note ? `<p class="note">${esc(u.note)}</p>` : ""}${gaps.length ? `<details class="note"><summary>Verification gaps (${gaps.length})</summary><ul>${gaps.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></details>` : ""}`;
 }
 function reviewCategory(cat) {
-  setChrome(cat.label, true, false);
+  const guardianGroup = cat.id === "townhall" && route().group === "guardians";
+  const guardianNames = ["Longshot", "Smasher", "Logger"];
+  setChrome(guardianGroup ? "Guardians" : cat.label, true, false);
   const hall = reviewHall(cat);
   const hero = cat.id === "equip" ? route().hero || "" : "";
   const heroes = cat.id === "equip" ? [...new Set(cat.units.map((u) => u.hero))] : [];
-  const suffix = hero ? "?hero=" + encodeURIComponent(hero) : "";
+  const suffix = hero ? "?hero=" + encodeURIComponent(hero) : guardianGroup ? "?group=guardians" : "";
   const meta = CATS.groups.flatMap((g) => g.cats).find((c) => c.id === cat.id);
   const linked = (meta?.leadingCategories || []).flatMap((id) => (CACHE[id]?.units || []).map((u) => ({u, id})));
-  const list = [...linked.map((item) => item.u), ...cat.units].filter((u) => (!hero || u.hero === hero) && u.n.toLowerCase().includes(q.toLowerCase()));
+  const list = [...linked.map((item) => item.u), ...cat.units].filter((u) => (!hero || u.hero === hero) && (cat.id !== "townhall" || (guardianGroup ? guardianNames.includes(u.n) : !guardianNames.includes(u.n))) && u.n.toLowerCase().includes(q.toLowerCase()));
   const renderTile = (u) => {
     const targetCat = linked.find((item) => item.u === u)?.id || cat.id;
     const caps = u.hallByLevel;
@@ -311,12 +314,12 @@ function reviewCategory(cat) {
     const imageLevel = max || Math.min(...Object.keys(caps || {1: 1}).map(Number));
     const source = building ? buildingImage(u, imageLevel, hall)?.url || u.av : u.av;
     const artwork = building ? `<span class="tile-art">${img(source, caps && cat.id !== "supercharge" ? `${u.n} level ${imageLevel * (u.imageLevelMultiplier || 1)}` : u.n)}</span>` : source ? img(source, u.n) : "";
-    return `<a class="tile unit${building ? " building" : ""}${cat.id === "defenses" ? " defense" : ""}${locked || removed ? " locked" : ""}" href="#/c/${targetCat}/${encodeURIComponent(u.n)}${suffix}">${artwork}${badge}<span class="lbl">${esc(building ? buildingLabel(u.n) : u.n)}</span></a>`;
+    return `<a class="tile unit${building ? " building" : ""}${cat.id === "defenses" ? " defense" : ""}${locked || removed ? " locked" : ""}" href="${cat.id === "townhall" && u.n === "Town Hall/Guardians" ? "#/c/townhall?group=guardians" : `#/c/${targetCat}/${encodeURIComponent(u.n)}${suffix}`}">${artwork}${badge}<span class="lbl">${esc(building ? buildingLabel(u.n) : u.n)}</span></a>`;
   };
   const tiles = cat.id === "equip" ? heroes.map((name) => {
     const items = list.filter((u) => u.hero === name);
     return items.length ? `<h2 class="equipment-group">${esc(name)}</h2>${items.map(renderTile).join("")}` : "";
-  }).join("") : cat.sections ? (() => {
+  }).join("") : cat.sections && !guardianGroup ? (() => {
     const grouped = new Set(cat.sections.flatMap((section) => section.units));
     return list.filter((u) => !grouped.has(u.n)).map(renderTile).join("") + cat.sections.map((section) => {
       const items = list.filter((u) => section.units.includes(u.n));
@@ -330,7 +333,7 @@ function reviewCategory(cat) {
   $("#q").oninput = (e) => { q = e.target.value; const pos = e.target.selectionStart; reviewCategory(cat); $("#q").focus(); $("#q").setSelectionRange(pos, pos); };
 }
 function galleryEntries(u) {
-  if (u.levelImages) return Object.entries(u.levelImages).sort(([a], [b]) => +a - +b).map(([level, image]) => ({...image, level: +level, label: `Level ${level}`}));
+  if (u.levelImages) return Object.entries(u.levelImages).sort(([a], [b]) => +a - +b).map(([level, image]) => ({...image, level: +level, label: u.levelLabels?.[level] || `Level ${level}`}));
   const stem = u.n.split("/")[0].toLowerCase().replace(/[^a-z0-9]/g, "");
   const validLevels = new Set((u.tables || []).filter((t) => /^level$/i.test(t.columns[0])).flatMap((t) => t.rows.map((r) => parseInt(r[0], 10))));
   return u.images.map((image) => {
@@ -465,10 +468,14 @@ async function render() {
   try {
     if (!CATS) CATS = await fetch("data/categories.json", { cache: "no-cache" }).then((r) => r.json());
     if (version !== scrollVersion) return;
-    const searchScope = `${r.cat || ""}|${r.hero || ""}`;
+    const searchScope = `${r.cat || ""}|${r.hero || ""}|${r.group || ""}`;
     if (searchScope !== lastSearchScope) { q = ""; lastSearchScope = searchScope; }
     if (location.hash !== lastRoute) { if (r.unit) delete S.lvl[`${r.cat}|${r.unit}`]; lastRoute = location.hash; }
     if (!r.cat) return home();
+    if (r.cat === "townhall" && r.unit === "Town Hall/Guardians") { location.hash = "#/c/townhall?group=guardians"; return; }
+    if (r.cat === "townhall" && /^Town Hall\/Giga Inferno \(TH1[3-6]\)$/.test(r.unit || "")) {
+      location.hash = "#/c/townhall/" + encodeURIComponent("Town Hall/Giga Inferno"); return;
+    }
     // Preserve older links after giving Builder Walls its own home tile.
     if (r.cat === "bbbuildings" && r.unit === "Walls/Builder Base") {
       const walls = CATS.groups.flatMap((g) => g.cats).find((c) => c.id === "bbwalls");

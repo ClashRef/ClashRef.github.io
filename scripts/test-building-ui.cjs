@@ -28,7 +28,7 @@ function expectedImage(u, level, hall) {
         await page.goto('https://clash.test/?preview=all');
         for (const id of ids) {
           const cat = cats[id];
-          const displayed = [...(id === "defenses" ? cats.walls.units : id === "bbdefenses" ? cats.bbwalls.units : []), ...cat.units];
+          const displayed = [...(id === "defenses" ? cats.walls.units : id === "bbdefenses" ? cats.bbwalls.units : []), ...cat.units.filter(u=>id!=='townhall'||!['Longshot','Smasher','Logger'].includes(u.n))];
           await page.evaluate(id => {location.hash = `#/c/${id}`;}, id);
           await page.waitForFunction(label => document.querySelector('#title').textContent === label, cat.label);
           for (const hall of id.startsWith('bb') ? [3, 10] : [3, 18]) {
@@ -81,7 +81,7 @@ function expectedImage(u, level, hall) {
         assert.equal(await page.locator('.wrap-table tbody tr').count(),5);
         assert((await page.locator('.wrap-table').innerText()).includes('combined level of 45'));
         assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
-        for(const [id,name,display] of [['bbbuildings','Gold Mine/Builder Base','Gold Mine'],['townhall','Town Hall/Giga Inferno (TH14)','Giga Inferno (TH14)']]) {
+        for(const [id,name,display] of [['bbbuildings','Gold Mine/Builder Base','Gold Mine'],['townhall','Town Hall/Giga Inferno','Giga Inferno']]) {
           await page.evaluate(({id,name})=>location.hash=`#/c/${id}/${encodeURIComponent(name)}`,{id,name});
           await page.waitForFunction(display=>document.querySelector('#title').textContent===display,display);
           assert(await page.locator('#title').evaluate(el=>el.scrollWidth<=el.clientWidth+1&&el.scrollHeight<=el.clientHeight+1),`Entire title fits without clipping: ${engine.name()} ${width}px ${display} ${JSON.stringify(await page.locator('#title').evaluate(el=>({sw:el.scrollWidth,cw:el.clientWidth,sh:el.scrollHeight,ch:el.clientHeight,css:getComputedStyle(el).cssText})))}`);
@@ -90,6 +90,26 @@ function expectedImage(u, level, hall) {
         await page.waitForFunction(()=>document.querySelectorAll('.equipment-group').length===2);
         assert.deepEqual(await page.locator('.equipment-group').allTextContents(),['Town Hall weapons','Guardians']);
         assert((await page.locator('.grid.units > a').first().getAttribute('href')).endsWith('/Town%20Hall'));
+        await page.locator('a[href="#/c/townhall?group=guardians"]').click();
+        await page.waitForFunction(()=>document.querySelector('#title').textContent==='Guardians');
+        assert.equal(await page.locator('.tile.unit').count(),3);
+        await page.locator('.tile.unit').first().click();
+        await page.waitForFunction(()=>document.querySelector('#title').textContent==='Longshot');
+        await page.locator('#back').click();
+        await page.waitForFunction(()=>document.querySelector('#title').textContent==='Guardians');
+        assert.equal(await page.locator('.tile.unit').count(),3);
+        await page.locator('#back').click();
+        await page.waitForFunction(()=>document.querySelector('#title').textContent==='Town Hall');
+        await page.locator('a[href="#/c/townhall/Town%20Hall%2FGiga%20Inferno"]').click();
+        await page.locator('.hero').waitFor();
+        await page.evaluate(()=>{const select=document.querySelector('#thSel');select.value='15';select.dispatchEvent(new Event('change'));});
+        await page.waitForFunction(()=>document.querySelector('.lvnum').firstChild.textContent.trim()==='Level 3');
+        assert((await page.locator('.hero .lv').getAttribute('src')).includes('Giga_Inferno15.png'));
+        await page.locator('#lvUp').click();
+        assert.equal(await page.locator('.level-unlock').textContent(),'Unlocks at TH 16');
+        assert((await page.locator('.hero .lv').getAttribute('src')).includes('Giga_Inferno16.png'));
+        await page.locator('#back').click();
+        await page.locator('.grid.units').waitFor();
         await page.locator('.grid.units > a').first().click();
         await page.locator('.hero').waitFor();
         assert.deepEqual((await page.locator('h3.sec').allTextContents()).slice(0,3),['Upgrade stats','Loot Modifications','Town Hall and Event Loot']);

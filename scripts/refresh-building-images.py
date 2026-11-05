@@ -69,6 +69,9 @@ pending = []
 
 def prepare(args):
     id, u = args
+    if u['n'] == 'Town Hall/Giga Inferno':
+        # The consolidated weapon retains four explicitly sourced TH stages.
+        return u
     page, raw, soup = source(id, u)
     mapping = appearance_gallery(soup)
     if u['n'] in ['Town Hall', 'Builder Hall']:
