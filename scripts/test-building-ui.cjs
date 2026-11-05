@@ -87,8 +87,8 @@ function expectedImage(u, level, hall) {
           assert(await page.locator('#title').evaluate(el=>el.scrollWidth<=el.clientWidth+1&&el.scrollHeight<=el.clientHeight+1),`Entire title fits without clipping: ${engine.name()} ${width}px ${display} ${JSON.stringify(await page.locator('#title').evaluate(el=>({sw:el.scrollWidth,cw:el.clientWidth,sh:el.scrollHeight,ch:el.clientHeight,css:getComputedStyle(el).cssText})))}`);
         }
         await page.evaluate(()=>location.hash='#/c/townhall');
-        await page.waitForFunction(()=>document.querySelectorAll('.equipment-group').length===2);
-        assert.deepEqual(await page.locator('.equipment-group').allTextContents(),['Town Hall weapons','Guardians']);
+        await page.waitForFunction(()=>document.querySelectorAll('.equipment-group').length===1);
+        assert.deepEqual(await page.locator('.equipment-group').allTextContents(),['Town Hall weapons']);
         assert((await page.locator('.grid.units > a').first().getAttribute('href')).endsWith('/Town%20Hall'));
         await page.locator('a[href="#/c/townhall?group=guardians"]').click();
         await page.waitForFunction(()=>document.querySelector('#title').textContent==='Guardians');

@@ -1350,7 +1350,7 @@
             ],
             [
               "TH Level",
-              "Giga Inferno Ã¢â‚¬Â ",
+              "Giga Inferno ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ",
               "Scattershot",
               "Builder's Hut #",
               "Spell Tower",
@@ -3351,12 +3351,7 @@
       "units": [
         "Town Hall/Giga Tesla",
         "Town Hall/Giga Inferno",
-        "Town Hall/Inferno Artillery"
-      ]
-    },
-    {
-      "heading": "Guardians",
-      "units": [
+        "Town Hall/Inferno Artillery",
         "Town Hall/Guardians"
       ]
     }
