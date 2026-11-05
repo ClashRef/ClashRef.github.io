@@ -90,6 +90,8 @@ function compactColumn(label) {
 }
 function columnHeader(label, resource = "") {
   const names = resource ? resource.split(" / ") : [];
+  const capacity = /capacity|^Total.*storage/i.test(label);
+  if (!resource && capacity) names.push(...new Set(label.match(/\b(?:Dark Elixir|Gold|Elixir)\b/g) || []));
   if (!resource && /cost/i.test(label)) {
     const ore = label.match(/\b(?:Shiny|Glowy|Starry) Ore\b/);
     const match = label.match(/\(([^)]+)\)/);
@@ -98,8 +100,8 @@ function columnHeader(label, resource = "") {
   }
   const iconKey = (name) => name.replace(/^Builder /, "");
   if (names.length && names.every((n) => RESOURCE_ICONS[iconKey(n)])) {
-    const description = `${label}: ${names.join(" or ")}`;
-    const kind = /cumulative/i.test(label) ? "Total" : /boost/i.test(label) ? "Boost" : /gear up/i.test(label) ? "Gear up" : "";
+    const description = capacity ? label : `${label}: ${names.join(" or ")}`;
+    const kind = capacity ? /^Total/i.test(label) ? "Total" : "Capacity" : /cumulative/i.test(label) ? "Total" : /boost/i.test(label) ? "Boost" : /gear up/i.test(label) ? "Gear up" : "";
     return `<th class="resource-heading" title="${esc(description)}" aria-label="${esc(description)}">${names.map((name) => img("https://static.wikia.nocookie.net/clashofclans/images/" + RESOURCE_ICONS[iconKey(name)], name, "resource-icon")).join(" / ")}${kind ? `<small class="cost-kind">${kind}</small>` : ""}</th>`;
   }
   return `<th title="${esc(label)}" aria-label="${esc(label)}"><span class="column-label">${esc(compactColumn(label))}</span></th>`;

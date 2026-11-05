@@ -93,7 +93,11 @@ function expectedImage(u, level, hall) {
         await page.locator('.grid.units > a').first().click();
         await page.locator('.hero').waitFor();
         assert.deepEqual((await page.locator('h3.sec').allTextContents()).slice(0,3),['Upgrade stats','Loot Modifications','Town Hall and Event Loot']);
-        assert((await page.locator('.tblwrap').first().innerText()).includes('Gold capacity'));
+        const hallTable=page.locator('.tblwrap').first();
+        assert.equal(await hallTable.locator('th[aria-label="Gold/Elixir capacity (each)"] img').count(),2);
+        assert.equal(await hallTable.locator('th[aria-label="Dark Elixir capacity"] img').count(),1);
+        assert.equal(await hallTable.locator('th[aria-label="Total Gold/Elixir storage (each)"] img').count(),2);
+        assert.deepEqual((await hallTable.locator('th').evaluateAll(cells=>cells.map(c=>c.getAttribute('aria-label')))).slice(-2),['Maximum Number of Buildings Available*','Maximum Number of Traps Available']);
         assert.deepEqual(errors, []);
         await page.close();
       }

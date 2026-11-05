@@ -328,10 +328,10 @@ function context(search, savedTH = null) {
  }
  ctx.testUnit=ctx.testCat.units.find(u=>u.n==='Builder Hall');
  assert.equal(ctx.testUnit.tables.length,1,'Builder Hall has one combined upgrade table');
- assert.deepEqual(ctx.testUnit.tables[0].rows.at(-1),['10','2,750','4,800,000','7d','777','1,500,000','1,500,000','6,500,000']);
+ assert.deepEqual(ctx.testUnit.tables[0].rows.at(-1),['10','2,750','4,800,000','7d','777','1,500,000','6,500,000']);
  vm.runInContext("S.tab='stats'; unitView(testCat,testUnit)",ctx);
  assert(!html().includes('Stage Quotas')&&!html().includes('Maximum Number of Buildings Available'));
- assert(html().includes('Gold capacity')&&html().includes('Elixir capacity')&&html().includes('Total storage (each)'));
+ assert(html().includes('Gold/Elixir capacity (each)')&&html().includes('Total Gold/Elixir storage (each)'));
  for(const [id,firstElixir] of [['walls',5],['bbwalls',7]]) {
   ctx.testCat=JSON.parse(fs.readFileSync(path.join(root,`data/${id}.json`)));
   ctx.testUnit=ctx.testCat.units[0];

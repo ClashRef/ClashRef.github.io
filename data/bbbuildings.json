@@ -12,16 +12,15 @@
       "tables": [
         {
           "heading": "Upgrade stats",
-          "note": "Gold and Elixir capacity are held by the Builder Hall itself. Total storage (each) includes the separate Gold or Elixir Storages.",
+          "note": "Gold and Elixir capacity are held by the Builder Hall itself. Total storage (each) includes the separate Gold or Elixir Storages. The shared Gold/Elixir value is the capacity for each resource, not a combined pool.",
           "columns": [
             "BH Level",
             "Hitpoints",
             "Build Cost (Builder Gold)",
             "Build Time",
             "Experience Gained",
-            "Gold capacity",
-            "Elixir capacity",
-            "Total storage (each)"
+            "Gold/Elixir capacity (each)",
+            "Total Gold/Elixir storage (each)"
           ],
           "rows": [
             [
@@ -30,7 +29,6 @@
               "N/A",
               "N/A",
               "N/A",
-              "50,000",
               "50,000",
               "50,000"
             ],
@@ -41,7 +39,6 @@
               "5s",
               "2",
               "75,000",
-              "75,000",
               "75,000"
             ],
             [
@@ -50,7 +47,6 @@
               "30,000",
               "1h",
               "60",
-              "100,000",
               "100,000",
               "350,000"
             ],
@@ -61,7 +57,6 @@
               "1d",
               "293",
               "150,000",
-              "150,000",
               "500,000"
             ],
             [
@@ -70,7 +65,6 @@
               "400,000",
               "2d",
               "415",
-              "900,000",
               "900,000",
               "1,500,000"
             ],
@@ -81,7 +75,6 @@
               "3d",
               "509",
               "900,000",
-              "900,000",
               "2,500,000"
             ],
             [
@@ -90,7 +83,6 @@
               "1,800,000",
               "4d",
               "587",
-              "1,100,000",
               "1,100,000",
               "3,500,000"
             ],
@@ -101,7 +93,6 @@
               "5d",
               "657",
               "1,300,000",
-              "1,300,000",
               "4,500,000"
             ],
             [
@@ -111,7 +102,6 @@
               "6d",
               "720",
               "1,500,000",
-              "1,500,000",
               "5,500,000"
             ],
             [
@@ -120,7 +110,6 @@
               "4,800,000",
               "7d",
               "777",
-              "1,500,000",
               "1,500,000",
               "6,500,000"
             ]
