@@ -6,6 +6,8 @@ Published at https://clashref.github.io/ using GitHub Pages from `main` at the r
 
 Review all hidden sections at https://clashref.github.io/?preview=true. Their home tiles show **Preview** for that visit; the normal site keeps them grayed out with **Coming soon**. Preview is never saved. Existing `?preview=all` and individual category preview links still work.
 
+Global search is preview-only for now: any `?preview=` link (for example https://clashref.github.io/?preview=search) adds a search bar under the header on every page and hides the per-category filter. It matches names, initials (`aq`, `rc`, `mat`), first-letter shorthand (`edrag`, `sbarb`), plurals, small typos and a few community aliases (`eq`, `rax`, `pump`, `giga tesla`) in `SEARCH_ALIASES` in `app.js`. Overlapping shorthand lists every match. Press `/` to focus it on desktop.
+
 Upgrade tables and level pickers always include all normal game levels. Rows above the selected TH/BH are muted, and selecting those levels shows an unlock notice. Opening an item or changing hall starts the picker at that hall's max; browsing levels is never persisted. The hall-limit checkbox affects only **To max** totals.
 
 Scroll positions are remembered per page and detail tab for the current browser tab, including across refreshes. Returning to a category restores its previous position; this is independent of the level picker default.

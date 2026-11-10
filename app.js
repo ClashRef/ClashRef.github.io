@@ -577,5 +577,149 @@ function installTableHeaders() {
   window.addEventListener("resize", schedule);
 }
 if (typeof MutationObserver !== "undefined") installTableHeaders();
+
+// ---- global search (preview only: any ?preview= value turns it on) ----
+const searchOn = preview !== null;
+const searchKey = (s) => String(s).toLowerCase().replace(/[^a-z0-9]/g, "");
+const searchTokens = (s) => String(s).toLowerCase().split(/[\s\/]+/).map(searchKey).filter(Boolean);
+// Community shorthand that initials, prefixes and typo matching can't derive.
+const SEARCH_ALIASES = {
+  "Earthquake Spell": ["eq", "quake"], "Fireball": ["fb"], "Town Hall/Giga Weapon": ["gt", "gi", "giga tesla", "giga inferno"],
+  "Barracks": ["rax"], "Dark Barracks": ["rax", "drax"], "Builder Barracks": ["rax"], "Elixir Collector": ["pump"], "Elixir Collector/Builder Base": ["pump"],
+  "Lava Hound": ["lalo"], "Balloon": ["lalo"], "Lavaloon Puppet": ["lalo"], "Electro Dragon": ["edrake"], "Laboratory": ["lab"],
+};
+const searchName = (n) => n.replace(/\/Builder Base$/, "").replace(/^Town Hall\//, "");
+function searchParts(text) {
+  const parts = [], words = [];
+  String(text).toLowerCase().split(/[\s\/]+/).forEach((w) => {
+    const p = w.split("-").map(searchKey).filter(Boolean);
+    parts.push(...p); words.push(...p);
+    if (p.length > 1) words.push(p.join(""));
+  });
+  return {parts, words};
+}
+function searchEntry(e) {
+  const {parts, words} = searchParts(e.name);
+  const initials = new Set([parts.map((p) => p[0]).join("")]);
+  if (parts.length > 2 && parts[parts.length - 1] === "spell") initials.add(parts.slice(0, -1).map((p) => p[0]).join(""));
+  return {...e, parts, words, compact: parts.join(""), initials: [...initials].filter((i) => i.length >= 2),
+    aliases: (SEARCH_ALIASES[e.key] || []).map(searchKey), extra: searchParts(e.extra || "").words};
+}
+function editDistance(a, b) {
+  let prev = Array.from({length: b.length + 1}, (_, j) => j);
+  for (let i = 1; i <= a.length; i++) {
+    const cur = [i];
+    for (let j = 1; j <= b.length; j++) cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+    prev = cur;
+  }
+  return prev[b.length];
+}
+function tokenScore(t, e) {
+  if (e.words.some((w) => w.startsWith(t))) return 3;
+  const stem = t.length > 3 && t.endsWith("s") ? t.slice(0, -1) : "";
+  if (stem && e.words.some((w) => w.startsWith(stem))) return 2.5;
+  if (t.length >= 3 && e.words.some((w) => w.includes(t) || (stem && w.includes(stem)))) return 2;
+  if (t.length >= 4) {
+    const limit = t.length >= 7 ? 2 : 1;
+    if (e.words.some((w) => w.length >= 3 && Math.min(editDistance(t, w), editDistance(t, w.slice(0, t.length))) <= limit)) return 0.4;
+  }
+  return e.extra.some((w) => w.startsWith(t)) ? 0.2 : 0;
+}
+// Higher is better; 0 means no match. Exact names, aliases and initials beat prefixes,
+// which beat word matches, which beat typo matches. Ties keep category order.
+function searchScore(e, tokens) {
+  const joined = tokens.join("");
+  if (!joined) return 0;
+  if (joined === e.compact) return 100;
+  if (e.aliases.includes(joined)) return 95;
+  if (e.initials.includes(joined)) return 90;
+  if (tokens.length === 1 && joined.length >= 4 && e.parts.slice(1).some((w, i) => joined[0] === e.parts[i][0] && w.startsWith(joined.slice(1)))) return 85;
+  if (e.compact.startsWith(joined)) return 80;
+  let sum = 0, named = false;
+  for (const t of tokens) { const s = tokenScore(t, e); if (!s) { sum = -1; break; } sum += s; if (s >= 0.4) named = true; }
+  // Small coverage bonus so "Cannon" outranks "Cannon Cart" for "cannon".
+  const covered = e.parts.filter((p) => tokens.some((t) => p.startsWith(t))).length / e.parts.length;
+  if (sum > 0 && named) return 40 + (sum / tokens.length) * 10 + covered * 5;
+  if (tokens.length === 1 && joined.length >= 2 && e.initials.some((i) => i.startsWith(joined))) return 35;
+  return 0;
+}
+function searchImage(cat, u) {
+  if (!isBuildingCategory(cat) || cat.format !== "wiki-review-v1") return u.av;
+  const hall = reviewHall(cat), caps = u.hallByLevel || {1: 1};
+  const level = Math.max(0, ...Object.entries(caps).filter(([, h]) => h <= hall).map(([l]) => +l)) || Math.min(...Object.keys(caps).map(Number));
+  return buildingImage(u, level, hall)?.url || u.av;
+}
+function searchIndex(cats) {
+  const out = [];
+  cats.forEach((c, ci) => {
+    if (!c.hiddenFromHome) out.push(searchEntry({name: c.label, key: c.label, sub: "Category", img: c.img, href: `#/c/${c.id}`, cat: c.id, order: ci * 1000, extra: ""}));
+    (CACHE[c.id]?.units || []).forEach((u, ui) => out.push(searchEntry({
+      name: searchName(u.n), key: u.n, sub: c.label + (u.hero ? " · " + u.hero : ""), img: searchImage(CACHE[c.id], u), cat: c.id, order: ci * 1000 + ui + 1,
+      href: c.id === "townhall" && u.n === "Town Hall/Guardians" ? "#/c/townhall?group=guardians" : `#/c/${c.id}/${encodeURIComponent(u.n)}`,
+      extra: `${c.label} ${u.hero || ""}`,
+    })));
+  });
+  return out;
+}
+function searchResults(entries, text, current = "") {
+  const tokens = searchTokens(text);
+  const scored = entries.map((e) => ({e, s: searchScore(e, tokens)})).filter((r) => r.s > 0);
+  // Typo and partial-initial guesses only show when nothing matches properly.
+  const strong = scored.some((r) => r.s >= 60);
+  return scored.filter((r) => !strong || r.s >= 50)
+    .sort((a, b) => b.s - a.s || (b.e.cat === current) - (a.e.cat === current) || a.e.order - b.e.order).slice(0, 30).map((r) => r.e);
+}
+function installSearch() {
+  if (!searchOn || typeof document.addEventListener !== "function") return;
+  const box = $("#gsearch"), input = $("#gq"), list = $("#gresults");
+  box.hidden = false; document.body.classList.add("gs-on");
+  let loading = null, indexed = null, indexedHall = "", results = [], active = -1, version = 0;
+  const load = () => loading ||= (async () => {
+    if (!CATS) CATS = await fetch("data/categories.json", {cache: "no-cache"}).then((r) => r.json());
+    const cats = CATS.groups.flatMap((g) => g.cats).filter(categoryPath);
+    await Promise.all(cats.map((c) => loadCat(c.id).catch(() => null)));
+    return cats;
+  })();
+  const close = () => { list.hidden = true; list.innerHTML = ""; results = []; active = -1; input.setAttribute("aria-expanded", "false"); input.removeAttribute("aria-activedescendant"); };
+  const mark = () => {
+    list.querySelectorAll("li[role=option]").forEach((li, i) => li.setAttribute("aria-selected", String(i === active)));
+    if (active >= 0) { input.setAttribute("aria-activedescendant", "gs-" + active); $("#gs-" + active)?.scrollIntoView({block: "nearest"}); }
+    else input.removeAttribute("aria-activedescendant");
+  };
+  const open = (html) => { list.innerHTML = html; list.hidden = false; input.setAttribute("aria-expanded", "true"); };
+  async function show() {
+    const text = input.value, v = ++version;
+    if (!searchTokens(text).length) return close();
+    if (!indexed) open(`<li class="gs-msg">Loading&#8230;</li>`);
+    let cats;
+    try { cats = await load(); } catch { loading = null; if (v === version) open(`<li class="gs-msg">Couldn't load search. Try again.</li>`); return; }
+    if (v !== version) return;
+    const hallKey = S.th + "|" + localStorage.getItem("cr.bh");
+    if (!indexed || indexedHall !== hallKey) { indexed = searchIndex(cats); indexedHall = hallKey; }
+    results = searchResults(indexed, text, route().cat || "");
+    active = results.length ? 0 : -1;
+    open(results.length ? results.map((e, i) => `<li role="option" id="gs-${i}" aria-selected="false"><a href="${esc(e.href)}" tabindex="-1" data-i="${i}">${e.img ? img(e.img, "", "gs-i") : `<span class="gs-i"></span>`}<span class="gs-t"><b>${esc(e.name)}</b><small>${esc(e.sub)}</small></span></a></li>`).join("")
+      : `<li class="gs-msg">No matches. Try a name or shorthand like aq, rc, xbow or edrag.</li>`);
+    mark();
+  }
+  const go = (i) => { const e = results[i]; if (!e) return; input.value = ""; close(); input.blur(); if (location.hash !== e.href) location.hash = e.href; };
+  input.addEventListener("input", show);
+  input.addEventListener("focus", () => { load().catch(() => { loading = null; }); if (input.value) show(); });
+  input.addEventListener("keydown", (ev) => {
+    if (ev.key === "ArrowDown" || ev.key === "ArrowUp") {
+      if (!results.length) return;
+      ev.preventDefault(); active = (active + (ev.key === "ArrowDown" ? 1 : -1) + results.length) % results.length; mark();
+    } else if (ev.key === "Enter") { ev.preventDefault(); go(Math.max(active, 0)); }
+    else if (ev.key === "Escape") { if (input.value || !list.hidden) { ev.preventDefault(); input.value = ""; close(); } else input.blur(); }
+  });
+  list.addEventListener("click", (ev) => { const a = ev.target.closest("a[data-i]"); if (a) { ev.preventDefault(); go(+a.dataset.i); } });
+  document.addEventListener("pointerdown", (ev) => { if (!box.contains(ev.target)) close(); });
+  document.addEventListener("keydown", (ev) => {
+    const t = ev.target, typing = t && (t.isContentEditable || /^(?:INPUT|SELECT|TEXTAREA)$/.test(t.tagName));
+    if (ev.key === "/" && !typing && !ev.ctrlKey && !ev.metaKey && !ev.altKey) { ev.preventDefault(); input.focus(); }
+  });
+  window.addEventListener("hashchange", close);
+}
+installSearch();
 welcomeTownHall();
 render();
