@@ -13,9 +13,11 @@ const S = {
   tab: localStorage.getItem("cr.tab") || "stats",
   lvl: {}, cur: {},
 };
-let CATS = null, INFO = null; const CACHE = {};
+let CATS = null, INFO = null; const CACHE = {}, PENDING = {};
 // Query-only preview: never persists or changes the published category manifest.
 const preview = new URLSearchParams(location.search).get("preview");
+// Offline support and faster repeat visits on the live site only (tests use other hosts).
+const useServiceWorker = typeof navigator !== "undefined" && "serviceWorker" in navigator && /^(?:clashref\.github\.io|localhost|127\.0\.0\.1)$/.test(location.hostname);
 const categoryPath = (c) => c.data || ((preview === "true" || preview === "all" || preview === c.id) ? `data/${c.id}.json` : null);
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const fmt = (v) => (typeof v === "number" ? v.toLocaleString("en-US") : v);
@@ -132,15 +134,40 @@ function tableColumnOrder(columns) {
   const cost = (i) => /cost/i.test(columns[i]);
   return [0, ...rest.filter(cost), ...rest.filter((i) => !cost(i))];
 }
+// Data files use normal HTTP caching (GitHub Pages: 10 minutes); only the small
+// manifest is revalidated every load. Concurrent loads share one request.
 async function loadCat(id) {
   const meta = CATS.groups.flatMap((g) => g.cats).find((c) => c.id === id);
   if (!meta || !categoryPath(meta)) return null;
-  if (!CACHE[id]) {
-    const response = await fetch(categoryPath(meta), { cache: "no-cache" });
-    if (!response.ok) return null;
-    CACHE[id] = await response.json();
-  }
-  return CACHE[id];
+  if (CACHE[id]) return CACHE[id];
+  return PENDING[id] ||= fetch(categoryPath(meta)).then(async (response) => response.ok ? (CACHE[id] = await response.json()) : null)
+    .finally(() => { delete PENDING[id]; });
+}
+let infoPending = null;
+async function loadInfo() {
+  if (INFO) return INFO;
+  return infoPending ||= fetch("data/info.json").then((response) => {
+    if (!response.ok) throw new Error("Info descriptions unavailable");
+    return response.json();
+  }).then((data) => (INFO = data)).finally(() => { infoPending = null; });
+}
+// After the first screen is drawn, quietly load every open category so search and
+// navigation are instant. Skipped when the visitor asks to save data or is on 2G.
+let prefetched = false;
+function prefetchAll() {
+  if (prefetched || typeof navigator === "undefined" || typeof window.setTimeout !== "function") return;
+  prefetched = true;
+  const conn = navigator.connection;
+  if (conn?.saveData || /2g$/.test(conn?.effectiveType || "")) return;
+  const idle = window.requestIdleCallback ? (fn) => window.requestIdleCallback(fn, {timeout: 3000}) : (fn) => window.setTimeout(fn, 1000);
+  // On a first visit, give the new service worker a moment to take over so the
+  // preloaded data is also saved for offline use.
+  const sw = useServiceWorker ? navigator.serviceWorker : null;
+  const ready = sw && !sw.controller ? new Promise((resolve) => { sw.addEventListener("controllerchange", resolve, {once: true}); window.setTimeout(resolve, 4000); }) : Promise.resolve();
+  ready.then(() => idle(() => {
+    CATS.groups.flatMap((g) => g.cats).filter(categoryPath).forEach((c) => loadCat(c.id).catch(() => {}));
+    loadInfo().catch(() => {});
+  }));
 }
 function route() {
   const [path, query = ""] = location.hash.replace(/^#\/?/, "").split("?");
@@ -503,15 +530,11 @@ async function render() {
     const u = cat.units.find((x) => x.n === r.unit);
     if (!u) { location.hash = "#/c/" + cat.id; return; }
     if (["elixir", "dark"].includes(cat.id)) await loadCat("super");
-    if (S.tab === "info" && !INFO) {
-      const response = await fetch("data/info.json", {cache: "no-cache"});
-      if (!response.ok) throw new Error("Info descriptions unavailable");
-      INFO = await response.json();
-    }
+    if (S.tab === "info" && !INFO) await loadInfo();
     if (version !== scrollVersion) return;
     unitView(cat, u);
   } catch (e) { app.innerHTML = `<p class="loading">Couldn't load data (${esc(e.message)}). Pull to refresh.</p>`; }
-  finally { if (changedPage) restorePageScroll(scrollKey, version); }
+  finally { if (changedPage) restorePageScroll(scrollKey, version); if (CATS) prefetchAll(); }
 }
 // Hammer Jam banner: clamp to 2 lines; chevron only when the text overflows.
 const hj = $("#hj"), hjt = $("#hjt"), hjc = $("#hjc");
@@ -721,5 +744,8 @@ function installSearch() {
   window.addEventListener("hashchange", close);
 }
 installSearch();
+if (useServiceWorker) {
+  window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+}
 welcomeTownHall();
 render();
