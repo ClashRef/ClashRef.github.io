@@ -1,6 +1,6 @@
 # Checking Clash Ref for out-of-date data (instructions for AI agents)
 
-Use this when asked to check the site for changes, verify its data, or bring it up to date with the game. It covers running the checker, deciding what each finding means, what the checker can't see, and, only when the user asks, fixing the data and publishing it.
+Use this when asked to check the site for changes, verify its data, or bring it up to date with the game. It covers running the checker, deciding what each finding means, what the checker can't see, keeping the event banner accurate, and, only when the user asks, fixing the data and publishing it.
 
 The site is https://clashref.github.io, a static GitHub Pages site deployed from `main` of `ClashRef/ClashRef.github.io`. There is no build step. Data lives in `data/*.json`; `app.js` renders it.
 
@@ -165,10 +165,57 @@ Mention in your report which of these you checked, or say you didn't:
 - **Hero equipment lists and pets** in `heroes.json` (`eq`, `pets`). Changes when new equipment launches.
 - **Info-tab descriptions** in `data/info.json` (source: `scripts/info-copy.txt`). They describe abilities in words. Re-read them when an ability, not just a number, changes.
 - **Things Supercell announces before the wiki catches up.** When the user mentions an update, read the patch notes and compare directly.
-- **The Hammer Jam banner** in `index.html` (`id="hj"`) is hard-coded with event dates. Remove or update it when the event ends; ask the user first.
+- **Events and the event banner.** The checker knows nothing about events. Always do section 5.
 - **New images** for new levels. The checker only tests links that already exist.
 
-## 5. Verify
+## 5. Events that change costs or times, and the banner
+
+The site always shows **normal** costs and times. When a time-limited event changes upgrade costs or times (for example Hammer Jam's 50% off), a banner under the header tells visitors that the numbers shown aren't discounted. The banner must come down once the event ends. Do this check on every run, even when the checker reports nothing.
+
+### Find out what's happening
+
+1. Get today's date from the system (`date`), not from memory.
+2. Find any event that is running now, or starts within about a day, and changes something the site shows:
+   - upgrade or research costs or times for buildings, Laboratory research, heroes, pets or equipment;
+   - Super Troop boost costs;
+   - event-only levels, or equipment sold in an event shop.
+
+   Ignore things the site doesn't show: Gold Pass boosts (the site already says they aren't included), cosmetics, and loot or reward events.
+3. Where to look:
+   - Supercell's news and patch notes at https://supercell.com/en/games/clashofclans/blog/
+   - The wiki. Search it with `https://clashofclans.fandom.com/api.php?action=query&list=search&srsearch=<event name>&format=json`, then read the event's page through `action=parse` like other pages.
+   - The user, who may have seen the in-game event calendar.
+4. For each relevant event, record its exact start and end dates (and time zone, if given), what it discounts, and by how much. If you can't confirm the dates from a source, say so and don't add or remove a banner.
+
+### Where event text lives
+
+Everything is hard-coded; nothing expires on its own.
+
+| Place | What it is |
+|---|---|
+| `index.html`: `<div class="hj" id="hj">`, text inside `<span class="hjt" id="hjt">` | The banner under the header. It shows two lines, with a chevron to expand longer text. |
+| `app.js`: search for `Hammer Jam's 50% off` | Note on the "To max" tab estimating the discounted total. The math is hard-coded as cost / 2 and time / 2. |
+| `app.js`: search for `no Hammer Jam discount applied` | Source note under every detail page. |
+
+### What to do
+
+- **The event has ended and the banner is still up:**
+  - Hide the banner by adding the `hidden` attribute: `<div class="hj" id="hj" hidden>`. **Don't delete the element.** `app.js` reads `#hj`, `#hjt` and `#hjc` at startup and would crash without them.
+  - Make the two `app.js` notes generic. The "To max" note becomes: `Normal values. Gold Pass and other boosts aren't included.` The source note becomes: `Normal values; no event discounts applied.`
+  - Only do this after the end date has passed. If the time zone is unclear, wait until the day after.
+- **An event is running, or about to start, and there's no banner:**
+  - Propose a banner to the user before adding one; everyone sees it.
+  - Follow the current pattern, kept short: `<Event> (<Mon D>&#8211;<D>): costs &amp; times shown are normal, not the <N>% discount.`
+  - Unhide the div and update the two `app.js` notes to name the event. Adjust the "To max" estimate to the real discount. For example, 30% off becomes `* 0.7` instead of `/ 2`, and a time-only discount should change only the time. If the discount isn't uniform across what the page shows, drop the estimate rather than show a wrong number.
+- **The banner is up and the event is still running:** check that the dates and percentage match the source, and leave it.
+- **The event changes the data itself.** This is a data change (section 3):
+  - Event-only levels go in `specialLevelTables`.
+  - Equipment sold in an event shop belongs in that item's "Unlock Requirement" text.
+  - **Never write discounted numbers into `data/`.**
+
+These are edits to `index.html` and `app.js`. Afterwards, bump the shared `?v=` version string on the `style.css`, `analytics.js` and `app.js` links in `index.html` so browsers pick up the change. Then run the browser tests (section 6), check the banner at phone width (320 and 390 px), and publish only if the user asked.
+
+## 6. Verify
 
 After any data edit:
 
@@ -182,7 +229,7 @@ python scripts/check-wiki.py --offline   # your fixes should disappear from the 
 
 All must pass. If you changed `app.js`, `style.css` or `index.html`, also run the browser tests in `scripts/test-*.cjs`. They need Playwright (`npm i playwright`, `npx playwright install webkit`; Chromium tests use the installed Edge). Run them in both engines, and bump the `?v=` query on those files in `index.html`. Data-only changes need no version bump; the service worker (`sw.js`) fetches data network-first.
 
-## 6. Publish (only when the user asked)
+## 7. Publish (only when the user asked)
 
 1. Make sure you're on `main` with a clean tree apart from your changes (`git status`). Don't commit `.wiki-check/`; it's git-ignored.
 2. Commit only the files you changed. Use a message that says what changed and why. For example:
@@ -202,12 +249,13 @@ All must pass. If you changed `app.js`, `style.css` or `index.html`, also run th
 
 The deploy publishes only `index.html`, `app.js`, `analytics.js`, `style.css`, `sw.js` and `data/` (see `.github/workflows/pages.yml`). Scripts and these docs are never published. If you add a new top-level site file, add it to that workflow.
 
-## 7. Report back
+## 8. Report back
 
 Tell the user, briefly:
 
 - What was checked: pages, items and images, and the date.
 - Each real change found: item, level, old to new, source, and whether you fixed it.
 - Each suspected wiki error, with why you think so.
+- Event status: which events affect the site now, whether the banner is correct, and what you changed or propose (section 5).
 - Anything you couldn't check (section 4), and anything needing their decision.
 - If you published: the commit SHA and that the live site shows the new values.
