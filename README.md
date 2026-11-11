@@ -36,6 +36,8 @@ repeat visits, opt-out, campaign attribution and routing without sending real
 analytics events. Test installation/Realtime on the live site after choosing
 **Allow analytics**. Reports identify browser/device instances, not exact people.
 
+Data check: `python scripts/check-wiki.py` (about a minute; needs Python 3.9+ and `pip install beautifulsoup4`) compares every stat table the site shows with the wiki's current tables, lists items in the wiki's troop and building menus that the site doesn't have, and checks every hotlinked image still loads. It never edits `data/`. A summary prints to the console and the full report goes to `.wiki-check/report.html` (git-ignored); exit code 1 means something needs a look. Every page is re-fetched each run because stat tables often live on subpages (for example `Cannon/Home Village`) whose edits don't change the main page's revision. After reviewing, fix `data/` (then rebuild `levels.json`), or run with `--accept` to record intentional differences in `scripts/wiki-check-accepted.json`; an accepted difference reappears if either value changes. `--offline` re-runs against the last download; `--no-images` skips the image check. Tables the site builds from several wiki pages (listed in `SITE_BUILT_TABLES`) aren't checked automatically.
+
 Agent summary: fetch https://clashref.github.io/data/levels.json once for every category,
 including locked sections. Rebuild with `python scripts/build-levels.py`; verify with
 `python scripts/test-levels.py`. The top-level `keys` legend documents the schema.
