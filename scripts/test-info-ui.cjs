@@ -43,11 +43,13 @@ const root=path.resolve(__dirname,'..');
    await page.locator('.equipment-filter a').click();
    await page.waitForFunction(()=>document.querySelectorAll('.equipment-group').length===6);
    assert.equal(await page.locator('.tile.unit').count(),43);
-   await page.locator('#q').fill('arrow');
-   assert.equal(await page.locator('.equipment-group').count(),1);
+   await page.locator('#gq').fill('arrow');
+   await page.locator('#gresults li[role=option]').first().waitFor();
+   assert.deepEqual((await page.locator('#gresults b').allTextContents()).slice(0,3),['Giant Arrow','Frozen Arrow','Monolith Arrow'],'Equipment ranks first while on the equipment page');
+   await page.locator('#gq').press('Escape');
+   assert.equal(await page.locator('#gresults').isVisible(),false);
    await page.locator('#heroFilter').selectOption('Barbarian King');
-   await page.waitForFunction(()=>document.querySelector('#q').value==='');
-   assert.equal(await page.locator('.tile.unit').count(),8);
+   await page.waitForFunction(()=>document.querySelectorAll('.tile.unit').length===8);
    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Compact filter fits phone width');
    for(const [category,base,boosted,level,th] of [['elixir','Baby Dragon','Inferno Dragon',6,12],['dark','Minion','Super Minion',8,12]]) {
     await page.evaluate(hash=>location.hash=hash,`#/c/${category}/${encodeURIComponent(base)}`);

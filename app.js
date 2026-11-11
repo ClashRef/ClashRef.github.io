@@ -186,7 +186,6 @@ function home() {
     ? `<a class="tile" href="#/c/${c.id}">${img(c.img, c.label)}${!c.data ? '<span class="sub">Preview</span>' : ""}<span class="lbl">${esc(c.label)}</span></a>`
     : `<div class="tile off" aria-disabled="true">${img(c.img, c.label)}<span class="sub">Coming soon</span><span class="lbl">${esc(c.label)}</span></div>`).join("")}</div>`).join("") + footer();
 }
-let q = "";
 function infoCopy(cat, u) {
   const copy = INFO?.entries?.[cat.id]?.[u.n];
   if (!copy) return "";
@@ -197,12 +196,9 @@ function infoCopy(cat, u) {
 function catView(cat) {
   if (cat.format === "wiki-review-v1") return reviewCategory(cat);
   setChrome(cat.label, true, false);
-  const list = cat.units.filter((u) => u.n.toLowerCase().includes(q.toLowerCase()));
-  app.innerHTML = `<input class="search" id="q" type="search" placeholder="Search ${cat.nouns || cat.noun + "s"}" value="${esc(q)}">
-  <div class="grid units">${list.map((u) => { const m = maxAt(cat, u); return `<a class="tile unit ${m ? "" : "locked"}" href="#/c/${cat.id}/${encodeURIComponent(u.n)}">${img(u.av, u.n)}${levelPill(m, +u.l[u.l.length - 1][0], "Unlock at TH " + u.u)}<span class="lbl">${esc(u.n)}</span></a>`; }).join("")}</div>
-  ${list.length ? "" : `<p class="note">No matching items.</p>`}
+  const list = cat.units;
+  app.innerHTML = `<div class="grid units">${list.map((u) => { const m = maxAt(cat, u); return `<a class="tile unit ${m ? "" : "locked"}" href="#/c/${cat.id}/${encodeURIComponent(u.n)}">${img(u.av, u.n)}${levelPill(m, +u.l[u.l.length - 1][0], "Unlock at TH " + u.u)}<span class="lbl">${esc(u.n)}</span></a>`; }).join("")}</div>
   <p class="note">Badge = max level at TH${S.th}; gray cards show the unlock TH. Tap the TH button at top right to change Town Hall.</p>` + footer();
-  const inp = $("#q"); inp.oninput = () => { q = inp.value; const pos = inp.selectionStart; catView(cat); const n = $("#q"); n.focus(); n.setSelectionRange(pos, pos); };
 }
 function troopConnection(cat, u) {
   if (!["elixir", "dark", "super"].includes(cat.id)) return null;
@@ -337,7 +333,7 @@ function reviewCategory(cat) {
   const suffix = hero ? "?hero=" + encodeURIComponent(hero) : guardianGroup ? "?group=guardians" : "";
   const meta = CATS.groups.flatMap((g) => g.cats).find((c) => c.id === cat.id);
   const linked = (meta?.leadingCategories || []).flatMap((id) => (CACHE[id]?.units || []).map((u) => ({u, id})));
-  const list = [...linked.map((item) => item.u), ...cat.units].filter((u) => (!hero || u.hero === hero) && (cat.id !== "townhall" || (guardianGroup ? guardianNames.includes(u.n) : !guardianNames.includes(u.n))) && u.n.toLowerCase().includes(q.toLowerCase()));
+  const list = [...linked.map((item) => item.u), ...cat.units].filter((u) => (!hero || u.hero === hero) && (cat.id !== "townhall" || (guardianGroup ? guardianNames.includes(u.n) : !guardianNames.includes(u.n))));
   const renderTile = (u) => {
     const targetCat = linked.find((item) => item.u === u)?.id || cat.id;
     const caps = u.hallByLevel;
@@ -363,10 +359,9 @@ function reviewCategory(cat) {
     }).join("");
   })() : list.map(renderTile).join("");
   const filter = cat.id === "equip" ? `<div class="equipment-filter"><label for="heroFilter">Hero</label><select id="heroFilter"><option value="">All heroes</option>${heroes.map((name) => `<option value="${esc(name)}" ${name === hero ? "selected" : ""}>${esc(name)}</option>`).join("")}</select>${hero ? `<a href="#/c/equip">All equipment</a>` : ""}</div>` : "";
-  app.innerHTML = reviewHallControl(cat) + filter + reviewNotice(cat) + `<input class="search" id="q" type="search" placeholder="Search ${esc(cat.label)}" value="${esc(q)}"><div class="grid units">${tiles}</div>${!list.length ? `<p class="note">No matching equipment or items.</p>` : ""}`;
+  app.innerHTML = reviewHallControl(cat) + filter + reviewNotice(cat) + `<div class="grid units">${tiles}</div>`;
   bindReviewHall(cat, () => reviewCategory(cat));
   if (cat.id === "equip") $("#heroFilter").onchange = (e) => { location.hash = "#/c/equip" + (e.target.value ? "?hero=" + encodeURIComponent(e.target.value) : ""); };
-  $("#q").oninput = (e) => { q = e.target.value; const pos = e.target.selectionStart; reviewCategory(cat); $("#q").focus(); $("#q").setSelectionRange(pos, pos); };
 }
 function galleryEntries(u) {
   if (u.levelImages) return Object.entries(u.levelImages).sort(([a], [b]) => +a - +b).map(([level, image]) => ({...image, level: +level, label: u.levelLabels?.[level] || `Level ${level}`}));
@@ -495,7 +490,7 @@ window.addEventListener("pagehide", () => savePageScroll(true));
 if (typeof document.addEventListener === "function") document.addEventListener("visibilitychange", () => {
   if (document.visibilityState === "hidden") savePageScroll(true);
 });
-let lastRoute = "", lastSearchScope = "";
+let lastRoute = "";
 async function render() {
   syncSettings();
   const r = route(), scrollKey = pageScrollKey(r);
@@ -505,8 +500,6 @@ async function render() {
   try {
     if (!CATS) CATS = await fetch("data/categories.json", { cache: "no-cache" }).then((r) => r.json());
     if (version !== scrollVersion) return;
-    const searchScope = `${r.cat || ""}|${r.hero || ""}|${r.group || ""}`;
-    if (searchScope !== lastSearchScope) { q = ""; lastSearchScope = searchScope; }
     if (location.hash !== lastRoute) { if (r.unit) delete S.lvl[`${r.cat}|${r.unit}`]; lastRoute = location.hash; }
     if (!r.cat) return home();
     if (r.cat === "townhall" && r.unit === "Town Hall/Guardians") { location.hash = "#/c/townhall?group=guardians"; return; }
@@ -601,15 +594,21 @@ function installTableHeaders() {
 }
 if (typeof MutationObserver !== "undefined") installTableHeaders();
 
-// ---- global search (preview only: any ?preview= value turns it on) ----
-const searchOn = preview !== null;
+// ---- global search bar (every page) ----
 const searchKey = (s) => String(s).toLowerCase().replace(/[^a-z0-9]/g, "");
 const searchTokens = (s) => String(s).toLowerCase().split(/[\s\/]+/).map(searchKey).filter(Boolean);
-// Community shorthand that initials, prefixes and typo matching can't derive.
+// Shorthand and plain descriptions that initials, prefixes and typo matching can't
+// derive. Keep this short: each word also matches by prefix (3+ letters), so a
+// loose word here adds noise to many searches. Typo matching never uses these.
 const SEARCH_ALIASES = {
-  "Earthquake Spell": ["eq", "quake"], "Fireball": ["fb"], "Town Hall/Giga Weapon": ["gt", "gi", "giga tesla", "giga inferno"],
+  // Community shorthand
+  "Earthquake Spell": ["eq", "quake"], "Earthquake Boots": ["eq"], "Fireball": ["fb"], "Town Hall/Giga Weapon": ["gt", "gi", "giga tesla", "giga inferno"],
   "Barracks": ["rax"], "Dark Barracks": ["rax", "drax"], "Builder Barracks": ["rax"], "Elixir Collector": ["pump"], "Elixir Collector/Builder Base": ["pump"],
-  "Lava Hound": ["lalo"], "Balloon": ["lalo"], "Lavaloon Puppet": ["lalo"], "Electro Dragon": ["edrake"], "Laboratory": ["lab"],
+  "Dark Elixir Drill": ["de"], "Dark Elixir Storage": ["de"], "Skeleton Spell": ["skelly", "skellies"], "Skeleton Trap": ["skelly", "skellies"],
+  "Lava Hound": ["lalo"], "Balloon": ["lalo"], "Lavaloon Puppet": ["lalo"], "Electro Dragon": ["edrake"], "Laboratory": ["lab"], "Workshop": ["siege"],
+  // What an item looks like, for when the name doesn't come to mind
+  "Giant Gauntlet": ["glove", "fist"], "Vampstache": ["mustache", "moustache"], "Eternal Tome": ["book"], "Healing Tome": ["book"],
+  "Rocket Backpack": ["jetpack"], "Revenge Deck": ["cards"], "Frost Flake": ["snowflake"], "Flame Blower": ["flamethrower"], "L.A.S.S.I": ["dog"],
 };
 const searchName = (n) => n.replace(/\/Builder Base$/, "").replace(/^Town Hall\//, "");
 function searchParts(text) {
@@ -626,7 +625,7 @@ function searchEntry(e) {
   const initials = new Set([parts.map((p) => p[0]).join("")]);
   if (parts.length > 2 && parts[parts.length - 1] === "spell") initials.add(parts.slice(0, -1).map((p) => p[0]).join(""));
   return {...e, parts, words, compact: parts.join(""), initials: [...initials].filter((i) => i.length >= 2),
-    aliases: (SEARCH_ALIASES[e.key] || []).map(searchKey), extra: searchParts(e.extra || "").words};
+    aliases: (SEARCH_ALIASES[e.key] || []).map(searchKey), keywords: searchTokens((SEARCH_ALIASES[e.key] || []).join(" ")), extra: searchParts(e.extra || "").words};
 }
 function editDistance(a, b) {
   let prev = Array.from({length: b.length + 1}, (_, j) => j);
@@ -639,25 +638,27 @@ function editDistance(a, b) {
 }
 function tokenScore(t, e) {
   if (e.words.some((w) => w.startsWith(t))) return 3;
-  const stem = t.length > 3 && t.endsWith("s") ? t.slice(0, -1) : "";
-  if (stem && e.words.some((w) => w.startsWith(stem))) return 2.5;
-  if (t.length >= 3 && e.words.some((w) => w.includes(t) || (stem && w.includes(stem)))) return 2;
+  if (e.keywords.some((w) => w === t || (t.length >= 3 && w.startsWith(t)))) return 2.5;
+  // Plurals: "hogs", "loons", "witches".
+  const stems = t.length > 3 && t.endsWith("s") ? [t.slice(0, -1), ...(t.length > 4 && t.endsWith("es") ? [t.slice(0, -2)] : [])] : [];
+  if (stems.some((st) => e.words.some((w) => w.startsWith(st)))) return 2.5;
+  if (t.length >= 3 && e.words.some((w) => w.includes(t) || stems.some((st) => w.includes(st)))) return 2;
   if (t.length >= 4) {
     const limit = t.length >= 7 ? 2 : 1;
     if (e.words.some((w) => w.length >= 3 && Math.min(editDistance(t, w), editDistance(t, w.slice(0, t.length))) <= limit)) return 0.4;
   }
   return e.extra.some((w) => w.startsWith(t)) ? 0.2 : 0;
 }
-// Higher is better; 0 means no match. Exact names, aliases and initials beat prefixes,
-// which beat word matches, which beat typo matches. Ties keep category order.
+// Higher is better; 0 means no match. Exact names and initials beat name prefixes,
+// which beat aliases, then word matches, then typo matches. Ties keep category order.
 function searchScore(e, tokens) {
   const joined = tokens.join("");
   if (!joined) return 0;
   if (joined === e.compact) return 100;
-  if (e.aliases.includes(joined)) return 95;
   if (e.initials.includes(joined)) return 90;
   if (tokens.length === 1 && joined.length >= 4 && e.parts.slice(1).some((w, i) => joined[0] === e.parts[i][0] && w.startsWith(joined.slice(1)))) return 85;
   if (e.compact.startsWith(joined)) return 80;
+  if (e.aliases.includes(joined)) return 78;
   let sum = 0, named = false;
   for (const t of tokens) { const s = tokenScore(t, e); if (!s) { sum = -1; break; } sum += s; if (s >= 0.4) named = true; }
   // Small coverage bonus so "Cannon" outranks "Cannon Cart" for "cannon".
@@ -693,9 +694,9 @@ function searchResults(entries, text, current = "") {
     .sort((a, b) => b.s - a.s || (b.e.cat === current) - (a.e.cat === current) || a.e.order - b.e.order).slice(0, 30).map((r) => r.e);
 }
 function installSearch() {
-  if (!searchOn || typeof document.addEventListener !== "function") return;
+  if (typeof document.addEventListener !== "function") return;
   const box = $("#gsearch"), input = $("#gq"), list = $("#gresults");
-  box.hidden = false; document.body.classList.add("gs-on");
+  box.hidden = false;
   let loading = null, indexed = null, indexedHall = "", results = [], active = -1, version = 0;
   const load = () => loading ||= (async () => {
     if (!CATS) CATS = await fetch("data/categories.json", {cache: "no-cache"}).then((r) => r.json());

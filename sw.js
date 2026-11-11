@@ -2,7 +2,7 @@
 // Clash Ref service worker: network-first for this site's own files, so online
 // visitors always get fresh data, with a saved copy used when offline or when the
 // network is slower than SLOW_MS. Wiki images and analytics are not touched.
-const VERSION = "clashref-v1";
+const VERSION = "clashref-v2";
 const SLOW_MS = 3000;
 const SHELL_KEY = "./";
 
