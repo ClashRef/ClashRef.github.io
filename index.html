@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Clash Ref">
 <title>Clash Reference</title>
-<link rel="stylesheet" href="style.css?v=20261110-search2">
+<link rel="stylesheet" href="style.css?v=20261110-events">
 </head>
 <body>
 <div class="top">
@@ -18,7 +18,17 @@
   <h1 id="title">Clash Reference</h1>
   <button id="settingsBtn" class="gear" aria-label="Settings" aria-controls="settings" aria-expanded="false">TH<span id="thBadge"></span></button>
 </header>
-<div class="hj" id="hj"><span class="hjt" id="hjt">Hammer Jam (Nov 1&#8211;15): costs &amp; times shown are normal, not the 50% discount.</span><button class="hjc" id="hjc" type="button" aria-label="Show full note" aria-expanded="false" hidden>&#9662;</button></div>
+<!-- Event schedule: app.js shows each banner only between its start and end (inclusive).
+     Dates as YYYY-MM-DD use the visitor's local day; add a time (2026-11-15T08:00:00Z) for an exact cut-off.
+     costMultiplier/timeMultiplier (e.g. 0.5 = 50% off) drive the discount estimate on the "To max" tab; omit them for events that don't discount.
+     Edit only this list for events. See CHECK_FOR_CHANGES.md section 5. Check with: node scripts/test-events.cjs -->
+<script type="application/json" id="events">
+[
+  {"name": "Hammer Jam", "start": "2026-11-01", "end": "2026-11-15", "costMultiplier": 0.5, "timeMultiplier": 0.5,
+   "banner": "Hammer Jam (Nov 1–15): costs & times shown are normal, not the 50% discount."}
+]
+</script>
+<div class="hj" id="hj" hidden><span class="hjt" id="hjt"></span><button class="hjc" id="hjc" type="button" aria-label="Show full note" aria-expanded="false" hidden>&#9662;</button></div>
 <div id="gsearch" class="gsearch" role="search" hidden>
   <input id="gq" type="search" placeholder="Search everything (try aq, rc, xbow)" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="go" role="combobox" aria-label="Search troops, spells, heroes and buildings" aria-autocomplete="list" aria-controls="gresults" aria-expanded="false">
   <ul id="gresults" class="gresults" role="listbox" aria-label="Search results" hidden></ul>
@@ -52,7 +62,7 @@
   <p>Help improve Clash Ref? Optional Google Analytics uses cookies to measure visits and return visits. You can change this any time in the top-right menu.</p>
   <div><button id="allowAnalytics" type="button">Allow analytics</button><button id="denyAnalytics" type="button">No thanks</button></div>
 </aside>
-<script src="analytics.js?v=20261110-search2"></script>
-<script src="app.js?v=20261110-search2"></script>
+<script src="analytics.js?v=20261110-events"></script>
+<script src="app.js?v=20261110-events"></script>
 </body>
 </html>

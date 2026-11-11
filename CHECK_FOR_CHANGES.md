@@ -165,12 +165,14 @@ Mention in your report which of these you checked, or say you didn't:
 - **Hero equipment lists and pets** in `heroes.json` (`eq`, `pets`). Changes when new equipment launches.
 - **Info-tab descriptions** in `data/info.json` (source: `scripts/info-copy.txt`). They describe abilities in words. Re-read them when an ability, not just a number, changes.
 - **Things Supercell announces before the wiki catches up.** When the user mentions an update, read the patch notes and compare directly.
-- **Events and the event banner.** The checker knows nothing about events. Always do section 5.
+- **Events and the event banner.** The checker knows nothing about events. Always do section 5; the schedule in `index.html` handles start and end dates automatically.
 - **New images** for new levels. The checker only tests links that already exist.
 
 ## 5. Events that change costs or times, and the banner
 
-The site always shows **normal** costs and times. When a time-limited event changes upgrade costs or times (for example Hammer Jam's 50% off), a banner under the header tells visitors that the numbers shown aren't discounted. The banner must come down once the event ends. Do this check on every run, even when the checker reports nothing.
+The site always shows **normal** costs and times. When a time-limited event changes upgrade costs or times (for example Hammer Jam's 50% off), a banner under the header tells visitors that the numbers shown aren't discounted. The "To max" tab also estimates the discounted total.
+
+Events are **scheduled**, not switched on and off by hand. Each event has a start and end date, and the site shows its banner and discount notes only during that window. An ended event disappears by itself, and an event added ahead of time appears on its start date with no further edit. Do this check on every run, even when the checker reports nothing.
 
 ### Find out what's happening
 
@@ -187,39 +189,45 @@ The site always shows **normal** costs and times. When a time-limited event chan
    - The user, who may have seen the in-game event calendar.
 4. For each relevant event, record its exact start and end dates (and time zone, if given), what it discounts, and by how much. If you can't confirm the dates from a source, say so and don't add or remove a banner.
 
-### Where event text lives
+### The event schedule
 
-Everything is hard-coded; nothing expires on its own.
+Everything about events lives in one place: the `<script type="application/json" id="events">` list near the top of `index.html`. **Don't edit `app.js` or the banner markup for events.** The banner text, the "To max" estimate and the source note under each detail page all come from this list.
 
-| Place | What it is |
+```json
+[
+  {"name": "Hammer Jam", "start": "2026-11-01", "end": "2026-11-15", "costMultiplier": 0.5, "timeMultiplier": 0.5,
+   "banner": "Hammer Jam (Nov 1–15): costs & times shown are normal, not the 50% discount."}
+]
+```
+
+| Field | Meaning |
 |---|---|
-| `index.html`: `<div class="hj" id="hj">`, text inside `<span class="hjt" id="hjt">` | The banner under the header. It shows two lines, with a chevron to expand longer text. |
-| `app.js`: search for `Hammer Jam's 50% off` | Note on the "To max" tab estimating the discounted total. The math is hard-coded as cost / 2 and time / 2. |
-| `app.js`: search for `no Hammer Jam discount applied` | Source note under every detail page. |
+| `name` | Event name, used in the notes ("With Hammer Jam's 50% off…"). |
+| `start`, `end` | Inclusive. `YYYY-MM-DD` means that day in the visitor's own time zone. For an exact cut-off, use an ISO time such as `2026-11-15T08:00:00Z`. |
+| `banner` | Plain text, not HTML: write `&` and `–` directly. Keep it short; it shows two lines on a phone with a chevron to expand. Pattern: `<Event> (<Mon D>–<D>): costs & times shown are normal, not the <N>% discount.` |
+| `costMultiplier`, `timeMultiplier` | Optional. The share that is paid: `0.5` means 50% off and `0.7` means 30% off. Include only what the event actually discounts. Leave both out for an event that doesn't discount (no estimate is shown). If the discount isn't the same for everything the site shows, leave them out rather than show a wrong estimate. |
+
+If two events overlap, both banners show. The first one with a multiplier drives the estimate.
 
 ### What to do
 
-- **The event has ended and the banner is still up:**
-  - Hide the banner by adding the `hidden` attribute: `<div class="hj" id="hj" hidden>`. **Don't delete the element.** `app.js` reads `#hj`, `#hjt` and `#hjc` at startup and would crash without them.
-  - Make the two `app.js` notes generic. The "To max" note becomes: `Normal values. Gold Pass and other boosts aren't included.` The source note becomes: `Normal values; no event discounts applied.`
-  - Only do this after the end date has passed. If the time zone is unclear, wait until the day after.
-- **An event is running, or about to start, and there's no banner:**
-  - Propose a banner to the user before adding one; everyone sees it.
-  - Follow the current pattern, kept short: `<Event> (<Mon D>&#8211;<D>): costs &amp; times shown are normal, not the <N>% discount.`
-  - Unhide the div and update the two `app.js` notes to name the event. Adjust the "To max" estimate to the real discount. For example, 30% off becomes `* 0.7` instead of `/ 2`, and a time-only discount should change only the time. If the discount isn't uniform across what the page shows, drop the estimate rather than show a wrong number.
-- **The banner is up and the event is still running:** check that the dates and percentage match the source, and leave it.
+- **New event found:** propose the entry to the user (name, dates, discount, banner text) before adding it, since every visitor sees it. Once they agree, add it to the list, even if it starts days later; it switches on by itself.
+- **Event dates or discount changed** (extended, or announced differently): update its entry.
+- **Event ended:** nothing is required, because it has already disappeared. To keep the list tidy, delete entries that ended more than about a month ago.
+- **Unsure about dates or time zone:** say so in your report and don't add the entry. A date-only `end` stays up through the end of that day everywhere, which errs on the safe side.
 - **The event changes the data itself.** This is a data change (section 3):
   - Event-only levels go in `specialLevelTables`.
   - Equipment sold in an event shop belongs in that item's "Unlock Requirement" text.
   - **Never write discounted numbers into `data/`.**
 
-These are edits to `index.html` and `app.js`. Afterwards, bump the shared `?v=` version string on the `style.css`, `analytics.js` and `app.js` links in `index.html` so browsers pick up the change. Then run the browser tests (section 6), check the banner at phone width (320 and 390 px), and publish only if the user asked.
+After editing the schedule, run `node scripts/test-events.cjs`. It checks the list is valid (dates, multipliers, plain-text banner, length) and prints which events are running, upcoming or ended. Only `index.html` changes, so no `?v=` bump is needed; the schedule is read in the browser, so even a cached copy of the page hides an ended event on time. Publish only if the user asked.
 
 ## 6. Verify
 
 After any data edit:
 
 ```
+node scripts/test-events.cjs        # event schedule in index.html is valid
 python scripts/build-levels.py      # regenerate data/levels.json (never hand-edit it)
 python scripts/test-levels.py
 node scripts/test-clash.cjs
@@ -256,6 +264,6 @@ Tell the user, briefly:
 - What was checked: pages, items and images, and the date.
 - Each real change found: item, level, old to new, source, and whether you fixed it.
 - Each suspected wiki error, with why you think so.
-- Event status: which events affect the site now, whether the banner is correct, and what you changed or propose (section 5).
+- Event status: which events are running or scheduled (the `test-events.cjs` summary line), anything missing or wrong in the schedule, and what you changed or propose (section 5).
 - Anything you couldn't check (section 4), and anything needing their decision.
 - If you published: the commit SHA and that the live site shows the new values.

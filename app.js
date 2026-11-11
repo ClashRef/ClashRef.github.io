@@ -270,7 +270,7 @@ function unitView(cat, u) {
       <div><span>Upgrades left</span><span>${left.length}</span></div>
       <div><span>${R} needed</span><span class="big" style="color:var(--elix)">${fmt(cost)}</span></div>
       <div><span>${cat.timeLabel || "Lab time"}</span><span class="big">${fmtMins(time)}</span></div></div>
-      <p class="note">Normal values. With Hammer Jam's 50% off it would be about ${short(Math.round(cost / 2))} ${R} and ${fmtMins(Math.round(time / 2))}. Gold Pass and other boosts aren't included.</p>`;
+      <p class="note">${esc(discountNote(cost, time, R))}</p>`;
   }
   app.innerHTML = html + footer();
   const go = (d) => { const n = levels[idx + d]; if (n) { S.lvl[key] = n; unitView(cat, u); } };
@@ -449,7 +449,7 @@ function reviewUnit(cat, u) {
     }
     html += u.tables.map(renderTable).join("");
   }
-  html += `<p class="note">Source: <a href="${esc(u.source)}" target="_blank" rel="noopener">${esc(u.n)} on Fandom</a> \u00b7 fetched ${esc(cat.updated)}. Normal values; no Hammer Jam discount applied.</p>`;
+  html += `<p class="note">Source: <a href="${esc(u.source)}" target="_blank" rel="noopener">${esc(u.n)} on Fandom</a> \u00b7 fetched ${esc(cat.updated)}. Normal values; no ${esc(DISCOUNT ? DISCOUNT.name : "event")} discount applied.</p>`;
   app.innerHTML = html;
   bindReviewHall(cat, () => reviewUnit(cat, u));
   if ($("#reviewCurrent")) $("#reviewCurrent").onchange = (e) => { S.cur[key] = e.target.value; reviewUnit(cat, u); };
@@ -529,8 +529,37 @@ async function render() {
   } catch (e) { app.innerHTML = `<p class="loading">Couldn't load data (${esc(e.message)}). Pull to refresh.</p>`; }
   finally { if (changedPage) restorePageScroll(scrollKey, version); if (CATS) prefetchAll(); }
 }
-// Hammer Jam banner: clamp to 2 lines; chevron only when the text overflows.
+// ---- events: schedule lives in <script id="events"> in index.html ----
+// Each event shows its banner (and discount estimate) only from start to end, so an
+// ended event disappears by itself. Date-only values use the visitor's local day.
+function eventTime(value, end) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(value || ""));
+  if (m) return new Date(+m[1], +m[2] - 1, +m[3] + (end ? 1 : 0)).getTime() - (end ? 1 : 0);
+  const t = Date.parse(value);
+  return Number.isFinite(t) ? t : NaN;
+}
+function activeEvents(list, now = Date.now()) {
+  return (Array.isArray(list) ? list : []).filter((e) => e && eventTime(e.start, false) <= now && now <= eventTime(e.end, true));
+}
+const EVENTS = (() => { try { return JSON.parse($("#events")?.textContent || "[]"); } catch { return []; } })();
+const ACTIVE_EVENTS = activeEvents(EVENTS);
+// The first running event that discounts costs or times drives the "To max" estimate.
+const DISCOUNT = ACTIVE_EVENTS.find((e) => e.costMultiplier < 1 || e.timeMultiplier < 1) || null;
+function discountNote(cost, time, resource, event = DISCOUNT) {
+  const base = "Gold Pass and other boosts aren't included.";
+  if (!event) return `Normal values. ${base}`;
+  const c = event.costMultiplier < 1 ? event.costMultiplier : 1, t = event.timeMultiplier < 1 ? event.timeMultiplier : 1;
+  const off = c === t ? `${Math.round((1 - c) * 100)}% off` : "discount";
+  const parts = [c < 1 && `${short(Math.round(cost * c))} ${resource}`, t < 1 && fmtMins(Math.round(time * t))].filter(Boolean);
+  return `Normal values. With ${event.name}'s ${off} it would be about ${parts.join(" and ")}. ${base}`;
+}
+// Event banner: clamp to 2 lines; chevron only when the text overflows.
 const hj = $("#hj"), hjt = $("#hjt"), hjc = $("#hjc");
+{
+  const banners = ACTIVE_EVENTS.map((e) => e.banner).filter(Boolean);
+  hjt.textContent = banners.join(" ");
+  hj.hidden = !banners.length;
+}
 function checkHJ() { if (hj.classList.contains("open")) return; hjc.hidden = !(hjt.scrollHeight > hjt.clientHeight + 1); }
 hjc.onclick = () => { const o = hj.classList.toggle("open"); hjc.setAttribute("aria-expanded", o); hjc.setAttribute("aria-label", o ? "Collapse note" : "Show full note"); if (!o) checkHJ(); };
 window.addEventListener("resize", checkHJ); checkHJ();
