@@ -4,7 +4,9 @@ const path = require('node:path');
 const assert = require('node:assert/strict');
 const root = path.resolve(__dirname, '..');
 const ids = ['defenses', 'traps', 'army', 'resource', 'walls', 'townhall', 'crafted', 'supercharge', 'bbdefenses', 'bbtraps', 'bbbuildings', 'bbwalls'];
-const cats = Object.fromEntries(ids.map(id => [id, JSON.parse(fs.readFileSync(path.join(root, `data/${id}.json`)))]));
+// ?preview=all also loads any update-preview copies (data/next/), so read what the page reads.
+const nextFile = Object.fromEntries(JSON.parse(fs.readFileSync(path.join(root, 'data/categories.json'))).groups.flatMap(g => g.cats).filter(c => c.next).map(c => [c.id, c.next]));
+const cats = Object.fromEntries(ids.map(id => [id, JSON.parse(fs.readFileSync(path.join(root, nextFile[id] || `data/${id}.json`)))]));
 function expectedImage(u, level, hall) {
   return (level === 1 && u.townHallImages?.[hall]?.url) || u.levelImages?.[level * (u.imageLevelMultiplier || 1)]?.url || u.staticImage?.url || u.av;
 }

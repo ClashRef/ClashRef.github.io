@@ -1,6 +1,6 @@
 # Checking Clash Ref for out-of-date data (instructions for AI agents)
 
-Use this when asked to check the site for changes, verify its data, or bring it up to date with the game. It covers running the checker, deciding what each finding means, what the checker can't see, keeping the event banner accurate, and, only when the user asks, fixing the data and publishing it.
+Use this when asked to check the site for changes, verify its data, or bring it up to date with the game. It covers running the checker, deciding what each finding means, what the checker can't see, keeping the event banner accurate, previewing an announced update, and, only when the user asks, fixing the data and publishing it.
 
 The site is https://clashref.github.io, a static GitHub Pages site deployed from `main` of `ClashRef/ClashRef.github.io`. There is no build step. Data lives in `data/*.json`; `app.js` renders it.
 
@@ -164,7 +164,7 @@ Mention in your report which of these you checked, or say you didn't:
 - **Compact-format Info fields** (Elixir Troops and Heroes). The list is under "The two data formats" above.
 - **Hero equipment lists and pets** in `heroes.json` (`eq`, `pets`). Changes when new equipment launches.
 - **Info-tab descriptions** in `data/info.json` (source: `scripts/info-copy.txt`). They describe abilities in words. Re-read them when an ability, not just a number, changes.
-- **Things Supercell announces before the wiki catches up.** When the user mentions an update, read the patch notes and compare directly.
+- **Things Supercell announces before the wiki catches up.** When the user mentions an update, read the patch notes and compare directly. For an announced update that isn't out yet, see section 6.
 - **Events and the event banner.** The checker knows nothing about events. Always do section 5; the schedule in `index.html` handles start and end dates automatically.
 - **New images** for new levels. The checker only tests links that already exist.
 
@@ -222,7 +222,35 @@ If two events overlap, both banners show. The first one with a multiplier drives
 
 After editing the schedule, run `node scripts/test-events.cjs`. It checks the list is valid (dates, multipliers, plain-text banner, length) and prints which events are running, upcoming or ended. Only `index.html` changes, so no `?v=` bump is needed; the schedule is read in the browser, so even a cached copy of the page hides an ended event on time. Publish only if the user asked.
 
-## 6. Verify
+## 6. Preview of an upcoming update
+
+When Supercell has announced an update (sneak peeks) but it isn't out yet, the site can show it **only in preview mode** (`https://clashref.github.io/?preview=true`). The normal site never changes.
+
+How it works:
+
+- Wiki editors stage the update's new rows and changed values inside HTML comments (`<!-- ... -->`) until release day. `scripts/build-update-preview.py` reads each page's source, un-hides those values, has the wiki render the result, and applies only the differences that come from the staged content.
+- It writes full copies of the changed categories to `data/next/<id>.json` and adds `"next": "data/next/<id>.json"` to those categories in `data/categories.json`. `app.js` loads them only with `?preview=true` (or `?preview=all`), raises the Town Hall picker to `NEXT_TH`, and shows `PREVIEW_BANNER`.
+- Anything announced without numbers gets `TBA`. That covers new troop levels seen only in sneak-peek art, new hero levels from the Hero Hall caps, building levels implied by the Town Hall tables, and buildings known by name only. "To max" totals leave TBA upgrades out and say how many.
+- `data/next/info.json` holds hand-written Info-tab descriptions for new items. The script never overwrites it.
+
+Run it after each sneak peek (it rebuilds from `data/*.json` every time, so fixes to live data carry over):
+
+```
+python scripts/build-update-preview.py            # about a minute; writes data/next/ and categories.json
+python scripts/build-update-preview.py --dry-run  # report only
+python scripts/build-update-preview.py --offline  # rebuild from the last download (no wiki requests)
+node scripts/test-update-preview.cjs
+```
+
+Every change is listed in `.wiki-check/update-preview.txt`. Read it before publishing. Look for wiki typos (the script fixes known ones in `TYPO_FIXES` and broken staged rows in `PAGE_PATCHES`) and for anything under "Needs a look". Settings for the update (name, Town Hall, release date, new items, extra notes) are constants at the top of the script. The wiki rate-limits quick repeat runs (HTTP 429); the script waits and retries, and `--offline` avoids it entirely.
+
+**When the update ships:**
+
+1. Run `python scripts/check-wiki.py`. The wiki now shows the new values openly, so they appear as normal findings. Fix `data/*.json` for real (section 3), adding the new items properly, and copy any descriptions you want from `data/next/info.json` into `data/info.json` and `scripts/info-copy.txt`.
+2. Delete `data/next/`, remove every `"next"` field from `data/categories.json`, and in `app.js` remove the `PREVIEW_UPDATE` block (`NEXT_TH`, `PREVIEW_BANNER`, the `c.next` part of `categoryPath`, and the `data/next/info.json` merge in `loadInfo`). Set `MAX_TH` to the new Town Hall.
+3. Verify (section 7) and publish only if the user asked.
+
+## 7. Verify
 
 After any data edit:
 
@@ -233,11 +261,12 @@ python scripts/test-levels.py
 node scripts/test-clash.cjs
 node scripts/test-search.cjs
 python scripts/check-wiki.py --offline   # your fixes should disappear from the findings
+node scripts/test-update-preview.cjs     # only while data/next/ exists (section 6)
 ```
 
 All must pass. If you changed `app.js`, `style.css` or `index.html`, also run the browser tests in `scripts/test-*.cjs`. They need Playwright (`npm i playwright`, `npx playwright install webkit`; Chromium tests use the installed Edge). Run them in both engines, and bump the `?v=` query on those files in `index.html`. Data-only changes need no version bump; the service worker (`sw.js`) fetches data network-first.
 
-## 7. Publish (only when the user asked)
+## 8. Publish (only when the user asked)
 
 1. Make sure you're on `main` with a clean tree apart from your changes (`git status`). Don't commit `.wiki-check/`; it's git-ignored.
 2. Commit only the files you changed. Use a message that says what changed and why. For example:
@@ -257,7 +286,7 @@ All must pass. If you changed `app.js`, `style.css` or `index.html`, also run th
 
 The deploy publishes only `index.html`, `app.js`, `analytics.js`, `style.css`, `sw.js` and `data/` (see `.github/workflows/pages.yml`). Scripts and these docs are never published. If you add a new top-level site file, add it to that workflow.
 
-## 8. Report back
+## 9. Report back
 
 Tell the user, briefly:
 
@@ -265,5 +294,6 @@ Tell the user, briefly:
 - Each real change found: item, level, old to new, source, and whether you fixed it.
 - Each suspected wiki error, with why you think so.
 - Event status: which events are running or scheduled (the `test-events.cjs` summary line), anything missing or wrong in the schedule, and what you changed or propose (section 5).
+- If an update preview is live (section 6): what changed in it, and whether the update has shipped and the preview should be retired.
 - Anything you couldn't check (section 4), and anything needing their decision.
 - If you published: the commit SHA and that the live site shows the new values.

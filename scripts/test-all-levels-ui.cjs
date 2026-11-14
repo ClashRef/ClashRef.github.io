@@ -2,6 +2,8 @@ const {chromium, webkit} = require('playwright');
 const fs = require('node:fs'), path = require('node:path'), assert = require('node:assert/strict');
 const root = path.resolve(__dirname, '..');
 const cases = [['elixir','Barbarian',10], ['heroes','Archer Queen',10], ['dark','Hog Rider',10], ['super','Inferno Dragon',12], ['equip','Giant Gauntlet',10], ['pets','L.A.S.S.I',14], ['defenses','Cannon',10], ['traps','Bomb',10], ['army','Laboratory',10], ['crafted','Hot Candle',11], ['bbtroops','Raged Barbarian',5], ['bbdefenses','Double Cannon',5], ['bbwalls','Walls/Builder Base',5]];
+// ?preview=true also loads any update-preview copies (data/next/), so read what the page reads.
+const nextFile = Object.fromEntries(JSON.parse(fs.readFileSync(path.join(root, 'data/categories.json'))).groups.flatMap(g => g.cats).filter(c => c.next).map(c => [c.id, c.next]));
 const upgradeTable = t => /^(?:(?:TH|BH) level|level|charge(?: level)?)$/i.test(t.columns[0]);
 (async () => {
   for (const engine of [chromium, webkit]) {
@@ -20,7 +22,7 @@ const upgradeTable = t => /^(?:(?:TH|BH) level|level|charge(?: level)?)$/i.test(
         await page.goto('https://clash.test/');
         await page.evaluate(only=>localStorage.setItem('cr.only',only),only);
         for (const [id,name,hall] of cases) {
-          const cat = JSON.parse(fs.readFileSync(path.join(root,`data/${id}.json`)));
+          const cat = JSON.parse(fs.readFileSync(path.join(root,nextFile[id] || `data/${id}.json`)));
           const u = cat.units.find(u=>u.n===name);
           const rows = u.l || u.tables.find(upgradeTable).rows.filter(r=>/^\d+$/.test(r[0]));
           const requirement = r => u.l ? cat.rowTH ? +r.at(-1) : +r.at(-1) ? +r.at(-1)+cat.thOffset : u.u : u.hallByLevel[r[0]];

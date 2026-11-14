@@ -1,0 +1,84 @@
+{
+ "updated": "2026-11-14",
+ "note": "Descriptions for items new in the Town Hall 19 update, shown only with ?preview=true. Written from the wiki's sneak-peek pages; merged into data/info.json by app.js.",
+ "entries": {
+  "defenses": {
+   "Firecracker Tower": {
+    "overview": "A merged defense unlocked at Town Hall 19, made by combining a level 21 Archer Tower with a level 7 Scattershot. The Firecracker on top launches rockets that burst on the first target and spray sparks behind it, hitting air and ground.",
+    "mechanics": [
+     "At TH19, permanently merge a level 21 Archer Tower and a level 7 Scattershot into a level 1 Firecracker Tower. The merge can't be undone, and merging all of them is required before the next Town Hall upgrade.",
+     "Each rocket hits the first target for full damage, then splashes units up to 5 tiles behind it. Unlike the Scattershot it has no blind spot up close, and it fires about twice as fast."
+    ],
+    "strategy": "Keep it deep in the base, where it can shred both swarms and tanks. Attackers can outrange it with Flame Flingers or the Royal Champion's Rocket Spear, so cover it with long-range defenses such as Mortars, X-Bows and the Monolith.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Firecracker_Tower",
+     "revision": 626144,
+     "rawWikitextSHA256": "3e723843cbbddecec5e2ad26c271c044dbd4700c88b522a74e9dceeef1c46daa"
+    },
+    "merge": {
+     "ingredients": [
+      {
+       "name": "Archer Tower",
+       "level": 21,
+       "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fa/Archer_Tower21.png/revision/latest?cb=20221223040422"
+      },
+      {
+       "name": "Scattershot",
+       "level": 7,
+       "url": "https://static.wikia.nocookie.net/clashofclans/images/3/37/Scattershot7.png/revision/latest?cb=20260709205916"
+      }
+     ],
+     "result": {
+      "name": "Firecracker Tower",
+      "level": 1,
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/d/df/Firecracker_Tower1.png/revision/latest?cb=20261113172805"
+     },
+     "caption": "A permanent merge replaces the two ingredient buildings with one new defense."
+    }
+   },
+   "Spiky Tower": {
+    "overview": "A Town Hall 19 defense built and upgraded with Dark Elixir. It doesn't look for targets. Instead it hits back at whatever damages it, with spikes that deal a share of the attacker's maximum hitpoints.",
+    "mechanics": [
+     "Two are available at TH19. Every hit it takes is answered, even while it's frozen or the attacker is invisible, with no limit on how fast it retaliates.",
+     "Its damage is a percentage of the attacker's maximum hitpoints (6% at level 1, 9% at level 2), so it hurts Heroes and high-HP troops most. A hit that destroys it outright isn't answered, and damaging Hero Equipment abilities don't trigger it."
+    ],
+    "strategy": "Place it where Heroes and tanks are likely to hit it, and pair it with splash or multi-target defenses that clear low-HP swarms. As an attacker, take it down with spells or cheap low-hitpoint troops rather than Heroes, and avoid many rapid hits from valuable units.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Spiky_Tower",
+     "revision": 626142,
+     "rawWikitextSHA256": "3a84ac3332fd6b3fcd44a7e29e66a83abc4d837e33fd11a26dd522948217fccb"
+    }
+   }
+  },
+  "espells": {
+   "Heroic Spell": {
+    "overview": "A new Elixir spell that boosts troops inside its area: they take less damage, move faster and can jump over walls. It unlocks with Spell Factory level 10.",
+    "mechanics": [
+     "Takes 2 housing space and affects ground and air troops within a 5-tile radius.",
+     "Level 1 lasts 9.75 seconds, adds 5 movement speed and cuts incoming damage by 34%. Level 4 lasts 12.75 seconds with +8 speed and 40% less damage taken."
+    ],
+    "strategy": "Cast it where the army meets the heaviest defenses, so troops survive the push into the core and get over walls without a separate Jump Spell.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Heroic_Spell",
+     "revision": 626146,
+     "rawWikitextSHA256": "122fca1457115db44b4edd2cfc474483c92d04a5ea9de0d353da42f5f689fbc4"
+    }
+   }
+  },
+  "army": {
+   "Guardian Shrine": {
+    "overview": "A free building unlocked at Town Hall 19 that marks where the defending Guardians patrol. From TH19 they no longer stand on top of the Town Hall and live at the Shrine instead.",
+    "mechanics": [
+     "Only one is available. It's placed for free, builds instantly and has 2,000 hitpoints.",
+     "Placing it is required before the next Town Hall upgrade."
+    ],
+    "strategy": "Where you put it decides which part of the base the Guardians defend. The Smasher's rage is tied to the Town Hall, not the Shrine, so a Shrine placed away from the Town Hall keeps the Smasher out of the crossfire for longer.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Guardian_Shrine",
+     "revision": 626143,
+     "rawWikitextSHA256": "7f48ec01445aaf08cbabc2e824daba40e2b6fa2157fd72959d59ac87eeb33dd0"
+    }
+   }
+  }
+ }
+}

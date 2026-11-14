@@ -3,22 +3,31 @@
 // Add a category: drop data/<id>.json (same shape as elixir.json) and set "data" for it in data/categories.json.
 const $ = (s, el = document) => el.querySelector(s);
 const app = $("#app"), titleEl = $("#title"), backBtn = $("#back"), tabsEl = $("#tabs");
+// Query-only preview: never persists or changes the published category manifest.
+const preview = new URLSearchParams(location.search).get("preview");
+// Preview of an announced, unreleased update: ?preview=true loads the data/next/ copies named by
+// "next" in categories.json (built by scripts/build-update-preview.py). Remove this block, NEXT_TH
+// and data/next/ once the update ships and data/*.json has the real values.
+const PREVIEW_UPDATE = preview === "true" || preview === "all";
+const NEXT_TH = 19;
+const PREVIEW_BANNER = "Preview: includes the Town Hall 19 update (Nov 16) from wiki sneak peeks. TBA = not revealed yet.";
 // Highest supported TH; update here when new Town Hall data is added.
-const MAX_TH = 18;
+const MAX_TH = PREVIEW_UPDATE ? NEXT_TH : 18;
 const savedTH = Number(localStorage.getItem("cr.th"));
-const hasSavedTH = Number.isInteger(savedTH) && savedTH >= 1 && savedTH <= MAX_TH;
+const hasSavedTH = Number.isInteger(savedTH) && savedTH >= 1 && savedTH <= NEXT_TH;
 const S = {
-  th: hasSavedTH ? savedTH : MAX_TH,
+  th: hasSavedTH ? Math.min(savedTH, MAX_TH) : MAX_TH,
   only: localStorage.getItem("cr.only") !== "0",
   tab: localStorage.getItem("cr.tab") || "stats",
   lvl: {}, cur: {},
 };
 let CATS = null, INFO = null; const CACHE = {}, PENDING = {};
-// Query-only preview: never persists or changes the published category manifest.
-const preview = new URLSearchParams(location.search).get("preview");
 // Offline support and faster repeat visits on the live site only (tests use other hosts).
 const useServiceWorker = typeof navigator !== "undefined" && "serviceWorker" in navigator && /^(?:clashref\.github\.io|localhost|127\.0\.0\.1)$/.test(location.hostname);
-const categoryPath = (c) => c.data || ((preview === "true" || preview === "all" || preview === c.id) ? `data/${c.id}.json` : null);
+const categoryPath = (c) => (PREVIEW_UPDATE && c.next) || c.data || ((preview === "true" || preview === "all" || preview === c.id) ? `data/${c.id}.json` : null);
+// "TBA" marks values a previewed update hasn't revealed yet.
+const isTBA = (v) => v === "TBA";
+const tbaNote = (n) => `${n} of these upgrade${n === 1 ? " hasn't" : "s haven't"} been revealed yet (TBA), so the totals leave ${n === 1 ? "it" : "them"} out.`;
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const fmt = (v) => (typeof v === "number" ? v.toLocaleString("en-US") : v);
 const mins = (t) => { const g = (re) => { const m = String(t).match(re); return m ? +m[1] : 0; }; return g(/(\d+)d/) * 1440 + g(/(\d+)h/) * 60 + g(/(\d+)m/); };
@@ -146,10 +155,15 @@ async function loadCat(id) {
 let infoPending = null;
 async function loadInfo() {
   if (INFO) return INFO;
+  // The update preview adds descriptions for its new items from data/next/info.json.
+  const extra = PREVIEW_UPDATE ? fetch("data/next/info.json").then((r) => (r.ok ? r.json() : null)).catch(() => null) : null;
   return infoPending ||= fetch("data/info.json").then((response) => {
     if (!response.ok) throw new Error("Info descriptions unavailable");
     return response.json();
-  }).then((data) => (INFO = data)).finally(() => { infoPending = null; });
+  }).then(async (data) => {
+    for (const [cat, items] of Object.entries((await extra)?.entries || {})) data.entries[cat] = {...data.entries[cat], ...items};
+    return (INFO = data);
+  }).finally(() => { infoPending = null; });
 }
 // After the first screen is drawn, quietly load every open category so search and
 // navigation are instant. Skipped when the visitor asks to save data or is on 2G.
@@ -197,7 +211,7 @@ function catView(cat) {
   if (cat.format === "wiki-review-v1") return reviewCategory(cat);
   setChrome(cat.label, true, false);
   const list = cat.units;
-  app.innerHTML = `<div class="grid units">${list.map((u) => { const m = maxAt(cat, u); return `<a class="tile unit ${m ? "" : "locked"}" href="#/c/${cat.id}/${encodeURIComponent(u.n)}">${img(u.av, u.n)}${levelPill(m, +u.l[u.l.length - 1][0], "Unlock at TH " + u.u)}<span class="lbl">${esc(u.n)}</span></a>`; }).join("")}</div>
+  app.innerHTML = (cat.preview ? `<p class="note">${esc(cat.preview.note)}</p>` : "") + `<div class="grid units">${list.map((u) => { const m = maxAt(cat, u); return `<a class="tile unit ${m ? "" : "locked"}" href="#/c/${cat.id}/${encodeURIComponent(u.n)}">${img(u.av, u.n)}${levelPill(m, +u.l[u.l.length - 1][0], "Unlock at TH " + u.u)}<span class="lbl">${esc(u.n)}</span></a>`; }).join("")}</div>
   <p class="note">Badge = max level at TH${S.th}; gray cards show the unlock TH. Tap the TH button at top right to change Town Hall.</p>` + footer();
 }
 function troopConnection(cat, u) {
@@ -241,13 +255,13 @@ function unitView(cat, u) {
     ${levelUnlockNotice(reqTH(cat, u, row), S.th)}<div class="cap">${u.hs ? "Housing " + u.hs + " \u00b7 " : ""}Unlocks: ${esc(unlockText(cat, u))} \u00b7 Upgrades with ${R}</div>${cat.id === "heroes" ? `<a class="related-link" href="#/c/equip?hero=${encodeURIComponent(u.n)}" aria-label="See ${esc(u.n)} equipment">See equipment &rarr;</a>` : ""}${troopLink(cat, u)}</div>
     `;
   if (S.tab !== "info") html += `<div class="props">${u.c.map((c, i) => `<div><span>${esc(c)}</span><span>${fmt(row[1 + i])}</span></div>`).join("")}
-    <div><span>Upgrade cost</span><span>${+row[1 + k] ? fmt(+row[1 + k]) + " " + R : "Unlocked with the " + cat.noun}</span></div>
+    <div><span>Upgrade cost</span><span>${isTBA(row[1 + k]) ? "TBA" : +row[1 + k] ? fmt(+row[1 + k]) + " " + R : "Unlocked with the " + cat.noun}</span></div>
     <div><span>Upgrade time</span><span>${row[2 + k] || "\u2013"}</span></div><div><span>Needs</span><span>${needs}</span></div></div>`;
   const tab = S.tab;
   if (tab === "stats") {
     const rows = u.l;
     html += `<h3 class="sec">Upgrade stats</h3><div class="tblwrap"><table><thead><tr>${columnHeader("Level")}${columnHeader("Upgrade cost", R)}${columnHeader("Time")}${u.c.map((c) => columnHeader(c)).join("")}${columnHeader(cat.req)}${columnHeader("TH")}</tr></thead><tbody>
-    ${rows.map((r) => `<tr class="${+r[0] === lvl ? "sel " : ""}${reqTH(cat, u, r) > S.th ? "over" : ""}" data-l="${r[0]}"><td><b>${r[0]}</b></td><td class="cost">${+r[1 + k] ? fmt(+r[1 + k]) : "\u2013"}</td><td>${r[2 + k] || "\u2013"}</td>${u.c.map((c, i) => `<td>${fmt(r[1 + i])}</td>`).join("")}<td>${+r[3 + k] || "\u2013"}</td><td>${reqTH(cat, u, r)}</td></tr>`).join("")}</tbody></table></div>
+    ${rows.map((r) => `<tr class="${+r[0] === lvl ? "sel " : ""}${reqTH(cat, u, r) > S.th ? "over" : ""}" data-l="${r[0]}"><td><b>${r[0]}</b></td><td class="cost">${isTBA(r[1 + k]) ? "TBA" : +r[1 + k] ? fmt(+r[1 + k]) : "\u2013"}</td><td>${r[2 + k] || "\u2013"}</td>${u.c.map((c, i) => `<td>${fmt(r[1 + i])}</td>`).join("")}<td>${+r[3 + k] || "\u2013"}</td><td>${reqTH(cat, u, r)}</td></tr>`).join("")}</tbody></table></div>
     <p class="note">Cost (${R}) and time are to reach that level. ${cat.req} = ${cat.reqName} level required. Tap a row to select it. Swipe the table sideways for more columns.</p>`;
   } else if (tab === "info") {
     const P = [...(u.hs ? [["Housing space", u.hs]] : []), ["Preferred target", u.tg], ["Attack type", u.at], ["Movement speed", u.ms], ["Attack speed", u.sp], ["Range", u.rg], ...u.ex,
@@ -263,16 +277,17 @@ function unitView(cat, u) {
     const target = S.only ? mTH : maxAll;
     let cur = Math.min(S.cur[key] || 1, Math.max(target, 1));
     const left = u.l.filter((r) => +r[0] > cur && +r[0] <= target);
-    const cost = left.reduce((s, r) => s + +r[1 + k], 0), time = left.reduce((s, r) => s + mins(r[2 + k]), 0);
+    const cost = left.reduce((s, r) => s + (+r[1 + k] || 0), 0), time = left.reduce((s, r) => s + mins(r[2 + k]), 0);
+    const unknown = left.filter((r) => isTBA(r[1 + k]) || isTBA(r[2 + k])).length;
     html += `<h3 class="sec">Remaining to max</h3><div class="props maxbox">
       <div><span>My current level</span><span><select id="curSel">${Array.from({ length: Math.max(target, 1) }, (_, i) => `<option ${i + 1 === cur ? "selected" : ""}>${i + 1}</option>`).join("")}</select></span></div>
       <div><span>Target</span><span>Level ${target || "\u2013"} ${S.only ? "(max at TH" + S.th + ")" : "(max in game)"}</span></div>
       <div><span>Upgrades left</span><span>${left.length}</span></div>
       <div><span>${R} needed</span><span class="big" style="color:var(--elix)">${fmt(cost)}</span></div>
       <div><span>${cat.timeLabel || "Lab time"}</span><span class="big">${fmtMins(time)}</span></div></div>
-      <p class="note">${esc(discountNote(cost, time, R))}</p>`;
+      ${unknown ? `<p class="note">${tbaNote(unknown)}</p>` : ""}<p class="note">${esc(discountNote(cost, time, R))}</p>`;
   }
-  app.innerHTML = html + footer();
+  app.innerHTML = html + (cat.preview ? `<p class="note">${esc(cat.preview.note)}</p>` : "") + footer();
   const go = (d) => { const n = levels[idx + d]; if (n) { S.lvl[key] = n; unitView(cat, u); } };
   $("#lvDown").onclick = () => go(-1); $("#lvUp").onclick = () => go(1);
   app.querySelectorAll("tr[data-l]").forEach((tr) => (tr.onclick = () => { S.lvl[key] = +tr.dataset.l; unitView(cat, u); }));
@@ -303,9 +318,12 @@ function reviewTotals(cat, u, table, levels, key) {
   if (!table || !u.hallByLevel) return `<p class="note">Totals need a verified hall mapping. See Stats for individual costs and times.</p>`;
   if (!levels.length) return `<p class="note">Unlock at ${cat.id.startsWith("bb") ? "BH" : "TH"} ${Math.min(...Object.values(u.hallByLevel))}. Select a higher hall to calculate upgrades.</p>`;
   const current = levels.includes(String(S.cur[key])) ? String(S.cur[key]) : levels[0];
-  const left = table.rows.filter((r) => levels.includes(r[0]) && +r[0] > +current);
+  const remaining = table.rows.filter((r) => levels.includes(r[0]) && +r[0] > +current);
   const costs = table.columns.map((c, i) => ({c, i})).filter(({c}) => /cost/i.test(c) && !/cumulative|boost|gear up/i.test(c));
   const timeIndex = table.columns.findIndex((c) => /(?:build|upgrade|research) time/i.test(c));
+  // Unrevealed (TBA) upgrades in a previewed update are left out of the totals and counted in a note.
+  const left = remaining.filter((r) => ![...costs.map(({i}) => i), timeIndex].some((i) => isTBA(r[i])));
+  const unknown = remaining.length - left.length;
   if (!costs.length) return `<p class="note">No direct upgrade cost is listed for this unit. See its source requirements in Stats.</p>`;
   const parse = (v) => /^(?:[\d,]+|N\/A|\u2013|-)$/.test(v || "") ? (Number(v.replaceAll(",", "")) || 0) : null;
   if (costs.some(({i}) => left.some((r) => parse(r[i]) === null))) return `<p class="note">Costs include special conditions; use the individual rows in Stats.</p>`;
@@ -315,7 +333,7 @@ function reviewTotals(cat, u, table, levels, key) {
     return [...v.matchAll(/(\d+)\s*([dhms])/g)].reduce((a, m) => a + +m[1] * ({d:86400,h:3600,m:60,s:1}[m[2]]), 0);
   };
   const times = timeIndex < 0 ? [] : left.map((r) => seconds(r[timeIndex]));
-  return `<div class="props"><div><span>My current level</span><select id="reviewCurrent">${levels.map((v) => `<option ${v === current ? "selected" : ""}>${v}</option>`).join("")}</select></div><div><span>Target</span><span>Level ${levels[levels.length - 1]}</span></div>${costs.map(({c,i}) => `<div><span>${esc(c)}</span><span>${fmt(left.reduce((a,r) => a + parse(r[i]), 0))}</span></div>`).join("")}${u.upgradeTime === "Instant" ? `<div><span>Upgrade time</span><span>Instant</span></div>` : ""}${timeIndex >= 0 && !times.includes(null) ? `<div><span>Upgrade time</span><span>${fmtMins(Math.floor(times.reduce((a,b) => a+b,0) / 60))}</span></div>` : ""}</div><p class="note">Normal source-table values. Alternative payment columns are shown separately. Excludes prerequisite building upgrades.</p>`;
+  return `<div class="props"><div><span>My current level</span><select id="reviewCurrent">${levels.map((v) => `<option ${v === current ? "selected" : ""}>${v}</option>`).join("")}</select></div><div><span>Target</span><span>Level ${levels[levels.length - 1]}</span></div>${costs.map(({c,i}) => `<div><span>${esc(c)}</span><span>${fmt(left.reduce((a,r) => a + parse(r[i]), 0))}</span></div>`).join("")}${u.upgradeTime === "Instant" ? `<div><span>Upgrade time</span><span>Instant</span></div>` : ""}${timeIndex >= 0 && !times.includes(null) ? `<div><span>Upgrade time</span><span>${fmtMins(Math.floor(times.reduce((a,b) => a+b,0) / 60))}</span></div>` : ""}</div>${unknown ? `<p class="note">${tbaNote(unknown)}</p>` : ""}<p class="note">Normal source-table values. Alternative payment columns are shown separately. Excludes prerequisite building upgrades.</p>`;
 }
 // Source-table previews deliberately do not infer hall limits from troop levels.
 // Multiple tables preserve alternate attack modes, abilities and resource costs.
@@ -556,7 +574,7 @@ function discountNote(cost, time, resource, event = DISCOUNT) {
 // Event banner: clamp to 2 lines; chevron only when the text overflows.
 const hj = $("#hj"), hjt = $("#hjt"), hjc = $("#hjc");
 {
-  const banners = ACTIVE_EVENTS.map((e) => e.banner).filter(Boolean);
+  const banners = [...(PREVIEW_UPDATE ? [PREVIEW_BANNER] : []), ...ACTIVE_EVENTS.map((e) => e.banner).filter(Boolean)];
   hjt.textContent = banners.join(" ");
   hj.hidden = !banners.length;
 }
