@@ -234,6 +234,7 @@ How it works:
 - `data/next/info.json` holds hand-written Info-tab descriptions for new items. The script never overwrites it.
 - Hand-curated parts live as constants at the top of the script: `NEW_ITEMS`, `MERGE_NOTICES`, `GUARDIANS` (the Guardians get a group tile in Defenses at TH 19, and the Town Hall section shows them as "Moved to Defenses"), `TH_TROOPS` (the Town Hall's defending-troop modes) and `SQUADS` (a new category). A new category is marked `"previewOnly": true` in `categories.json`, so the normal home page never shows it, and the script removes it again if it's no longer built. Squads currently come from news coverage of Supercell's Clash On reveal, because the wiki has no squad pages yet; replace them with wiki data once pages appear.
 - Group tiles: any unit with `"groupOf": [names]` opens a list of those units (`#/c/<category>?group=<name>`), and the members don't appear on the category page itself. `"removedLabel"` and `"movedTo"` change a removed tile's text and link.
+- Supercharges: the wiki says charges last "until a new level or a merged version for that Building becomes available", and they go for every player at once, not just those who can build the new level (after the TH 18 launch, TH 17 players lost their Mortar, Hidden Tesla, Inferno and Firespitter charges when those buildings got TH 18 levels in Feb 2026). So the script marks Supercharges as "Removed in the TH 19 update" at every Town Hall for any building that gains a level or merges away (`MERGE_NOTICES`). Buildings without new levels keep their charges at the current Town Hall requirement. New charges for the new Town Hall only appear once the wiki lists them; at the TH 18 launch some came on release day and the rest came in later balance updates.
 
 Run it after each sneak peek (it rebuilds from `data/*.json` every time, so fixes to live data carry over):
 
@@ -250,6 +251,7 @@ Every change is listed in `.wiki-check/update-preview.txt`. Read it before publi
 
 1. Run `python scripts/check-wiki.py`. The wiki now shows the new values openly, so they appear as normal findings. Fix `data/*.json` for real (section 3), adding the new items properly, and copy any descriptions you want from `data/next/info.json` into `data/info.json` and `scripts/info-copy.txt`.
 2. Delete `data/next/`, remove every `"next"` field from `data/categories.json` (turn a `previewOnly` category into a normal one with a `"data"` file, or remove it), and in `app.js` remove the `PREVIEW_UPDATE` block (`NEXT_TH`, `PREVIEW_BANNER`, the `c.next` part of `categoryPath`, and the `data/next/info.json` merge in `loadInfo`). Set `MAX_TH` to the new Town Hall.
+   In `data/supercharge.json`, remove the Supercharges the update retired (the preview marks them `removedAtTH`), and add any new ones the wiki's Supercharge page lists.
 3. Verify (section 7) and publish only if the user asked.
 
 ## 7. Verify

@@ -100,6 +100,16 @@ function context(search, savedTH = null) {
   vm.runInContext('home()', ctx);
   assert(html().includes('href="#/c/squads"'), 'Squads on the preview home page');
 
+  // Supercharges: buildings with new levels (or merged away) lose them at every Town Hall;
+  // the rest keep their current Town Hall requirement.
+  const charges = next('supercharge');
+  const charge = (n) => charges.units.find((u) => u.n === n);
+  for (const n of ['Air Defense', 'X-Bow', 'Scattershot', 'Gold Mine']) assert.equal(charge(n).removedAtTH, 1, `${n} Supercharges removed for every Town Hall`);
+  for (const n of ['Mortar', 'Bomb Tower', 'Inferno Tower', 'Monolith']) assert(!charge(n).removedAtTH, `${n} Supercharges kept`);
+  ctx.testCat = charges; vm.runInContext('CACHE.supercharge = testCat', ctx);
+  vm.runInContext("S.th=18; location.hash='#/c/supercharge'; reviewCategory(testCat); S.th=NEXT_TH", ctx);
+  assert(html().includes('Removed in the TH 19 update'), 'Removed Supercharges labelled at TH 18');
+
   // Merged-away defenses explain the merge on their own page.
   for (const name of ['Archer Tower', 'Scattershot']) {
     ctx.testCat = next('defenses'); ctx.testUnit = next('defenses').units.find((u) => u.n === name);

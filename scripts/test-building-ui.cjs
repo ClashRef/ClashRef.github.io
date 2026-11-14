@@ -51,7 +51,9 @@ function expectedImage(u, level, hall) {
               const level = max || Math.min(...Object.keys(u.hallByLevel || {1: 1}).map(Number));
               assert.equal(await tile.locator('img').getAttribute('src'), expectedImage(u, level, hall), `${id}/${u.n} hall ${hall}`);
               const unlock = u.hallByLevel ? Math.min(...Object.values(u.hallByLevel)) : u.unlockHall;
-              if (unlock > hall) assert((await tile.innerText()).includes(`Unlock at ${id.startsWith('bb') ? 'BH' : 'TH'} ${unlock}`));
+              const removed = u.removedAtTH && hall >= u.removedAtTH;
+              if (removed) assert((await tile.innerText()).includes(u.removedLabel || `Removed at TH ${u.removedAtTH}`), `${id}/${u.n} removed at hall ${hall}`);
+              else if (unlock > hall) assert((await tile.innerText()).includes(`Unlock at ${id.startsWith('bb') ? 'BH' : 'TH'} ${unlock}`));
               if (u.quantityByHall && hall >= unlock) assert((await tile.innerText()).includes(`Qty ${Math.max(0,...Object.entries(u.quantityByHall).filter(([h])=>+h<=hall).map(([,q])=>q))}`));
               const quantity = u.quantityByHall ? Math.max(0,...Object.entries(u.quantityByHall).filter(([h])=>+h<=hall).map(([,q])=>q)) : null;
               const full = quantity !== null ? quantity > 0 && quantity === Math.max(...Object.values(u.quantityByHall)) : max > 0 && max === Math.max(...Object.keys(u.hallByLevel).map(Number)) && !(u.removedAtTH && hall >= u.removedAtTH) && !u.placeholderOnly;

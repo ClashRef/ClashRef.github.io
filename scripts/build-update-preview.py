@@ -897,18 +897,32 @@ def main():
     touched.add(sq["id"])
     log(lines, f"  Squads (new category): {', '.join(u['n'] for u in squad_units)}")
 
-    # 6. Supercharges end when their building gains a new level.
+    # 6. Supercharges end when their building gains a new level or is merged away (wiki
+    #    "Supercharge": charges "last until a new level or a merged version for that Building
+    #    becomes available"). They go for every player, not only those who reach the new
+    #    level: after the TH18 launch the TH17 Mortar, Hidden Tesla, Inferno and Firespitter
+    #    charges vanished for TH17 players too once those buildings got TH18 levels (Feb 2026).
+    #    Charges on buildings without new levels stay at their current Town Hall requirement.
+    merged_away = {name for (cid, name) in MERGE_NOTICES if cid == "defenses"}
     for u in cats["supercharge"]["units"]:
         base = find_unit(u["n"])
         before = next((b for c in building_cats for b in original[c]["units"] if b["n"] == u["n"]), None)
         if not base or not before or "hallByLevel" not in base:
             continue
         new_levels = {l: h for l, h in base["hallByLevel"].items() if l not in before["hallByLevel"]}
-        if new_levels:
-            u["removedAtTH"] = min(new_levels.values())
-            u["note"] = (u.get("note", "") + f" The {UPDATE['name']} adds new {u['n']} levels, which replace these Supercharges (wiki).").strip()
-            touched.add("supercharge")
-            log(lines, f"  Supercharges / {u['n']}: removed at TH{u['removedAtTH']} (new levels {', '.join(sorted(new_levels, key=int))})")
+        if u["n"] in merged_away:
+            why = f"{u['n']}s merge into Firecracker Towers at TH {hall}"
+        elif new_levels:
+            why = f"{u['n']} gets a new level ({', '.join(f'level {l} at TH {h}' for l, h in sorted(new_levels.items(), key=lambda x: int(x[0])))})"
+        else:
+            continue
+        u["removedAtTH"] = 1  # gone at every Town Hall level once the update ships
+        u["removedLabel"] = f"Removed in the TH {hall} update"
+        u["note"] = (f"{why}, so the {UPDATE['name']} removes these Supercharges for every Town Hall level, per the wiki. "
+                     "Charges already done aren't refunded (each completed charge still gives 10 Sparky Stones). "
+                     + u.get("note", "")).strip()
+        touched.add("supercharge")
+        log(lines, f"  Supercharges / {u['n']}: removed for every Town Hall ({why})")
 
     # 7. Town Hall rows for the update in the count and max-level tables.
     lines.append("\n== Town Hall tables ==")

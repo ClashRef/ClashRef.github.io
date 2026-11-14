@@ -1371,6 +1371,105 @@
       }
     },
     {
+      "n": "Gold Mine",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Gold_Mine17.png/revision/latest?cb=20251118165804",
+      "source": "https://clashofclans.fandom.com/wiki/Supercharge",
+      "tables": [
+        {
+          "heading": "Resource Buildings [ ] / Gold Mine",
+          "columns": [
+            "Charge Level",
+            "Capacity",
+            "Production Rate",
+            "Hitpoints",
+            "Boost Cost",
+            "Time to Fill",
+            "Build Cost (Elixir)",
+            "Build Time",
+            "Experience Gained",
+            "Catch-Up Point*",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "436,500",
+              "7,857/hr",
+              "1,400",
+              "11",
+              "2d 7h 33m 20s",
+              "250,000",
+              "9h 30m",
+              "184",
+              "50d 21h 49m 6s",
+              "18"
+            ],
+            [
+              "2",
+              "453,000",
+              "8,154/hr",
+              "1,400",
+              "11",
+              "2d 7h 33m 20s",
+              "250,000",
+              "14h 30m",
+              "228",
+              "79d 8h 43m 39s",
+              "18"
+            ],
+            [
+              "3",
+              "453,000",
+              "8,154/hr",
+              "1,450",
+              "11",
+              "2d 7h 33m 20s",
+              "250,000",
+              "1d",
+              "293",
+              "N/A",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Gold Mine17.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Gold_Mine17.png/revision/latest?cb=20251118165804"
+        }
+      ],
+      "unverified": [
+        "Supercharge prerequisite max building level and reset mechanics require manual verification."
+      ],
+      "hallByLevel": {
+        "1": 18,
+        "2": 18,
+        "3": 18
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Gold Mine17.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Gold_Mine17.png/revision/latest?cb=20251118165804"
+        },
+        "2": {
+          "file": "File:Gold Mine17.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Gold_Mine17.png/revision/latest?cb=20251118165804"
+        },
+        "3": {
+          "file": "File:Gold Mine17.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Gold_Mine17.png/revision/latest?cb=20251118165804"
+        }
+      },
+      "imageNote": "Max-level base building appearance shown. The animated Supercharge effect is not pictured.",
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Gold Mine/Home Village",
+        "rawWikitextSha256": "3ca6c6a1543134da0cc08f037dc7783f4481a390fa2b2877ed5bde88e86569f3",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+      }
+    },
+    {
       "n": "Elixir Collector",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/0/03/Elixir_Collector17.png/revision/latest?cb=20251118165724",
       "source": "https://clashofclans.fandom.com/wiki/Supercharge",

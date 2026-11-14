@@ -180,8 +180,9 @@
     "method": "Fandom imageinfo, exact level file; HTTP 200 without Referer for every URL",
     "levels": 16
    },
-   "removedAtTH": 19,
-   "note": "The Town Hall 19 update adds new Air Defense levels, which replace these Supercharges (wiki)."
+   "removedAtTH": 1,
+   "removedLabel": "Removed in the TH 19 update",
+   "note": "Air Defense gets a new level (level 17 at TH 19), so the Town Hall 19 update removes these Supercharges for every Town Hall level, per the wiki. Charges already done aren't refunded (each completed charge still gives 10 Sparky Stones)."
   },
   {
    "n": "Hidden Tesla",
@@ -253,8 +254,9 @@
     "method": "Fandom imageinfo, exact level file; HTTP 200 without Referer for every URL",
     "levels": 17
    },
-   "removedAtTH": 19,
-   "note": "The Town Hall 19 update adds new Hidden Tesla levels, which replace these Supercharges (wiki)."
+   "removedAtTH": 1,
+   "removedLabel": "Removed in the TH 19 update",
+   "note": "Hidden Tesla gets a new level (level 18 at TH 19), so the Town Hall 19 update removes these Supercharges for every Town Hall level, per the wiki. Charges already done aren't refunded (each completed charge still gives 10 Sparky Stones)."
   },
   {
    "n": "Bomb Tower",
@@ -397,8 +399,9 @@
     "method": "Fandom imageinfo, exact level file; HTTP 200 without Referer for every URL",
     "levels": 13
    },
-   "removedAtTH": 19,
-   "note": "The Town Hall 19 update adds new X-Bow levels, which replace these Supercharges (wiki)."
+   "removedAtTH": 1,
+   "removedLabel": "Removed in the TH 19 update",
+   "note": "X-Bow gets a new level (level 14 at TH 19), so the Town Hall 19 update removes these Supercharges for every Town Hall level, per the wiki. Charges already done aren't refunded (each completed charge still gives 10 Sparky Stones)."
   },
   {
    "n": "Inferno Tower",
@@ -593,7 +596,10 @@
     "checked": "2026-11-03",
     "method": "Fandom imageinfo, exact level file; HTTP 200 without Referer for every URL",
     "levels": 7
-   }
+   },
+   "removedAtTH": 1,
+   "removedLabel": "Removed in the TH 19 update",
+   "note": "Scattershots merge into Firecracker Towers at TH 19, so the Town Hall 19 update removes these Supercharges for every Town Hall level, per the wiki. Charges already done aren't refunded (each completed charge still gives 10 Sparky Stones)."
   },
   {
    "n": "Builder's Hut",
@@ -688,8 +694,9 @@
     "method": "Fandom imageinfo, exact level file; HTTP 200 without Referer for every URL",
     "levels": 8
    },
-   "removedAtTH": 19,
-   "note": "The Town Hall 19 update adds new Builder's Hut levels, which replace these Supercharges (wiki)."
+   "removedAtTH": 1,
+   "removedLabel": "Removed in the TH 19 update",
+   "note": "Builder's Hut gets a new level (level 9 at TH 19), so the Town Hall 19 update removes these Supercharges for every Town Hall level, per the wiki. Charges already done aren't refunded (each completed charge still gives 10 Sparky Stones)."
   },
   {
    "n": "Monolith",
@@ -835,8 +842,9 @@
     "method": "Fandom imageinfo, exact level file; HTTP 200 without Referer for every URL",
     "levels": 4
    },
-   "removedAtTH": 19,
-   "note": "The Town Hall 19 update adds new Multi-Archer Tower levels, which replace these Supercharges (wiki)."
+   "removedAtTH": 1,
+   "removedLabel": "Removed in the TH 19 update",
+   "note": "Multi-Archer Tower gets a new level (level 5 at TH 19), so the Town Hall 19 update removes these Supercharges for every Town Hall level, per the wiki. Charges already done aren't refunded (each completed charge still gives 10 Sparky Stones)."
   },
   {
    "n": "Ricochet Cannon",
@@ -911,8 +919,9 @@
     "method": "Fandom imageinfo, exact level file; HTTP 200 without Referer for every URL",
     "levels": 4
    },
-   "removedAtTH": 19,
-   "note": "The Town Hall 19 update adds new Ricochet Cannon levels, which replace these Supercharges (wiki)."
+   "removedAtTH": 1,
+   "removedLabel": "Removed in the TH 19 update",
+   "note": "Ricochet Cannon gets a new level (level 5 at TH 19), so the Town Hall 19 update removes these Supercharges for every Town Hall level, per the wiki. Charges already done aren't refunded (each completed charge still gives 10 Sparky Stones)."
   },
   {
    "n": "Multi-Gear Tower",
@@ -1057,8 +1066,9 @@
     "method": "Fandom imageinfo, exact level file; HTTP 200 without Referer for every URL",
     "levels": 3
    },
-   "removedAtTH": 19,
-   "note": "The Town Hall 19 update adds new Multi-Gear Tower levels, which replace these Supercharges (wiki)."
+   "removedAtTH": 1,
+   "removedLabel": "Removed in the TH 19 update",
+   "note": "Multi-Gear Tower gets a new level (level 4 at TH 19), so the Town Hall 19 update removes these Supercharges for every Town Hall level, per the wiki. Charges already done aren't refunded (each completed charge still gives 10 Sparky Stones)."
   },
   {
    "n": "Firespitter",
@@ -1385,6 +1395,108 @@
    }
   },
   {
+   "n": "Gold Mine",
+   "av": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Gold_Mine17.png/revision/latest?cb=20251118165804",
+   "source": "https://clashofclans.fandom.com/wiki/Supercharge",
+   "tables": [
+    {
+     "heading": "Resource Buildings [ ] / Gold Mine",
+     "columns": [
+      "Charge Level",
+      "Capacity",
+      "Production Rate",
+      "Hitpoints",
+      "Boost Cost",
+      "Time to Fill",
+      "Build Cost (Elixir)",
+      "Build Time",
+      "Experience Gained",
+      "Catch-Up Point*",
+      "Town Hall Level Required"
+     ],
+     "rows": [
+      [
+       "1",
+       "436,500",
+       "7,857/hr",
+       "1,400",
+       "11",
+       "2d 7h 33m 20s",
+       "250,000",
+       "9h 30m",
+       "184",
+       "50d 21h 49m 6s",
+       "18"
+      ],
+      [
+       "2",
+       "453,000",
+       "8,154/hr",
+       "1,400",
+       "11",
+       "2d 7h 33m 20s",
+       "250,000",
+       "14h 30m",
+       "228",
+       "79d 8h 43m 39s",
+       "18"
+      ],
+      [
+       "3",
+       "453,000",
+       "8,154/hr",
+       "1,450",
+       "11",
+       "2d 7h 33m 20s",
+       "250,000",
+       "1d",
+       "293",
+       "N/A",
+       "18"
+      ]
+     ]
+    }
+   ],
+   "images": [
+    {
+     "file": "File:Gold Mine17.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Gold_Mine17.png/revision/latest?cb=20251118165804"
+    }
+   ],
+   "unverified": [
+    "Supercharge prerequisite max building level and reset mechanics require manual verification."
+   ],
+   "hallByLevel": {
+    "1": 18,
+    "2": 18,
+    "3": 18
+   },
+   "levelImages": {
+    "1": {
+     "file": "File:Gold Mine17.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Gold_Mine17.png/revision/latest?cb=20251118165804"
+    },
+    "2": {
+     "file": "File:Gold Mine17.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Gold_Mine17.png/revision/latest?cb=20251118165804"
+    },
+    "3": {
+     "file": "File:Gold Mine17.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Gold_Mine17.png/revision/latest?cb=20251118165804"
+    }
+   },
+   "imageNote": "Max-level base building appearance shown. The animated Supercharge effect is not pictured.",
+   "imageVerification": {
+    "checked": "2026-11-03",
+    "page": "Gold Mine/Home Village",
+    "rawWikitextSha256": "3ca6c6a1543134da0cc08f037dc7783f4481a390fa2b2877ed5bde88e86569f3",
+    "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+   },
+   "removedAtTH": 1,
+   "removedLabel": "Removed in the TH 19 update",
+   "note": "Gold Mine gets a new level (level 18 at TH 18), so the Town Hall 19 update removes these Supercharges for every Town Hall level, per the wiki. Charges already done aren't refunded (each completed charge still gives 10 Sparky Stones)."
+  },
+  {
    "n": "Elixir Collector",
    "av": "https://static.wikia.nocookie.net/clashofclans/images/0/03/Elixir_Collector17.png/revision/latest?cb=20251118165724",
    "source": "https://clashofclans.fandom.com/wiki/Supercharge",
@@ -1482,8 +1594,9 @@
     "rawWikitextSha256": "fb9c6c77e3d8b23d5bbb773b199937338a3afa28978ab301e6bbdd8614219938",
     "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
    },
-   "removedAtTH": 18,
-   "note": "The Town Hall 19 update adds new Elixir Collector levels, which replace these Supercharges (wiki)."
+   "removedAtTH": 1,
+   "removedLabel": "Removed in the TH 19 update",
+   "note": "Elixir Collector gets a new level (level 18 at TH 18), so the Town Hall 19 update removes these Supercharges for every Town Hall level, per the wiki. Charges already done aren't refunded (each completed charge still gives 10 Sparky Stones)."
   },
   {
    "n": "Dark Elixir Drill",
@@ -1583,8 +1696,9 @@
     "rawWikitextSha256": "4dc8fe772988ba9562952da5f558758f59b8df6a8d0e4183a0897dfe20ccd429",
     "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
    },
-   "removedAtTH": 18,
-   "note": "The Town Hall 19 update adds new Dark Elixir Drill levels, which replace these Supercharges (wiki)."
+   "removedAtTH": 1,
+   "removedLabel": "Removed in the TH 19 update",
+   "note": "Dark Elixir Drill gets a new level (level 12 at TH 18), so the Town Hall 19 update removes these Supercharges for every Town Hall level, per the wiki. Charges already done aren't refunded (each completed charge still gives 10 Sparky Stones)."
   }
  ],
  "unverified": [],
