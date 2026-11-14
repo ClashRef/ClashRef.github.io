@@ -232,6 +232,8 @@ How it works:
 - It writes full copies of the changed categories to `data/next/<id>.json` and adds `"next": "data/next/<id>.json"` to those categories in `data/categories.json`. `app.js` loads them only with `?preview=true` (or `?preview=all`), raises the Town Hall picker to `NEXT_TH`, and shows `PREVIEW_BANNER`.
 - Anything announced without numbers gets `TBA`. That covers new troop levels seen only in sneak-peek art, new hero levels from the Hero Hall caps, building levels implied by the Town Hall tables, and buildings known by name only. "To max" totals leave TBA upgrades out and say how many.
 - `data/next/info.json` holds hand-written Info-tab descriptions for new items. The script never overwrites it.
+- Hand-curated parts live as constants at the top of the script: `NEW_ITEMS`, `MERGE_NOTICES`, `GUARDIANS` (the Guardians get a group tile in Defenses at TH 19, and the Town Hall section shows them as "Moved to Defenses"), `TH_TROOPS` (the Town Hall's defending-troop modes) and `SQUADS` (a new category). A new category is marked `"previewOnly": true` in `categories.json`, so the normal home page never shows it, and the script removes it again if it's no longer built. Squads currently come from news coverage of Supercell's Clash On reveal, because the wiki has no squad pages yet; replace them with wiki data once pages appear.
+- Group tiles: any unit with `"groupOf": [names]` opens a list of those units (`#/c/<category>?group=<name>`), and the members don't appear on the category page itself. `"removedLabel"` and `"movedTo"` change a removed tile's text and link.
 
 Run it after each sneak peek (it rebuilds from `data/*.json` every time, so fixes to live data carry over):
 
@@ -247,7 +249,7 @@ Every change is listed in `.wiki-check/update-preview.txt`. Read it before publi
 **When the update ships:**
 
 1. Run `python scripts/check-wiki.py`. The wiki now shows the new values openly, so they appear as normal findings. Fix `data/*.json` for real (section 3), adding the new items properly, and copy any descriptions you want from `data/next/info.json` into `data/info.json` and `scripts/info-copy.txt`.
-2. Delete `data/next/`, remove every `"next"` field from `data/categories.json`, and in `app.js` remove the `PREVIEW_UPDATE` block (`NEXT_TH`, `PREVIEW_BANNER`, the `c.next` part of `categoryPath`, and the `data/next/info.json` merge in `loadInfo`). Set `MAX_TH` to the new Town Hall.
+2. Delete `data/next/`, remove every `"next"` field from `data/categories.json` (turn a `previewOnly` category into a normal one with a `"data"` file, or remove it), and in `app.js` remove the `PREVIEW_UPDATE` block (`NEXT_TH`, `PREVIEW_BANNER`, the `c.next` part of `categoryPath`, and the `data/next/info.json` merge in `loadInfo`). Set `MAX_TH` to the new Town Hall.
 3. Verify (section 7) and publish only if the user asked.
 
 ## 7. Verify

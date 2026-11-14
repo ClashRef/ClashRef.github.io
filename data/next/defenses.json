@@ -7559,6 +7559,484 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f6/Spiky_Tower2.png/revision/latest?cb=20261113152015"
     }
    }
+  },
+  {
+   "n": "Guardian Shrine",
+   "av": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Longshot1.png/revision/latest?cb=20251210013018",
+   "source": "https://clashofclans.fandom.com/wiki/Guardian_Shrine",
+   "revision": null,
+   "tables": [
+    {
+     "heading": "Statistics [ ]",
+     "columns": [
+      "Hitpoints",
+      "Build Cost",
+      "Build Time",
+      "Town Hall Level Required"
+     ],
+     "rows": [
+      [
+       "2,000",
+       "Free",
+       "None",
+       "19"
+      ]
+     ]
+    }
+   ],
+   "images": [],
+   "unverified": [
+    "New in the Town Hall 19 update: values come from the wiki's sneak-peek coverage and may change before release."
+   ],
+   "preview": true,
+   "quantityByHall": {
+    "19": 1
+   },
+   "unlockHall": 19,
+   "quantityNote": "Placed for free at Town Hall 19 and built instantly. It marks the patrol point for the defending Guardians, which no longer stand on the Town Hall. Placing it is required before the next Town Hall upgrade.",
+   "staticImage": {
+    "file": "",
+    "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Longshot1.png/revision/latest?cb=20251210013018"
+   },
+   "imageNote": "No Guardian Shrine artwork has been released yet; the Longshot is shown instead."
+  },
+  {
+   "n": "Longshot",
+   "av": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Longshot1.png/revision/latest?cb=20251210013018",
+   "source": "https://clashofclans.fandom.com/wiki/Longshot",
+   "revision": null,
+   "tables": [
+    {
+     "heading": "Statistics [ ]",
+     "columns": [
+      "Targets",
+      "Attack Type",
+      "Movement Speed",
+      "Attack Speed",
+      "Range",
+      "Patrol Radius",
+      "Trigger Radius",
+      "Damage Radius",
+      "Death Damage Radius",
+      "Special Ability"
+     ],
+     "rows": [
+      [
+       "Ground & Air",
+       "Splash Damage",
+       "12",
+       "1.8s",
+       "11 tiles",
+       "17 tiles",
+       "19 tiles",
+       "1 tiles",
+       "3.5 tiles",
+       "Final Blow"
+      ]
+     ]
+    },
+    {
+     "heading": "Statistics [ ]",
+     "columns": [
+      "Level",
+      "Damage per Second",
+      "Damage per Hit",
+      "Hitpoints",
+      "Damage Upon Death",
+      "Upgrade Cost (Elixir)",
+      "Upgrade Time"
+     ],
+     "rows": [
+      [
+       "1",
+       "330",
+       "594",
+       "7,000",
+       "1,000",
+       "N/A",
+       "N/A"
+      ],
+      [
+       "2",
+       "360",
+       "648",
+       "8,000",
+       "1,000",
+       "18,000,000",
+       "7d"
+      ],
+      [
+       "3",
+       "390",
+       "702",
+       "9,000",
+       "1,000",
+       "22,000,000",
+       "9d"
+      ],
+      [
+       "4",
+       "420",
+       "756",
+       "10,000",
+       "1,000",
+       "26,000,000",
+       "11d"
+      ],
+      [
+       "5",
+       "450",
+       "810",
+       "11,000",
+       "1,000",
+       "28,000,000",
+       "13d"
+      ]
+     ]
+    }
+   ],
+   "images": [
+    {
+     "file": "File:Longshot1.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Longshot1.png/revision/latest?cb=20251210013018"
+    }
+   ],
+   "unverified": [
+    "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+   ],
+   "hallByLevel": {
+    "1": 18,
+    "2": 18,
+    "3": 18,
+    "4": 18,
+    "5": 18
+   },
+   "levelImages": {
+    "1": {
+     "file": "File:Longshot1.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Longshot1.png/revision/latest?cb=20251210013018"
+    },
+    "2": {
+     "file": "File:Longshot1.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Longshot1.png/revision/latest?cb=20251210013018"
+    },
+    "3": {
+     "file": "File:Longshot1.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Longshot1.png/revision/latest?cb=20251210013018"
+    },
+    "4": {
+     "file": "File:Longshot1.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Longshot1.png/revision/latest?cb=20251210013018"
+    },
+    "5": {
+     "file": "File:Longshot1.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Longshot1.png/revision/latest?cb=20251210013018"
+    }
+   },
+   "imageVerification": {
+    "checked": "2026-11-03",
+    "page": "Longshot",
+    "rawWikitextSha256": "f6915a2dfc89dbd5f7972a5dc04a1f9d158fa971a7a3f31949bf45bed17cd915",
+    "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+   },
+   "note": "From TH 19 the Guardians patrol from the Guardian Shrine instead of standing on the Town Hall. Their stats are unchanged so far."
+  },
+  {
+   "n": "Smasher",
+   "av": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952",
+   "source": "https://clashofclans.fandom.com/wiki/Smasher",
+   "revision": null,
+   "tables": [
+    {
+     "heading": "Statistics [ ]",
+     "columns": [
+      "Targets",
+      "Attack Type",
+      "Movement Speed",
+      "Attack Speed",
+      "Range",
+      "Search Radius",
+      "Trigger Radius",
+      "Damage Radius",
+      "Special Ability",
+      "Rage Speed Increase",
+      "Rage Damage Increase"
+     ],
+     "rows": [
+      [
+       "Ground & Air",
+       "Splash Damage",
+       "20",
+       "1.8s",
+       "1.25 tiles",
+       "12 tiles",
+       "14 tiles",
+       "2.5 tiles",
+       "Sore Loser",
+       "12",
+       "60%"
+      ]
+     ]
+    },
+    {
+     "heading": "Statistics [ ]",
+     "columns": [
+      "Level",
+      "Damage per Second",
+      "Damage per Hit",
+      "Hitpoints",
+      "Upgrade Cost (Elixir)",
+      "Upgrade Time"
+     ],
+     "rows": [
+      [
+       "1",
+       "500",
+       "900",
+       "12,000",
+       "N/A",
+       "N/A"
+      ],
+      [
+       "2",
+       "550",
+       "990",
+       "13,000",
+       "18,000,000",
+       "7d"
+      ],
+      [
+       "3",
+       "600",
+       "1,080",
+       "14,000",
+       "22,000,000",
+       "9d"
+      ],
+      [
+       "4",
+       "650",
+       "1,170",
+       "15,000",
+       "26,000,000",
+       "11d"
+      ],
+      [
+       "5",
+       "700",
+       "1,260",
+       "16,000",
+       "28,000,000",
+       "13d"
+      ]
+     ]
+    }
+   ],
+   "images": [
+    {
+     "file": "File:Smasher1.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
+    }
+   ],
+   "unverified": [
+    "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+   ],
+   "hallByLevel": {
+    "1": 18,
+    "2": 18,
+    "3": 18,
+    "4": 18,
+    "5": 18
+   },
+   "levelImages": {
+    "1": {
+     "file": "File:Smasher1.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
+    },
+    "2": {
+     "file": "File:Smasher1.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
+    },
+    "3": {
+     "file": "File:Smasher1.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
+    },
+    "4": {
+     "file": "File:Smasher1.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
+    },
+    "5": {
+     "file": "File:Smasher1.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
+    }
+   },
+   "imageVerification": {
+    "checked": "2026-11-03",
+    "page": "Smasher",
+    "rawWikitextSha256": "216704971d034cbfdcc60c94debbf531237a7ad1f3b9659c062dd54de2a18ec8",
+    "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+   },
+   "note": "From TH 19 the Guardians patrol from the Guardian Shrine instead of standing on the Town Hall. Their stats are unchanged so far."
+  },
+  {
+   "n": "Logger",
+   "av": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Logger1.png/revision/latest?cb=20260426150823",
+   "source": "https://clashofclans.fandom.com/wiki/Logger",
+   "revision": null,
+   "tables": [
+    {
+     "heading": "Statistics [ ]",
+     "columns": [
+      "Targets",
+      "Attack Type",
+      "Movement Speed",
+      "Attack Speed",
+      "Range",
+      "Patrol Radius",
+      "Trigger Radius",
+      "Damage Radius",
+      "Pushback Range"
+     ],
+     "rows": [
+      [
+       "Ground & Air",
+       "Splash Damage",
+       "8",
+       "2.5s",
+       "7 tiles",
+       "14 tiles",
+       "15 tiles",
+       "??",
+       "1.5 tiles"
+      ]
+     ]
+    },
+    {
+     "heading": "Statistics [ ]",
+     "columns": [
+      "Level",
+      "Damage per Second",
+      "Damage per Hit",
+      "Hitpoints",
+      "Post-Hit Tile Range",
+      "Upgrade Cost (Elixir)",
+      "Upgrade Time"
+     ],
+     "rows": [
+      [
+       "1",
+       "230",
+       "575",
+       "8,000",
+       "5 tiles",
+       "N/A",
+       "N/A"
+      ],
+      [
+       "2",
+       "260",
+       "650",
+       "9,000",
+       "5 tiles",
+       "18,000,000",
+       "7d"
+      ],
+      [
+       "3",
+       "290",
+       "725",
+       "10,000",
+       "5 tiles",
+       "22,000,000",
+       "9d"
+      ],
+      [
+       "4",
+       "320",
+       "800",
+       "11,000",
+       "6 tiles",
+       "26,000,000",
+       "11d"
+      ],
+      [
+       "5",
+       "350",
+       "875",
+       "12,000",
+       "6 tiles",
+       "28,000,000",
+       "13d"
+      ]
+     ]
+    }
+   ],
+   "images": [
+    {
+     "file": "File:Logger1.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Logger1.png/revision/latest?cb=20260426150823"
+    }
+   ],
+   "unverified": [
+    "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+   ],
+   "hallByLevel": {
+    "1": 18,
+    "2": 18,
+    "3": 18,
+    "4": 18,
+    "5": 18
+   },
+   "levelImages": {
+    "1": {
+     "file": "File:Logger1.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Logger1.png/revision/latest?cb=20260426150823"
+    },
+    "2": {
+     "file": "File:Logger1.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Logger1.png/revision/latest?cb=20260426150823"
+    },
+    "3": {
+     "file": "File:Logger1.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Logger1.png/revision/latest?cb=20260426150823"
+    },
+    "4": {
+     "file": "File:Logger1.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Logger1.png/revision/latest?cb=20260426150823"
+    },
+    "5": {
+     "file": "File:Logger1.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Logger1.png/revision/latest?cb=20260426150823"
+    }
+   },
+   "imageVerification": {
+    "checked": "2026-11-03",
+    "page": "Logger",
+    "rawWikitextSha256": "58d42a87fa4735d97b2c7d88a7ec9e7a28eb47d3313f93a4dfd422fdfdfe87ae",
+    "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+   },
+   "note": "From TH 19 the Guardians patrol from the Guardian Shrine instead of standing on the Town Hall. Their stats are unchanged so far."
+  },
+  {
+   "n": "Guardians",
+   "av": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Longshot1.png/revision/latest?cb=20251210013018",
+   "source": "https://clashofclans.fandom.com/wiki/Town_Hall/Guardians",
+   "revision": null,
+   "tables": [],
+   "images": [],
+   "unverified": [],
+   "unlockHall": 19,
+   "staticImage": {
+    "file": "",
+    "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Longshot1.png/revision/latest?cb=20251210013018"
+   },
+   "groupOf": [
+    "Guardian Shrine",
+    "Longshot",
+    "Smasher",
+    "Logger"
+   ],
+   "note": "From TH 19 the Guardians patrol from the Guardian Shrine instead of standing on the Town Hall. Their stats are unchanged so far."
   }
  ],
  "unverified": [],

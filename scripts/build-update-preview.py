@@ -71,11 +71,48 @@ NEW_ITEMS = [
     {"n": "Firecracker Tower", "cat": "defenses", "page": "Firecracker Tower", "resource": "Gold"},
     {"n": "Spiky Tower", "cat": "defenses", "page": "Spiky Tower", "resource": "Dark Elixir"},
     {"n": "Heroic Spell", "cat": "espells", "page": "Heroic Spell", "resource": "Elixir"},
-    {"n": "Guardian Shrine", "cat": "army", "page": "Guardian Shrine", "quantityByHall": {"19": 1}, "unlockHall": 19,
+    {"n": "Guardian Shrine", "cat": "defenses", "page": "Guardian Shrine", "quantityByHall": {"19": 1}, "unlockHall": 19,
      "quantityNote": "Placed for free at Town Hall 19 and built instantly. It marks the patrol point for the defending Guardians, which no longer stand on the Town Hall. Placing it is required before the next Town Hall upgrade."},
+    # The wiki's Town Hall tables list it from TH8 (level 1) to level 12 at TH18; levels in between aren't known yet.
     {"n": "Squad Barracks", "cat": "army", "page": None, "count": "1", "placeholderOnly": True,
-     "note": "Shown in the Town Hall 19 sneak peek. Squads are trained here and can be leveled from Town Hall 19 to unlock squad skills. No stats, costs or times have been revealed yet."},
+     "hallByLevel": {"1": 8, "12": 18},
+     "tables": [{"heading": "Statistics", "columns": ["Level", "Hitpoints", "Build Cost", "Build Time", "Town Hall Level Required"],
+                 "rows": [[str(l), "TBA", "TBA", "TBA", {1: "8", 12: "18"}.get(l, "TBA")] for l in range(1, 13)]}],
+     "sourceNote": "No wiki page yet. Levels from the wiki's Town Hall tables; Squads from Supercell's Clash On reveal (Nov 2026), via news coverage.",
+     "note": "Squads are made here. It unlocks at Town Hall 8 and reaches level 12 at Town Hall 18 (wiki Town Hall tables). From Town Hall 19, squads can be upgraded to level 2 to unlock their squad skills. No stats, costs or times have been revealed yet."},
 ]
+# Squads, a new Home Village army category ("previewOnly": hidden from the normal site's home page).
+# Source: Supercell's Clash On reveal (Nov 2026) as reported in news coverage; the wiki has no squad pages yet.
+SQUADS = {
+    "meta": {"id": "squads", "label": "Squads", "after": "pets", "imgFrom": ("elixir", "Archer")},
+    "note": "Squads deploy a fixed group of troops with one tap, using less housing space than the same troops deployed one by one. Squad troops use your own troop levels. They're made at the Squad Barracks (Army Buildings, from TH 8). Supercell announced 12 squads; only two have been named so far. Source: Supercell's Clash On reveal (Nov 2026), via news coverage; the wiki has no squad pages yet.",
+    "units": [
+        {"n": "Barch Squad", "troops": "Barbarians and Archers", "avFrom": ("elixir", "Archer")},
+        {"n": "Golem-Witch Squad", "troops": "Golems and Witches", "avFrom": ("dark", "Golem")},
+    ],
+    "skills": [
+        ["Tantrum", "Damage is increased by 100% when separated from other air units."],
+        ["Trap Sense", "Takes reduced damage from traps."],
+        ["Stealthy Start", "Invisible for a short time after being deployed."],
+        ["Shielded Start", "Invulnerable for a short time after being deployed."],
+        ["Splash Resistance", "Splash damage only hits a few of the squad's troops per blast."],
+        ["Focus Attack", "The whole squad focuses on one target."],
+    ],
+}
+# Guardians move off the Town Hall at TH 19: they get a group tile in Defenses (with the Guardian Shrine),
+# and the Town Hall section shows them as moved.
+GUARDIANS = ["Longshot", "Smasher", "Logger"]
+TH_TROOPS = {
+    "n": "Town Hall/Town Hall Troops",
+    "note": "From TH 19 the Town Hall can hold defending troops, like a Clan Castle. They come out when an attacker gets within 13 tiles, signalled by the horn on top of the Town Hall, and use your own researched troop levels. Freezing or Overgrowth doesn't stop them. The chosen troop also changes the Town Hall's look, and you can switch at any time.",
+    "progressionNote": "Town Hall Troops have no upgrades of their own; they use your researched troop levels.",
+    "modes": [["Original", "None", "-", "Default look; no defending troops"],
+              ["Barbarian Hall", "15 Barbarians", "Groups of 3", "Available at TH 19"],
+              ["Archer Hall", "15 Archers", "Groups of 4 (last group of 3)", "Archers at level 15"],
+              ["Wizard Hall", "4 Wizards", "-", "Wizards at level 15"]],
+    # Same order as "modes"; the tile shows the first troop hall (Barbarian Hall).
+    "art": ["File:Town Hall19.png", "File:Town Hall19 Barbarian.png", "File:Town Hall19 Archer.png", "File:Town Hall19 Wizard.png"],
+}
 # Short notices shown under the level picker of existing items in the preview (app.js "mergeNotice").
 MERGE_NOTICES = {
     ("defenses", "Archer Tower"): "At TH 19, all remaining Archer Towers merge with Scattershots into Firecracker Towers. Finish the merges before your next Town Hall upgrade.",
@@ -384,10 +421,27 @@ TH_STORAGE = {"Gold Available": "Gold/Elixir capacity (each)", "Dark Elixir Avai
               "Gold/Elixir Available Including Storages": "Total Gold/Elixir storage (each)",
               "Dark Elixir Available Including Storages": "Total Dark Elixir storage"}
 TH_ALIASES = {"Gold Mine & Elixir Collector": ["Gold Mine", "Elixir Collector"], "Gold & Elixir Storage": ["Gold Storage", "Elixir Storage"]}
-NEW_COLUMNS = {"Defensive Buildings and Traps / Defenses Available": ["Firecracker Tower", "Spiky Tower"],
+NEW_COLUMNS = {"Defensive Buildings and Traps / Defenses Available": ["Firecracker Tower", "Spiky Tower", "Guardian Shrine"],
                "Defensive Buildings and Traps / Defense Maximum Levels": ["Firecracker Tower", "Spiky Tower"],
-               "Army Buildings and Heroes / Number Available": ["Squad Barracks", "Guardian Shrine"],
+               "Army Buildings and Heroes / Number Available": ["Squad Barracks"],
                "Army Buildings and Heroes / Building Maximum Levels": ["Squad Barracks"]}
+
+
+# Known values for new columns at earlier Town Halls (from the wiki's visible Town Hall tables).
+COLUMN_HISTORY = {"Squad Barracks": {"count": {8: "1"}, "max": {8: "1", 18: "12"}}}
+
+
+def column_history(name, key, is_max):
+    m = re.match(r"\d+", str(key))
+    hist = COLUMN_HISTORY.get(name, {}).get("max" if is_max else "count")
+    if not m or not hist:
+        return "-"
+    at = int(m.group())
+    if at < min(hist):
+        return "-"
+    if is_max:
+        return hist.get(at, TBA)
+    return hist[max(h for h in hist if h <= at)]
 
 
 def th_names(label):
@@ -468,7 +522,7 @@ def townhall_counts(th, find_unit, counts, lines):
                 hdr = next(i for i, r in enumerate(t["rows"]) if r is parts[target][0])
                 t["rows"][hdr] += extra
             for i in parts[target][1]:
-                t["rows"][i] += ["-"] * len(extra)
+                t["rows"][i] += [column_history(n, t["rows"][i][0], is_max) for n in extra]
             parts = th_parts(t)
         added = 0
         for cols, idxs in reversed(parts):
@@ -520,13 +574,14 @@ def new_unit(item, tables, images, page_title):
         unit["images"].append({"file": f, "url": images[f]["url"]})
     if unit["images"]:
         unit["av"] = unit["images"][0]["url"]
-    for k in ("quantityByHall", "unlockHall", "quantityNote", "note", "placeholderOnly"):
+    for k in ("quantityByHall", "unlockHall", "quantityNote", "note", "placeholderOnly", "sourceNote"):
         if k in item:
             unit[k] = item[k]
     up = upgrade_table(unit)
     if up and "quantityByHall" not in item:
-        unit["hallByLevel"] = {}
-        refresh_halls(unit, {})
+        unit["hallByLevel"] = dict(item.get("hallByLevel") or {})
+        if not unit["hallByLevel"]:
+            refresh_halls(unit, {})
         unit["levelImages"] = {}
         for f in level_files:
             lvl = re.search(r"(\d+)\.png$", f).group(1)
@@ -750,6 +805,8 @@ def main():
             files = re.findall(r"\[\[File:([^|\]]+)", versions[item["page"]]["text"])
             images = {k: v for k, v in image_info(["File:" + f.strip() for f in files]).items() if k.startswith("File:")}
         stat_tables = [t for t in tables if not chk.SKIP_SECTIONS.search(t["heading"])]
+        if item.get("tables"):
+            stat_tables = copy.deepcopy(item["tables"])
         if not stat_tables:
             stat_tables = [{"heading": "Statistics", "columns": ["Level", "Hitpoints", "Build Cost", "Build Time", "Town Hall Level Required"], "rows": [["1", TBA, TBA, TBA, str(hall)]]}]
         unit = new_unit(item, stat_tables, images, item["page"])
@@ -772,6 +829,73 @@ def main():
         if u:
             u["mergeNotice"] = text
             touched.add(cid)
+
+    # Guardians move to Defenses; the Town Hall gets defending troops.
+    log(lines, "\n== Guardians, Town Hall Troops and Squads ==")
+    th_cat, defenses = cats["townhall"], cats["defenses"]
+    guards = [next(u for u in th_cat["units"] if u["n"] == g) for g in GUARDIANS]
+    th_tile = next(u for u in th_cat["units"] if u["n"] == "Town Hall/Guardians")
+    shrine = next((u for u in defenses["units"] if u["n"] == "Guardian Shrine"), None)
+    if shrine and shrine.get("imageNote"):
+        shrine["av"] = guards[0]["av"]
+        shrine["staticImage"] = {"file": "", "url": guards[0]["av"]}
+        shrine["imageNote"] = "No Guardian Shrine artwork has been released yet; the Longshot is shown instead."
+    if not any(u["n"] == "Guardians" for u in defenses["units"]):
+        moved_note = f"From TH {hall} the Guardians patrol from the Guardian Shrine instead of standing on the Town Hall. Their stats are unchanged so far."
+        for g in guards:
+            d = copy.deepcopy(g)
+            d["note"] = (d.get("note", "") + " " + moved_note).strip()
+            defenses["units"].append(d)
+        defenses["units"].append({"n": "Guardians", "av": guards[0]["av"], "source": th_tile["source"], "revision": None, "tables": [], "images": [],
+                                  "unverified": [], "unlockHall": hall, "staticImage": {"file": "", "url": guards[0]["av"]},
+                                  "groupOf": (["Guardian Shrine"] if shrine else []) + GUARDIANS, "note": moved_note})
+        for u in [th_tile, *guards]:
+            u["removedAtTH"] = hall
+            u["removedLabel"] = "Moved to Defenses"
+            u["movedTo"] = "#/c/defenses?group=guardians"
+            u["note"] = (u.get("note", "") + f" From TH {hall} the Guardians move to the Guardian Shrine; see Defenses.").strip()
+        touched.update({"defenses", "townhall"})
+        log(lines, f"  Defenses / Guardians: group of {', '.join(defenses['units'][-1]['groupOf'])}; Town Hall Guardians marked 'Moved to Defenses' at TH{hall}")
+    if not any(u["n"] == TH_TROOPS["n"] for u in th_cat["units"]):
+        art = image_info(TH_TROOPS["art"])
+        labels = [m[0] for m in TH_TROOPS["modes"]]
+        order = [1, 2, 3, 0]  # Barbarian, Archer, Wizard Hall, then Original
+        labels = [labels[i] for i in order]
+        level_images = {str(n + 1): {"file": TH_TROOPS["art"][i], "url": art[TH_TROOPS["art"][i]]["url"]} for n, i in enumerate(order) if TH_TROOPS["art"][i] in art}
+        unit = {"n": TH_TROOPS["n"], "av": (level_images.get("1") or {"url": th_tile["av"]})["url"],
+                "source": chk.WIKI + "Town_Hall", "revision": None, "unverified": [], "unlockHall": hall,
+                "tables": [{"heading": "Town Hall troop modes", "columns": ["Mode", "Defending Troops", "Deployment", "Requirement"], "rows": TH_TROOPS["modes"], "wrap": True},
+                           {"heading": "Town Hall troop details", "columns": ["Trigger Radius", "Troop Levels", "Switching Modes"], "rows": [["13 tiles", "Your researched levels", "Any time"]]}],
+                "images": list(level_images.values()), "levelImages": level_images,
+                "levelLabels": {k: labels[int(k) - 1] for k in level_images}, "note": TH_TROOPS["note"], "progressionNote": TH_TROOPS["progressionNote"]}
+        th_cat["units"].append(unit)
+        for sec in th_cat.get("sections", []):
+            if sec["heading"] == "Town Hall weapons" and unit["n"] not in sec["units"]:
+                sec["units"].append(unit["n"])
+        touched.add("townhall")
+        log(lines, f"  Town Hall / Town Hall Troops: {', '.join(labels)} ({len(level_images)} images)")
+
+    # Squads: a new, preview-only army category.
+    sq = SQUADS["meta"]
+    pick = lambda where: next(u for u in cats[where[0]]["units"] if u["n"] == where[1])["av"]
+    src = "No wiki page yet. From Supercell's Clash On reveal (Nov 2026), via news coverage."
+    squad_units = [{"n": x["n"], "av": pick(x["avFrom"]), "source": None, "revision": None, "unverified": [], "placeholderOnly": True, "sourceNote": src,
+                    "tables": [{"heading": "Squad", "columns": ["Troops", "Number of Troops", "Housing Space", "Squad Barracks Level Required", "Squad Skill"],
+                                "rows": [[x["troops"], TBA, TBA, TBA, TBA]]}], "images": [],
+                    "note": f"The {x['n']} is one of 12 announced squads. Its troop count, housing space and squad skill haven't been revealed yet."} for x in SQUADS["units"]]
+    squad_units.append({"n": "Squad Skills", "av": pick(("elixir", "Barbarian")), "source": None, "revision": None, "unverified": [], "unlockHall": hall, "sourceNote": src,
+                        "tables": [{"heading": "Squad skills", "columns": ["Skill", "Effect"], "rows": SQUADS["skills"], "wrap": True}], "images": [],
+                        "note": f"Each squad has one skill, unlocked by upgrading the squad to level 2, which is possible from TH {hall}. Which squad has which skill hasn't been revealed yet.",
+                        "progressionNote": f"Skills unlock at squad level 2, from TH {hall}. Costs and times haven't been revealed yet."})
+    cats[sq["id"]] = {"id": sq["id"], "label": sq["label"], "format": "wiki-review-v1", "updated": today, "units": squad_units, "unverified": [], "note": SQUADS["note"]}
+    original[sq["id"]] = {"note": SQUADS["note"], "updated": today}
+    if sq["id"] not in metas:
+        meta = {"id": sq["id"], "label": sq["label"], "img": pick(sq["imgFrom"]), "previewOnly": True}
+        group = next(g for g in manifest["groups"] if any(c["id"] == sq["after"] for c in g["cats"]))
+        group["cats"].insert(next(i for i, c in enumerate(group["cats"]) if c["id"] == sq["after"]) + 1, meta)
+        metas[sq["id"]] = meta
+    touched.add(sq["id"])
+    log(lines, f"  Squads (new category): {', '.join(u['n'] for u in squad_units)}")
 
     # 6. Supercharges end when their building gains a new level.
     for u in cats["supercharge"]["units"]:
@@ -853,6 +977,8 @@ def main():
             meta["next"] = f"data/next/{cid}.json"
         else:
             meta.pop("next", None)
+    for g in manifest["groups"]:
+        g["cats"] = [c for c in g["cats"] if not c.get("previewOnly") or c.get("next")]
     (ROOT / "data/categories.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"Wrote {len(touched)} preview categories to {OUT.relative_to(ROOT)}")
     return 0

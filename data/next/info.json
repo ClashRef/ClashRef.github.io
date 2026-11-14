@@ -48,6 +48,19 @@
      "revision": 626142,
      "rawWikitextSHA256": "3a84ac3332fd6b3fcd44a7e29e66a83abc4d837e33fd11a26dd522948217fccb"
     }
+   },
+   "Guardian Shrine": {
+    "overview": "A free building unlocked at Town Hall 19 that marks where the defending Guardians patrol. From TH19 they no longer stand on top of the Town Hall and live at the Shrine instead.",
+    "mechanics": [
+     "Only one is available. It's placed for free, builds instantly and has 2,000 hitpoints.",
+     "Placing it is required before the next Town Hall upgrade."
+    ],
+    "strategy": "Where you put it decides which part of the base the Guardians defend. The Smasher's rage is tied to the Town Hall, not the Shrine, so a Shrine placed away from the Town Hall keeps the Smasher out of the crossfire for longer.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Guardian_Shrine",
+     "revision": 626143,
+     "rawWikitextSHA256": "7f48ec01445aaf08cbabc2e824daba40e2b6fa2157fd72959d59ac87eeb33dd0"
+    }
    }
   },
   "espells": {
@@ -65,18 +78,18 @@
     }
    }
   },
-  "army": {
-   "Guardian Shrine": {
-    "overview": "A free building unlocked at Town Hall 19 that marks where the defending Guardians patrol. From TH19 they no longer stand on top of the Town Hall and live at the Shrine instead.",
+  "townhall": {
+   "Town Hall/Town Hall Troops": {
+    "overview": "From Town Hall 19 the Town Hall can hold defending troops, much like a Clan Castle, while the Guardians move out to the Guardian Shrine. You pick Barbarians, Archers or Wizards, and the choice also changes how the Town Hall looks.",
     "mechanics": [
-     "Only one is available. It's placed for free, builds instantly and has 2,000 hitpoints.",
-     "Placing it is required before the next Town Hall upgrade."
+     "Barbarian Hall releases 15 Barbarians in groups of 3, Archer Hall 15 Archers in groups of 4, and Wizard Hall 4 Wizards. Archer and Wizard Hall need that troop at level 15. Original keeps the classic look with no troops.",
+     "The troops come out when an attacker gets within 13 tiles, announced by the horn on top, and use your own researched troop levels. Freezing or Overgrowth on the Town Hall doesn't stop them, and units that don't trigger the Clan Castle (such as Skeletons) don't trigger them either."
     ],
-    "strategy": "Where you put it decides which part of the base the Guardians defend. The Smasher's rage is tied to the Town Hall, not the Shrine, so a Shrine placed away from the Town Hall keeps the Smasher out of the crossfire for longer.",
+    "strategy": "Barbarians only fight ground troops, Archers cover air and ground in numbers, and Wizards hit both but there are only four. Pick the mode that answers the attacks you see most; you can switch at any time.",
     "source": {
-     "url": "https://clashofclans.fandom.com/wiki/Guardian_Shrine",
-     "revision": 626143,
-     "rawWikitextSHA256": "7f48ec01445aaf08cbabc2e824daba40e2b6fa2157fd72959d59ac87eeb33dd0"
+     "url": "https://clashofclans.fandom.com/wiki/Town_Hall",
+     "revision": 626122,
+     "rawWikitextSHA256": "62602f428b1a2f0e46f71a7d633b640f8b913b96f99e628143f27c491f042133"
     }
    }
   }

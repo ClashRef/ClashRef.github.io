@@ -6,6 +6,8 @@ const root = path.resolve(__dirname, '..');
 const ids = ['defenses', 'traps', 'army', 'resource', 'walls', 'townhall', 'crafted', 'supercharge', 'bbdefenses', 'bbtraps', 'bbbuildings', 'bbwalls'];
 // ?preview=all also loads any update-preview copies (data/next/), so read what the page reads.
 const nextFile = Object.fromEntries(JSON.parse(fs.readFileSync(path.join(root, 'data/categories.json'))).groups.flatMap(g => g.cats).filter(c => c.next).map(c => [c.id, c.next]));
+// Units shown inside a group tile ("groupOf"; Town Hall's Guardians predate the field) aren't on the category page.
+const grouped = (cat) => new Set(cat.units.some(u => u.groupOf) ? cat.units.flatMap(u => u.groupOf || []) : cat.id === 'townhall' ? ['Longshot', 'Smasher', 'Logger'] : []);
 const cats = Object.fromEntries(ids.map(id => [id, JSON.parse(fs.readFileSync(path.join(root, nextFile[id] || `data/${id}.json`)))]));
 function expectedImage(u, level, hall) {
   return (level === 1 && u.townHallImages?.[hall]?.url) || u.levelImages?.[level * (u.imageLevelMultiplier || 1)]?.url || u.staticImage?.url || u.av;
@@ -30,7 +32,7 @@ function expectedImage(u, level, hall) {
         await page.goto('https://clash.test/?preview=all');
         for (const id of ids) {
           const cat = cats[id];
-          const displayed = [...(id === "defenses" ? cats.walls.units : id === "bbdefenses" ? cats.bbwalls.units : []), ...cat.units.filter(u=>id!=='townhall'||!['Longshot','Smasher','Logger'].includes(u.n))];
+          const displayed = [...(id === "defenses" ? cats.walls.units : id === "bbdefenses" ? cats.bbwalls.units : []), ...cat.units.filter(u=>!grouped(cat).has(u.n))];
           await page.evaluate(id => {location.hash = `#/c/${id}`;}, id);
           await page.waitForFunction(label => document.querySelector('#title').textContent === label, cat.label);
           for (const hall of id.startsWith('bb') ? [3, 10] : [3, 18]) {
@@ -52,7 +54,7 @@ function expectedImage(u, level, hall) {
               if (unlock > hall) assert((await tile.innerText()).includes(`Unlock at ${id.startsWith('bb') ? 'BH' : 'TH'} ${unlock}`));
               if (u.quantityByHall && hall >= unlock) assert((await tile.innerText()).includes(`Qty ${Math.max(0,...Object.entries(u.quantityByHall).filter(([h])=>+h<=hall).map(([,q])=>q))}`));
               const quantity = u.quantityByHall ? Math.max(0,...Object.entries(u.quantityByHall).filter(([h])=>+h<=hall).map(([,q])=>q)) : null;
-              const full = quantity !== null ? quantity > 0 && quantity === Math.max(...Object.values(u.quantityByHall)) : max > 0 && max === Math.max(...Object.keys(u.hallByLevel).map(Number)) && !(u.removedAtTH && hall >= u.removedAtTH);
+              const full = quantity !== null ? quantity > 0 && quantity === Math.max(...Object.values(u.quantityByHall)) : max > 0 && max === Math.max(...Object.keys(u.hallByLevel).map(Number)) && !(u.removedAtTH && hall >= u.removedAtTH) && !u.placeholderOnly;
               assert.equal(await tile.locator('.full-max').count(), full ? 1 : 0);
             }
             const failures = await page.locator('.tile.building').evaluateAll(cards => cards.flatMap(card => {

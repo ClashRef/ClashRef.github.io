@@ -29,7 +29,7 @@ function context(search, savedTH = null) {
   assert.equal(vm.runInContext('S.th', live.ctx), 18, 'A Town Hall saved in preview is clamped on the normal site');
   assert(!live.banner().includes('Preview'), 'No preview banner on the normal site');
   for (const c of previewed) {
-    assert.equal(vm.runInContext(`categoryPath(${JSON.stringify(c)})`, live.ctx), c.data, `${c.id}: normal site loads ${c.data}`);
+    assert.equal(vm.runInContext(`categoryPath(${JSON.stringify(c)})`, live.ctx), c.previewOnly ? null : c.data, `${c.id}: normal site loads ${c.data || 'nothing'}`);
   }
 
   const {ctx, html, banner} = context('?preview=true', '19');
@@ -44,7 +44,7 @@ function context(search, savedTH = null) {
     assert.equal(vm.runInContext(`categoryPath(${JSON.stringify(c)})`, ctx), c.next, `${c.id}: preview loads ${c.next}`);
     assert(fs.existsSync(path.join(root, c.next)), `${c.next} exists`);
     const cat = JSON.parse(read(c.next));
-    const base = JSON.parse(read(c.data));
+    const base = c.data ? JSON.parse(read(c.data)) : {units: []};
     assert.equal(cat.id, c.id);
     assert(cat.preview && cat.preview.note.includes('TBA'), `${c.id}: preview note`);
     for (const u of base.units) assert(cat.units.some((x) => x.n === u.n), `${c.id}: ${u.n} kept in the preview`);
@@ -67,13 +67,38 @@ function context(search, savedTH = null) {
 
   // Announced items are present.
   const next = (id) => JSON.parse(read(metas.find((c) => c.id === id).next));
-  for (const [id, name] of [['defenses', 'Firecracker Tower'], ['defenses', 'Spiky Tower'], ['espells', 'Heroic Spell'], ['army', 'Guardian Shrine'], ['army', 'Squad Barracks']]) {
+  for (const [id, name] of [['defenses', 'Firecracker Tower'], ['defenses', 'Spiky Tower'], ['espells', 'Heroic Spell'], ['defenses', 'Guardian Shrine'], ['squads', 'Barch Squad'], ['army', 'Squad Barracks']]) {
     assert(next(id).units.some((u) => u.n === name), `${name} in the ${id} preview`);
   }
   const th = next('townhall').units.find((u) => u.n === 'Town Hall');
   assert(th.tables.find((t) => t.heading === 'Upgrade stats').rows.some((r) => r[0] === '19'), 'Town Hall 19 row');
   const king = next('heroes').units.find((u) => u.n === 'Barbarian King');
   assert(+king.l[king.l.length - 1][0] > 110, 'Hero levels above the TH18 cap');
+
+  // Guardians move from the Town Hall to Defenses at TH 19.
+  const defenses = next('defenses'), townhall = next('townhall');
+  const guardians = defenses.units.find((u) => u.n === 'Guardians');
+  assert.deepEqual(guardians.groupOf, ['Guardian Shrine', 'Longshot', 'Smasher', 'Logger'], 'Defenses Guardians group');
+  for (const n of guardians.groupOf) assert(defenses.units.some((u) => u.n === n), `${n} in Defenses`);
+  ctx.testCat = defenses; vm.runInContext('CACHE.defenses = testCat', ctx);
+  vm.runInContext("location.hash='#/c/defenses'; reviewCategory(testCat)", ctx);
+  assert(html().includes('href="#/c/defenses?group=guardians"') && !html().includes('>Longshot<'), 'Guardians tile in Defenses, members inside it');
+  vm.runInContext("location.hash='#/c/defenses?group=guardians'; reviewCategory(testCat)", ctx);
+  for (const n of guardians.groupOf) assert(html().includes(`>${n}<`), `${n} shown in the Guardians group`);
+  ctx.testCat = townhall; vm.runInContext('CACHE.townhall = testCat', ctx);
+  vm.runInContext("location.hash='#/c/townhall'; reviewCategory(testCat)", ctx);
+  assert(html().includes('Moved to Defenses') && html().includes('href="#/c/defenses?group=guardians"'), 'Town Hall Guardians tile moved at TH 19');
+  assert(html().includes('>Town Hall Troops<'), 'Town Hall Troops tile');
+  vm.runInContext("S.th=18; location.hash='#/c/townhall'; reviewCategory(testCat); S.th=NEXT_TH", ctx);
+  assert(!html().includes('Moved to Defenses'), 'Guardians still on the Town Hall at TH 18');
+
+  // Squads: a preview-only army category.
+  const squadsMeta = metas.find((c) => c.id === 'squads');
+  assert(squadsMeta && squadsMeta.previewOnly && !squadsMeta.data, 'Squads category is preview-only');
+  vm.runInContext('home()', live.ctx);
+  assert(!live.html().includes('#/c/squads'), 'Squads hidden on the normal home page');
+  vm.runInContext('home()', ctx);
+  assert(html().includes('href="#/c/squads"'), 'Squads on the preview home page');
 
   // Merged-away defenses explain the merge on their own page.
   for (const name of ['Archer Tower', 'Scattershot']) {

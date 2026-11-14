@@ -1,0 +1,128 @@
+{
+ "id": "squads",
+ "label": "Squads",
+ "format": "wiki-review-v1",
+ "updated": "Nov 14, 2026; Town Hall 19 update preview data read Nov 14, 2026",
+ "units": [
+  {
+   "n": "Barch Squad",
+   "av": "https://static.wikia.nocookie.net/clashofclans/images/6/68/Avatar_Archer.png/revision/latest?cb=20200913014217",
+   "source": null,
+   "revision": null,
+   "unverified": [],
+   "placeholderOnly": true,
+   "sourceNote": "No wiki page yet. From Supercell's Clash On reveal (Nov 2026), via news coverage.",
+   "tables": [
+    {
+     "heading": "Squad",
+     "columns": [
+      "Troops",
+      "Number of Troops",
+      "Housing Space",
+      "Squad Barracks Level Required",
+      "Squad Skill"
+     ],
+     "rows": [
+      [
+       "Barbarians and Archers",
+       "TBA",
+       "TBA",
+       "TBA",
+       "TBA"
+      ]
+     ]
+    }
+   ],
+   "images": [],
+   "note": "The Barch Squad is one of 12 announced squads. Its troop count, housing space and squad skill haven't been revealed yet."
+  },
+  {
+   "n": "Golem-Witch Squad",
+   "av": "https://static.wikia.nocookie.net/clashofclans/images/4/44/Avatar_Golem.png/revision/latest?cb=20170525070403",
+   "source": null,
+   "revision": null,
+   "unverified": [],
+   "placeholderOnly": true,
+   "sourceNote": "No wiki page yet. From Supercell's Clash On reveal (Nov 2026), via news coverage.",
+   "tables": [
+    {
+     "heading": "Squad",
+     "columns": [
+      "Troops",
+      "Number of Troops",
+      "Housing Space",
+      "Squad Barracks Level Required",
+      "Squad Skill"
+     ],
+     "rows": [
+      [
+       "Golems and Witches",
+       "TBA",
+       "TBA",
+       "TBA",
+       "TBA"
+      ]
+     ]
+    }
+   ],
+   "images": [],
+   "note": "The Golem-Witch Squad is one of 12 announced squads. Its troop count, housing space and squad skill haven't been revealed yet."
+  },
+  {
+   "n": "Squad Skills",
+   "av": "https://static.wikia.nocookie.net/clashofclans/images/8/87/Avatar_Barbarian.png/revision/latest?cb=20170525070200",
+   "source": null,
+   "revision": null,
+   "unverified": [],
+   "unlockHall": 19,
+   "sourceNote": "No wiki page yet. From Supercell's Clash On reveal (Nov 2026), via news coverage.",
+   "tables": [
+    {
+     "heading": "Squad skills",
+     "columns": [
+      "Skill",
+      "Effect"
+     ],
+     "rows": [
+      [
+       "Tantrum",
+       "Damage is increased by 100% when separated from other air units."
+      ],
+      [
+       "Trap Sense",
+       "Takes reduced damage from traps."
+      ],
+      [
+       "Stealthy Start",
+       "Invisible for a short time after being deployed."
+      ],
+      [
+       "Shielded Start",
+       "Invulnerable for a short time after being deployed."
+      ],
+      [
+       "Splash Resistance",
+       "Splash damage only hits a few of the squad's troops per blast."
+      ],
+      [
+       "Focus Attack",
+       "The whole squad focuses on one target."
+      ]
+     ],
+     "wrap": true
+    }
+   ],
+   "images": [],
+   "note": "Each squad has one skill, unlocked by upgrading the squad to level 2, which is possible from TH 19. Which squad has which skill hasn't been revealed yet.",
+   "progressionNote": "Skills unlock at squad level 2, from TH 19. Costs and times haven't been revealed yet."
+  }
+ ],
+ "unverified": [],
+ "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 14, 2026. TBA = not revealed yet. Values can change before release. Squads deploy a fixed group of troops with one tap, using less housing space than the same troops deployed one by one. Squad troops use your own troop levels. They're made at the Squad Barracks (Army Buildings, from TH 8). Supercell announced 12 squads; only two have been named so far. Source: Supercell's Clash On reveal (Nov 2026), via news coverage; the wiki has no squad pages yet.",
+ "preview": {
+  "update": "Town Hall 19 update",
+  "release": "Nov 16, 2026",
+  "read": "Nov 14, 2026",
+  "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 14, 2026. TBA = not revealed yet. Values can change before release."
+ }
+}

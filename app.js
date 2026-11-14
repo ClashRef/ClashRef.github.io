@@ -27,6 +27,17 @@ const useServiceWorker = typeof navigator !== "undefined" && "serviceWorker" in 
 const categoryPath = (c) => (PREVIEW_UPDATE && c.next) || c.data || ((preview === "true" || preview === "all" || preview === c.id) ? `data/${c.id}.json` : null);
 // "TBA" marks values a previewed update hasn't revealed yet.
 const isTBA = (v) => v === "TBA";
+// Group tiles (e.g. Guardians) open a list of other units in the same category: a unit's
+// "groupOf" names its members. Town Hall's Guardians predate the field.
+const LEGACY_GROUPS = {townhall: {"Town Hall/Guardians": ["Longshot", "Smasher", "Logger"]}};
+const groupSlug = (name) => name.split("/").pop().toLowerCase().replace(/[^a-z0-9]+/g, "-");
+function catGroups(cat) {
+  const out = {};
+  for (const u of cat?.units || []) if (u.groupOf) out[u.n] = u.groupOf;
+  return Object.keys(out).length ? out : LEGACY_GROUPS[cat?.id] || {};
+}
+const unitHref = (catId, u) => catGroups(CACHE[catId])[u.n] ? `#/c/${catId}?group=${groupSlug(u.n)}` : `#/c/${catId}/${encodeURIComponent(u.n)}`;
+const removedText = (u) => u.removedLabel || `Removed at TH ${u.removedAtTH}`;
 const tbaNote = (n) => `${n} of these upgrade${n === 1 ? " hasn't" : "s haven't"} been revealed yet (TBA), so the totals leave ${n === 1 ? "it" : "them"} out.`;
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const fmt = (v) => (typeof v === "number" ? v.toLocaleString("en-US") : v);
@@ -58,7 +69,7 @@ $("#onlyTH").onchange = (e) => { S.only = e.target.checked; localStorage.setItem
 $("#settingsBtn").onclick = () => { const p = $("#settings"); p.hidden = !p.hidden; $("#settingsBtn").setAttribute("aria-expanded", String(!p.hidden)); };
 backBtn.onclick = () => {
   const r = route();
-  if (r.cat === "townhall" && r.group === "guardians") { location.hash = r.unit ? "#/c/townhall?group=guardians" : "#/c/townhall"; return; }
+  if (r.group) { location.hash = r.unit ? `#/c/${r.cat}?group=${encodeURIComponent(r.group)}` : `#/c/${r.cat}`; return; }
   location.hash = r.unit ? `#/c/${r.cat}${r.cat === "equip" && r.hero ? "?hero=" + encodeURIComponent(r.hero) : ""}` : r.cat === "equip" && r.hero ? `#/c/heroes/${encodeURIComponent(r.hero)}` : "#/";
 };
 tabsEl.querySelectorAll("button").forEach((b) => (b.onclick = () => { S.tab = b.dataset.tab; localStorage.setItem("cr.tab", S.tab); render(); }));
@@ -196,7 +207,7 @@ function footer() {
 }
 function home() {
   setChrome("Clash Reference", false, false);
-  app.innerHTML = CATS.groups.map((g) => `<h2 class="group">${esc(g.heading)}</h2><div class="grid">${g.cats.filter((c) => !c.hiddenFromHome).map((c) => categoryPath(c)
+  app.innerHTML = CATS.groups.map((g) => `<h2 class="group">${esc(g.heading)}</h2><div class="grid">${g.cats.filter((c) => !c.hiddenFromHome && (!c.previewOnly || PREVIEW_UPDATE)).map((c) => categoryPath(c)
     ? `<a class="tile" href="#/c/${c.id}">${img(c.img, c.label)}${!c.data ? '<span class="sub">Preview</span>' : ""}<span class="lbl">${esc(c.label)}</span></a>`
     : `<div class="tile off" aria-disabled="true">${img(c.img, c.label)}<span class="sub">Coming soon</span><span class="lbl">${esc(c.label)}</span></div>`).join("")}</div>`).join("") + footer();
 }
@@ -299,7 +310,7 @@ function setChrome(t, back, tabs) { titleEl.textContent = t; document.title = t 
   let path = r.cat ? "/c/" + encodeURIComponent(r.cat) + (r.unit ? "/" + encodeURIComponent(r.unit) : "") : "/";
   const filters = new URLSearchParams();
   if (r.cat === "equip" && r.hero && CACHE.equip?.units.some((u) => u.hero === r.hero)) filters.set("hero", r.hero);
-  if (r.cat === "townhall" && r.group === "guardians") filters.set("group", r.group);
+  if (r.group) filters.set("group", r.group);
   if (filters.size) path += "?" + filters;
   window.ClashAnalytics?.page({path, title: document.title});
 }
@@ -314,7 +325,7 @@ function bindReviewHall(cat, rerender) {
 }
 function reviewTotals(cat, u, table, levels, key) {
   if (u.progressionNote) return `<p class="note">${esc(u.progressionNote)}</p>`;
-  if (u.removedAtTH && reviewHall(cat) >= u.removedAtTH) return `<p class="note">Removed at TH ${u.removedAtTH}. Historical upgrade stats remain available in Stats.</p>`;
+  if (u.removedAtTH && reviewHall(cat) >= u.removedAtTH) return `<p class="note">${esc(removedText(u))}. Historical upgrade stats remain available in Stats.</p>`;
   if (!table || !u.hallByLevel) return `<p class="note">Totals need a verified hall mapping. See Stats for individual costs and times.</p>`;
   if (!levels.length) return `<p class="note">Unlock at ${cat.id.startsWith("bb") ? "BH" : "TH"} ${Math.min(...Object.values(u.hallByLevel))}. Select a higher hall to calculate upgrades.</p>`;
   const current = levels.includes(String(S.cur[key])) ? String(S.cur[key]) : levels[0];
@@ -342,16 +353,17 @@ function reviewNotice(cat, u) {
   return `<p class="note">${esc(cat.note)}</p>${u?.note ? `<p class="note">${esc(u.note)}</p>` : ""}${gaps.length ? `<details class="note"><summary>Verification gaps (${gaps.length})</summary><ul>${gaps.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></details>` : ""}`;
 }
 function reviewCategory(cat) {
-  const guardianGroup = cat.id === "townhall" && route().group === "guardians";
-  const guardianNames = ["Longshot", "Smasher", "Logger"];
-  setChrome(guardianGroup ? "Guardians" : cat.label, true, false);
+  const groups = catGroups(cat);
+  const groupTile = Object.keys(groups).find((n) => groupSlug(n) === route().group);
+  const inGroups = new Set(Object.values(groups).flat());
+  setChrome(groupTile ? buildingLabel(groupTile) : cat.label, true, false);
   const hall = reviewHall(cat);
   const hero = cat.id === "equip" ? route().hero || "" : "";
   const heroes = cat.id === "equip" ? [...new Set(cat.units.map((u) => u.hero))] : [];
-  const suffix = hero ? "?hero=" + encodeURIComponent(hero) : guardianGroup ? "?group=guardians" : "";
+  const suffix = hero ? "?hero=" + encodeURIComponent(hero) : groupTile ? "?group=" + groupSlug(groupTile) : "";
   const meta = CATS.groups.flatMap((g) => g.cats).find((c) => c.id === cat.id);
   const linked = (meta?.leadingCategories || []).flatMap((id) => (CACHE[id]?.units || []).map((u) => ({u, id})));
-  const list = [...linked.map((item) => item.u), ...cat.units].filter((u) => (!hero || u.hero === hero) && (cat.id !== "townhall" || (guardianGroup ? guardianNames.includes(u.n) : !guardianNames.includes(u.n))));
+  const list = [...linked.map((item) => item.u), ...cat.units].filter((u) => (!hero || u.hero === hero) && (groupTile ? groups[groupTile].includes(u.n) : !inGroups.has(u.n)));
   const renderTile = (u) => {
     const targetCat = linked.find((item) => item.u === u)?.id || cat.id;
     const caps = u.hallByLevel;
@@ -359,17 +371,17 @@ function reviewCategory(cat) {
     const unlock = caps ? Math.min(...Object.values(caps)) : u.unlockHall;
     const removed = u.removedAtTH && hall >= u.removedAtTH;
     const locked = max === 0 || (unlock && hall < unlock);
-    const badge = u.quantityByHall && quantityAtHall(u, hall) > 0 ? levelPill(quantityAtHall(u, hall), Math.max(...Object.values(u.quantityByHall)), "", "Qty") : removed ? levelPill(0, 0, `Removed at TH ${u.removedAtTH}`) : caps ? levelPill(max, Math.max(...Object.keys(caps).map(Number)), `Unlock at ${cat.id.startsWith("bb") ? "BH" : "TH"} ${unlock}`, cat.id === "supercharge" ? "Charge" : cat.id === "crafted" ? "Module" : u.levelKind || "Lv") : levelPill(0, 0, unlock ? locked ? `Unlock at ${cat.id.startsWith("bb") ? "BH" : "TH"} ${unlock}` : u.n === "B.O.B Control" ? "Task upgrades" : "Available" : "Hall cap unverified");
+    const badge = u.placeholderOnly && !locked && !removed ? levelPill(0, 0, "Lv TBA") : u.quantityByHall && quantityAtHall(u, hall) > 0 ? levelPill(quantityAtHall(u, hall), Math.max(...Object.values(u.quantityByHall)), "", "Qty") : removed ? levelPill(0, 0, removedText(u)) : caps ? levelPill(max, Math.max(...Object.keys(caps).map(Number)), `Unlock at ${cat.id.startsWith("bb") ? "BH" : "TH"} ${unlock}`, cat.id === "supercharge" ? "Charge" : cat.id === "crafted" ? "Module" : u.levelKind || "Lv") : levelPill(0, 0, unlock ? locked ? `Unlock at ${cat.id.startsWith("bb") ? "BH" : "TH"} ${unlock}` : u.n === "B.O.B Control" ? "Task upgrades" : "Available" : u.pill || "Hall cap unverified");
     const building = isBuildingCategory(cat);
     const imageLevel = max || Math.min(...Object.keys(caps || {1: 1}).map(Number));
     const source = building ? buildingImage(u, imageLevel, hall)?.url || u.av : u.av;
     const artwork = building ? `<span class="tile-art">${img(source, caps && cat.id !== "supercharge" ? `${u.n} level ${imageLevel * (u.imageLevelMultiplier || 1)}` : u.n)}</span>` : source ? img(source, u.n) : "";
-    return `<a class="tile unit${building ? " building" : ""}${cat.id === "defenses" ? " defense" : ""}${locked || removed ? " locked" : ""}" href="${cat.id === "townhall" && u.n === "Town Hall/Guardians" ? "#/c/townhall?group=guardians" : `#/c/${targetCat}/${encodeURIComponent(u.n)}${suffix}`}">${artwork}${badge}<span class="lbl">${esc(building ? buildingLabel(u.n) : u.n)}</span></a>`;
+    return `<a class="tile unit${building ? " building" : ""}${cat.id === "defenses" ? " defense" : ""}${locked || removed ? " locked" : ""}" href="${removed && u.movedTo ? u.movedTo : groups[u.n] ? `#/c/${cat.id}?group=${groupSlug(u.n)}` : `#/c/${targetCat}/${encodeURIComponent(u.n)}${suffix}`}">${artwork}${badge}<span class="lbl">${esc(building ? buildingLabel(u.n) : u.n)}</span></a>`;
   };
   const tiles = cat.id === "equip" ? heroes.map((name) => {
     const items = list.filter((u) => u.hero === name);
     return items.length ? `<h2 class="equipment-group">${esc(name)}</h2>${items.map(renderTile).join("")}` : "";
-  }).join("") : cat.sections && !guardianGroup ? (() => {
+  }).join("") : cat.sections && !groupTile ? (() => {
     const grouped = new Set(cat.sections.flatMap((section) => section.units));
     return list.filter((u) => !grouped.has(u.n)).map(renderTile).join("") + cat.sections.map((section) => {
       const items = list.filter((u) => section.units.includes(u.n));
@@ -421,7 +433,7 @@ function equipmentRowAtHall(u, table, row) {
 }
 function reviewLevelCaption(cat, u) {
   const hall = reviewHall(cat), kind = cat.id.startsWith("bb") ? "BH" : "TH";
-  if (u.removedAtTH && hall >= u.removedAtTH) return `Removed at TH ${u.removedAtTH}`;
+  if (u.removedAtTH && hall >= u.removedAtTH) return removedText(u);
   if (u.levelKind === "TH") return "Built into TH12-16";
   if (!u.hallByLevel) return "Hall cap unverified";
   const max = Math.max(0, ...Object.entries(u.hallByLevel).filter(([, h]) => h <= hall).map(([l]) => +l));
@@ -467,7 +479,7 @@ function reviewUnit(cat, u) {
     }
     html += u.tables.map(renderTable).join("");
   }
-  html += `<p class="note">Source: <a href="${esc(u.source)}" target="_blank" rel="noopener">${esc(u.n)} on Fandom</a> \u00b7 fetched ${esc(cat.updated)}. Normal values; no ${esc(DISCOUNT ? DISCOUNT.name : "event")} discount applied.</p>`;
+  html += `<p class="note">${u.source ? `Source: <a href="${esc(u.source)}" target="_blank" rel="noopener">${esc(u.n)} on Fandom</a> \u00b7 fetched ${esc(cat.updated)}.` : esc(u.sourceNote || "No wiki page yet.")} Normal values; no ${esc(DISCOUNT ? DISCOUNT.name : "event")} discount applied.</p>`;
   app.innerHTML = html;
   bindReviewHall(cat, () => reviewUnit(cat, u));
   if ($("#reviewCurrent")) $("#reviewCurrent").onchange = (e) => { S.cur[key] = e.target.value; reviewUnit(cat, u); };
@@ -520,7 +532,7 @@ async function render() {
     if (version !== scrollVersion) return;
     if (location.hash !== lastRoute) { if (r.unit) delete S.lvl[`${r.cat}|${r.unit}`]; lastRoute = location.hash; }
     if (!r.cat) return home();
-    if (r.cat === "townhall" && r.unit === "Town Hall/Guardians") { location.hash = "#/c/townhall?group=guardians"; return; }
+    if (r.unit && catGroups(CACHE[r.cat] || {id: r.cat})[r.unit]) { location.hash = `#/c/${r.cat}?group=${groupSlug(r.unit)}`; return; }
     if (r.cat === "townhall" && /^Town Hall\/Giga (?:Tesla|Inferno)(?: \(TH1[3-6]\))?$/.test(r.unit || "")) {
       location.hash = "#/c/townhall/" + encodeURIComponent("Town Hall/Giga Weapon"); return;
     }
@@ -726,7 +738,7 @@ function searchIndex(cats) {
     if (!c.hiddenFromHome) out.push(searchEntry({name: c.label, key: c.label, sub: "Category", img: c.img, href: `#/c/${c.id}`, cat: c.id, order: ci * 1000, extra: ""}));
     (CACHE[c.id]?.units || []).forEach((u, ui) => out.push(searchEntry({
       name: searchName(u.n), key: u.n, sub: c.label + (u.hero ? " · " + u.hero : ""), img: searchImage(CACHE[c.id], u), cat: c.id, order: ci * 1000 + ui + 1,
-      href: c.id === "townhall" && u.n === "Town Hall/Guardians" ? "#/c/townhall?group=guardians" : `#/c/${c.id}/${encodeURIComponent(u.n)}`,
+      href: unitHref(c.id, u),
       extra: `${c.label} ${u.hero || ""}`,
     })));
   });

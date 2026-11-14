@@ -21,13 +21,16 @@ function context(search, savedTH = null) {
   const {ctx,html}=context(preview);
   vm.runInContext('home()',ctx);
   for(const c of manifest.groups.flatMap(g=>g.cats)){
-   const enabled=!!c.data || preview==='?preview=true' || preview==='?preview=all' || preview===`?preview=${c.id}`;
+   const updatePreview=preview==='?preview=true' || preview==='?preview=all';
+   // previewOnly categories exist only in the update preview (data/next/); the normal site never shows them.
+   const enabled=c.previewOnly ? updatePreview : !!c.data || updatePreview || preview===`?preview=${c.id}`;
    assert.equal(html().includes(`href="#/c/${c.id}"`),enabled && !c.hiddenFromHome,`${preview} / ${c.id}`);
    const loaded=await vm.runInContext(`loadCat(${JSON.stringify(c.id)})`,ctx);
    assert.equal(!!loaded,enabled,`route guard: ${preview} / ${c.id}`);
   }
-  const hidden = manifest.groups.flatMap(g=>g.cats).filter(c=>!c.data);
-  const previewCount = hidden.filter(c=>preview==='?preview=true'||preview==='?preview=all'||preview===`?preview=${c.id}`).length;
+  const updatePreview=preview==='?preview=true'||preview==='?preview=all';
+  const hidden = manifest.groups.flatMap(g=>g.cats).filter(c=>!c.data && (!c.previewOnly || updatePreview));
+  const previewCount = hidden.filter(c=>updatePreview||preview===`?preview=${c.id}`).length;
   assert.equal((html().match(/class="sub">Preview<\/span>/g)||[]).length,previewCount,'Only hidden categories receive Preview badges');
   assert.equal((html().match(/>Coming soon<\/span>/g)||[]).length,hidden.length-previewCount,'Other hidden tiles remain Coming soon');
  }

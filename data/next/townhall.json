@@ -665,8 +665,7 @@
       "Blacksmith",
       "Workshop",
       "Pet House",
-      "Squad Barracks",
-      "Guardian Shrine"
+      "Squad Barracks"
      ],
      "rows": [
       [
@@ -681,14 +680,12 @@
        "-",
        "-",
        "-",
-       "-",
        "-"
       ],
       [
        "2",
        "1",
        "1",
-       "-",
        "-",
        "-",
        "-",
@@ -711,7 +708,6 @@
        "-",
        "-",
        "-",
-       "-",
        "-"
       ],
       [
@@ -719,7 +715,6 @@
        "2",
        "1",
        "1",
-       "-",
        "-",
        "-",
        "-",
@@ -741,7 +736,6 @@
        "-",
        "-",
        "-",
-       "-",
        "-"
       ],
       [
@@ -750,7 +744,6 @@
        "1",
        "1",
        "1",
-       "-",
        "-",
        "-",
        "-",
@@ -771,7 +764,6 @@
        "-",
        "-",
        "-",
-       "-",
        "-"
       ],
       [
@@ -786,8 +778,7 @@
        "1",
        "-",
        "-",
-       "-",
-       "-"
+       "1"
       ],
       [
        "9",
@@ -801,8 +792,7 @@
        "1",
        "-",
        "-",
-       "-",
-       "-"
+       "1"
       ],
       [
        "10",
@@ -816,8 +806,7 @@
        "1",
        "-",
        "-",
-       "-",
-       "-"
+       "1"
       ],
       [
        "11",
@@ -831,8 +820,7 @@
        "1",
        "-",
        "-",
-       "-",
-       "-"
+       "1"
       ],
       [
        "12",
@@ -846,8 +834,7 @@
        "1",
        "1",
        "-",
-       "-",
-       "-"
+       "1"
       ],
       [
        "13",
@@ -861,8 +848,7 @@
        "1",
        "1",
        "-",
-       "-",
-       "-"
+       "1"
       ],
       [
        "14-18",
@@ -876,13 +862,11 @@
        "1",
        "1",
        "1",
-       "-",
-       "-"
+       "1"
       ],
       [
        "19",
        "4",
-       "1",
        "1",
        "1",
        "1",
@@ -1023,7 +1007,7 @@
        "1",
        "-",
        "-",
-       "-"
+       "1"
       ],
       [
        "9",
@@ -1037,7 +1021,7 @@
        "2",
        "-",
        "-",
-       "-"
+       "TBA"
       ],
       [
        "10",
@@ -1051,7 +1035,7 @@
        "3",
        "-",
        "-",
-       "-"
+       "TBA"
       ],
       [
        "11",
@@ -1065,7 +1049,7 @@
        "4",
        "-",
        "-",
-       "-"
+       "TBA"
       ],
       [
        "12",
@@ -1079,7 +1063,7 @@
        "5",
        "3",
        "-",
-       "-"
+       "TBA"
       ],
       [
        "13",
@@ -1093,7 +1077,7 @@
        "6",
        "5",
        "-",
-       "-"
+       "TBA"
       ],
       [
        "14",
@@ -1107,7 +1091,7 @@
        "7",
        "6",
        "4",
-       "-"
+       "TBA"
       ],
       [
        "15",
@@ -1121,7 +1105,7 @@
        "8",
        "7",
        "8",
-       "-"
+       "TBA"
       ],
       [
        "16",
@@ -1135,7 +1119,7 @@
        "9",
        "8",
        "10",
-       "-"
+       "TBA"
       ],
       [
        "17",
@@ -1149,7 +1133,7 @@
        "9",
        "9",
        "11",
-       "-"
+       "TBA"
       ],
       [
        "18",
@@ -1163,7 +1147,7 @@
        "9",
        "9",
        "12",
-       "-"
+       "12"
       ],
       [
        "19",
@@ -1199,6 +1183,7 @@
       "Eagle Artillery",
       "Giga Tesla",
       "",
+      "",
       ""
      ],
      "rows": [
@@ -1218,6 +1203,7 @@
        "-",
        "-",
        "",
+       "",
        ""
       ],
       [
@@ -1235,6 +1221,7 @@
        "-",
        "-",
        "-",
+       "",
        "",
        ""
       ],
@@ -1254,6 +1241,7 @@
        "-",
        "-",
        "",
+       "",
        ""
       ],
       [
@@ -1271,6 +1259,7 @@
        "-",
        "-",
        "-",
+       "",
        "",
        ""
       ],
@@ -1290,6 +1279,7 @@
        "-",
        "-",
        "",
+       "",
        ""
       ],
       [
@@ -1307,6 +1297,7 @@
        "-",
        "-",
        "-",
+       "",
        "",
        ""
       ],
@@ -1326,6 +1317,7 @@
        "-",
        "-",
        "",
+       "",
        ""
       ],
       [
@@ -1343,6 +1335,7 @@
        "-",
        "-",
        "-",
+       "",
        "",
        ""
       ],
@@ -1362,6 +1355,7 @@
        "-",
        "-",
        "",
+       "",
        ""
       ],
       [
@@ -1379,6 +1373,7 @@
        "2",
        "-",
        "-",
+       "",
        "",
        ""
       ],
@@ -1398,6 +1393,7 @@
        "1",
        "-",
        "",
+       "",
        ""
       ],
       [
@@ -1415,6 +1411,7 @@
        "3",
        "1",
        "1",
+       "",
        "",
        ""
       ],
@@ -1434,6 +1431,7 @@
        "1",
        "-",
        "",
+       "",
        ""
       ],
       [
@@ -1451,6 +1449,7 @@
        "3",
        "1",
        "-",
+       "",
        "",
        ""
       ],
@@ -1470,6 +1469,7 @@
        "0*",
        "-",
        "",
+       "",
        ""
       ],
       [
@@ -1487,6 +1487,7 @@
        "3",
        "-",
        "-",
+       "",
        "",
        ""
       ],
@@ -1506,7 +1507,8 @@
        "Crafting Station",
        "Super Wizard Tower",
        "Firecracker Tower",
-       "Spiky Tower"
+       "Spiky Tower",
+       "Guardian Shrine"
       ],
       [
        "19",
@@ -1524,6 +1526,7 @@
        "-",
        "-",
        "",
+       "",
        ""
       ],
       [
@@ -1531,6 +1534,7 @@
        "-",
        "-",
        "5",
+       "-",
        "-",
        "-",
        "-",
@@ -1560,6 +1564,7 @@
        "-",
        "-",
        "-",
+       "-",
        "-"
       ],
       [
@@ -1567,6 +1572,7 @@
        "1",
        "2",
        "5",
+       "-",
        "-",
        "-",
        "-",
@@ -1596,6 +1602,7 @@
        "-",
        "-",
        "-",
+       "-",
        "-"
       ],
       [
@@ -1607,6 +1614,7 @@
        "1",
        "2",
        "2",
+       "-",
        "-",
        "-",
        "-",
@@ -1632,6 +1640,7 @@
        "-",
        "-",
        "-",
+       "-",
        "-"
       ],
       [
@@ -1649,6 +1658,7 @@
        "1",
        "1",
        "2",
+       "-",
        "-",
        "-"
       ],
@@ -1668,7 +1678,8 @@
        "1",
        "2",
        "2",
-       "2"
+       "2",
+       "1"
       ]
      ]
     },
@@ -3210,7 +3221,11 @@
     "page": "Town Hall/Guardians",
     "rawWikitextSha256": "31cb02ee71a426cc2f15b227dec1c0391639f125ebf200ab075bb0f1c52d5f11",
     "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
-   }
+   },
+   "removedAtTH": 19,
+   "removedLabel": "Moved to Defenses",
+   "movedTo": "#/c/defenses?group=guardians",
+   "note": "From TH 19 the Guardians move to the Guardian Shrine; see Defenses."
   },
   {
    "n": "Longshot",
@@ -3350,7 +3365,11 @@
     "page": "Longshot",
     "rawWikitextSha256": "f6915a2dfc89dbd5f7972a5dc04a1f9d158fa971a7a3f31949bf45bed17cd915",
     "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
-   }
+   },
+   "removedAtTH": 19,
+   "removedLabel": "Moved to Defenses",
+   "movedTo": "#/c/defenses?group=guardians",
+   "note": "From TH 19 the Guardians move to the Guardian Shrine; see Defenses."
   },
   {
    "n": "Smasher",
@@ -3486,7 +3505,11 @@
     "page": "Smasher",
     "rawWikitextSha256": "216704971d034cbfdcc60c94debbf531237a7ad1f3b9659c062dd54de2a18ec8",
     "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
-   }
+   },
+   "removedAtTH": 19,
+   "removedLabel": "Moved to Defenses",
+   "movedTo": "#/c/defenses?group=guardians",
+   "note": "From TH 19 the Guardians move to the Guardian Shrine; see Defenses."
   },
   {
    "n": "Logger",
@@ -3624,7 +3647,116 @@
     "page": "Logger",
     "rawWikitextSha256": "58d42a87fa4735d97b2c7d88a7ec9e7a28eb47d3313f93a4dfd422fdfdfe87ae",
     "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
-   }
+   },
+   "removedAtTH": 19,
+   "removedLabel": "Moved to Defenses",
+   "movedTo": "#/c/defenses?group=guardians",
+   "note": "From TH 19 the Guardians move to the Guardian Shrine; see Defenses."
+  },
+  {
+   "n": "Town Hall/Town Hall Troops",
+   "av": "https://static.wikia.nocookie.net/clashofclans/images/f/fa/Town_Hall19_Barbarian.png/revision/latest?cb=20261113134223",
+   "source": "https://clashofclans.fandom.com/wiki/Town_Hall",
+   "revision": null,
+   "unverified": [],
+   "unlockHall": 19,
+   "tables": [
+    {
+     "heading": "Town Hall troop modes",
+     "columns": [
+      "Mode",
+      "Defending Troops",
+      "Deployment",
+      "Requirement"
+     ],
+     "rows": [
+      [
+       "Original",
+       "None",
+       "-",
+       "Default look; no defending troops"
+      ],
+      [
+       "Barbarian Hall",
+       "15 Barbarians",
+       "Groups of 3",
+       "Available at TH 19"
+      ],
+      [
+       "Archer Hall",
+       "15 Archers",
+       "Groups of 4 (last group of 3)",
+       "Archers at level 15"
+      ],
+      [
+       "Wizard Hall",
+       "4 Wizards",
+       "-",
+       "Wizards at level 15"
+      ]
+     ],
+     "wrap": true
+    },
+    {
+     "heading": "Town Hall troop details",
+     "columns": [
+      "Trigger Radius",
+      "Troop Levels",
+      "Switching Modes"
+     ],
+     "rows": [
+      [
+       "13 tiles",
+       "Your researched levels",
+       "Any time"
+      ]
+     ]
+    }
+   ],
+   "images": [
+    {
+     "file": "File:Town Hall19 Barbarian.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fa/Town_Hall19_Barbarian.png/revision/latest?cb=20261113134223"
+    },
+    {
+     "file": "File:Town Hall19 Archer.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e5/Town_Hall19_Archer.png/revision/latest?cb=20261113134222"
+    },
+    {
+     "file": "File:Town Hall19 Wizard.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b9/Town_Hall19_Wizard.png/revision/latest?cb=20261113134225"
+    },
+    {
+     "file": "File:Town Hall19.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/7/77/Town_Hall19.png/revision/latest?cb=20261113134226"
+    }
+   ],
+   "levelImages": {
+    "1": {
+     "file": "File:Town Hall19 Barbarian.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fa/Town_Hall19_Barbarian.png/revision/latest?cb=20261113134223"
+    },
+    "2": {
+     "file": "File:Town Hall19 Archer.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e5/Town_Hall19_Archer.png/revision/latest?cb=20261113134222"
+    },
+    "3": {
+     "file": "File:Town Hall19 Wizard.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b9/Town_Hall19_Wizard.png/revision/latest?cb=20261113134225"
+    },
+    "4": {
+     "file": "File:Town Hall19.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/7/77/Town_Hall19.png/revision/latest?cb=20261113134226"
+    }
+   },
+   "levelLabels": {
+    "1": "Barbarian Hall",
+    "2": "Archer Hall",
+    "3": "Wizard Hall",
+    "4": "Original"
+   },
+   "note": "From TH 19 the Town Hall can hold defending troops, like a Clan Castle. They come out when an attacker gets within 13 tiles, signalled by the horn on top of the Town Hall, and use your own researched troop levels. Freezing or Overgrowth doesn't stop them. The chosen troop also changes the Town Hall's look, and you can switch at any time.",
+   "progressionNote": "Town Hall Troops have no upgrades of their own; they use your researched troop levels."
   }
  ],
  "unverified": [],
@@ -3636,7 +3768,8 @@
    "units": [
     "Town Hall/Giga Weapon",
     "Town Hall/Inferno Artillery",
-    "Town Hall/Guardians"
+    "Town Hall/Guardians",
+    "Town Hall/Town Hall Troops"
    ]
   }
  ],

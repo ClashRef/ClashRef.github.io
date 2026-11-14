@@ -4051,46 +4051,6 @@
    }
   },
   {
-   "n": "Guardian Shrine",
-   "av": "https://static.wikia.nocookie.net/clashofclans/images/c/c6/Army_Camp14.png/revision/latest?cb=20260425143241",
-   "source": "https://clashofclans.fandom.com/wiki/Guardian_Shrine",
-   "revision": null,
-   "tables": [
-    {
-     "heading": "Statistics [ ]",
-     "columns": [
-      "Hitpoints",
-      "Build Cost",
-      "Build Time",
-      "Town Hall Level Required"
-     ],
-     "rows": [
-      [
-       "2,000",
-       "Free",
-       "None",
-       "19"
-      ]
-     ]
-    }
-   ],
-   "images": [],
-   "unverified": [
-    "New in the Town Hall 19 update: values come from the wiki's sneak-peek coverage and may change before release."
-   ],
-   "preview": true,
-   "quantityByHall": {
-    "19": 1
-   },
-   "unlockHall": 19,
-   "quantityNote": "Placed for free at Town Hall 19 and built instantly. It marks the patrol point for the defending Guardians, which no longer stand on the Town Hall. Placing it is required before the next Town Hall upgrade.",
-   "staticImage": {
-    "file": "",
-    "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c6/Army_Camp14.png/revision/latest?cb=20260425143241"
-   },
-   "imageNote": "No artwork has been released for this yet; the category icon is shown instead."
-  },
-  {
    "n": "Squad Barracks",
    "av": "https://static.wikia.nocookie.net/clashofclans/images/c/c6/Army_Camp14.png/revision/latest?cb=20260425143241",
    "source": null,
@@ -4111,7 +4071,84 @@
        "TBA",
        "TBA",
        "TBA",
-       "19"
+       "8"
+      ],
+      [
+       "2",
+       "TBA",
+       "TBA",
+       "TBA",
+       "TBA"
+      ],
+      [
+       "3",
+       "TBA",
+       "TBA",
+       "TBA",
+       "TBA"
+      ],
+      [
+       "4",
+       "TBA",
+       "TBA",
+       "TBA",
+       "TBA"
+      ],
+      [
+       "5",
+       "TBA",
+       "TBA",
+       "TBA",
+       "TBA"
+      ],
+      [
+       "6",
+       "TBA",
+       "TBA",
+       "TBA",
+       "TBA"
+      ],
+      [
+       "7",
+       "TBA",
+       "TBA",
+       "TBA",
+       "TBA"
+      ],
+      [
+       "8",
+       "TBA",
+       "TBA",
+       "TBA",
+       "TBA"
+      ],
+      [
+       "9",
+       "TBA",
+       "TBA",
+       "TBA",
+       "TBA"
+      ],
+      [
+       "10",
+       "TBA",
+       "TBA",
+       "TBA",
+       "TBA"
+      ],
+      [
+       "11",
+       "TBA",
+       "TBA",
+       "TBA",
+       "TBA"
+      ],
+      [
+       "12",
+       "TBA",
+       "TBA",
+       "TBA",
+       "18"
       ]
      ]
     }
@@ -4121,10 +4158,12 @@
     "New in the Town Hall 19 update: values come from the wiki's sneak-peek coverage and may change before release."
    ],
    "preview": true,
-   "note": "Shown in the Town Hall 19 sneak peek. Squads are trained here and can be leveled from Town Hall 19 to unlock squad skills. No stats, costs or times have been revealed yet.",
+   "note": "Squads are made here. It unlocks at Town Hall 8 and reaches level 12 at Town Hall 18 (wiki Town Hall tables). From Town Hall 19, squads can be upgraded to level 2 to unlock their squad skills. No stats, costs or times have been revealed yet.",
    "placeholderOnly": true,
+   "sourceNote": "No wiki page yet. Levels from the wiki's Town Hall tables; Squads from Supercell's Clash On reveal (Nov 2026), via news coverage.",
    "hallByLevel": {
-    "1": 19
+    "1": 8,
+    "12": 18
    },
    "levelImages": {},
    "staticImage": {
