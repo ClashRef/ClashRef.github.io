@@ -75,6 +75,13 @@ function context(search, savedTH = null) {
   const king = next('heroes').units.find((u) => u.n === 'Barbarian King');
   assert(+king.l[king.l.length - 1][0] > 110, 'Hero levels above the TH18 cap');
 
+  // Merged-away defenses explain the merge on their own page.
+  for (const name of ['Archer Tower', 'Scattershot']) {
+    ctx.testCat = next('defenses'); ctx.testUnit = next('defenses').units.find((u) => u.n === name);
+    vm.runInContext("S.tab='stats'; unitView(testCat,testUnit)", ctx);
+    assert(html().includes('class="merge-notice"') && html().includes('Firecracker Towers'), `${name} merge notice`);
+  }
+
   // Classic totals skip TBA levels instead of breaking.
   ctx.testCat = next('heroes'); ctx.testUnit = king;
   vm.runInContext("S.tab='max'; S.only=false; S.cur={}; unitView(testCat,testUnit)", ctx);

@@ -1438,7 +1438,7 @@
     "method": "Fandom imageinfo, exact level file; HTTP 200 without Referer for every URL",
     "levels": 21
    },
-   "note": "Town Hall 19 update: a level 21 Archer Tower merges with a level 7 Scattershot into a Firecracker Tower. Merging all of them is required before the next Town Hall upgrade (wiki, from the sneak peek)."
+   "mergeNotice": "At TH 19, all remaining Archer Towers merge with Scattershots into Firecracker Towers. Finish the merges before your next Town Hall upgrade."
   },
   {
    "n": "Mortar",
@@ -5308,7 +5308,7 @@
     "method": "Fandom imageinfo, exact level file; HTTP 200 without Referer for every URL",
     "levels": 7
    },
-   "note": "Town Hall 19 update: a level 7 Scattershot merges with a level 21 Archer Tower into a Firecracker Tower. Merging all of them is required before the next Town Hall upgrade (wiki, from the sneak peek)."
+   "mergeNotice": "At TH 19, all Scattershots merge with Archer Towers into Firecracker Towers. Finish the merges before your next Town Hall upgrade."
   },
   {
    "n": "Builder's Hut",

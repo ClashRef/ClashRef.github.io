@@ -76,10 +76,10 @@ NEW_ITEMS = [
     {"n": "Squad Barracks", "cat": "army", "page": None, "count": "1", "placeholderOnly": True,
      "note": "Shown in the Town Hall 19 sneak peek. Squads are trained here and can be leveled from Town Hall 19 to unlock squad skills. No stats, costs or times have been revealed yet."},
 ]
-# Notes added to existing items in the preview.
-EXTRA_NOTES = {
-    ("defenses", "Archer Tower"): "Town Hall 19 update: a level 21 Archer Tower merges with a level 7 Scattershot into a Firecracker Tower. Merging all of them is required before the next Town Hall upgrade (wiki, from the sneak peek).",
-    ("defenses", "Scattershot"): "Town Hall 19 update: a level 7 Scattershot merges with a level 21 Archer Tower into a Firecracker Tower. Merging all of them is required before the next Town Hall upgrade (wiki, from the sneak peek).",
+# Short notices shown under the level picker of existing items in the preview (app.js "mergeNotice").
+MERGE_NOTICES = {
+    ("defenses", "Archer Tower"): "At TH 19, all remaining Archer Towers merge with Scattershots into Firecracker Towers. Finish the merges before your next Town Hall upgrade.",
+    ("defenses", "Scattershot"): "At TH 19, all Scattershots merge with Archer Towers into Firecracker Towers. Finish the merges before your next Town Hall upgrade.",
 }
 # Level art names that don't follow the site's own file names ({n} = level).
 ART_NAMES = {"X-Bow": ["File:X-Bow{n} Ground.png"], "Builder's Hut": ["File:Builder Hut{n} Active.png"]}
@@ -767,10 +767,10 @@ def main():
         touched.add(item["cat"])
         log(lines, f"  {metas[item['cat']]['label']} / {item['n']}: " + "; ".join(f"{t['heading']} ({len(t['rows'])} rows)" for t in unit["tables"]))
 
-    for (cid, name), text in EXTRA_NOTES.items():
+    for (cid, name), text in MERGE_NOTICES.items():
         u = next((u for u in cats[cid]["units"] if u["n"] == name), None)
-        if u and text not in u.get("note", ""):
-            u["note"] = (u.get("note", "") + " " + text).strip()
+        if u:
+            u["mergeNotice"] = text
             touched.add(cid)
 
     # 6. Supercharges end when their building gains a new level.

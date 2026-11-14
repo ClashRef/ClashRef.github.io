@@ -92,6 +92,7 @@ tbody tr.over td{color:#89909d}
 .wrap-table{white-space:normal}
 .wrap-table td{white-space:normal;text-align:left;line-height:1.5}
 .wrap-table td:first-child{width:4rem;text-align:center}
+.merge-notice{margin:8px 0 0;padding:8px 12px;border:1px solid var(--line);border-radius:8px;background:var(--panel2);color:var(--text);font-size:13px;line-height:1.4;text-align:center}
 .level-unlock{margin:8px 0 0;padding:8px 12px;border:1px solid var(--acc2);border-radius:8px;background:#ffb02015;color:var(--acc2);font-size:14px;font-weight:700;text-align:center}
 td.cost{color:var(--elix)}
 .note{color:var(--mut);font-size:12px;margin:10px 4px}
