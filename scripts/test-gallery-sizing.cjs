@@ -28,7 +28,10 @@ const root=path.resolve(__dirname,'..');
       const dimensions=await page.locator('.imgs-list img').evaluateAll(images=>images.map(i=>[i.naturalWidth,i.naturalHeight]));
       assert.notDeepEqual(dimensions[2],dimensions[4],'Regression covers different original sprite sizes');
       const captions=await page.locator('.imgs-list figcaption').allTextContents();
-      assert.deepEqual(captions,['Level 1','Level 2','Level 3','Level 4','Level 5']);
+      // ?preview=true reads the update-preview copy when there is one, so expect its level art.
+      const meta=JSON.parse(fs.readFileSync(path.join(root,'data/categories.json'),'utf8')).groups.flatMap(g=>g.cats).find(c=>c.id==='traps');
+      const trap=JSON.parse(fs.readFileSync(path.join(root,meta.next||meta.data),'utf8')).units.find(u=>u.n==='Skeleton Trap');
+      assert.deepEqual(captions,Object.keys(trap.levelImages).map(l=>`Level ${l}`));
       if(engine===webkit&&width===390)await page.locator('.imgs-list').screenshot({path:path.join(process.env.TEMP,'clash-gallery-sizing.png')});
      }
      assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));

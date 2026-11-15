@@ -73,31 +73,16 @@ NEW_ITEMS = [
     {"n": "Heroic Spell", "cat": "espells", "page": "Heroic Spell", "resource": "Elixir"},
     {"n": "Guardian Shrine", "cat": "defenses", "page": "Guardian Shrine", "quantityByHall": {"19": 1}, "unlockHall": 19,
      "quantityNote": "Placed for free at Town Hall 19 and built instantly. It marks the patrol point for the defending Guardians, which no longer stand on the Town Hall. Placing it is required before the next Town Hall upgrade."},
-    # The wiki's Town Hall tables list it from TH8 (level 1) to level 12 at TH18; levels in between aren't known yet.
-    {"n": "Squad Barracks", "cat": "army", "page": None, "count": "1", "placeholderOnly": True,
-     "hallByLevel": {"1": 8, "12": 18},
-     "tables": [{"heading": "Statistics", "columns": ["Level", "Hitpoints", "Build Cost", "Build Time", "Town Hall Level Required"],
-                 "rows": [[str(l), "TBA", "TBA", "TBA", {1: "8", 12: "18"}.get(l, "TBA")] for l in range(1, 13)]}],
-     "sourceNote": "No wiki page yet. Levels from the wiki's Town Hall tables; Squads from Supercell's Clash On reveal (Nov 2026), via news coverage.",
-     "note": "Squads are made here. It unlocks at Town Hall 8 and reaches level 12 at Town Hall 18 (wiki Town Hall tables). From Town Hall 19, squads can be upgraded to level 2 to unlock their squad skills. No stats, costs or times have been revealed yet."},
+    {"n": "Squad Barracks", "cat": "army", "page": "Squad Barracks", "resource": "Elixir", "count": "1",
+     "note": "Squads are trained here, for free and instantly. Each Squad Barracks level unlocks one new squad. Squads can be upgraded to level 2 and up (unlocking their squad ability) from Laboratory level 17, which needs Town Hall 19."},
 ]
 # Squads, a new Home Village army category ("previewOnly": hidden from the normal site's home page).
-# Source: Supercell's Clash On reveal (Nov 2026) as reported in news coverage; the wiki has no squad pages yet.
+# Names and avatars come from the wiki's "Squads" page; unlock levels and squad abilities from "Squad Barracks".
 SQUADS = {
-    "meta": {"id": "squads", "label": "Squads", "after": "pets", "imgFrom": ("elixir", "Archer")},
-    "note": "Squads deploy a fixed group of troops with one tap, using less housing space than the same troops deployed one by one. Squad troops use your own troop levels. They're made at the Squad Barracks (Army Buildings, from TH 8). Supercell announced 12 squads; only two have been named so far. Source: Supercell's Clash On reveal (Nov 2026), via news coverage; the wiki has no squad pages yet.",
-    "units": [
-        {"n": "Barch Squad", "troops": "Barbarians and Archers", "avFrom": ("elixir", "Archer")},
-        {"n": "Golem-Witch Squad", "troops": "Golems and Witches", "avFrom": ("dark", "Golem")},
-    ],
-    "skills": [
-        ["Tantrum", "Damage is increased by 100% when separated from other air units."],
-        ["Trap Sense", "Takes reduced damage from traps."],
-        ["Stealthy Start", "Invisible for a short time after being deployed."],
-        ["Shielded Start", "Invulnerable for a short time after being deployed."],
-        ["Splash Resistance", "Splash damage only hits a few of the squad's troops per blast."],
-        ["Focus Attack", "The whole squad focuses on one target."],
-    ],
+    "meta": {"id": "squads", "label": "Squads", "after": "pets"},
+    "page": "Squads",
+    "barracks": "Squad Barracks",
+    "note": "Squads deploy a fixed group of troops in a set formation, using less housing space than the same troops trained one by one. Squad troops use your own researched troop levels, and squads can't be donated. Each Squad Barracks level (Army Buildings, from TH 8) unlocks one squad; training is free and instant. From Laboratory 17 (TH 19) squads can be upgraded to level 2 and up, which unlocks their squad ability. Housing space, troop counts and upgrade costs haven't been revealed yet.",
 }
 # Guardians move off the Town Hall at TH 19: they get a group tile in Defenses (with the Guardian Shrine),
 # and the Town Hall section shows them as moved.
@@ -217,6 +202,14 @@ def clean(v):
     v = re.sub(r"^((?:\d+[dhms]\s*)+)I$", r"\1", str(v).strip()).strip()
     v = re.sub(r"^([\d,]+)\s+[+-]\d+:.*$", r"\1", v)  # editor notes such as "48 +1: +1 Spring Trap"
     return TBA if v in ("?", "") else v
+
+
+def clean_wiki(text):
+    """Plain text from a line of wikitext: links, {{H|...}} templates and bold markup."""
+    text = re.sub(r"\{\{H\|([^}|]+)\}\}", lambda m: m.group(1), text)
+    text = re.sub(r"\{\{[^}]*\}\}", "", text)
+    text = re.sub(r"\[\[(?:[^\]|]*\|)?([^\]]+)\]\]", lambda m: m.group(1), text)
+    return re.sub(r"\s+", " ", text.replace("'''", "").replace("''", "")).strip()
 
 
 # ---------- comparing ----------
@@ -428,16 +421,19 @@ NEW_COLUMNS = {"Defensive Buildings and Traps / Defenses Available": ["Firecrack
 
 
 # Known values for new columns at earlier Town Halls (from the wiki's visible Town Hall tables).
-COLUMN_HISTORY = {"Squad Barracks": {"count": {8: "1"}, "max": {8: "1", 18: "12"}}}
+COLUMN_HISTORY = {"Squad Barracks": {"count": {8: "1"}}}
 
 
-def column_history(name, key, is_max):
+def column_history(name, key, is_max, unit=None):
     m = re.match(r"\d+", str(key))
-    hist = COLUMN_HISTORY.get(name, {}).get("max" if is_max else "count")
-    if not m or not hist:
+    if not m:
         return "-"
     at = int(m.group())
-    if at < min(hist):
+    if is_max and unit and unit.get("hallByLevel"):
+        levels = [int(l) for l, h in unit["hallByLevel"].items() if h <= at]
+        return str(max(levels)) if levels else "-"
+    hist = COLUMN_HISTORY.get(name, {}).get("max" if is_max else "count")
+    if not hist or at < min(hist):
         return "-"
     if is_max:
         return hist.get(at, TBA)
@@ -522,7 +518,7 @@ def townhall_counts(th, find_unit, counts, lines):
                 hdr = next(i for i, r in enumerate(t["rows"]) if r is parts[target][0])
                 t["rows"][hdr] += extra
             for i in parts[target][1]:
-                t["rows"][i] += [column_history(n, t["rows"][i][0], is_max) for n in extra]
+                t["rows"][i] += [column_history(n, t["rows"][i][0], is_max, find_unit(n)) for n in extra]
             parts = th_parts(t)
         added = 0
         for cols, idxs in reversed(parts):
@@ -620,7 +616,7 @@ def main():
         for u in cat["units"]:
             page = urllib.parse.unquote(u["source"].split("/wiki/", 1)[1]).replace("_", " ") if u.get("source") else u["n"]
             items.append((cid, u, page))
-    pages = sorted({p for *_, p in items} | {i["page"] for i in NEW_ITEMS if i["page"]})
+    pages = sorted({p for *_, p in items} | {i["page"] for i in NEW_ITEMS if i["page"]} | {SQUADS["page"]})
     versions = {}
     if args.offline:
         if not CACHE.exists():
@@ -875,25 +871,51 @@ def main():
         touched.add("townhall")
         log(lines, f"  Town Hall / Town Hall Troops: {', '.join(labels)} ({len(level_images)} images)")
 
-    # Squads: a new, preview-only army category.
+    # Squads: a new, preview-only army category, built from the wiki's Squads and Squad Barracks pages.
     sq = SQUADS["meta"]
-    pick = lambda where: next(u for u in cats[where[0]]["units"] if u["n"] == where[1])["av"]
-    src = "No wiki page yet. From Supercell's Clash On reveal (Nov 2026), via news coverage."
-    squad_units = [{"n": x["n"], "av": pick(x["avFrom"]), "source": None, "revision": None, "unverified": [], "placeholderOnly": True, "sourceNote": src,
-                    "tables": [{"heading": "Squad", "columns": ["Troops", "Number of Troops", "Housing Space", "Squad Barracks Level Required", "Squad Skill"],
-                                "rows": [[x["troops"], TBA, TBA, TBA, TBA]]}], "images": [],
-                    "note": f"The {x['n']} is one of 12 announced squads. Its troop count, housing space and squad skill haven't been revealed yet."} for x in SQUADS["units"]]
-    squad_units.append({"n": "Squad Skills", "av": pick(("elixir", "Barbarian")), "source": None, "revision": None, "unverified": [], "unlockHall": hall, "sourceNote": src,
-                        "tables": [{"heading": "Squad skills", "columns": ["Skill", "Effect"], "rows": SQUADS["skills"], "wrap": True}], "images": [],
-                        "note": f"Each squad has one skill, unlocked by upgrading the squad to level 2, which is possible from TH {hall}. Which squad has which skill hasn't been revealed yet.",
-                        "progressionNote": f"Skills unlock at squad level 2, from TH {hall}. Costs and times haven't been revealed yet."})
+    squads_text = versions[SQUADS["page"]]["text"]
+    barracks_text = versions[SQUADS["barracks"]]["text"]
+    names = re.findall(r"\[\[File:(Avatar [^|\]]+?)\.png\|[^\]]*link=([^\]|]+)\]\]", squads_text)
+    avatars = image_info([f"File:{f}.png" for f, _ in names])
+    barracks = find_unit(SQUADS["barracks"], ("army",)) or next(u for u in cats["army"]["units"] if u["n"] == SQUADS["barracks"])
+    up = upgrade_table(barracks)
+    unit_col = next(i for i, c in enumerate(up["columns"]) if re.search(r"unlocked", c, re.I))
+    unlock_at = {r[unit_col].lower(): (r[0], barracks["hallByLevel"].get(r[0])) for r in up["rows"]}
+    canonical = {n.lower(): n for _, n in names}
+    for r in up["rows"]:  # the table spells one "Hog rider Squad"; use the Squads page's names
+        r[unit_col] = canonical.get(r[unit_col].lower(), r[unit_col])
+    abilities = []  # [name, effect, squad or TBA]
+    section = barracks_text.split("===Squad Abilities===", 1)[1].split("\n==", 1)[0]
+    for m in re.finditer(r"^\*\*\x27{3}([^\x27:]+):\x27{3} (.+)$", section, re.M):
+        text = clean_wiki(m.group(2))
+        only = re.search(r"\s*This ability is present only on the (.+?)\.$", text)
+        abilities.append([m.group(1), text[:only.start()] if only else text, only.group(1) if only else TBA])
+    skill_of = {a[2].lower(): a[0] for a in abilities if a[2] != TBA}
+    src = f"Wiki pages: {SQUADS['page']} and {SQUADS['barracks']}."
+    squad_units = []
+    for f, name in names:
+        lvl, th_req = unlock_at.get(name.lower(), (TBA, None))
+        av = (avatars.get(f"File:{f}.png") or {}).get("url") or barracks["av"]
+        squad_units.append({"n": name, "av": av, "source": None, "revision": None, "unverified": [], "placeholderOnly": True, "sourceNote": src,
+                            "unlockHall": th_req, "staticImage": {"file": f"File:{f}.png", "url": av},
+                            "tables": [{"heading": "Squad", "columns": ["Squad Barracks Level Required", "Town Hall Level Required", "Housing Space", "Squad Ability"],
+                                        "rows": [[lvl, str(th_req or TBA), TBA, skill_of.get(name.lower(), TBA)]]}],
+                            "images": [{"file": f"File:{f}.png", "url": av}],
+                            "note": f"Unlocked by Squad Barracks level {lvl} (TH {th_req}). Its troop count, housing space and upgrade costs haven't been revealed yet."})
+    if len(squad_units) != len(unlock_at):
+        notes.append(f"Squads: {len(squad_units)} on the Squads page but {len(unlock_at)} in the Squad Barracks table")
+    squad_units.append({"n": "Squad Abilities", "av": barracks["av"], "source": None, "revision": None, "unverified": [], "unlockHall": hall, "sourceNote": src,
+                        "tables": [{"heading": "Squad abilities", "columns": ["Ability", "Effect", "Squad"], "rows": abilities, "wrap": True}], "images": [],
+                        "note": f"A squad gains its ability when upgraded to level 2, which needs Laboratory 17 (TH {hall}). The wiki names the squad for {len(skill_of)} of the {len(abilities)} abilities so far.",
+                        "progressionNote": f"Abilities unlock at squad level 2, from Laboratory 17 (TH {hall}). Costs and times haven't been revealed yet."})
     cats[sq["id"]] = {"id": sq["id"], "label": sq["label"], "format": "wiki-review-v1", "updated": today, "units": squad_units, "unverified": [], "note": SQUADS["note"]}
     original[sq["id"]] = {"note": SQUADS["note"], "updated": today}
     if sq["id"] not in metas:
-        meta = {"id": sq["id"], "label": sq["label"], "img": pick(sq["imgFrom"]), "previewOnly": True}
+        meta = {"id": sq["id"], "label": sq["label"], "img": squad_units[0]["av"], "previewOnly": True}
         group = next(g for g in manifest["groups"] if any(c["id"] == sq["after"] for c in g["cats"]))
         group["cats"].insert(next(i for i, c in enumerate(group["cats"]) if c["id"] == sq["after"]) + 1, meta)
         metas[sq["id"]] = meta
+    metas[sq["id"]]["img"] = squad_units[0]["av"]
     touched.add(sq["id"])
     log(lines, f"  Squads (new category): {', '.join(u['n'] for u in squad_units)}")
 
@@ -916,6 +938,12 @@ def main():
             why = f"{u['n']} gets a new level ({', '.join(f'level {l} at TH {h}' for l, h in sorted(new_levels.items(), key=lambda x: int(x[0])))})"
         else:
             continue
+        # The building's own page drops its charge tables too (the wiki also files some
+        # attack-detail tables under "Supercharges"; those stay).
+        tables = [t for t in base.get("tables", []) if not (t["heading"].startswith("Supercharge") and re.match(r"(?:Charge|Level)", t["columns"][0]))]
+        if len(tables) != len(base.get("tables", [])):
+            base["tables"] = tables
+            touched.update(c for c in building_cats if base in cats[c]["units"])
         u["removedAtTH"] = 1  # gone at every Town Hall level once the update ships
         u["removedLabel"] = f"Removed in the TH {hall} update"
         u["note"] = (f"{why}, so the {UPDATE['name']} removes these Supercharges for every Town Hall level, per the wiki. "

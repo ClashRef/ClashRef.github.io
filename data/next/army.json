@@ -2,7 +2,7 @@
  "id": "army",
  "label": "Army Buildings",
  "format": "wiki-review-v1",
- "updated": "2026-11-03; Town Hall 19 update preview data read Nov 14, 2026",
+ "updated": "2026-11-03; Town Hall 19 update preview data read Nov 15, 2026",
  "units": [
   {
    "n": "Army Camp",
@@ -1426,6 +1426,10 @@
     {
      "file": "File:Spell Factory9.png",
      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9c/Spell_Factory9.png/revision/latest?cb=20251120005042"
+    },
+    {
+     "file": "File:Spell Factory10.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7d/Spell_Factory10.png/revision/latest?cb=20261115165921"
     }
    ],
    "unverified": [
@@ -1479,6 +1483,10 @@
     "9": {
      "file": "File:Spell Factory9.png",
      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9c/Spell_Factory9.png/revision/latest?cb=20251120005042"
+    },
+    "10": {
+     "file": "File:Spell Factory10.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7d/Spell_Factory10.png/revision/latest?cb=20261115165921"
     }
    },
    "imageVerification": {
@@ -4052,134 +4060,261 @@
   },
   {
    "n": "Squad Barracks",
-   "av": "https://static.wikia.nocookie.net/clashofclans/images/c/c6/Army_Camp14.png/revision/latest?cb=20260425143241",
-   "source": null,
+   "av": "https://static.wikia.nocookie.net/clashofclans/images/0/0e/Squad_Barracks1.png/revision/latest?cb=20261115142555",
+   "source": "https://clashofclans.fandom.com/wiki/Squad_Barracks",
    "revision": null,
    "tables": [
     {
      "heading": "Statistics",
      "columns": [
       "Level",
+      "Unlocked Unit",
       "Hitpoints",
-      "Build Cost",
+      "Build Cost (Elixir)",
       "Build Time",
+      "Experience Gained",
       "Town Hall Level Required"
      ],
      "rows": [
       [
        "1",
-       "TBA",
-       "TBA",
-       "TBA",
+       "Barch Squad",
+       "500",
+       "1,700,000",
+       "2d",
+       "415",
        "8"
       ],
       [
        "2",
-       "TBA",
-       "TBA",
-       "TBA",
-       "TBA"
+       "Giant Wizard Squad",
+       "560",
+       "3,000,000",
+       "3d",
+       "509",
+       "9"
       ],
       [
        "3",
-       "TBA",
-       "TBA",
-       "TBA",
-       "TBA"
+       "Wall Breaker Squad",
+       "620",
+       "3,800,000",
+       "5d",
+       "657",
+       "10"
       ],
       [
        "4",
-       "TBA",
-       "TBA",
-       "TBA",
-       "TBA"
+       "Minion Squad",
+       "680",
+       "6,000,000",
+       "6d",
+       "720",
+       "11"
       ],
       [
        "5",
-       "TBA",
-       "TBA",
-       "TBA",
-       "TBA"
+       "Balloon Squad",
+       "740",
+       "7,500,000",
+       "7d",
+       "777",
+       "12"
       ],
       [
        "6",
-       "TBA",
-       "TBA",
-       "TBA",
-       "TBA"
+       "Golem Witch Squad",
+       "800",
+       "10,000,000",
+       "7d 12h",
+       "804",
+       "13"
       ],
       [
        "7",
-       "TBA",
-       "TBA",
-       "TBA",
-       "TBA"
+       "Hog Rider Squad",
+       "860",
+       "12,500,000",
+       "8d",
+       "831",
+       "14"
       ],
       [
        "8",
-       "TBA",
-       "TBA",
-       "TBA",
-       "TBA"
+       "Miner Squad",
+       "920",
+       "15,000,000",
+       "9d 12h",
+       "905",
+       "15"
       ],
       [
        "9",
-       "TBA",
-       "TBA",
-       "TBA",
-       "TBA"
+       "Healer Squad",
+       "980",
+       "16,000,000",
+       "10d",
+       "929",
+       "16"
       ],
       [
        "10",
-       "TBA",
-       "TBA",
-       "TBA",
-       "TBA"
+       "P.E.K.K.A Titan Squad",
+       "1,040",
+       "20,000,000",
+       "11d",
+       "974",
+       "17"
       ],
       [
        "11",
-       "TBA",
-       "TBA",
-       "TBA",
-       "TBA"
+       "Dragons Squad",
+       "1,100",
+       "26,000,000",
+       "13d 12h",
+       "1,080",
+       "18"
       ],
       [
        "12",
-       "TBA",
-       "TBA",
-       "TBA",
-       "18"
+       "Baby Dragon Squad",
+       "1,160",
+       "32,000,000",
+       "16d",
+       "1,175",
+       "19"
       ]
      ]
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file": "File:Squad Barracks1.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0e/Squad_Barracks1.png/revision/latest?cb=20261115142555"
+    },
+    {
+     "file": "File:Squad Barracks2.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Squad_Barracks2.png/revision/latest?cb=20261115142557"
+    },
+    {
+     "file": "File:Squad Barracks3.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1c/Squad_Barracks3.png/revision/latest?cb=20261115142558"
+    },
+    {
+     "file": "File:Squad Barracks4.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c3/Squad_Barracks4.png/revision/latest?cb=20261115142559"
+    },
+    {
+     "file": "File:Squad Barracks5.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3e/Squad_Barracks5.png/revision/latest?cb=20261115142600"
+    },
+    {
+     "file": "File:Squad Barracks6.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f8/Squad_Barracks6.png/revision/latest?cb=20261115142601"
+    },
+    {
+     "file": "File:Squad Barracks7.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Squad_Barracks7.png/revision/latest?cb=20261115142603"
+    },
+    {
+     "file": "File:Squad Barracks8.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cb/Squad_Barracks8.png/revision/latest?cb=20261115142604"
+    },
+    {
+     "file": "File:Squad Barracks9.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c0/Squad_Barracks9.png/revision/latest?cb=20261115142605"
+    },
+    {
+     "file": "File:Squad Barracks10.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Squad_Barracks10.png/revision/latest?cb=20261115142607"
+    },
+    {
+     "file": "File:Squad Barracks12.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/2/29/Squad_Barracks12.png/revision/latest?cb=20261115142609"
+    },
+    {
+     "file": "File:Squad Barracks11.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/0/05/Squad_Barracks11.png/revision/latest?cb=20261115142608"
+    }
+   ],
    "unverified": [
     "New in the Town Hall 19 update: values come from the wiki's sneak-peek coverage and may change before release."
    ],
    "preview": true,
-   "note": "Squads are made here. It unlocks at Town Hall 8 and reaches level 12 at Town Hall 18 (wiki Town Hall tables). From Town Hall 19, squads can be upgraded to level 2 to unlock their squad skills. No stats, costs or times have been revealed yet.",
-   "placeholderOnly": true,
-   "sourceNote": "No wiki page yet. Levels from the wiki's Town Hall tables; Squads from Supercell's Clash On reveal (Nov 2026), via news coverage.",
+   "note": "Squads are trained here, for free and instantly. Each Squad Barracks level unlocks one new squad. Squads can be upgraded to level 2 and up (unlocking their squad ability) from Laboratory level 17, which needs Town Hall 19.",
    "hallByLevel": {
     "1": 8,
-    "12": 18
+    "2": 9,
+    "3": 10,
+    "4": 11,
+    "5": 12,
+    "6": 13,
+    "7": 14,
+    "8": 15,
+    "9": 16,
+    "10": 17,
+    "11": 18,
+    "12": 19
    },
-   "levelImages": {},
-   "staticImage": {
-    "file": "",
-    "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c6/Army_Camp14.png/revision/latest?cb=20260425143241"
-   },
-   "imageNote": "No artwork has been released for this yet; the category icon is shown instead."
+   "levelImages": {
+    "1": {
+     "file": "File:Squad Barracks1.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0e/Squad_Barracks1.png/revision/latest?cb=20261115142555"
+    },
+    "2": {
+     "file": "File:Squad Barracks2.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Squad_Barracks2.png/revision/latest?cb=20261115142557"
+    },
+    "3": {
+     "file": "File:Squad Barracks3.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1c/Squad_Barracks3.png/revision/latest?cb=20261115142558"
+    },
+    "4": {
+     "file": "File:Squad Barracks4.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c3/Squad_Barracks4.png/revision/latest?cb=20261115142559"
+    },
+    "5": {
+     "file": "File:Squad Barracks5.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3e/Squad_Barracks5.png/revision/latest?cb=20261115142600"
+    },
+    "6": {
+     "file": "File:Squad Barracks6.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f8/Squad_Barracks6.png/revision/latest?cb=20261115142601"
+    },
+    "7": {
+     "file": "File:Squad Barracks7.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Squad_Barracks7.png/revision/latest?cb=20261115142603"
+    },
+    "8": {
+     "file": "File:Squad Barracks8.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cb/Squad_Barracks8.png/revision/latest?cb=20261115142604"
+    },
+    "9": {
+     "file": "File:Squad Barracks9.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c0/Squad_Barracks9.png/revision/latest?cb=20261115142605"
+    },
+    "10": {
+     "file": "File:Squad Barracks10.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Squad_Barracks10.png/revision/latest?cb=20261115142607"
+    },
+    "12": {
+     "file": "File:Squad Barracks12.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/2/29/Squad_Barracks12.png/revision/latest?cb=20261115142609"
+    },
+    "11": {
+     "file": "File:Squad Barracks11.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/0/05/Squad_Barracks11.png/revision/latest?cb=20261115142608"
+    }
+   }
   }
  ],
  "unverified": [],
- "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 14, 2026. TBA = not revealed yet. Values can change before release. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+ "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 15, 2026. TBA = not revealed yet. Values can change before release. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
  "preview": {
   "update": "Town Hall 19 update",
   "release": "Nov 16, 2026",
-  "read": "Nov 14, 2026",
-  "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 14, 2026. TBA = not revealed yet. Values can change before release."
+  "read": "Nov 15, 2026",
+  "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 15, 2026. TBA = not revealed yet. Values can change before release."
  }
 }

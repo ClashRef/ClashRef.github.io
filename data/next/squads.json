@@ -2,127 +2,550 @@
  "id": "squads",
  "label": "Squads",
  "format": "wiki-review-v1",
- "updated": "Nov 14, 2026; Town Hall 19 update preview data read Nov 14, 2026",
+ "updated": "Nov 15, 2026; Town Hall 19 update preview data read Nov 15, 2026",
  "units": [
   {
    "n": "Barch Squad",
-   "av": "https://static.wikia.nocookie.net/clashofclans/images/6/68/Avatar_Archer.png/revision/latest?cb=20200913014217",
+   "av": "https://static.wikia.nocookie.net/clashofclans/images/6/66/Avatar_Barch_Squad.png/revision/latest?cb=20261115142955",
    "source": null,
    "revision": null,
    "unverified": [],
    "placeholderOnly": true,
-   "sourceNote": "No wiki page yet. From Supercell's Clash On reveal (Nov 2026), via news coverage.",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks.",
+   "unlockHall": 8,
+   "staticImage": {
+    "file": "File:Avatar Barch Squad.png",
+    "url": "https://static.wikia.nocookie.net/clashofclans/images/6/66/Avatar_Barch_Squad.png/revision/latest?cb=20261115142955"
+   },
    "tables": [
     {
      "heading": "Squad",
      "columns": [
-      "Troops",
-      "Number of Troops",
-      "Housing Space",
       "Squad Barracks Level Required",
-      "Squad Skill"
+      "Town Hall Level Required",
+      "Housing Space",
+      "Squad Ability"
      ],
      "rows": [
       [
-       "Barbarians and Archers",
-       "TBA",
-       "TBA",
+       "1",
+       "8",
        "TBA",
        "TBA"
       ]
      ]
     }
    ],
-   "images": [],
-   "note": "The Barch Squad is one of 12 announced squads. Its troop count, housing space and squad skill haven't been revealed yet."
+   "images": [
+    {
+     "file": "File:Avatar Barch Squad.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/6/66/Avatar_Barch_Squad.png/revision/latest?cb=20261115142955"
+    }
+   ],
+   "note": "Unlocked by Squad Barracks level 1 (TH 8). Its troop count, housing space and upgrade costs haven't been revealed yet."
   },
   {
-   "n": "Golem-Witch Squad",
-   "av": "https://static.wikia.nocookie.net/clashofclans/images/4/44/Avatar_Golem.png/revision/latest?cb=20170525070403",
+   "n": "Giant Wizard Squad",
+   "av": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Avatar_Giant_Wizard_Squad.png/revision/latest?cb=20261115142957",
    "source": null,
    "revision": null,
    "unverified": [],
    "placeholderOnly": true,
-   "sourceNote": "No wiki page yet. From Supercell's Clash On reveal (Nov 2026), via news coverage.",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks.",
+   "unlockHall": 9,
+   "staticImage": {
+    "file": "File:Avatar Giant Wizard Squad.png",
+    "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Avatar_Giant_Wizard_Squad.png/revision/latest?cb=20261115142957"
+   },
    "tables": [
     {
      "heading": "Squad",
      "columns": [
-      "Troops",
-      "Number of Troops",
-      "Housing Space",
       "Squad Barracks Level Required",
-      "Squad Skill"
+      "Town Hall Level Required",
+      "Housing Space",
+      "Squad Ability"
      ],
      "rows": [
       [
-       "Golems and Witches",
-       "TBA",
-       "TBA",
+       "2",
+       "9",
        "TBA",
        "TBA"
       ]
      ]
     }
    ],
-   "images": [],
-   "note": "The Golem-Witch Squad is one of 12 announced squads. Its troop count, housing space and squad skill haven't been revealed yet."
+   "images": [
+    {
+     "file": "File:Avatar Giant Wizard Squad.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Avatar_Giant_Wizard_Squad.png/revision/latest?cb=20261115142957"
+    }
+   ],
+   "note": "Unlocked by Squad Barracks level 2 (TH 9). Its troop count, housing space and upgrade costs haven't been revealed yet."
   },
   {
-   "n": "Squad Skills",
-   "av": "https://static.wikia.nocookie.net/clashofclans/images/8/87/Avatar_Barbarian.png/revision/latest?cb=20170525070200",
+   "n": "Wall Breaker Squad",
+   "av": "https://static.wikia.nocookie.net/clashofclans/images/7/75/Avatar_Wall_Breaker_Squad.png/revision/latest?cb=20261115143004",
+   "source": null,
+   "revision": null,
+   "unverified": [],
+   "placeholderOnly": true,
+   "sourceNote": "Wiki pages: Squads and Squad Barracks.",
+   "unlockHall": 10,
+   "staticImage": {
+    "file": "File:Avatar Wall Breaker Squad.png",
+    "url": "https://static.wikia.nocookie.net/clashofclans/images/7/75/Avatar_Wall_Breaker_Squad.png/revision/latest?cb=20261115143004"
+   },
+   "tables": [
+    {
+     "heading": "Squad",
+     "columns": [
+      "Squad Barracks Level Required",
+      "Town Hall Level Required",
+      "Housing Space",
+      "Squad Ability"
+     ],
+     "rows": [
+      [
+       "3",
+       "10",
+       "TBA",
+       "Stealthy Start"
+      ]
+     ]
+    }
+   ],
+   "images": [
+    {
+     "file": "File:Avatar Wall Breaker Squad.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/7/75/Avatar_Wall_Breaker_Squad.png/revision/latest?cb=20261115143004"
+    }
+   ],
+   "note": "Unlocked by Squad Barracks level 3 (TH 10). Its troop count, housing space and upgrade costs haven't been revealed yet."
+  },
+  {
+   "n": "Minion Squad",
+   "av": "https://static.wikia.nocookie.net/clashofclans/images/9/95/Avatar_Minion_Squad.png/revision/latest?cb=20261115143002",
+   "source": null,
+   "revision": null,
+   "unverified": [],
+   "placeholderOnly": true,
+   "sourceNote": "Wiki pages: Squads and Squad Barracks.",
+   "unlockHall": 11,
+   "staticImage": {
+    "file": "File:Avatar Minion Squad.png",
+    "url": "https://static.wikia.nocookie.net/clashofclans/images/9/95/Avatar_Minion_Squad.png/revision/latest?cb=20261115143002"
+   },
+   "tables": [
+    {
+     "heading": "Squad",
+     "columns": [
+      "Squad Barracks Level Required",
+      "Town Hall Level Required",
+      "Housing Space",
+      "Squad Ability"
+     ],
+     "rows": [
+      [
+       "4",
+       "11",
+       "TBA",
+       "TBA"
+      ]
+     ]
+    }
+   ],
+   "images": [
+    {
+     "file": "File:Avatar Minion Squad.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/9/95/Avatar_Minion_Squad.png/revision/latest?cb=20261115143002"
+    }
+   ],
+   "note": "Unlocked by Squad Barracks level 4 (TH 11). Its troop count, housing space and upgrade costs haven't been revealed yet."
+  },
+  {
+   "n": "Balloon Squad",
+   "av": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Avatar_Balloon_Squad.png/revision/latest?cb=20261115142953",
+   "source": null,
+   "revision": null,
+   "unverified": [],
+   "placeholderOnly": true,
+   "sourceNote": "Wiki pages: Squads and Squad Barracks.",
+   "unlockHall": 12,
+   "staticImage": {
+    "file": "File:Avatar Balloon Squad.png",
+    "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Avatar_Balloon_Squad.png/revision/latest?cb=20261115142953"
+   },
+   "tables": [
+    {
+     "heading": "Squad",
+     "columns": [
+      "Squad Barracks Level Required",
+      "Town Hall Level Required",
+      "Housing Space",
+      "Squad Ability"
+     ],
+     "rows": [
+      [
+       "5",
+       "12",
+       "TBA",
+       "TBA"
+      ]
+     ]
+    }
+   ],
+   "images": [
+    {
+     "file": "File:Avatar Balloon Squad.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Avatar_Balloon_Squad.png/revision/latest?cb=20261115142953"
+    }
+   ],
+   "note": "Unlocked by Squad Barracks level 5 (TH 12). Its troop count, housing space and upgrade costs haven't been revealed yet."
+  },
+  {
+   "n": "Golem Witch Squad",
+   "av": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Avatar_Golem_Witch_Squad.png/revision/latest?cb=20261115142958",
+   "source": null,
+   "revision": null,
+   "unverified": [],
+   "placeholderOnly": true,
+   "sourceNote": "Wiki pages: Squads and Squad Barracks.",
+   "unlockHall": 13,
+   "staticImage": {
+    "file": "File:Avatar Golem Witch Squad.png",
+    "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Avatar_Golem_Witch_Squad.png/revision/latest?cb=20261115142958"
+   },
+   "tables": [
+    {
+     "heading": "Squad",
+     "columns": [
+      "Squad Barracks Level Required",
+      "Town Hall Level Required",
+      "Housing Space",
+      "Squad Ability"
+     ],
+     "rows": [
+      [
+       "6",
+       "13",
+       "TBA",
+       "TBA"
+      ]
+     ]
+    }
+   ],
+   "images": [
+    {
+     "file": "File:Avatar Golem Witch Squad.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Avatar_Golem_Witch_Squad.png/revision/latest?cb=20261115142958"
+    }
+   ],
+   "note": "Unlocked by Squad Barracks level 6 (TH 13). Its troop count, housing space and upgrade costs haven't been revealed yet."
+  },
+  {
+   "n": "Hog Rider Squad",
+   "av": "https://static.wikia.nocookie.net/clashofclans/images/1/1b/Avatar_Hog_Rider_Squad.png/revision/latest?cb=20261115143000",
+   "source": null,
+   "revision": null,
+   "unverified": [],
+   "placeholderOnly": true,
+   "sourceNote": "Wiki pages: Squads and Squad Barracks.",
+   "unlockHall": 14,
+   "staticImage": {
+    "file": "File:Avatar Hog Rider Squad.png",
+    "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1b/Avatar_Hog_Rider_Squad.png/revision/latest?cb=20261115143000"
+   },
+   "tables": [
+    {
+     "heading": "Squad",
+     "columns": [
+      "Squad Barracks Level Required",
+      "Town Hall Level Required",
+      "Housing Space",
+      "Squad Ability"
+     ],
+     "rows": [
+      [
+       "7",
+       "14",
+       "TBA",
+       "TBA"
+      ]
+     ]
+    }
+   ],
+   "images": [
+    {
+     "file": "File:Avatar Hog Rider Squad.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1b/Avatar_Hog_Rider_Squad.png/revision/latest?cb=20261115143000"
+    }
+   ],
+   "note": "Unlocked by Squad Barracks level 7 (TH 14). Its troop count, housing space and upgrade costs haven't been revealed yet."
+  },
+  {
+   "n": "Miner Squad",
+   "av": "https://static.wikia.nocookie.net/clashofclans/images/8/82/Avatar_Miner_Squad.png/revision/latest?cb=20261115143001",
+   "source": null,
+   "revision": null,
+   "unverified": [],
+   "placeholderOnly": true,
+   "sourceNote": "Wiki pages: Squads and Squad Barracks.",
+   "unlockHall": 15,
+   "staticImage": {
+    "file": "File:Avatar Miner Squad.png",
+    "url": "https://static.wikia.nocookie.net/clashofclans/images/8/82/Avatar_Miner_Squad.png/revision/latest?cb=20261115143001"
+   },
+   "tables": [
+    {
+     "heading": "Squad",
+     "columns": [
+      "Squad Barracks Level Required",
+      "Town Hall Level Required",
+      "Housing Space",
+      "Squad Ability"
+     ],
+     "rows": [
+      [
+       "8",
+       "15",
+       "TBA",
+       "TBA"
+      ]
+     ]
+    }
+   ],
+   "images": [
+    {
+     "file": "File:Avatar Miner Squad.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/8/82/Avatar_Miner_Squad.png/revision/latest?cb=20261115143001"
+    }
+   ],
+   "note": "Unlocked by Squad Barracks level 8 (TH 15). Its troop count, housing space and upgrade costs haven't been revealed yet."
+  },
+  {
+   "n": "Healer Squad",
+   "av": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Avatar_Healer_Squad.png/revision/latest?cb=20261115142959",
+   "source": null,
+   "revision": null,
+   "unverified": [],
+   "placeholderOnly": true,
+   "sourceNote": "Wiki pages: Squads and Squad Barracks.",
+   "unlockHall": 16,
+   "staticImage": {
+    "file": "File:Avatar Healer Squad.png",
+    "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Avatar_Healer_Squad.png/revision/latest?cb=20261115142959"
+   },
+   "tables": [
+    {
+     "heading": "Squad",
+     "columns": [
+      "Squad Barracks Level Required",
+      "Town Hall Level Required",
+      "Housing Space",
+      "Squad Ability"
+     ],
+     "rows": [
+      [
+       "9",
+       "16",
+       "TBA",
+       "TBA"
+      ]
+     ]
+    }
+   ],
+   "images": [
+    {
+     "file": "File:Avatar Healer Squad.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Avatar_Healer_Squad.png/revision/latest?cb=20261115142959"
+    }
+   ],
+   "note": "Unlocked by Squad Barracks level 9 (TH 16). Its troop count, housing space and upgrade costs haven't been revealed yet."
+  },
+  {
+   "n": "P.E.K.K.A Titan Squad",
+   "av": "https://static.wikia.nocookie.net/clashofclans/images/a/a3/Avatar_P.E.K.K.A_Titan_Squad.png/revision/latest?cb=20261115143003",
+   "source": null,
+   "revision": null,
+   "unverified": [],
+   "placeholderOnly": true,
+   "sourceNote": "Wiki pages: Squads and Squad Barracks.",
+   "unlockHall": 17,
+   "staticImage": {
+    "file": "File:Avatar P.E.K.K.A Titan Squad.png",
+    "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a3/Avatar_P.E.K.K.A_Titan_Squad.png/revision/latest?cb=20261115143003"
+   },
+   "tables": [
+    {
+     "heading": "Squad",
+     "columns": [
+      "Squad Barracks Level Required",
+      "Town Hall Level Required",
+      "Housing Space",
+      "Squad Ability"
+     ],
+     "rows": [
+      [
+       "10",
+       "17",
+       "TBA",
+       "Focus Attack"
+      ]
+     ]
+    }
+   ],
+   "images": [
+    {
+     "file": "File:Avatar P.E.K.K.A Titan Squad.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a3/Avatar_P.E.K.K.A_Titan_Squad.png/revision/latest?cb=20261115143003"
+    }
+   ],
+   "note": "Unlocked by Squad Barracks level 10 (TH 17). Its troop count, housing space and upgrade costs haven't been revealed yet."
+  },
+  {
+   "n": "Dragons Squad",
+   "av": "https://static.wikia.nocookie.net/clashofclans/images/7/7f/Avatar_Dragons_Squad.png/revision/latest?cb=20261115142956",
+   "source": null,
+   "revision": null,
+   "unverified": [],
+   "placeholderOnly": true,
+   "sourceNote": "Wiki pages: Squads and Squad Barracks.",
+   "unlockHall": 18,
+   "staticImage": {
+    "file": "File:Avatar Dragons Squad.png",
+    "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7f/Avatar_Dragons_Squad.png/revision/latest?cb=20261115142956"
+   },
+   "tables": [
+    {
+     "heading": "Squad",
+     "columns": [
+      "Squad Barracks Level Required",
+      "Town Hall Level Required",
+      "Housing Space",
+      "Squad Ability"
+     ],
+     "rows": [
+      [
+       "11",
+       "18",
+       "TBA",
+       "TBA"
+      ]
+     ]
+    }
+   ],
+   "images": [
+    {
+     "file": "File:Avatar Dragons Squad.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7f/Avatar_Dragons_Squad.png/revision/latest?cb=20261115142956"
+    }
+   ],
+   "note": "Unlocked by Squad Barracks level 11 (TH 18). Its troop count, housing space and upgrade costs haven't been revealed yet."
+  },
+  {
+   "n": "Baby Dragon Squad",
+   "av": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Avatar_Baby_Dragon_Squad.png/revision/latest?cb=20261115142952",
+   "source": null,
+   "revision": null,
+   "unverified": [],
+   "placeholderOnly": true,
+   "sourceNote": "Wiki pages: Squads and Squad Barracks.",
+   "unlockHall": 19,
+   "staticImage": {
+    "file": "File:Avatar Baby Dragon Squad.png",
+    "url": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Avatar_Baby_Dragon_Squad.png/revision/latest?cb=20261115142952"
+   },
+   "tables": [
+    {
+     "heading": "Squad",
+     "columns": [
+      "Squad Barracks Level Required",
+      "Town Hall Level Required",
+      "Housing Space",
+      "Squad Ability"
+     ],
+     "rows": [
+      [
+       "12",
+       "19",
+       "TBA",
+       "Tantrum"
+      ]
+     ]
+    }
+   ],
+   "images": [
+    {
+     "file": "File:Avatar Baby Dragon Squad.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Avatar_Baby_Dragon_Squad.png/revision/latest?cb=20261115142952"
+    }
+   ],
+   "note": "Unlocked by Squad Barracks level 12 (TH 19). Its troop count, housing space and upgrade costs haven't been revealed yet."
+  },
+  {
+   "n": "Squad Abilities",
+   "av": "https://static.wikia.nocookie.net/clashofclans/images/0/0e/Squad_Barracks1.png/revision/latest?cb=20261115142555",
    "source": null,
    "revision": null,
    "unverified": [],
    "unlockHall": 19,
-   "sourceNote": "No wiki page yet. From Supercell's Clash On reveal (Nov 2026), via news coverage.",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks.",
    "tables": [
     {
-     "heading": "Squad skills",
+     "heading": "Squad abilities",
      "columns": [
-      "Skill",
-      "Effect"
+      "Ability",
+      "Effect",
+      "Squad"
      ],
      "rows": [
       [
-       "Tantrum",
-       "Damage is increased by 100% when separated from other air units."
-      ],
-      [
-       "Trap Sense",
-       "Takes reduced damage from traps."
+       "Splash Resistance",
+       "Limits the number of troops that can be hit by a single splash attack. If a source of splash damage hits more troops than the limit allows, the remainder will be made invincible to the damage.",
+       "TBA"
       ],
       [
        "Stealthy Start",
-       "Invisible for a short time after being deployed."
+       "All members of the squad will be invisible for a short period after deployment. Invisibility works on a per-troop basis, so troops that are deployed later will still gain invisibility for the full duration.",
+       "Wall Breaker Squad"
+      ],
+      [
+       "Trap Sense",
+       "All members of the squad take less damage from Traps. This stacks multiplicatively with other damage reduction effects.",
+       "TBA"
       ],
       [
        "Shielded Start",
-       "Invulnerable for a short time after being deployed."
-      ],
-      [
-       "Splash Resistance",
-       "Splash damage only hits a few of the squad's troops per blast."
+       "All members of the squad will be invincible for a short period after deployment. Invincibility works on a per-troop basis, so troops that are deployed later will still gain invincibility for the full duration.",
+       "TBA"
       ],
       [
        "Focus Attack",
-       "The whole squad focuses on one target."
+       "All members of the squad will attack the same target, where possible.",
+       "P.E.K.K.A Titan Squad"
+      ],
+      [
+       "Tantrum",
+       "All members of the squad do not lose their Tantrum abilities if the only air units around them are each other.",
+       "Baby Dragon Squad"
       ]
      ],
      "wrap": true
     }
    ],
    "images": [],
-   "note": "Each squad has one skill, unlocked by upgrading the squad to level 2, which is possible from TH 19. Which squad has which skill hasn't been revealed yet.",
-   "progressionNote": "Skills unlock at squad level 2, from TH 19. Costs and times haven't been revealed yet."
+   "note": "A squad gains its ability when upgraded to level 2, which needs Laboratory 17 (TH 19). The wiki names the squad for 3 of the 6 abilities so far.",
+   "progressionNote": "Abilities unlock at squad level 2, from Laboratory 17 (TH 19). Costs and times haven't been revealed yet."
   }
  ],
  "unverified": [],
- "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 14, 2026. TBA = not revealed yet. Values can change before release. Squads deploy a fixed group of troops with one tap, using less housing space than the same troops deployed one by one. Squad troops use your own troop levels. They're made at the Squad Barracks (Army Buildings, from TH 8). Supercell announced 12 squads; only two have been named so far. Source: Supercell's Clash On reveal (Nov 2026), via news coverage; the wiki has no squad pages yet.",
+ "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 15, 2026. TBA = not revealed yet. Values can change before release. Squads deploy a fixed group of troops in a set formation, using less housing space than the same troops trained one by one. Squad troops use your own researched troop levels, and squads can't be donated. Each Squad Barracks level (Army Buildings, from TH 8) unlocks one squad; training is free and instant. From Laboratory 17 (TH 19) squads can be upgraded to level 2 and up, which unlocks their squad ability. Housing space, troop counts and upgrade costs haven't been revealed yet.",
  "preview": {
   "update": "Town Hall 19 update",
   "release": "Nov 16, 2026",
-  "read": "Nov 14, 2026",
-  "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 14, 2026. TBA = not revealed yet. Values can change before release."
+  "read": "Nov 15, 2026",
+  "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 15, 2026. TBA = not revealed yet. Values can change before release."
  }
 }

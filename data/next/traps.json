@@ -2,7 +2,7 @@
  "id": "traps",
  "label": "Traps",
  "format": "wiki-review-v1",
- "updated": "2026-11-03; Town Hall 19 update preview data read Nov 14, 2026",
+ "updated": "2026-11-03; Town Hall 19 update preview data read Nov 15, 2026",
  "units": [
   {
    "n": "Bomb",
@@ -673,6 +673,14 @@
        "9d",
        "881",
        "18"
+      ],
+      [
+       "14",
+       "TBA",
+       "TBA",
+       "TBA",
+       "TBA",
+       "19"
       ]
      ]
     },
@@ -742,7 +750,8 @@
     "10": 15,
     "11": 16,
     "12": 17,
-    "13": 18
+    "13": 18,
+    "14": 19
    },
    "levelImages": {
     "1": {
@@ -796,6 +805,10 @@
     "13": {
      "file": "File:Air Bomb13.png",
      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/91/Air_Bomb13.png/revision/latest?cb=20251120062204"
+    },
+    "14": {
+     "file": "File:Air Bomb14.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/5/55/Air_Bomb14.png/revision/latest?cb=20261115170336"
     }
    },
    "imageVerification": {
@@ -1370,6 +1383,10 @@
     {
      "file": "File:SkeletonTrap5.png",
      "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c8/SkeletonTrap5.png/revision/latest?cb=20251120011150"
+    },
+    {
+     "file": "File:SkeletonTrap6.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3e/SkeletonTrap6.png/revision/latest?cb=20261115165158"
     }
    ],
    "unverified": [
@@ -1403,6 +1420,10 @@
     "5": {
      "file": "File:SkeletonTrap5.png",
      "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c8/SkeletonTrap5.png/revision/latest?cb=20251120011150"
+    },
+    "6": {
+     "file": "File:SkeletonTrap6.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3e/SkeletonTrap6.png/revision/latest?cb=20261115165158"
     }
    },
    "imageVerification": {
@@ -1653,12 +1674,12 @@
   }
  ],
  "unverified": [],
- "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 14, 2026. TBA = not revealed yet. Values can change before release. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+ "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 15, 2026. TBA = not revealed yet. Values can change before release. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
  "preview": {
   "update": "Town Hall 19 update",
   "release": "Nov 16, 2026",
-  "read": "Nov 14, 2026",
-  "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 14, 2026. TBA = not revealed yet. Values can change before release."
+  "read": "Nov 15, 2026",
+  "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 15, 2026. TBA = not revealed yet. Values can change before release."
  }
 }

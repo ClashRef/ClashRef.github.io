@@ -2,7 +2,7 @@
  "id": "resource",
  "label": "Resource Buildings",
  "format": "wiki-review-v1",
- "updated": "2026-11-03; Town Hall 19 update preview data read Nov 14, 2026",
+ "updated": "2026-11-03; Town Hall 19 update preview data read Nov 15, 2026",
  "units": [
   {
    "n": "Gold Mine",
@@ -261,63 +261,6 @@
        "18"
       ]
      ]
-    },
-    {
-     "heading": "Supercharges / Home Village",
-     "columns": [
-      "Charge Level",
-      "Capacity",
-      "Production Rate",
-      "Hitpoints",
-      "Boost Cost",
-      "Time to Fill",
-      "Build Cost (Elixir)",
-      "Build Time",
-      "Experience Gained",
-      "Catch-Up Point*",
-      "Town Hall Level Required"
-     ],
-     "rows": [
-      [
-       "1",
-       "436,500",
-       "7,857/hr",
-       "1,400",
-       "11",
-       "2d 7h 33m 20s",
-       "250,000",
-       "9h 30m",
-       "184",
-       "50d 21h 49m 6s",
-       "18"
-      ],
-      [
-       "2",
-       "453,000",
-       "8,154/hr",
-       "1,400",
-       "11",
-       "2d 7h 33m 20s",
-       "250,000",
-       "14h 30m",
-       "228",
-       "79d 8h 43m 39s",
-       "18"
-      ],
-      [
-       "3",
-       "453,000",
-       "8,154/hr",
-       "1,450",
-       "11",
-       "2d 7h 33m 20s",
-       "250,000",
-       "1d",
-       "293",
-       "N/A",
-       "18"
-      ]
-     ]
     }
    ],
    "images": [
@@ -388,6 +331,10 @@
     {
      "file": "File:Gold Mine17.png",
      "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Gold_Mine17.png/revision/latest?cb=20251118165804"
+    },
+    {
+     "file": "File:Gold Mine18.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f8/Gold_Mine18.png/revision/latest?cb=20261115165423"
     }
    ],
    "unverified": [
@@ -481,6 +428,10 @@
     "17": {
      "file": "File:Gold Mine17.png",
      "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Gold_Mine17.png/revision/latest?cb=20251118165804"
+    },
+    "18": {
+     "file": "File:Gold Mine18.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f8/Gold_Mine18.png/revision/latest?cb=20261115165423"
     }
    },
    "imageVerification": {
@@ -747,63 +698,6 @@
        "18"
       ]
      ]
-    },
-    {
-     "heading": "Supercharges / Home Village",
-     "columns": [
-      "Charge Level",
-      "Capacity",
-      "Production Rate",
-      "Hitpoints",
-      "Boost Cost",
-      "Time to Fill",
-      "Build Cost (Gold)",
-      "Build Time",
-      "Experience Gained",
-      "Catch-Up Point*",
-      "Town Hall Level Required"
-     ],
-     "rows": [
-      [
-       "1",
-       "436,500",
-       "7,857/hr",
-       "1,400",
-       "11",
-       "2d 7h 33m 20s",
-       "250,000",
-       "9h 30m",
-       "184",
-       "50d 21h 49m 6s",
-       "18"
-      ],
-      [
-       "2",
-       "453,000",
-       "8,154/hr",
-       "1,400",
-       "11",
-       "2d 7h 33m 20s",
-       "250,000",
-       "14h 30m",
-       "228",
-       "79d 8h 43m 39s",
-       "18"
-      ],
-      [
-       "3",
-       "453,000",
-       "8,154/hr",
-       "1,450",
-       "11",
-       "2d 7h 33m 20s",
-       "250,000",
-       "1d",
-       "293",
-       "N/A",
-       "18"
-      ]
-     ]
     }
    ],
    "images": [
@@ -874,6 +768,10 @@
     {
      "file": "File:Elixir Collector17.png",
      "url": "https://static.wikia.nocookie.net/clashofclans/images/0/03/Elixir_Collector17.png/revision/latest?cb=20251118165724"
+    },
+    {
+     "file": "File:Elixir Collector18.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bd/Elixir_Collector18.png/revision/latest?cb=20261115165605"
     }
    ],
    "unverified": [
@@ -967,6 +865,10 @@
     "17": {
      "file": "File:Elixir Collector17.png",
      "url": "https://static.wikia.nocookie.net/clashofclans/images/0/03/Elixir_Collector17.png/revision/latest?cb=20251118165724"
+    },
+    "18": {
+     "file": "File:Elixir Collector18.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bd/Elixir_Collector18.png/revision/latest?cb=20261115165605"
     }
    },
    "imageVerification": {
@@ -1155,63 +1057,6 @@
        "18"
       ]
      ]
-    },
-    {
-     "heading": "Supercharges",
-     "columns": [
-      "Charge Level",
-      "Capacity",
-      "Production Rate",
-      "Hitpoints",
-      "Boost Cost",
-      "Time to Fill",
-      "Build Cost (Elixir)",
-      "Build Time",
-      "Experience Gained",
-      "Catch-Up Point*",
-      "Town Hall Level Required"
-     ],
-     "rows": [
-      [
-       "1",
-       "4,807",
-       "209/hr",
-       "1,600",
-       "55",
-       "23h",
-       "750,000",
-       "14h 30m",
-       "228",
-       "66d 16h",
-       "18"
-      ],
-      [
-       "2",
-       "5,014",
-       "218/hr",
-       "1,600",
-       "55",
-       "23h",
-       "750,000",
-       "19h",
-       "261",
-       "92d 21h 20m",
-       "18"
-      ],
-      [
-       "3",
-       "5,014",
-       "218/hr",
-       "1,650",
-       "55",
-       "23h",
-       "500,000",
-       "1d",
-       "293",
-       "N/A",
-       "18"
-      ]
-     ]
     }
    ],
    "images": [
@@ -1258,6 +1103,10 @@
     {
      "file": "File:Dark Elixir Drill11.png",
      "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Dark_Elixir_Drill11.png/revision/latest?cb=20251118170058"
+    },
+    {
+     "file": "File:Dark Elixir Drill12.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/d/da/Dark_Elixir_Drill12.png/revision/latest?cb=20261115165536"
     }
    ],
    "unverified": [
@@ -1321,6 +1170,10 @@
     "11": {
      "file": "File:Dark Elixir Drill11.png",
      "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Dark_Elixir_Drill11.png/revision/latest?cb=20251118170058"
+    },
+    "12": {
+     "file": "File:Dark Elixir Drill12.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/d/da/Dark_Elixir_Drill12.png/revision/latest?cb=20261115165536"
     }
    },
    "imageVerification": {
@@ -2742,12 +2595,12 @@
   }
  ],
  "unverified": [],
- "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 14, 2026. TBA = not revealed yet. Values can change before release. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+ "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 15, 2026. TBA = not revealed yet. Values can change before release. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
  "preview": {
   "update": "Town Hall 19 update",
   "release": "Nov 16, 2026",
-  "read": "Nov 14, 2026",
-  "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 14, 2026. TBA = not revealed yet. Values can change before release."
+  "read": "Nov 15, 2026",
+  "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 15, 2026. TBA = not revealed yet. Values can change before release."
  }
 }

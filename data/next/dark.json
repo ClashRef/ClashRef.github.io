@@ -2,7 +2,7 @@
  "id": "dark",
  "label": "Dark Troops",
  "format": "wiki-review-v1",
- "updated": "2026-11-03; Town Hall 19 update preview data read Nov 14, 2026",
+ "updated": "2026-11-03; Town Hall 19 update preview data read Nov 15, 2026",
  "units": [
   {
    "n": "Minion",
@@ -2658,12 +2658,12 @@
   }
  ],
  "unverified": [],
- "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 14, 2026. TBA = not revealed yet. Values can change before release. Normal stats, costs, and times from the Clash of Clans wiki. Hall caps use Dark Barracks and Laboratory requirements; remaining verification notes are listed per item.",
+ "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 15, 2026. TBA = not revealed yet. Values can change before release. Normal stats, costs, and times from the Clash of Clans wiki. Hall caps use Dark Barracks and Laboratory requirements; remaining verification notes are listed per item.",
  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
  "preview": {
   "update": "Town Hall 19 update",
   "release": "Nov 16, 2026",
-  "read": "Nov 14, 2026",
-  "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 14, 2026. TBA = not revealed yet. Values can change before release."
+  "read": "Nov 15, 2026",
+  "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 15, 2026. TBA = not revealed yet. Values can change before release."
  }
 }

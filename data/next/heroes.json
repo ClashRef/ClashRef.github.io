@@ -8,7 +8,7 @@
  "unlock": "Hero Hall",
  "noun": "hero",
  "timeLabel": "Upgrade time",
- "updated": "Nov 3, 2026; Town Hall 19 update preview data read Nov 14, 2026",
+ "updated": "Nov 3, 2026; Town Hall 19 update preview data read Nov 15, 2026",
  "regen": "None. Supercell removed hero regeneration time on Mar 27, 2025 (Clash Anytime update); heroes are always ready, even while upgrading.",
  "rowLayout": "[level, ...stats (one per c), cost, time, Hero Hall level, Town Hall level]",
  "hhTH": {
@@ -6006,7 +6006,7 @@
  "preview": {
   "update": "Town Hall 19 update",
   "release": "Nov 16, 2026",
-  "read": "Nov 14, 2026",
-  "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 14, 2026. TBA = not revealed yet. Values can change before release."
+  "read": "Nov 15, 2026",
+  "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 15, 2026. TBA = not revealed yet. Values can change before release."
  }
 }

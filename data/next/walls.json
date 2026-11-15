@@ -2,7 +2,7 @@
  "id": "walls",
  "label": "Walls",
  "format": "wiki-review-v1",
- "updated": "2026-11-03; Town Hall 19 update preview data read Nov 14, 2026",
+ "updated": "2026-11-03; Town Hall 19 update preview data read Nov 15, 2026",
  "units": [
   {
    "n": "Wall",
@@ -264,6 +264,10 @@
     {
      "file": "File:Wall19.png",
      "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4d/Wall19.png/revision/latest?cb=20260226043604"
+    },
+    {
+     "file": "File:Wall20.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6d/Wall20.png/revision/latest?cb=20261115165822"
     }
    ],
    "unverified": [
@@ -367,6 +371,10 @@
     "19": {
      "file": "File:Wall19.png",
      "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4d/Wall19.png/revision/latest?cb=20260226043604"
+    },
+    "20": {
+     "file": "File:Wall20.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6d/Wall20.png/revision/latest?cb=20261115165822"
     }
    },
    "imageVerification": {
@@ -378,12 +386,12 @@
   }
  ],
  "unverified": [],
- "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 14, 2026. TBA = not revealed yet. Values can change before release. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+ "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 15, 2026. TBA = not revealed yet. Values can change before release. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
  "preview": {
   "update": "Town Hall 19 update",
   "release": "Nov 16, 2026",
-  "read": "Nov 14, 2026",
-  "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 14, 2026. TBA = not revealed yet. Values can change before release."
+  "read": "Nov 15, 2026",
+  "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 15, 2026. TBA = not revealed yet. Values can change before release."
  }
 }

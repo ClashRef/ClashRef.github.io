@@ -65,7 +65,7 @@
   },
   "espells": {
    "Heroic Spell": {
-    "overview": "A new Elixir spell that boosts troops inside its area: they take less damage, move faster and can jump over walls. It unlocks with Spell Factory level 10.",
+    "overview": "A new Elixir spell that boosts troops inside its area: they take less damage, move faster and can jump over walls. It unlocks with Spell Factory level 10 at Town Hall 17, and its last level needs Laboratory 17 (Town Hall 19).",
     "mechanics": [
      "Takes 2 housing space and affects ground and air troops within a 5-tile radius.",
      "Level 1 lasts 9.75 seconds, adds 5 movement speed and cuts incoming damage by 34%. Level 4 lasts 12.75 seconds with +8 speed and 40% less damage taken."
@@ -90,6 +90,21 @@
      "url": "https://clashofclans.fandom.com/wiki/Town_Hall",
      "revision": 626122,
      "rawWikitextSHA256": "62602f428b1a2f0e46f71a7d633b640f8b913b96f99e628143f27c491f042133"
+    }
+   }
+  },
+  "army": {
+   "Squad Barracks": {
+    "overview": "The building that trains Squads: fixed groups of troops that deploy together in a set formation and use less housing space than the same troops trained one by one. It unlocks at Town Hall 8, and each of its 12 levels unlocks one squad, up to the Baby Dragon Squad at level 12 (Town Hall 19).",
+    "mechanics": [
+     "Training squads costs no resources or time, and the Squad Barracks keeps training while it's being upgraded. Squads live in the Army Camps like normal troops but can't be donated.",
+     "Squad troops use your researched troop levels. From Laboratory 17 (Town Hall 19) squads can be upgraded to level 2 and up, which unlocks each squad's ability, such as Stealthy Start for the Wall Breaker Squad or Focus Attack for the P.E.K.K.A Titan Squad."
+    ],
+    "strategy": "Upgrade it toward the squads that suit your attacks; the troops inside still get stronger with normal Laboratory research. A squad's own housing space is what counts toward the Eagle Artillery and Monolith triggers.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Squad_Barracks",
+     "revision": 626260,
+     "rawWikitextSHA256": "88cfea8b3ff3c45c7b21b370a0c1fc55f27cbb73ff58f47d45f1eac4353680c5"
     }
    }
   }

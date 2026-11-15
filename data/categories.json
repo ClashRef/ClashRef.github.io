@@ -35,7 +35,8 @@
      "id": "dspells",
      "label": "Dark Spells",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/4/49/Poison_Spell_info.png/revision/latest?cb=20171008204511",
-     "data": "data/dspells.json"
+     "data": "data/dspells.json",
+     "next": "data/next/dspells.json"
     },
     {
      "id": "siege",
@@ -65,7 +66,7 @@
     {
      "id": "squads",
      "label": "Squads",
-     "img": "https://static.wikia.nocookie.net/clashofclans/images/6/68/Avatar_Archer.png/revision/latest?cb=20200913014217",
+     "img": "https://static.wikia.nocookie.net/clashofclans/images/6/66/Avatar_Barch_Squad.png/revision/latest?cb=20261115142955",
      "previewOnly": true,
      "next": "data/next/squads.json"
     }
