@@ -4229,12 +4229,12 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Squad_Barracks10.png/revision/latest?cb=20261115142607"
     },
     {
-     "file": "File:Squad Barracks12.png",
-     "url": "https://static.wikia.nocookie.net/clashofclans/images/2/29/Squad_Barracks12.png/revision/latest?cb=20261115142609"
-    },
-    {
      "file": "File:Squad Barracks11.png",
      "url": "https://static.wikia.nocookie.net/clashofclans/images/0/05/Squad_Barracks11.png/revision/latest?cb=20261115142608"
+    },
+    {
+     "file": "File:Squad Barracks12.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/2/29/Squad_Barracks12.png/revision/latest?cb=20261115142609"
     }
    ],
    "unverified": [
@@ -4297,13 +4297,13 @@
      "file": "File:Squad Barracks10.png",
      "url": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Squad_Barracks10.png/revision/latest?cb=20261115142607"
     },
-    "12": {
-     "file": "File:Squad Barracks12.png",
-     "url": "https://static.wikia.nocookie.net/clashofclans/images/2/29/Squad_Barracks12.png/revision/latest?cb=20261115142609"
-    },
     "11": {
      "file": "File:Squad Barracks11.png",
      "url": "https://static.wikia.nocookie.net/clashofclans/images/0/05/Squad_Barracks11.png/revision/latest?cb=20261115142608"
+    },
+    "12": {
+     "file": "File:Squad Barracks12.png",
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/2/29/Squad_Barracks12.png/revision/latest?cb=20261115142609"
     }
    }
   }

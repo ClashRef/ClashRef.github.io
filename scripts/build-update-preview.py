@@ -804,6 +804,22 @@ def main():
         if f in want and info["uploaded"] >= UPDATE["since"] and all(i["file"] != f for i in want[f][1]["images"]):
             want[f][1]["images"].append({"file": f, "url": info["url"]})
             touched.add(want[f][0])
+    # The same for classic troop rows ("l"/"img"), e.g. Wizard 15 once its stats are published.
+    want = {}
+    for cid in TROOP_CATS + ("super",):
+        for u in cats[cid]["units"]:
+            if "l" not in u or not u.get("img"):
+                continue
+            stem, have = stem_from_url(u["img"][-1][0]), {str(lvl) for _, lvl in u["img"]}
+            for r in u["l"]:
+                if stem and str(r[0]) not in have:
+                    want[f"{stem}{r[0]}.png"] = (cid, u, str(r[0]))
+    for f, info in image_info(want).items():
+        cid, u, lvl = want.get(f, (None, None, None))
+        if u and info["uploaded"] >= UPDATE["since"] and all(l != lvl for _, l in u["img"]):
+            u["img"].append([info["url"], lvl])
+            u["img"].sort(key=lambda x: int(x[1]) if str(x[1]).isdigit() else 0)
+            touched.add(cid)
 
     # 4. Heroes: new Hero Hall caps, stats not revealed yet.
     log(lines, "\n== Hero levels from the Hero Hall caps ==")

@@ -170,7 +170,8 @@
      "id": "bbbuildings",
      "label": "Builder Buildings",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/8/87/Builder_Hall10.png/revision/latest?cb=20230516070454",
-     "data": "data/bbbuildings.json"
+     "data": "data/bbbuildings.json",
+     "next": "data/next/bbbuildings.json"
     },
     {
      "id": "bbwalls",
