@@ -11,7 +11,7 @@
    "revision": null,
    "unverified": [],
    "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks.",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026), https://youtu.be/Vs3FDbCWR04",
    "unlockHall": 8,
    "staticImage": {
     "file": "File:Avatar Barch Squad.png",
@@ -23,17 +23,55 @@
      "columns": [
       "Squad Barracks Level Required",
       "Town Hall Level Required",
-      "Housing Space",
+      "Troops",
       "Squad Ability"
      ],
      "rows": [
       [
        "1",
        "8",
+       "15 Barbarians, 15 Archers",
+       "Splash Resistance"
+      ]
+     ]
+    },
+    {
+     "heading": "Squad levels",
+     "columns": [
+      "Level",
+      "Town Hall Level Required",
+      "Housing Space",
+      "Ability",
+      "Research Cost",
+      "Research Time"
+     ],
+     "rows": [
+      [
+       "1",
+       "8",
+       "15",
+       "No ability",
+       "-",
+       "-"
+      ],
+      [
+       "2",
+       "19",
+       "15",
+       "At most 6 troops hit per splash",
+       "32,000,000",
+       "15d 12h"
+      ],
+      [
+       "3",
+       "19",
+       "15",
+       "At most 5 troops hit per splash",
        "TBA",
        "TBA"
       ]
-     ]
+     ],
+     "wrap": true
     }
    ],
    "images": [
@@ -42,7 +80,7 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/6/66/Avatar_Barch_Squad.png/revision/latest?cb=20261115142955"
     }
    ],
-   "note": "Unlocked by Squad Barracks level 1 (TH 8). Its troop count, housing space and upgrade costs haven't been revealed yet."
+   "note": "Unlocked by Squad Barracks level 1 (TH 8). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Splash Resistance ability, and to level 3."
   },
   {
    "n": "Giant Wizard Squad",
@@ -51,7 +89,7 @@
    "revision": null,
    "unverified": [],
    "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks.",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026), https://youtu.be/Vs3FDbCWR04",
    "unlockHall": 9,
    "staticImage": {
     "file": "File:Avatar Giant Wizard Squad.png",
@@ -63,17 +101,55 @@
      "columns": [
       "Squad Barracks Level Required",
       "Town Hall Level Required",
-      "Housing Space",
+      "Troops",
       "Squad Ability"
      ],
      "rows": [
       [
        "2",
        "9",
+       "3 Giants, 5 Wizards",
+       "Splash Resistance"
+      ]
+     ]
+    },
+    {
+     "heading": "Squad levels",
+     "columns": [
+      "Level",
+      "Town Hall Level Required",
+      "Housing Space",
+      "Ability",
+      "Research Cost",
+      "Research Time"
+     ],
+     "rows": [
+      [
+       "1",
+       "9",
+       "25",
+       "No ability",
+       "-",
+       "-"
+      ],
+      [
+       "2",
+       "19",
+       "25",
+       "At most 5 troops hit per splash",
+       "TBA",
+       "TBA"
+      ],
+      [
+       "3",
+       "19",
+       "25",
+       "At most 4 troops hit per splash",
        "TBA",
        "TBA"
       ]
-     ]
+     ],
+     "wrap": true
     }
    ],
    "images": [
@@ -82,7 +158,7 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Avatar_Giant_Wizard_Squad.png/revision/latest?cb=20261115142957"
     }
    ],
-   "note": "Unlocked by Squad Barracks level 2 (TH 9). Its troop count, housing space and upgrade costs haven't been revealed yet."
+   "note": "Unlocked by Squad Barracks level 2 (TH 9). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Splash Resistance ability, and to level 3."
   },
   {
    "n": "Wall Breaker Squad",
@@ -91,7 +167,7 @@
    "revision": null,
    "unverified": [],
    "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks.",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026), https://youtu.be/Vs3FDbCWR04",
    "unlockHall": 10,
    "staticImage": {
     "file": "File:Avatar Wall Breaker Squad.png",
@@ -103,17 +179,55 @@
      "columns": [
       "Squad Barracks Level Required",
       "Town Hall Level Required",
-      "Housing Space",
+      "Troops",
       "Squad Ability"
      ],
      "rows": [
       [
        "3",
        "10",
-       "TBA",
+       "5 Wall Breakers",
        "Stealthy Start"
       ]
      ]
+    },
+    {
+     "heading": "Squad levels",
+     "columns": [
+      "Level",
+      "Town Hall Level Required",
+      "Housing Space",
+      "Ability",
+      "Research Cost",
+      "Research Time"
+     ],
+     "rows": [
+      [
+       "1",
+       "10",
+       "8",
+       "No ability",
+       "-",
+       "-"
+      ],
+      [
+       "2",
+       "19",
+       "8",
+       "Invisible for 3s after deploying",
+       "TBA",
+       "TBA"
+      ],
+      [
+       "3",
+       "19",
+       "8",
+       "Invisible for 4s after deploying",
+       "TBA",
+       "TBA"
+      ]
+     ],
+     "wrap": true
     }
    ],
    "images": [
@@ -122,7 +236,7 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/7/75/Avatar_Wall_Breaker_Squad.png/revision/latest?cb=20261115143004"
     }
    ],
-   "note": "Unlocked by Squad Barracks level 3 (TH 10). Its troop count, housing space and upgrade costs haven't been revealed yet."
+   "note": "Unlocked by Squad Barracks level 3 (TH 10). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Stealthy Start ability, and to level 3."
   },
   {
    "n": "Minion Squad",
@@ -131,7 +245,7 @@
    "revision": null,
    "unverified": [],
    "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks.",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026), https://youtu.be/Vs3FDbCWR04",
    "unlockHall": 11,
    "staticImage": {
     "file": "File:Avatar Minion Squad.png",
@@ -143,17 +257,55 @@
      "columns": [
       "Squad Barracks Level Required",
       "Town Hall Level Required",
-      "Housing Space",
+      "Troops",
       "Squad Ability"
      ],
      "rows": [
       [
        "4",
        "11",
+       "8 Minions",
+       "Splash Resistance"
+      ]
+     ]
+    },
+    {
+     "heading": "Squad levels",
+     "columns": [
+      "Level",
+      "Town Hall Level Required",
+      "Housing Space",
+      "Ability",
+      "Research Cost",
+      "Research Time"
+     ],
+     "rows": [
+      [
+       "1",
+       "11",
+       "12",
+       "No ability",
+       "-",
+       "-"
+      ],
+      [
+       "2",
+       "19",
+       "12",
+       "At most 3 troops hit per splash",
+       "TBA",
+       "TBA"
+      ],
+      [
+       "3",
+       "19",
+       "12",
+       "At most 2 troops hit per splash",
        "TBA",
        "TBA"
       ]
-     ]
+     ],
+     "wrap": true
     }
    ],
    "images": [
@@ -162,7 +314,7 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/95/Avatar_Minion_Squad.png/revision/latest?cb=20261115143002"
     }
    ],
-   "note": "Unlocked by Squad Barracks level 4 (TH 11). Its troop count, housing space and upgrade costs haven't been revealed yet."
+   "note": "Unlocked by Squad Barracks level 4 (TH 11). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Splash Resistance ability, and to level 3."
   },
   {
    "n": "Balloon Squad",
@@ -171,7 +323,7 @@
    "revision": null,
    "unverified": [],
    "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks.",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026), https://youtu.be/Vs3FDbCWR04",
    "unlockHall": 12,
    "staticImage": {
     "file": "File:Avatar Balloon Squad.png",
@@ -183,17 +335,55 @@
      "columns": [
       "Squad Barracks Level Required",
       "Town Hall Level Required",
-      "Housing Space",
+      "Troops",
       "Squad Ability"
      ],
      "rows": [
       [
        "5",
        "12",
+       "4 Balloons",
+       "Trap Sense"
+      ]
+     ]
+    },
+    {
+     "heading": "Squad levels",
+     "columns": [
+      "Level",
+      "Town Hall Level Required",
+      "Housing Space",
+      "Ability",
+      "Research Cost",
+      "Research Time"
+     ],
+     "rows": [
+      [
+       "1",
+       "12",
+       "TBA",
+       "No ability",
+       "-",
+       "-"
+      ],
+      [
+       "2",
+       "19",
+       "TBA",
+       "15% less damage from traps",
+       "TBA",
+       "TBA"
+      ],
+      [
+       "3",
+       "19",
+       "TBA",
+       "20% less damage from traps",
        "TBA",
        "TBA"
       ]
-     ]
+     ],
+     "wrap": true
     }
    ],
    "images": [
@@ -202,7 +392,7 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Avatar_Balloon_Squad.png/revision/latest?cb=20261115142953"
     }
    ],
-   "note": "Unlocked by Squad Barracks level 5 (TH 12). Its troop count, housing space and upgrade costs haven't been revealed yet."
+   "note": "Unlocked by Squad Barracks level 5 (TH 12). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Trap Sense ability, and to level 3."
   },
   {
    "n": "Golem Witch Squad",
@@ -211,7 +401,7 @@
    "revision": null,
    "unverified": [],
    "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks.",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026), https://youtu.be/Vs3FDbCWR04",
    "unlockHall": 13,
    "staticImage": {
     "file": "File:Avatar Golem Witch Squad.png",
@@ -223,17 +413,55 @@
      "columns": [
       "Squad Barracks Level Required",
       "Town Hall Level Required",
-      "Housing Space",
+      "Troops",
       "Squad Ability"
      ],
      "rows": [
       [
        "6",
        "13",
+       "1 Golem, 4 Witches",
+       "Splash Resistance"
+      ]
+     ]
+    },
+    {
+     "heading": "Squad levels",
+     "columns": [
+      "Level",
+      "Town Hall Level Required",
+      "Housing Space",
+      "Ability",
+      "Research Cost",
+      "Research Time"
+     ],
+     "rows": [
+      [
+       "1",
+       "13",
+       "55",
+       "No ability",
+       "-",
+       "-"
+      ],
+      [
+       "2",
+       "19",
+       "55",
+       "At most 3 Witches hit per splash",
+       "TBA",
+       "TBA"
+      ],
+      [
+       "3",
+       "19",
+       "55",
+       "At most 2 Witches hit per splash",
        "TBA",
        "TBA"
       ]
-     ]
+     ],
+     "wrap": true
     }
    ],
    "images": [
@@ -242,7 +470,7 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Avatar_Golem_Witch_Squad.png/revision/latest?cb=20261115142958"
     }
    ],
-   "note": "Unlocked by Squad Barracks level 6 (TH 13). Its troop count, housing space and upgrade costs haven't been revealed yet."
+   "note": "Unlocked by Squad Barracks level 6 (TH 13). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Splash Resistance ability, and to level 3."
   },
   {
    "n": "Hog Rider Squad",
@@ -251,7 +479,7 @@
    "revision": null,
    "unverified": [],
    "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks.",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026), https://youtu.be/Vs3FDbCWR04",
    "unlockHall": 14,
    "staticImage": {
     "file": "File:Avatar Hog Rider Squad.png",
@@ -263,17 +491,55 @@
      "columns": [
       "Squad Barracks Level Required",
       "Town Hall Level Required",
-      "Housing Space",
+      "Troops",
       "Squad Ability"
      ],
      "rows": [
       [
        "7",
        "14",
+       "12 Hog Riders",
+       "Trap Sense"
+      ]
+     ]
+    },
+    {
+     "heading": "Squad levels",
+     "columns": [
+      "Level",
+      "Town Hall Level Required",
+      "Housing Space",
+      "Ability",
+      "Research Cost",
+      "Research Time"
+     ],
+     "rows": [
+      [
+       "1",
+       "14",
+       "TBA",
+       "No ability",
+       "-",
+       "-"
+      ],
+      [
+       "2",
+       "19",
+       "TBA",
+       "30% less damage from traps",
+       "TBA",
+       "TBA"
+      ],
+      [
+       "3",
+       "19",
+       "TBA",
+       "40% less damage from traps",
        "TBA",
        "TBA"
       ]
-     ]
+     ],
+     "wrap": true
     }
    ],
    "images": [
@@ -282,7 +548,7 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1b/Avatar_Hog_Rider_Squad.png/revision/latest?cb=20261115143000"
     }
    ],
-   "note": "Unlocked by Squad Barracks level 7 (TH 14). Its troop count, housing space and upgrade costs haven't been revealed yet."
+   "note": "Unlocked by Squad Barracks level 7 (TH 14). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Trap Sense ability, and to level 3."
   },
   {
    "n": "Miner Squad",
@@ -291,7 +557,7 @@
    "revision": null,
    "unverified": [],
    "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks.",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026), https://youtu.be/Vs3FDbCWR04",
    "unlockHall": 15,
    "staticImage": {
     "file": "File:Avatar Miner Squad.png",
@@ -303,7 +569,7 @@
      "columns": [
       "Squad Barracks Level Required",
       "Town Hall Level Required",
-      "Housing Space",
+      "Troops",
       "Squad Ability"
      ],
      "rows": [
@@ -311,9 +577,47 @@
        "8",
        "15",
        "TBA",
-       "TBA"
+       "Trap Sense"
       ]
      ]
+    },
+    {
+     "heading": "Squad levels",
+     "columns": [
+      "Level",
+      "Town Hall Level Required",
+      "Housing Space",
+      "Ability",
+      "Research Cost",
+      "Research Time"
+     ],
+     "rows": [
+      [
+       "1",
+       "15",
+       "TBA",
+       "No ability",
+       "-",
+       "-"
+      ],
+      [
+       "2",
+       "19",
+       "TBA",
+       "30% less damage from traps",
+       "TBA",
+       "TBA"
+      ],
+      [
+       "3",
+       "19",
+       "TBA",
+       "40% less damage from traps",
+       "TBA",
+       "TBA"
+      ]
+     ],
+     "wrap": true
     }
    ],
    "images": [
@@ -322,7 +626,7 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/8/82/Avatar_Miner_Squad.png/revision/latest?cb=20261115143001"
     }
    ],
-   "note": "Unlocked by Squad Barracks level 8 (TH 15). Its troop count, housing space and upgrade costs haven't been revealed yet."
+   "note": "Unlocked by Squad Barracks level 8 (TH 15). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Trap Sense ability, and to level 3."
   },
   {
    "n": "Healer Squad",
@@ -331,7 +635,7 @@
    "revision": null,
    "unverified": [],
    "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks.",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026), https://youtu.be/Vs3FDbCWR04",
    "unlockHall": 16,
    "staticImage": {
     "file": "File:Avatar Healer Squad.png",
@@ -343,17 +647,55 @@
      "columns": [
       "Squad Barracks Level Required",
       "Town Hall Level Required",
-      "Housing Space",
+      "Troops",
       "Squad Ability"
      ],
      "rows": [
       [
        "9",
        "16",
+       "1 Balloon, 5 Healers",
+       "Shielded Start"
+      ]
+     ]
+    },
+    {
+     "heading": "Squad levels",
+     "columns": [
+      "Level",
+      "Town Hall Level Required",
+      "Housing Space",
+      "Ability",
+      "Research Cost",
+      "Research Time"
+     ],
+     "rows": [
+      [
+       "1",
+       "16",
+       "70",
+       "No ability",
+       "-",
+       "-"
+      ],
+      [
+       "2",
+       "19",
+       "70",
+       "Immune for 2s after deploying",
+       "TBA",
+       "TBA"
+      ],
+      [
+       "3",
+       "19",
+       "70",
+       "Immune for 3s after deploying",
        "TBA",
        "TBA"
       ]
-     ]
+     ],
+     "wrap": true
     }
    ],
    "images": [
@@ -362,7 +704,7 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Avatar_Healer_Squad.png/revision/latest?cb=20261115142959"
     }
    ],
-   "note": "Unlocked by Squad Barracks level 9 (TH 16). Its troop count, housing space and upgrade costs haven't been revealed yet."
+   "note": "Unlocked by Squad Barracks level 9 (TH 16). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Shielded Start ability, and to level 3. Its 70 housing space is worked out from the video: a 5-space discount on 5 Healers (70) plus a Balloon (5)."
   },
   {
    "n": "P.E.K.K.A Titan Squad",
@@ -371,7 +713,7 @@
    "revision": null,
    "unverified": [],
    "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks.",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026), https://youtu.be/Vs3FDbCWR04",
    "unlockHall": 17,
    "staticImage": {
     "file": "File:Avatar P.E.K.K.A Titan Squad.png",
@@ -383,17 +725,55 @@
      "columns": [
       "Squad Barracks Level Required",
       "Town Hall Level Required",
-      "Housing Space",
+      "Troops",
       "Squad Ability"
      ],
      "rows": [
       [
        "10",
        "17",
-       "TBA",
+       "1 P.E.K.K.A, 1 Electro Titan",
        "Focus Attack"
       ]
      ]
+    },
+    {
+     "heading": "Squad levels",
+     "columns": [
+      "Level",
+      "Town Hall Level Required",
+      "Housing Space",
+      "Ability",
+      "Research Cost",
+      "Research Time"
+     ],
+     "rows": [
+      [
+       "1",
+       "17",
+       "46",
+       "No ability",
+       "-",
+       "-"
+      ],
+      [
+       "2",
+       "19",
+       "46",
+       "Both troops attack the same target",
+       "TBA",
+       "TBA"
+      ],
+      [
+       "3",
+       "19",
+       "44",
+       "Same as level 2",
+       "TBA",
+       "TBA"
+      ]
+     ],
+     "wrap": true
     }
    ],
    "images": [
@@ -402,7 +782,7 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a3/Avatar_P.E.K.K.A_Titan_Squad.png/revision/latest?cb=20261115143003"
     }
    ],
-   "note": "Unlocked by Squad Barracks level 10 (TH 17). Its troop count, housing space and upgrade costs haven't been revealed yet."
+   "note": "Unlocked by Squad Barracks level 10 (TH 17). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Focus Attack ability, and to level 3."
   },
   {
    "n": "Dragons Squad",
@@ -411,7 +791,7 @@
    "revision": null,
    "unverified": [],
    "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks.",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026), https://youtu.be/Vs3FDbCWR04",
    "unlockHall": 18,
    "staticImage": {
     "file": "File:Avatar Dragons Squad.png",
@@ -423,17 +803,55 @@
      "columns": [
       "Squad Barracks Level Required",
       "Town Hall Level Required",
-      "Housing Space",
+      "Troops",
       "Squad Ability"
      ],
      "rows": [
       [
        "11",
        "18",
+       "2 Dragons, 2 Dragon Riders",
+       "Shielded Start"
+      ]
+     ]
+    },
+    {
+     "heading": "Squad levels",
+     "columns": [
+      "Level",
+      "Town Hall Level Required",
+      "Housing Space",
+      "Ability",
+      "Research Cost",
+      "Research Time"
+     ],
+     "rows": [
+      [
+       "1",
+       "18",
+       "85",
+       "No ability",
+       "-",
+       "-"
+      ],
+      [
+       "2",
+       "19",
+       "85",
+       "Immune for 2s after deploying",
+       "TBA",
+       "TBA"
+      ],
+      [
+       "3",
+       "19",
+       "85",
+       "Immune for 3s after deploying",
        "TBA",
        "TBA"
       ]
-     ]
+     ],
+     "wrap": true
     }
    ],
    "images": [
@@ -442,7 +860,7 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7f/Avatar_Dragons_Squad.png/revision/latest?cb=20261115142956"
     }
    ],
-   "note": "Unlocked by Squad Barracks level 11 (TH 18). Its troop count, housing space and upgrade costs haven't been revealed yet."
+   "note": "Unlocked by Squad Barracks level 11 (TH 18). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Shielded Start ability, and to level 3. Its 85 housing space is worked out from the video: a 5-space discount on 2 Dragons and 2 Dragon Riders (90)."
   },
   {
    "n": "Baby Dragon Squad",
@@ -451,7 +869,7 @@
    "revision": null,
    "unverified": [],
    "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks.",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026), https://youtu.be/Vs3FDbCWR04",
    "unlockHall": 19,
    "staticImage": {
     "file": "File:Avatar Baby Dragon Squad.png",
@@ -463,17 +881,55 @@
      "columns": [
       "Squad Barracks Level Required",
       "Town Hall Level Required",
-      "Housing Space",
+      "Troops",
       "Squad Ability"
      ],
      "rows": [
       [
        "12",
        "19",
-       "TBA",
+       "3 Baby Dragons",
        "Tantrum"
       ]
      ]
+    },
+    {
+     "heading": "Squad levels",
+     "columns": [
+      "Level",
+      "Town Hall Level Required",
+      "Housing Space",
+      "Ability",
+      "Research Cost",
+      "Research Time"
+     ],
+     "rows": [
+      [
+       "1",
+       "19",
+       "26",
+       "No ability",
+       "-",
+       "-"
+      ],
+      [
+       "2",
+       "19",
+       "26",
+       "Squad members don't cancel each other's Tantrum",
+       "TBA",
+       "TBA"
+      ],
+      [
+       "3",
+       "19",
+       "TBA",
+       "Same as level 2",
+       "TBA",
+       "TBA"
+      ]
+     ],
+     "wrap": true
     }
    ],
    "images": [
@@ -482,7 +938,7 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Avatar_Baby_Dragon_Squad.png/revision/latest?cb=20261115142952"
     }
    ],
-   "note": "Unlocked by Squad Barracks level 12 (TH 19). Its troop count, housing space and upgrade costs haven't been revealed yet."
+   "note": "Unlocked by Squad Barracks level 12 (TH 19). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Tantrum ability, and to level 3."
   },
   {
    "n": "Squad Abilities",
@@ -491,7 +947,7 @@
    "revision": null,
    "unverified": [],
    "unlockHall": 19,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks.",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026), https://youtu.be/Vs3FDbCWR04",
    "tables": [
     {
      "heading": "Squad abilities",
@@ -504,7 +960,7 @@
       [
        "Splash Resistance",
        "Limits the number of troops that can be hit by a single splash attack. If a source of splash damage hits more troops than the limit allows, the remainder will be made invincible to the damage.",
-       "TBA"
+       "Barch Squad, Giant Wizard Squad, Minion Squad, Golem Witch Squad"
       ],
       [
        "Stealthy Start",
@@ -514,12 +970,12 @@
       [
        "Trap Sense",
        "All members of the squad take less damage from Traps. This stacks multiplicatively with other damage reduction effects.",
-       "TBA"
+       "Balloon Squad, Hog Rider Squad, Miner Squad"
       ],
       [
        "Shielded Start",
        "All members of the squad will be invincible for a short period after deployment. Invincibility works on a per-troop basis, so troops that are deployed later will still gain invincibility for the full duration.",
-       "TBA"
+       "Healer Squad, Dragons Squad"
       ],
       [
        "Focus Attack",
@@ -536,12 +992,12 @@
     }
    ],
    "images": [],
-   "note": "A squad gains its ability when upgraded to level 2, which needs Laboratory 17 (TH 19). The wiki names the squad for 3 of the 6 abilities so far.",
-   "progressionNote": "Abilities unlock at squad level 2, from Laboratory 17 (TH 19). Costs and times haven't been revealed yet."
+   "note": "A squad gains its ability when upgraded to level 2, which needs Laboratory 17 (TH 19). The wiki names the squad for 3 of the 6 abilities so far; the rest come from Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026).",
+   "progressionNote": "Abilities unlock at squad level 2, from Laboratory 17 (TH 19), and improve at level 3. Most costs and times haven't been revealed yet."
   }
  ],
  "unverified": [],
- "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 16, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet. Squads deploy a fixed group of troops in a set formation, using less housing space than the same troops trained one by one. Squad troops use your own researched troop levels, and squads can't be donated. Each Squad Barracks level (Army Buildings, from TH 8) unlocks one squad; training is free and instant. From Laboratory 17 (TH 19) squads can be upgraded to level 2 and up, which unlocks their squad ability. Housing space, troop counts and upgrade costs haven't been revealed yet.",
+ "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 16, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet. Squads deploy a fixed group of troops in a set formation, using less housing space than the same troops trained one by one. Squad troops use your own researched troop levels, and squads can't be donated. Each Squad Barracks level (Army Buildings, from TH 8) unlocks one squad; training is free and instant. From Laboratory 17 (TH 19) squads can be upgraded to level 2 and up, which unlocks their squad ability; squads go up to level 3. Troop counts, housing space and ability levels come from a Supercell creator's video until the wiki lists them; most upgrade costs haven't been shown yet.",
  "preview": {
   "update": "Town Hall 19 update",
   "release": "Nov 16, 2026",

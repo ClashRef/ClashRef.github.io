@@ -85,7 +85,42 @@ SQUADS = {
     "meta": {"id": "squads", "label": "Squads", "after": "pets"},
     "page": "Squads",
     "barracks": "Squad Barracks",
-    "note": "Squads deploy a fixed group of troops in a set formation, using less housing space than the same troops trained one by one. Squad troops use your own researched troop levels, and squads can't be donated. Each Squad Barracks level (Army Buildings, from TH 8) unlocks one squad; training is free and instant. From Laboratory 17 (TH 19) squads can be upgraded to level 2 and up, which unlocks their squad ability. Housing space, troop counts and upgrade costs haven't been revealed yet.",
+    "note": "Squads deploy a fixed group of troops in a set formation, using less housing space than the same troops trained one by one. Squad troops use your own researched troop levels, and squads can't be donated. Each Squad Barracks level (Army Buildings, from TH 8) unlocks one squad; training is free and instant. From Laboratory 17 (TH 19) squads can be upgraded to level 2 and up, which unlocks their squad ability; squads go up to level 3. Troop counts, housing space and ability levels come from a Supercell creator's video until the wiki lists them; most upgrade costs haven't been shown yet.",
+}
+# Squad details the wiki doesn't list yet, from Judo Sloth Gaming's "Every Squad Explained in Clash of
+# Clans!" (Supercell Creator, Nov 2026): https://youtu.be/Vs3FDbCWR04 . Wiki values win when present.
+# "hs": housing space at levels 1-2, "hs3": at level 3 when it drops; "derived" explains arithmetic.
+SQUAD_VIDEO = {
+    "source": "Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026)",
+    "url": "https://youtu.be/Vs3FDbCWR04",
+    "squads": {
+        "Barch Squad": {"troops": "15 Barbarians, 15 Archers", "hs": "15", "ability": "Splash Resistance",
+                        "lv": ["At most 6 troops hit per splash", "At most 5 troops hit per splash"], "cost2": ("32,000,000", "15d 12h")},
+        "Giant Wizard Squad": {"troops": "3 Giants, 5 Wizards", "hs": "25", "ability": "Splash Resistance",
+                               "lv": ["At most 5 troops hit per splash", "At most 4 troops hit per splash"]},
+        "Wall Breaker Squad": {"troops": "5 Wall Breakers", "hs": "8", "ability": "Stealthy Start",
+                               "lv": ["Invisible for 3s after deploying", "Invisible for 4s after deploying"]},
+        "Minion Squad": {"troops": "8 Minions", "hs": "12", "ability": "Splash Resistance",
+                         "lv": ["At most 3 troops hit per splash", "At most 2 troops hit per splash"]},
+        "Balloon Squad": {"troops": "4 Balloons", "hs": TBA, "ability": "Trap Sense",
+                          "lv": ["15% less damage from traps", "20% less damage from traps"]},
+        "Golem Witch Squad": {"troops": "1 Golem, 4 Witches", "hs": "55", "ability": "Splash Resistance",
+                              "lv": ["At most 3 Witches hit per splash", "At most 2 Witches hit per splash"]},
+        "Hog Rider Squad": {"troops": "12 Hog Riders", "hs": TBA, "ability": "Trap Sense",
+                            "lv": ["30% less damage from traps", "40% less damage from traps"]},
+        "Miner Squad": {"troops": TBA, "hs": TBA, "ability": "Trap Sense",
+                        "lv": ["30% less damage from traps", "40% less damage from traps"]},
+        "Healer Squad": {"troops": "1 Balloon, 5 Healers", "hs": "70", "ability": "Shielded Start",
+                         "lv": ["Immune for 2s after deploying", "Immune for 3s after deploying"],
+                         "derived": "Its 70 housing space is worked out from the video: a 5-space discount on 5 Healers (70) plus a Balloon (5)."},
+        "P.E.K.K.A Titan Squad": {"troops": "1 P.E.K.K.A, 1 Electro Titan", "hs": "46", "hs3": "44", "ability": "Focus Attack",
+                                  "lv": ["Both troops attack the same target", "Same as level 2"]},
+        "Dragons Squad": {"troops": "2 Dragons, 2 Dragon Riders", "hs": "85", "ability": "Shielded Start",
+                          "lv": ["Immune for 2s after deploying", "Immune for 3s after deploying"],
+                          "derived": "Its 85 housing space is worked out from the video: a 5-space discount on 2 Dragons and 2 Dragon Riders (90)."},
+        "Baby Dragon Squad": {"troops": "3 Baby Dragons", "hs": "26", "hs3": TBA, "ability": "Tantrum",
+                              "lv": ["Squad members don't cancel each other's Tantrum", "Same as level 2"]},
+    },
 }
 # Guardians move off the Town Hall at TH 19: they get a group tile in Defenses (with the Guardian Shrine),
 # and the Town Hall section shows them as moved.
@@ -949,23 +984,45 @@ def main():
         only = re.search(r"\s*This ability is present only on the (.+?)\.$", text)
         abilities.append([m.group(1), text[:only.start()] if only else text, only.group(1) if only else TBA])
     skill_of = {a[2].lower(): a[0] for a in abilities if a[2] != TBA}
-    src = f"Wiki pages: {SQUADS['page']} and {SQUADS['barracks']}."
+    wiki_named = len(skill_of)
+    video = SQUAD_VIDEO["squads"]
+    for name, v in video.items():
+        if skill_of.get(name.lower(), v["ability"]) != v["ability"]:
+            notes.append(f"Squads: the wiki gives {name} {skill_of[name.lower()]}, the video {v['ability']}; using the wiki")
+        skill_of.setdefault(name.lower(), v["ability"])
+    for a in abilities:  # fill the "Squad" column from the video where the wiki doesn't say yet
+        if a[2] == TBA:
+            a[2] = ", ".join(n for n, v in video.items() if skill_of.get(n.lower()) == a[0]) or TBA
+    src = f"Wiki pages: {SQUADS['page']} and {SQUADS['barracks']}. Troop counts, housing space and ability levels: {SQUAD_VIDEO['source']}, {SQUAD_VIDEO['url']}"
     squad_units = []
     for f, name in names:
         lvl, th_req = unlock_at.get(name.lower(), (TBA, None))
         av = (avatars.get(f"File:{f}.png") or {}).get("url") or barracks["av"]
+        v = video.get(name, {})
+        if not v:
+            notes.append(f"Squads: {name} is on the wiki but not in SQUAD_VIDEO")
+        hs, effects = v.get("hs", TBA), v.get("lv", [TBA, TBA])
+        cost2 = v.get("cost2", (TBA, TBA))
+        levels = [["1", str(th_req or TBA), hs, "No ability", "-", "-"],
+                  ["2", str(hall), hs, effects[0], *cost2],
+                  ["3", str(hall), v.get("hs3", hs), effects[1], TBA, TBA]]
+        note = f"Unlocked by Squad Barracks level {lvl} (TH {th_req}). Its troops use your own Laboratory levels. From TH {hall} (Laboratory 17) it can be upgraded to level 2 for its {skill_of.get(name.lower(), 'squad')} ability, and to level 3."
+        if v.get("derived"):
+            note += " " + v["derived"]
         squad_units.append({"n": name, "av": av, "source": None, "revision": None, "unverified": [], "placeholderOnly": True, "sourceNote": src,
                             "unlockHall": th_req, "staticImage": {"file": f"File:{f}.png", "url": av},
-                            "tables": [{"heading": "Squad", "columns": ["Squad Barracks Level Required", "Town Hall Level Required", "Housing Space", "Squad Ability"],
-                                        "rows": [[lvl, str(th_req or TBA), TBA, skill_of.get(name.lower(), TBA)]]}],
+                            "tables": [{"heading": "Squad", "columns": ["Squad Barracks Level Required", "Town Hall Level Required", "Troops", "Squad Ability"],
+                                        "rows": [[lvl, str(th_req or TBA), v.get("troops", TBA), skill_of.get(name.lower(), TBA)]]},
+                                       {"heading": "Squad levels", "columns": ["Level", "Town Hall Level Required", "Housing Space", "Ability", "Research Cost", "Research Time"],
+                                        "rows": levels, "wrap": True}],
                             "images": [{"file": f"File:{f}.png", "url": av}],
-                            "note": f"Unlocked by Squad Barracks level {lvl} (TH {th_req}). Its troop count, housing space and upgrade costs haven't been revealed yet."})
+                            "note": note})
     if len(squad_units) != len(unlock_at):
         notes.append(f"Squads: {len(squad_units)} on the Squads page but {len(unlock_at)} in the Squad Barracks table")
     squad_units.append({"n": "Squad Abilities", "av": barracks["av"], "source": None, "revision": None, "unverified": [], "unlockHall": hall, "sourceNote": src,
                         "tables": [{"heading": "Squad abilities", "columns": ["Ability", "Effect", "Squad"], "rows": abilities, "wrap": True}], "images": [],
-                        "note": f"A squad gains its ability when upgraded to level 2, which needs Laboratory 17 (TH {hall}). The wiki names the squad for {len(skill_of)} of the {len(abilities)} abilities so far.",
-                        "progressionNote": f"Abilities unlock at squad level 2, from Laboratory 17 (TH {hall}). Costs and times haven't been revealed yet."})
+                        "note": f"A squad gains its ability when upgraded to level 2, which needs Laboratory 17 (TH {hall}). The wiki names the squad for {wiki_named} of the {len(abilities)} abilities so far; the rest come from {SQUAD_VIDEO['source']}.",
+                        "progressionNote": f"Abilities unlock at squad level 2, from Laboratory 17 (TH {hall}), and improve at level 3. Most costs and times haven't been revealed yet."})
     cats[sq["id"]] = {"id": sq["id"], "label": sq["label"], "format": "wiki-review-v1", "updated": today, "units": squad_units, "unverified": [], "note": SQUADS["note"]}
     original[sq["id"]] = {"note": SQUADS["note"], "updated": today}
     if sq["id"] not in metas:
