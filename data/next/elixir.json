@@ -7,8 +7,8 @@
  "thOffset": 2,
  "unlock": "Barracks",
  "noun": "troop",
- "updated": "Nov 3, 2026; Town Hall 19 update preview data read Nov 15, 2026",
- "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 15, 2026. TBA = not revealed yet. Values can change before release. Stats, costs and times from the Clash of Clans Fandom wiki (read Nov 3, 2026), including the Oct 20, 2026 balance changes and the 2026 upgrade-time cuts.",
+ "updated": "Nov 3, 2026; Town Hall 19 update preview data read Nov 16, 2026",
+ "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 16, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet. Stats, costs and times from the Clash of Clans Fandom wiki (read Nov 3, 2026), including the Oct 20, 2026 balance changes and the 2026 upgrade-time cuts.",
  "rowLayout": "[level, ...stats (one per c), cost, time, lab level]",
  "units": [
   {
@@ -122,8 +122,8 @@
      45,
      45,
      270,
-     6000000,
-     "3d",
+     5000000,
+     "2d 12h",
      13
     ],
     [
@@ -131,8 +131,8 @@
      48,
      48,
      290,
-     8000000,
-     "4d",
+     6000000,
+     "3d",
      14
     ],
     [
@@ -140,17 +140,17 @@
      51,
      51,
      310,
-     24000000,
-     "12d 12h",
+     18000000,
+     "9d",
      16
     ],
     [
      14,
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
+     54,
+     54,
+     330,
+     30000000,
+     "13d 12h",
      17
     ]
    ],
@@ -201,10 +201,6 @@
     [
      "https://static.wikia.nocookie.net/clashofclans/images/f/f2/Barbarian13.png/revision/latest?cb=20260708051333",
      "13"
-    ],
-    [
-     "https://static.wikia.nocookie.net/clashofclans/images/0/0b/Barbarian14.png/revision/latest?cb=20261113185311",
-     "14"
     ]
    ]
   },
@@ -310,8 +306,8 @@
      34,
      34,
      60,
-     4500000,
-     "3d",
+     3800000,
+     "2d 12h",
      12
     ],
     [
@@ -319,8 +315,8 @@
      37,
      37,
      64,
-     6500000,
-     "4d",
+     5500000,
+     "3d 12h",
      13
     ],
     [
@@ -328,8 +324,8 @@
      40,
      40,
      68,
-     9000000,
-     "4d 12h",
+     8000000,
+     "4d",
      14
     ],
     [
@@ -337,8 +333,8 @@
      43,
      43,
      72,
-     14000000,
-     "9d",
+     11000000,
+     "7d",
      15
     ],
     [
@@ -346,17 +342,17 @@
      46,
      46,
      76,
-     25000000,
-     "13d 12h",
+     19000000,
+     "9d",
      16
     ],
     [
      15,
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
+     49,
+     49,
+     80,
+     31000000,
+     "14d",
      17
     ]
    ],
@@ -411,10 +407,6 @@
     [
      "https://static.wikia.nocookie.net/clashofclans/images/4/47/Archer14.png/revision/latest?cb=20260715055842",
      "14"
-    ],
-    [
-     "https://static.wikia.nocookie.net/clashofclans/images/9/97/Archer15.png/revision/latest?cb=20261113185227",
-     "15"
     ]
    ]
   },
@@ -520,8 +512,8 @@
      78,
      156,
      2000,
-     5000000,
-     "3d",
+     4600000,
+     "2d 18h",
      11
     ],
     [
@@ -529,8 +521,8 @@
      86,
      172,
      2200,
-     7500000,
-     "4d",
+     6500000,
+     "3d 12h",
      13
     ],
     [
@@ -538,8 +530,8 @@
      94,
      188,
      2400,
-     10000000,
-     "5d",
+     8000000,
+     "4d",
      14
     ],
     [
@@ -547,8 +539,8 @@
      104,
      208,
      2700,
-     15000000,
-     "9d 12h",
+     10500000,
+     "6d 12h",
      15
     ],
     [
@@ -556,17 +548,17 @@
      114,
      228,
      3000,
-     25000000,
-     "13d 12h",
+     20000000,
+     "8d",
      16
     ],
     [
      15,
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
+     124,
+     248,
+     3600,
+     29500000,
+     "13d",
      17
     ]
    ],
@@ -621,10 +613,6 @@
     [
      "https://static.wikia.nocookie.net/clashofclans/images/6/62/Giant14.png/revision/latest?cb=20251115171902",
      "14"
-    ],
-    [
-     "https://static.wikia.nocookie.net/clashofclans/images/2/20/Giant15.png/revision/latest?cb=20261113185849",
-     "15"
     ]
    ]
   },
@@ -721,8 +709,8 @@
      62,
      124,
      126,
-     3700000,
-     "2d 6h",
+     3300000,
+     "2d",
      10
     ],
     [
@@ -731,8 +719,8 @@
      72,
      144,
      146,
-     8000000,
-     "5d",
+     5500000,
+     "3d 12h",
      13
     ],
     [
@@ -741,18 +729,18 @@
      82,
      164,
      166,
-     26000000,
-     "14d",
+     15000000,
+     "8d 12h",
      16
     ],
     [
      11,
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
+     92,
+     92,
+     184,
+     186,
+     22000000,
+     "10d 12h",
      17
     ]
    ],
@@ -791,10 +779,6 @@
     [
      "https://static.wikia.nocookie.net/clashofclans/images/0/05/Goblin10.png/revision/latest?cb=20260708144340",
      "10"
-    ],
-    [
-     "https://static.wikia.nocookie.net/clashofclans/images/3/30/Goblin11.png/revision/latest?cb=20261113185729",
-     "11"
     ]
    ]
   },
@@ -905,8 +889,8 @@
      3000,
      1680,
      92,
-     3800000,
-     "2d 12h",
+     3200000,
+     "2d",
      10
     ],
     [
@@ -916,8 +900,8 @@
      3440,
      1920,
      112,
-     5200000,
-     "3d",
+     4300000,
+     "2d 12h",
      11
     ],
     [
@@ -927,8 +911,8 @@
      3760,
      2160,
      130,
-     6500000,
-     "5d",
+     5000000,
+     "4d",
      12
     ],
     [
@@ -938,8 +922,8 @@
      4080,
      2400,
      140,
-     9500000,
-     "5d 12h",
+     8000000,
+     "4d 12h",
      13
     ],
     [
@@ -949,8 +933,8 @@
      4400,
      2640,
      150,
-     11000000,
-     "6d",
+     9000000,
+     "5d",
      14
     ],
     [
@@ -960,8 +944,8 @@
      4720,
      2880,
      160,
-     15500000,
-     "10d",
+     10000000,
+     "6d 12h",
      15
     ],
     [
@@ -971,19 +955,19 @@
      5040,
      3120,
      170,
-     26000000,
-     "14d",
+     19000000,
+     "9d",
      16
     ],
     [
      15,
+     134,
+     84,
+     5360,
      "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
+     180,
+     29000000,
+     "12d 12h",
      17
     ]
    ],
@@ -1030,10 +1014,6 @@
     [
      "https://static.wikia.nocookie.net/clashofclans/images/1/1b/Wall_Breaker14.png/revision/latest?cb=20251205160952",
      "14"
-    ],
-    [
-     "https://static.wikia.nocookie.net/clashofclans/images/4/4a/Wall_Breaker15.png/revision/latest?cb=20261113145437",
-     "15"
     ]
    ]
   },
@@ -1145,8 +1125,8 @@
      768,
      322,
      940,
-     7000000,
-     "4d 12h",
+     6000000,
+     "4d",
      11
     ],
     [
@@ -1165,8 +1145,8 @@
      870,
      375,
      1140,
-     14000000,
-     "8d 12h",
+     13000000,
+     "8d",
      14
     ],
     [
@@ -1175,8 +1155,8 @@
      912,
      398,
      1240,
-     17500000,
-     "11d",
+     15500000,
+     "10d",
      15
     ],
     [
@@ -1185,18 +1165,18 @@
      978,
      425,
      1360,
-     28000000,
-     "14d 18h",
+     22500000,
+     "11d 12h",
      16
     ],
     [
      14,
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
+     350,
+     1050,
+     450,
+     1600,
+     28000000,
+     "12d",
      17
     ]
    ],
@@ -1247,10 +1227,6 @@
     [
      "https://static.wikia.nocookie.net/clashofclans/images/6/6e/Balloon13.png/revision/latest?cb=20260427191932",
      "13"
-    ],
-    [
-     "https://static.wikia.nocookie.net/clashofclans/images/1/17/Balloon14.png/revision/latest?cb=20261113190028",
-     "14"
     ]
    ]
   },
@@ -1356,8 +1332,8 @@
      245,
      367.5,
      250,
-     5500000,
-     "3d 12h",
+     4700000,
+     "3d",
      11
     ],
     [
@@ -1365,8 +1341,8 @@
      260,
      390,
      270,
-     10000000,
-     "5d 12h",
+     7000000,
+     "4d 12h",
      13
     ],
     [
@@ -1374,7 +1350,7 @@
      275,
      412.5,
      290,
-     11500000,
+     9000000,
      "7d",
      14
     ],
@@ -1383,8 +1359,8 @@
      290,
      435,
      310,
-     16000000,
-     "10d 12h",
+     11500000,
+     "7d 12h",
      15
     ],
     [
@@ -1392,17 +1368,17 @@
      310,
      465,
      330,
-     27000000,
-     "14d",
+     21000000,
+     "9d",
      16
     ],
     [
      15,
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
+     330,
+     495,
+     350,
+     32000000,
+     "14d 12h",
      17
     ]
    ],
@@ -1457,10 +1433,6 @@
     [
      "https://static.wikia.nocookie.net/clashofclans/images/d/d2/Wizard14.png/revision/latest?cb=20251205140503",
      "14"
-    ],
-    [
-     "https://static.wikia.nocookie.net/clashofclans/images/1/1f/Wizard15.png/revision/latest?cb=20261113145417",
-     "15"
     ]
    ]
   },
@@ -1544,8 +1516,8 @@
      56,
      39.2,
      1600,
-     6000000,
-     "4d 12h",
+     5500000,
+     "4d",
      11
     ],
     [
@@ -1588,8 +1560,8 @@
      78,
      54.6,
      2000,
-     17000000,
-     "11d",
+     15000000,
+     "9d 12h",
      15
     ],
     [
@@ -1599,9 +1571,20 @@
      88,
      61.6,
      2100,
-     28500000,
-     "15d",
+     20000000,
+     "11d 12h",
      16
+    ],
+    [
+     12,
+     84,
+     58.8,
+     99,
+     69.3,
+     2200,
+     29500000,
+     "13d",
+     17
     ]
    ],
    "ch": "Nov 17, 2025",
@@ -1757,8 +1740,8 @@
      390,
      487.5,
      5300,
-     14000000,
-     "8d 12h",
+     13500000,
+     "8d",
      14
     ],
     [
@@ -1766,8 +1749,8 @@
      410,
      512.5,
      5700,
-     18500000,
-     "10d",
+     15500000,
+     "8d 12h",
      15
     ],
     [
@@ -1775,17 +1758,17 @@
      430,
      537.5,
      6000,
-     28500000,
-     "15d",
+     21000000,
+     "11d 12h",
      16
     ],
     [
      14,
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
+     450,
+     562.5,
+     6300,
+     28500000,
+     "12d 12h",
      17
     ]
    ],
@@ -1844,10 +1827,6 @@
     [
      "https://static.wikia.nocookie.net/clashofclans/images/0/09/Dragon13.png/revision/latest?cb=20260708051503",
      "13"
-    ],
-    [
-     "https://static.wikia.nocookie.net/clashofclans/images/9/98/Dragon14.png/revision/latest?cb=20261113145213",
-     "14"
     ]
    ]
   },
@@ -1958,8 +1937,8 @@
      810,
      1458,
      7200,
-     10500000,
-     "5d 12h",
+     7500000,
+     "5d",
      13
     ],
     [
@@ -1967,7 +1946,7 @@
      875,
      1575,
      7700,
-     12000000,
+     9500000,
      "7d",
      14
     ],
@@ -1976,8 +1955,8 @@
      940,
      1692,
      8200,
-     16000000,
-     "10d",
+     12000000,
+     "7d 12h",
      15
     ],
     [
@@ -1985,17 +1964,17 @@
      1015,
      1827,
      8800,
-     28000000,
-     "14d 12h",
+     21000000,
+     "10d",
      16
     ],
     [
      14,
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
+     1100,
+     1980,
+     10000,
+     28000000,
+     "11d 12h",
      17
     ]
    ],
@@ -2054,10 +2033,6 @@
     [
      "https://static.wikia.nocookie.net/clashofclans/images/c/c5/PEKKA13.png/revision/latest?cb=20260714202658",
      "13"
-    ],
-    [
-     "https://static.wikia.nocookie.net/clashofclans/images/1/18/PEKKA14.png/revision/latest?cb=20261113145250",
-     "14"
     ]
    ]
   },
@@ -2161,8 +2136,8 @@
      135,
      270,
      1800,
-     6200000,
-     "4d",
+     5500000,
+     "3d 12h",
      11
     ],
     [
@@ -2172,8 +2147,8 @@
      145,
      290,
      1900,
-     9500000,
-     "6d",
+     8500000,
+     "5d 12h",
      12
     ],
     [
@@ -2205,8 +2180,8 @@
      175,
      350,
      2200,
-     16500000,
-     "10d",
+     15000000,
+     "7d 12h",
      15
     ],
     [
@@ -2216,19 +2191,19 @@
      185,
      370,
      2350,
-     29000000,
-     "15d 6h",
+     21000000,
+     "11d",
      16
     ],
     [
      13,
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
+     195,
+     585,
+     195,
+     390,
+     2500,
+     29000000,
+     "12d 12h",
      17
     ]
    ],
@@ -2279,10 +2254,6 @@
     [
      "https://static.wikia.nocookie.net/clashofclans/images/8/8d/Baby_Dragon12.png/revision/latest?cb=20260310125053",
      "12"
-    ],
-    [
-     "https://static.wikia.nocookie.net/clashofclans/images/f/f6/Baby_Dragon13.png/revision/latest?cb=20261113185913",
-     "13"
     ]
    ]
   },
@@ -2361,8 +2332,8 @@
      128,
      217.6,
      1000,
-     6000000,
-     "4d",
+     5500000,
+     "3d 12h",
      11
     ],
     [
@@ -2370,8 +2341,8 @@
      136,
      231.2,
      1150,
-     8600000,
-     "6d",
+     7000000,
+     "5d",
      12
     ],
     [
@@ -2379,8 +2350,8 @@
      144,
      244.8,
      1350,
-     10500000,
-     "6d 12h",
+     9000000,
+     "5d 12h",
      13
     ],
     [
@@ -2388,8 +2359,8 @@
      160,
      272,
      1550,
-     12500000,
-     "7d",
+     10500000,
+     "6d",
      14
     ],
     [
@@ -2397,8 +2368,8 @@
      175,
      297.5,
      1850,
-     16500000,
-     "9d 12h",
+     12000000,
+     "6d 12h",
      15
     ],
     [
@@ -2406,17 +2377,17 @@
      195,
      331.5,
      2150,
-     28000000,
-     "14d 12h",
+     19000000,
+     "8d",
      16
     ],
     [
      13,
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
+     215,
+     365.5,
+     2350,
+     28000000,
+     "11d",
      17
     ]
    ],
@@ -2459,10 +2430,6 @@
     [
      "https://static.wikia.nocookie.net/clashofclans/images/c/c8/Miner12.png/revision/latest?cb=20251209001650",
      "12"
-    ],
-    [
-     "https://static.wikia.nocookie.net/clashofclans/images/e/ef/Miner13.png/revision/latest?cb=20261113185950",
-     "13"
     ]
    ]
   },
@@ -2552,8 +2519,8 @@
      1435,
      "115 x6",
      5400,
-     14000000,
-     "8d 12h",
+     13000000,
+     "8d",
      13
     ],
     [
@@ -2562,8 +2529,8 @@
      1540,
      "125 x6",
      5700,
-     16000000,
-     "9d",
+     15000000,
+     "8d 12h",
      14
     ],
     [
@@ -2572,8 +2539,8 @@
      1662.5,
      "135 x6",
      6400,
-     20000000,
-     "10d",
+     18000000,
+     "9d",
      15
     ],
     [
@@ -2582,18 +2549,18 @@
      1785,
      "145 x6",
      6900,
-     30000000,
-     "16d",
+     22500000,
+     "12d",
      16
     ],
     [
      10,
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
+     545,
+     1907.5,
+     "155 x6",
+     8000,
+     29500000,
+     "13d",
      17
     ]
    ],
@@ -2628,10 +2595,6 @@
     [
      "https://static.wikia.nocookie.net/clashofclans/images/b/b4/Electro_Dragon9.png/revision/latest?cb=20260708051602",
      "9"
-    ],
-    [
-     "https://static.wikia.nocookie.net/clashofclans/images/f/fc/Electro_Dragon10.png/revision/latest?cb=20261113185800",
-     "10"
     ]
    ]
   },
@@ -2819,8 +2782,8 @@
      444,
      800,
      4400,
-     7500000,
-     "6d",
+     7000000,
+     "5d 12h",
      11
     ],
     [
@@ -2829,8 +2792,8 @@
      480,
      900,
      4700,
-     12000000,
-     "8d",
+     11000000,
+     "7d 12h",
      12
     ],
     [
@@ -2839,8 +2802,8 @@
      516,
      1000,
      5100,
-     14500000,
-     "9d",
+     13500000,
+     "8d 12h",
      14
     ],
     [
@@ -2849,8 +2812,8 @@
      564,
      1100,
      5600,
-     19000000,
-     "10d 6h",
+     17500000,
+     "9d 12h",
      15
     ],
     [
@@ -2859,18 +2822,18 @@
      588,
      1200,
      5900,
-     29500000,
-     "15d 12h",
+     21000000,
+     "11d 12h",
      16
     ],
     [
      7,
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
+     510,
+     612,
+     1300,
+     6200,
+     28500000,
+     "12d 12h",
      17
     ]
    ],
@@ -2901,10 +2864,6 @@
     [
      "https://static.wikia.nocookie.net/clashofclans/images/8/80/Dragon_Rider6.png/revision/latest?cb=20251205162203",
      "6"
-    ],
-    [
-     "https://static.wikia.nocookie.net/clashofclans/images/1/16/Dragon_Rider7.png/revision/latest?cb=20261113190054",
-     "7"
     ]
    ]
   },
@@ -2953,8 +2912,8 @@
      100,
      40,
      7700,
-     14000000,
-     "8d",
+     11500000,
+     "7d 12h",
      12
     ],
     [
@@ -2964,8 +2923,8 @@
      125,
      50,
      8200,
-     16000000,
-     "9d",
+     13500000,
+     "8d 12h",
      13
     ],
     [
@@ -2975,8 +2934,8 @@
      137.5,
      55,
      8700,
-     18500000,
-     "11d",
+     15500000,
+     "9d",
      14
     ],
     [
@@ -2986,19 +2945,19 @@
      150,
      60,
      9200,
-     30000000,
-     "16d",
+     18000000,
+     "11d 12h",
      16
     ],
     [
      6,
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
+     300,
+     450,
+     162,
+     65,
+     10000,
+     28000000,
+     "12d",
      17
     ]
    ],
@@ -3025,10 +2984,6 @@
     [
      "https://static.wikia.nocookie.net/clashofclans/images/6/67/Electro_Titan5.png/revision/latest?cb=20260715053010",
      "5"
-    ],
-    [
-     "https://static.wikia.nocookie.net/clashofclans/images/2/20/Electro_Titan6.png/revision/latest?cb=20261113145355",
-     "6"
     ]
    ]
   },
@@ -3304,7 +3259,7 @@
  "preview": {
   "update": "Town Hall 19 update",
   "release": "Nov 16, 2026",
-  "read": "Nov 15, 2026",
-  "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 15, 2026. TBA = not revealed yet. Values can change before release."
+  "read": "Nov 16, 2026",
+  "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 16, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet."
  }
 }

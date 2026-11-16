@@ -2,7 +2,7 @@
  "id": "defenses",
  "label": "Defenses",
  "format": "wiki-review-v1",
- "updated": "2026-11-03; Town Hall 19 update preview data read Nov 15, 2026",
+ "updated": "2026-11-03; Town Hall 19 update preview data read Nov 16, 2026",
  "units": [
   {
    "n": "Cannon",
@@ -6221,7 +6221,7 @@
        "4,350",
        "23,500,000",
        "11d",
-       "1,099",
+       "974",
        "18"
       ],
       [
@@ -6276,7 +6276,7 @@
        "4,350",
        "23,500,000",
        "11d",
-       "1,099",
+       "974",
        "18"
       ],
       [
@@ -7134,7 +7134,7 @@
     }
    ],
    "unverified": [
-    "New in the Town Hall 19 update: values come from the wiki's sneak-peek coverage and may change before release."
+    "New in the Town Hall 19 update: values come from the wiki, which is still being updated for the release."
    ],
    "preview": true,
    "hallByLevel": {
@@ -7219,7 +7219,7 @@
     }
    ],
    "unverified": [
-    "New in the Town Hall 19 update: values come from the wiki's sneak-peek coverage and may change before release."
+    "New in the Town Hall 19 update: values come from the wiki, which is still being updated for the release."
    ],
    "preview": true,
    "hallByLevel": {
@@ -7268,7 +7268,7 @@
     }
    ],
    "unverified": [
-    "New in the Town Hall 19 update: values come from the wiki's sneak-peek coverage and may change before release."
+    "New in the Town Hall 19 update: values come from the wiki, which is still being updated for the release."
    ],
    "preview": true,
    "quantityByHall": {
@@ -7721,12 +7721,12 @@
   }
  ],
  "unverified": [],
- "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 15, 2026. TBA = not revealed yet. Values can change before release. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+ "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 16, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
  "preview": {
   "update": "Town Hall 19 update",
   "release": "Nov 16, 2026",
-  "read": "Nov 15, 2026",
-  "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 15, 2026. TBA = not revealed yet. Values can change before release."
+  "read": "Nov 16, 2026",
+  "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 16, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet."
  }
 }

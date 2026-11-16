@@ -2,7 +2,7 @@
  "id": "army",
  "label": "Army Buildings",
  "format": "wiki-review-v1",
- "updated": "2026-11-03; Town Hall 19 update preview data read Nov 15, 2026",
+ "updated": "2026-11-03; Town Hall 19 update preview data read Nov 16, 2026",
  "units": [
   {
    "n": "Army Camp",
@@ -4238,7 +4238,7 @@
     }
    ],
    "unverified": [
-    "New in the Town Hall 19 update: values come from the wiki's sneak-peek coverage and may change before release."
+    "New in the Town Hall 19 update: values come from the wiki, which is still being updated for the release."
    ],
    "preview": true,
    "note": "Squads are trained here, for free and instantly. Each Squad Barracks level unlocks one new squad. Squads can be upgraded to level 2 and up (unlocking their squad ability) from Laboratory level 17, which needs Town Hall 19.",
@@ -4309,12 +4309,12 @@
   }
  ],
  "unverified": [],
- "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 15, 2026. TBA = not revealed yet. Values can change before release. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+ "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 16, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
  "preview": {
   "update": "Town Hall 19 update",
   "release": "Nov 16, 2026",
-  "read": "Nov 15, 2026",
-  "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 15, 2026. TBA = not revealed yet. Values can change before release."
+  "read": "Nov 16, 2026",
+  "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 16, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet."
  }
 }

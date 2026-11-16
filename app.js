@@ -10,7 +10,7 @@ const preview = new URLSearchParams(location.search).get("preview");
 // and data/next/ once the update ships and data/*.json has the real values.
 const PREVIEW_UPDATE = preview === "true" || preview === "all";
 const NEXT_TH = 19;
-const PREVIEW_BANNER = "Preview: includes the Town Hall 19 update (Nov 16) from wiki sneak peeks. TBA = not revealed yet.";
+const PREVIEW_BANNER = "Preview: includes the Town Hall 19 update (out Nov 16), read from the wiki while editors finish it. TBA = not on the wiki yet.";
 // Highest supported TH; update here when new Town Hall data is added.
 const MAX_TH = PREVIEW_UPDATE ? NEXT_TH : 18;
 const savedTH = Number(localStorage.getItem("cr.th"));

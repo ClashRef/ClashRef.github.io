@@ -1,6 +1,6 @@
 {
  "updated": "2026-11-14",
- "note": "Descriptions for items new in the Town Hall 19 update, shown only with ?preview=true. Written from the wiki's sneak-peek pages; merged into data/info.json by app.js.",
+ "note": "Descriptions for items new in the Town Hall 19 update, shown only with ?preview=true. Written from the wiki's pages for the new items; merged into data/info.json by app.js.",
  "entries": {
   "defenses": {
    "Firecracker Tower": {

@@ -53,6 +53,9 @@ UPDATE = {
     "hall": 19,
     "date": "Nov 16, 2026",  # release date given in the wiki's staged history entries
     "since": "2026-11-12T00:00:00Z",  # sneak-peek art uploaded after this counts as new
+    # Once the update is out, editors un-hide the staged values page by page. Pages edited after
+    # this moment are compared with their last revision before it, so published changes still count.
+    "released": "2026-11-16T00:00:00Z",
 }
 TBA = "TBA"
 OUT = ROOT / "data" / "next"
@@ -169,13 +172,33 @@ def render(title, text):
                 raise
 
 
+def text_before(title, when):
+    """(revid, wikitext) of the page's last revision before `when`, or (None, None)."""
+    d = chk.get({"action": "query", "prop": "revisions", "rvprop": "ids|content", "rvslots": "main", "rvlimit": 1,
+                 "rvstart": when, "rvdir": "older", "titles": title})
+    p = next(iter(d["query"]["pages"].values()))
+    r = (p.get("revisions") or [None])[0]
+    return (r["revid"], r["slots"]["main"]["*"]) if r else (None, None)
+
+
 def page_versions(title, notes):
-    """The page's current and post-update tables plus its post-update wikitext.
-    "staged" is False (and fut equals cur) when the page has nothing staged."""
+    """The page's pre-update and post-update tables plus its post-update wikitext.
+    Before release, "pre-update" is the page as shown now and "post-update" un-hides the staged
+    values. After UPDATE["released"], "pre-update" is the last revision before release, so values
+    editors have already published count as update changes too.
+    "staged" is False (and fut equals cur) when the page has no update changes."""
     cur = chk.fetch_page(title)
     text = cur["wikitext"]
     subs = sorted(set(re.findall(r"\{\{:([^{}|]+)\}\}", text)))
     sub_text = wikitext(subs) if subs else {}
+    base, base_subs = text, dict(sub_text)
+    if UPDATE.get("released"):
+        _, before = text_before(cur["title"], UPDATE["released"])
+        base = before if before is not None else ""
+        for s in subs:
+            _, before = text_before(s, UPDATE["released"])
+            base_subs[s] = before if before is not None else ""
+    published = base != text or any(base_subs.get(s) != sub_text.get(s) for s in subs)
     def patched(page, t):
         for a, b in PAGE_PATCHES.get(page, []):
             if a in t:
@@ -190,9 +213,15 @@ def page_versions(title, notes):
             staged = unstage(patched(s, sub_text[s]), s, notes)
             changed |= staged != sub_text[s]
             future = future.replace("{{:" + s + "}}", staged)
-    cur_tables = chk.wiki_tables(cur["html"])
+    if published:
+        for s in subs:
+            base = base.replace("{{:" + s + "}}", base_subs.get(s, ""))
+        cur_tables = chk.wiki_tables(render(cur["title"], base)) if base else []
+        changed = True
+    else:
+        cur_tables = chk.wiki_tables(cur["html"])
     fut_tables = chk.wiki_tables(render(cur["title"], future)) if changed else cur_tables
-    return {"cur": cur_tables, "fut": fut_tables, "text": future, "staged": changed}
+    return {"cur": cur_tables, "fut": fut_tables, "text": future, "staged": changed, "published": published}
 
 
 def clean(v):
@@ -247,11 +276,24 @@ def pair_diffs(site, wiki, special=()):
     return out
 
 
-def staged_diffs(site_t, cur_tables, fut_tables, special):
+SKIPPED = []  # tables left alone because the wiki's layout changed; listed under "Needs a look"
+
+
+def staged_diffs(site_t, cur_tables, fut_tables, special, label=""):
     fut = chk.best_match(site_t, fut_tables)
     if not fut:
         return []
     cur = chk.best_match(site_t, cur_tables)
+    where = f"{label} · {site_t.get('heading', '')} ({', '.join(site_t['columns'][:3])}...)"
+    # After release editors move or delete sections (e.g. retired Supercharges); a table that now
+    # matches a different section isn't the same table.
+    if cur and cur["heading"] != fut["heading"]:
+        SKIPPED.append(f"{where}: now matches the wiki's '{fut['heading']}' table instead of '{cur['heading']}'; left unchanged")
+        return []
+    # A table mid-edit on the wiki (rows wider than its header) can't be read reliably.
+    if any(len(r) > len(fut["columns"]) for r in fut["rows"]):
+        SKIPPED.append(f"{where}: the wiki's table has rows wider than its header (mid-edit?); left unchanged")
+        return []
     before = {d["id"] for d in pair_diffs(site_t, cur, special)} if cur else set()
     return [d for d in pair_diffs(site_t, fut, special) if d["id"] not in before]
 
@@ -312,7 +354,7 @@ def apply_review(unit, cur_tables, fut_tables, lines, label, building=False):
     for t in unit.get("tables", []):
         if t.get("heading", "") in chk.SITE_BUILT_TABLES or chk.SKIP_SECTIONS.search(t.get("heading", "")):
             continue
-        for d in staged_diffs(t, cur_tables, fut_tables, special):
+        for d in staged_diffs(t, cur_tables, fut_tables, special, label):
             if d["kind"] == "changed":
                 old = t["rows"][d["ri"]][d["ci"]]
                 t["rows"][d["ri"]][d["ci"]] = d["value"]
@@ -558,7 +600,7 @@ def number_available(text):
 def new_unit(item, tables, images, page_title):
     url = chk.WIKI + urllib.parse.quote(page_title.replace(" ", "_")) if page_title else None
     unit = {"n": item["n"], "av": None, "source": url, "revision": None, "tables": [], "images": [], "unverified": [
-        f"New in the {UPDATE['name']}: values come from the wiki's sneak-peek coverage and may change before release."], "preview": True}
+        f"New in the {UPDATE['name']}: values come from the wiki, which is still being updated for the release."], "preview": True}
     for t in tables:
         if t["rows"] and not re.search(r"icon descriptions|achievement", t["heading"], re.I):
             # The wiki shows the cost resource as an icon; the site names it, as in "Build Cost (Gold)".
@@ -990,12 +1032,13 @@ def main():
     for cid in touched:
         cat = cats[cid]
         cat["preview"] = {"update": UPDATE["name"], "release": UPDATE["date"], "read": today,
-                          "note": f"Preview of the {UPDATE['name']} ({UPDATE['date']}) from the wiki's sneak-peek data, read {today}. {TBA} = not revealed yet. Values can change before release."}
+                          "note": f"The {UPDATE['name']} ({UPDATE['date']}) from the wiki, read {today}. The wiki is still being updated for the release, so some values may change. {TBA} = not on the wiki yet."}
         if "note" in cat:
             cat["note"] = cat["preview"]["note"] + " " + original[cid]["note"]
         if "updated" in cat:
             cat["updated"] = f"{original[cid]['updated']}; {UPDATE['name']} preview data read {today}"
 
+    notes += SKIPPED
     if notes:
         log(lines, "\n== Needs a look ==")
         for n in sorted(set(notes)):

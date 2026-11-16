@@ -2,7 +2,7 @@
  "id": "townhall",
  "label": "Town Hall",
  "format": "wiki-review-v1",
- "updated": "2026-11-03; Town Hall 19 update preview data read Nov 15, 2026",
+ "updated": "2026-11-03; Town Hall 19 update preview data read Nov 16, 2026",
  "units": [
   {
    "n": "Town Hall",
@@ -127,7 +127,7 @@
        "5,000",
        "6,000,000",
        "80,000",
-       "64",
+       "65",
        "23"
       ],
       [
@@ -140,7 +140,7 @@
        "10,000",
        "8,000,000",
        "190,000",
-       "77",
+       "78",
        "26"
       ],
       [
@@ -153,7 +153,7 @@
        "20,000",
        "8,500,000",
        "200,000",
-       "84",
+       "85",
        "30"
       ],
       [
@@ -166,7 +166,7 @@
        "20,000",
        "10,000,000",
        "200,000",
-       "89",
+       "90",
        "31"
       ],
       [
@@ -179,7 +179,7 @@
        "20,000",
        "14,000,000",
        "240,000",
-       "92",
+       "93",
        "36"
       ],
       [
@@ -192,7 +192,7 @@
        "20,000",
        "18,000,000",
        "300,000",
-       "94",
+       "95",
        "39"
       ],
       [
@@ -205,7 +205,7 @@
        "30,000",
        "21,000,000",
        "360,000",
-       "95",
+       "96",
        "44"
       ],
       [
@@ -218,7 +218,7 @@
        "30,000",
        "23,000,000",
        "390,000",
-       "98",
+       "99",
        "44"
       ],
       [
@@ -231,7 +231,7 @@
        "40,000",
        "26,000,000",
        "430,000",
-       "94",
+       "95",
        "44"
       ],
       [
@@ -244,7 +244,7 @@
        "40,000",
        "28,000,000",
        "460,000",
-       "93",
+       "94",
        "47"
       ],
       [
@@ -257,7 +257,7 @@
        "50,000",
        "31,000,000",
        "500,000",
-       "94",
+       "95",
        "47"
       ],
       [
@@ -3760,7 +3760,7 @@
   }
  ],
  "unverified": [],
- "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 15, 2026. TBA = not revealed yet. Values can change before release. Normal upgrade costs and times; no event discounts applied.",
+ "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 16, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet. Normal upgrade costs and times; no event discounts applied.",
  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
  "sections": [
   {
@@ -3776,7 +3776,7 @@
  "preview": {
   "update": "Town Hall 19 update",
   "release": "Nov 16, 2026",
-  "read": "Nov 15, 2026",
-  "note": "Preview of the Town Hall 19 update (Nov 16, 2026) from the wiki's sneak-peek data, read Nov 15, 2026. TBA = not revealed yet. Values can change before release."
+  "read": "Nov 16, 2026",
+  "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 16, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet."
  }
 }

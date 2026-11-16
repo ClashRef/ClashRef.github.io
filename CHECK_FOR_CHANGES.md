@@ -245,6 +245,8 @@ python scripts/build-update-preview.py --offline  # rebuild from the last downlo
 node scripts/test-update-preview.cjs
 ```
 
+After the update comes out, editors un-hide the staged values page by page. Set `"released"` in `UPDATE` to the release time: each page edited after it is then compared with its last revision from before release, so published changes are kept as well as anything still staged. Tables whose wiki section moved or is mid-edit are left alone and listed under "Needs a look".
+
 Every change is listed in `.wiki-check/update-preview.txt`. Read it before publishing. Look for wiki typos (the script fixes known ones in `TYPO_FIXES` and broken staged rows in `PAGE_PATCHES`) and for anything under "Needs a look". Settings for the update (name, Town Hall, release date, new items, extra notes) are constants at the top of the script. The wiki rate-limits quick repeat runs (HTTP 429); the script waits and retries, and `--offline` avoids it entirely.
 
 **When the update ships:**
