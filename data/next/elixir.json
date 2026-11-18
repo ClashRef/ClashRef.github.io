@@ -7,8 +7,8 @@
  "thOffset": 2,
  "unlock": "Barracks",
  "noun": "troop",
- "updated": "Nov 3, 2026; Town Hall 19 update preview data read Nov 16, 2026",
- "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 16, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet. Stats, costs and times from the Clash of Clans Fandom wiki (read Nov 3, 2026), including the Oct 20, 2026 balance changes and the 2026 upgrade-time cuts.",
+ "updated": "Nov 3, 2026; Town Hall 19 update preview data read Nov 17, 2026",
+ "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 17, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet. Stats, costs and times from the Clash of Clans Fandom wiki (read Nov 3, 2026), including the Oct 20, 2026 balance changes and the 2026 upgrade-time cuts.",
  "rowLayout": "[level, ...stats (one per c), cost, time, lab level]",
  "units": [
   {
@@ -3186,8 +3186,8 @@
      210,
      525,
      2350,
-     16000000,
-     "9d 12h",
+     15500000,
+     "9d",
      14
     ],
     [
@@ -3195,8 +3195,8 @@
      220,
      550,
      2500,
-     18000000,
-     "10d 12h",
+     16000000,
+     "9d 12h",
      15
     ],
     [
@@ -3204,17 +3204,17 @@
      230,
      575,
      2650,
-     27000000,
-     "15d",
+     20500000,
+     "11d 12h",
      16
     ],
     [
      5,
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
+     240,
+     600,
+     2800,
+     29500000,
+     "13d",
      17
     ]
    ],
@@ -3276,24 +3276,24 @@
      2,
      530,
      16900,
-     28000000,
-     "14d",
+     20000000,
+     "10d",
      15
     ],
     [
      3,
      580,
      18500,
-     30000000,
-     "16d",
+     22000000,
+     "11d 12h",
      16
     ],
     [
      4,
-     "TBA",
-     "TBA",
-     "TBA",
-     "TBA",
+     630,
+     20000,
+     28000000,
+     "12d 12h",
      17
     ]
    ],
@@ -3323,7 +3323,7 @@
  "preview": {
   "update": "Town Hall 19 update",
   "release": "Nov 16, 2026",
-  "read": "Nov 16, 2026",
-  "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 16, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet."
+  "read": "Nov 17, 2026",
+  "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 17, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet."
  }
 }

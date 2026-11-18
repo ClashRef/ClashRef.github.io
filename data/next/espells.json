@@ -2,7 +2,7 @@
  "id": "espells",
  "label": "Elixir Spells",
  "format": "wiki-review-v1",
- "updated": "2026-11-03; Town Hall 19 update preview data read Nov 16, 2026",
+ "updated": "2026-11-03; Town Hall 19 update preview data read Nov 17, 2026",
  "units": [
   {
    "n": "Lightning Spell",
@@ -133,7 +133,7 @@
        "760",
        "31,000,000",
        "15d",
-       "17"
+       "17-"
       ]
      ]
     }
@@ -1356,12 +1356,12 @@
   }
  ],
  "unverified": [],
- "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 16, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+ "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 17, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
  "preview": {
   "update": "Town Hall 19 update",
   "release": "Nov 16, 2026",
-  "read": "Nov 16, 2026",
-  "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 16, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet."
+  "read": "Nov 17, 2026",
+  "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 17, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet."
  }
 }

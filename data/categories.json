@@ -61,7 +61,8 @@
      "id": "pets",
      "label": "Pets",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/6/62/Avatar_L.A.S.S.I.png/revision/latest?cb=20210413063518",
-     "data": "data/pets.json"
+     "data": "data/pets.json",
+     "next": "data/next/pets.json"
     },
     {
      "id": "squads",

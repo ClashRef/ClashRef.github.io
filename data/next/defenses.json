@@ -2,7 +2,7 @@
  "id": "defenses",
  "label": "Defenses",
  "format": "wiki-review-v1",
- "updated": "2026-11-03; Town Hall 19 update preview data read Nov 16, 2026",
+ "updated": "2026-11-03; Town Hall 19 update preview data read Nov 17, 2026",
  "units": [
   {
    "n": "Cannon",
@@ -7121,6 +7121,51 @@
        "Ground & Air"
       ]
      ]
+    },
+    {
+     "heading": "Generic [ ]",
+     "columns": [
+      "Sound Effect",
+      "Captions",
+      "Description"
+     ],
+     "rows": [
+      [
+       "https://clashofclans.fandom.com/wiki/File:HeroEquipment_Upgrade.ogg",
+       "Buildings merge",
+       "When an Archer Tower and a Scattershot fuse together"
+      ],
+      [
+       "https://clashofclans.fandom.com/wiki/File:Archer_Tower_Select.ogg",
+       "Archer Tower selected*",
+       "When the Multi-Archer Tower is selected"
+      ],
+      [
+       "https://clashofclans.fandom.com/wiki/File:Archer_Tower_Place.ogg",
+       "Archer Tower placed*",
+       "When the Multi-Archer Tower is placed"
+      ]
+     ]
+    },
+    {
+     "heading": "Unique [ ]",
+     "columns": [
+      "Sound Effect",
+      "Captions",
+      "Description"
+     ],
+     "rows": [
+      [
+       "https://clashofclans.fandom.com/wiki/File:FirecrackerTower_fire1.mp3 https://clashofclans.fandom.com/wiki/File:FirecrackerTower_fire2.mp3 File:FirecrackerTower fire3.mp3",
+       "Firecracker Tower fires",
+       "When a Firecracker Tower attacks"
+      ],
+      [
+       "File:FirecrackerTower hit1.mp3 File:FirecrackerTower hit2.mp3",
+       "Large rocket explodes and twinkles",
+       "When the Firecracker Tower's projectile hits something"
+      ]
+     ]
     }
    ],
    "images": [
@@ -7483,32 +7528,72 @@
        "550",
        "990",
        "13,000",
-       "18,000,000",
-       "7d"
+       "13,000,000",
+       "5d"
       ],
       [
        "3",
        "600",
        "1,080",
        "14,000",
-       "22,000,000",
-       "9d"
+       "16,000,000",
+       "7d"
       ],
       [
        "4",
        "650",
        "1,170",
        "15,000",
-       "26,000,000",
-       "11d"
+       "19,000,000",
+       "9d"
       ],
       [
        "5",
        "700",
        "1,260",
        "16,000",
-       "28,000,000",
+       "21,500,000",
+       "11d"
+      ],
+      [
+       "6",
+       "750",
+       "1,350",
+       "17,000",
+       "24,000,000",
+       "12d"
+      ],
+      [
+       "7",
+       "800",
+       "1,440",
+       "18,000",
+       "25,000,000",
+       "12d 12h"
+      ],
+      [
+       "8",
+       "850",
+       "1,530",
+       "19,000",
+       "26,000,000",
        "13d"
+      ],
+      [
+       "9",
+       "900",
+       "1,620",
+       "20,000",
+       "27,000,000",
+       "13d 12h"
+      ],
+      [
+       "10",
+       "950",
+       "1,710",
+       "21,000",
+       "28,000,000",
+       "14d"
       ]
      ]
     }
@@ -7527,7 +7612,12 @@
     "2": 18,
     "3": 18,
     "4": 18,
-    "5": 18
+    "5": 18,
+    "6": 19,
+    "7": 19,
+    "8": 19,
+    "9": 19,
+    "10": 19
    },
    "levelImages": {
     "1": {
@@ -7721,12 +7811,12 @@
   }
  ],
  "unverified": [],
- "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 16, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+ "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 17, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
  "preview": {
   "update": "Town Hall 19 update",
   "release": "Nov 16, 2026",
-  "read": "Nov 16, 2026",
-  "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 16, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet."
+  "read": "Nov 17, 2026",
+  "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 17, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet."
  }
 }

@@ -2,7 +2,7 @@
  "id": "squads",
  "label": "Squads",
  "format": "wiki-review-v1",
- "updated": "Nov 16, 2026; Town Hall 19 update preview data read Nov 16, 2026",
+ "updated": "Nov 17, 2026; Town Hall 19 update preview data read Nov 17, 2026",
  "units": [
   {
    "n": "Barch Squad",
@@ -396,7 +396,7 @@
   },
   {
    "n": "Golem Witch Squad",
-   "av": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Avatar_Golem_Witch_Squad.png/revision/latest?cb=20261115142958",
+   "av": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Avatar_Golem_Witch_Squad.png/revision/latest?cb=20261117032238",
    "source": null,
    "revision": null,
    "unverified": [],
@@ -405,7 +405,7 @@
    "unlockHall": 13,
    "staticImage": {
     "file": "File:Avatar Golem Witch Squad.png",
-    "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Avatar_Golem_Witch_Squad.png/revision/latest?cb=20261115142958"
+    "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Avatar_Golem_Witch_Squad.png/revision/latest?cb=20261117032238"
    },
    "tables": [
     {
@@ -467,7 +467,7 @@
    "images": [
     {
      "file": "File:Avatar Golem Witch Squad.png",
-     "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Avatar_Golem_Witch_Squad.png/revision/latest?cb=20261115142958"
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Avatar_Golem_Witch_Squad.png/revision/latest?cb=20261117032238"
     }
    ],
    "note": "Unlocked by Squad Barracks level 6 (TH 13). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Splash Resistance ability, and to level 3."
@@ -630,7 +630,7 @@
   },
   {
    "n": "Healer Squad",
-   "av": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Avatar_Healer_Squad.png/revision/latest?cb=20261115142959",
+   "av": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Avatar_Healer_Squad.png/revision/latest?cb=20261117032326",
    "source": null,
    "revision": null,
    "unverified": [],
@@ -639,7 +639,7 @@
    "unlockHall": 16,
    "staticImage": {
     "file": "File:Avatar Healer Squad.png",
-    "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Avatar_Healer_Squad.png/revision/latest?cb=20261115142959"
+    "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Avatar_Healer_Squad.png/revision/latest?cb=20261117032326"
    },
    "tables": [
     {
@@ -701,7 +701,7 @@
    "images": [
     {
      "file": "File:Avatar Healer Squad.png",
-     "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Avatar_Healer_Squad.png/revision/latest?cb=20261115142959"
+     "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Avatar_Healer_Squad.png/revision/latest?cb=20261117032326"
     }
    ],
    "note": "Unlocked by Squad Barracks level 9 (TH 16). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Shielded Start ability, and to level 3. Its 70 housing space is worked out from the video: a 5-space discount on 5 Healers (70) plus a Balloon (5)."
@@ -997,11 +997,11 @@
   }
  ],
  "unverified": [],
- "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 16, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet. Squads deploy a fixed group of troops in a set formation, using less housing space than the same troops trained one by one. Squad troops use your own researched troop levels, and squads can't be donated. Each Squad Barracks level (Army Buildings, from TH 8) unlocks one squad; training is free and instant. From Laboratory 17 (TH 19) squads can be upgraded to level 2 and up, which unlocks their squad ability; squads go up to level 3. Troop counts, housing space and ability levels come from a Supercell creator's video until the wiki lists them; most upgrade costs haven't been shown yet.",
+ "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 17, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet. Squads deploy a fixed group of troops in a set formation, using less housing space than the same troops trained one by one. Squad troops use your own researched troop levels, and squads can't be donated. Each Squad Barracks level (Army Buildings, from TH 8) unlocks one squad; training is free and instant. From Laboratory 17 (TH 19) squads can be upgraded to level 2 and up, which unlocks their squad ability; squads go up to level 3. Troop counts, housing space and ability levels come from a Supercell creator's video until the wiki lists them; most upgrade costs haven't been shown yet.",
  "preview": {
   "update": "Town Hall 19 update",
   "release": "Nov 16, 2026",
-  "read": "Nov 16, 2026",
-  "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 16, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet."
+  "read": "Nov 17, 2026",
+  "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 17, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet."
  }
 }
