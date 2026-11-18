@@ -2,7 +2,7 @@
   "id": "pets",
   "label": "Pets",
   "format": "wiki-review-v1",
-  "updated": "2026-11-03",
+  "updated": "2026-11-03; Town Hall 19 update read Nov 17, 2026",
   "units": [
     {
       "n": "L.A.S.S.I",
@@ -2049,7 +2049,7 @@
               "30s",
               "1,900",
               "200,000",
-              "8d",
+              "7d",
               "10"
             ],
             [
@@ -2059,7 +2059,7 @@
               "30s",
               "1,975",
               "210,000",
-              "8d",
+              "7d",
               "10"
             ],
             [
@@ -2069,7 +2069,7 @@
               "30s",
               "2,050",
               "220,000",
-              "8d",
+              "7d 12h",
               "10"
             ],
             [
@@ -2079,8 +2079,58 @@
               "35s",
               "2,125",
               "230,000",
-              "8d",
+              "7d 12h",
               "10"
+            ],
+            [
+              "11",
+              "202",
+              "151.5",
+              "35s",
+              "2,200",
+              "260,000",
+              "7d 12h",
+              "12"
+            ],
+            [
+              "12",
+              "211",
+              "158.25",
+              "35s",
+              "2,275",
+              "290,000",
+              "8d",
+              "12"
+            ],
+            [
+              "13",
+              "220",
+              "165",
+              "35s",
+              "2,350",
+              "320,000",
+              "8d",
+              "12"
+            ],
+            [
+              "14",
+              "229",
+              "171.75",
+              "35s",
+              "2,425",
+              "350,000",
+              "8d",
+              "12"
+            ],
+            [
+              "15",
+              "238",
+              "178.5",
+              "40s",
+              "2,500",
+              "380,000",
+              "8d",
+              "12"
             ]
           ]
         }
@@ -2106,7 +2156,12 @@
         "7": 16,
         "8": 16,
         "9": 16,
-        "10": 16
+        "10": 16,
+        "11": 19,
+        "12": 19,
+        "13": 19,
+        "14": 19,
+        "15": 19
       }
     },
     {
@@ -2456,6 +2511,6 @@
     }
   ],
   "unverified": [],
-  "note": "Normal stats, costs, and times from the Clash of Clans wiki. Hall caps use Pet House requirements; remaining verification notes are listed per item.",
+  "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 17, 2026, with gaps filled from Supercell's release notes. The wiki is still being updated, so some values may change. TBA = not on the wiki yet. Normal stats, costs, and times from the Clash of Clans wiki. Hall caps use Pet House requirements; remaining verification notes are listed per item.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }

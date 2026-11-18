@@ -271,6 +271,8 @@ def site_items():
                 continue
             cat = json.loads(path.read_text(encoding="utf-8"))
             for u in cat["units"]:
+                if "source" in u and not u["source"]:
+                    continue  # no wiki page yet (squads, group tiles, Town Hall Troops)
                 if "source" in u:
                     page = urllib.parse.unquote(u["source"].split("/wiki/", 1)[1]).replace("_", " ")
                     tables = [*u.get("tables", []), *u.get("lowerTownHallStats", [])]

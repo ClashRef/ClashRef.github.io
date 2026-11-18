@@ -85,14 +85,19 @@ SQUADS = {
     "meta": {"id": "squads", "label": "Squads", "after": "pets"},
     "page": "Squads",
     "barracks": "Squad Barracks",
-    "note": "Squads deploy a fixed group of troops in a set formation, using less housing space than the same troops trained one by one. Squad troops use your own researched troop levels, and squads can't be donated. Each Squad Barracks level (Army Buildings, from TH 8) unlocks one squad; training is free and instant. From Laboratory 17 (TH 19) squads can be upgraded to level 2 and up, which unlocks their squad ability; squads go up to level 3. Troop counts, housing space and ability levels come from a Supercell creator's video until the wiki lists them; most upgrade costs haven't been shown yet.",
+    "note": "Squads deploy a fixed group of troops in a set formation, using less housing space than the same troops trained one by one. Squad troops use your own researched troop levels, and squads can't be donated. Each Squad Barracks level (Army Buildings, from TH 8) unlocks one squad; training is free and instant. From Laboratory 17 (TH 19) squads can be upgraded to level 2 and up, which unlocks their squad ability; squads go up to level 3. Troop counts, housing space and ability levels come from Supercell's release notes until the wiki lists them; most upgrade costs aren't on the wiki yet.",
 }
-# Squad details the wiki doesn't list yet, from Judo Sloth Gaming's "Every Squad Explained in Clash of
-# Clans!" (Supercell Creator, Nov 2026): https://youtu.be/Vs3FDbCWR04 . Wiki values win when present.
-# "hs": housing space at levels 1-2, "hs3": at level 3 when it drops; "derived" explains arithmetic.
+# Supercell's release notes for the update (the official source for what the wiki hasn't filled in yet).
+RELEASE_NOTES = {
+    "source": "Supercell's release notes (The Clash of Titans update, Nov 16, 2026)",
+    "url": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+}
+# Squad details the wiki doesn't list yet, from the release notes' "Full List of Squads at Launch"
+# (also matches Judo Sloth Gaming's video, https://youtu.be/Vs3FDbCWR04). Wiki values win when present.
+# "hs": housing space at levels 1-2, "hs3": at level 3 when it drops.
 SQUAD_VIDEO = {
-    "source": "Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026)",
-    "url": "https://youtu.be/Vs3FDbCWR04",
+    "source": RELEASE_NOTES["source"],
+    "url": RELEASE_NOTES["url"],
     "squads": {
         "Barch Squad": {"troops": "15 Barbarians, 15 Archers", "hs": "15", "ability": "Splash Resistance",
                         "lv": ["At most 6 troops hit per splash", "At most 5 troops hit per splash"], "cost2": ("32,000,000", "15d 12h")},
@@ -102,23 +107,21 @@ SQUAD_VIDEO = {
                                "lv": ["Invisible for 3s after deploying", "Invisible for 4s after deploying"]},
         "Minion Squad": {"troops": "8 Minions", "hs": "12", "ability": "Splash Resistance",
                          "lv": ["At most 3 troops hit per splash", "At most 2 troops hit per splash"]},
-        "Balloon Squad": {"troops": "4 Balloons", "hs": TBA, "ability": "Trap Sense",
+        "Balloon Squad": {"troops": "4 Balloons", "hs": "16", "ability": "Trap Sense",
                           "lv": ["15% less damage from traps", "20% less damage from traps"]},
         "Golem Witch Squad": {"troops": "1 Golem, 4 Witches", "hs": "55", "ability": "Splash Resistance",
                               "lv": ["At most 3 Witches hit per splash", "At most 2 Witches hit per splash"]},
-        "Hog Rider Squad": {"troops": "12 Hog Riders", "hs": TBA, "ability": "Trap Sense",
+        "Hog Rider Squad": {"troops": "12 Hog Riders", "hs": "48", "ability": "Trap Sense",
                             "lv": ["30% less damage from traps", "40% less damage from traps"]},
-        "Miner Squad": {"troops": TBA, "hs": TBA, "ability": "Trap Sense",
+        "Miner Squad": {"troops": "10 Miners", "hs": "48", "ability": "Trap Sense",
                         "lv": ["30% less damage from traps", "40% less damage from traps"]},
         "Healer Squad": {"troops": "1 Balloon, 5 Healers", "hs": "70", "ability": "Shielded Start",
-                         "lv": ["Immune for 2s after deploying", "Immune for 3s after deploying"],
-                         "derived": "Its 70 housing space is worked out from the video: a 5-space discount on 5 Healers (70) plus a Balloon (5)."},
+                         "lv": ["Immune for 2s after deploying", "Immune for 3s after deploying"]},
         "P.E.K.K.A Titan Squad": {"troops": "1 P.E.K.K.A, 1 Electro Titan", "hs": "46", "hs3": "44", "ability": "Focus Attack",
                                   "lv": ["Both troops attack the same target", "Same as level 2"]},
         "Dragons Squad": {"troops": "2 Dragons, 2 Dragon Riders", "hs": "85", "ability": "Shielded Start",
-                          "lv": ["Immune for 2s after deploying", "Immune for 3s after deploying"],
-                          "derived": "Its 85 housing space is worked out from the video: a 5-space discount on 2 Dragons and 2 Dragon Riders (90)."},
-        "Baby Dragon Squad": {"troops": "3 Baby Dragons", "hs": "26", "hs3": TBA, "ability": "Tantrum",
+                          "lv": ["Immune for 2s after deploying", "Immune for 3s after deploying"]},
+        "Baby Dragon Squad": {"troops": "3 Baby Dragons", "hs": "26", "hs3": "24", "ability": "Tantrum",
                               "lv": ["Squad members don't cancel each other's Tantrum", "Same as level 2"]},
     },
 }
@@ -145,6 +148,21 @@ MERGE_NOTICES = {
 ART_NAMES = {"X-Bow": ["File:X-Bow{n} Ground.png"], "Builder's Hut": ["File:Builder Hut{n} Active.png"]}
 # Troop categories that get placeholder levels when new level art has been uploaded.
 TROOP_CATS = ("elixir", "dark")
+# New max levels from the release notes for troops, spells and Siege Machines. Levels the wiki doesn't
+# list yet get TBA rows. Super Troops follow their base troop's new level (handled separately).
+OFFICIAL_MAX = {
+    "elixir": {"Barbarian": 14, "Archer": 15, "Giant": 15, "Goblin": 11, "Wall Breaker": 15, "Balloon": 14, "Wizard": 15,
+               "Healer": 12, "Dragon": 14, "P.E.K.K.A": 14, "Baby Dragon": 13, "Miner": 13, "Electro Dragon": 10, "Yeti": 9,
+               "Dragon Rider": 7, "Electro Titan": 6, "Root Rider": 5, "Thrower": 5, "Meteor Golem": 4},
+    "dark": {"Minion": 15, "Hog Rider": 16, "Valkyrie": 13, "Golem": 16, "Witch": 9, "Lava Hound": 9, "Bowler": 11,
+             "Headhunter": 5, "Druid": 7, "Ruin Witch": 5},
+    "siege": {"Flame Flinger": 6},
+    "espells": {"Healing Spell": 13, "Lightning Spell": 14, "Totem Spell": 5},
+    "dspells": {"Poison Spell": 13, "Haste Spell": 8, "Bat Spell": 9},
+}
+# The release notes make the TH 17 weapon a single level at full power, like the Giga Weapon before it.
+SINGLE_LEVEL_WEAPON = {"name": "Town Hall/Inferno Artillery", "row": {"Level": "1", "Damage per Second per Target": "60", "Damage per Hit per Target": "210"},
+                       "note": "Since the Town Hall 19 update the Inferno Artillery is a single level at full power (60 DPS), the same way the TH 16 weapon was merged before (Supercell's release notes)."}
 
 VALUE = r"\d[\d,.]*%?(?:\s*\d*[dhms](?:\s+\d+[dhms])*)?\??"
 
@@ -856,6 +874,87 @@ def main():
             u["img"].sort(key=lambda x: int(x[1]) if str(x[1]).isdigit() else 0)
             touched.add(cid)
 
+    # 3b. What the release notes confirm that the wiki doesn't list yet.
+    log(lines, "\n== From the release notes ==")
+    def top_level(u):
+        if "l" in u:
+            return max(int(r[0]) for r in u["l"])
+        t = upgrade_table(u)
+        return max((int(r[0]) for r in t["rows"] if re.fullmatch(r"\d+", r[0])), default=0) if t else 0
+    for cid, wanted in OFFICIAL_MAX.items():
+        if cid not in cats:
+            continue
+        for u in cats[cid]["units"]:
+            target, top = wanted.get(u["n"]), top_level(u)
+            if not target or top >= target or not ("l" in u or upgrade_table(u)):
+                continue
+            for lvl in range(top + 1, target + 1):
+                if "l" in u:
+                    u["l"].append([lvl, *[TBA] * len(u["c"]), TBA, TBA, int(lab_new)])
+                else:
+                    placeholder_review_level(u, lvl, lab_new)
+            touched.add(cid)
+            log(lines, f"  {metas[cid]['label']} / {u['n']}: up to level {target} (release notes), stats {TBA}")
+
+    # Super Troops follow their base troop: a new base level is a new Super Troop level, and its
+    # research cost and time are the base troop's.
+    def research_of(base, lvl):
+        """(cost, time, lab) of a base troop level, or None."""
+        if "l" in base:
+            r = next((r for r in base["l"] if str(r[0]) == str(lvl)), None)
+            return (r[-3], r[-2], r[-1]) if r else None
+        t = upgrade_table(base)
+        r = next((r for r in t["rows"] if r[0] == str(lvl)), None) if t else None
+        if not r:
+            return None
+        col = lambda pat: next((r[i] for i, c in enumerate(t["columns"]) if re.match(pat, c, re.I)), TBA)
+        return (col(r"Research Cost"), col(r"Research Time"), col(r"Laboratory Level"))
+    def as_text(v):
+        return f"{v:,}" if isinstance(v, int) else str(v)
+    for u in cats["super"]["units"]:
+        base = next((b for c in TROOP_CATS for b in cats[c]["units"] if b["n"] == u.get("baseTroop")), None)
+        t = upgrade_table(u)
+        if not base or not t:
+            continue
+        cols = t["columns"]
+        ci = {k: next((i for i, c in enumerate(cols) if re.match(p, c, re.I)), None) for k, p in
+              (("cost", r"Base Research Cost"), ("time", r"Base Research Time"), ("lab", r"Laboratory Level"), ("th", r"Town Hall Level"))}
+        for lvl in range(top_level(u) + 1, top_level(base) + 1):
+            placeholder_review_level(u, lvl, lab_new)
+            log(lines, f"  Super Troops / {u['n']}: level {lvl} (follows {base['n']} {lvl}), stats {TBA}")
+            touched.add("super")
+        for r in t["rows"]:
+            res = research_of(base, r[0]) if re.fullmatch(r"\d+", r[0]) else None
+            if not res:
+                continue
+            for key, v in zip(("cost", "time", "lab"), res):
+                if ci[key] is not None and r[ci[key]] == TBA and v != TBA:
+                    r[ci[key]] = as_text(v)
+                    touched.add("super")
+            if ci["th"] is not None and r[ci["th"]] == TBA and ci["lab"] is not None and r[ci["lab"]] in lab_th:
+                r[ci["th"]] = str(lab_th[r[ci["lab"]]])
+            if ci["th"] is not None and re.fullmatch(r"\d+", r[ci["th"]]):
+                u["hallByLevel"][r[0]] = int(r[ci["th"]])
+            if "baseResearch" in u and res[0] != TBA:
+                cost = res[0] if isinstance(res[0], int) else int(re.sub(r"\D", "", str(res[0])) or 0)
+                lab_req = int(res[2]) if str(res[2]).isdigit() else None
+                u["baseResearch"][r[0]] = {"townHall": lab_th.get(str(lab_req), hall) if lab_req else hall, "laboratory": lab_req,
+                                           "cost": cost, "resource": next(iter(u["baseResearch"].values()))["resource"], "time": str(res[1])}
+
+    w = find_unit(SINGLE_LEVEL_WEAPON["name"], ("townhall",))
+    wt = upgrade_table(w) if w else None
+    if wt and len(wt["rows"]) > 1:
+        th_col = next(i for i, c in enumerate(wt["columns"]) if re.match(r"Town Hall Level", c, re.I))
+        first_th = wt["rows"][0][th_col]
+        wt["rows"] = [[SINGLE_LEVEL_WEAPON["row"].get(c, first_th if i == th_col else "N/A") for i, c in enumerate(wt["columns"])]]
+        w["hallByLevel"] = {"1": int(first_th)}
+        if w.get("levelImages"):
+            w["levelImages"] = {"1": w["levelImages"][max(w["levelImages"], key=int)]}
+        w["note"] = (SINGLE_LEVEL_WEAPON["note"] + " " + w.get("note", "")).strip()
+        SKIPPED[:] = [x for x in SKIPPED if "Inferno Artillery" not in x]
+        touched.add("townhall")
+        log(lines, f"  Town Hall / {w['n']}: one level, 60 DPS (release notes)")
+
     # 4. Heroes: new Hero Hall caps, stats not revealed yet.
     log(lines, "\n== Hero levels from the Hero Hall caps ==")
     hh = find_unit("Hero Hall")
@@ -993,7 +1092,7 @@ def main():
     for a in abilities:  # fill the "Squad" column from the video where the wiki doesn't say yet
         if a[2] == TBA:
             a[2] = ", ".join(n for n, v in video.items() if skill_of.get(n.lower()) == a[0]) or TBA
-    src = f"Wiki pages: {SQUADS['page']} and {SQUADS['barracks']}. Troop counts, housing space and ability levels: {SQUAD_VIDEO['source']}, {SQUAD_VIDEO['url']}"
+    src = f"Wiki pages: {SQUADS['page']} and {SQUADS['barracks']}. Troop counts, housing space and ability levels: {SQUAD_VIDEO['source']}."
     squad_units = []
     for f, name in names:
         lvl, th_req = unlock_at.get(name.lower(), (TBA, None))
@@ -1034,35 +1133,38 @@ def main():
     touched.add(sq["id"])
     log(lines, f"  Squads (new category): {', '.join(u['n'] for u in squad_units)}")
 
-    # 6. Supercharges end when their building gains a new level or is merged away (wiki
+    # 6. Supercharges end when their building gains a new level (release notes list exactly these; Scattershot keeps its charges) (wiki
     #    "Supercharge": charges "last until a new level or a merged version for that Building
     #    becomes available"). They go for every player, not only those who reach the new
     #    level: after the TH18 launch the TH17 Mortar, Hidden Tesla, Inferno and Firespitter
     #    charges vanished for TH17 players too once those buildings got TH18 levels (Feb 2026).
     #    Charges on buildings without new levels stay at their current Town Hall requirement.
-    merged_away = {name for (cid, name) in MERGE_NOTICES if cid == "defenses"}
     for u in cats["supercharge"]["units"]:
         base = find_unit(u["n"])
         before = next((b for c in building_cats for b in original[c]["units"] if b["n"] == u["n"]), None)
         if not base or not before or "hallByLevel" not in base:
             continue
         new_levels = {l: h for l, h in base["hallByLevel"].items() if l not in before["hallByLevel"]}
-        if u["n"] in merged_away:
-            why = f"{u['n']}s merge into Firecracker Towers at TH {hall}"
-        elif new_levels:
+        if new_levels:
             why = f"{u['n']} gets a new level ({', '.join(f'level {l} at TH {h}' for l, h in sorted(new_levels.items(), key=lambda x: int(x[0])))})"
         else:
             continue
         # The building's own page drops its charge tables too (the wiki also files some
         # attack-detail tables under "Supercharges"; those stay).
         tables = [t for t in base.get("tables", []) if not (t["heading"].startswith("Supercharge") and re.match(r"(?:Charge|Level)", t["columns"][0]))]
-        if len(tables) != len(base.get("tables", [])):
+        # Attack details the wiki filed under its old Supercharges section go under the stats heading.
+        main_heading = (upgrade_table(base) or {}).get("heading", "Statistics")
+        for t in tables:
+            if t["heading"].startswith("Supercharge"):
+                t["heading"] = main_heading
+        SKIPPED[:] = [x for x in SKIPPED if not x.startswith(f"Defenses / {u['n']} ")]
+        if tables != base.get("tables", []) or len(tables) != len(base.get("tables", [])):
             base["tables"] = tables
-            touched.update(c for c in building_cats if base in cats[c]["units"])
+        touched.update(c for c in building_cats if base in cats[c]["units"])
         u["removedAtTH"] = 1  # gone at every Town Hall level once the update ships
         u["removedLabel"] = f"Removed in the TH {hall} update"
-        u["note"] = (f"{why}, so the {UPDATE['name']} removes these Supercharges for every Town Hall level, per the wiki. "
-                     "Charges already done aren't refunded (each completed charge still gives 10 Sparky Stones). "
+        u["note"] = (f"{why}, so the {UPDATE['name']} removes these Supercharges for every Town Hall level (Supercell's release notes). "
+                     "Existing charges are depleted; unfinished Supercharge upgrades are refunded in full, completed ones aren't. "
                      + u.get("note", "")).strip()
         touched.add("supercharge")
         log(lines, f"  Supercharges / {u['n']}: removed for every Town Hall ({why})")
@@ -1105,7 +1207,7 @@ def main():
     for cid in touched:
         cat = cats[cid]
         cat["preview"] = {"update": UPDATE["name"], "release": UPDATE["date"], "read": today,
-                          "note": f"The {UPDATE['name']} ({UPDATE['date']}) from the wiki, read {today}. The wiki is still being updated for the release, so some values may change. {TBA} = not on the wiki yet."}
+                          "note": f"The {UPDATE['name']} ({UPDATE['date']}) from the wiki, read {today}, with gaps filled from Supercell's release notes. The wiki is still being updated for the release, so some values may change. {TBA} = not on the wiki yet."}
         if "note" in cat:
             cat["note"] = cat["preview"]["note"] + " " + original[cid]["note"]
         if "updated" in cat:

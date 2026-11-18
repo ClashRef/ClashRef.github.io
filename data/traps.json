@@ -2,7 +2,7 @@
   "id": "traps",
   "label": "Traps",
   "format": "wiki-review-v1",
-  "updated": "2026-11-03",
+  "updated": "2026-11-03; Town Hall 19 update read Nov 17, 2026",
   "units": [
     {
       "n": "Bomb",
@@ -390,19 +390,28 @@
               "12",
               "18",
               "1,300",
-              "13,000,000",
-              "3d",
-              "509",
+              "7,000,000",
+              "2d 12h",
+              "464",
               "17"
             ],
             [
               "13",
               "18",
               "1,400",
-              "16,000,000",
-              "11d",
-              "974",
+              "9,500,000",
+              "5d",
+              "657",
               "18"
+            ],
+            [
+              "14",
+              "18",
+              "1,500",
+              "17,000,000",
+              "8d",
+              "831",
+              "19"
             ]
           ]
         },
@@ -454,6 +463,10 @@
         {
           "file": "File:Spring Trap13.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Spring_Trap13.png/revision/latest?cb=20251115151732"
+        },
+        {
+          "file": "File:Spring Trap14.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f6/Spring_Trap14.png/revision/latest?cb=20261113191532"
         }
       ],
       "unverified": [
@@ -472,7 +485,8 @@
         "10": 15,
         "11": 16,
         "12": 17,
-        "13": 18
+        "13": 18,
+        "14": 19
       },
       "levelImages": {
         "1": {
@@ -526,6 +540,10 @@
         "13": {
           "file": "File:Spring Trap13.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Spring_Trap13.png/revision/latest?cb=20251115151732"
+        },
+        "14": {
+          "file": "File:Spring Trap14.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f6/Spring_Trap14.png/revision/latest?cb=20261113191532"
         }
       },
       "imageVerification": {
@@ -655,6 +673,14 @@
               "9d",
               "881",
               "18"
+            ],
+            [
+              "14",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "19"
             ]
           ]
         },
@@ -724,7 +750,8 @@
         "10": 15,
         "11": 16,
         "12": 17,
-        "13": 18
+        "13": 18,
+        "14": 19
       },
       "levelImages": {
         "1": {
@@ -778,6 +805,10 @@
         "13": {
           "file": "File:Air Bomb13.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/9/91/Air_Bomb13.png/revision/latest?cb=20251120062204"
+        },
+        "14": {
+          "file": "File:Air Bomb14.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/55/Air_Bomb14.png/revision/latest?cb=20261117212214"
         }
       },
       "imageVerification": {
@@ -1268,6 +1299,15 @@
               "7d",
               "777",
               "18"
+            ],
+            [
+              "6",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "19"
             ]
           ]
         },
@@ -1343,6 +1383,10 @@
         {
           "file": "File:SkeletonTrap5.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c8/SkeletonTrap5.png/revision/latest?cb=20251120011150"
+        },
+        {
+          "file": "File:SkeletonTrap6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3e/SkeletonTrap6.png/revision/latest?cb=20261117220501"
         }
       ],
       "unverified": [
@@ -1353,7 +1397,8 @@
         "2": 8,
         "3": 9,
         "4": 10,
-        "5": 18
+        "5": 18,
+        "6": 19
       },
       "levelImages": {
         "1": {
@@ -1375,6 +1420,10 @@
         "5": {
           "file": "File:SkeletonTrap5.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c8/SkeletonTrap5.png/revision/latest?cb=20251120011150"
+        },
+        "6": {
+          "file": "File:SkeletonTrap6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3e/SkeletonTrap6.png/revision/latest?cb=20261117220501"
         }
       },
       "imageVerification": {
@@ -1625,6 +1674,6 @@
     }
   ],
   "unverified": [],
-  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+  "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 17, 2026, with gaps filled from Supercell's release notes. The wiki is still being updated, so some values may change. TBA = not on the wiki yet. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }

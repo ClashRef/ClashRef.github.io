@@ -2,7 +2,7 @@
   "id": "defenses",
   "label": "Defenses",
   "format": "wiki-review-v1",
-  "updated": "2026-11-03",
+  "updated": "2026-11-03; Town Hall 19 update read Nov 17, 2026",
   "units": [
     {
       "n": "Cannon",
@@ -1437,7 +1437,8 @@
         "checked": "2026-11-03",
         "method": "Fandom imageinfo, exact level file; HTTP 200 without Referer for every URL",
         "levels": 21
-      }
+      },
+      "mergeNotice": "At TH 19, all remaining Archer Towers merge with Scattershots into Firecracker Towers. Finish the merges before your next Town Hall upgrade."
     },
     {
       "n": "Mortar",
@@ -1775,7 +1776,7 @@
               "42",
               "71.55",
               "1,300",
-              "2,300,000",
+              "2,000,000",
               "1d 6h",
               "328",
               "12"
@@ -1785,7 +1786,7 @@
               "46",
               "78.20",
               "1,500",
-              "2,400,000",
+              "2,200,000",
               "1d 12h",
               "360",
               "12"
@@ -1805,9 +1806,9 @@
               "58",
               "98.17",
               "1,950",
-              "4,300,000",
-              "2d 12h",
-              "464",
+              "3,400,000",
+              "2d 6h",
+              "440",
               "14"
             ],
             [
@@ -1835,9 +1836,9 @@
               "80",
               "134.78",
               "2,450",
-              "13,000,000",
-              "5d",
-              "657",
+              "8,500,000",
+              "4d 6h",
+              "605",
               "17"
             ],
             [
@@ -1845,9 +1846,9 @@
               "88",
               "148.09",
               "2,550",
-              "21,000,000",
-              "12d 12h",
-              "1,039",
+              "15,500,000",
+              "8d 12h",
+              "856",
               "18"
             ]
           ]
@@ -2254,9 +2255,9 @@
               "400",
               "400",
               "1,400",
-              "5,000,000",
-              "4d",
-              "587",
+              "3,800,000",
+              "3d 6h",
+              "529",
               "12"
             ],
             [
@@ -2264,9 +2265,9 @@
               "440",
               "440",
               "1,500",
-              "5,600,000",
-              "4d 12h",
-              "623",
+              "4,000,000",
+              "3d 12h",
+              "549",
               "13"
             ],
             [
@@ -2274,9 +2275,9 @@
               "500",
               "500",
               "1,650",
-              "6,500,000",
-              "5d",
-              "657",
+              "5,000,000",
+              "4d",
+              "587",
               "14"
             ],
             [
@@ -2285,8 +2286,8 @@
               "540",
               "1,750",
               "8,000,000",
-              "6d",
-              "720",
+              "5d",
+              "657",
               "15"
             ],
             [
@@ -2294,9 +2295,9 @@
               "600",
               "600",
               "1,850",
-              "9,000,000",
-              "6d 12h",
-              "749",
+              "8,500,000",
+              "5d 12h",
+              "689",
               "16"
             ],
             [
@@ -2304,7 +2305,7 @@
               "650",
               "650",
               "1,950",
-              "15,000,000",
+              "13,500,000",
               "7d",
               "777",
               "17"
@@ -2313,51 +2314,26 @@
               "16",
               "700",
               "700",
-              "2,000",
-              "26,000,000",
-              "13d 6h",
-              "1,069",
-              "18"
-            ]
-          ]
-        },
-        {
-          "heading": "Supercharges / Home Village",
-          "columns": [
-            "Charge Level",
-            "Damage per Second",
-            "Damage per Shot",
-            "Hitpoints",
-            "Cost (Gold)",
-            "Build Time",
-            "Experience Gained",
-            "Town Hall Level Required"
-          ],
-          "rows": [
-            [
-              "1",
-              "720",
-              "720",
-              "2,000",
-              "2,500,000",
-              "1d 12h",
-              "360",
+              "2,050",
+              "18,500,000",
+              "10d",
+              "929",
               "18"
             ],
             [
-              "2",
-              "740",
-              "740",
-              "2,000",
-              "1,250,000",
-              "1d 17h",
-              "384",
-              "18"
+              "17",
+              "790",
+              "790",
+              "2,150",
+              "28,500,000",
+              "14d",
+              "1,099",
+              "19"
             ]
           ]
         },
         {
-          "heading": "Supercharges / Home Village",
+          "heading": "Statistics / Home Village",
           "columns": [
             "Range",
             "Attack Speed",
@@ -2438,6 +2414,10 @@
         {
           "file": "File:Air Defense16.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/0/00/Air_Defense16.png/revision/latest?cb=20251115171820"
+        },
+        {
+          "file": "File:Air Defense17.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4f/Air_Defense17.png/revision/latest?cb=20261113191122"
         }
       ],
       "unverified": [
@@ -2461,7 +2441,8 @@
         "13": 15,
         "14": 16,
         "15": 17,
-        "16": 18
+        "16": 18,
+        "17": 19
       },
       "levelImages": {
         "1": {
@@ -2527,6 +2508,10 @@
         "16": {
           "file": "File:Air Defense16.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/0/00/Air_Defense16.png/revision/latest?cb=20251115171820"
+        },
+        "17": {
+          "file": "File:Air Defense17.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4f/Air_Defense17.png/revision/latest?cb=20261113191122"
         }
       },
       "imageVerification": {
@@ -2659,7 +2644,7 @@
               "70",
               "91",
               "2,120",
-              "2,500,000",
+              "2,100,000",
               "1d 12h",
               "360",
               "12"
@@ -2679,7 +2664,7 @@
               "84",
               "109.2",
               "2,500",
-              "3,000,000",
+              "2,800,000",
               "2d",
               "415",
               "13"
@@ -2689,9 +2674,9 @@
               "90",
               "117",
               "2,800",
-              "4,500,000",
-              "3d",
-              "509",
+              "3,800,000",
+              "2d 12h",
+              "464",
               "14"
             ],
             [
@@ -2719,9 +2704,9 @@
               "110",
               "143",
               "3,300",
-              "14,000,000",
-              "5d 12h",
-              "689",
+              "12,000,000",
+              "5d",
+              "657",
               "17"
             ]
           ]
@@ -3209,7 +3194,7 @@
               "120",
               "72",
               "980",
-              "3,000,000",
+              "2,500,000",
               "2d",
               "415",
               "12"
@@ -3219,9 +3204,9 @@
               "130",
               "78",
               "1,100",
-              "3,100,000",
-              "2d 12h",
-              "464",
+              "2,800,000",
+              "2d 6h",
+              "440",
               "13"
             ],
             [
@@ -3229,9 +3214,9 @@
               "140",
               "84",
               "1,200",
-              "3,700,000",
-              "3d",
-              "509",
+              "3,000,000",
+              "2d 12h",
+              "464",
               "13"
             ],
             [
@@ -3239,9 +3224,9 @@
               "150",
               "90",
               "1,350",
-              "5,100,000",
-              "3d 12h",
-              "549",
+              "4,400,000",
+              "3d",
+              "509",
               "14"
             ],
             [
@@ -3259,9 +3244,9 @@
               "170",
               "102",
               "1,550",
-              "8,200,000",
-              "5d",
-              "657",
+              "7,000,000",
+              "4d 6h",
+              "605",
               "16"
             ],
             [
@@ -3269,7 +3254,7 @@
               "180",
               "108",
               "1,650",
-              "15,000,000",
+              "13,500,000",
               "7d",
               "777",
               "17"
@@ -3279,50 +3264,25 @@
               "190",
               "114",
               "1,750",
-              "25,000,000",
-              "13d",
-              "1,059",
-              "18"
-            ]
-          ]
-        },
-        {
-          "heading": "Supercharges / Home Village",
-          "columns": [
-            "Charge Level",
-            "Damage per Second",
-            "Damage per Shot",
-            "Hitpoints",
-            "Cost (Gold)",
-            "Build Time",
-            "Experience Gained",
-            "Town Hall Level Required"
-          ],
-          "rows": [
-            [
-              "1",
-              "195",
-              "117",
-              "1,750",
-              "4,750,000",
-              "1d 19h",
-              "393",
+              "16,500,000",
+              "9d",
+              "881",
               "18"
             ],
             [
-              "2",
-              "195",
-              "117",
-              "1,800",
-              "3,250,000",
-              "2d 14h",
-              "472",
-              "18"
+              "18",
+              "210",
+              "126",
+              "1,950",
+              "27,500,000",
+              "14d",
+              "1,099",
+              "19"
             ]
           ]
         },
         {
-          "heading": "Supercharges / Home Village",
+          "heading": "Statistics / Home Village",
           "columns": [
             "Range",
             "Trigger Range",
@@ -3409,6 +3369,10 @@
         {
           "file": "File:Hidden Tesla17.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6c/Hidden_Tesla17.png/revision/latest?cb=20260220165129"
+        },
+        {
+          "file": "File:Hidden Tesla18.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f1/Hidden_Tesla18.png/revision/latest?cb=20261113190308"
         }
       ],
       "unverified": [
@@ -3433,7 +3397,8 @@
         "14": 15,
         "15": 16,
         "16": 17,
-        "17": 18
+        "17": 18,
+        "18": 19
       },
       "levelImages": {
         "1": {
@@ -3503,6 +3468,10 @@
         "17": {
           "file": "File:Hidden Tesla17.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6c/Hidden_Tesla17.png/revision/latest?cb=20260220165129"
+        },
+        "18": {
+          "file": "File:Hidden Tesla18.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f1/Hidden_Tesla18.png/revision/latest?cb=20261113190308"
         }
       },
       "imageVerification": {
@@ -3603,9 +3572,9 @@
               "70.4",
               "400",
               "1,600",
-              "4,000,000",
-              "3d",
-              "509",
+              "3,300,000",
+              "2d 12h",
+              "464",
               "12"
             ],
             [
@@ -3614,9 +3583,9 @@
               "79.2",
               "450",
               "1,900",
-              "5,000,000",
-              "3d 12h",
-              "549",
+              "3,600,000",
+              "2d 18h",
+              "487",
               "13"
             ],
             [
@@ -3625,9 +3594,9 @@
               "92.4",
               "500",
               "2,300",
-              "6,000,000",
-              "4d",
-              "587",
+              "5,000,000",
+              "3d 12h",
+              "549",
               "14"
             ],
             [
@@ -3636,9 +3605,9 @@
               "103.4",
               "550",
               "2,500",
-              "7,000,000",
-              "4d 12h",
-              "623",
+              "5,500,000",
+              "3d 18h",
+              "569",
               "15"
             ],
             [
@@ -3647,9 +3616,9 @@
               "114.4",
               "600",
               "2,700",
-              "8,500,000",
-              "5d",
-              "657",
+              "7,000,000",
+              "4d",
+              "587",
               "16"
             ],
             [
@@ -3658,7 +3627,7 @@
               "125.4",
               "650",
               "2,900",
-              "14,500,000",
+              "13,500,000",
               "7d",
               "777",
               "17"
@@ -3669,9 +3638,9 @@
               "134.2",
               "700",
               "3,050",
-              "25,000,000",
-              "13d",
-              "1,059",
+              "16,500,000",
+              "9d",
+              "881",
               "18"
             ]
           ]
@@ -4011,46 +3980,21 @@
               "13d 12h",
               "1,080",
               "18"
-            ]
-          ]
-        },
-        {
-          "heading": "Supercharges / Home Village",
-          "columns": [
-            "Charge Level",
-            "Damage per Second",
-            "Damage per Shot",
-            "Hitpoints",
-            "Cost (Gold)",
-            "Build Time",
-            "Experience Gained",
-            "Town Hall Level Required"
-          ],
-          "rows": [
-            [
-              "1",
-              "255",
-              "32.64",
-              "5,000",
-              "5,500,000",
-              "2d 5h",
-              "436",
-              "18"
             ],
             [
-              "2",
-              "255",
-              "32.64",
-              "5,100",
-              "3,500,000",
-              "3d",
-              "509",
-              "18"
+              "14",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "19"
             ]
           ]
         },
         {
-          "heading": "Supercharges / Home Village",
+          "heading": "Statistics / Home Village",
           "columns": [
             "Range",
             "Attack Speed",
@@ -4067,7 +4011,7 @@
           ]
         },
         {
-          "heading": "Supercharges / Home Village",
+          "heading": "Statistics / Home Village",
           "columns": [
             "Range",
             "Attack Speed",
@@ -4156,7 +4100,8 @@
         "10": 15,
         "11": 16,
         "12": 17,
-        "13": 18
+        "13": 18,
+        "14": 19
       },
       "levelImages": {
         "1": {
@@ -4210,6 +4155,10 @@
         "13": {
           "file": "File:X-Bow13 Air.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e6/X-Bow13_Air.png/revision/latest?cb=20260503162938"
+        },
+        "14": {
+          "file": "File:X-Bow14 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fa/X-Bow14_Air.png/revision/latest?cb=20261115165347"
         }
       },
       "imageVerification": {
@@ -4505,8 +4454,8 @@
               "7.04",
               "5",
               "3,000",
-              "6,000,000",
-              "4d",
+              "4,500,000",
+              "3d 6h",
               "587",
               "12"
             ],
@@ -4516,9 +4465,9 @@
               "8.32",
               "5",
               "3,300",
-              "8,000,000",
-              "5d",
-              "657",
+              "5,500,000",
+              "3d 12h",
+              "549",
               "13"
             ],
             [
@@ -4527,9 +4476,9 @@
               "10.24",
               "6",
               "3,700",
-              "9,500,000",
-              "6d",
-              "720",
+              "8,000,000",
+              "5d",
+              "657",
               "14"
             ],
             [
@@ -4538,9 +4487,9 @@
               "12.8",
               "6",
               "4,000",
-              "10,000,000",
-              "6d 12h",
-              "749",
+              "8,500,000",
+              "5d 12h",
+              "689",
               "15"
             ],
             [
@@ -4560,9 +4509,9 @@
               "17.92",
               "6",
               "4,800",
-              "16,000,000",
-              "8d",
-              "831",
+              "13,500,000",
+              "7d 16h",
+              "813",
               "17"
             ],
             [
@@ -4571,9 +4520,9 @@
               "19.84",
               "6",
               "5,100",
-              "26,500,000",
-              "13d 12h",
-              "1,080",
+              "20,000,000",
+              "10d 12h",
+              "952",
               "18"
             ]
           ]
@@ -4857,8 +4806,8 @@
               "30",
               "4,800",
               "9,000,000",
-              "7d",
-              "777",
+              "6d",
+              "720",
               "12"
             ],
             [
@@ -4868,8 +4817,8 @@
               "35",
               "5,200",
               "10,000,000",
-              "7d 12h",
-              "804",
+              "6d 12h",
+              "749",
               "13"
             ],
             [
@@ -4879,8 +4828,8 @@
               "40",
               "5,600",
               "12,000,000",
-              "8d",
-              "831",
+              "7d",
+              "777",
               "14"
             ],
             [
@@ -4890,8 +4839,8 @@
               "45",
               "5,900",
               "13,000,000",
-              "9d",
-              "881",
+              "8d",
+              "831",
               "15"
             ],
             [
@@ -4901,8 +4850,8 @@
               "50",
               "6,200",
               "14,000,000",
-              "9d 12h",
-              "905",
+              "9d",
+              "881",
               "16"
             ]
           ]
@@ -5099,7 +5048,7 @@
               "440-592",
               "155-440",
               "5,600",
-              "16,500,000",
+              "15,500,000",
               "9d",
               "881",
               "17"
@@ -5110,9 +5059,9 @@
               "450-608",
               "160-450",
               "5,800",
-              "26,500,000",
-              "15d",
-              "1,138",
+              "19,500,000",
+              "10d 12h",
+              "952",
               "18"
             ]
           ]
@@ -5253,7 +5202,8 @@
         "checked": "2026-11-03",
         "method": "Fandom imageinfo, exact level file; HTTP 200 without Referer for every URL",
         "levels": 7
-      }
+      },
+      "mergeNotice": "At TH 19, all Scattershots merge with Archer Towers into Firecracker Towers. Finish the merges before your next Town Hall upgrade."
     },
     {
       "n": "Builder's Hut",
@@ -5307,9 +5257,9 @@
               "60",
               "45",
               "1,300",
-              "4,000,000",
-              "3d",
-              "509",
+              "3,400,000",
+              "2d 12h",
+              "464",
               "14"
             ],
             [
@@ -5319,9 +5269,9 @@
               "70",
               "52.5",
               "1,600",
-              "6,000,000",
-              "4d",
-              "587",
+              "5,000,000",
+              "3d 12h",
+              "549",
               "14"
             ],
             [
@@ -5331,9 +5281,9 @@
               "80",
               "60",
               "1,800",
-              "7,000,000",
-              "5d",
-              "657",
+              "5,500,000",
+              "4d",
+              "587",
               "15"
             ],
             [
@@ -5343,9 +5293,9 @@
               "85",
               "63.75",
               "1,900",
-              "8,000,000",
-              "5d 12h",
-              "689",
+              "7,000,000",
+              "4d 12h",
+              "623",
               "16"
             ],
             [
@@ -5355,7 +5305,7 @@
               "90",
               "67.5",
               "2,000",
-              "15,500,000",
+              "13,500,000",
               "7d",
               "777",
               "17"
@@ -5367,56 +5317,27 @@
               "95",
               "71.25",
               "2,100",
-              "24,000,000",
-              "13d",
-              "1,059",
-              "18"
-            ]
-          ]
-        },
-        {
-          "heading": "Supercharges",
-          "columns": [
-            "Charge Level",
-            "Damage per Second",
-            "Damage per Shot",
-            "Repair per Second",
-            "Repair per Hit",
-            "Hitpoints",
-            "Build Cost (Gold)",
-            "Build Time",
-            "Experience Gained",
-            "Town Hall Level Required"
-          ],
-          "rows": [
-            [
-              "1",
-              "187",
-              "74.8",
-              "95",
-              "71.25",
-              "2,100",
-              "4,000,000",
-              "1d 14h",
-              "369",
+              "20,000,000",
+              "11d",
+              "974",
               "18"
             ],
             [
-              "2",
-              "187",
-              "74.8",
-              "95",
-              "71.25",
-              "2,150",
-              "3,250,000",
-              "2d 10h",
-              "456",
-              "18"
+              "9",
+              "195",
+              "78",
+              "100",
+              "75",
+              "2,200",
+              "26,000,000",
+              "14d",
+              "1,099",
+              "19"
             ]
           ]
         },
         {
-          "heading": "Supercharges",
+          "heading": "Statistics",
           "columns": [
             "Range",
             "Attack Speed",
@@ -5511,6 +5432,10 @@
         {
           "file": "File:Builders Hut8.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/7/78/Builders_Hut8.png/revision/latest?cb=20260613130250"
+        },
+        {
+          "file": "File:Builders Hut9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fa/Builders_Hut9.png/revision/latest?cb=20261115170054"
         }
       ],
       "unverified": [
@@ -5526,7 +5451,8 @@
         "5": 15,
         "6": 16,
         "7": 17,
-        "8": 18
+        "8": 18,
+        "9": 19
       },
       "levelImages": {
         "1": {
@@ -5560,6 +5486,10 @@
         "8": {
           "file": "File:Builders Hut8.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/7/78/Builders_Hut8.png/revision/latest?cb=20260613130250"
+        },
+        "9": {
+          "file": "File:Builders Hut9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fa/Builders_Hut9.png/revision/latest?cb=20261115170054"
         }
       },
       "imageVerification": {
@@ -5600,8 +5530,8 @@
               "Poison Spell",
               "2,800",
               "11,000,000",
-              "8d",
-              "831",
+              "7d 12h",
+              "804",
               "15"
             ],
             [
@@ -5609,15 +5539,15 @@
               "Invisibility Spell",
               "3,100",
               "12,000,000",
-              "8d 12h",
-              "856",
+              "8d",
+              "831",
               "15"
             ],
             [
               "4",
               "Earthquake Spell",
               "3,200",
-              "27,000,000",
+              "17,000,000",
               "10d",
               "929",
               "17"
@@ -5848,9 +5778,9 @@
               "337.5",
               "15%",
               "5,959",
-              "470,000",
-              "15d",
-              "1,138",
+              "405,000",
+              "12d",
+              "1,018",
               "18"
             ]
           ]
@@ -6027,50 +5957,25 @@
               "121",
               "73",
               "5,500",
-              "27,000,000",
-              "14d",
-              "1,099",
-              "18"
-            ]
-          ]
-        },
-        {
-          "heading": "Supercharges",
-          "columns": [
-            "Charge Level",
-            "Damage per Second per Archer",
-            "Damage per Shot",
-            "Hitpoints",
-            "Build Cost (Gold)",
-            "Build Time",
-            "Experience Gained",
-            "Town Hall Level Required"
-          ],
-          "rows": [
-            [
-              "1",
-              "126",
-              "76",
-              "5,500",
-              "4,750,000",
-              "2d 10h",
-              "456",
+              "23,000,000",
+              "11d",
+              "974",
               "18"
             ],
             [
-              "2",
-              "126",
-              "76",
-              "5,600",
-              "4,000,000",
-              "2d 19h",
-              "491",
-              "18"
+              "5",
+              "136",
+              "82",
+              "5,400",
+              "29,000,000",
+              "14d 12h",
+              "1,119",
+              "19"
             ]
           ]
         },
         {
-          "heading": "Supercharges",
+          "heading": "Statistics",
           "columns": [
             "Number of Targets",
             "Range",
@@ -6105,6 +6010,10 @@
         {
           "file": "File:Multi-Archer Tower4.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f7/Multi-Archer_Tower4.png/revision/latest?cb=20251123100320"
+        },
+        {
+          "file": "File:Multi-Archer Tower5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/02/Multi-Archer_Tower5.png/revision/latest?cb=20261113190647"
         }
       ],
       "unverified": [
@@ -6116,7 +6025,8 @@
         "1": 16,
         "2": 16,
         "3": 17,
-        "4": 18
+        "4": 18,
+        "5": 19
       },
       "levelImages": {
         "1": {
@@ -6134,6 +6044,10 @@
         "4": {
           "file": "File:Multi-Archer Tower4.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f7/Multi-Archer_Tower4.png/revision/latest?cb=20251123100320"
+        },
+        "5": {
+          "file": "File:Multi-Archer Tower5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/02/Multi-Archer_Tower5.png/revision/latest?cb=20261113190647"
         }
       },
       "imageVerification": {
@@ -6201,53 +6115,26 @@
               "329.6",
               "230.72",
               "6,100",
-              "26,500,000",
-              "13d 12h",
-              "1,080",
-              "18"
-            ]
-          ]
-        },
-        {
-          "heading": "Supercharges",
-          "columns": [
-            "Charge Level",
-            "Damage per Second",
-            "Damage per Shot (Primary Target)",
-            "Secondary Chain Damage",
-            "Hitpoints",
-            "Build Cost (Gold)",
-            "Build Time",
-            "Experience Gained",
-            "Town Hall Level Required"
-          ],
-          "rows": [
-            [
-              "1",
-              "420",
-              "336",
-              "235.2",
-              "6,100",
-              "4,750,000",
-              "2d 10h",
-              "456",
+              "22,000,000",
+              "10d",
+              "929",
               "18"
             ],
             [
-              "2",
-              "420",
-              "336",
-              "235.2",
-              "6,250",
-              "4,000,000",
-              "2d 19h",
-              "491",
-              "18"
+              "5",
+              "440",
+              "352",
+              "246.4",
+              "6,500",
+              "28,000,000",
+              "14d",
+              "1,099",
+              "19"
             ]
           ]
         },
         {
-          "heading": "Supercharges",
+          "heading": "Statistics",
           "columns": [
             "Range",
             "Attack Speed",
@@ -6280,6 +6167,10 @@
         {
           "file": "File:Ricochet Cannon4.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/7/76/Ricochet_Cannon4.png/revision/latest?cb=20251123143847"
+        },
+        {
+          "file": "File:Ricochet Cannon5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Ricochet_Cannon5.png/revision/latest?cb=20261113190713"
         }
       ],
       "unverified": [
@@ -6291,7 +6182,8 @@
         "1": 16,
         "2": 16,
         "3": 17,
-        "4": 18
+        "4": 18,
+        "5": 19
       },
       "levelImages": {
         "1": {
@@ -6309,6 +6201,10 @@
         "4": {
           "file": "File:Ricochet Cannon4.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/7/76/Ricochet_Cannon4.png/revision/latest?cb=20251123143847"
+        },
+        "5": {
+          "file": "File:Ricochet Cannon5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Ricochet_Cannon5.png/revision/latest?cb=20261113190713"
         }
       },
       "imageVerification": {
@@ -6361,10 +6257,20 @@
               "390",
               "390",
               "4,350",
-              "28,000,000",
-              "14d",
-              "1,099",
+              "23,500,000",
+              "11d",
+              "974",
               "18"
+            ],
+            [
+              "4",
+              "430",
+              "430",
+              "4,700",
+              "30,000,000",
+              "14d 12h",
+              "1,119",
+              "19"
             ]
           ]
         },
@@ -6406,50 +6312,25 @@
               "710",
               "170.4",
               "4,350",
-              "28,000,000",
-              "14d",
-              "1,099",
-              "18"
-            ]
-          ]
-        },
-        {
-          "heading": "Supercharges [ ]",
-          "columns": [
-            "Level",
-            "Damage per Second",
-            "Damage per Hit",
-            "Hitpoints",
-            "Build Cost (Gold)",
-            "Build Time",
-            "Experience Gained",
-            "Town Hall Level Required"
-          ],
-          "rows": [
-            [
-              "1",
-              "400",
-              "400",
-              "4,350",
-              "4,750,000",
-              "2d 10h",
-              "456",
+              "23,500,000",
+              "11d",
+              "974",
               "18"
             ],
             [
-              "2",
-              "400",
-              "400",
-              "4,500",
-              "4,000,000",
-              "2d 19h",
-              "491",
-              "18"
+              "4",
+              "770",
+              "184",
+              "4,700",
+              "30,000,000",
+              "14d 12h",
+              "1,119",
+              "19"
             ]
           ]
         },
         {
-          "heading": "Supercharges [ ]",
+          "heading": "Statistics [ ]",
           "columns": [
             "Range",
             "Attack Speed",
@@ -6466,42 +6347,7 @@
           ]
         },
         {
-          "heading": "Supercharges [ ]",
-          "columns": [
-            "Level",
-            "Damage per Second*",
-            "Damage per Hit**",
-            "Hitpoints",
-            "Build Cost (Gold)",
-            "Build Time",
-            "Experience Gained",
-            "Town Hall Level Required"
-          ],
-          "rows": [
-            [
-              "1",
-              "720",
-              "172.8",
-              "4,350",
-              "4,750,000",
-              "2d 10h",
-              "456",
-              "18"
-            ],
-            [
-              "2",
-              "720",
-              "172.8",
-              "4,500",
-              "4,000,000",
-              "2d 19h",
-              "491",
-              "18"
-            ]
-          ]
-        },
-        {
-          "heading": "Supercharges [ ]",
+          "heading": "Statistics [ ]",
           "columns": [
             "Range",
             "Attack Speed",
@@ -6534,6 +6380,10 @@
         {
           "file": "File:Multi-Gear Tower3 FastAttack.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/8/86/Multi-Gear_Tower3_FastAttack.png/revision/latest?cb=20260105012017"
+        },
+        {
+          "file": "File:Multi-Gear Tower4 FastAttack.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a9/Multi-Gear_Tower4_FastAttack.png/revision/latest?cb=20261113150020"
         }
       ],
       "unverified": [
@@ -6544,7 +6394,8 @@
       "hallByLevel": {
         "1": 17,
         "2": 17,
-        "3": 18
+        "3": 18,
+        "4": 19
       },
       "levelImages": {
         "1": {
@@ -6558,6 +6409,10 @@
         "3": {
           "file": "File:Multi-Gear Tower3 FastAttack.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/8/86/Multi-Gear_Tower3_FastAttack.png/revision/latest?cb=20260105012017"
+        },
+        "4": {
+          "file": "File:Multi-Gear Tower4 FastAttack.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a9/Multi-Gear_Tower4_FastAttack.png/revision/latest?cb=20261113150020"
         }
       },
       "imageVerification": {
@@ -6590,7 +6445,7 @@
               "410",
               "46.03",
               "4,500",
-              "17,000,000",
+              "15,500,000",
               "8d 12h",
               "856",
               "17"
@@ -6600,7 +6455,7 @@
               "437",
               "49.05",
               "5,000",
-              "18,000,000",
+              "17,000,000",
               "10d",
               "929",
               "17"
@@ -6611,8 +6466,8 @@
               "51.07",
               "5,300",
               "29,000,000",
-              "15d",
-              "1,138",
+              "11d",
+              "974",
               "18"
             ]
           ]
@@ -6888,9 +6743,9 @@
               "135",
               "81",
               "5,800",
-              "430,000",
-              "13d 5s",
-              "1,059",
+              "335,000",
+              "10d",
+              "929",
               "18"
             ],
             [
@@ -6900,9 +6755,9 @@
               "150",
               "90",
               "6,200",
-              "460,000",
-              "14d",
-              "1,099",
+              "365,000",
+              "11d",
+              "974",
               "18"
             ]
           ]
@@ -7243,9 +7098,813 @@
         "method": "Fandom imageinfo, exact level file; HTTP 200 without Referer for every URL",
         "levels": 2
       }
+    },
+    {
+      "n": "Firecracker Tower",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/d/df/Firecracker_Tower1.png/revision/latest?cb=20261113172805",
+      "source": "https://clashofclans.fandom.com/wiki/Firecracker_Tower",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Shot*",
+            "Splash Damage**",
+            "Hitpoints",
+            "Build Cost (Gold)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "270",
+              "365-483.84",
+              "190-365",
+              "6,500",
+              "31,000,000",
+              "14d 12h",
+              "1,119",
+              "19"
+            ],
+            [
+              "2",
+              "280",
+              "385-501.76",
+              "200-385",
+              "6,700",
+              "32,000,000",
+              "15d",
+              "1,138",
+              "19"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "10 tiles",
+              "1.792s",
+              "Area Splash",
+              "Ground & Air"
+            ]
+          ]
+        },
+        {
+          "heading": "Generic [ ]",
+          "columns": [
+            "Sound Effect",
+            "Captions",
+            "Description"
+          ],
+          "rows": [
+            [
+              "https://clashofclans.fandom.com/wiki/File:HeroEquipment_Upgrade.ogg",
+              "Buildings merge",
+              "When an Archer Tower and a Scattershot fuse together"
+            ],
+            [
+              "https://clashofclans.fandom.com/wiki/File:Archer_Tower_Select.ogg",
+              "Archer Tower selected*",
+              "When the Multi-Archer Tower is selected"
+            ],
+            [
+              "https://clashofclans.fandom.com/wiki/File:Archer_Tower_Place.ogg",
+              "Archer Tower placed*",
+              "When the Multi-Archer Tower is placed"
+            ]
+          ]
+        },
+        {
+          "heading": "Unique [ ]",
+          "columns": [
+            "Sound Effect",
+            "Captions",
+            "Description"
+          ],
+          "rows": [
+            [
+              "https://clashofclans.fandom.com/wiki/File:FirecrackerTower_fire1.mp3 https://clashofclans.fandom.com/wiki/File:FirecrackerTower_fire2.mp3 https://clashofclans.fandom.com/wiki/File:FirecrackerTower_fire3.mp3",
+              "Firecracker Tower fires",
+              "When a Firecracker Tower attacks"
+            ],
+            [
+              "https://clashofclans.fandom.com/wiki/File:FirecrackerTower_hit1.mp3 https://clashofclans.fandom.com/wiki/File:FirecrackerTower_hit2.mp3",
+              "Large rocket explodes and twinkles",
+              "When the Firecracker Tower's projectile hits something"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Firecracker Tower1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/df/Firecracker_Tower1.png/revision/latest?cb=20261113172805"
+        },
+        {
+          "file": "File:Firecracker Tower2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b3/Firecracker_Tower2.png/revision/latest?cb=20261113172835"
+        }
+      ],
+      "unverified": [],
+      "hallByLevel": {
+        "1": 19,
+        "2": 19
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Firecracker Tower1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/df/Firecracker_Tower1.png/revision/latest?cb=20261113172805"
+        },
+        "2": {
+          "file": "File:Firecracker Tower2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b3/Firecracker_Tower2.png/revision/latest?cb=20261113172835"
+        }
+      }
+    },
+    {
+      "n": "Spiky Tower",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/7/74/Spiky_Tower1.png/revision/latest?cb=20261113151953",
+      "source": "https://clashofclans.fandom.com/wiki/Spiky_Tower",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Level",
+            "Passive Damage",
+            "Hitpoints",
+            "Build Cost (Dark Elixir)",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "6%",
+              "5,959",
+              "500,000",
+              "15d",
+              "1,138",
+              "19"
+            ],
+            [
+              "2",
+              "9%",
+              "6,363",
+              "510,000",
+              "15d 12h",
+              "1,157",
+              "19"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Activation Range",
+            "Damage Type",
+            "Unit Type Targeted",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "11 tiles",
+              "Single Target",
+              "Ground & Air",
+              "Like a Thorn"
+            ]
+          ]
+        },
+        {
+          "heading": "Generic [ ]",
+          "columns": [
+            "Sound Effect",
+            "Captions",
+            "Description"
+          ],
+          "rows": [
+            [
+              "https://clashofclans.fandom.com/wiki/File:Generic_Tap.ogg",
+              "Decoration selected*",
+              "When the Spiky Tower is selected"
+            ],
+            [
+              "https://clashofclans.fandom.com/wiki/File:Cannon_place.ogg",
+              "Cannon placed",
+              "When the Spiky Tower is placed or swapped with another building"
+            ]
+          ]
+        },
+        {
+          "heading": "Unique [ ]",
+          "columns": [
+            "Sound Effect",
+            "Captions",
+            "Description"
+          ],
+          "rows": [
+            [
+              "https://clashofclans.fandom.com/wiki/File:SpikyTower_deploy1.mp3",
+              "Spiky Tower emerges",
+              "When the Spiky Tower readies itself for defense against an enemy player"
+            ],
+            [
+              "File:SpikyTower reflect1.mp3",
+              "Spiky Tower retaliates",
+              "When the Tower reflects a spike back at the attackers"
+            ],
+            [
+              "File:SpikyTower hit1.mp3",
+              "Seeking spikes hit",
+              "When the Spiky Tower's spikes hit something"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Spiky Tower1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/74/Spiky_Tower1.png/revision/latest?cb=20261113151953"
+        },
+        {
+          "file": "File:Spiky Tower2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f6/Spiky_Tower2.png/revision/latest?cb=20261113152015"
+        }
+      ],
+      "unverified": [],
+      "hallByLevel": {
+        "1": 19,
+        "2": 19
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Spiky Tower1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/74/Spiky_Tower1.png/revision/latest?cb=20261113151953"
+        },
+        "2": {
+          "file": "File:Spiky Tower2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f6/Spiky_Tower2.png/revision/latest?cb=20261113152015"
+        }
+      }
+    },
+    {
+      "n": "Guardian Shrine",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/4/4d/Guardian_Shrine.png/revision/latest?cb=20261115165801",
+      "source": "https://clashofclans.fandom.com/wiki/Guardian_Shrine",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Hitpoints",
+            "Build Cost",
+            "Build Time",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "2,000",
+              "Free",
+              "None",
+              "19"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Guardian Shrine.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4d/Guardian_Shrine.png/revision/latest?cb=20261115165801"
+        }
+      ],
+      "unverified": [],
+      "quantityByHall": {
+        "19": 1
+      },
+      "unlockHall": 19,
+      "quantityNote": "Placed for free at Town Hall 19 and built instantly. It marks the patrol point for the defending Guardians, which no longer stand on the Town Hall. Placing it is required before the next Town Hall upgrade.",
+      "staticImage": {
+        "file": "File:Guardian Shrine.png",
+        "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4d/Guardian_Shrine.png/revision/latest?cb=20261115165801"
+      }
+    },
+    {
+      "n": "Longshot",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Longshot1.png/revision/latest?cb=20251210013018",
+      "source": "https://clashofclans.fandom.com/wiki/Longshot",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Targets",
+            "Attack Type",
+            "Movement Speed",
+            "Attack Speed",
+            "Range",
+            "Patrol Radius",
+            "Trigger Radius",
+            "Damage Radius",
+            "Death Damage Radius",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "Ground & Air",
+              "Splash Damage",
+              "12",
+              "1.8s",
+              "11 tiles",
+              "17 tiles",
+              "19 tiles",
+              "1 tiles",
+              "3.5 tiles",
+              "Final Blow"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Hitpoints",
+            "Damage Upon Death",
+            "Upgrade Cost (Elixir)",
+            "Upgrade Time"
+          ],
+          "rows": [
+            [
+              "1",
+              "330",
+              "594",
+              "7,000",
+              "1,000",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "360",
+              "648",
+              "8,000",
+              "1,000",
+              "16,500,000",
+              "7d"
+            ],
+            [
+              "3",
+              "390",
+              "702",
+              "9,000",
+              "1,000",
+              "20,000,000",
+              "9d"
+            ],
+            [
+              "4",
+              "420",
+              "756",
+              "10,000",
+              "1,000",
+              "23,000,000",
+              "11d"
+            ],
+            [
+              "5",
+              "450",
+              "810",
+              "11,000",
+              "1,000",
+              "25,000,000",
+              "13d"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Longshot1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Longshot1.png/revision/latest?cb=20251210013018"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 18,
+        "2": 18,
+        "3": 18,
+        "4": 18,
+        "5": 18
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Longshot1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Longshot1.png/revision/latest?cb=20251210013018"
+        },
+        "2": {
+          "file": "File:Longshot1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Longshot1.png/revision/latest?cb=20251210013018"
+        },
+        "3": {
+          "file": "File:Longshot1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Longshot1.png/revision/latest?cb=20251210013018"
+        },
+        "4": {
+          "file": "File:Longshot1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Longshot1.png/revision/latest?cb=20251210013018"
+        },
+        "5": {
+          "file": "File:Longshot1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Longshot1.png/revision/latest?cb=20251210013018"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Longshot",
+        "rawWikitextSha256": "f6915a2dfc89dbd5f7972a5dc04a1f9d158fa971a7a3f31949bf45bed17cd915",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+      },
+      "note": "From TH 19 the Guardians patrol from the Guardian Shrine instead of standing on the Town Hall. Their stats are unchanged so far. Levels 2-5 costs are from Supercell's release notes for the Town Hall 19 update (the wiki lists different numbers)."
+    },
+    {
+      "n": "Smasher",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952",
+      "source": "https://clashofclans.fandom.com/wiki/Smasher",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Targets",
+            "Attack Type",
+            "Movement Speed",
+            "Attack Speed",
+            "Range",
+            "Search Radius",
+            "Trigger Radius",
+            "Damage Radius",
+            "Special Ability",
+            "Rage Speed Increase",
+            "Rage Damage Increase"
+          ],
+          "rows": [
+            [
+              "Ground & Air",
+              "Splash Damage",
+              "20",
+              "1.8s",
+              "1.25 tiles",
+              "12 tiles",
+              "14 tiles",
+              "2.5 tiles",
+              "Sore Loser",
+              "12",
+              "60%"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Hitpoints",
+            "Upgrade Cost (Elixir)",
+            "Upgrade Time"
+          ],
+          "rows": [
+            [
+              "1",
+              "500",
+              "900",
+              "12,000",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "550",
+              "990",
+              "13,000",
+              "15,000,000",
+              "5d"
+            ],
+            [
+              "3",
+              "600",
+              "1,080",
+              "14,000",
+              "18,000,000",
+              "7d"
+            ],
+            [
+              "4",
+              "650",
+              "1,170",
+              "15,000",
+              "21,000,000",
+              "9d"
+            ],
+            [
+              "5",
+              "700",
+              "1,260",
+              "16,000",
+              "23,000,000",
+              "11d"
+            ],
+            [
+              "6",
+              "750",
+              "1,350",
+              "17,000",
+              "24,000,000",
+              "12d"
+            ],
+            [
+              "7",
+              "800",
+              "1,440",
+              "18,000",
+              "25,000,000",
+              "12d 12h"
+            ],
+            [
+              "8",
+              "850",
+              "1,530",
+              "19,000",
+              "26,000,000",
+              "13d"
+            ],
+            [
+              "9",
+              "900",
+              "1,620",
+              "20,000",
+              "27,000,000",
+              "13d 12h"
+            ],
+            [
+              "10",
+              "950",
+              "1,710",
+              "21,000",
+              "28,000,000",
+              "14d"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Smasher1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 18,
+        "2": 18,
+        "3": 18,
+        "4": 18,
+        "5": 18,
+        "6": 19,
+        "7": 19,
+        "8": 19,
+        "9": 19,
+        "10": 19
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Smasher1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
+        },
+        "2": {
+          "file": "File:Smasher1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
+        },
+        "3": {
+          "file": "File:Smasher1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
+        },
+        "4": {
+          "file": "File:Smasher1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
+        },
+        "5": {
+          "file": "File:Smasher1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
+        },
+        "6": {
+          "file": "File:Smasher1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
+        },
+        "7": {
+          "file": "File:Smasher1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
+        },
+        "8": {
+          "file": "File:Smasher1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
+        },
+        "9": {
+          "file": "File:Smasher1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
+        },
+        "10": {
+          "file": "File:Smasher1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Smasher",
+        "rawWikitextSha256": "216704971d034cbfdcc60c94debbf531237a7ad1f3b9659c062dd54de2a18ec8",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+      },
+      "note": "From TH 19 the Guardians patrol from the Guardian Shrine instead of standing on the Town Hall. Their stats are unchanged so far. Levels 2-5 costs are from Supercell's release notes for the Town Hall 19 update (the wiki lists different numbers)."
+    },
+    {
+      "n": "Logger",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Logger1.png/revision/latest?cb=20260426150823",
+      "source": "https://clashofclans.fandom.com/wiki/Logger",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Targets",
+            "Attack Type",
+            "Movement Speed",
+            "Attack Speed",
+            "Range",
+            "Patrol Radius",
+            "Trigger Radius",
+            "Damage Radius",
+            "Pushback Range"
+          ],
+          "rows": [
+            [
+              "Ground & Air",
+              "Splash Damage",
+              "8",
+              "2.5s",
+              "7 tiles",
+              "14 tiles",
+              "15 tiles",
+              "??",
+              "1.5 tiles"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Hitpoints",
+            "Post-Hit Tile Range",
+            "Upgrade Cost (Elixir)",
+            "Upgrade Time"
+          ],
+          "rows": [
+            [
+              "1",
+              "230",
+              "575",
+              "8,000",
+              "5 tiles",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "260",
+              "650",
+              "9,000",
+              "5 tiles",
+              "16,500,000",
+              "7d"
+            ],
+            [
+              "3",
+              "290",
+              "725",
+              "10,000",
+              "5 tiles",
+              "20,000,000",
+              "9d"
+            ],
+            [
+              "4",
+              "320",
+              "800",
+              "11,000",
+              "6 tiles",
+              "23,000,000",
+              "11d"
+            ],
+            [
+              "5",
+              "350",
+              "875",
+              "12,000",
+              "6 tiles",
+              "25,000,000",
+              "13d"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Logger1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Logger1.png/revision/latest?cb=20260426150823"
+        }
+      ],
+      "unverified": [
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 18,
+        "2": 18,
+        "3": 18,
+        "4": 18,
+        "5": 18
+      },
+      "levelImages": {
+        "1": {
+          "file": "File:Logger1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Logger1.png/revision/latest?cb=20260426150823"
+        },
+        "2": {
+          "file": "File:Logger1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Logger1.png/revision/latest?cb=20260426150823"
+        },
+        "3": {
+          "file": "File:Logger1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Logger1.png/revision/latest?cb=20260426150823"
+        },
+        "4": {
+          "file": "File:Logger1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Logger1.png/revision/latest?cb=20260426150823"
+        },
+        "5": {
+          "file": "File:Logger1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Logger1.png/revision/latest?cb=20260426150823"
+        }
+      },
+      "imageVerification": {
+        "checked": "2026-11-03",
+        "page": "Logger",
+        "rawWikitextSha256": "58d42a87fa4735d97b2c7d88a7ec9e7a28eb47d3313f93a4dfd422fdfdfe87ae",
+        "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
+      },
+      "note": "From TH 19 the Guardians patrol from the Guardian Shrine instead of standing on the Town Hall. Their stats are unchanged so far. Levels 2-5 costs are from Supercell's release notes for the Town Hall 19 update (the wiki lists different numbers)."
+    },
+    {
+      "n": "Guardians",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Longshot1.png/revision/latest?cb=20251210013018",
+      "source": "https://clashofclans.fandom.com/wiki/Town_Hall/Guardians",
+      "revision": null,
+      "tables": [],
+      "images": [],
+      "unverified": [],
+      "unlockHall": 19,
+      "staticImage": {
+        "file": "",
+        "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Longshot1.png/revision/latest?cb=20251210013018"
+      },
+      "groupOf": [
+        "Guardian Shrine",
+        "Longshot",
+        "Smasher",
+        "Logger"
+      ],
+      "note": "From TH 19 the Guardians patrol from the Guardian Shrine instead of standing on the Town Hall. Their stats are unchanged so far."
     }
   ],
   "unverified": [],
-  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+  "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 17, 2026, with gaps filled from Supercell's release notes. The wiki is still being updated, so some values may change. TBA = not on the wiki yet. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }

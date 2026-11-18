@@ -646,6 +646,19 @@
      "revision": 625235,
      "rawWikitextSHA256": "ba3a949b1c61dbda2ac601bd0e3374830d97a306f352e280b03add58f4b0d9b0"
     }
+   },
+   "Heroic Spell": {
+    "overview": "A new Elixir spell that boosts troops inside its area: they take less damage, move faster and can jump over walls. It unlocks with Spell Factory level 10 at Town Hall 17, and its last level needs Laboratory 17 (Town Hall 19).",
+    "mechanics": [
+     "Takes 2 housing space and affects ground and air troops within a 5-tile radius.",
+     "Level 1 lasts 9.75 seconds, adds 5 movement speed and cuts incoming damage by 34%. Level 4 lasts 12.75 seconds with +8 speed and 40% less damage taken."
+    ],
+    "strategy": "Cast it where the army meets the heaviest defenses, so troops survive the push into the core and get over walls without a separate Jump Spell.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Heroic_Spell",
+     "revision": 626146,
+     "rawWikitextSHA256": "122fca1457115db44b4edd2cfc474483c92d04a5ea9de0d353da42f5f689fbc4"
+    }
    }
   },
   "dspells": {
@@ -1599,6 +1612,101 @@
      },
      "caption": "A permanent merge replaces the two ingredient buildings with one new defense."
     }
+   },
+   "Firecracker Tower": {
+    "overview": "A merged defense unlocked at Town Hall 19, made by combining a level 21 Archer Tower with a level 7 Scattershot. The Firecracker on top launches rockets that burst on the first target and spray sparks behind it, hitting air and ground.",
+    "mechanics": [
+     "At TH19, permanently merge a level 21 Archer Tower and a level 7 Scattershot into a level 1 Firecracker Tower. The merge can't be undone, and merging all of them is required before the next Town Hall upgrade.",
+     "Each rocket hits the first target for full damage, then splashes units up to 5 tiles behind it. Unlike the Scattershot it has no blind spot up close, and it fires about twice as fast."
+    ],
+    "strategy": "Keep it deep in the base, where it can shred both swarms and tanks. Attackers can outrange it with Flame Flingers or the Royal Champion's Rocket Spear, so cover it with long-range defenses such as Mortars, X-Bows and the Monolith.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Firecracker_Tower",
+     "revision": 626144,
+     "rawWikitextSHA256": "3e723843cbbddecec5e2ad26c271c044dbd4700c88b522a74e9dceeef1c46daa"
+    },
+    "merge": {
+     "ingredients": [
+      {
+       "name": "Archer Tower",
+       "level": 21,
+       "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fa/Archer_Tower21.png/revision/latest?cb=20221223040422"
+      },
+      {
+       "name": "Scattershot",
+       "level": 7,
+       "url": "https://static.wikia.nocookie.net/clashofclans/images/3/37/Scattershot7.png/revision/latest?cb=20260709205916"
+      }
+     ],
+     "result": {
+      "name": "Firecracker Tower",
+      "level": 1,
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/d/df/Firecracker_Tower1.png/revision/latest?cb=20261113172805"
+     },
+     "caption": "A permanent merge replaces the two ingredient buildings with one new defense."
+    }
+   },
+   "Spiky Tower": {
+    "overview": "A Town Hall 19 defense built and upgraded with Dark Elixir. It doesn't look for targets. Instead it hits back at whatever damages it, with spikes that deal a share of the attacker's maximum hitpoints.",
+    "mechanics": [
+     "Two are available at TH19. Every hit it takes is answered, even while it's frozen or the attacker is invisible, with no limit on how fast it retaliates.",
+     "Its damage is a percentage of the attacker's maximum hitpoints (6% at level 1, 9% at level 2), so it hurts Heroes and high-HP troops most. A hit that destroys it outright isn't answered, and damaging Hero Equipment abilities don't trigger it."
+    ],
+    "strategy": "Place it where Heroes and tanks are likely to hit it, and pair it with splash or multi-target defenses that clear low-HP swarms. As an attacker, take it down with spells or cheap low-hitpoint troops rather than Heroes, and avoid many rapid hits from valuable units.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Spiky_Tower",
+     "revision": 626142,
+     "rawWikitextSHA256": "3a84ac3332fd6b3fcd44a7e29e66a83abc4d837e33fd11a26dd522948217fccb"
+    }
+   },
+   "Guardian Shrine": {
+    "overview": "A free building unlocked at Town Hall 19 that marks where the defending Guardians patrol. From TH19 they no longer stand on top of the Town Hall and live at the Shrine instead.",
+    "mechanics": [
+     "Only one is available. It's placed for free, builds instantly and has 2,000 hitpoints.",
+     "Placing it is required before the next Town Hall upgrade."
+    ],
+    "strategy": "Where you put it decides which part of the base the Guardians defend. The Smasher's rage is tied to the Town Hall, not the Shrine, so a Shrine placed away from the Town Hall keeps the Smasher out of the crossfire for longer.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Guardian_Shrine",
+     "revision": 626143,
+     "rawWikitextSHA256": "7f48ec01445aaf08cbabc2e824daba40e2b6fa2157fd72959d59ac87eeb33dd0"
+    }
+   },
+   "Guardians": {
+    "overview": "From TH19 the Guardians live in the Guardian Shrine instead of the Town Hall. The Guardian you choose there defends every layout, and Smasher can reach level 10.",
+    "strategy": "Choose a Guardian to support the layout's defensive plan. Consider the paths that bring attackers into its patrol area.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Town_Hall/Guardians",
+     "revision": 623106,
+     "rawWikitextSHA256": "31cb02ee71a426cc2f15b227dec1c0391639f125ebf200ab075bb0f1c52d5f11"
+    }
+   },
+   "Longshot": {
+    "overview": "A ranged Guardian that defends from the Guardian Shrine at TH19 (the Town Hall at TH18), with an explosive final effect when defeated.",
+    "strategy": "Use its ranged coverage to reinforce an important approach. Account for where attackers will be when it is defeated.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Longshot",
+     "revision": 625038,
+     "rawWikitextSHA256": "f6915a2dfc89dbd5f7972a5dc04a1f9d158fa971a7a3f31949bf45bed17cd915"
+    }
+   },
+   "Smasher": {
+    "overview": "A melee Guardian that protects the village from the Guardian Shrine at TH19 (the Town Hall at TH18) and reacts to the destruction of its Town Hall with a Rage effect.",
+    "strategy": "Use it where attackers must fight near its patrol route. Its value depends on the order in which the Town Hall and nearby defenses are taken down.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Smasher",
+     "revision": 625037,
+     "rawWikitextSHA256": "216704971d034cbfdcc60c94debbf531237a7ad1f3b9659c062dd54de2a18ec8"
+    }
+   },
+   "Logger": {
+    "overview": "A Guardian (Town Hall at TH18, Guardian Shrine from TH19) that carries a large log and can fight both ground and air attackers.",
+    "strategy": "Choose it as part of a coordinated defensive layout. Check how its patrol area and attacks support the defenses on likely entry routes.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Logger",
+     "revision": 625760,
+     "rawWikitextSHA256": "58d42a87fa4735d97b2c7d88a7ec9e7a28eb47d3313f93a4dfd422fdfdfe87ae"
+    }
    }
   },
   "traps": {
@@ -1783,6 +1891,19 @@
      "revision": 623293,
      "rawWikitextSHA256": "c925efb1709c40e76776d57c7efc5f737132de6dce5dff32a595426ed13fd6be"
     }
+   },
+   "Squad Barracks": {
+    "overview": "The building that trains Squads: fixed groups of troops that deploy together in a set formation and use less housing space than the same troops trained one by one. It unlocks at Town Hall 8, and each of its 12 levels unlocks one squad, up to the Baby Dragon Squad at level 12 (Town Hall 19).",
+    "mechanics": [
+     "Training squads costs no resources or time, and the Squad Barracks keeps training while it's being upgraded. Squads live in the Army Camps like normal troops but can't be donated.",
+     "Squad troops use your researched troop levels. From Laboratory 17 (Town Hall 19) squads can be upgraded to level 2 and up, which unlocks each squad's ability, such as Stealthy Start for the Wall Breaker Squad or Focus Attack for the P.E.K.K.A Titan Squad."
+    ],
+    "strategy": "Upgrade it toward the squads that suit your attacks; the troops inside still get stronger with normal Laboratory research. A squad's own housing space is what counts toward the Eagle Artillery and Monolith triggers.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Squad_Barracks",
+     "revision": 626260,
+     "rawWikitextSHA256": "88cfea8b3ff3c45c7b21b370a0c1fc55f27cbb73ff58f47d45f1eac4353680c5"
+    }
    }
   },
   "resource": {
@@ -1927,6 +2048,19 @@
      "The rows represent Town Hall stages, not independent weapon upgrade levels.",
      "TH13 adds a slowing destruction effect; TH14-16 have a poison aftermath. Inferno Artillery replaces the weapon at TH17."
     ]
+   },
+   "Town Hall/Town Hall Troops": {
+    "overview": "From Town Hall 19 the Town Hall can hold defending troops, much like a Clan Castle, while the Guardians move out to the Guardian Shrine. You pick Barbarians, Archers or Wizards, and the choice also changes how the Town Hall looks.",
+    "mechanics": [
+     "Barbarian Hall releases 15 Barbarians in groups of 3, Archer Hall 15 Archers in groups of 4, and Wizard Hall 4 Wizards. Archer and Wizard Hall need that troop at level 15. Original keeps the classic look with no troops.",
+     "The troops come out when an attacker gets within 13 tiles, announced by the horn on top, and use your own researched troop levels. Freezing or Overgrowth on the Town Hall doesn't stop them, and units that don't trigger the Clan Castle (such as Skeletons) don't trigger them either."
+    ],
+    "strategy": "Barbarians only fight ground troops, Archers cover air and ground in numbers, and Wizards hit both but there are only four. Pick the mode that answers the attacks you see most; you can switch at any time.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Town_Hall",
+     "revision": 626122,
+     "rawWikitextSHA256": "62602f428b1a2f0e46f71a7d633b640f8b913b96f99e628143f27c491f042133"
+    }
    }
   },
   "crafted": {
@@ -2419,36 +2553,9 @@
      "rawWikitextSHA256": "0b749e61b6d0a8e42057f963821d890d15ce60c6fffcc130ba303165badedfb4"
     }
    },
-   "Air Defense": {
-    "overview": "Supercharging Air Defense adds improvements after its normal maximum level. Earlier charges can be retired when a new normal building level arrives, so check the current charge rules before investing.",
-    "strategy": "Protect it from easy ground access and spread air coverage across the base. Avoid giving one spell combination value against several important air defenses.",
-    "source": {
-     "url": "https://clashofclans.fandom.com/wiki/Supercharge",
-     "revision": 625754,
-     "rawWikitextSHA256": "0b749e61b6d0a8e42057f963821d890d15ce60c6fffcc130ba303165badedfb4"
-    }
-   },
-   "Hidden Tesla": {
-    "overview": "Supercharging Hidden Tesla adds improvements after its normal maximum level. Earlier charges can be retired when a new normal building level arrives, so check the current charge rules before investing.",
-    "strategy": "Use its surprise appearance to disrupt an entry or cleanup. Grouping Teslas can create a sudden damage spike, while spreading them creates more separate distractions.",
-    "source": {
-     "url": "https://clashofclans.fandom.com/wiki/Supercharge",
-     "revision": 625754,
-     "rawWikitextSHA256": "0b749e61b6d0a8e42057f963821d890d15ce60c6fffcc130ba303165badedfb4"
-    }
-   },
    "Bomb Tower": {
     "overview": "Supercharging Bomb Tower adds improvements after its normal maximum level. Earlier charges can be retired when a new normal building level arrives, so check the current charge rules before investing.",
     "strategy": "Place it on likely paths for grouped ground troops. The destruction blast can punish an army that stays tightly packed around it.",
-    "source": {
-     "url": "https://clashofclans.fandom.com/wiki/Supercharge",
-     "revision": 625754,
-     "rawWikitextSHA256": "0b749e61b6d0a8e42057f963821d890d15ce60c6fffcc130ba303165badedfb4"
-    }
-   },
-   "X-Bow": {
-    "overview": "Supercharging X-Bow adds improvements after its normal maximum level. Earlier charges can be retired when a new normal building level arrives, so check the current charge rules before investing.",
-    "strategy": "Choose the mode to match the rest of the base's coverage. Its sustained damage is especially threatening when attackers cannot reach it quickly.",
     "source": {
      "url": "https://clashofclans.fandom.com/wiki/Supercharge",
      "revision": 625754,
@@ -2473,45 +2580,9 @@
      "rawWikitextSHA256": "0b749e61b6d0a8e42057f963821d890d15ce60c6fffcc130ba303165badedfb4"
     }
    },
-   "Builder's Hut": {
-    "overview": "Supercharging Builder's Hut adds improvements after its normal maximum level. Earlier charges can be retired when a new normal building level arrives, so check the current charge rules before investing.",
-    "strategy": "Place repair coverage around important structures. Watch for layouts that let splash damage hit the Hut and its protected building together.",
-    "source": {
-     "url": "https://clashofclans.fandom.com/wiki/Supercharge",
-     "revision": 625754,
-     "rawWikitextSHA256": "0b749e61b6d0a8e42057f963821d890d15ce60c6fffcc130ba303165badedfb4"
-    }
-   },
    "Monolith": {
     "overview": "Supercharging Monolith adds improvements after its normal maximum level. Earlier charges can be retired when a new normal building level arrives, so check the current charge rules before investing.",
     "strategy": "Protect it from swarms and long-range access. Pair it with splash or control so the attacker cannot cheaply overwhelm its single-target fire.",
-    "source": {
-     "url": "https://clashofclans.fandom.com/wiki/Supercharge",
-     "revision": 625754,
-     "rawWikitextSHA256": "0b749e61b6d0a8e42057f963821d890d15ce60c6fffcc130ba303165badedfb4"
-    }
-   },
-   "Multi-Archer Tower": {
-    "overview": "Supercharging Multi-Archer Tower adds improvements after its normal maximum level. Earlier charges can be retired when a new normal building level arrives, so check the current charge rules before investing.",
-    "strategy": "Use it to cover both air and ground routes. Its flexible targeting complements defenses that focus on one large target.",
-    "source": {
-     "url": "https://clashofclans.fandom.com/wiki/Supercharge",
-     "revision": 625754,
-     "rawWikitextSHA256": "0b749e61b6d0a8e42057f963821d890d15ce60c6fffcc130ba303165badedfb4"
-    }
-   },
-   "Ricochet Cannon": {
-    "overview": "Supercharging Ricochet Cannon adds improvements after its normal maximum level. Earlier charges can be retired when a new normal building level arrives, so check the current charge rules before investing.",
-    "strategy": "Use it along routes where several ground units are likely to travel together. Give the compartment anti-air support because the cannon cannot handle flying attackers.",
-    "source": {
-     "url": "https://clashofclans.fandom.com/wiki/Supercharge",
-     "revision": 625754,
-     "rawWikitextSHA256": "0b749e61b6d0a8e42057f963821d890d15ce60c6fffcc130ba303165badedfb4"
-    }
-   },
-   "Multi-Gear Tower": {
-    "overview": "Supercharging Multi-Gear Tower adds improvements after its normal maximum level. Earlier charges can be retired when a new normal building level arrives, so check the current charge rules before investing.",
-    "strategy": "Choose the mode that best supports the surrounding compartment. Its flexibility does not replace a plan for how attackers enter and distract it.",
     "source": {
      "url": "https://clashofclans.fandom.com/wiki/Supercharge",
      "revision": 625754,
@@ -2544,33 +2615,6 @@
      "revision": 625754,
      "rawWikitextSHA256": "0b749e61b6d0a8e42057f963821d890d15ce60c6fffcc130ba303165badedfb4"
     }
-   },
-   "Gold Mine": {
-    "overview": "Supercharging Gold Mine adds improvements after its normal maximum level. Earlier charges can be retired when a new normal building level arrives, so check the current charge rules before investing.",
-    "strategy": "Collect regularly so production does not sit at full capacity. Exposed mines can also influence how attackers shape a funnel.",
-    "source": {
-     "url": "https://clashofclans.fandom.com/wiki/Supercharge",
-     "revision": 625847,
-     "rawWikitextSHA256": "7cf93abe18359cb96e20a7a30b5d58053d0e1e931352e0401422a9158ed09e5e"
-    }
-   },
-   "Elixir Collector": {
-    "overview": "Supercharging Elixir Collector adds improvements after its normal maximum level. Earlier charges can be retired when a new normal building level arrives, so check the current charge rules before investing.",
-    "strategy": "Keep collection and upgrade plans aligned so useful production is not lost to full storage. Consider its position when planning outside buildings and defensive coverage.",
-    "source": {
-     "url": "https://clashofclans.fandom.com/wiki/Supercharge",
-     "revision": 625754,
-     "rawWikitextSHA256": "0b749e61b6d0a8e42057f963821d890d15ce60c6fffcc130ba303165badedfb4"
-    }
-   },
-   "Dark Elixir Drill": {
-    "overview": "Supercharging Dark Elixir Drill adds improvements after its normal maximum level. Earlier charges can be retired when a new normal building level arrives, so check the current charge rules before investing.",
-    "strategy": "Collect often and plan expensive upgrades ahead. Its position can attract resource-focused attackers and change their entry route.",
-    "source": {
-     "url": "https://clashofclans.fandom.com/wiki/Supercharge",
-     "revision": 625754,
-     "rawWikitextSHA256": "0b749e61b6d0a8e42057f963821d890d15ce60c6fffcc130ba303165badedfb4"
-    }
    }
   },
   "bbwalls": {
@@ -2581,6 +2625,125 @@
      "url": "https://clashofclans.fandom.com/wiki/Wall/Builder_Base",
      "revision": 589052,
      "rawWikitextSHA256": "33c87d2603839930ed8e7ed68975c489adaab5b0e84f06650792b1f0cdcc90c7"
+    }
+   }
+  },
+  "squads": {
+   "Barch Squad": {
+    "overview": "A squad of 15 Barbarians, 15 Archers that deploys in one tap for 15 housing space, unlocked at TH 8. Its troops use your own Laboratory levels; at TH19 it can be upgraded for its Splash Resistance ability.",
+    "strategy": "Use it where you would deploy the same troops one by one: it saves housing space and taps. Mix it with normal troops to keep the ratio you like.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Squads",
+     "revision": 626353,
+     "rawWikitextSHA256": "0fc5f44dc75385accbe838a96dd3dfdd87e3580b50282d35b3197f00d6a9b416"
+    }
+   },
+   "Giant Wizard Squad": {
+    "overview": "A squad of 3 Giants, 5 Wizards that deploys in one tap for 25 housing space, unlocked at TH 9. Its troops use your own Laboratory levels; at TH19 it can be upgraded for its Splash Resistance ability.",
+    "strategy": "Use it where you would deploy the same troops one by one: it saves housing space and taps. Mix it with normal troops to keep the ratio you like.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Squads",
+     "revision": 626353,
+     "rawWikitextSHA256": "0fc5f44dc75385accbe838a96dd3dfdd87e3580b50282d35b3197f00d6a9b416"
+    }
+   },
+   "Wall Breaker Squad": {
+    "overview": "A squad of 5 Wall Breakers that deploys in one tap for 8 housing space, unlocked at TH 10. Its troops use your own Laboratory levels; at TH19 it can be upgraded for its Stealthy Start ability.",
+    "strategy": "Use it where you would deploy the same troops one by one: it saves housing space and taps. Mix it with normal troops to keep the ratio you like.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Squads",
+     "revision": 626353,
+     "rawWikitextSHA256": "0fc5f44dc75385accbe838a96dd3dfdd87e3580b50282d35b3197f00d6a9b416"
+    }
+   },
+   "Minion Squad": {
+    "overview": "A squad of 8 Minions that deploys in one tap for 12 housing space, unlocked at TH 11. Its troops use your own Laboratory levels; at TH19 it can be upgraded for its Splash Resistance ability.",
+    "strategy": "Use it where you would deploy the same troops one by one: it saves housing space and taps. Mix it with normal troops to keep the ratio you like.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Squads",
+     "revision": 626353,
+     "rawWikitextSHA256": "0fc5f44dc75385accbe838a96dd3dfdd87e3580b50282d35b3197f00d6a9b416"
+    }
+   },
+   "Balloon Squad": {
+    "overview": "A squad of 4 Balloons that deploys in one tap for 16 housing space, unlocked at TH 12. Its troops use your own Laboratory levels; at TH19 it can be upgraded for its Trap Sense ability.",
+    "strategy": "Use it where you would deploy the same troops one by one: it saves housing space and taps. Mix it with normal troops to keep the ratio you like.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Squads",
+     "revision": 626353,
+     "rawWikitextSHA256": "0fc5f44dc75385accbe838a96dd3dfdd87e3580b50282d35b3197f00d6a9b416"
+    }
+   },
+   "Golem Witch Squad": {
+    "overview": "A squad of 1 Golem, 4 Witches that deploys in one tap for 55 housing space, unlocked at TH 13. Its troops use your own Laboratory levels; at TH19 it can be upgraded for its Splash Resistance ability.",
+    "strategy": "Use it where you would deploy the same troops one by one: it saves housing space and taps. Mix it with normal troops to keep the ratio you like.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Squads",
+     "revision": 626353,
+     "rawWikitextSHA256": "0fc5f44dc75385accbe838a96dd3dfdd87e3580b50282d35b3197f00d6a9b416"
+    }
+   },
+   "Hog Rider Squad": {
+    "overview": "A squad of 12 Hog Riders that deploys in one tap for 48 housing space, unlocked at TH 14. Its troops use your own Laboratory levels; at TH19 it can be upgraded for its Trap Sense ability.",
+    "strategy": "Use it where you would deploy the same troops one by one: it saves housing space and taps. Mix it with normal troops to keep the ratio you like.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Squads",
+     "revision": 626353,
+     "rawWikitextSHA256": "0fc5f44dc75385accbe838a96dd3dfdd87e3580b50282d35b3197f00d6a9b416"
+    }
+   },
+   "Miner Squad": {
+    "overview": "A squad of 10 Miners that deploys in one tap for 48 housing space, unlocked at TH 15. Its troops use your own Laboratory levels; at TH19 it can be upgraded for its Trap Sense ability.",
+    "strategy": "Use it where you would deploy the same troops one by one: it saves housing space and taps. Mix it with normal troops to keep the ratio you like.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Squads",
+     "revision": 626353,
+     "rawWikitextSHA256": "0fc5f44dc75385accbe838a96dd3dfdd87e3580b50282d35b3197f00d6a9b416"
+    }
+   },
+   "Healer Squad": {
+    "overview": "A squad of 1 Balloon, 5 Healers that deploys in one tap for 70 housing space, unlocked at TH 16. Its troops use your own Laboratory levels; at TH19 it can be upgraded for its Shielded Start ability.",
+    "strategy": "Use it where you would deploy the same troops one by one: it saves housing space and taps. Mix it with normal troops to keep the ratio you like.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Squads",
+     "revision": 626353,
+     "rawWikitextSHA256": "0fc5f44dc75385accbe838a96dd3dfdd87e3580b50282d35b3197f00d6a9b416"
+    }
+   },
+   "P.E.K.K.A Titan Squad": {
+    "overview": "A squad of 1 P.E.K.K.A, 1 Electro Titan that deploys in one tap for 46 housing space, unlocked at TH 17. Its troops use your own Laboratory levels; at TH19 it can be upgraded for its Focus Attack ability.",
+    "strategy": "Use it where you would deploy the same troops one by one: it saves housing space and taps. Mix it with normal troops to keep the ratio you like.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Squads",
+     "revision": 626353,
+     "rawWikitextSHA256": "0fc5f44dc75385accbe838a96dd3dfdd87e3580b50282d35b3197f00d6a9b416"
+    }
+   },
+   "Dragons Squad": {
+    "overview": "A squad of 2 Dragons, 2 Dragon Riders that deploys in one tap for 85 housing space, unlocked at TH 18. Its troops use your own Laboratory levels; at TH19 it can be upgraded for its Shielded Start ability.",
+    "strategy": "Use it where you would deploy the same troops one by one: it saves housing space and taps. Mix it with normal troops to keep the ratio you like.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Squads",
+     "revision": 626353,
+     "rawWikitextSHA256": "0fc5f44dc75385accbe838a96dd3dfdd87e3580b50282d35b3197f00d6a9b416"
+    }
+   },
+   "Baby Dragon Squad": {
+    "overview": "A squad of 3 Baby Dragons that deploys in one tap for 26 housing space, unlocked at TH 19. Its troops use your own Laboratory levels; at TH19 it can be upgraded for its Tantrum ability.",
+    "strategy": "Use it where you would deploy the same troops one by one: it saves housing space and taps. Mix it with normal troops to keep the ratio you like.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Squads",
+     "revision": 626353,
+     "rawWikitextSHA256": "0fc5f44dc75385accbe838a96dd3dfdd87e3580b50282d35b3197f00d6a9b416"
+    }
+   },
+   "Squad Abilities": {
+    "overview": "Squads gain one of six abilities at squad level 2, which needs Laboratory 17 at TH19: Splash Resistance, Stealthy Start, Trap Sense, Shielded Start, Focus Attack or Tantrum. Level 3 strengthens it or lowers the squad's housing space.",
+    "strategy": "Pick squads whose ability covers the threat your army fears most, such as Trap Sense for Hog Riders and Miners or Splash Resistance for swarms.",
+    "source": {
+     "url": "https://clashofclans.fandom.com/wiki/Squads",
+     "revision": 626353,
+     "rawWikitextSHA256": "0fc5f44dc75385accbe838a96dd3dfdd87e3580b50282d35b3197f00d6a9b416"
     }
    }
   }

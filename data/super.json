@@ -2,7 +2,7 @@
   "id": "super",
   "label": "Super Troops",
   "format": "wiki-review-v1",
-  "updated": "2026-11-03",
+  "updated": "2026-11-03; Town Hall 19 update read Nov 17, 2026",
   "units": [
     {
       "n": "Super Barbarian",
@@ -139,6 +139,16 @@
               "12d 12h",
               "16",
               "18"
+            ],
+            [
+              "14",
+              "TBA",
+              "TBA",
+              "TBA",
+              "30,000,000",
+              "13d 12h",
+              "17",
+              "19"
             ]
           ]
         }
@@ -160,7 +170,8 @@
         "10": 14,
         "11": 15,
         "12": 16,
-        "13": 18
+        "13": 18,
+        "14": 19
       },
       "baseResearch": {
         "1": {
@@ -236,23 +247,30 @@
         "11": {
           "townHall": 15,
           "laboratory": 13,
-          "cost": 6000000,
+          "cost": 5000000,
           "resource": "Elixir",
-          "time": "3d"
+          "time": "2d 12h"
         },
         "12": {
           "townHall": 16,
           "laboratory": 14,
-          "cost": 8000000,
+          "cost": 6000000,
           "resource": "Elixir",
-          "time": "4d"
+          "time": "3d"
         },
         "13": {
           "townHall": 18,
           "laboratory": 16,
-          "cost": 24000000,
+          "cost": 18000000,
           "resource": "Elixir",
-          "time": "12d 12h"
+          "time": "9d"
+        },
+        "14": {
+          "townHall": 19,
+          "laboratory": 17,
+          "cost": 30000000,
+          "resource": "Elixir",
+          "time": "13d 12h"
         }
       },
       "boost": {
@@ -438,6 +456,16 @@
               "13d 12h",
               "16",
               "18"
+            ],
+            [
+              "15",
+              "TBA",
+              "TBA",
+              "TBA",
+              "31,000,000",
+              "14d",
+              "17",
+              "19"
             ]
           ]
         }
@@ -464,7 +492,8 @@
         "11": 15,
         "12": 16,
         "13": 17,
-        "14": 18
+        "14": 18,
+        "15": 19
       },
       "baseResearch": {
         "1": {
@@ -533,37 +562,44 @@
         "10": {
           "townHall": 14,
           "laboratory": 12,
-          "cost": 4500000,
+          "cost": 3800000,
           "resource": "Elixir",
-          "time": "3d"
+          "time": "2d 12h"
         },
         "11": {
           "townHall": 15,
           "laboratory": 13,
-          "cost": 6500000,
+          "cost": 5500000,
           "resource": "Elixir",
-          "time": "4d"
+          "time": "3d 12h"
         },
         "12": {
           "townHall": 16,
           "laboratory": 14,
-          "cost": 9000000,
+          "cost": 8000000,
           "resource": "Elixir",
-          "time": "4d 12h"
+          "time": "4d"
         },
         "13": {
           "townHall": 17,
           "laboratory": 15,
-          "cost": 14000000,
+          "cost": 11000000,
           "resource": "Elixir",
-          "time": "9d"
+          "time": "7d"
         },
         "14": {
           "townHall": 18,
           "laboratory": 16,
-          "cost": 25000000,
+          "cost": 19000000,
           "resource": "Elixir",
-          "time": "13d 12h"
+          "time": "9d"
+        },
+        "15": {
+          "townHall": 19,
+          "laboratory": 17,
+          "cost": 31000000,
+          "resource": "Elixir",
+          "time": "14d"
         }
       },
       "boost": {
@@ -746,6 +782,17 @@
               "13d 12h",
               "16",
               "18"
+            ],
+            [
+              "15",
+              "235",
+              "470",
+              "2,350",
+              "6,300",
+              "29,500,000",
+              "13d",
+              "17",
+              "19"
             ]
           ]
         }
@@ -767,7 +814,8 @@
         "11": 15,
         "12": 16,
         "13": 17,
-        "14": 18
+        "14": 18,
+        "15": 19
       },
       "baseResearch": {
         "1": {
@@ -836,37 +884,44 @@
         "10": {
           "townHall": 13,
           "laboratory": 11,
-          "cost": 5000000,
+          "cost": 4600000,
           "resource": "Elixir",
-          "time": "3d"
+          "time": "2d 18h"
         },
         "11": {
           "townHall": 15,
           "laboratory": 13,
-          "cost": 7500000,
+          "cost": 6500000,
           "resource": "Elixir",
-          "time": "4d"
+          "time": "3d 12h"
         },
         "12": {
           "townHall": 16,
           "laboratory": 14,
-          "cost": 10000000,
+          "cost": 8000000,
           "resource": "Elixir",
-          "time": "5d"
+          "time": "4d"
         },
         "13": {
           "townHall": 17,
           "laboratory": 15,
-          "cost": 15000000,
+          "cost": 10500000,
           "resource": "Elixir",
-          "time": "9d 12h"
+          "time": "6d 12h"
         },
         "14": {
           "townHall": 18,
           "laboratory": 16,
-          "cost": 25000000,
+          "cost": 20000000,
           "resource": "Elixir",
-          "time": "13d 12h"
+          "time": "8d"
+        },
+        "15": {
+          "townHall": 19,
+          "laboratory": 17,
+          "cost": 29500000,
+          "resource": "Elixir",
+          "time": "13d"
         }
       },
       "boost": {
@@ -1027,6 +1082,17 @@
               "14d",
               "16",
               "18"
+            ],
+            [
+              "11",
+              "200",
+              "200",
+              "400",
+              "410",
+              "22,000,000",
+              "10d 12h",
+              "17",
+              "19"
             ]
           ]
         }
@@ -1050,7 +1116,8 @@
         "7": 11,
         "8": 12,
         "9": 15,
-        "10": 18
+        "10": 18,
+        "11": 19
       },
       "baseResearch": {
         "1": {
@@ -1105,23 +1172,30 @@
         "8": {
           "townHall": 12,
           "laboratory": 10,
-          "cost": 3700000,
+          "cost": 3300000,
           "resource": "Elixir",
-          "time": "2d 6h"
+          "time": "2d"
         },
         "9": {
           "townHall": 15,
           "laboratory": 13,
-          "cost": 8000000,
+          "cost": 5500000,
           "resource": "Elixir",
-          "time": "5d"
+          "time": "3d 12h"
         },
         "10": {
           "townHall": 18,
           "laboratory": 16,
-          "cost": 26000000,
+          "cost": 15000000,
           "resource": "Elixir",
-          "time": "14d"
+          "time": "8d 12h"
+        },
+        "11": {
+          "townHall": 19,
+          "laboratory": 17,
+          "cost": 22000000,
+          "resource": "Elixir",
+          "time": "10d 12h"
         }
       },
       "boost": {
@@ -1333,6 +1407,18 @@
               "14d",
               "16",
               "18"
+            ],
+            [
+              "15",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "29,000,000",
+              "12d 12h",
+              "17",
+              "19"
             ]
           ]
         }
@@ -1390,7 +1476,8 @@
         "11": 15,
         "12": 16,
         "13": 17,
-        "14": 18
+        "14": 18,
+        "15": 19
       },
       "baseResearch": {
         "1": {
@@ -1445,51 +1532,58 @@
         "8": {
           "townHall": 12,
           "laboratory": 10,
-          "cost": 3800000,
+          "cost": 3200000,
           "resource": "Elixir",
-          "time": "2d 12h"
+          "time": "2d"
         },
         "9": {
           "townHall": 13,
           "laboratory": 11,
-          "cost": 5200000,
+          "cost": 4300000,
           "resource": "Elixir",
-          "time": "3d"
+          "time": "2d 12h"
         },
         "10": {
           "townHall": 14,
           "laboratory": 12,
-          "cost": 6500000,
+          "cost": 5000000,
           "resource": "Elixir",
-          "time": "5d"
+          "time": "4d"
         },
         "11": {
           "townHall": 15,
           "laboratory": 13,
-          "cost": 9500000,
+          "cost": 8000000,
           "resource": "Elixir",
-          "time": "5d 12h"
+          "time": "4d 12h"
         },
         "12": {
           "townHall": 16,
           "laboratory": 14,
-          "cost": 11000000,
+          "cost": 9000000,
           "resource": "Elixir",
-          "time": "6d"
+          "time": "5d"
         },
         "13": {
           "townHall": 17,
           "laboratory": 15,
-          "cost": 15500000,
+          "cost": 10000000,
           "resource": "Elixir",
-          "time": "10d"
+          "time": "6d 12h"
         },
         "14": {
           "townHall": 18,
           "laboratory": 16,
-          "cost": 26000000,
+          "cost": 19000000,
           "resource": "Elixir",
-          "time": "14d"
+          "time": "9d"
+        },
+        "15": {
+          "townHall": 19,
+          "laboratory": 17,
+          "cost": 29000000,
+          "resource": "Elixir",
+          "time": "12d 12h"
         }
       },
       "boost": {
@@ -1676,6 +1770,17 @@
               "14d 18h",
               "16",
               "18"
+            ],
+            [
+              "14",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "28,000,000",
+              "12d",
+              "17",
+              "19"
             ]
           ]
         }
@@ -1693,7 +1798,8 @@
         "10": 14,
         "11": 16,
         "12": 17,
-        "13": 18
+        "13": 18,
+        "14": 19
       },
       "specialLevelTables": [
         {
@@ -1797,9 +1903,9 @@
         "9": {
           "townHall": 13,
           "laboratory": 11,
-          "cost": 7000000,
+          "cost": 6000000,
           "resource": "Elixir",
-          "time": "4d 12h"
+          "time": "4d"
         },
         "10": {
           "townHall": 14,
@@ -1811,23 +1917,30 @@
         "11": {
           "townHall": 16,
           "laboratory": 14,
-          "cost": 14000000,
+          "cost": 13000000,
           "resource": "Elixir",
-          "time": "8d 12h"
+          "time": "8d"
         },
         "12": {
           "townHall": 17,
           "laboratory": 15,
-          "cost": 17500000,
+          "cost": 15500000,
           "resource": "Elixir",
-          "time": "11d"
+          "time": "10d"
         },
         "13": {
           "townHall": 18,
           "laboratory": 16,
+          "cost": 22500000,
+          "resource": "Elixir",
+          "time": "11d 12h"
+        },
+        "14": {
+          "townHall": 19,
+          "laboratory": 17,
           "cost": 28000000,
           "resource": "Elixir",
-          "time": "14d 18h"
+          "time": "12d"
         }
       },
       "boost": {
@@ -2014,6 +2127,17 @@
               "14d",
               "16",
               "18"
+            ],
+            [
+              "15",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "32,000,000",
+              "14d 12h",
+              "17",
+              "19"
             ]
           ]
         }
@@ -2035,7 +2159,8 @@
         "11": 15,
         "12": 16,
         "13": 17,
-        "14": 18
+        "14": 18,
+        "15": 19
       },
       "baseResearch": {
         "1": {
@@ -2104,37 +2229,44 @@
         "10": {
           "townHall": 13,
           "laboratory": 11,
-          "cost": 5500000,
+          "cost": 4700000,
           "resource": "Elixir",
-          "time": "3d 12h"
+          "time": "3d"
         },
         "11": {
           "townHall": 15,
           "laboratory": 13,
-          "cost": 10000000,
+          "cost": 7000000,
           "resource": "Elixir",
-          "time": "5d 12h"
+          "time": "4d 12h"
         },
         "12": {
           "townHall": 16,
           "laboratory": 14,
-          "cost": 11500000,
+          "cost": 9000000,
           "resource": "Elixir",
           "time": "7d"
         },
         "13": {
           "townHall": 17,
           "laboratory": 15,
-          "cost": 16000000,
+          "cost": 11500000,
           "resource": "Elixir",
-          "time": "10d 12h"
+          "time": "7d 12h"
         },
         "14": {
           "townHall": 18,
           "laboratory": 16,
-          "cost": 27000000,
+          "cost": 21000000,
           "resource": "Elixir",
-          "time": "14d"
+          "time": "9d"
+        },
+        "15": {
+          "townHall": 19,
+          "laboratory": 17,
+          "cost": 32000000,
+          "resource": "Elixir",
+          "time": "14d 12h"
         }
       },
       "boost": {
@@ -2324,6 +2456,16 @@
               "15d",
               "16",
               "18"
+            ],
+            [
+              "14",
+              "TBA",
+              "TBA",
+              "TBA",
+              "28,500,000",
+              "12d 12h",
+              "17",
+              "19"
             ]
           ]
         }
@@ -2342,7 +2484,8 @@
         "10": 15,
         "11": 16,
         "12": 17,
-        "13": 18
+        "13": 18,
+        "14": 19
       },
       "specialLevelTables": [
         {
@@ -2463,23 +2606,30 @@
         "11": {
           "townHall": 16,
           "laboratory": 14,
-          "cost": 14000000,
+          "cost": 13500000,
           "resource": "Elixir",
-          "time": "8d 12h"
+          "time": "8d"
         },
         "12": {
           "townHall": 17,
           "laboratory": 15,
-          "cost": 18500000,
+          "cost": 15500000,
           "resource": "Elixir",
-          "time": "10d"
+          "time": "8d 12h"
         },
         "13": {
           "townHall": 18,
           "laboratory": 16,
+          "cost": 21000000,
+          "resource": "Elixir",
+          "time": "11d 12h"
+        },
+        "14": {
+          "townHall": 19,
+          "laboratory": 17,
           "cost": 28500000,
           "resource": "Elixir",
-          "time": "15d"
+          "time": "12d 12h"
         }
       },
       "boost": {
@@ -2673,6 +2823,17 @@
               "15d 6h",
               "16",
               "18"
+            ],
+            [
+              "13",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "29,000,000",
+              "12d 12h",
+              "17",
+              "19"
             ]
           ]
         }
@@ -2695,7 +2856,8 @@
         "9": 15,
         "10": 16,
         "11": 17,
-        "12": 18
+        "12": 18,
+        "13": 19
       },
       "baseResearch": {
         "1": {
@@ -2743,16 +2905,16 @@
         "7": {
           "townHall": 13,
           "laboratory": 11,
-          "cost": 6200000,
+          "cost": 5500000,
           "resource": "Elixir",
-          "time": "4d"
+          "time": "3d 12h"
         },
         "8": {
           "townHall": 14,
           "laboratory": 12,
-          "cost": 9500000,
+          "cost": 8500000,
           "resource": "Elixir",
-          "time": "6d"
+          "time": "5d 12h"
         },
         "9": {
           "townHall": 15,
@@ -2771,16 +2933,23 @@
         "11": {
           "townHall": 17,
           "laboratory": 15,
-          "cost": 16500000,
+          "cost": 15000000,
           "resource": "Elixir",
-          "time": "10d"
+          "time": "7d 12h"
         },
         "12": {
           "townHall": 18,
           "laboratory": 16,
+          "cost": 21000000,
+          "resource": "Elixir",
+          "time": "11d"
+        },
+        "13": {
+          "townHall": 19,
+          "laboratory": 17,
           "cost": 29000000,
           "resource": "Elixir",
-          "time": "15d 6h"
+          "time": "12d 12h"
         }
       },
       "boost": {
@@ -2978,6 +3147,18 @@
               "14d 12h",
               "16",
               "18"
+            ],
+            [
+              "13",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "28,000,000",
+              "11d",
+              "17",
+              "19"
             ]
           ]
         }
@@ -2999,7 +3180,8 @@
         "9": 15,
         "10": 16,
         "11": 17,
-        "12": 18
+        "12": 18,
+        "13": 19
       },
       "baseResearch": {
         "1": {
@@ -3047,44 +3229,51 @@
         "7": {
           "townHall": 13,
           "laboratory": 11,
-          "cost": 6000000,
+          "cost": 5500000,
           "resource": "Elixir",
-          "time": "4d"
+          "time": "3d 12h"
         },
         "8": {
           "townHall": 14,
           "laboratory": 12,
-          "cost": 8600000,
+          "cost": 7000000,
           "resource": "Elixir",
-          "time": "6d"
+          "time": "5d"
         },
         "9": {
           "townHall": 15,
           "laboratory": 13,
-          "cost": 10500000,
+          "cost": 9000000,
           "resource": "Elixir",
-          "time": "6d 12h"
+          "time": "5d 12h"
         },
         "10": {
           "townHall": 16,
           "laboratory": 14,
-          "cost": 12500000,
+          "cost": 10500000,
           "resource": "Elixir",
-          "time": "7d"
+          "time": "6d"
         },
         "11": {
           "townHall": 17,
           "laboratory": 15,
-          "cost": 16500000,
+          "cost": 12000000,
           "resource": "Elixir",
-          "time": "9d 12h"
+          "time": "6d 12h"
         },
         "12": {
           "townHall": 18,
           "laboratory": 16,
+          "cost": 19000000,
+          "resource": "Elixir",
+          "time": "8d"
+        },
+        "13": {
+          "townHall": 19,
+          "laboratory": 17,
           "cost": 28000000,
           "resource": "Elixir",
-          "time": "14d 12h"
+          "time": "11d"
         }
       },
       "boost": {
@@ -3269,6 +3458,17 @@
               "15d 12h",
               "16",
               "18"
+            ],
+            [
+              "9",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "25,000,000",
+              "11d 12h",
+              "17",
+              "19"
             ]
           ]
         }
@@ -3321,7 +3521,8 @@
         "5": 15,
         "6": 16,
         "7": 17,
-        "8": 18
+        "8": 18,
+        "9": 19
       },
       "baseResearch": {
         "1": {
@@ -3341,9 +3542,9 @@
         "3": {
           "townHall": 13,
           "laboratory": 11,
-          "cost": 6500000,
+          "cost": 6000000,
           "resource": "Elixir",
-          "time": "4d 12h"
+          "time": "4d"
         },
         "4": {
           "townHall": 14,
@@ -3362,23 +3563,30 @@
         "6": {
           "townHall": 16,
           "laboratory": 14,
-          "cost": 14500000,
+          "cost": 14000000,
           "resource": "Elixir",
-          "time": "8d 6h"
+          "time": "8d"
         },
         "7": {
           "townHall": 17,
           "laboratory": 15,
-          "cost": 17000000,
+          "cost": 15500000,
           "resource": "Elixir",
-          "time": "10d"
+          "time": "8d 12h"
         },
         "8": {
           "townHall": 18,
           "laboratory": 16,
-          "cost": 27500000,
+          "cost": 19000000,
           "resource": "Elixir",
-          "time": "15d 12h"
+          "time": "11d"
+        },
+        "9": {
+          "townHall": 19,
+          "laboratory": 17,
+          "cost": 25000000,
+          "resource": "Elixir",
+          "time": "11d 12h"
         }
       },
       "boost": {
@@ -3564,6 +3772,16 @@
               "14d",
               "16",
               "18"
+            ],
+            [
+              "15",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "17",
+              "19"
             ]
           ]
         }
@@ -3586,7 +3804,8 @@
         "11": 15,
         "12": 16,
         "13": 17,
-        "14": 18
+        "14": 18,
+        "15": 19
       },
       "specialLevelTables": [
         {
@@ -3731,6 +3950,13 @@
           "cost": 335000,
           "resource": "Dark Elixir",
           "time": "14d"
+        },
+        "15": {
+          "townHall": 19,
+          "laboratory": 17,
+          "cost": null,
+          "resource": "Dark Elixir",
+          "time": "TBA"
         }
       },
       "boost": {
@@ -3906,6 +4132,16 @@
               "14d 12h",
               "16",
               "18"
+            ],
+            [
+              "16",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "17",
+              "19"
             ]
           ]
         }
@@ -3931,7 +4167,8 @@
         "12": 15,
         "13": 16,
         "14": 17,
-        "15": 18
+        "15": 18,
+        "16": 19
       },
       "baseResearch": {
         "1": {
@@ -4038,6 +4275,13 @@
           "cost": 340000,
           "resource": "Dark Elixir",
           "time": "14d 12h"
+        },
+        "16": {
+          "townHall": 19,
+          "laboratory": 17,
+          "cost": null,
+          "resource": "Dark Elixir",
+          "time": "TBA"
         }
       },
       "boost": {
@@ -4213,6 +4457,16 @@
               "14d",
               "15",
               "17"
+            ],
+            [
+              "13",
+              "TBA",
+              "TBA",
+              "TBA",
+              "370,000",
+              "10d 12h",
+              "17",
+              "19"
             ]
           ]
         }
@@ -4238,7 +4492,8 @@
         "9": 14,
         "10": 15,
         "11": 16,
-        "12": 17
+        "12": 17,
+        "13": 19
       },
       "baseResearch": {
         "1": {
@@ -4293,37 +4548,44 @@
         "8": {
           "townHall": 13,
           "laboratory": 11,
-          "cost": 77500,
+          "cost": 70000,
           "resource": "Dark Elixir",
-          "time": "3d"
+          "time": "2d 18h"
         },
         "9": {
           "townHall": 14,
           "laboratory": 12,
-          "cost": 105000,
+          "cost": 95000,
           "resource": "Dark Elixir",
-          "time": "4d 12h"
+          "time": "4d"
         },
         "10": {
           "townHall": 15,
           "laboratory": 13,
-          "cost": 120000,
+          "cost": 110000,
           "resource": "Dark Elixir",
-          "time": "5d"
+          "time": "4d 12h"
         },
         "11": {
           "townHall": 16,
           "laboratory": 14,
-          "cost": 170000,
+          "cost": 140000,
           "resource": "Dark Elixir",
-          "time": "6d"
+          "time": "5d"
         },
         "12": {
           "townHall": 17,
           "laboratory": 15,
-          "cost": 340000,
+          "cost": 235000,
           "resource": "Dark Elixir",
-          "time": "14d"
+          "time": "9d 12h"
+        },
+        "13": {
+          "townHall": 19,
+          "laboratory": 17,
+          "cost": 370000,
+          "resource": "Dark Elixir",
+          "time": "10d 12h"
         }
       },
       "boost": {
@@ -4479,6 +4741,16 @@
               "15d 12h",
               "16",
               "18"
+            ],
+            [
+              "9",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "17",
+              "19"
             ]
           ]
         }
@@ -4538,7 +4810,8 @@
         "5": 12,
         "6": 15,
         "7": 16,
-        "8": 18
+        "8": 18,
+        "9": 19
       },
       "baseResearch": {
         "1": {
@@ -4596,6 +4869,13 @@
           "cost": 355000,
           "resource": "Dark Elixir",
           "time": "15d 12h"
+        },
+        "9": {
+          "townHall": 19,
+          "laboratory": 17,
+          "cost": null,
+          "resource": "Dark Elixir",
+          "time": "TBA"
         }
       },
       "boost": {
@@ -4766,6 +5046,19 @@
               "15d 6h",
               "16",
               "18"
+            ],
+            [
+              "9",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "17",
+              "19"
             ]
           ]
         }
@@ -4785,7 +5078,8 @@
         "5": 12,
         "6": 13,
         "7": 16,
-        "8": 18
+        "8": 18,
+        "9": 19
       },
       "specialLevelTables": [
         {
@@ -4903,6 +5197,13 @@
           "cost": 345000,
           "resource": "Dark Elixir",
           "time": "15d 6h"
+        },
+        "9": {
+          "townHall": 19,
+          "laboratory": 17,
+          "cost": null,
+          "resource": "Dark Elixir",
+          "time": "TBA"
         }
       },
       "boost": {
@@ -5088,6 +5389,16 @@
               "15d",
               "16",
               "18"
+            ],
+            [
+              "11",
+              "330",
+              "726",
+              "4,000",
+              "385,000",
+              "11d 12h",
+              "17",
+              "19"
             ]
           ]
         }
@@ -5114,7 +5425,8 @@
         "7": 15,
         "8": 16,
         "9": 17,
-        "10": 18
+        "10": 18,
+        "11": 19
       },
       "baseResearch": {
         "1": {
@@ -5148,16 +5460,16 @@
         "5": {
           "townHall": 13,
           "laboratory": 11,
-          "cost": 85000,
+          "cost": 75000,
           "resource": "Dark Elixir",
-          "time": "4d"
+          "time": "3d 12h"
         },
         "6": {
           "townHall": 14,
           "laboratory": 12,
-          "cost": 110000,
+          "cost": 100000,
           "resource": "Dark Elixir",
-          "time": "6d"
+          "time": "5d 12h"
         },
         "7": {
           "townHall": 15,
@@ -5176,16 +5488,23 @@
         "9": {
           "townHall": 17,
           "laboratory": 15,
-          "cost": 260000,
+          "cost": 205000,
           "resource": "Dark Elixir",
-          "time": "10d"
+          "time": "8d"
         },
         "10": {
           "townHall": 18,
           "laboratory": 16,
-          "cost": 360000,
+          "cost": 245000,
           "resource": "Dark Elixir",
-          "time": "15d"
+          "time": "9d"
+        },
+        "11": {
+          "townHall": 19,
+          "laboratory": 17,
+          "cost": 385000,
+          "resource": "Dark Elixir",
+          "time": "11d 12h"
         }
       },
       "boost": {
@@ -5232,7 +5551,7 @@
     }
   ],
   "unverified": [],
-  "note": "All 17 normal Super Troop unlocks and hall caps cross-checked against their base troop levels, Laboratory requirements, and the TH11 boosting minimum. Research costs upgrade the base troop. Event-only levels and Clan Castle donations are excluded from normal caps.",
+  "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 17, 2026, with gaps filled from Supercell's release notes. The wiki is still being updated, so some values may change. TBA = not on the wiki yet. All 17 normal Super Troop unlocks and hall caps cross-checked against their base troop levels, Laboratory requirements, and the TH11 boosting minimum. Research costs upgrade the base troop. Event-only levels and Clan Castle donations are excluded from normal caps.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
   "verificationSources": [
     "https://clashofclans.fandom.com/wiki/Super_Troops",

@@ -2,7 +2,7 @@
   "id": "bbbuildings",
   "label": "Builder Buildings",
   "format": "wiki-review-v1",
-  "updated": "2026-11-03",
+  "updated": "2026-11-03; Town Hall 19 update read Nov 17, 2026",
   "units": [
     {
       "n": "Builder Hall",
@@ -2639,8 +2639,8 @@
           ],
           "rows": [
             [
-              "900,000",
-              "12h",
+              "None",
+              "None",
               "250",
               "Battle Machine",
               "3x3",
@@ -2903,7 +2903,7 @@
           ],
           "rows": [
             [
-              "2,500,000",
+              "None",
               "None",
               "250",
               "Battle Copter",
@@ -3197,6 +3197,6 @@
     }
   ],
   "unverified": [],
-  "note": "Normal upgrade costs and times; no event discounts applied.",
+  "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 17, 2026, with gaps filled from Supercell's release notes. The wiki is still being updated, so some values may change. TBA = not on the wiki yet. Normal upgrade costs and times; no event discounts applied.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }

@@ -15,7 +15,7 @@ function context(search, savedTH = null) {
   return {ctx,html:()=>document.querySelector('#app').innerHTML};
 }
 (async()=>{
- assert.equal(vm.runInContext('S.th',context('').ctx),18,'New visitors start at highest supported TH');
+ assert.equal(vm.runInContext('S.th',context('').ctx),19,'New visitors start at highest supported TH');
  assert.equal(vm.runInContext('S.th',context('','12').ctx),12,'Saved TH is preserved');
  for (const preview of ['', '?preview=dark', '?preview=traps', '?preview=true', '?preview=all', '?preview=false', '?preview=unknown']) {
   const {ctx,html}=context(preview);
@@ -68,7 +68,7 @@ function context(search, savedTH = null) {
    assert.equal(manifest.groups.flatMap(g=>g.cats).find(c=>c.id===id).img,spells.units[0].av);
  }
  const copy=JSON.parse(fs.readFileSync(path.join(root,'data/info.json')));
- assert.equal(Object.values(copy.entries).reduce((n,items)=>n+Object.keys(items).length,0),263);
+ assert.equal(Object.values(copy.entries).reduce((n,items)=>n+Object.keys(items).length,0),276);
  for(const items of Object.values(copy.entries)) for(const entry of Object.values(items)) {
    assert(entry.overview.length>30 && entry.strategy.length>30);
    assert(entry.source.revision>0 && entry.source.rawWikitextSHA256.length===64);
@@ -217,7 +217,7 @@ function context(search, savedTH = null) {
  vm.runInContext('S.th=10; catView(testCat)',ctx);
  assert(!html().includes('Hall cap unverified'));
  assert.equal((html().match(/class="tile unit locked"/g)||[]).length,17);
- vm.runInContext('S.th=18; catView(testCat)',ctx);
+ vm.runInContext('S.th=19; catView(testCat)',ctx);
  assert.equal((html().match(/class="sub full-max"/g)||[]).length,17);
  ctx.testUnit=superTroops.units.find(u=>u.n==='Super Miner');
  vm.runInContext("S.th=18; S.tab='info'; unitView(testCat,testUnit)",ctx);
@@ -227,13 +227,14 @@ function context(search, savedTH = null) {
  vm.runInContext("S.tab='max'; S.cur['super|Sneaky Goblin']='9'; unitView(testCat,testUnit)",ctx);
  assert(html().includes('26,000,000') && html().includes('14d'),'Remaining base Goblin research to level 10');
  const defenses=JSON.parse(fs.readFileSync(path.join(root,'data/defenses.json')));
- for(const u of defenses.units) {
+ for(const u of defenses.units.filter(u=>u.hallByLevel && !u.groupOf)) {
    assert.deepEqual(Object.keys(u.levelImages),Object.keys(u.hallByLevel),u.n+' exact artwork for every level');
  }
  ctx.testCat=defenses;
  for(const th of [1,8,15,18]) {
    vm.runInContext(`S.th=${th}; catView(testCat)`,ctx);
-   for(const u of defenses.units) {
+   const grouped=new Set(defenses.units.flatMap(u=>u.groupOf||[]));
+   for(const u of defenses.units.filter(u=>u.hallByLevel && !u.groupOf && !grouped.has(u.n))) {
      const level=Math.max(0,...Object.entries(u.hallByLevel).filter(([,h])=>h<=th).map(([l])=>+l)) || Math.min(...Object.keys(u.hallByLevel).map(Number));
      const card=cardFor(u.n);
      assert(card.includes(u.levelImages[level].url.replaceAll('&','&amp;')),`${u.n} TH${th} artwork level ${level}`);

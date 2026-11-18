@@ -2,7 +2,7 @@
   "id": "siege",
   "label": "Siege Machines",
   "format": "wiki-review-v1",
-  "updated": "2026-11-03",
+  "updated": "2026-11-03; Town Hall 19 update read Nov 17, 2026",
   "units": [
     {
       "n": "Wall Wrecker",
@@ -872,6 +872,17 @@
               "18,000,000",
               "12d",
               "14"
+            ],
+            [
+              "6",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "17"
             ]
           ]
         }
@@ -912,7 +923,8 @@
         "2": 14,
         "3": 14,
         "4": 14,
-        "5": 16
+        "5": 16,
+        "6": 19
       }
     },
     {
@@ -1363,6 +1375,6 @@
     }
   ],
   "unverified": [],
-  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+  "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 17, 2026, with gaps filled from Supercell's release notes. The wiki is still being updated, so some values may change. TBA = not on the wiki yet. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }

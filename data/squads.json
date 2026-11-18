@@ -2,7 +2,7 @@
  "id": "squads",
  "label": "Squads",
  "format": "wiki-review-v1",
- "updated": "Nov 17, 2026; Town Hall 19 update preview data read Nov 17, 2026",
+ "updated": "Nov 17, 2026; Town Hall 19 update read Nov 17, 2026",
  "units": [
   {
    "n": "Barch Squad",
@@ -11,7 +11,7 @@
    "revision": null,
    "unverified": [],
    "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026), https://youtu.be/Vs3FDbCWR04",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Supercell's release notes (The Clash of Titans update, Nov 16, 2026).",
    "unlockHall": 8,
    "staticImage": {
     "file": "File:Avatar Barch Squad.png",
@@ -89,7 +89,7 @@
    "revision": null,
    "unverified": [],
    "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026), https://youtu.be/Vs3FDbCWR04",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Supercell's release notes (The Clash of Titans update, Nov 16, 2026).",
    "unlockHall": 9,
    "staticImage": {
     "file": "File:Avatar Giant Wizard Squad.png",
@@ -167,7 +167,7 @@
    "revision": null,
    "unverified": [],
    "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026), https://youtu.be/Vs3FDbCWR04",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Supercell's release notes (The Clash of Titans update, Nov 16, 2026).",
    "unlockHall": 10,
    "staticImage": {
     "file": "File:Avatar Wall Breaker Squad.png",
@@ -245,7 +245,7 @@
    "revision": null,
    "unverified": [],
    "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026), https://youtu.be/Vs3FDbCWR04",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Supercell's release notes (The Clash of Titans update, Nov 16, 2026).",
    "unlockHall": 11,
    "staticImage": {
     "file": "File:Avatar Minion Squad.png",
@@ -323,7 +323,7 @@
    "revision": null,
    "unverified": [],
    "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026), https://youtu.be/Vs3FDbCWR04",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Supercell's release notes (The Clash of Titans update, Nov 16, 2026).",
    "unlockHall": 12,
    "staticImage": {
     "file": "File:Avatar Balloon Squad.png",
@@ -361,7 +361,7 @@
       [
        "1",
        "12",
-       "TBA",
+       "16",
        "No ability",
        "-",
        "-"
@@ -369,7 +369,7 @@
       [
        "2",
        "19",
-       "TBA",
+       "16",
        "15% less damage from traps",
        "TBA",
        "TBA"
@@ -377,7 +377,7 @@
       [
        "3",
        "19",
-       "TBA",
+       "16",
        "20% less damage from traps",
        "TBA",
        "TBA"
@@ -401,7 +401,7 @@
    "revision": null,
    "unverified": [],
    "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026), https://youtu.be/Vs3FDbCWR04",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Supercell's release notes (The Clash of Titans update, Nov 16, 2026).",
    "unlockHall": 13,
    "staticImage": {
     "file": "File:Avatar Golem Witch Squad.png",
@@ -479,7 +479,7 @@
    "revision": null,
    "unverified": [],
    "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026), https://youtu.be/Vs3FDbCWR04",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Supercell's release notes (The Clash of Titans update, Nov 16, 2026).",
    "unlockHall": 14,
    "staticImage": {
     "file": "File:Avatar Hog Rider Squad.png",
@@ -517,7 +517,7 @@
       [
        "1",
        "14",
-       "TBA",
+       "48",
        "No ability",
        "-",
        "-"
@@ -525,7 +525,7 @@
       [
        "2",
        "19",
-       "TBA",
+       "48",
        "30% less damage from traps",
        "TBA",
        "TBA"
@@ -533,7 +533,7 @@
       [
        "3",
        "19",
-       "TBA",
+       "48",
        "40% less damage from traps",
        "TBA",
        "TBA"
@@ -557,7 +557,7 @@
    "revision": null,
    "unverified": [],
    "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026), https://youtu.be/Vs3FDbCWR04",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Supercell's release notes (The Clash of Titans update, Nov 16, 2026).",
    "unlockHall": 15,
    "staticImage": {
     "file": "File:Avatar Miner Squad.png",
@@ -576,7 +576,7 @@
       [
        "8",
        "15",
-       "TBA",
+       "10 Miners",
        "Trap Sense"
       ]
      ]
@@ -595,7 +595,7 @@
       [
        "1",
        "15",
-       "TBA",
+       "48",
        "No ability",
        "-",
        "-"
@@ -603,7 +603,7 @@
       [
        "2",
        "19",
-       "TBA",
+       "48",
        "30% less damage from traps",
        "TBA",
        "TBA"
@@ -611,7 +611,7 @@
       [
        "3",
        "19",
-       "TBA",
+       "48",
        "40% less damage from traps",
        "TBA",
        "TBA"
@@ -635,7 +635,7 @@
    "revision": null,
    "unverified": [],
    "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026), https://youtu.be/Vs3FDbCWR04",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Supercell's release notes (The Clash of Titans update, Nov 16, 2026).",
    "unlockHall": 16,
    "staticImage": {
     "file": "File:Avatar Healer Squad.png",
@@ -704,7 +704,7 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Avatar_Healer_Squad.png/revision/latest?cb=20261117032326"
     }
    ],
-   "note": "Unlocked by Squad Barracks level 9 (TH 16). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Shielded Start ability, and to level 3. Its 70 housing space is worked out from the video: a 5-space discount on 5 Healers (70) plus a Balloon (5)."
+   "note": "Unlocked by Squad Barracks level 9 (TH 16). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Shielded Start ability, and to level 3."
   },
   {
    "n": "P.E.K.K.A Titan Squad",
@@ -713,7 +713,7 @@
    "revision": null,
    "unverified": [],
    "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026), https://youtu.be/Vs3FDbCWR04",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Supercell's release notes (The Clash of Titans update, Nov 16, 2026).",
    "unlockHall": 17,
    "staticImage": {
     "file": "File:Avatar P.E.K.K.A Titan Squad.png",
@@ -791,7 +791,7 @@
    "revision": null,
    "unverified": [],
    "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026), https://youtu.be/Vs3FDbCWR04",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Supercell's release notes (The Clash of Titans update, Nov 16, 2026).",
    "unlockHall": 18,
    "staticImage": {
     "file": "File:Avatar Dragons Squad.png",
@@ -860,7 +860,7 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7f/Avatar_Dragons_Squad.png/revision/latest?cb=20261115142956"
     }
    ],
-   "note": "Unlocked by Squad Barracks level 11 (TH 18). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Shielded Start ability, and to level 3. Its 85 housing space is worked out from the video: a 5-space discount on 2 Dragons and 2 Dragon Riders (90)."
+   "note": "Unlocked by Squad Barracks level 11 (TH 18). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Shielded Start ability, and to level 3."
   },
   {
    "n": "Baby Dragon Squad",
@@ -869,7 +869,7 @@
    "revision": null,
    "unverified": [],
    "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026), https://youtu.be/Vs3FDbCWR04",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Supercell's release notes (The Clash of Titans update, Nov 16, 2026).",
    "unlockHall": 19,
    "staticImage": {
     "file": "File:Avatar Baby Dragon Squad.png",
@@ -923,7 +923,7 @@
       [
        "3",
        "19",
-       "TBA",
+       "24",
        "Same as level 2",
        "TBA",
        "TBA"
@@ -947,7 +947,7 @@
    "revision": null,
    "unverified": [],
    "unlockHall": 19,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026), https://youtu.be/Vs3FDbCWR04",
+   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Supercell's release notes (The Clash of Titans update, Nov 16, 2026).",
    "tables": [
     {
      "heading": "Squad abilities",
@@ -992,16 +992,10 @@
     }
    ],
    "images": [],
-   "note": "A squad gains its ability when upgraded to level 2, which needs Laboratory 17 (TH 19). The wiki names the squad for 3 of the 6 abilities so far; the rest come from Judo Sloth Gaming, \"Every Squad Explained in Clash of Clans!\" (YouTube, Nov 2026).",
+   "note": "A squad gains its ability when upgraded to level 2, which needs Laboratory 17 (TH 19). The wiki names the squad for 3 of the 6 abilities so far; the rest come from Supercell's release notes (The Clash of Titans update, Nov 16, 2026).",
    "progressionNote": "Abilities unlock at squad level 2, from Laboratory 17 (TH 19), and improve at level 3. Most costs and times haven't been revealed yet."
   }
  ],
  "unverified": [],
- "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 17, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet. Squads deploy a fixed group of troops in a set formation, using less housing space than the same troops trained one by one. Squad troops use your own researched troop levels, and squads can't be donated. Each Squad Barracks level (Army Buildings, from TH 8) unlocks one squad; training is free and instant. From Laboratory 17 (TH 19) squads can be upgraded to level 2 and up, which unlocks their squad ability; squads go up to level 3. Troop counts, housing space and ability levels come from a Supercell creator's video until the wiki lists them; most upgrade costs haven't been shown yet.",
- "preview": {
-  "update": "Town Hall 19 update",
-  "release": "Nov 16, 2026",
-  "read": "Nov 17, 2026",
-  "note": "The Town Hall 19 update (Nov 16, 2026) from the wiki, read Nov 17, 2026. The wiki is still being updated for the release, so some values may change. TBA = not on the wiki yet."
- }
+ "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 17, 2026, with gaps filled from Supercell's release notes. The wiki is still being updated, so some values may change. TBA = not on the wiki yet. Squads deploy a fixed group of troops in a set formation, using less housing space than the same troops trained one by one. Squad troops use your own researched troop levels, and squads can't be donated. Each Squad Barracks level (Army Buildings, from TH 8) unlocks one squad; training is free and instant. From Laboratory 17 (TH 19) squads can be upgraded to level 2 and up, which unlocks their squad ability; squads go up to level 3. Troop counts, housing space and ability levels come from Supercell's release notes until the wiki lists them; most upgrade costs aren't on the wiki yet."
 }

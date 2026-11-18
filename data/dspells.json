@@ -2,7 +2,7 @@
   "id": "dspells",
   "label": "Dark Spells",
   "format": "wiki-review-v1",
-  "updated": "2026-11-03",
+  "updated": "2026-11-03; Town Hall 19 update read Nov 17, 2026",
   "units": [
     {
       "n": "Poison Spell",
@@ -112,7 +112,7 @@
               "46%",
               "68%",
               "100,000",
-              "6d 12h",
+              "5d 18h",
               "12"
             ],
             [
@@ -130,7 +130,7 @@
               "50%",
               "72%",
               "175,000",
-              "8d",
+              "7d 6h",
               "14"
             ],
             [
@@ -138,8 +138,8 @@
               "360",
               "51%",
               "73%",
-              "230,000",
-              "9d 16h",
+              "200,000",
+              "8d",
               "15"
             ],
             [
@@ -147,9 +147,18 @@
               "380",
               "52%",
               "74%",
-              "350,000",
-              "14d 12h",
+              "280,000",
+              "10d",
               "16"
+            ],
+            [
+              "13",
+              "400",
+              "53%",
+              "75%",
+              "425,000",
+              "13d 12h",
+              "17"
             ]
           ]
         }
@@ -177,7 +186,8 @@
         "9": 15,
         "10": 16,
         "11": 17,
-        "12": 18
+        "12": 18,
+        "13": 19
       },
       "iconVerification": {
         "file": "File:Poison Spell info.png",
@@ -276,8 +286,8 @@
               "29%",
               "5%",
               "4.7 tiles",
-              "120,000",
-              "8d",
+              "110,000",
+              "7d",
               "12"
             ],
             [
@@ -286,7 +296,7 @@
               "10%",
               "4.7 tiles",
               "200,000",
-              "9d",
+              "8d 12h",
               "14"
             ],
             [
@@ -294,8 +304,8 @@
               "29%",
               "14.5%*",
               "4.7 tiles",
-              "330,000",
-              "13d 12h",
+              "305,000",
+              "12d",
               "16"
             ]
           ]
@@ -429,6 +439,15 @@
               "320,000",
               "12d 12h",
               "16"
+            ],
+            [
+              "8",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "17"
             ]
           ]
         }
@@ -451,7 +470,8 @@
         "4": 10,
         "5": 11,
         "6": 17,
-        "7": 18
+        "7": 18,
+        "8": 19
       },
       "iconVerification": {
         "file": "File:Haste Spell info.png",
@@ -724,6 +744,13 @@
               "300,000",
               "13d",
               "16"
+            ],
+            [
+              "9",
+              "TBA",
+              "TBA",
+              "TBA",
+              "17"
             ]
           ]
         }
@@ -751,7 +778,8 @@
         "5": 12,
         "6": 15,
         "7": 17,
-        "8": 18
+        "8": 18,
+        "9": 19
       },
       "iconVerification": {
         "file": "File:Bat Spell info.png",
@@ -1080,6 +1108,6 @@
     }
   ],
   "unverified": [],
-  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+  "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 17, 2026, with gaps filled from Supercell's release notes. The wiki is still being updated, so some values may change. TBA = not on the wiki yet. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }

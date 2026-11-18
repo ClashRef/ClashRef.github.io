@@ -2,7 +2,7 @@
   "id": "resource",
   "label": "Resource Buildings",
   "format": "wiki-review-v1",
-  "updated": "2026-11-03",
+  "updated": "2026-11-03; Town Hall 19 update read Nov 17, 2026",
   "units": [
     {
       "n": "Gold Mine",
@@ -246,62 +246,18 @@
               "415",
               "25d",
               "16"
-            ]
-          ]
-        },
-        {
-          "heading": "Supercharges / Home Village",
-          "columns": [
-            "Charge Level",
-            "Capacity",
-            "Production Rate",
-            "Hitpoints",
-            "Boost Cost",
-            "Time to Fill",
-            "Build Cost (Elixir)",
-            "Build Time",
-            "Experience Gained",
-            "Catch-Up Point*",
-            "Town Hall Level Required"
-          ],
-          "rows": [
-            [
-              "1",
-              "436,500",
-              "7,857/hr",
-              "1,400",
-              "11",
-              "2d 7h 33m 20s",
-              "250,000",
-              "9h 30m",
-              "184",
-              "50d 21h 49m 6s",
-              "18"
             ],
             [
-              "2",
-              "453,000",
-              "8,154/hr",
-              "1,400",
-              "11",
-              "2d 7h 33m 20s",
-              "250,000",
-              "14h 30m",
-              "228",
-              "79d 8h 43m 39s",
-              "18"
-            ],
-            [
-              "3",
-              "453,000",
-              "8,154/hr",
-              "1,450",
-              "11",
-              "2d 7h 33m 20s",
-              "250,000",
-              "1d",
-              "293",
-              "N/A",
+              "18",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
               "18"
             ]
           ]
@@ -375,6 +331,10 @@
         {
           "file": "File:Gold Mine17.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Gold_Mine17.png/revision/latest?cb=20251118165804"
+        },
+        {
+          "file": "File:Gold Mine18.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f8/Gold_Mine18.png/revision/latest?cb=20261115165423"
         }
       ],
       "unverified": [
@@ -397,7 +357,8 @@
         "14": 11,
         "15": 12,
         "16": 14,
-        "17": 16
+        "17": 16,
+        "18": 18
       },
       "levelImages": {
         "1": {
@@ -467,6 +428,10 @@
         "17": {
           "file": "File:Gold Mine17.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Gold_Mine17.png/revision/latest?cb=20251118165804"
+        },
+        "18": {
+          "file": "File:Gold Mine18.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f8/Gold_Mine18.png/revision/latest?cb=20261115165423"
         }
       },
       "imageVerification": {
@@ -718,62 +683,18 @@
               "415",
               "25d",
               "16"
-            ]
-          ]
-        },
-        {
-          "heading": "Supercharges / Home Village",
-          "columns": [
-            "Charge Level",
-            "Capacity",
-            "Production Rate",
-            "Hitpoints",
-            "Boost Cost",
-            "Time to Fill",
-            "Build Cost (Gold)",
-            "Build Time",
-            "Experience Gained",
-            "Catch-Up Point*",
-            "Town Hall Level Required"
-          ],
-          "rows": [
-            [
-              "1",
-              "436,500",
-              "7,857/hr",
-              "1,400",
-              "11",
-              "2d 7h 33m 20s",
-              "250,000",
-              "9h 30m",
-              "184",
-              "50d 21h 49m 6s",
-              "18"
             ],
             [
-              "2",
-              "453,000",
-              "8,154/hr",
-              "1,400",
-              "11",
-              "2d 7h 33m 20s",
-              "250,000",
-              "14h 30m",
-              "228",
-              "79d 8h 43m 39s",
-              "18"
-            ],
-            [
-              "3",
-              "453,000",
-              "8,154/hr",
-              "1,450",
-              "11",
-              "2d 7h 33m 20s",
-              "250,000",
-              "1d",
-              "293",
-              "N/A",
+              "18",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
               "18"
             ]
           ]
@@ -847,6 +768,10 @@
         {
           "file": "File:Elixir Collector17.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/0/03/Elixir_Collector17.png/revision/latest?cb=20251118165724"
+        },
+        {
+          "file": "File:Elixir Collector18.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bd/Elixir_Collector18.png/revision/latest?cb=20261115165605"
         }
       ],
       "unverified": [
@@ -869,7 +794,8 @@
         "14": 11,
         "15": 12,
         "16": 14,
-        "17": 16
+        "17": 16,
+        "18": 18
       },
       "levelImages": {
         "1": {
@@ -939,6 +865,10 @@
         "17": {
           "file": "File:Elixir Collector17.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/0/03/Elixir_Collector17.png/revision/latest?cb=20251118165724"
+        },
+        "18": {
+          "file": "File:Elixir Collector18.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bd/Elixir_Collector18.png/revision/latest?cb=20261115165605"
         }
       },
       "imageVerification": {
@@ -1112,62 +1042,18 @@
               "720",
               "54d",
               "16"
-            ]
-          ]
-        },
-        {
-          "heading": "Supercharges",
-          "columns": [
-            "Charge Level",
-            "Capacity",
-            "Production Rate",
-            "Hitpoints",
-            "Boost Cost",
-            "Time to Fill",
-            "Build Cost (Elixir)",
-            "Build Time",
-            "Experience Gained",
-            "Catch-Up Point*",
-            "Town Hall Level Required"
-          ],
-          "rows": [
-            [
-              "1",
-              "4,807",
-              "209/hr",
-              "1,600",
-              "55",
-              "23h",
-              "750,000",
-              "14h 30m",
-              "228",
-              "66d 16h",
-              "18"
             ],
             [
-              "2",
-              "5,014",
-              "218/hr",
-              "1,600",
-              "55",
-              "23h",
-              "750,000",
-              "19h",
-              "261",
-              "92d 21h 20m",
-              "18"
-            ],
-            [
-              "3",
-              "5,014",
-              "218/hr",
-              "1,650",
-              "55",
-              "23h",
-              "500,000",
-              "1d",
-              "293",
-              "N/A",
+              "12",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
               "18"
             ]
           ]
@@ -1217,6 +1103,10 @@
         {
           "file": "File:Dark Elixir Drill11.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Dark_Elixir_Drill11.png/revision/latest?cb=20251118170058"
+        },
+        {
+          "file": "File:Dark Elixir Drill12.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/da/Dark_Elixir_Drill12.png/revision/latest?cb=20261115165536"
         }
       ],
       "unverified": [
@@ -1233,7 +1123,8 @@
         "8": 11,
         "9": 12,
         "10": 14,
-        "11": 16
+        "11": 16,
+        "12": 18
       },
       "levelImages": {
         "1": {
@@ -1279,6 +1170,10 @@
         "11": {
           "file": "File:Dark Elixir Drill11.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Dark_Elixir_Drill11.png/revision/latest?cb=20251118170058"
+        },
+        "12": {
+          "file": "File:Dark Elixir Drill12.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/da/Dark_Elixir_Drill12.png/revision/latest?cb=20261115165536"
         }
       },
       "imageVerification": {
@@ -1463,19 +1358,28 @@
               "18",
               "6,000,000",
               "4,200",
-              "10,000,000",
-              "5d",
-              "657",
+              "8,500,000",
+              "4d 6h",
+              "605",
               "17"
             ],
             [
               "19",
               "6,500,000",
               "4,300",
-              "18,000,000",
-              "12d 12h",
-              "1,039",
+              "12,500,000",
+              "7d 12h",
+              "804",
               "18"
+            ],
+            [
+              "20",
+              "7,000,000",
+              "4,400",
+              "18,000,000",
+              "11d",
+              "974",
+              "19"
             ]
           ]
         },
@@ -1675,6 +1579,10 @@
         {
           "file": "File:Gold Storage19.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/7/74/Gold_Storage19.png/revision/latest?cb=20251125103535"
+        },
+        {
+          "file": "File:Gold Storage20.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ea/Gold_Storage20.png/revision/latest?cb=20261113190912"
         }
       ],
       "unverified": [
@@ -1699,7 +1607,8 @@
         "16": 15,
         "17": 16,
         "18": 17,
-        "19": 18
+        "19": 18,
+        "20": 19
       },
       "levelImages": {
         "1": {
@@ -1777,6 +1686,10 @@
         "19": {
           "file": "File:Gold Storage19.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/7/74/Gold_Storage19.png/revision/latest?cb=20251125103535"
+        },
+        "20": {
+          "file": "File:Gold Storage20.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ea/Gold_Storage20.png/revision/latest?cb=20261113190912"
         }
       },
       "imageVerification": {
@@ -1961,19 +1874,28 @@
               "18",
               "6,000,000",
               "4,200",
-              "10,000,000",
-              "5d",
-              "657",
+              "8,500,000",
+              "4d 6h",
+              "605",
               "17"
             ],
             [
               "19",
               "6,500,000",
               "4,300",
-              "18,000,000",
-              "12d 12h",
-              "1,039",
+              "12,500,000",
+              "7d 12h",
+              "804",
               "18"
+            ],
+            [
+              "20",
+              "7,000,000",
+              "4,400",
+              "18,000,000",
+              "11d",
+              "974",
+              "19"
             ]
           ]
         },
@@ -2173,6 +2095,10 @@
         {
           "file": "File:Elixir Storage19.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/0/08/Elixir_Storage19.png/revision/latest?cb=20251125103510"
+        },
+        {
+          "file": "File:Elixir Storage20.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/70/Elixir_Storage20.png/revision/latest?cb=20261113190849"
         }
       ],
       "unverified": [
@@ -2197,7 +2123,8 @@
         "16": 15,
         "17": 16,
         "18": 17,
-        "19": 18
+        "19": 18,
+        "20": 19
       },
       "levelImages": {
         "1": {
@@ -2275,6 +2202,10 @@
         "19": {
           "file": "File:Elixir Storage19.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/0/08/Elixir_Storage19.png/revision/latest?cb=20251125103510"
+        },
+        "20": {
+          "file": "File:Elixir Storage20.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/70/Elixir_Storage20.png/revision/latest?cb=20261113190849"
         }
       },
       "imageVerification": {
@@ -2360,52 +2291,52 @@
               "7",
               "220,000",
               "3,500",
-              "3,800,000",
-              "3d",
-              "509",
+              "3,200,000",
+              "2d 12h",
+              "464",
               "12"
             ],
             [
               "8",
               "280,000",
               "3,800",
-              "5,400,000",
-              "3d 12h",
-              "549",
+              "3,800,000",
+              "2d 18h",
+              "487",
               "13"
             ],
             [
               "9",
               "330,000",
               "4,100",
-              "6,600,000",
-              "4d",
-              "587",
+              "4,800,000",
+              "3d 12h",
+              "549",
               "14"
             ],
             [
               "10",
               "360,000",
               "4,300",
-              "8,000,000",
-              "4d 12h",
-              "623",
+              "6,000,000",
+              "3d 18h",
+              "569",
               "15"
             ],
             [
               "11",
               "390,000",
               "4,500",
-              "10,000,000",
-              "5d",
-              "657",
+              "8,000,000",
+              "4d",
+              "587",
               "16"
             ],
             [
               "12",
               "420,000",
               "4,700",
-              "16,000,000",
+              "15,000,000",
               "7d",
               "777",
               "17"
@@ -2414,10 +2345,19 @@
               "13",
               "450,000",
               "4,800",
-              "25,000,000",
+              "20,000,000",
+              "10d",
+              "929",
+              "18"
+            ],
+            [
+              "14",
+              "480,000",
+              "4,900",
+              "24,000,000",
               "13d",
               "1,059",
-              "18"
+              "19"
             ]
           ]
         },
@@ -2563,6 +2503,10 @@
         {
           "file": "File:Dark Elixir Storage13.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6c/Dark_Elixir_Storage13.png/revision/latest?cb=20251125032910"
+        },
+        {
+          "file": "File:Dark Elixir Storage14.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9c/Dark_Elixir_Storage14.png/revision/latest?cb=20261113190943"
         }
       ],
       "unverified": [
@@ -2581,7 +2525,8 @@
         "10": 15,
         "11": 16,
         "12": 17,
-        "13": 18
+        "13": 18,
+        "14": 19
       },
       "levelImages": {
         "1": {
@@ -2635,6 +2580,10 @@
         "13": {
           "file": "File:Dark Elixir Storage13.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6c/Dark_Elixir_Storage13.png/revision/latest?cb=20251125032910"
+        },
+        "14": {
+          "file": "File:Dark Elixir Storage14.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9c/Dark_Elixir_Storage14.png/revision/latest?cb=20261113190943"
         }
       },
       "imageVerification": {
@@ -2646,6 +2595,6 @@
     }
   ],
   "unverified": [],
-  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+  "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 17, 2026, with gaps filled from Supercell's release notes. The wiki is still being updated, so some values may change. TBA = not on the wiki yet. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }

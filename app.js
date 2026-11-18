@@ -5,16 +5,12 @@ const $ = (s, el = document) => el.querySelector(s);
 const app = $("#app"), titleEl = $("#title"), backBtn = $("#back"), tabsEl = $("#tabs");
 // Query-only preview: never persists or changes the published category manifest.
 const preview = new URLSearchParams(location.search).get("preview");
-// Preview of an announced, unreleased update: ?preview=true loads the data/next/ copies named by
-// "next" in categories.json (built by scripts/build-update-preview.py). Remove this block, NEXT_TH
-// and data/next/ once the update ships and data/*.json has the real values.
-const PREVIEW_UPDATE = preview === "true" || preview === "all";
-const NEXT_TH = 19;
-const PREVIEW_BANNER = "Preview: includes the Town Hall 19 update (out Nov 16), read from the wiki while editors finish it. TBA = not on the wiki yet.";
 // Highest supported TH; update here when new Town Hall data is added.
-const MAX_TH = PREVIEW_UPDATE ? NEXT_TH : 18;
+const MAX_TH = 19;
+// Shown while the wiki is still filling in the latest update. Remove once nothing is TBA.
+const UPDATE_NOTE = "Town Hall 19 is here! Values come from the wiki, which is still being updated for the release. Anything not on the wiki yet is marked TBA.";
 const savedTH = Number(localStorage.getItem("cr.th"));
-const hasSavedTH = Number.isInteger(savedTH) && savedTH >= 1 && savedTH <= NEXT_TH;
+const hasSavedTH = Number.isInteger(savedTH) && savedTH >= 1 && savedTH <= MAX_TH;
 const S = {
   th: hasSavedTH ? Math.min(savedTH, MAX_TH) : MAX_TH,
   only: localStorage.getItem("cr.only") !== "0",
@@ -24,9 +20,11 @@ const S = {
 let CATS = null, INFO = null; const CACHE = {}, PENDING = {};
 // Offline support and faster repeat visits on the live site only (tests use other hosts).
 const useServiceWorker = typeof navigator !== "undefined" && "serviceWorker" in navigator && /^(?:clashref\.github\.io|localhost|127\.0\.0\.1)$/.test(location.hostname);
-const categoryPath = (c) => (PREVIEW_UPDATE && c.next) || c.data || ((preview === "true" || preview === "all" || preview === c.id) ? `data/${c.id}.json` : null);
-// "TBA" marks values a previewed update hasn't revealed yet.
+const categoryPath = (c) => c.data || ((preview === "true" || preview === "all" || preview === c.id) ? `data/${c.id}.json` : null);
+// "TBA" marks values of the latest update that aren't on the wiki yet.
 const isTBA = (v) => v === "TBA";
+// Classic categories show their note while it explains TBA values from the latest update.
+const updateNote = (cat) => (/\bTBA\b/.test(cat.note || "") ? `<p class="note">${esc(cat.note)}</p>` : "");
 // Group tiles (e.g. Guardians) open a list of other units in the same category: a unit's
 // "groupOf" names its members. Town Hall's Guardians predate the field.
 const LEGACY_GROUPS = {townhall: {"Town Hall/Guardians": ["Longshot", "Smasher", "Logger"]}};
@@ -166,15 +164,10 @@ async function loadCat(id) {
 let infoPending = null;
 async function loadInfo() {
   if (INFO) return INFO;
-  // The update preview adds descriptions for its new items from data/next/info.json.
-  const extra = PREVIEW_UPDATE ? fetch("data/next/info.json").then((r) => (r.ok ? r.json() : null)).catch(() => null) : null;
   return infoPending ||= fetch("data/info.json").then((response) => {
     if (!response.ok) throw new Error("Info descriptions unavailable");
     return response.json();
-  }).then(async (data) => {
-    for (const [cat, items] of Object.entries((await extra)?.entries || {})) data.entries[cat] = {...data.entries[cat], ...items};
-    return (INFO = data);
-  }).finally(() => { infoPending = null; });
+  }).then((data) => (INFO = data)).finally(() => { infoPending = null; });
 }
 // After the first screen is drawn, quietly load every open category so search and
 // navigation are instant. Skipped when the visitor asks to save data or is on 2G.
@@ -203,11 +196,11 @@ function route() {
 // ---- views ----
 function footer() {
   return `
-  <footer class="src">Sources: stats, costs, times and images from the <a href="https://clashofclans.fandom.com/wiki/Clash_of_Clans_Wiki" target="_blank" rel="noopener">Clash of Clans Fandom wiki</a> (read Nov 3, 2026), including the 2025\u20132026 cost and time cuts and the Oct 20, 2026 balance changes; checked against <a href="https://supercell.com/en/games/clashofclans/blog/" target="_blank" rel="noopener">Supercell's patch notes</a> through Nov 1, 2026. Unofficial fan reference, not affiliated with Supercell.</footer>`;
+  <footer class="src">Sources: stats, costs, times and images from the <a href="https://clashofclans.fandom.com/wiki/Clash_of_Clans_Wiki" target="_blank" rel="noopener">Clash of Clans Fandom wiki</a> (read Nov 17, 2026), including the Town Hall 19 update, the 2025\u20132026 cost and time cuts and the Oct 20, 2026 balance changes; checked against <a href="https://supercell.com/en/games/clashofclans/blog/" target="_blank" rel="noopener">Supercell's patch notes</a> through Nov 16, 2026. TBA = not on the wiki yet. Unofficial fan reference, not affiliated with Supercell.</footer>`;
 }
 function home() {
   setChrome("Clash Reference", false, false);
-  app.innerHTML = CATS.groups.map((g) => `<h2 class="group">${esc(g.heading)}</h2><div class="grid">${g.cats.filter((c) => !c.hiddenFromHome && (!c.previewOnly || PREVIEW_UPDATE)).map((c) => categoryPath(c)
+  app.innerHTML = CATS.groups.map((g) => `<h2 class="group">${esc(g.heading)}</h2><div class="grid">${g.cats.filter((c) => !c.hiddenFromHome).map((c) => categoryPath(c)
     ? `<a class="tile" href="#/c/${c.id}">${img(c.img, c.label)}${!c.data ? '<span class="sub">Preview</span>' : ""}<span class="lbl">${esc(c.label)}</span></a>`
     : `<div class="tile off" aria-disabled="true">${img(c.img, c.label)}<span class="sub">Coming soon</span><span class="lbl">${esc(c.label)}</span></div>`).join("")}</div>`).join("") + footer();
 }
@@ -222,7 +215,7 @@ function catView(cat) {
   if (cat.format === "wiki-review-v1") return reviewCategory(cat);
   setChrome(cat.label, true, false);
   const list = cat.units;
-  app.innerHTML = (cat.preview ? `<p class="note">${esc(cat.preview.note)}</p>` : "") + `<div class="grid units">${list.map((u) => { const m = maxAt(cat, u); return `<a class="tile unit ${m ? "" : "locked"}" href="#/c/${cat.id}/${encodeURIComponent(u.n)}">${img(u.av, u.n)}${levelPill(m, +u.l[u.l.length - 1][0], "Unlock at TH " + u.u)}<span class="lbl">${esc(u.n)}</span></a>`; }).join("")}</div>
+  app.innerHTML = updateNote(cat) + `<div class="grid units">${list.map((u) => { const m = maxAt(cat, u); return `<a class="tile unit ${m ? "" : "locked"}" href="#/c/${cat.id}/${encodeURIComponent(u.n)}">${img(u.av, u.n)}${levelPill(m, +u.l[u.l.length - 1][0], "Unlock at TH " + u.u)}<span class="lbl">${esc(u.n)}</span></a>`; }).join("")}</div>
   <p class="note">Badge = max level at TH${S.th}; gray cards show the unlock TH. Tap the TH button at top right to change Town Hall.</p>` + footer();
 }
 function troopConnection(cat, u) {
@@ -298,7 +291,7 @@ function unitView(cat, u) {
       <div><span>${cat.timeLabel || "Lab time"}</span><span class="big">${fmtMins(time)}</span></div></div>
       ${unknown ? `<p class="note">${tbaNote(unknown)}</p>` : ""}<p class="note">${esc(discountNote(cost, time, R))}</p>`;
   }
-  app.innerHTML = html + (cat.preview ? `<p class="note">${esc(cat.preview.note)}</p>` : "") + footer();
+  app.innerHTML = html + updateNote(cat) + footer();
   const go = (d) => { const n = levels[idx + d]; if (n) { S.lvl[key] = n; unitView(cat, u); } };
   $("#lvDown").onclick = () => go(-1); $("#lvUp").onclick = () => go(1);
   app.querySelectorAll("tr[data-l]").forEach((tr) => (tr.onclick = () => { S.lvl[key] = +tr.dataset.l; unitView(cat, u); }));
@@ -586,7 +579,7 @@ function discountNote(cost, time, resource, event = DISCOUNT) {
 // Event banner: clamp to 2 lines; chevron only when the text overflows.
 const hj = $("#hj"), hjt = $("#hjt"), hjc = $("#hjc");
 {
-  const banners = [...(PREVIEW_UPDATE ? [PREVIEW_BANNER] : []), ...ACTIVE_EVENTS.map((e) => e.banner).filter(Boolean)];
+  const banners = [...(UPDATE_NOTE ? [UPDATE_NOTE] : []), ...ACTIVE_EVENTS.map((e) => e.banner).filter(Boolean)];
   hjt.textContent = banners.join(" ");
   hj.hidden = !banners.length;
 }

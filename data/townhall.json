@@ -2,7 +2,7 @@
   "id": "townhall",
   "label": "Town Hall",
   "format": "wiki-review-v1",
-  "updated": "2026-11-03",
+  "updated": "2026-11-03; Town Hall 19 update read Nov 17, 2026",
   "units": [
     {
       "n": "Town Hall",
@@ -127,7 +127,7 @@
               "5,000",
               "6,000,000",
               "80,000",
-              "64",
+              "65",
               "23"
             ],
             [
@@ -140,7 +140,7 @@
               "10,000",
               "8,000,000",
               "190,000",
-              "77",
+              "78",
               "26"
             ],
             [
@@ -153,7 +153,7 @@
               "20,000",
               "8,500,000",
               "200,000",
-              "84",
+              "85",
               "30"
             ],
             [
@@ -166,7 +166,7 @@
               "20,000",
               "10,000,000",
               "200,000",
-              "89",
+              "90",
               "31"
             ],
             [
@@ -179,86 +179,99 @@
               "20,000",
               "14,000,000",
               "240,000",
-              "92",
+              "93",
               "36"
             ],
             [
               "13",
               "8,200",
               "9,000,000",
-              "7d",
-              "777",
+              "6d 12h",
+              "749",
               "2,000,000",
               "20,000",
               "18,000,000",
               "300,000",
-              "94",
+              "95",
               "39"
             ],
             [
               "14",
               "8,900",
-              "12,000,000",
-              "7d 12h",
-              "804",
+              "11,500,000",
+              "7d",
+              "777",
               "3,000,000",
               "30,000",
               "21,000,000",
               "360,000",
-              "95",
+              "96",
               "44"
             ],
             [
               "15",
               "9,600",
               "13,000,000",
-              "8d",
-              "831",
+              "7d 12h",
+              "804",
               "3,000,000",
               "30,000",
               "23,000,000",
               "390,000",
-              "98",
+              "99",
               "44"
             ],
             [
               "16",
               "10,000",
               "15,000,000",
-              "9d",
-              "881",
+              "8d 12h",
+              "856",
               "4,000,000",
               "40,000",
               "26,000,000",
               "430,000",
-              "94",
+              "95",
               "44"
             ],
             [
               "17",
               "10,400",
               "16,000,000",
-              "10d",
-              "929",
+              "9d 12h",
+              "905",
               "4,000,000",
               "40,000",
               "28,000,000",
               "460,000",
-              "93",
+              "94",
               "47"
             ],
             [
               "18",
               "10,800",
-              "25,000,000",
-              "12d",
-              "1,018",
+              "20,000,000",
+              "10d",
+              "929",
               "5,000,000",
               "50,000",
               "31,000,000",
               "500,000",
-              "94",
+              "95",
               "47"
+            ],
+            [
+              "19",
+              "11,200",
+              "27,000,000",
+              "13d",
+              "1,059",
+              "5,000,000",
+              "50,000",
+              "33,000,000",
+              "530,000",
+              "97",
+              "48"
             ]
           ],
           "note": "Capacity is held by the Town Hall itself; total storage includes the separate resource storages. The shared Gold/Elixir value is the capacity for each resource, not a combined pool."
@@ -461,6 +474,15 @@
               "1",
               "1",
               "1"
+            ],
+            [
+              "19",
+              "7",
+              "3",
+              "4",
+              "1",
+              "1",
+              "1"
             ]
           ]
         },
@@ -613,11 +635,19 @@
             ],
             [
               "18",
-              "17 + 3",
-              "11 + 3",
+              "18",
+              "12",
               "19",
               "13",
               "14"
+            ],
+            [
+              "19",
+              "18",
+              "12",
+              "20",
+              "14",
+              "15"
             ]
           ]
         },
@@ -634,7 +664,8 @@
             "Dark Spell Factory",
             "Blacksmith",
             "Workshop",
-            "Pet House"
+            "Pet House",
+            "Squad Barracks"
           ],
           "rows": [
             [
@@ -648,12 +679,14 @@
               "-",
               "-",
               "-",
+              "-",
               "-"
             ],
             [
               "2",
               "1",
               "1",
+              "-",
               "-",
               "-",
               "-",
@@ -674,6 +707,7 @@
               "-",
               "-",
               "-",
+              "-",
               "-"
             ],
             [
@@ -681,6 +715,7 @@
               "2",
               "1",
               "1",
+              "-",
               "-",
               "-",
               "-",
@@ -700,6 +735,7 @@
               "-",
               "-",
               "-",
+              "-",
               "-"
             ],
             [
@@ -708,6 +744,7 @@
               "1",
               "1",
               "1",
+              "-",
               "-",
               "-",
               "-",
@@ -726,6 +763,7 @@
               "-",
               "-",
               "-",
+              "-",
               "-"
             ],
             [
@@ -739,7 +777,8 @@
               "1",
               "1",
               "-",
-              "-"
+              "-",
+              "1"
             ],
             [
               "9",
@@ -752,7 +791,8 @@
               "1",
               "1",
               "-",
-              "-"
+              "-",
+              "1"
             ],
             [
               "10",
@@ -765,7 +805,8 @@
               "1",
               "1",
               "-",
-              "-"
+              "-",
+              "1"
             ],
             [
               "11",
@@ -778,7 +819,8 @@
               "1",
               "1",
               "-",
-              "-"
+              "-",
+              "1"
             ],
             [
               "12",
@@ -791,7 +833,8 @@
               "1",
               "1",
               "1",
-              "-"
+              "-",
+              "1"
             ],
             [
               "13",
@@ -804,11 +847,27 @@
               "1",
               "1",
               "1",
-              "-"
+              "-",
+              "1"
             ],
             [
               "14-18",
               "4",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "19",
+              "4",
+              "1",
               "1",
               "1",
               "1",
@@ -834,7 +893,8 @@
             "Dark Spell Factory",
             "Blacksmith",
             "Workshop",
-            "Pet House"
+            "Pet House",
+            "Squad Barracks"
           ],
           "rows": [
             [
@@ -848,12 +908,14 @@
               "-",
               "-",
               "-",
+              "-",
               "-"
             ],
             [
               "2",
               "2",
               "4",
+              "-",
               "-",
               "-",
               "-",
@@ -868,6 +930,7 @@
               "3",
               "5",
               "1",
+              "-",
               "-",
               "-",
               "-",
@@ -887,6 +950,7 @@
               "-",
               "-",
               "-",
+              "-",
               "-"
             ],
             [
@@ -895,6 +959,7 @@
               "7",
               "3",
               "1",
+              "-",
               "-",
               "-",
               "-",
@@ -913,6 +978,7 @@
               "-",
               "-",
               "-",
+              "-",
               "-"
             ],
             [
@@ -923,6 +989,7 @@
               "3",
               "2",
               "1",
+              "-",
               "-",
               "-",
               "-",
@@ -939,7 +1006,8 @@
               "2",
               "1",
               "-",
-              "-"
+              "-",
+              "1"
             ],
             [
               "9",
@@ -952,7 +1020,8 @@
               "4",
               "2",
               "-",
-              "-"
+              "-",
+              "2"
             ],
             [
               "10",
@@ -965,7 +1034,8 @@
               "5",
               "3",
               "-",
-              "-"
+              "-",
+              "3"
             ],
             [
               "11",
@@ -978,7 +1048,8 @@
               "5",
               "4",
               "-",
-              "-"
+              "-",
+              "4"
             ],
             [
               "12",
@@ -991,7 +1062,8 @@
               "6",
               "5",
               "3",
-              "-"
+              "-",
+              "5"
             ],
             [
               "13",
@@ -1004,7 +1076,8 @@
               "6",
               "6",
               "5",
-              "-"
+              "-",
+              "6"
             ],
             [
               "14",
@@ -1017,7 +1090,8 @@
               "7",
               "7",
               "6",
-              "4"
+              "4",
+              "7"
             ],
             [
               "15",
@@ -1030,6 +1104,7 @@
               "8",
               "8",
               "7",
+              "8",
               "8"
             ],
             [
@@ -1043,7 +1118,8 @@
               "8",
               "9",
               "8",
-              "10"
+              "10",
+              "9"
             ],
             [
               "17",
@@ -1056,7 +1132,8 @@
               "8",
               "9",
               "9",
-              "11"
+              "11",
+              "10"
             ],
             [
               "18",
@@ -1069,6 +1146,21 @@
               "8",
               "9",
               "9",
+              "12",
+              "11"
+            ],
+            [
+              "19",
+              "14",
+              "19",
+              "17",
+              "10",
+              "13",
+              "13",
+              "8",
+              "10",
+              "9",
+              "12",
               "12"
             ]
           ]
@@ -1089,7 +1181,10 @@
             "X-Bow",
             "Inferno Tower",
             "Eagle Artillery",
-            "Giga Tesla"
+            "Giga Tesla",
+            "",
+            "",
+            ""
           ],
           "rows": [
             [
@@ -1106,7 +1201,10 @@
               "-",
               "-",
               "-",
-              "-"
+              "-",
+              "",
+              "",
+              ""
             ],
             [
               "2",
@@ -1122,7 +1220,10 @@
               "-",
               "-",
               "-",
-              "-"
+              "-",
+              "",
+              "",
+              ""
             ],
             [
               "3",
@@ -1138,7 +1239,10 @@
               "-",
               "-",
               "-",
-              "-"
+              "-",
+              "",
+              "",
+              ""
             ],
             [
               "4",
@@ -1154,7 +1258,10 @@
               "-",
               "-",
               "-",
-              "-"
+              "-",
+              "",
+              "",
+              ""
             ],
             [
               "5",
@@ -1170,7 +1277,10 @@
               "-",
               "-",
               "-",
-              "-"
+              "-",
+              "",
+              "",
+              ""
             ],
             [
               "6",
@@ -1186,7 +1296,10 @@
               "-",
               "-",
               "-",
-              "-"
+              "-",
+              "",
+              "",
+              ""
             ],
             [
               "7",
@@ -1202,7 +1315,10 @@
               "-",
               "-",
               "-",
-              "-"
+              "-",
+              "",
+              "",
+              ""
             ],
             [
               "8",
@@ -1218,7 +1334,10 @@
               "-",
               "-",
               "-",
-              "-"
+              "-",
+              "",
+              "",
+              ""
             ],
             [
               "9",
@@ -1234,7 +1353,10 @@
               "2",
               "-",
               "-",
-              "-"
+              "-",
+              "",
+              "",
+              ""
             ],
             [
               "10",
@@ -1250,7 +1372,10 @@
               "3",
               "2",
               "-",
-              "-"
+              "-",
+              "",
+              "",
+              ""
             ],
             [
               "11",
@@ -1266,7 +1391,10 @@
               "4",
               "2",
               "1",
-              "-"
+              "-",
+              "",
+              "",
+              ""
             ],
             [
               "12",
@@ -1282,7 +1410,10 @@
               "4",
               "3",
               "1",
-              "1"
+              "1",
+              "",
+              "",
+              ""
             ],
             [
               "13-15",
@@ -1298,7 +1429,10 @@
               "4",
               "3",
               "1",
-              "-"
+              "-",
+              "",
+              "",
+              ""
             ],
             [
               "16",
@@ -1314,7 +1448,10 @@
               "4",
               "3",
               "1",
-              "-"
+              "-",
+              "",
+              "",
+              ""
             ],
             [
               "17",
@@ -1330,7 +1467,10 @@
               "4",
               "3",
               "0*",
-              "-"
+              "-",
+              "",
+              "",
+              ""
             ],
             [
               "18",
@@ -1346,7 +1486,10 @@
               "4",
               "3",
               "-",
-              "-"
+              "-",
+              "",
+              "",
+              ""
             ],
             [
               "TH Level",
@@ -1362,13 +1505,38 @@
               "Firespitter",
               "Revenge Tower",
               "Crafting Station",
-              "Super Wizard Tower"
+              "Super Wizard Tower",
+              "Firecracker Tower",
+              "Spiky Tower",
+              "Guardian Shrine"
+            ],
+            [
+              "19",
+              "-",
+              "0*",
+              "350",
+              "4",
+              "5",
+              "2*",
+              "2",
+              "5",
+              "2",
+              "4",
+              "3",
+              "-",
+              "-",
+              "",
+              "",
+              ""
             ],
             [
               "1-12",
               "-",
               "-",
               "5",
+              "-",
+              "-",
+              "-",
               "-",
               "-",
               "-",
@@ -1394,6 +1562,9 @@
               "-",
               "-",
               "-",
+              "-",
+              "-",
+              "-",
               "-"
             ],
             [
@@ -1401,6 +1572,9 @@
               "1",
               "2",
               "5",
+              "-",
+              "-",
+              "-",
               "-",
               "-",
               "-",
@@ -1426,6 +1600,9 @@
               "-",
               "-",
               "-",
+              "-",
+              "-",
+              "-",
               "-"
             ],
             [
@@ -1437,6 +1614,9 @@
               "1",
               "2",
               "2",
+              "-",
+              "-",
+              "-",
               "-",
               "-",
               "-",
@@ -1458,6 +1638,9 @@
               "2",
               "-",
               "-",
+              "-",
+              "-",
+              "-",
               "-"
             ],
             [
@@ -1474,7 +1657,29 @@
               "2",
               "1",
               "1",
-              "2"
+              "2",
+              "-",
+              "-",
+              "-"
+            ],
+            [
+              "19",
+              "-",
+              "0*",
+              "5",
+              "2",
+              "1",
+              "3",
+              "3",
+              "-",
+              "1",
+              "2",
+              "1",
+              "1",
+              "2",
+              "2",
+              "2",
+              "1"
             ]
           ]
         },
@@ -1494,7 +1699,9 @@
             "X-Bow",
             "Inferno Tower",
             "Eagle Artillery",
-            "Giga Tesla"
+            "Giga Tesla",
+            "",
+            ""
           ],
           "rows": [
             [
@@ -1511,7 +1718,9 @@
               "-",
               "-",
               "-",
-              "-"
+              "-",
+              "",
+              ""
             ],
             [
               "2",
@@ -1527,7 +1736,9 @@
               "-",
               "-",
               "-",
-              "-"
+              "-",
+              "",
+              ""
             ],
             [
               "3",
@@ -1543,7 +1754,9 @@
               "-",
               "-",
               "-",
-              "-"
+              "-",
+              "",
+              ""
             ],
             [
               "4",
@@ -1559,7 +1772,9 @@
               "-",
               "-",
               "-",
-              "-"
+              "-",
+              "",
+              ""
             ],
             [
               "5",
@@ -1575,7 +1790,9 @@
               "-",
               "-",
               "-",
-              "-"
+              "-",
+              "",
+              ""
             ],
             [
               "6",
@@ -1591,7 +1808,9 @@
               "-",
               "-",
               "-",
-              "-"
+              "-",
+              "",
+              ""
             ],
             [
               "7",
@@ -1607,7 +1826,9 @@
               "-",
               "-",
               "-",
-              "-"
+              "-",
+              "",
+              ""
             ],
             [
               "8",
@@ -1623,7 +1844,9 @@
               "-",
               "-",
               "-",
-              "-"
+              "-",
+              "",
+              ""
             ],
             [
               "9",
@@ -1639,7 +1862,9 @@
               "3",
               "-",
               "-",
-              "-"
+              "-",
+              "",
+              ""
             ],
             [
               "10",
@@ -1655,7 +1880,9 @@
               "4",
               "3",
               "-",
-              "-"
+              "-",
+              "",
+              ""
             ],
             [
               "11",
@@ -1671,7 +1898,9 @@
               "5",
               "5",
               "2",
-              "-"
+              "-",
+              "",
+              ""
             ],
             [
               "12",
@@ -1687,7 +1916,9 @@
               "6",
               "6",
               "3",
-              "1"
+              "1",
+              "",
+              ""
             ],
             [
               "13",
@@ -1703,7 +1934,9 @@
               "8",
               "7",
               "4",
-              "-"
+              "-",
+              "",
+              ""
             ],
             [
               "14",
@@ -1719,7 +1952,9 @@
               "9",
               "8",
               "5",
-              "-"
+              "-",
+              "",
+              ""
             ],
             [
               "15",
@@ -1735,7 +1970,9 @@
               "10",
               "9",
               "6",
-              "-"
+              "-",
+              "",
+              ""
             ],
             [
               "16",
@@ -1751,7 +1988,9 @@
               "11",
               "10",
               "7",
-              "-"
+              "-",
+              "",
+              ""
             ],
             [
               "17",
@@ -1767,7 +2006,9 @@
               "12 + 2",
               "11",
               "-",
-              "-"
+              "-",
+              "",
+              ""
             ],
             [
               "18",
@@ -1783,7 +2024,9 @@
               "12 + 2",
               "12",
               "-",
-              "-"
+              "-",
+              "",
+              ""
             ],
             [
               "TH Level",
@@ -1799,13 +2042,35 @@
               "Firespitter",
               "Revenge Tower",
               "Crafting Station",
-              "Super Wizard Tower"
+              "Super Wizard Tower",
+              "Firecracker Tower",
+              "Spiky Tower"
+            ],
+            [
+              "19",
+              "-",
+              "21",
+              "20",
+              "18",
+              "17",
+              "17",
+              "7",
+              "18",
+              "13",
+              "14",
+              "12",
+              "-",
+              "-",
+              "",
+              ""
             ],
             [
               "1-12",
               "-",
               "-",
               "1",
+              "-",
+              "-",
               "-",
               "-",
               "-",
@@ -1831,6 +2096,8 @@
               "-",
               "-",
               "-",
+              "-",
+              "-",
               "-"
             ],
             [
@@ -1838,6 +2105,8 @@
               "1",
               "3",
               "4",
+              "-",
+              "-",
               "-",
               "-",
               "-",
@@ -1863,6 +2132,8 @@
               "-",
               "-",
               "-",
+              "-",
+              "-",
               "-"
             ],
             [
@@ -1874,6 +2145,8 @@
               "3",
               "2",
               "2",
+              "-",
+              "-",
               "-",
               "-",
               "-",
@@ -1893,6 +2166,8 @@
               "5",
               "2",
               "2",
+              "-",
+              "-",
               "-",
               "-",
               "-"
@@ -1911,7 +2186,27 @@
               "3",
               "2",
               "1",
-              "2 + 2"
+              "2 + 2",
+              "-",
+              "-"
+            ],
+            [
+              "19",
+              "-",
+              "7",
+              "9",
+              "4",
+              "5",
+              "5",
+              "5",
+              "-",
+              "4",
+              "3",
+              "2",
+              "1",
+              "2",
+              "2",
+              "2"
             ]
           ]
         },
@@ -2087,6 +2382,17 @@
               "18",
               "8",
               "9",
+              "8",
+              "8",
+              "9",
+              "4",
+              "1",
+              "1"
+            ],
+            [
+              "19",
+              "8",
+              "10",
               "8",
               "8",
               "9",
@@ -2296,6 +2602,17 @@
               "5",
               "3",
               "3"
+            ],
+            [
+              "19",
+              "14",
+              "14",
+              "13",
+              "11",
+              "7",
+              "6",
+              "3",
+              "3"
             ]
           ]
         }
@@ -2372,6 +2689,10 @@
         {
           "file": "File:Town Hall18.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/7/76/Town_Hall18.png/revision/latest?cb=20251117162127"
+        },
+        {
+          "file": "File:Town Hall19.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/77/Town_Hall19.png/revision/latest?cb=20261113134226"
         }
       ],
       "unverified": [
@@ -2395,7 +2716,8 @@
         "15": 15,
         "16": 16,
         "17": 17,
-        "18": 18
+        "18": 18,
+        "19": 19
       },
       "levelImages": {
         "1": {
@@ -2469,6 +2791,10 @@
         "18": {
           "file": "File:Town Hall18.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/7/76/Town_Hall18.png/revision/latest?cb=20251117162127"
+        },
+        "19": {
+          "file": "File:Town Hall19.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/77/Town_Hall19.png/revision/latest?cb=20261113134226"
         }
       },
       "imageVerification": {
@@ -2736,47 +3062,11 @@
           "rows": [
             [
               "1",
-              "40",
-              "140",
-              "N/A",
-              "N/A",
-              "N/A",
-              "17"
-            ],
-            [
-              "2",
-              "45",
-              "157.5",
-              "10,000,000",
-              "6d",
-              "720",
-              "17"
-            ],
-            [
-              "3",
-              "50",
-              "175",
-              "12,000,000",
-              "7d",
-              "777",
-              "17"
-            ],
-            [
-              "4",
-              "55",
-              "192.5",
-              "14,000,000",
-              "8d",
-              "831",
-              "17"
-            ],
-            [
-              "5",
               "60",
               "210",
-              "18,000,000",
-              "10d",
-              "929",
+              "N/A",
+              "N/A",
+              "N/A",
               "17"
             ]
           ]
@@ -2833,31 +3123,11 @@
         "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
       ],
       "hallByLevel": {
-        "1": 17,
-        "2": 17,
-        "3": 17,
-        "4": 17,
-        "5": 17
+        "1": 17
       },
       "removedAtTH": 18,
       "levelImages": {
         "1": {
-          "file": "File:Inferno Artillery1.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bf/Inferno_Artillery1.png/revision/latest?cb=20241123024028"
-        },
-        "2": {
-          "file": "File:Inferno Artillery2.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/92/Inferno_Artillery2.png/revision/latest?cb=20241123024029"
-        },
-        "3": {
-          "file": "File:Inferno Artillery3.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c7/Inferno_Artillery3.png/revision/latest?cb=20241123024030"
-        },
-        "4": {
-          "file": "File:Inferno Artillery4.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0a/Inferno_Artillery4.png/revision/latest?cb=20241123024031"
-        },
-        "5": {
           "file": "File:Inferno Artillery5.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Inferno_Artillery5.png/revision/latest?cb=20241123024000"
         }
@@ -2867,7 +3137,8 @@
         "page": "Town Hall/Inferno Artillery",
         "rawWikitextSha256": "433ffd4f64f409e5a71dcbf8726e2ff77e936c61f439674413cbfa79438cc964",
         "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
-      }
+      },
+      "note": "Since the Town Hall 19 update the Inferno Artillery is a single level at full power (60 DPS), the same way the TH 16 weapon was merged before (Supercell's release notes)."
     },
     {
       "n": "Town Hall/Guardians",
@@ -2895,7 +3166,11 @@
         "page": "Town Hall/Guardians",
         "rawWikitextSha256": "31cb02ee71a426cc2f15b227dec1c0391639f125ebf200ab075bb0f1c52d5f11",
         "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
-      }
+      },
+      "removedAtTH": 19,
+      "removedLabel": "Moved to Defenses",
+      "movedTo": "#/c/defenses?group=guardians",
+      "note": "From TH 19 the Guardians move to the Guardian Shrine; see Defenses."
     },
     {
       "n": "Longshot",
@@ -2959,7 +3234,7 @@
               "648",
               "8,000",
               "1,000",
-              "18,000,000",
+              "16,500,000",
               "7d"
             ],
             [
@@ -2968,7 +3243,7 @@
               "702",
               "9,000",
               "1,000",
-              "22,000,000",
+              "20,000,000",
               "9d"
             ],
             [
@@ -2977,7 +3252,7 @@
               "756",
               "10,000",
               "1,000",
-              "26,000,000",
+              "23,000,000",
               "11d"
             ],
             [
@@ -2986,7 +3261,7 @@
               "810",
               "11,000",
               "1,000",
-              "28,000,000",
+              "25,000,000",
               "13d"
             ]
           ]
@@ -3035,7 +3310,11 @@
         "page": "Longshot",
         "rawWikitextSha256": "f6915a2dfc89dbd5f7972a5dc04a1f9d158fa971a7a3f31949bf45bed17cd915",
         "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
-      }
+      },
+      "removedAtTH": 19,
+      "removedLabel": "Moved to Defenses",
+      "movedTo": "#/c/defenses?group=guardians",
+      "note": "From TH 19 the Guardians move to the Guardian Shrine; see Defenses. Levels 2-5 costs are from Supercell's release notes for the Town Hall 19 update (the wiki lists different numbers)."
     },
     {
       "n": "Smasher",
@@ -3098,32 +3377,72 @@
               "550",
               "990",
               "13,000",
-              "18,000,000",
-              "7d"
+              "15,000,000",
+              "5d"
             ],
             [
               "3",
               "600",
               "1,080",
               "14,000",
-              "22,000,000",
-              "9d"
+              "18,000,000",
+              "7d"
             ],
             [
               "4",
               "650",
               "1,170",
               "15,000",
-              "26,000,000",
-              "11d"
+              "21,000,000",
+              "9d"
             ],
             [
               "5",
               "700",
               "1,260",
               "16,000",
-              "28,000,000",
+              "23,000,000",
+              "11d"
+            ],
+            [
+              "6",
+              "750",
+              "1,350",
+              "17,000",
+              "24,000,000",
+              "12d"
+            ],
+            [
+              "7",
+              "800",
+              "1,440",
+              "18,000",
+              "25,000,000",
+              "12d 12h"
+            ],
+            [
+              "8",
+              "850",
+              "1,530",
+              "19,000",
+              "26,000,000",
               "13d"
+            ],
+            [
+              "9",
+              "900",
+              "1,620",
+              "20,000",
+              "27,000,000",
+              "13d 12h"
+            ],
+            [
+              "10",
+              "950",
+              "1,710",
+              "21,000",
+              "28,000,000",
+              "14d"
             ]
           ]
         }
@@ -3142,7 +3461,12 @@
         "2": 18,
         "3": 18,
         "4": 18,
-        "5": 18
+        "5": 18,
+        "6": 19,
+        "7": 19,
+        "8": 19,
+        "9": 19,
+        "10": 19
       },
       "levelImages": {
         "1": {
@@ -3164,6 +3488,26 @@
         "5": {
           "file": "File:Smasher1.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
+        },
+        "6": {
+          "file": "File:Smasher1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
+        },
+        "7": {
+          "file": "File:Smasher1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
+        },
+        "8": {
+          "file": "File:Smasher1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
+        },
+        "9": {
+          "file": "File:Smasher1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
+        },
+        "10": {
+          "file": "File:Smasher1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Smasher1.png/revision/latest?cb=20251210012952"
         }
       },
       "imageVerification": {
@@ -3171,7 +3515,11 @@
         "page": "Smasher",
         "rawWikitextSha256": "216704971d034cbfdcc60c94debbf531237a7ad1f3b9659c062dd54de2a18ec8",
         "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
-      }
+      },
+      "removedAtTH": 19,
+      "removedLabel": "Moved to Defenses",
+      "movedTo": "#/c/defenses?group=guardians",
+      "note": "From TH 19 the Guardians move to the Guardian Shrine; see Defenses. Levels 2-5 costs are from Supercell's release notes for the Town Hall 19 update (the wiki lists different numbers)."
     },
     {
       "n": "Logger",
@@ -3233,7 +3581,7 @@
               "650",
               "9,000",
               "5 tiles",
-              "18,000,000",
+              "16,500,000",
               "7d"
             ],
             [
@@ -3242,7 +3590,7 @@
               "725",
               "10,000",
               "5 tiles",
-              "22,000,000",
+              "20,000,000",
               "9d"
             ],
             [
@@ -3251,7 +3599,7 @@
               "800",
               "11,000",
               "6 tiles",
-              "26,000,000",
+              "23,000,000",
               "11d"
             ],
             [
@@ -3260,7 +3608,7 @@
               "875",
               "12,000",
               "6 tiles",
-              "28,000,000",
+              "25,000,000",
               "13d"
             ]
           ]
@@ -3309,11 +3657,120 @@
         "page": "Logger",
         "rawWikitextSha256": "58d42a87fa4735d97b2c7d88a7ec9e7a28eb47d3313f93a4dfd422fdfdfe87ae",
         "method": "Fandom raw wikitext and normal appearance level/range captions; imageinfo original URL; HTTP 200 without Referer"
-      }
+      },
+      "removedAtTH": 19,
+      "removedLabel": "Moved to Defenses",
+      "movedTo": "#/c/defenses?group=guardians",
+      "note": "From TH 19 the Guardians move to the Guardian Shrine; see Defenses. Levels 2-5 costs are from Supercell's release notes for the Town Hall 19 update (the wiki lists different numbers)."
+    },
+    {
+      "n": "Town Hall/Town Hall Troops",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/f/fa/Town_Hall19_Barbarian.png/revision/latest?cb=20261113134223",
+      "source": "https://clashofclans.fandom.com/wiki/Town_Hall",
+      "revision": null,
+      "unverified": [],
+      "unlockHall": 19,
+      "tables": [
+        {
+          "heading": "Town Hall troop modes",
+          "columns": [
+            "Mode",
+            "Defending Troops",
+            "Deployment",
+            "Requirement"
+          ],
+          "rows": [
+            [
+              "Original",
+              "None",
+              "-",
+              "Default look; no defending troops"
+            ],
+            [
+              "Barbarian Hall",
+              "15 Barbarians",
+              "Groups of 3",
+              "Available at TH 19"
+            ],
+            [
+              "Archer Hall",
+              "15 Archers",
+              "Groups of 4 (last group of 3)",
+              "Archers at level 15"
+            ],
+            [
+              "Wizard Hall",
+              "4 Wizards",
+              "-",
+              "Wizards at level 15"
+            ]
+          ],
+          "wrap": true
+        },
+        {
+          "heading": "Town Hall troop details",
+          "columns": [
+            "Trigger Radius",
+            "Troop Levels",
+            "Switching Modes"
+          ],
+          "rows": [
+            [
+              "13 tiles",
+              "Your researched levels",
+              "Any time"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Town Hall19 Barbarian.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fa/Town_Hall19_Barbarian.png/revision/latest?cb=20261113134223"
+        },
+        {
+          "file": "File:Town Hall19 Archer.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e5/Town_Hall19_Archer.png/revision/latest?cb=20261113134222"
+        },
+        {
+          "file": "File:Town Hall19 Wizard.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b9/Town_Hall19_Wizard.png/revision/latest?cb=20261113134225"
+        },
+        {
+          "file": "File:Town Hall19.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/77/Town_Hall19.png/revision/latest?cb=20261113134226"
+        }
+      ],
+      "levelImages": {
+        "1": {
+          "file": "File:Town Hall19 Barbarian.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fa/Town_Hall19_Barbarian.png/revision/latest?cb=20261113134223"
+        },
+        "2": {
+          "file": "File:Town Hall19 Archer.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e5/Town_Hall19_Archer.png/revision/latest?cb=20261113134222"
+        },
+        "3": {
+          "file": "File:Town Hall19 Wizard.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b9/Town_Hall19_Wizard.png/revision/latest?cb=20261113134225"
+        },
+        "4": {
+          "file": "File:Town Hall19.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/77/Town_Hall19.png/revision/latest?cb=20261113134226"
+        }
+      },
+      "levelLabels": {
+        "1": "Barbarian Hall",
+        "2": "Archer Hall",
+        "3": "Wizard Hall",
+        "4": "Original"
+      },
+      "note": "From TH 19 the Town Hall can hold defending troops, like a Clan Castle. They come out when an attacker gets within 13 tiles, signalled by the horn on top of the Town Hall, and use your own researched troop levels. Freezing or Overgrowth doesn't stop them. The chosen troop also changes the Town Hall's look, and you can switch at any time.",
+      "progressionNote": "Town Hall Troops have no upgrades of their own; they use your researched troop levels."
     }
   ],
   "unverified": [],
-  "note": "Normal upgrade costs and times; no event discounts applied.",
+  "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 17, 2026, with gaps filled from Supercell's release notes. The wiki is still being updated, so some values may change. TBA = not on the wiki yet. Normal upgrade costs and times; no event discounts applied.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
   "sections": [
     {
@@ -3321,7 +3778,8 @@
       "units": [
         "Town Hall/Giga Weapon",
         "Town Hall/Inferno Artillery",
-        "Town Hall/Guardians"
+        "Town Hall/Guardians",
+        "Town Hall/Town Hall Troops"
       ]
     }
   ]

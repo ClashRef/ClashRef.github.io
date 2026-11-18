@@ -7,36 +7,31 @@
      "id": "elixir",
      "label": "Elixir Troops",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/8/87/Avatar_Barbarian.png/revision/latest?cb=20170525070200",
-     "data": "data/elixir.json",
-     "next": "data/next/elixir.json"
+     "data": "data/elixir.json"
     },
     {
      "id": "dark",
      "label": "Dark Troops",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/Avatar_Hog_Rider.png/revision/latest?cb=20200913195505",
-     "data": "data/dark.json",
-     "next": "data/next/dark.json"
+     "data": "data/dark.json"
     },
     {
      "id": "super",
      "label": "Super Troops",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/8/81/Avatar_Super_Barbarian.png/revision/latest?cb=20200913075458",
-     "data": "data/super.json",
-     "next": "data/next/super.json"
+     "data": "data/super.json"
     },
     {
      "id": "espells",
      "label": "Elixir Spells",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/c/c0/Lightning_Spell_info.png/revision/latest?cb=20210106011434",
-     "data": "data/espells.json",
-     "next": "data/next/espells.json"
+     "data": "data/espells.json"
     },
     {
      "id": "dspells",
      "label": "Dark Spells",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/4/49/Poison_Spell_info.png/revision/latest?cb=20171008204511",
-     "data": "data/dspells.json",
-     "next": "data/next/dspells.json"
+     "data": "data/dspells.json"
     },
     {
      "id": "siege",
@@ -48,8 +43,7 @@
      "id": "heroes",
      "label": "Heroes",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/2/26/Avatar_Hero_Barbarian_King.png/revision/latest?cb=20200913051657",
-     "data": "data/heroes.json",
-     "next": "data/next/heroes.json"
+     "data": "data/heroes.json"
     },
     {
      "id": "equip",
@@ -61,15 +55,12 @@
      "id": "pets",
      "label": "Pets",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/6/62/Avatar_L.A.S.S.I.png/revision/latest?cb=20210413063518",
-     "data": "data/pets.json",
-     "next": "data/next/pets.json"
+     "data": "data/pets.json"
     },
     {
      "id": "squads",
      "label": "Squads",
-     "img": "https://static.wikia.nocookie.net/clashofclans/images/6/66/Avatar_Barch_Squad.png/revision/latest?cb=20261115142955",
-     "previewOnly": true,
-     "next": "data/next/squads.json"
+     "img": "https://static.wikia.nocookie.net/clashofclans/images/6/66/Avatar_Barch_Squad.png/revision/latest?cb=20261115142955"
     }
    ]
   },
@@ -83,44 +74,38 @@
      "data": "data/defenses.json",
      "leadingCategories": [
       "walls"
-     ],
-     "next": "data/next/defenses.json"
+     ]
     },
     {
      "id": "traps",
      "label": "Traps",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Bomb13.png/revision/latest?cb=20241127134105",
-     "data": "data/traps.json",
-     "next": "data/next/traps.json"
+     "data": "data/traps.json"
     },
     {
      "id": "army",
      "label": "Army Buildings",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/c/c6/Army_Camp14.png/revision/latest?cb=20260425143241",
-     "data": "data/army.json",
-     "next": "data/next/army.json"
+     "data": "data/army.json"
     },
     {
      "id": "resource",
      "label": "Resource Buildings",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Gold_Mine17.png/revision/latest?cb=20251118165804",
-     "data": "data/resource.json",
-     "next": "data/next/resource.json"
+     "data": "data/resource.json"
     },
     {
      "id": "walls",
      "label": "Walls",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/4/4d/Wall19.png/revision/latest?cb=20260226043604",
      "data": "data/walls.json",
-     "hiddenFromHome": true,
-     "next": "data/next/walls.json"
+     "hiddenFromHome": true
     },
     {
      "id": "townhall",
      "label": "Town Hall",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/7/76/Town_Hall18.png/revision/latest?cb=20251117162127",
-     "data": "data/townhall.json",
-     "next": "data/next/townhall.json"
+     "data": "data/townhall.json"
     },
     {
      "id": "crafted",
@@ -132,8 +117,7 @@
      "id": "supercharge",
      "label": "Supercharges",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/8/86/Icon_Supercharge.png/revision/latest?cb=20240909141818",
-     "data": "data/supercharge.json",
-     "next": "data/next/supercharge.json"
+     "data": "data/supercharge.json"
     }
    ]
   },
@@ -171,8 +155,7 @@
      "id": "bbbuildings",
      "label": "Builder Buildings",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/8/87/Builder_Hall10.png/revision/latest?cb=20230516070454",
-     "data": "data/bbbuildings.json",
-     "next": "data/next/bbbuildings.json"
+     "data": "data/bbbuildings.json"
     },
     {
      "id": "bbwalls",

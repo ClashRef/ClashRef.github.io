@@ -2,7 +2,7 @@
   "id": "dark",
   "label": "Dark Troops",
   "format": "wiki-review-v1",
-  "updated": "2026-11-03",
+  "updated": "2026-11-03; Town Hall 19 update read Nov 17, 2026",
   "units": [
     {
       "n": "Minion",
@@ -170,6 +170,15 @@
               "335,000",
               "14d",
               "16"
+            ],
+            [
+              "15",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "17"
             ]
           ]
         },
@@ -237,6 +246,10 @@
         {
           "file": "File:Minion9.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/1/12/Minion9.png/revision/latest?cb=20201212211934"
+        },
+        {
+          "file": "File:Minion15.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5e/Minion15.png/revision/latest?cb=20261113185343"
         }
       ],
       "unverified": [
@@ -258,7 +271,8 @@
         "11": 15,
         "12": 16,
         "13": 17,
-        "14": 18
+        "14": 18,
+        "15": 19
       }
     },
     {
@@ -436,6 +450,15 @@
               "340,000",
               "14d 12h",
               "16"
+            ],
+            [
+              "16",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "17"
             ]
           ]
         },
@@ -511,6 +534,10 @@
         {
           "file": "File:Hog Rider9.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/8/81/Hog_Rider9.png/revision/latest?cb=20230613101521"
+        },
+        {
+          "file": "File:Hog Rider16.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/75/Hog_Rider16.png/revision/latest?cb=20261113185657"
         }
       ],
       "unverified": [
@@ -533,7 +560,8 @@
         "12": 15,
         "13": 16,
         "14": 17,
-        "15": 18
+        "15": 18,
+        "16": 19
       }
     },
     {
@@ -645,8 +673,8 @@
               "196",
               "352.8",
               "1,800",
-              "77,500",
-              "3d",
+              "70,000",
+              "2d 18h",
               "11"
             ],
             [
@@ -654,8 +682,8 @@
               "208",
               "374.4",
               "2,000",
-              "105,000",
-              "4d 12h",
+              "95,000",
+              "4d",
               "12"
             ],
             [
@@ -663,8 +691,8 @@
               "223",
               "401.4",
               "2,400",
-              "120,000",
-              "5d",
+              "110,000",
+              "4d 12h",
               "13"
             ],
             [
@@ -672,8 +700,8 @@
               "238",
               "428.4",
               "2,600",
-              "170,000",
-              "6d",
+              "140,000",
+              "5d",
               "14"
             ],
             [
@@ -681,9 +709,18 @@
               "255",
               "459",
               "2,900",
-              "340,000",
-              "14d",
+              "235,000",
+              "9d 12h",
               "15"
+            ],
+            [
+              "13",
+              "272",
+              "489.6",
+              "3,400",
+              "370,000",
+              "10d 12h",
+              "17"
             ]
           ]
         },
@@ -743,6 +780,10 @@
         {
           "file": "File:Valkyrie9.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/3/30/Valkyrie9.png/revision/latest?cb=20230613100925"
+        },
+        {
+          "file": "File:Valkyrie13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/aa/Valkyrie13.png/revision/latest?cb=20261113145316"
         }
       ],
       "unverified": [
@@ -762,7 +803,8 @@
         "9": 14,
         "10": 15,
         "11": 16,
-        "12": 17
+        "12": 17,
+        "13": 19
       }
     },
     {
@@ -974,6 +1016,17 @@
               "350,000",
               "14d 12h",
               "16"
+            ],
+            [
+              "16",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "17"
             ]
           ]
         }
@@ -1034,6 +1087,10 @@
         {
           "file": "File:Golem9.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/6/69/Golem9.png/revision/latest?cb=20201211063733"
+        },
+        {
+          "file": "File:Golem16.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3c/Golem16.png/revision/latest?cb=20261113145303"
         }
       ],
       "unverified": [
@@ -1056,7 +1113,8 @@
         "12": 15,
         "13": 16,
         "14": 17,
-        "15": 18
+        "15": 18,
+        "16": 19
       }
     },
     {
@@ -1200,6 +1258,18 @@
               "355,000",
               "15d 12h",
               "16"
+            ],
+            [
+              "9",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "17"
             ]
           ]
         },
@@ -1247,6 +1317,10 @@
         {
           "file": "File:Witch8.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/f/ff/Witch8.png/revision/latest?cb=20260715052946"
+        },
+        {
+          "file": "File:Witch9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Witch9.png/revision/latest?cb=20261113185553"
         }
       ],
       "unverified": [
@@ -1262,7 +1336,8 @@
         "5": 12,
         "6": 15,
         "7": 16,
-        "8": 18
+        "8": 18,
+        "9": 19
       }
     },
     {
@@ -1404,6 +1479,18 @@
               "345,000",
               "15d 6h",
               "16"
+            ],
+            [
+              "9",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "17"
             ]
           ]
         },
@@ -1455,6 +1542,10 @@
         {
           "file": "File:Lava Hound8.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/b/ba/Lava_Hound8.png/revision/latest?cb=20260715072920"
+        },
+        {
+          "file": "File:Lava Hound9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/30/Lava_Hound9.png/revision/latest?cb=20261113185524"
         }
       ],
       "unverified": [
@@ -1470,7 +1561,8 @@
         "5": 12,
         "6": 13,
         "7": 16,
-        "8": 18
+        "8": 18,
+        "9": 19
       }
     },
     {
@@ -1555,8 +1647,8 @@
               "102",
               "224.4",
               "505",
-              "85,000",
-              "4d",
+              "75,000",
+              "3d 12h",
               "11"
             ],
             [
@@ -1564,8 +1656,8 @@
               "108",
               "237.6",
               "530",
-              "110,000",
-              "6d",
+              "100,000",
+              "5d 12h",
               "12"
             ],
             [
@@ -1591,8 +1683,8 @@
               "140",
               "308",
               "700",
-              "260,000",
-              "10d",
+              "205,000",
+              "8d",
               "15"
             ],
             [
@@ -1600,9 +1692,18 @@
               "160",
               "352",
               "860",
-              "360,000",
-              "15d",
+              "245,000",
+              "9d",
               "16"
+            ],
+            [
+              "11",
+              "180",
+              "396",
+              "1,050",
+              "385,000",
+              "11d 12h",
+              "17"
             ]
           ]
         },
@@ -1662,6 +1763,10 @@
         {
           "file": "File:Bowler9.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/4/49/Bowler9.png/revision/latest?cb=20251205143105"
+        },
+        {
+          "file": "File:Bowler11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/73/Bowler11.png/revision/latest?cb=20261113185141"
         }
       ],
       "unverified": [
@@ -1679,7 +1784,8 @@
         "7": 15,
         "8": 16,
         "9": 17,
-        "10": 18
+        "10": 18,
+        "11": 19
       }
     },
     {
@@ -1974,6 +2080,19 @@
               "370,000",
               "15d 12h",
               "16"
+            ],
+            [
+              "5",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "17"
             ]
           ]
         }
@@ -1998,6 +2117,10 @@
         {
           "file": "File:Headhunter4.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d3/Headhunter4.png/revision/latest?cb=20260427191831"
+        },
+        {
+          "file": "File:Headhunter5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/68/Headhunter5.png/revision/latest?cb=20261113185418"
         }
       ],
       "unverified": [
@@ -2009,7 +2132,8 @@
         "1": 12,
         "2": 12,
         "3": 13,
-        "4": 18
+        "4": 18,
+        "5": 19
       }
     },
     {
@@ -2238,6 +2362,16 @@
               "380,000",
               "15d 12h",
               "16"
+            ],
+            [
+              "7",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "17"
             ]
           ]
         }
@@ -2262,6 +2396,10 @@
         {
           "file": "File:Druid6.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7c/Druid6.png/revision/latest?cb=20260427191731"
+        },
+        {
+          "file": "File:Druid7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Druid7.png/revision/latest?cb=20261113185450"
         }
       ],
       "unverified": [
@@ -2275,7 +2413,8 @@
         "3": 15,
         "4": 16,
         "5": 17,
-        "6": 18
+        "6": 18,
+        "7": 19
       }
     },
     {
@@ -2463,6 +2602,17 @@
               "380,000",
               "15d 12h",
               "16"
+            ],
+            [
+              "5",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "TBA",
+              "17"
             ]
           ]
         }
@@ -2487,6 +2637,10 @@
         {
           "file": "File:Ruin Witch4.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ec/Ruin_Witch4.png/revision/latest?cb=20260614153114"
+        },
+        {
+          "file": "File:Ruin Witch5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Ruin_Witch5.png/revision/latest?cb=20261113185630"
         }
       ],
       "unverified": [
@@ -2498,11 +2652,12 @@
         "1": 16,
         "2": 16,
         "3": 17,
-        "4": 18
+        "4": 18,
+        "5": 19
       }
     }
   ],
   "unverified": [],
-  "note": "Normal stats, costs, and times from the Clash of Clans wiki. Hall caps use Dark Barracks and Laboratory requirements; remaining verification notes are listed per item.",
+  "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 17, 2026, with gaps filled from Supercell's release notes. The wiki is still being updated, so some values may change. TBA = not on the wiki yet. Normal stats, costs, and times from the Clash of Clans wiki. Hall caps use Dark Barracks and Laboratory requirements; remaining verification notes are listed per item.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }

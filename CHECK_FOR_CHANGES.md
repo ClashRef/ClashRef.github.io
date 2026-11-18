@@ -256,6 +256,8 @@ Every change is listed in `.wiki-check/update-preview.txt`. Read it before publi
    In `data/supercharge.json`, remove the Supercharges the update retired (the preview marks them `removedAtTH`), and add any new ones the wiki's Supercharge page lists.
 3. Verify (section 7) and publish only if the user asked.
 
+Town Hall 19 shipped this way on Nov 17, 2026, with `TBA` left where the wiki had no values yet (heroes Minion Prince 96+, Grand Warden 86+, Royal Champion 56+, Dragon Duke 26+, the new Dark troop and Super Troop levels, Flame Flinger 6, Haste 8, Bat 9, X-Bow 14, Air Bomb 14, Skeleton Trap 6, the new collector/drill levels, Wall 20 and squad upgrade costs). `scripts/check-wiki.py` reports each one as the wiki fills it in. While any TBA remains, keep `UPDATE_NOTE` in `app.js`; set it to `""` afterwards.
+
 ## 7. Verify
 
 After any data edit:

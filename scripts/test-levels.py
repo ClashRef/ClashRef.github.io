@@ -32,7 +32,7 @@ class LevelsTest(unittest.TestCase):
     for row in item['levels']:
      with self.subTest(category=cat['id'],item=item['name'],table=row['table'],level=row['level']):
       time=row['time']
-      if time is None:self.assertIsNone(row['seconds'])
+      if time is None or str(time).strip()=='TBA':self.assertIsNone(row['seconds'])
       elif time.strip().lower() in ('','n/a','none','instant','-','free'):self.assertEqual(row['seconds'],0)
       else:
        self.assertRegex(time,r'^(?:\d+\s*[dhms]\s*)+$')
@@ -63,7 +63,7 @@ class LevelsTest(unittest.TestCase):
   with self.assertRaises(ValueError):builder.seconds('2 weeks')
   x=builder.build('test');cats={c['id']:c for c in x['categories']}
   item=lambda c,n:next(u for u in cats[c]['items'] if u['name']==n)
-  self.assertEqual(item('elixir','Barbarian')['levels'][-1]['th'],18)
+  self.assertEqual(item('elixir','Barbarian')['levels'][-1]['th'],19)
   self.assertEqual(item('heroes','Barbarian King')['levels'][1]['hh'],1)
   self.assertEqual(item('walls','Wall')['levels'][3]['resource'],'Gold')
   self.assertEqual(item('walls','Wall')['levels'][4]['payment'],'any')

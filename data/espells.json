@@ -2,7 +2,7 @@
   "id": "espells",
   "label": "Elixir Spells",
   "format": "wiki-review-v1",
-  "updated": "2026-11-03",
+  "updated": "2026-11-03; Town Hall 19 update read Nov 17, 2026",
   "units": [
     {
       "n": "Lightning Spell",
@@ -103,8 +103,8 @@
             [
               "10",
               "600",
-              "10,000,000",
-              "6d",
+              "9,000,000",
+              "5d 12h",
               "13"
             ],
             [
@@ -117,16 +117,23 @@
             [
               "12",
               "680",
-              "18,500,000",
-              "10d",
+              "17,000,000",
+              "9d 6h",
               "15"
             ],
             [
               "13",
               "720",
-              "27,000,000",
-              "14d",
+              "20,000,000",
+              "11d",
               "16"
+            ],
+            [
+              "14",
+              "760",
+              "31,000,000",
+              "15d",
+              "17-"
             ]
           ]
         }
@@ -155,7 +162,8 @@
         "10": 15,
         "11": 16,
         "12": 17,
-        "13": 18
+        "13": 18,
+        "14": 19
       },
       "iconVerification": {
         "file": "File:Lightning Spell info.png",
@@ -281,8 +289,8 @@
               "2,255",
               "55",
               "1,240.25",
-              "11,000,000",
-              "6d 12h",
+              "10,500,000",
+              "5d 18h",
               "13"
             ],
             [
@@ -299,8 +307,8 @@
               "2,747",
               "67",
               "1,510.85",
-              "19,000,000",
-              "10d 12h",
+              "16,000,000",
+              "8d 18h",
               "15"
             ],
             [
@@ -308,9 +316,18 @@
               "3,075",
               "75",
               "1,691.25",
-              "29,000,000",
-              "15d",
+              "19,500,000",
+              "10d 12h",
               "16"
+            ],
+            [
+              "13",
+              "3,485",
+              "85",
+              "1,916",
+              "29,500,000",
+              "14d 12h",
+              "17"
             ]
           ]
         }
@@ -338,7 +355,8 @@
         "9": 15,
         "10": 16,
         "11": 17,
-        "12": 18
+        "12": 18,
+        "13": 19
       },
       "iconVerification": {
         "file": "File:Healing Spell info.png",
@@ -440,8 +458,8 @@
               "7",
               "190%",
               "32",
-              "26,000,000",
-              "14d",
+              "24,000,000",
+              "12d 18h",
               "16"
             ]
           ]
@@ -541,8 +559,8 @@
             [
               "5",
               "100 seconds",
-              "8,000,000",
-              "5d",
+              "7,500,000",
+              "4d 12h",
               "13"
             ]
           ]
@@ -659,8 +677,8 @@
             [
               "8",
               "6.0 seconds",
-              "28,000,000",
-              "15d 12h",
+              "21,500,000",
+              "11d 18h",
               "16"
             ]
           ]
@@ -777,8 +795,8 @@
             [
               "7",
               "38",
-              "8,000,000",
-              "5d",
+              "7,000,000",
+              "4d 12h",
               "12"
             ],
             [
@@ -791,8 +809,8 @@
             [
               "9",
               "48",
-              "26,000,000",
-              "13d 12h",
+              "21,000,000",
+              "11d 6h",
               "16"
             ]
           ]
@@ -970,35 +988,35 @@
               "3",
               "95",
               "8,000,000",
-              "7d 12h",
+              "7d 6h",
               "12"
             ],
             [
               "4",
               "101",
               "9,000,000",
-              "8d",
+              "7d 12h",
               "13"
             ],
             [
               "5",
               "107",
               "13,000,000",
-              "9d",
+              "8d",
               "14"
             ],
             [
               "6",
               "113",
-              "19,000,000",
-              "11d",
+              "17,000,000",
+              "9d 6h",
               "15"
             ],
             [
               "7",
               "120",
-              "29,000,000",
-              "16d",
+              "19,500,000",
+              "11d",
               "16"
             ]
           ]
@@ -1088,22 +1106,22 @@
             [
               "3",
               "70%",
-              "19,000,000",
-              "8d",
+              "18,500,000",
+              "7d 12h",
               "14"
             ],
             [
               "4",
               "75%",
-              "20,000,000",
-              "11d 12h",
+              "19,000,000",
+              "10d 12h",
               "15"
             ],
             [
               "5",
               "80%",
-              "29,500,000",
-              "16d",
+              "24,000,000",
+              "12d 18h",
               "16"
             ]
           ]
@@ -1186,23 +1204,30 @@
             [
               "2",
               "11,000",
-              "21,000,000",
-              "12d",
+              "18,500,000",
+              "9d 12h",
               "14"
             ],
             [
               "3",
               "12,000",
-              "22,000,000",
-              "14d",
+              "19,000,000",
+              "12d",
               "15"
             ],
             [
               "4",
               "13,000",
-              "23,000,000",
-              "16d",
+              "22,000,000",
+              "12d 6h",
               "16"
+            ],
+            [
+              "5",
+              "14,000",
+              "31,000,000",
+              "15d",
+              "17"
             ]
           ]
         }
@@ -1222,7 +1247,8 @@
         "1": 16,
         "2": 16,
         "3": 17,
-        "4": 18
+        "4": 18,
+        "5": 19
       },
       "iconVerification": {
         "file": "File:Totem Spell info.png",
@@ -1233,9 +1259,109 @@
         "referrer": "none",
         "source": "https://clashofclans.fandom.com/wiki/Totem_Spell"
       }
+    },
+    {
+      "n": "Heroic Spell",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/9/90/Heroic_Spell_info.png/revision/latest?cb=20261114135101",
+      "source": "https://clashofclans.fandom.com/wiki/Heroic_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Radius",
+            "Effect Type",
+            "Targets",
+            "Housing Space",
+            "Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "5 tiles",
+              "Area Splash",
+              "Ground & Air",
+              "2",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Level",
+            "Duration",
+            "Speed Increase",
+            "Incoming Damage Reduction",
+            "Research Cost (Elixir)",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "9.75s",
+              "5",
+              "34%",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "10.75s",
+              "6",
+              "36%",
+              "21,000,000",
+              "13d",
+              "15"
+            ],
+            [
+              "3",
+              "11.75s",
+              "7",
+              "38%",
+              "25,500,000",
+              "14d",
+              "16"
+            ],
+            [
+              "4",
+              "12.75s",
+              "8",
+              "40%",
+              "32,000,000",
+              "15d 12h",
+              "17"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Heroic Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/90/Heroic_Spell_info.png/revision/latest?cb=20261114135101"
+        }
+      ],
+      "unverified": [],
+      "hallByLevel": {
+        "1": 17,
+        "2": 17,
+        "3": 18,
+        "4": 19
+      },
+      "levelImages": {},
+      "iconVerification": {
+        "file": "File:Heroic Spell info.png",
+        "width": 668,
+        "height": 700,
+        "checked": "2026-11-17",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Heroic_Spell"
+      }
     }
   ],
   "unverified": [],
-  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+  "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 17, 2026, with gaps filled from Supercell's release notes. The wiki is still being updated, so some values may change. TBA = not on the wiki yet. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }

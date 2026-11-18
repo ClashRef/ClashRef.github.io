@@ -34,13 +34,13 @@ LEGEND = {
 def number(value):
  s = str(value).replace(',', '').strip().rstrip('*')
  if s in ('', 'N/A', '-', 'None', 'Free', 'Instant'): return 0
- if s in ('Varies', 'Unknown', '??'): return None
+ if s in ('Varies', 'Unknown', '??', 'TBA'): return None
  if not re.fullmatch(r'\d+', s): raise ValueError(f'Unsupported numeric value: {value!r}')
  return int(s)
 
 
 def seconds(value):
- if value is None: return None
+ if value is None or str(value).strip() == 'TBA': return None
  if value.strip().lower() in ('', 'n/a', '-', 'none', 'instant', 'free'): return 0
  parts = re.findall(r'(\d+)\s*([dhms])', value)
  if not parts or re.sub(r'\d+\s*[dhms]|\s+', '', value): raise ValueError(f'Unsupported duration: {value!r}')
@@ -88,7 +88,7 @@ def build(generated=None):
    if 'l' in u:
     for ri,r in enumerate(u['l']):
      offset=1+len(u['c']); lv,cost,time,req=r[0],r[offset],r[offset+1],r[offset+2]
-     entry={'level':lv,'cost':cost,'resource':u.get('res','Elixir'),'time':time,'seconds':seconds(time),'table':-1,'row':ri,'levelKind':'Level'}
+     entry={'level':lv,'cost':None if cost=='TBA' else cost,'resource':u.get('res','Elixir'),'time':time,'seconds':seconds(time),'table':-1,'row':ri,'levelKind':'Level'}
      if cid=='heroes':entry.update(hh=req,th=r[offset+3])
      else:entry.update(lab=req,th=max(u['u'],lab_halls.get(req,0)))
      item['levels'].append(entry)
