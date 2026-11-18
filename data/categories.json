@@ -60,7 +60,8 @@
     {
      "id": "squads",
      "label": "Squads",
-     "img": "https://static.wikia.nocookie.net/clashofclans/images/6/66/Avatar_Barch_Squad.png/revision/latest?cb=20261115142955"
+     "img": "https://static.wikia.nocookie.net/clashofclans/images/6/66/Avatar_Barch_Squad.png/revision/latest?cb=20261115142955",
+     "data": "data/squads.json"
     }
    ]
   },
