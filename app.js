@@ -196,7 +196,7 @@ function route() {
 // ---- views ----
 function footer() {
   return `
-  <footer class="src">Sources: stats, costs, times and images from the <a href="https://clashofclans.fandom.com/wiki/Clash_of_Clans_Wiki" target="_blank" rel="noopener">Clash of Clans Fandom wiki</a> (read Nov 17, 2026), including the Town Hall 19 update, the 2025\u20132026 cost and time cuts and the Oct 20, 2026 balance changes; checked against <a href="https://supercell.com/en/games/clashofclans/blog/" target="_blank" rel="noopener">Supercell's patch notes</a> through Nov 16, 2026. TBA = not on the wiki yet. Unofficial fan reference, not affiliated with Supercell.</footer>`;
+  <footer class="src">Sources: stats, costs, times and images from the <a href="https://clashofclans.fandom.com/wiki/Clash_of_Clans_Wiki" target="_blank" rel="noopener">Clash of Clans Fandom wiki</a> (read Nov 20, 2026), including the Town Hall 19 update, the 2025\u20132026 cost and time cuts and the Oct 20, 2026 balance changes; checked against <a href="https://supercell.com/en/games/clashofclans/blog/" target="_blank" rel="noopener">Supercell's patch notes</a> through Nov 16, 2026. TBA = not on the wiki yet. Unofficial fan reference, not affiliated with Supercell.</footer>`;
 }
 function home() {
   setChrome("Clash Reference", false, false);

@@ -2,7 +2,7 @@
   "id": "resource",
   "label": "Resource Buildings",
   "format": "wiki-review-v1",
-  "updated": "2026-11-03; Town Hall 19 update read Nov 17, 2026",
+  "updated": "2026-11-03; Town Hall 19 update read Nov 20, 2026",
   "units": [
     {
       "n": "Gold Mine",
@@ -241,7 +241,7 @@
               "1,400",
               "11",
               "2d 7h 33m 20s",
-              "8,000,000",
+              "4,200,000",
               "2d",
               "415",
               "25d",
@@ -249,15 +249,15 @@
             ],
             [
               "18",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
+              "455,000",
+              "8,190/hr",
+              "1,450",
+              "11",
+              "2d 7h 33m 20s",
+              "8,500,000",
+              "3d",
+              "509",
+              "36d",
               "18"
             ]
           ]
@@ -678,7 +678,7 @@
               "1,400",
               "11",
               "2d 7h 33m 20s",
-              "8,000,000",
+              "4,200,000",
               "2d",
               "415",
               "25d",
@@ -686,15 +686,15 @@
             ],
             [
               "18",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
+              "455,000",
+              "8,190/hr",
+              "1,450",
+              "11",
+              "2d 7h 33m 20s",
+              "8,500,000",
+              "3d",
+              "509",
+              "36d",
               "18"
             ]
           ]
@@ -1011,10 +1011,10 @@
               "1,480",
               "45",
               "22h 30m",
-              "3,700,000",
-              "2d 12h",
-              "464",
-              "17d 12h",
+              "3,000,000",
+              "2d 6h",
+              "440",
+              "15d 18h",
               "12"
             ],
             [
@@ -1024,10 +1024,10 @@
               "1,550",
               "50",
               "23h 20m",
-              "5,300,000",
-              "3d",
-              "509",
-              "24d",
+              "4,400,000",
+              "2d 12h",
+              "464",
+              "20d",
               "14"
             ],
             [
@@ -1037,23 +1037,23 @@
               "1,600",
               "55",
               "23h",
-              "12,000,000",
-              "6d",
-              "720",
-              "54d",
+              "8,000,000",
+              "5d",
+              "657",
+              "45d",
               "16"
             ],
             [
               "12",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
+              "5,060",
+              "220/hr",
+              "1,650",
+              "60",
+              "23h",
+              "12,500,000",
+              "6d 12h",
+              "749",
+              "65d",
               "18"
             ]
           ]
@@ -2595,6 +2595,6 @@
     }
   ],
   "unverified": [],
-  "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 17, 2026, with gaps filled from Supercell's release notes. The wiki is still being updated, so some values may change. TBA = not on the wiki yet. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+  "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 20, 2026. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }

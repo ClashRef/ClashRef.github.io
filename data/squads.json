@@ -2,16 +2,14 @@
  "id": "squads",
  "label": "Squads",
  "format": "wiki-review-v1",
- "updated": "Nov 17, 2026; Town Hall 19 update read Nov 17, 2026",
+ "updated": "Nov 20, 2026",
  "units": [
   {
    "n": "Barch Squad",
    "av": "https://static.wikia.nocookie.net/clashofclans/images/6/66/Avatar_Barch_Squad.png/revision/latest?cb=20261115142955",
-   "source": null,
-   "revision": null,
+   "source": "https://clashofclans.fandom.com/wiki/Barch_Squad",
+   "revision": 626640,
    "unverified": [],
-   "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Supercell's release notes (The Clash of Titans update, Nov 16, 2026).",
    "unlockHall": 8,
    "staticImage": {
     "file": "File:Avatar Barch Squad.png",
@@ -42,7 +40,7 @@
       "Town Hall Level Required",
       "Housing Space",
       "Ability",
-      "Research Cost",
+      "Research Cost (Elixir)",
       "Research Time"
      ],
      "rows": [
@@ -59,16 +57,16 @@
        "19",
        "15",
        "At most 6 troops hit per splash",
-       "32,000,000",
-       "15d 12h"
+       "23,500,000",
+       "11d"
       ],
       [
        "3",
        "19",
        "15",
        "At most 5 troops hit per splash",
-       "TBA",
-       "TBA"
+       "32,500,000",
+       "15d 12h"
       ]
      ],
      "wrap": true
@@ -80,16 +78,19 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/6/66/Avatar_Barch_Squad.png/revision/latest?cb=20261115142955"
     }
    ],
-   "note": "Unlocked by Squad Barracks level 1 (TH 8). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Splash Resistance ability, and to level 3."
+   "note": "Unlocked by Squad Barracks level 1 (TH 8). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Splash Resistance ability, and to level 3.",
+   "hallByLevel": {
+    "1": 8,
+    "2": 19,
+    "3": 19
+   }
   },
   {
    "n": "Giant Wizard Squad",
    "av": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Avatar_Giant_Wizard_Squad.png/revision/latest?cb=20261115142957",
-   "source": null,
-   "revision": null,
+   "source": "https://clashofclans.fandom.com/wiki/Giant_Wizard_Squad",
+   "revision": 626444,
    "unverified": [],
-   "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Supercell's release notes (The Clash of Titans update, Nov 16, 2026).",
    "unlockHall": 9,
    "staticImage": {
     "file": "File:Avatar Giant Wizard Squad.png",
@@ -120,7 +121,7 @@
       "Town Hall Level Required",
       "Housing Space",
       "Ability",
-      "Research Cost",
+      "Research Cost (Elixir)",
       "Research Time"
      ],
      "rows": [
@@ -137,16 +138,16 @@
        "19",
        "25",
        "At most 5 troops hit per splash",
-       "TBA",
-       "TBA"
+       "25,000,000",
+       "12d"
       ],
       [
        "3",
        "19",
        "25",
        "At most 4 troops hit per splash",
-       "TBA",
-       "TBA"
+       "32,500,000",
+       "16d"
       ]
      ],
      "wrap": true
@@ -158,16 +159,19 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Avatar_Giant_Wizard_Squad.png/revision/latest?cb=20261115142957"
     }
    ],
-   "note": "Unlocked by Squad Barracks level 2 (TH 9). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Splash Resistance ability, and to level 3."
+   "note": "Unlocked by Squad Barracks level 2 (TH 9). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Splash Resistance ability, and to level 3.",
+   "hallByLevel": {
+    "1": 9,
+    "2": 19,
+    "3": 19
+   }
   },
   {
    "n": "Wall Breaker Squad",
    "av": "https://static.wikia.nocookie.net/clashofclans/images/7/75/Avatar_Wall_Breaker_Squad.png/revision/latest?cb=20261115143004",
-   "source": null,
-   "revision": null,
+   "source": "https://clashofclans.fandom.com/wiki/Wall_Breaker_Squad",
+   "revision": 626445,
    "unverified": [],
-   "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Supercell's release notes (The Clash of Titans update, Nov 16, 2026).",
    "unlockHall": 10,
    "staticImage": {
     "file": "File:Avatar Wall Breaker Squad.png",
@@ -198,7 +202,7 @@
       "Town Hall Level Required",
       "Housing Space",
       "Ability",
-      "Research Cost",
+      "Research Cost (Elixir)",
       "Research Time"
      ],
      "rows": [
@@ -215,16 +219,16 @@
        "19",
        "8",
        "Invisible for 3s after deploying",
-       "TBA",
-       "TBA"
+       "23,000,000",
+       "10d 12h"
       ],
       [
        "3",
        "19",
        "8",
        "Invisible for 4s after deploying",
-       "TBA",
-       "TBA"
+       "30,500,000",
+       "14d"
       ]
      ],
      "wrap": true
@@ -236,16 +240,19 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/7/75/Avatar_Wall_Breaker_Squad.png/revision/latest?cb=20261115143004"
     }
    ],
-   "note": "Unlocked by Squad Barracks level 3 (TH 10). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Stealthy Start ability, and to level 3."
+   "note": "Unlocked by Squad Barracks level 3 (TH 10). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Stealthy Start ability, and to level 3.",
+   "hallByLevel": {
+    "1": 10,
+    "2": 19,
+    "3": 19
+   }
   },
   {
    "n": "Minion Squad",
    "av": "https://static.wikia.nocookie.net/clashofclans/images/9/95/Avatar_Minion_Squad.png/revision/latest?cb=20261115143002",
-   "source": null,
-   "revision": null,
+   "source": "https://clashofclans.fandom.com/wiki/Minion_Squad",
+   "revision": 626377,
    "unverified": [],
-   "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Supercell's release notes (The Clash of Titans update, Nov 16, 2026).",
    "unlockHall": 11,
    "staticImage": {
     "file": "File:Avatar Minion Squad.png",
@@ -276,7 +283,7 @@
       "Town Hall Level Required",
       "Housing Space",
       "Ability",
-      "Research Cost",
+      "Research Cost (Dark Elixir)",
       "Research Time"
      ],
      "rows": [
@@ -293,16 +300,16 @@
        "19",
        "12",
        "At most 3 troops hit per splash",
-       "TBA",
-       "TBA"
+       "370,000",
+       "11d 12h"
       ],
       [
        "3",
        "19",
        "12",
        "At most 2 troops hit per splash",
-       "TBA",
-       "TBA"
+       "465,000",
+       "14d"
       ]
      ],
      "wrap": true
@@ -314,16 +321,19 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/95/Avatar_Minion_Squad.png/revision/latest?cb=20261115143002"
     }
    ],
-   "note": "Unlocked by Squad Barracks level 4 (TH 11). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Splash Resistance ability, and to level 3."
+   "note": "Unlocked by Squad Barracks level 4 (TH 11). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Splash Resistance ability, and to level 3.",
+   "hallByLevel": {
+    "1": 11,
+    "2": 19,
+    "3": 19
+   }
   },
   {
    "n": "Balloon Squad",
    "av": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Avatar_Balloon_Squad.png/revision/latest?cb=20261115142953",
-   "source": null,
-   "revision": null,
+   "source": "https://clashofclans.fandom.com/wiki/Balloon_Squad",
+   "revision": 626579,
    "unverified": [],
-   "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Supercell's release notes (The Clash of Titans update, Nov 16, 2026).",
    "unlockHall": 12,
    "staticImage": {
     "file": "File:Avatar Balloon Squad.png",
@@ -354,7 +364,7 @@
       "Town Hall Level Required",
       "Housing Space",
       "Ability",
-      "Research Cost",
+      "Research Cost (Elixir)",
       "Research Time"
      ],
      "rows": [
@@ -371,16 +381,16 @@
        "19",
        "16",
        "15% less damage from traps",
-       "TBA",
-       "TBA"
+       "28,500,000",
+       "13d 12h"
       ],
       [
        "3",
        "19",
        "16",
        "20% less damage from traps",
-       "TBA",
-       "TBA"
+       "32,000,000",
+       "15d 12h"
       ]
      ],
      "wrap": true
@@ -392,16 +402,19 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Avatar_Balloon_Squad.png/revision/latest?cb=20261115142953"
     }
    ],
-   "note": "Unlocked by Squad Barracks level 5 (TH 12). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Trap Sense ability, and to level 3."
+   "note": "Unlocked by Squad Barracks level 5 (TH 12). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Trap Sense ability, and to level 3.",
+   "hallByLevel": {
+    "1": 12,
+    "2": 19,
+    "3": 19
+   }
   },
   {
    "n": "Golem Witch Squad",
    "av": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Avatar_Golem_Witch_Squad.png/revision/latest?cb=20261117032238",
-   "source": null,
-   "revision": null,
+   "source": "https://clashofclans.fandom.com/wiki/Golem_Witch_Squad",
+   "revision": 626455,
    "unverified": [],
-   "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Supercell's release notes (The Clash of Titans update, Nov 16, 2026).",
    "unlockHall": 13,
    "staticImage": {
     "file": "File:Avatar Golem Witch Squad.png",
@@ -432,7 +445,7 @@
       "Town Hall Level Required",
       "Housing Space",
       "Ability",
-      "Research Cost",
+      "Research Cost (Dark Elixir)",
       "Research Time"
      ],
      "rows": [
@@ -449,16 +462,16 @@
        "19",
        "55",
        "At most 3 Witches hit per splash",
-       "TBA",
-       "TBA"
+       "420,000",
+       "13d"
       ],
       [
        "3",
        "19",
        "55",
        "At most 2 Witches hit per splash",
-       "TBA",
-       "TBA"
+       "500,000",
+       "16d"
       ]
      ],
      "wrap": true
@@ -470,16 +483,19 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Avatar_Golem_Witch_Squad.png/revision/latest?cb=20261117032238"
     }
    ],
-   "note": "Unlocked by Squad Barracks level 6 (TH 13). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Splash Resistance ability, and to level 3."
+   "note": "Unlocked by Squad Barracks level 6 (TH 13). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Splash Resistance ability, and to level 3.",
+   "hallByLevel": {
+    "1": 13,
+    "2": 19,
+    "3": 19
+   }
   },
   {
    "n": "Hog Rider Squad",
    "av": "https://static.wikia.nocookie.net/clashofclans/images/1/1b/Avatar_Hog_Rider_Squad.png/revision/latest?cb=20261115143000",
-   "source": null,
-   "revision": null,
+   "source": "https://clashofclans.fandom.com/wiki/Hog_Rider_Squad",
+   "revision": 626447,
    "unverified": [],
-   "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Supercell's release notes (The Clash of Titans update, Nov 16, 2026).",
    "unlockHall": 14,
    "staticImage": {
     "file": "File:Avatar Hog Rider Squad.png",
@@ -510,7 +526,7 @@
       "Town Hall Level Required",
       "Housing Space",
       "Ability",
-      "Research Cost",
+      "Research Cost (Dark Elixir)",
       "Research Time"
      ],
      "rows": [
@@ -527,16 +543,16 @@
        "19",
        "48",
        "30% less damage from traps",
-       "TBA",
-       "TBA"
+       "415,000",
+       "12d 12h"
       ],
       [
        "3",
        "19",
        "48",
        "40% less damage from traps",
-       "TBA",
-       "TBA"
+       "480,000",
+       "15d"
       ]
      ],
      "wrap": true
@@ -548,16 +564,19 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1b/Avatar_Hog_Rider_Squad.png/revision/latest?cb=20261115143000"
     }
    ],
-   "note": "Unlocked by Squad Barracks level 7 (TH 14). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Trap Sense ability, and to level 3."
+   "note": "Unlocked by Squad Barracks level 7 (TH 14). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Trap Sense ability, and to level 3.",
+   "hallByLevel": {
+    "1": 14,
+    "2": 19,
+    "3": 19
+   }
   },
   {
    "n": "Miner Squad",
    "av": "https://static.wikia.nocookie.net/clashofclans/images/8/82/Avatar_Miner_Squad.png/revision/latest?cb=20261115143001",
-   "source": null,
-   "revision": null,
+   "source": "https://clashofclans.fandom.com/wiki/Miner_Squad",
+   "revision": 626448,
    "unverified": [],
-   "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Supercell's release notes (The Clash of Titans update, Nov 16, 2026).",
    "unlockHall": 15,
    "staticImage": {
     "file": "File:Avatar Miner Squad.png",
@@ -588,7 +607,7 @@
       "Town Hall Level Required",
       "Housing Space",
       "Ability",
-      "Research Cost",
+      "Research Cost (Elixir)",
       "Research Time"
      ],
      "rows": [
@@ -605,16 +624,16 @@
        "19",
        "48",
        "30% less damage from traps",
-       "TBA",
-       "TBA"
+       "21,000,000",
+       "10d"
       ],
       [
        "3",
        "19",
        "48",
        "40% less damage from traps",
-       "TBA",
-       "TBA"
+       "30,500,000",
+       "13d 12h"
       ]
      ],
      "wrap": true
@@ -626,16 +645,19 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/8/82/Avatar_Miner_Squad.png/revision/latest?cb=20261115143001"
     }
    ],
-   "note": "Unlocked by Squad Barracks level 8 (TH 15). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Trap Sense ability, and to level 3."
+   "note": "Unlocked by Squad Barracks level 8 (TH 15). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Trap Sense ability, and to level 3.",
+   "hallByLevel": {
+    "1": 15,
+    "2": 19,
+    "3": 19
+   }
   },
   {
    "n": "Healer Squad",
    "av": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Avatar_Healer_Squad.png/revision/latest?cb=20261117032326",
-   "source": null,
-   "revision": null,
+   "source": "https://clashofclans.fandom.com/wiki/Healer_Squad",
+   "revision": 626449,
    "unverified": [],
-   "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Supercell's release notes (The Clash of Titans update, Nov 16, 2026).",
    "unlockHall": 16,
    "staticImage": {
     "file": "File:Avatar Healer Squad.png",
@@ -666,7 +688,7 @@
       "Town Hall Level Required",
       "Housing Space",
       "Ability",
-      "Research Cost",
+      "Research Cost (Elixir)",
       "Research Time"
      ],
      "rows": [
@@ -683,16 +705,16 @@
        "19",
        "70",
        "Immune for 2s after deploying",
-       "TBA",
-       "TBA"
+       "29,000,000",
+       "13d 18h"
       ],
       [
        "3",
        "19",
        "70",
        "Immune for 3s after deploying",
-       "TBA",
-       "TBA"
+       "32,000,000",
+       "15d 18h"
       ]
      ],
      "wrap": true
@@ -704,16 +726,19 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Avatar_Healer_Squad.png/revision/latest?cb=20261117032326"
     }
    ],
-   "note": "Unlocked by Squad Barracks level 9 (TH 16). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Shielded Start ability, and to level 3."
+   "note": "Unlocked by Squad Barracks level 9 (TH 16). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Shielded Start ability, and to level 3.",
+   "hallByLevel": {
+    "1": 16,
+    "2": 19,
+    "3": 19
+   }
   },
   {
    "n": "P.E.K.K.A Titan Squad",
    "av": "https://static.wikia.nocookie.net/clashofclans/images/a/a3/Avatar_P.E.K.K.A_Titan_Squad.png/revision/latest?cb=20261115143003",
-   "source": null,
-   "revision": null,
+   "source": "https://clashofclans.fandom.com/wiki/P.E.K.K.A_Titan_Squad",
+   "revision": 626440,
    "unverified": [],
-   "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Supercell's release notes (The Clash of Titans update, Nov 16, 2026).",
    "unlockHall": 17,
    "staticImage": {
     "file": "File:Avatar P.E.K.K.A Titan Squad.png",
@@ -744,7 +769,7 @@
       "Town Hall Level Required",
       "Housing Space",
       "Ability",
-      "Research Cost",
+      "Research Cost (Elixir)",
       "Research Time"
      ],
      "rows": [
@@ -761,16 +786,16 @@
        "19",
        "46",
        "Both troops attack the same target",
-       "TBA",
-       "TBA"
+       "28,000,000",
+       "13d 6h"
       ],
       [
        "3",
        "19",
        "44",
        "Same as level 2",
-       "TBA",
-       "TBA"
+       "32,000,000",
+       "15d 6h"
       ]
      ],
      "wrap": true
@@ -782,16 +807,19 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a3/Avatar_P.E.K.K.A_Titan_Squad.png/revision/latest?cb=20261115143003"
     }
    ],
-   "note": "Unlocked by Squad Barracks level 10 (TH 17). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Focus Attack ability, and to level 3."
+   "note": "Unlocked by Squad Barracks level 10 (TH 17). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Focus Attack ability, and to level 3.",
+   "hallByLevel": {
+    "1": 17,
+    "2": 19,
+    "3": 19
+   }
   },
   {
    "n": "Dragons Squad",
    "av": "https://static.wikia.nocookie.net/clashofclans/images/7/7f/Avatar_Dragons_Squad.png/revision/latest?cb=20261115142956",
-   "source": null,
-   "revision": null,
+   "source": "https://clashofclans.fandom.com/wiki/Dragons_Squad",
+   "revision": 626581,
    "unverified": [],
-   "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Supercell's release notes (The Clash of Titans update, Nov 16, 2026).",
    "unlockHall": 18,
    "staticImage": {
     "file": "File:Avatar Dragons Squad.png",
@@ -822,7 +850,7 @@
       "Town Hall Level Required",
       "Housing Space",
       "Ability",
-      "Research Cost",
+      "Research Cost (Elixir)",
       "Research Time"
      ],
      "rows": [
@@ -839,16 +867,16 @@
        "19",
        "85",
        "Immune for 2s after deploying",
-       "TBA",
-       "TBA"
+       "29,500,000",
+       "14d"
       ],
       [
        "3",
        "19",
        "85",
        "Immune for 3s after deploying",
-       "TBA",
-       "TBA"
+       "32,000,000",
+       "16d"
       ]
      ],
      "wrap": true
@@ -860,16 +888,19 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7f/Avatar_Dragons_Squad.png/revision/latest?cb=20261115142956"
     }
    ],
-   "note": "Unlocked by Squad Barracks level 11 (TH 18). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Shielded Start ability, and to level 3."
+   "note": "Unlocked by Squad Barracks level 11 (TH 18). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Shielded Start ability, and to level 3.",
+   "hallByLevel": {
+    "1": 18,
+    "2": 19,
+    "3": 19
+   }
   },
   {
    "n": "Baby Dragon Squad",
    "av": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Avatar_Baby_Dragon_Squad.png/revision/latest?cb=20261115142952",
-   "source": null,
-   "revision": null,
+   "source": "https://clashofclans.fandom.com/wiki/Baby_Dragon_Squad",
+   "revision": 626442,
    "unverified": [],
-   "placeholderOnly": true,
-   "sourceNote": "Wiki pages: Squads and Squad Barracks. Troop counts, housing space and ability levels: Supercell's release notes (The Clash of Titans update, Nov 16, 2026).",
    "unlockHall": 19,
    "staticImage": {
     "file": "File:Avatar Baby Dragon Squad.png",
@@ -900,7 +931,7 @@
       "Town Hall Level Required",
       "Housing Space",
       "Ability",
-      "Research Cost",
+      "Research Cost (Elixir)",
       "Research Time"
      ],
      "rows": [
@@ -917,16 +948,16 @@
        "19",
        "26",
        "Squad members don't cancel each other's Tantrum",
-       "TBA",
-       "TBA"
+       "27,500,000",
+       "13d"
       ],
       [
        "3",
        "19",
        "24",
        "Same as level 2",
-       "TBA",
-       "TBA"
+       "32,000,000",
+       "15d"
       ]
      ],
      "wrap": true
@@ -938,7 +969,12 @@
      "url": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Avatar_Baby_Dragon_Squad.png/revision/latest?cb=20261115142952"
     }
    ],
-   "note": "Unlocked by Squad Barracks level 12 (TH 19). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Tantrum ability, and to level 3."
+   "note": "Unlocked by Squad Barracks level 12 (TH 19). Its troops use your own Laboratory levels. From TH 19 (Laboratory 17) it can be upgraded to level 2 for its Tantrum ability, and to level 3.",
+   "hallByLevel": {
+    "1": 19,
+    "2": 19,
+    "3": 19
+   }
   },
   {
    "n": "Squad Abilities",
@@ -997,5 +1033,5 @@
   }
  ],
  "unverified": [],
- "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 17, 2026, with gaps filled from Supercell's release notes. The wiki is still being updated, so some values may change. TBA = not on the wiki yet. Squads deploy a fixed group of troops in a set formation, using less housing space than the same troops trained one by one. Squad troops use your own researched troop levels, and squads can't be donated. Each Squad Barracks level (Army Buildings, from TH 8) unlocks one squad; training is free and instant. From Laboratory 17 (TH 19) squads can be upgraded to level 2 and up, which unlocks their squad ability; squads go up to level 3. Troop counts, housing space and ability levels come from Supercell's release notes until the wiki lists them; most upgrade costs aren't on the wiki yet."
+ "note": "Squads deploy a fixed group of troops in a set formation, using less housing space than the same troops trained one by one. Squad troops use your own researched troop levels, and squads can't be donated. Each Squad Barracks level (Army Buildings, from TH 8) unlocks one squad; training is free and instant. From Laboratory 17 (TH 19) squads can be upgraded to level 2 and up, which unlocks their squad ability; squads go up to level 3."
 }

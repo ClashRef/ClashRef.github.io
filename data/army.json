@@ -2,7 +2,7 @@
   "id": "army",
   "label": "Army Buildings",
   "format": "wiki-review-v1",
-  "updated": "2026-11-03; Town Hall 19 update read Nov 17, 2026",
+  "updated": "2026-11-03; Town Hall 19 update read Nov 20, 2026",
   "units": [
     {
       "n": "Army Camp",
@@ -116,36 +116,36 @@
               "11",
               "75",
               "800",
-              "7,500,000",
-              "5d",
-              "657",
+              "7,000,000",
+              "4d 12h",
+              "623",
               "13"
             ],
             [
               "12",
               "80",
               "850",
-              "10,000,000",
-              "6d",
-              "720",
+              "8,500,000",
+              "5d",
+              "657",
               "15"
             ],
             [
               "13",
               "85",
               "900",
-              "17,000,000",
-              "7d 12h",
-              "804",
+              "14,500,000",
+              "7d",
+              "777",
               "17"
             ],
             [
               "14",
               "88",
               "950",
-              "26,000,000",
-              "15d",
-              "1,138",
+              "24,000,000",
+              "13d",
+              "1,059",
               "18"
             ]
           ]
@@ -423,7 +423,7 @@
               "13",
               "Electro Dragon",
               "980",
-              "6,000,000",
+              "5,500,000",
               "5d",
               "657",
               "11"
@@ -477,7 +477,7 @@
               "19",
               "Meteor Golem",
               "1,520",
-              "26,000,000",
+              "18,000,000",
               "10d 12h",
               "952",
               "17"
@@ -757,7 +757,7 @@
               "8",
               "Ice Golem",
               "850",
-              "7,000,000",
+              "6,000,000",
               "6d",
               "720",
               "11"
@@ -793,7 +793,7 @@
               "12",
               "Furnace",
               "1,050",
-              "20,000,000",
+              "14,000,000",
               "9d",
               "881",
               "15"
@@ -802,7 +802,7 @@
               "13",
               "Ruin Witch",
               "1,100",
-              "23,000,000",
+              "15,500,000",
               "10d",
               "929",
               "16"
@@ -2493,9 +2493,9 @@
               "Battle Blimp",
               "2",
               "1,100",
-              "3,700,000",
-              "3d",
-              "509",
+              "3,100,000",
+              "2d 12h",
+              "464",
               "12"
             ],
             [
@@ -2503,9 +2503,9 @@
               "Stone Slammer",
               "3",
               "1,200",
-              "5,000,000",
-              "3d 12h",
-              "549",
+              "3,600,000",
+              "2d 18h",
+              "487",
               "12"
             ],
             [
@@ -2513,9 +2513,9 @@
               "Siege Barracks",
               "3",
               "1,300",
-              "8,700,000",
-              "4d",
-              "587",
+              "6,500,000",
+              "3d",
+              "509",
               "13"
             ],
             [
@@ -2523,9 +2523,9 @@
               "Log Launcher",
               "3",
               "1,400",
-              "9,000,000",
-              "5d",
-              "657",
+              "8,000,000",
+              "4d 12h",
+              "623",
               "13"
             ],
             [
@@ -2533,9 +2533,9 @@
               "Flame Flinger",
               "3",
               "1,500",
-              "10,000,000",
-              "5d 12h",
-              "689",
+              "8,500,000",
+              "4d 18h",
+              "640",
               "14"
             ],
             [
@@ -2543,9 +2543,9 @@
               "Battle Drill",
               "3",
               "1,600",
-              "11,000,000",
-              "6d",
-              "720",
+              "9,500,000",
+              "5d",
+              "657",
               "15"
             ],
             [
@@ -2563,9 +2563,9 @@
               "Sky Wagon",
               "3",
               "1,800",
-              "26,000,000",
-              "13d 12h",
-              "1,080",
+              "18,500,000",
+              "10d 12h",
+              "952",
               "17"
             ]
           ]
@@ -2780,7 +2780,7 @@
               "11",
               "Sneezy",
               "1,350",
-              "16,500,000",
+              "15,000,000",
               "8d",
               "831",
               "17"
@@ -2789,9 +2789,9 @@
               "12",
               "Greedy Raven",
               "1,400",
-              "25,500,000",
-              "13d 12h",
-              "1,080",
+              "23,000,000",
+              "12d 12h",
+              "1,039",
               "18"
             ]
           ]
@@ -3292,7 +3292,7 @@
               "55",
               "3",
               "2",
-              "16",
+              "17",
               "17,500,000",
               "10d",
               "929",
@@ -4306,6 +4306,6 @@
     }
   ],
   "unverified": [],
-  "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 17, 2026, with gaps filled from Supercell's release notes. The wiki is still being updated, so some values may change. TBA = not on the wiki yet. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+  "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 20, 2026. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }

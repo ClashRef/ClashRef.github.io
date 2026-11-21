@@ -225,7 +225,7 @@ function context(search, savedTH = null) {
  assert(html().includes('Maximum usable level by Town Hall'));
  ctx.testUnit=superTroops.units.find(u=>u.n==='Sneaky Goblin');
  vm.runInContext("S.tab='max'; S.cur['super|Sneaky Goblin']='9'; unitView(testCat,testUnit)",ctx);
- assert(html().includes('26,000,000') && html().includes('14d'),'Remaining base Goblin research to level 10');
+ assert(html().includes('15,000,000') && html().includes('8d 12h'),'Remaining base Goblin research to level 10');
  const defenses=JSON.parse(fs.readFileSync(path.join(root,'data/defenses.json')));
  for(const u of defenses.units.filter(u=>u.hallByLevel && !u.groupOf)) {
    assert.deepEqual(Object.keys(u.levelImages),Object.keys(u.hallByLevel),u.n+' exact artwork for every level');
@@ -281,8 +281,8 @@ function context(search, savedTH = null) {
  ctx.testCat=JSON.parse(fs.readFileSync(path.join(root,'data/dark.json')));
  ctx.testUnit=ctx.testCat.units.find(u=>u.n==='Hog Rider');
  vm.runInContext("S.th=18; S.tab='max'; S.cur['dark|Hog Rider']='14'; unitView(testCat,testUnit)",ctx);
- assert(html().includes('340,000'), 'Hog Rider level 15 normal cost');
- assert(html().includes('14d 12h'), 'Hog Rider level 15 normal time');
+ assert(html().includes('285,000'), 'Hog Rider level 15 normal cost');
+ assert(html().includes('10d 12h'), 'Hog Rider level 15 normal time');
  assert.deepEqual(manifest.groups.flatMap(g=>g.cats).filter(c=>c.data).map(c=>c.id).sort(),['army','bbbuildings','bbdefenses','bbheroes','bbtraps','bbtroops','bbwalls','crafted','dark','defenses','dspells','elixir','equip','espells','heroes','pets','resource','siege','squads','super','supercharge','townhall','traps','walls']);
  ctx.testCat=JSON.parse(fs.readFileSync(path.join(root,'data/traps.json')));
  ctx.testUnit=ctx.testCat.units.find(u=>u.n==='Skeleton Trap');

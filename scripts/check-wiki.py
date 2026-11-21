@@ -53,7 +53,7 @@ CLASSIC_COLUMNS = {
 # Tables the site builds itself by combining other wiki pages; they can't be
 # matched to one wiki table, so they're listed as not checked.
 SITE_BUILT_TABLES = {"Unlock requirements", "Summoned skeleton attack modes", "Summoned skeleton stats (both modes)", "Hero Banner availability",
-                     "Giga Weapon by Town Hall", "Bomb Rush by ability level", "Upgrade stats"}
+                     "Giga Weapon by Town Hall", "Bomb Rush by ability level", "Upgrade stats", "Squad"}
 
 
 # ---------- fetching ----------
@@ -144,6 +144,7 @@ def cell(v):
     s = s.replace("\ufffd", "").replace("\u2020", "").replace("\u2021", "").replace("–", "-").replace("—", "-").replace("−", "-").replace("\xa0", " ").replace(" ", "")
     s = re.sub(r"\s+", " ", s).strip()
     s = re.sub(r"(\d)\s+([dhms])\b", r"\1\2", s)
+    s = re.sub(r"^(\d+) \(-\d+\)$", r"\1", s)  # squad housing space with its discount, "46 (-11)"
     if s in ("-", "N/A", "n/a", "None"):
         return ""
     if re.fullmatch(r"-?[\d,]+(\.\d+)?", s):
