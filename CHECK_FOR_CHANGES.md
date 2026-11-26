@@ -256,14 +256,15 @@ Every change is listed in `.wiki-check/update-preview.txt`. Read it before publi
    In `data/supercharge.json`, remove the Supercharges the update retired (the preview marks them `removedAtTH`), and add any new ones the wiki's Supercharge page lists.
 3. Verify (section 7) and publish only if the user asked.
 
-Town Hall 19 shipped this way on Nov 17, 2026, with `TBA` left where the wiki had no values yet (heroes Minion Prince 96+, Grand Warden 86+, Royal Champion 56+, Dragon Duke 26+, the new Dark troop and Super Troop levels, Flame Flinger 6, Haste 8, Bat 9, X-Bow 14, Air Bomb 14, Skeleton Trap 6, the new collector/drill levels, Wall 20 and squad upgrade costs). `scripts/check-wiki.py` reports each one as the wiki fills it in. On Nov 20, 2026 the wiki had filled in the heroes, buildings, traps, squads and most new troop levels. Still TBA then: Minion 15, Witch 9, Lava Hound 9 cost, Ruin Witch 5, seven Super Troop levels that follow those base troops, Haste 8, Bat 9, Flame Flinger 6, Wall 20 and a few Wall Breaker and Yeti stats.
+Town Hall 19 shipped this way on Nov 17, 2026, with `TBA` left where the wiki had no values yet (heroes Minion Prince 96+, Grand Warden 86+, Royal Champion 56+, Dragon Duke 26+, the new Dark troop and Super Troop levels, Flame Flinger 6, Haste 8, Bat 9, X-Bow 14, Air Bomb 14, Skeleton Trap 6, the new collector/drill levels, Wall 20 and squad upgrade costs). `scripts/check-wiki.py` reports each one as the wiki fills it in. On Nov 20, 2026 the wiki had filled in the heroes, buildings, traps, squads and most new troop levels. Still TBA then: Minion 15, Witch 9, Lava Hound 9 cost, Ruin Witch 5, seven Super Troop levels that follow those base troops, Haste 8, Bat 9, Flame Flinger 6, Wall 20 and a few Wall Breaker and Yeti stats. By Nov 25, 2026 the wiki had all of them, and `UPDATE_NOTE` was set to `""`.
 
-Known after the Nov 20 refresh (report as known):
+Known after the Nov 25 refresh (report as known):
 
-- **Valkyrie, Poison Spell, Earthquake Spell:** the wiki pages still show pre-update costs and times; the update's cut values (and Valkyrie 13, Poison 13) are written into the page source inside `<!-- -->` comments and haven't been published. The site uses the commented values.
+- **Super Troop base research:** the Super Troop pages don't list it, so the checker can't compare it. It's copied from each base troop's row; after a base troop's research changes, update the matching Super Troop's table and `baseResearch`.
+- **Town Hall, "Building Maximum Levels", TH 19 Blacksmith:** the wiki says 9, but Blacksmith 10 needs TH 17 on the Blacksmith page, so the site keeps 10. The other Town Hall table differences come from the wiki moving columns around, not from changed numbers.
 - **Supercharges category vs the Supercharge page:** the overview page still lists the old Mortar, Inferno Tower, Firespitter and Revenge Tower charge costs; each building's own page has the cut ones, which the site uses.
 - **Longshot, Logger, Smasher levels 2-5:** the site uses Supercell's release-note costs; the wiki lists different ones.
-- **Revenge Tower level 2 build time (one table):** the wiki shows 14d, longer than before the update; left at 11d. While any TBA remains, keep `UPDATE_NOTE` in `app.js`; set it to `""` afterwards.
+- **Revenge Tower level 2 build time (one table):** the wiki shows 14d, longer than before the update; left at 11d.
 
 ## 7. Verify
 

@@ -2,7 +2,7 @@
   "id": "supercharge",
   "label": "Supercharges",
   "format": "wiki-review-v1",
-  "updated": "2026-11-03; Town Hall 19 update read Nov 20, 2026",
+  "updated": "2026-11-03; Town Hall 19 update read Nov 25, 2026",
   "units": [
     {
       "n": "Mortar",
@@ -212,7 +212,7 @@
               "44.8",
               "448",
               "5,100",
-              "13,000,000",
+              "8,000,000",
               "3d",
               "509",
               "18"
@@ -226,7 +226,7 @@
               "44.8",
               "448",
               "5,300",
-              "8,500,000",
+              "5,000,000",
               "4d 5h",
               "602",
               "18"
@@ -776,6 +776,6 @@
     }
   ],
   "unverified": [],
-  "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 20, 2026. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+  "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 25, 2026. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }

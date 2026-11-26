@@ -42,6 +42,8 @@ NOT_ITEMS = {
     # The site combines these into Town Hall/Giga Weapon.
     "Town Hall/Giga Tesla", "Town Hall/Giga Inferno", "Town Hall/Giga Inferno (TH13)", "Town Hall/Giga Inferno (TH14)",
     "Town Hall/Giga Inferno (TH15)", "Town Hall/Giga Inferno (TH16)",
+    # The site's Squads category (overview page, not an item).
+    "Squads",
 }
 # Elixir Troops and Heroes use short column names. Site key -> possible wiki keys.
 CLASSIC_COLUMNS = {
@@ -158,6 +160,7 @@ def cell(v):
 
 def col_key(label):
     label = re.sub(r"\((?:dark elixir|elixir|gold|gems|shiny ore|glowy ore|starry ore|builder gold|builder elixir)(?: / [^)]*)?\)", "", str(label), flags=re.I)
+    label = re.sub(r"^\s*(.+?)\s*/\s*\1\s*$", r"\1", label)  # "Research Cost (Elixir) / Research Cost"
     k = re.sub(r"[^a-z0-9]", "", label.lower().replace("damage", "dmg"))
     return k.replace("dmgpersecond", "dps").replace("dmgperhit", "dmghit").replace("dmgperattack", "dmghit").replace("hitpoints", "hp").replace("laboratory", "lab")
 
@@ -166,6 +169,9 @@ def keyed(columns):
     seen, out = {}, []
     for c in columns:
         k = col_key(c)
+        if k == "costwallring":
+            k = "cost"  # the wiki's third "Cost" column (Gold, Elixir, Wall Rings)
+            seen.setdefault(k, 0); seen[k] = max(seen[k], 2)
         seen[k] = seen.get(k, 0) + 1
         out.append(k if seen[k] == 1 else f"{k}#{seen[k]}")
     return out

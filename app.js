@@ -7,8 +7,8 @@ const app = $("#app"), titleEl = $("#title"), backBtn = $("#back"), tabsEl = $("
 const preview = new URLSearchParams(location.search).get("preview");
 // Highest supported TH; update here when new Town Hall data is added.
 const MAX_TH = 19;
-// Shown while the wiki is still filling in the latest update. Remove once nothing is TBA.
-const UPDATE_NOTE = "Town Hall 19 is here! Values come from the wiki, which is still being updated for the release. Anything not on the wiki yet is marked TBA.";
+// Shown while the wiki is still filling in the latest update (set to a message; "" hides it).
+const UPDATE_NOTE = "";
 const savedTH = Number(localStorage.getItem("cr.th"));
 const hasSavedTH = Number.isInteger(savedTH) && savedTH >= 1 && savedTH <= MAX_TH;
 const S = {
@@ -196,7 +196,7 @@ function route() {
 // ---- views ----
 function footer() {
   return `
-  <footer class="src">Sources: stats, costs, times and images from the <a href="https://clashofclans.fandom.com/wiki/Clash_of_Clans_Wiki" target="_blank" rel="noopener">Clash of Clans Fandom wiki</a> (read Nov 20, 2026), including the Town Hall 19 update, the 2025\u20132026 cost and time cuts and the Oct 20, 2026 balance changes; checked against <a href="https://supercell.com/en/games/clashofclans/blog/" target="_blank" rel="noopener">Supercell's patch notes</a> through Nov 16, 2026. TBA = not on the wiki yet. Unofficial fan reference, not affiliated with Supercell.</footer>`;
+  <footer class="src">Sources: stats, costs, times and images from the <a href="https://clashofclans.fandom.com/wiki/Clash_of_Clans_Wiki" target="_blank" rel="noopener">Clash of Clans Fandom wiki</a> (read Nov 25, 2026), including the Town Hall 19 update, the 2025\u20132026 cost and time cuts and the Oct 20, 2026 balance changes; checked against <a href="https://supercell.com/en/games/clashofclans/blog/" target="_blank" rel="noopener">Supercell's patch notes</a> through Nov 16, 2026. Unofficial fan reference, not affiliated with Supercell.</footer>`;
 }
 function home() {
   setChrome("Clash Reference", false, false);

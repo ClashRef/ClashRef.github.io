@@ -2,7 +2,7 @@
   "id": "dark",
   "label": "Dark Troops",
   "format": "wiki-review-v1",
-  "updated": "2026-11-03; Town Hall 19 update read Nov 20, 2026",
+  "updated": "2026-11-03; Town Hall 19 update read Nov 25, 2026",
   "units": [
     {
       "n": "Minion",
@@ -122,8 +122,8 @@
               "66",
               "66",
               "102",
-              "75,000",
-              "3d",
+              "60,000",
+              "2d 12h",
               "11"
             ],
             [
@@ -131,8 +131,8 @@
               "70",
               "70",
               "108",
-              "100,000",
-              "4d",
+              "80,000",
+              "3d 12h",
               "12"
             ],
             [
@@ -140,8 +140,8 @@
               "74",
               "74",
               "114",
-              "115,000",
-              "4d 12h",
+              "100,000",
+              "4d",
               "13"
             ],
             [
@@ -149,8 +149,8 @@
               "78",
               "78",
               "120",
-              "160,000",
-              "5d",
+              "120,000",
+              "4d 12h",
               "14"
             ],
             [
@@ -158,8 +158,8 @@
               "84",
               "84",
               "130",
-              "220,000",
-              "9d",
+              "150,000",
+              "6d",
               "15"
             ],
             [
@@ -167,17 +167,17 @@
               "92",
               "92",
               "140",
-              "335,000",
-              "14d",
+              "280,000",
+              "8d 12h",
               "16"
             ],
             [
               "15",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
+              "100",
+              "100",
+              "150",
+              "430,000",
+              "12d 12h",
               "17"
             ]
           ]
@@ -1231,8 +1231,8 @@
               "15",
               "1",
               "540",
-              "150,000",
-              "5d 12h",
+              "125,000",
+              "4d 12h",
               "13"
             ],
             [
@@ -1243,8 +1243,8 @@
               "16",
               "1",
               "560",
-              "180,000",
-              "7d 6h",
+              "175,000",
+              "7d",
               "14"
             ],
             [
@@ -1255,20 +1255,20 @@
               "16",
               "2",
               "650",
-              "355,000",
-              "15d 12h",
+              "300,000",
+              "10d",
               "16"
             ],
             [
               "9",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
+              "300",
+              "210",
+              "5",
+              "16",
+              "2",
+              "750",
+              "460,000",
+              "14d 12h",
               "17"
             ]
           ]
@@ -1379,7 +1379,7 @@
             "Lava Pups Spawned (After Death) / On Offense",
             "Lava Pups Spawned (After Death) / On Defense",
             "Hitpoints",
-            "Research Cost (Dark Elixir) / Research Cost",
+            "Research Cost (Dark Elixir)",
             "Research Time",
             "Laboratory Level Required"
           ],
@@ -1440,7 +1440,7 @@
               "16",
               "12",
               "7,600",
-              "60,000",
+              "50,000",
               "3d 12h",
               "10"
             ],
@@ -1464,7 +1464,7 @@
               "20",
               "14",
               "8,500",
-              "200,000",
+              "190,000",
               "7d 12h",
               "14"
             ],
@@ -1476,7 +1476,7 @@
               "22",
               "15",
               "9,500",
-              "345,000",
+              "285,000",
               "10d 12h",
               "16"
             ],
@@ -1488,7 +1488,7 @@
               "24",
               "16",
               "11,000",
-              "TBA",
+              "375,000",
               "11d",
               "17"
             ]
@@ -1830,7 +1830,7 @@
             "Freeze Time After Death / On Offense",
             "Freeze Time After Death / On Defense",
             "Hitpoints",
-            "Research Cost (Dark Elixir) / Research Cost",
+            "Research Cost (Dark Elixir)",
             "Research Time",
             "Laboratory Level Required"
           ],
@@ -1886,7 +1886,7 @@
               "7.0s",
               "3.0s",
               "3,400",
-              "62,500",
+              "55,000",
               "3d 12h",
               "10"
             ],
@@ -1897,7 +1897,7 @@
               "7.5s",
               "3.25s",
               "3,600",
-              "110,000",
+              "100,000",
               "6d",
               "12"
             ],
@@ -1908,7 +1908,7 @@
               "8s",
               "3.5s",
               "3,900",
-              "140,000",
+              "130,000",
               "7d",
               "13"
             ],
@@ -1919,7 +1919,7 @@
               "8.5s",
               "3.5s",
               "4,200",
-              "180,000",
+              "170,000",
               "7d 12h",
               "14"
             ],
@@ -1930,7 +1930,7 @@
               "9s",
               "3.5s",
               "4,350",
-              "280,000",
+              "225,000",
               "8d 12h",
               "15"
             ]
@@ -2599,19 +2599,19 @@
               "3,050",
               "28",
               "56",
-              "380,000",
-              "15d 12h",
+              "355,000",
+              "13d",
               "16"
             ],
             [
               "5",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
+              "5",
+              "10",
+              "3,300",
+              "29",
+              "58",
+              "435,000",
+              "13d 12h",
               "17"
             ]
           ]
@@ -2658,6 +2658,6 @@
     }
   ],
   "unverified": [],
-  "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 20, 2026, with gaps filled from Supercell's release notes. The wiki is still being updated, so some values may change. TBA = not on the wiki yet. Normal stats, costs, and times from the Clash of Clans wiki. Hall caps use Dark Barracks and Laboratory requirements; remaining verification notes are listed per item.",
+  "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 25, 2026. Normal stats, costs, and times from the Clash of Clans wiki. Hall caps use Dark Barracks and Laboratory requirements; remaining verification notes are listed per item.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }

@@ -2,7 +2,7 @@
   "id": "army",
   "label": "Army Buildings",
   "format": "wiki-review-v1",
-  "updated": "2026-11-03; Town Hall 19 update read Nov 20, 2026",
+  "updated": "2026-11-03; Town Hall 19 update read Nov 25, 2026",
   "units": [
     {
       "n": "Army Camp",
@@ -2365,7 +2365,7 @@
               "1,000",
               "18",
               "27",
-              "18,000,000",
+              "17,000,000",
               "10d",
               "929",
               "17"
@@ -2990,7 +2990,7 @@
               "15",
               "10",
               "10",
-              "10",
+              "15",
               "10",
               "10"
             ]
@@ -4306,6 +4306,6 @@
     }
   ],
   "unverified": [],
-  "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 20, 2026. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+  "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 25, 2026. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }

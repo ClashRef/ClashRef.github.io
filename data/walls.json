@@ -2,7 +2,7 @@
   "id": "walls",
   "label": "Walls",
   "format": "wiki-review-v1",
-  "updated": "2026-11-03; Town Hall 19 update read Nov 17, 2026",
+  "updated": "2026-11-03; Town Hall 19 update read Nov 25, 2026",
   "units": [
     {
       "n": "Wall",
@@ -162,7 +162,7 @@
               "13,000",
               "6,000,000",
               "23,491,000",
-              "7",
+              "6",
               "17"
             ],
             [
@@ -170,7 +170,7 @@
               "14,000",
               "8,000,000",
               "31,491,000",
-              "10",
+              "8",
               "18"
             ],
             [
@@ -178,7 +178,7 @@
               "15,000",
               "10,000,000",
               "41,491,000",
-              "TBA",
+              "10",
               "19"
             ]
           ],
@@ -386,6 +386,6 @@
     }
   ],
   "unverified": [],
-  "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 17, 2026, with gaps filled from Supercell's release notes. The wiki is still being updated, so some values may change. TBA = not on the wiki yet. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+  "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 25, 2026. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }

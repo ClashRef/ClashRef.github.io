@@ -2,7 +2,7 @@
   "id": "espells",
   "label": "Elixir Spells",
   "format": "wiki-review-v1",
-  "updated": "2026-11-03; Town Hall 19 update read Nov 17, 2026",
+  "updated": "2026-11-03; Town Hall 19 update read Nov 25, 2026",
   "units": [
     {
       "n": "Lightning Spell",
@@ -133,7 +133,7 @@
               "760",
               "31,000,000",
               "15d",
-              "17-"
+              "17"
             ]
           ]
         }
@@ -324,7 +324,7 @@
               "13",
               "3,485",
               "85",
-              "1,916",
+              "1,916.75",
               "29,500,000",
               "14d 12h",
               "17"
@@ -1362,6 +1362,6 @@
     }
   ],
   "unverified": [],
-  "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 17, 2026. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
+  "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 25, 2026. Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }

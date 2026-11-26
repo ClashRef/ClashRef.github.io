@@ -2,7 +2,7 @@
   "id": "super",
   "label": "Super Troops",
   "format": "wiki-review-v1",
-  "updated": "2026-11-03; Town Hall 19 update read Nov 20, 2026",
+  "updated": "2026-11-03; Town Hall 19 update read Nov 25, 2026",
   "units": [
     {
       "n": "Super Barbarian",
@@ -1410,11 +1410,11 @@
             ],
             [
               "15",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
+              "180",
+              "438",
+              "7,200",
+              "17,520",
+              "600",
               "29,000,000",
               "12d 12h",
               "17",
@@ -2130,10 +2130,10 @@
             ],
             [
               "15",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
+              "365",
+              "730",
+              "292",
+              "980",
               "32,000,000",
               "14d 12h",
               "17",
@@ -3150,11 +3150,11 @@
             ],
             [
               "13",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
+              "285",
+              "545",
+              "785",
+              "2,600",
+              "5,600",
               "28,000,000",
               "11d",
               "17",
@@ -3461,10 +3461,10 @@
             ],
             [
               "9",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
+              "560",
+              "560",
+              "7,600",
+              "14",
               "25,000,000",
               "11d 12h",
               "17",
@@ -3718,8 +3718,8 @@
               "325",
               "325",
               "1,600",
-              "75,000",
-              "3d",
+              "60,000",
+              "2d 12h",
               "11",
               "13"
             ],
@@ -3728,8 +3728,8 @@
               "350",
               "350",
               "1,700",
-              "100,000",
-              "4d",
+              "80,000",
+              "3d 12h",
               "12",
               "14"
             ],
@@ -3738,8 +3738,8 @@
               "360",
               "360",
               "1,800",
-              "115,000",
-              "4d 12h",
+              "100,000",
+              "4d",
               "13",
               "15"
             ],
@@ -3748,8 +3748,8 @@
               "370",
               "370",
               "1,900",
-              "160,000",
-              "5d",
+              "120,000",
+              "4d 12h",
               "14",
               "16"
             ],
@@ -3758,8 +3758,8 @@
               "385",
               "385",
               "2,100",
-              "220,000",
-              "9d",
+              "150,000",
+              "6d",
               "15",
               "17"
             ],
@@ -3768,18 +3768,18 @@
               "400",
               "400",
               "2,300",
-              "335,000",
-              "14d",
+              "280,000",
+              "8d 12h",
               "16",
               "18"
             ],
             [
               "15",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
+              "415",
+              "415",
+              "2,500",
+              "430,000",
+              "12d 12h",
               "17",
               "19"
             ]
@@ -3912,51 +3912,51 @@
         "9": {
           "townHall": 13,
           "laboratory": 11,
-          "cost": 75000,
+          "cost": 60000,
           "resource": "Dark Elixir",
-          "time": "3d"
+          "time": "2d 12h"
         },
         "10": {
           "townHall": 14,
           "laboratory": 12,
-          "cost": 100000,
+          "cost": 80000,
           "resource": "Dark Elixir",
-          "time": "4d"
+          "time": "3d 12h"
         },
         "11": {
           "townHall": 15,
           "laboratory": 13,
-          "cost": 115000,
+          "cost": 100000,
           "resource": "Dark Elixir",
-          "time": "4d 12h"
+          "time": "4d"
         },
         "12": {
           "townHall": 16,
           "laboratory": 14,
-          "cost": 160000,
+          "cost": 120000,
           "resource": "Dark Elixir",
-          "time": "5d"
+          "time": "4d 12h"
         },
         "13": {
           "townHall": 17,
           "laboratory": 15,
-          "cost": 220000,
+          "cost": 150000,
           "resource": "Dark Elixir",
-          "time": "9d"
+          "time": "6d"
         },
         "14": {
           "townHall": 18,
           "laboratory": 16,
-          "cost": 335000,
+          "cost": 280000,
           "resource": "Dark Elixir",
-          "time": "14d"
+          "time": "8d 12h"
         },
         "15": {
           "townHall": 19,
           "laboratory": 17,
-          "cost": null,
+          "cost": 430000,
           "resource": "Dark Elixir",
-          "time": "TBA"
+          "time": "12d 12h"
         }
       },
       "boost": {
@@ -4460,9 +4460,9 @@
             ],
             [
               "13",
-              "TBA",
-              "TBA",
-              "TBA",
+              "435",
+              "478.5",
+              "5,100",
               "370,000",
               "10d 12h",
               "17",
@@ -4717,8 +4717,8 @@
               "390",
               "273",
               "3,400",
-              "150,000",
-              "5d 12h",
+              "125,000",
+              "4d 12h",
               "13",
               "15"
             ],
@@ -4727,8 +4727,8 @@
               "430",
               "301",
               "3,750",
-              "180,000",
-              "7d 6h",
+              "175,000",
+              "7d",
               "14",
               "16"
             ],
@@ -4737,18 +4737,18 @@
               "470",
               "329",
               "4,100",
-              "355,000",
-              "15d 12h",
+              "300,000",
+              "10d",
               "16",
               "18"
             ],
             [
               "9",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
-              "TBA",
+              "510",
+              "357",
+              "4,450",
+              "460,000",
+              "14d 12h",
               "17",
               "19"
             ]
@@ -4852,30 +4852,30 @@
         "6": {
           "townHall": 15,
           "laboratory": 13,
-          "cost": 150000,
+          "cost": 125000,
           "resource": "Dark Elixir",
-          "time": "5d 12h"
+          "time": "4d 12h"
         },
         "7": {
           "townHall": 16,
           "laboratory": 14,
-          "cost": 180000,
+          "cost": 175000,
           "resource": "Dark Elixir",
-          "time": "7d 6h"
+          "time": "7d"
         },
         "8": {
           "townHall": 18,
           "laboratory": 16,
-          "cost": 355000,
+          "cost": 300000,
           "resource": "Dark Elixir",
-          "time": "15d 12h"
+          "time": "10d"
         },
         "9": {
           "townHall": 19,
           "laboratory": 17,
-          "cost": null,
+          "cost": 460000,
           "resource": "Dark Elixir",
-          "time": "TBA"
+          "time": "14d 12h"
         }
       },
       "boost": {
@@ -5003,7 +5003,7 @@
               "10",
               "10",
               "9,500",
-              "60,000",
+              "50,000",
               "3d 12h",
               "10",
               "12"
@@ -5029,7 +5029,7 @@
               "14",
               "12",
               "10,500",
-              "200,000",
+              "190,000",
               "7d 12h",
               "14",
               "16"
@@ -5042,7 +5042,7 @@
               "16",
               "13",
               "11,500",
-              "345,000",
+              "285,000",
               "10d 12h",
               "16",
               "18"
@@ -5055,7 +5055,7 @@
               "18",
               "14",
               "12,500",
-              "TBA",
+              "375,000",
               "11d",
               "17",
               "19"
@@ -5173,7 +5173,7 @@
         "5": {
           "townHall": 12,
           "laboratory": 10,
-          "cost": 60000,
+          "cost": 50000,
           "resource": "Dark Elixir",
           "time": "3d 12h"
         },
@@ -5187,23 +5187,23 @@
         "7": {
           "townHall": 16,
           "laboratory": 14,
-          "cost": 200000,
+          "cost": 190000,
           "resource": "Dark Elixir",
           "time": "7d 12h"
         },
         "8": {
           "townHall": 18,
           "laboratory": 16,
-          "cost": 345000,
+          "cost": 285000,
           "resource": "Dark Elixir",
           "time": "10d 12h"
         },
         "9": {
           "townHall": 19,
           "laboratory": 17,
-          "cost": null,
+          "cost": 375000,
           "resource": "Dark Elixir",
-          "time": "TBA"
+          "time": "11d"
         }
       },
       "boost": {
@@ -5551,7 +5551,7 @@
     }
   ],
   "unverified": [],
-  "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 20, 2026, with gaps filled from Supercell's release notes. The wiki is still being updated, so some values may change. TBA = not on the wiki yet. All 17 normal Super Troop unlocks and hall caps cross-checked against their base troop levels, Laboratory requirements, and the TH11 boosting minimum. Research costs upgrade the base troop. Event-only levels and Clan Castle donations are excluded from normal caps.",
+  "note": "Includes the Town Hall 19 update (Nov 16, 2026), read from the wiki Nov 25, 2026. All 17 normal Super Troop unlocks and hall caps cross-checked against their base troop levels, Laboratory requirements, and the TH11 boosting minimum. Research costs upgrade the base troop. Event-only levels and Clan Castle donations are excluded from normal caps.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
   "verificationSources": [
     "https://clashofclans.fandom.com/wiki/Super_Troops",
